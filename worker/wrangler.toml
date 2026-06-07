@@ -1,0 +1,11 @@
+name = "ielts-study-worker"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+[[kv_namespaces]]
+binding = "IELTS_KV"
+id = "def64ab232324c5798b9555580f3f388"
+
+[vars]
+# カンマ区切りで複数指定可。Pages デプロイ後に https://ielts-study.pages.dev を追加
+ALLOWED_ORIGIN = "http://localhost:5173,https://ielts-study.pages.dev"
