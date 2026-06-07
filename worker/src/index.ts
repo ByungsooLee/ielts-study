@@ -1,3 +1,12 @@
+import {
+  TTS_MONTHLY_FREE_LIMIT,
+  addTtsUsage,
+  buildTtsUsageStatus,
+  countChars,
+  getTtsUsage,
+  ttsUsageHeaders,
+} from "./ttsUsage";
+
 export interface Env {
   IELTS_KV: KVNamespace;
   SYNC_TOKEN: string;
@@ -37,6 +46,8 @@ function corsHeaders(origin: string | null, env: Env): HeadersInit {
     "Access-Control-Allow-Origin": resolveAllowOrigin(origin, env),
     "Access-Control-Allow-Methods": "GET,PUT,POST,OPTIONS",
     "Access-Control-Allow-Headers": "Authorization, Content-Type",
+    "Access-Control-Expose-Headers":
+      "X-TTS-Chars-Used, X-TTS-Monthly-Limit, X-TTS-Warning, X-TTS-Blocked",
   };
 }
 
@@ -76,13 +87,42 @@ async function handleProgress(request: Request, env: Env, origin: string | null)
   return json({ error: "Method not allowed" }, origin, env, 405);
 }
 
+async function handleTtsUsage(env: Env, origin: string | null) {
+  const usage = await getTtsUsage(env.IELTS_KV);
+  return json(buildTtsUsageStatus(usage), origin, env);
+}
+
 async function handleTts(request: Request, env: Env, origin: string | null) {
+  if (!env.GOOGLE_TTS_KEY) {
+    return json(
+      { error: "GOOGLE_TTS_KEY が Worker に設定されていません。wrangler secret put GOOGLE_TTS_KEY を実行してください。" },
+      origin,
+      env,
+      503,
+    );
+  }
+
   const body = (await request.json()) as { text?: string; voice?: string };
   const text = body.text?.trim();
   const voiceKey = body.voice ?? "en-GB";
   const voice = VOICE_MAP[voiceKey] ?? VOICE_MAP["en-GB"];
 
   if (!text) return json({ error: "text is required" }, origin, env, 400);
+
+  const charCount = countChars(text);
+  const currentUsage = await getTtsUsage(env.IELTS_KV);
+  if (currentUsage.charsUsed + charCount > TTS_MONTHLY_FREE_LIMIT) {
+    const status = buildTtsUsageStatus(currentUsage);
+    return json(
+      {
+        error: `今月の TTS 無料枠（${TTS_MONTHLY_FREE_LIMIT.toLocaleString()} 文字）を超えるため生成を停止しました。キャッシュ済みの音声は引き続き再生できます。`,
+        ...status,
+      },
+      origin,
+      env,
+      429,
+    );
+  }
 
   const res = await fetch(
     `https://texttospeech.googleapis.com/v1/text:synthesize?key=${env.GOOGLE_TTS_KEY}`,
@@ -105,11 +145,14 @@ async function handleTts(request: Request, env: Env, origin: string | null) {
   const data = (await res.json()) as { audioContent?: string };
   if (!data.audioContent) return json({ error: "No audio returned" }, origin, env, 502);
 
+  const updatedUsage = await addTtsUsage(env.IELTS_KV, charCount);
+  const status = buildTtsUsageStatus(updatedUsage);
   const binary = Uint8Array.from(atob(data.audioContent), (c) => c.charCodeAt(0));
   return new Response(binary, {
     headers: {
       "Content-Type": "audio/mpeg",
       ...corsHeaders(origin, env),
+      ...ttsUsageHeaders(status),
     },
   });
 }
@@ -192,6 +235,7 @@ export default {
 
     const url = new URL(request.url);
     if (url.pathname === "/progress") return handleProgress(request, env, origin);
+    if (url.pathname === "/tts-usage" && request.method === "GET") return handleTtsUsage(env, origin);
     if (url.pathname === "/tts" && request.method === "POST") return handleTts(request, env, origin);
     if (url.pathname === "/feedback" && request.method === "POST") {
       return handleFeedback(request, env, origin);

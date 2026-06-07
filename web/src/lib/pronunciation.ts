@@ -1,4 +1,6 @@
 import { getAudioCache, getDictCache, setAudioCache, setDictCache } from "../db";
+import { parseTtsUsageHeaders } from "./ttsUsage";
+import { useTtsUsageStore } from "../stores/ttsUsageStore";
 import type { Accent, StudyItem } from "../types";
 
 const DICT_API = "https://api.dictionaryapi.dev/api/v2/entries/en";
@@ -74,7 +76,54 @@ async function fetchTts(
     },
     body: JSON.stringify({ text, voice }),
   });
-  if (!res.ok) throw new Error(`TTS失敗 (${res.status})`);
+  if (!res.ok) {
+    let detail = "";
+    try {
+      const contentType = res.headers.get("content-type") ?? "";
+      if (contentType.includes("json")) {
+        const data = (await res.json()) as {
+          error?: string;
+          detail?: string;
+          charsUsed?: number;
+          monthlyLimit?: number;
+          warning?: boolean;
+          blocked?: boolean;
+          percentUsed?: number;
+          month?: string;
+          warningThreshold?: number;
+        };
+        detail = data.error ?? data.detail ?? "";
+        if (data.monthlyLimit != null && data.charsUsed != null) {
+          useTtsUsageStore.getState().setUsage({
+            month: data.month ?? new Date().toISOString().slice(0, 7),
+            charsUsed: data.charsUsed,
+            monthlyLimit: data.monthlyLimit,
+            warningThreshold: data.warningThreshold ?? Math.floor(data.monthlyLimit * 0.8),
+            warning: data.warning ?? false,
+            blocked: data.blocked ?? res.status === 429,
+            percentUsed: data.percentUsed ?? Math.round((data.charsUsed / data.monthlyLimit) * 1000) / 10,
+          });
+        }
+      } else {
+        detail = await res.text();
+      }
+    } catch {
+      // ignore parse errors
+    }
+    const hint =
+      res.status === 429
+        ? "（今月の無料枠上限）"
+        : res.status === 503
+          ? "（Google TTS API キーが Worker に未設定の可能性）"
+          : res.status === 502
+            ? "（Google Cloud TTS API の有効化・課金・APIキー制限を確認）"
+            : "";
+    throw new Error(`TTS失敗 (${res.status})${hint}${detail ? `: ${detail.slice(0, 120)}` : ""}`);
+  }
+
+  const usage = parseTtsUsageHeaders(res.headers);
+  if (usage) useTtsUsageStore.getState().setUsage(usage);
+
   return res.blob();
 }
 

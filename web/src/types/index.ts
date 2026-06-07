@@ -99,3 +99,13 @@ export interface ImportResult {
   skipped: number;
   errors: string[];
 }
+
+export interface TtsUsageStatus {
+  month: string;
+  charsUsed: number;
+  monthlyLimit: number;
+  warningThreshold: number;
+  warning: boolean;
+  blocked: boolean;
+  percentUsed: number;
+}

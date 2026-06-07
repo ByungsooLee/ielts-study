@@ -9,6 +9,8 @@ import { SettingsPage } from "./pages/SettingsPage";
 import { useContentStore } from "./stores/contentStore";
 import { useProgressStore } from "./stores/progressStore";
 import { useSettingsStore } from "./stores/settingsStore";
+import { useTtsUsageStore } from "./stores/ttsUsageStore";
+import { TtsUsageBanner } from "./components/TtsUsageBanner";
 
 const navClass = ({ isActive }: { isActive: boolean }) =>
   `rounded-lg px-3 py-2 text-sm ${isActive ? "bg-blue-600 text-white" : "text-slate-600 hover:bg-slate-100"}`;
@@ -19,6 +21,7 @@ export default function App() {
   const settings = useSettingsStore((s) => s.settings);
   const setSyncStatus = useSettingsStore((s) => s.setSyncStatus);
   const setLastSyncedAt = useSettingsStore((s) => s.setLastSyncedAt);
+  const refreshTtsUsage = useTtsUsageStore((s) => s.refresh);
 
   useEffect(() => startVersionCheck(), []);
 
@@ -32,13 +35,14 @@ export default function App() {
         hydrate(merged);
         setSyncStatus("ok");
         setLastSyncedAt(Date.now());
+        await refreshTtsUsage(settings.workerUrl, settings.syncToken);
       } else {
         hydrate(local);
         setSyncStatus(navigator.onLine ? "idle" : "offline");
       }
     }
     void init();
-  }, [hydrate, loadContent, setLastSyncedAt, setSyncStatus, settings.syncToken, settings.workerUrl]);
+  }, [hydrate, loadContent, refreshTtsUsage, setLastSyncedAt, setSyncStatus, settings.syncToken, settings.workerUrl]);
 
   return (
     <div className="min-h-screen bg-slate-100 text-slate-900">
@@ -56,6 +60,7 @@ export default function App() {
           </nav>
         </div>
       </header>
+      <TtsUsageBanner />
       <main className="mx-auto max-w-5xl px-4 py-6">
         <Routes>
           <Route path="/" element={<LibraryPage />} />

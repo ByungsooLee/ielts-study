@@ -1,7 +1,10 @@
+import { useEffect } from "react";
 import { fetchRemoteProgress, putRemoteProgress, saveLocalProgress } from "../lib/sync";
 import { mergeProgress } from "../lib/merge";
 import { useProgressStore } from "../stores/progressStore";
+import { formatCharCount } from "../lib/ttsUsage";
 import { useSettingsStore } from "../stores/settingsStore";
+import { useTtsUsageStore } from "../stores/ttsUsageStore";
 import type { Accent } from "../types";
 
 export function SettingsPage() {
@@ -9,6 +12,15 @@ export function SettingsPage() {
     useSettingsStore();
   const progress = useProgressStore((s) => s.progress);
   const updateProgress = useProgressStore((s) => s.updateProgress);
+  const ttsUsage = useTtsUsageStore((s) => s.usage);
+  const ttsLoadError = useTtsUsageStore((s) => s.loadError);
+  const refreshTtsUsage = useTtsUsageStore((s) => s.refresh);
+
+  useEffect(() => {
+    if (settings.workerUrl && settings.syncToken) {
+      void refreshTtsUsage(settings.workerUrl, settings.syncToken);
+    }
+  }, [refreshTtsUsage, settings.syncToken, settings.workerUrl]);
 
   async function syncNow() {
     if (!settings.workerUrl || !settings.syncToken) {
@@ -24,6 +36,7 @@ export function SettingsPage() {
       await putRemoteProgress(settings.workerUrl, settings.syncToken, merged);
       setSyncStatus("ok");
       setLastSyncedAt(Date.now());
+      await refreshTtsUsage(settings.workerUrl, settings.syncToken);
     } catch (e) {
       const msg = e instanceof Error ? e.message : "同期に失敗しました";
       const hint =
@@ -84,6 +97,41 @@ export function SettingsPage() {
           <option value="en-AU">en-AU</option>
         </select>
       </label>
+
+      <div className="rounded-lg bg-slate-50 p-4 text-sm text-slate-700">
+        <p className="font-medium text-slate-800">Google TTS 使用量（今月）</p>
+        {ttsUsage ? (
+          <div className="mt-2 space-y-2">
+            <div className="h-2 overflow-hidden rounded-full bg-slate-200">
+              <div
+                className={`h-full rounded-full ${
+                  ttsUsage.blocked ? "bg-red-500" : ttsUsage.warning ? "bg-amber-500" : "bg-emerald-500"
+                }`}
+                style={{ width: `${Math.min(ttsUsage.percentUsed, 100)}%` }}
+              />
+            </div>
+            <p>
+              {formatCharCount(ttsUsage.charsUsed)} / {formatCharCount(ttsUsage.monthlyLimit)} 文字（
+              {ttsUsage.percentUsed}%）
+            </p>
+            {ttsUsage.warning && !ttsUsage.blocked && (
+              <p className="text-amber-700">80% を超えました。無料枠内に収めるため、新しい文の再生は控えめにしてください。</p>
+            )}
+            {ttsUsage.blocked && (
+              <p className="text-red-700">無料枠に達したため、新しい TTS 生成は停止しています。</p>
+            )}
+            <p className="text-xs text-slate-500">
+              キャッシュ済み音声・辞書の実録音は引き続き利用できます。Neural 音声の無料枠は月 100 万文字です。
+            </p>
+          </div>
+        ) : (
+          <p className="mt-1 text-slate-500">
+            {settings.workerUrl && settings.syncToken
+              ? (ttsLoadError ?? "使用量を読み込み中...")
+              : "Worker URL と合言葉を設定すると表示されます。"}
+          </p>
+        )}
+      </div>
 
       <div className="rounded-lg bg-slate-50 p-4 text-sm text-slate-700">
         <p>同期状態: {statusLabel}</p>
