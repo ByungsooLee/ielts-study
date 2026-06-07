@@ -1,5 +1,13 @@
 export type ItemType = "word" | "phrase" | "grammar" | "conversation";
 
+export interface Example {
+  en: string;
+  jp?: string;
+  linking?: string;
+  tips?: string[];
+  stressWords?: string[];
+}
+
 export interface StudyItem {
   id: string;
   type: ItemType;
@@ -8,13 +16,14 @@ export interface StudyItem {
   meaning: string;
   synonyms?: string[];
   collocation?: string;
-  examples?: { en: string; jp?: string }[];
+  examples?: Example[];
   pron?: {
     lookup?: string;
     tts?: string;
     notes?: string;
     liaison?: string;
     tips?: string[];
+    stressWords?: string[];
   };
   tags?: string[];
   priority?: "S" | "A" | "B";
@@ -103,6 +112,21 @@ export interface ImportResult {
   updated: number;
   skipped: number;
   errors: string[];
+}
+
+export interface CoachResult {
+  linking: string;
+  tips: string[];
+  stressWords?: string[];
+}
+
+export interface CoachCacheEntry {
+  key: string;
+  sentence: string;
+  linking: string;
+  tips: string[];
+  stressWords?: string[];
+  cachedAt: number;
 }
 
 export interface TtsUsageStatus {

@@ -30,13 +30,15 @@
     {
       "id": "c-asking-clarify", "type": "conversation", "front": "Could you go over that again?",
       "meaning": "もう一度説明してもらえますか？（聞き返し）",
-      "examples": [{ "en": "Sorry, could you go over that again?", "jp": "すみません、もう一度説明してもらえますか？" }],
-      "pron": {
-        "tts": "Sorry, could you go over that again?",
-        "notes": "Could you は /kʊd juː/。go over は句動詞として一続きで。",
-        "liaison": "go over → go‿over。that again → that‿again（t と ə がつながる）。",
-        "tips": ["丁寧さは could の長さより語尾の上げ調子で", "again は第2音節に軽いアクセント"]
-      },
+      "examples": [{
+        "en": "Sorry, could you go over that again?",
+        "jp": "すみません、もう一度説明してもらえますか？",
+        "linking": "Sorry, could‿you go‿over that‿again?",
+        "tips": ["丁寧さは could の長さより語尾の上げ調子で", "again は第2音節に軽いアクセント"],
+        "stressWords": ["again"]
+      }],
+      "pronNote": "Could you は /kʊd juː/。go over は句動詞として一続きで。",
+      "pron": { "tts": "Sorry, could you go over that again?" },
       "tags": ["speaking", "clarify"]
     }
   ]

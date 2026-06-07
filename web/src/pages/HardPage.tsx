@@ -6,6 +6,7 @@ import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
 import { RecordingPanel } from "../components/RecordingPanel";
+import { PronunciationCoach } from "../components/PronunciationCoach";
 import { SentencePlayRow } from "../components/SentencePlayRow";
 
 export function HardPage() {
@@ -148,10 +149,12 @@ export function HardPage() {
           {savedSentences.map((s) => (
             <div key={s.id} className="rounded-xl border bg-white p-4 shadow-sm">
               <p className="text-slate-800">{s.text}</p>
+              <PronunciationCoach sentence={s.text} compact />
               {s.ai && (
                 <div className="mt-2 rounded bg-slate-50 p-3 text-sm">
                   <p className="font-medium text-slate-800">{s.ai.corrected}</p>
                   <p className="mt-1 text-slate-600">{s.ai.comment}</p>
+                  <PronunciationCoach sentence={s.ai.corrected} compact />
                 </div>
               )}
               <div className="mt-2 flex flex-wrap gap-3">

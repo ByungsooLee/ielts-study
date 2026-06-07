@@ -1,6 +1,7 @@
 import { openDB, type DBSchema, type IDBPDatabase } from "idb";
 import type {
   AudioCacheEntry,
+  CoachCacheEntry,
   ContentRecord,
   DictCacheEntry,
   Recording,
@@ -24,10 +25,14 @@ interface IeltsDB extends DBSchema {
     value: Recording;
     indexes: { "by-itemId": string };
   };
+  coachCache: {
+    key: string;
+    value: CoachCacheEntry;
+  };
 }
 
 const DB_NAME = "ielts-study";
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 
 let dbPromise: Promise<IDBPDatabase<IeltsDB>> | null = null;
 
@@ -47,6 +52,9 @@ export function getDb() {
         if (!db.objectStoreNames.contains("recordings")) {
           const store = db.createObjectStore("recordings", { keyPath: "id" });
           store.createIndex("by-itemId", "itemId");
+        }
+        if (!db.objectStoreNames.contains("coachCache")) {
+          db.createObjectStore("coachCache", { keyPath: "key" });
         }
       },
     });
@@ -109,4 +117,25 @@ export async function trimRecordings(itemId: string, max = 5): Promise<void> {
   const recordings = await getRecordingsByItemId(itemId);
   const excess = recordings.slice(max);
   await Promise.all(excess.map((r) => deleteRecording(r.id)));
+}
+
+export function coachCacheKey(sentence: string): string {
+  return sentence.trim().toLowerCase();
+}
+
+export async function getCoachCache(sentence: string): Promise<CoachCacheEntry | null> {
+  const db = await getDb();
+  return (await db.get("coachCache", coachCacheKey(sentence))) ?? null;
+}
+
+export async function setCoachCache(sentence: string, result: Omit<CoachCacheEntry, "key" | "sentence" | "cachedAt">): Promise<void> {
+  const db = await getDb();
+  await db.put("coachCache", {
+    key: coachCacheKey(sentence),
+    sentence: sentence.trim(),
+    linking: result.linking,
+    tips: result.tips,
+    stressWords: result.stressWords,
+    cachedAt: Date.now(),
+  });
 }

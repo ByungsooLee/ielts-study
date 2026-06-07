@@ -6,7 +6,7 @@ import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
 import type { ContentRecord, PlaybackRate } from "../types";
-import { PronunciationNotes } from "./PronunciationNotes";
+import { PronunciationCoach } from "./PronunciationCoach";
 import { RecordingPanel } from "./RecordingPanel";
 
 interface Props {
@@ -74,6 +74,7 @@ export function ItemCard({ record, onNavigate }: Props) {
         <div key={i} className="mt-2 rounded bg-slate-50 p-2 text-sm">
           <p className="text-slate-800">{ex.en}</p>
           {ex.jp && <p className="text-slate-500">{ex.jp}</p>}
+          <PronunciationCoach sentence={ex.en} example={ex} pron={i === 0 ? item.pron : undefined} compact />
         </div>
       ))}
 
@@ -92,7 +93,12 @@ export function ItemCard({ record, onNavigate }: Props) {
         </div>
       ) : null}
 
-      <PronunciationNotes pron={item.pron} />
+      {!item.examples?.length && item.pron && (
+        <PronunciationCoach
+          sentence={item.pron.tts ?? item.front}
+          pron={item.pron}
+        />
+      )}
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
         <PlaybackSpeedPicker value={playbackRate} onChange={setPlaybackRate} />

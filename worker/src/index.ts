@@ -157,6 +157,75 @@ async function handleTts(request: Request, env: Env, origin: string | null) {
   });
 }
 
+async function handleCoach(request: Request, env: Env, origin: string | null) {
+  if (!env.GEMINI_KEY) {
+    return json(
+      { error: "GEMINI_KEY が Worker に設定されていません。wrangler secret put GEMINI_KEY を実行してください。" },
+      origin,
+      env,
+      503,
+    );
+  }
+
+  const body = (await request.json()) as { sentence?: string };
+  const sentence = body.sentence?.trim();
+  if (!sentence) return json({ error: "sentence is required" }, origin, env, 400);
+
+  const prompt = [
+    "ネイティブに通じる発音のため、次の英文について発音コーチを日本語で簡潔に作成してください。",
+    "(1) 連結を ‿ 付きで示す (2) 弱形の機能語 (3) 脱落/同化 (4) 文強勢 (5) 日本人がつまずく音(TH/R/L/V)",
+    `英文: ${sentence}`,
+    'JSONのみで返答: {"linking":"...‿...","tips":["..."],"stressWords":["強勢語"]}',
+  ].join("\n");
+
+  const geminiRes = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${env.GEMINI_KEY}`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { responseMimeType: "application/json" },
+      }),
+    },
+  );
+
+  if (!geminiRes.ok) {
+    const err = await geminiRes.text();
+    return json({ error: "Gemini failed", detail: err }, origin, env, 502);
+  }
+
+  const geminiData = (await geminiRes.json()) as {
+    candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;
+  };
+  const text = geminiData.candidates?.[0]?.content?.parts?.[0]?.text;
+  if (!text) return json({ error: "No coach result returned" }, origin, env, 502);
+
+  try {
+    const parsed = JSON.parse(text) as {
+      linking?: string;
+      tips?: string[];
+      stressWords?: string[];
+    };
+    const tips = Array.isArray(parsed.tips)
+      ? parsed.tips.filter((t): t is string => typeof t === "string" && t.trim().length > 0)
+      : [];
+    return json(
+      {
+        linking: parsed.linking ?? sentence,
+        tips,
+        stressWords: Array.isArray(parsed.stressWords)
+          ? parsed.stressWords.filter((w): w is string => typeof w === "string" && w.trim().length > 0)
+          : [],
+      },
+      origin,
+      env,
+    );
+  } catch {
+    return json({ error: "Coach response parse failed", detail: text }, origin, env, 502);
+  }
+}
+
 async function handleFeedback(request: Request, env: Env, origin: string | null) {
   const body = (await request.json()) as {
     sentence?: string;
@@ -239,6 +308,9 @@ export default {
     if (url.pathname === "/tts" && request.method === "POST") return handleTts(request, env, origin);
     if (url.pathname === "/feedback" && request.method === "POST") {
       return handleFeedback(request, env, origin);
+    }
+    if (url.pathname === "/coach" && request.method === "POST") {
+      return handleCoach(request, env, origin);
     }
 
     return json({ error: "Not found" }, origin, env, 404);
