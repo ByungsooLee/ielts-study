@@ -1,28 +1,13 @@
 import { getAudioCache, getDictCache, setAudioCache, setDictCache } from "../db";
+import { playAudioBlob } from "./audioPlayer";
 import { parseTtsUsageHeaders } from "./ttsUsage";
 import { useTtsUsageStore } from "../stores/ttsUsageStore";
-import type { Accent, StudyItem } from "../types";
+import type { Accent, PlaybackRate, StudyItem } from "../types";
 
 const DICT_API = "https://api.dictionaryapi.dev/api/v2/entries/en";
 
 export function audioCacheKey(text: string, voice: Accent): string {
   return `${voice}::${text.trim().toLowerCase()}`;
-}
-
-async function playBlob(blob: Blob): Promise<void> {
-  const url = URL.createObjectURL(blob);
-  const audio = new Audio(url);
-  await new Promise<void>((resolve, reject) => {
-    audio.onended = () => {
-      URL.revokeObjectURL(url);
-      resolve();
-    };
-    audio.onerror = () => {
-      URL.revokeObjectURL(url);
-      reject(new Error("音声再生に失敗しました"));
-    };
-    void audio.play().catch(reject);
-  });
 }
 
 async function fetchDictionary(word: string) {
@@ -133,8 +118,9 @@ export async function playPronunciation(options: {
   accent: Accent;
   workerUrl: string;
   syncToken: string;
+  playbackRate?: PlaybackRate;
 }): Promise<void> {
-  const { item, accent, workerUrl, syncToken } = options;
+  const { item, accent, workerUrl, syncToken, playbackRate = 1 } = options;
   const text = options.text ?? item?.pron?.tts ?? item?.front ?? "";
   const lookup = item?.pron?.lookup ?? (item?.type === "word" || item?.type === "phrase" ? item.front : undefined);
 
@@ -142,7 +128,7 @@ export async function playPronunciation(options: {
     try {
       const dict = await fetchDictionary(lookup);
       if (dict.blob) {
-        await playBlob(dict.blob);
+        await playAudioBlob(dict.blob, playbackRate);
         return;
       }
     } catch {
@@ -153,7 +139,7 @@ export async function playPronunciation(options: {
   const cacheKey = audioCacheKey(text, accent);
   const cached = await getAudioCache(cacheKey);
   if (cached) {
-    await playBlob(cached);
+    await playAudioBlob(cached, playbackRate);
     return;
   }
 
@@ -163,5 +149,5 @@ export async function playPronunciation(options: {
 
   const blob = await fetchTts(workerUrl, syncToken, text, accent);
   await setAudioCache(cacheKey, blob);
-  await playBlob(blob);
+  await playAudioBlob(blob, playbackRate);
 }

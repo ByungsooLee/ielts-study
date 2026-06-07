@@ -8,8 +8,17 @@ import { useTtsUsageStore } from "../stores/ttsUsageStore";
 import type { Accent } from "../types";
 
 export function SettingsPage() {
-  const { settings, syncStatus, lastSyncedAt, syncError, setWorkerUrl, setSyncToken, setAccent, setSyncStatus, setLastSyncedAt } =
-    useSettingsStore();
+  const {
+    settings,
+    syncStatus,
+    lastSyncedAt,
+    syncError,
+    setWorkerUrl,
+    setSyncToken,
+    setAccent,
+    setSyncStatus,
+    setLastSyncedAt,
+  } = useSettingsStore();
   const progress = useProgressStore((s) => s.progress);
   const updateProgress = useProgressStore((s) => s.updateProgress);
   const ttsUsage = useTtsUsageStore((s) => s.usage);

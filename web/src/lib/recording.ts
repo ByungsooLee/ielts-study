@@ -4,6 +4,7 @@ import {
   saveRecording,
   trimRecordings,
 } from "../db";
+import { playAudioBlob } from "./audioPlayer";
 import type { Recording } from "../types";
 
 export class RecordingSession {
@@ -62,17 +63,5 @@ export async function removeRecording(id: string): Promise<void> {
 }
 
 export async function playRecordingBlob(blob: Blob): Promise<void> {
-  const url = URL.createObjectURL(blob);
-  const audio = new Audio(url);
-  await new Promise<void>((resolve, reject) => {
-    audio.onended = () => {
-      URL.revokeObjectURL(url);
-      resolve();
-    };
-    audio.onerror = () => {
-      URL.revokeObjectURL(url);
-      reject(new Error("再生に失敗しました"));
-    };
-    void audio.play().catch(reject);
-  });
+  await playAudioBlob(blob);
 }

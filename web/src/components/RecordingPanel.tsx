@@ -79,7 +79,7 @@ export function RecordingPanel({ itemId, label = "録音", onCompareModel }: Pro
         {recordings.map((r) => (
           <li key={r.id} className="flex items-center justify-between text-xs text-slate-600">
             <span>{new Date(r.createdAt).toLocaleString()} ({Math.round(r.durationMs / 1000)}秒)</span>
-            <span className="flex gap-2">
+            <span className="flex items-center gap-2">
               <button
                 type="button"
                 className="text-blue-600"

@@ -1,9 +1,12 @@
 import { playPronunciation } from "../lib/pronunciation";
 import { isHard } from "../lib/srs";
+import { useState } from "react";
+import { PlaybackSpeedPicker } from "./PlaybackSpeedPicker";
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
-import type { ContentRecord } from "../types";
+import type { ContentRecord, PlaybackRate } from "../types";
+import { PronunciationNotes } from "./PronunciationNotes";
 import { RecordingPanel } from "./RecordingPanel";
 
 interface Props {
@@ -17,6 +20,7 @@ export function ItemCard({ record, onNavigate }: Props) {
   const toggleHard = useProgressStore((s) => s.toggleHard);
   const getById = useContentStore((s) => s.getById);
   const settings = useSettingsStore((s) => s.settings);
+  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
   const hard = isHard(item.id, progress);
 
   async function play() {
@@ -26,6 +30,7 @@ export function ItemCard({ record, onNavigate }: Props) {
         accent: settings.accent,
         workerUrl: settings.workerUrl,
         syncToken: settings.syncToken,
+        playbackRate,
       });
     } catch (e) {
       alert(e instanceof Error ? e.message : "発音再生に失敗しました");
@@ -87,14 +92,17 @@ export function ItemCard({ record, onNavigate }: Props) {
         </div>
       ) : null}
 
-      <div className="mt-3 flex flex-wrap gap-2">
+      <PronunciationNotes pron={item.pron} />
+
+      <div className="mt-3 flex flex-wrap items-center gap-2">
+        <PlaybackSpeedPicker value={playbackRate} onChange={setPlaybackRate} />
         <button type="button" className="rounded bg-blue-600 px-3 py-1 text-sm text-white" onClick={() => void play()}>
           発音
         </button>
       </div>
 
       <div className="mt-3">
-        <RecordingPanel itemId={item.id} onCompareModel={play} />
+        <RecordingPanel itemId={item.id} onCompareModel={() => play()} />
       </div>
     </article>
   );

@@ -6,20 +6,38 @@
       "ipa": "/dɪˈtɪəriəreɪt/", "meaning": "悪化・劣化する",
       "synonyms": ["worsen", "decline"], "collocation": "conditions deteriorate rapidly",
       "examples": [{ "en": "The hull had badly deteriorated underwater.", "jp": "船体は海中で激しく劣化していた。" }],
-      "pron": { "lookup": "deteriorate", "tts": "The hull had badly deteriorated underwater." },
+      "pron": {
+        "lookup": "deteriorate",
+        "tts": "The hull had badly deteriorated underwater.",
+        "notes": "第4音節 ri にアクセント。テ音は「テ」より弱い「トゥ」に近い。",
+        "liaison": "deteriorated underwater → deteriorate‿dunderwater のように d が次の母音へつながる。",
+        "tips": ["語尾 -ate は /eɪt/ ではなく /ət/ と弱く", "had badly の d と b は離してはっきり"]
+      },
       "tags": ["titanic"], "priority": "S", "links": ["g-past-perfect"]
     },
     {
       "id": "g-past-perfect", "type": "grammar", "front": "had + 過去分詞（過去完了）",
       "meaning": "過去のある時点より前に完了した動作を表す",
       "examples": [{ "en": "By 1985, previous attempts had all failed.", "jp": "1985年までに以前の試みは全て失敗していた。" }],
-      "pron": { "tts": "By 1985, previous attempts had all failed." }, "tags": ["grammar"]
+      "pron": {
+        "tts": "By 1985, previous attempts had all failed.",
+        "notes": "had は弱読 /həd/ または /əd/。過去分詞 failed の -ed は /d/。",
+        "liaison": "had all → had‿all。attempts had → attempts‿had（t と h の境目はやや繋ぐ）。",
+        "tips": ["By 1985 の後に短いポーズ", "failed で文のキー情報を落とさない"]
+      },
+      "tags": ["grammar"]
     },
     {
       "id": "c-asking-clarify", "type": "conversation", "front": "Could you go over that again?",
       "meaning": "もう一度説明してもらえますか？（聞き返し）",
       "examples": [{ "en": "Sorry, could you go over that again?", "jp": "すみません、もう一度説明してもらえますか？" }],
-      "pron": { "tts": "Sorry, could you go over that again?" }, "tags": ["speaking", "clarify"]
+      "pron": {
+        "tts": "Sorry, could you go over that again?",
+        "notes": "Could you は /kʊd juː/。go over は句動詞として一続きで。",
+        "liaison": "go over → go‿over。that again → that‿again（t と ə がつながる）。",
+        "tips": ["丁寧さは could の長さより語尾の上げ調子で", "again は第2音節に軽いアクセント"]
+      },
+      "tags": ["speaking", "clarify"]
     }
   ]
 }

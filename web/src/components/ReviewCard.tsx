@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { PlaybackSpeedPicker } from "./PlaybackSpeedPicker";
 import { playPronunciation } from "../lib/pronunciation";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
-import type { ContentRecord } from "../types";
+import { PronunciationNotes } from "./PronunciationNotes";
+import type { ContentRecord, PlaybackRate } from "../types";
 
 interface Props {
   record: ContentRecord;
@@ -14,6 +16,7 @@ export function ReviewCard({ record, onDone }: Props) {
   const gradeItem = useProgressStore((s) => s.gradeItem);
   const settings = useSettingsStore((s) => s.settings);
   const [step, setStep] = useState(0);
+  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
 
   const prompt =
     item.type === "conversation"
@@ -35,6 +38,7 @@ export function ReviewCard({ record, onDone }: Props) {
         accent: settings.accent,
         workerUrl: settings.workerUrl,
         syncToken: settings.syncToken,
+        playbackRate,
       });
     } catch (e) {
       alert(e instanceof Error ? e.message : "発音再生に失敗しました");
@@ -57,9 +61,13 @@ export function ReviewCard({ record, onDone }: Props) {
           <div>
             <p className="text-2xl font-semibold text-slate-900">{answer}</p>
             {item.examples?.[0]?.jp && <p className="mt-2 text-slate-600">{item.examples[0].jp}</p>}
-            <button type="button" className="mt-3 text-sm text-blue-600" onClick={() => void playAnswer()}>
-              答えを再生
-            </button>
+            <div className="mt-3 flex flex-wrap items-center gap-2">
+              <PlaybackSpeedPicker value={playbackRate} onChange={setPlaybackRate} />
+              <button type="button" className="text-sm text-blue-600" onClick={() => void playAnswer()}>
+                答えを再生
+              </button>
+            </div>
+            <PronunciationNotes pron={item.pron} />
           </div>
         )}
       </div>

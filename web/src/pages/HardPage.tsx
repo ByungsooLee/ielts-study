@@ -6,6 +6,7 @@ import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
 import { RecordingPanel } from "../components/RecordingPanel";
+import { SentencePlayRow } from "../components/SentencePlayRow";
 
 export function HardPage() {
   const items = useContentStore((s) => s.items);
@@ -75,19 +76,6 @@ export function HardPage() {
       setError(e instanceof Error ? e.message : "添削に失敗しました");
     } finally {
       setLoading(false);
-    }
-  }
-
-  async function playSentence(text: string) {
-    try {
-      await playPronunciation({
-        text,
-        accent: settings.accent,
-        workerUrl: settings.workerUrl,
-        syncToken: settings.syncToken,
-      });
-    } catch (e) {
-      alert(e instanceof Error ? e.message : "発音再生に失敗しました");
     }
   }
 
@@ -166,21 +154,22 @@ export function HardPage() {
                   <p className="mt-1 text-slate-600">{s.ai.comment}</p>
                 </div>
               )}
-              <div className="mt-2 flex gap-2">
-                <button type="button" className="text-sm text-blue-600" onClick={() => void playSentence(s.text)}>
-                  原文を再生
-                </button>
-                {s.ai && (
-                  <button type="button" className="text-sm text-blue-600" onClick={() => void playSentence(s.ai!.corrected)}>
-                    修正文を再生
-                  </button>
-                )}
+              <div className="mt-2 flex flex-wrap gap-3">
+                <SentencePlayRow label="原文を再生" text={s.text} />
+                {s.ai && <SentencePlayRow label="修正文を再生" text={s.ai.corrected} />}
               </div>
               <div className="mt-3">
                 <RecordingPanel
                   itemId={`sentence:${s.id}`}
                   label="例文の録音"
-                  onCompareModel={() => playSentence(s.ai?.corrected ?? s.text)}
+                  onCompareModel={() =>
+                    playPronunciation({
+                      text: s.ai?.corrected ?? s.text,
+                      accent: settings.accent,
+                      workerUrl: settings.workerUrl,
+                      syncToken: settings.syncToken,
+                    })
+                  }
                 />
               </div>
             </div>

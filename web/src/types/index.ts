@@ -12,6 +12,9 @@ export interface StudyItem {
   pron?: {
     lookup?: string;
     tts?: string;
+    notes?: string;
+    liaison?: string;
+    tips?: string[];
   };
   tags?: string[];
   priority?: "S" | "A" | "B";
@@ -82,6 +85,8 @@ export interface AudioCacheEntry {
 }
 
 export type Accent = "en-GB" | "en-US" | "en-AU";
+
+export type PlaybackRate = 0.75 | 1 | 1.25 | 1.5;
 
 export interface AppSettings {
   workerUrl: string;

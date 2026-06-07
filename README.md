@@ -82,8 +82,17 @@ gh repo create ielts-study --private --source=. --push
 
 | Secret | 取得方法 |
 |--------|---------|
-| `CLOUDFLARE_API_TOKEN` | Cloudflare Dashboard → My Profile → API Tokens → Create Token → 「Edit Cloudflare Workers」テンプレート + Pages Edit を付与 |
-| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare Dashboard 右サイドバー |
+| `CLOUDFLARE_API_TOKEN` | Cloudflare Dashboard → My Profile → API Tokens → **「Edit Cloudflare Workers」テンプレート**（Read のみのトークンは不可） |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare Dashboard 右サイドバー（32文字・前後に空白なし） |
+
+**重要:** Secrets は **Repository secrets**（Actions タブ）に登録してください。Environment secrets だけだとデプロイが失敗します。
+
+#### デプロイが失敗するとき（`Authentication error [code: 10000]` など）
+
+1. GitHub → **ielts-study** → **Settings** → **Secrets and variables** → **Actions** で上記2つが登録されているか確認
+2. API トークンを **Edit Cloudflare Workers** テンプレートで作り直す（Account Resources に自分のアカウントを選択）
+3. `CLOUDFLARE_ACCOUNT_ID` を Dashboard からコピーし直す（32文字か確認）
+4. Actions タブで **Deploy** ワークフローを **Run workflow** で手動再実行
 
 #### 3. 以降の運用
 
