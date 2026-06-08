@@ -40,6 +40,7 @@ export function SettingsPage() {
   const ttsLoadError = useTtsUsageStore((s) => s.loadError);
   const refreshTtsUsage = useTtsUsageStore((s) => s.refresh);
   const [buildVersion, setBuildVersion] = useState<string | null>(null);
+  const [workerTest, setWorkerTest] = useState<string | null>(null);
 
   useEffect(() => {
     void fetch(`/version.json?t=${Date.now()}`, { cache: "no-store" })
@@ -53,6 +54,34 @@ export function SettingsPage() {
       void refreshTtsUsage(settings.workerUrl, settings.syncToken);
     }
   }, [refreshTtsUsage, settings.syncToken, settings.workerUrl]);
+
+  async function testWorkerConnection() {
+    if (!settings.workerUrl || !settings.syncToken) {
+      setWorkerTest("Worker URL と合言葉を入力してください");
+      return;
+    }
+    setWorkerTest("確認中...");
+    try {
+      const base = settings.workerUrl.replace(/\/$/, "");
+      const res = await fetch(`${base}/tts-usage`, {
+        headers: { Authorization: `Bearer ${settings.syncToken}` },
+      });
+      if (res.status === 401) {
+        setWorkerTest(
+          "✗ 合言葉が一致しません。worker/.dev.vars の SYNC_TOKEN を設定画面に貼り、ターミナルで npm run secrets:push を実行してください",
+        );
+        return;
+      }
+      if (!res.ok) {
+        setWorkerTest(`✗ Worker 応答エラー (${res.status})`);
+        return;
+      }
+      setWorkerTest("✓ Worker に接続できました（TTS・同期が使えます）");
+      await refreshTtsUsage(settings.workerUrl, settings.syncToken);
+    } catch (e) {
+      setWorkerTest(`✗ 接続失敗: ${e instanceof Error ? e.message : "不明"}`);
+    }
+  }
 
   async function syncNow() {
     if (!settings.workerUrl || !settings.syncToken) {
@@ -84,9 +113,11 @@ export function SettingsPage() {
     } catch (e) {
       const msg = e instanceof Error ? e.message : "同期に失敗しました";
       const hint =
-        msg === "Failed to fetch"
-          ? "（CORSまたはネットワークエラー。ブラウザのURLが localhost か 127.0.0.1 か確認し、Workerを再デプロイしてください）"
-          : "";
+        msg.includes("401") || msg.includes("Unauthorized")
+          ? "（合言葉不一致。worker/.dev.vars の SYNC_TOKEN を再入力し npm run secrets:push）"
+          : msg === "Failed to fetch"
+            ? "（CORSまたはネットワークエラー。Workerを再デプロイしてください）"
+            : "";
       setSyncStatus("error", `${msg}${hint}`);
     }
   }
@@ -126,7 +157,16 @@ export function SettingsPage() {
         />
         <p className={hintClass}>
           強固なランダム文字列を使ってください。漏れると進捗を読み書きされる可能性があります。
+          Worker を再デプロイしたあとは <code className="text-xs">npm run secrets:push</code> で本番に反映が必要です。
         </p>
+        <button
+          type="button"
+          className="mt-2 rounded border border-slate-300 px-3 py-1.5 text-sm dark:border-slate-600"
+          onClick={() => void testWorkerConnection()}
+        >
+          Worker 接続テスト
+        </button>
+        {workerTest && <p className={`mt-2 text-sm ${workerTest.startsWith("✓") ? "text-emerald-700 dark:text-emerald-400" : "text-red-700 dark:text-red-400"}`}>{workerTest}</p>}
       </label>
 
       <label className="block text-sm">

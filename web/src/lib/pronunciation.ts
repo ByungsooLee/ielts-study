@@ -110,13 +110,15 @@ async function fetchTts(
       // ignore parse errors
     }
     const hint =
-      res.status === 429
-        ? "（今月の無料枠上限）"
-        : res.status === 503
-          ? "（Google TTS API キーが Worker に未設定の可能性）"
-          : res.status === 502
-            ? "（Google Cloud TTS API の有効化・課金・APIキー制限を確認）"
-            : "";
+      res.status === 401
+        ? "（合言葉が Worker と一致しません。設定で再入力し、ターミナルで npm run secrets:push を実行してください）"
+        : res.status === 429
+          ? "（今月の無料枠上限）"
+          : res.status === 503
+            ? "（Google TTS API キーが Worker に未設定の可能性。npm run secrets:push を実行）"
+            : res.status === 502
+              ? "（Google Cloud TTS API の有効化・課金・APIキー制限を確認）"
+              : "";
     throw new Error(`TTS失敗 (${res.status})${hint}${detail ? `: ${detail.slice(0, 120)}` : ""}`);
   }
 

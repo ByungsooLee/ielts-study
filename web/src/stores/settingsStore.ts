@@ -44,8 +44,8 @@ function loadSettings(): AppSettings {
     const settings: AppSettings = {
       ...defaultSettings,
       ...parsed,
-      workerUrl: parsed.workerUrl || envDefaults.workerUrl,
-      syncToken: parsed.syncToken || envDefaults.syncToken,
+      workerUrl: (parsed.workerUrl || envDefaults.workerUrl).trim(),
+      syncToken: (parsed.syncToken || envDefaults.syncToken).trim(),
       accent: parsed.accent ?? defaultSettings.accent,
       colorMode: parsed.colorMode ?? defaultSettings.colorMode,
       dailyNewLimit: normalizeDailyNewLimit(parsed.dailyNewLimit),
@@ -83,12 +83,12 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
   lastSyncedAt: null,
   syncError: null,
   setWorkerUrl: (url) => {
-    const settings = { ...get().settings, workerUrl: url };
+    const settings = { ...get().settings, workerUrl: url.trim() };
     persist(settings);
     set({ settings });
   },
   setSyncToken: (token) => {
-    const settings = { ...get().settings, syncToken: token };
+    const settings = { ...get().settings, syncToken: token.trim() };
     persist(settings);
     set({ settings });
   },
