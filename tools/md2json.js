@@ -1,6 +1,7 @@
-/* 単語マスターリスト.md → アプリ取り込み用JSON 変換スクリプト
-   使い方: node tools/md2json.js
-   出力:   ielts-import.json （同フォルダ）
+/* content-src/ の教材ソース → 取り込み用JSON 変換スクリプト
+   使い方: npm run content:build  （= node tools/md2json.js）
+   出力:   sample/ielts-import.json（KV互換・全件）
+           web/public/content/（index.json + theme シャード・Pages/CDN配信用）
    ※ idは front から固定生成。front を変えなければ毎回同じid＝上書き更新される。 */
 const fs = require("fs");
 const path = require("path");

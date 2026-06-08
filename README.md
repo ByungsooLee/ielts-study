@@ -5,8 +5,11 @@
 ## 構成
 
 - `web/` — React + Vite + TypeScript + Tailwind（Cloudflare Pages 向け）
+  - `web/public/content/` — 教材の静的 JSON（`index.json` + テーマ別シャード。CDN 配信）
 - `worker/` — Cloudflare Worker（進捗 KV / Google TTS）
-- `tools/md2json.js` — 単語マスターリスト.md → `ielts-import.json` 変換（`theme` / `themeName` 付与）
+- `content-src/` — 教材ソース（`単語マスターリスト.md`、`ielts-vocab-data.js`、`pron-coach.js`、`number-ledger.json`）
+- `tools/md2json.js` — `content-src/` → `sample/ielts-import.json` + `web/public/content/` 生成（`npm run content:build`）
+- `sample/ielts-import.json` — 全件1ファイル（KV `/content` 互換・`content:push` 用）
 - `sample/import-sample.json` — 取り込みテスト用サンプル
 
 ## 初回セットアップ（1回だけ）
@@ -154,12 +157,29 @@ node tools/push-content.mjs sample/ielts-import.json
 
 ## 教材の更新フロー
 
+教材は **2系統** で配信します（移行中）。
+
+| 経路 | 用途 | 反映方法 |
+|------|------|----------|
+| Worker KV `/content` | 現行アプリ（起動時同期） | `sample/ielts-import.json` を push |
+| Pages 静的 `web/public/content/` | 次期 UI（index + テーマ遅延読み込み） | `content:build` 後に git push → Deploy |
+
 dev（localhost）も本番（pages.dev）も同じ Worker/KV を参照するため、**KV に反映すれば両環境に届きます**。
 
-### 1. repo に教材 JSON を置く
+### 1. 教材ソースを編集してビルド
+
+`content-src/単語マスターリスト.md` などを編集したら:
 
 ```bash
-# A. 編集元から取り込み（推奨）
+npm run content:build
+```
+
+→ `sample/ielts-import.json`（KV 用）と `web/public/content/`（静的配信用）が再生成されます。`version` は内容ハッシュなので、中身が変わらなければ git 差分は出ません。
+
+### 2. repo に教材 JSON を置く（外部 JSON から取り込む場合）
+
+```bash
+# A. 編集元から取り込み
 npm run content:import
 # 別パス: CONTENT_SRC=/path/to/ielts-import.json npm run content:import
 
@@ -168,19 +188,20 @@ npm run content:import
 
 `content:import` は `source.added` と `items[]` を検証します。ソースに `passages` が無い場合、既存 `sample` の `passages` は保持されます。
 
-### 2. git push で本番 KV へ自動反映
+### 3. git push で本番へ反映
 
 ```bash
-git add sample/ielts-import.json
+git add sample/ielts-import.json web/public/content/
 git commit -m "chore: update content"
 git push origin main
 ```
 
-→ GitHub Actions の **Push content**（`.github/workflows/content.yml`）が走り、Worker KV `/content` を更新します。アプリは次回起動・同期で新教材を取得します。
+→ **Push content**（`sample/ielts-import.json` 変更時）が Worker KV `/content` を更新。  
+→ **Deploy** が Pages に静的 `content/` も含めてデプロイします。
 
-教材 JSON のみの push では **Deploy**（Pages/Worker）も並行して走りますが、アプリ本体に変更がなければ従来どおり成功します。
+アプリは次回起動・同期で新教材を取得します。
 
-### 3. ローカルで即時反映したい場合
+### 4. ローカルで即時反映したい場合
 
 ```bash
 npm run content:push
