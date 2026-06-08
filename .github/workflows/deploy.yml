@@ -56,7 +56,7 @@ jobs:
             -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
             -H "Content-Type: application/json" \
             --data '{"production_branch":"main"}')
-          echo "$RESP" | grep -q '"success":true' || (echo "$RESP" && exit 1)
+          echo "$RESP" | grep -qE '"success"[[:space:]]*:[[:space:]]*true' || (echo "$RESP" && exit 1)
           echo "production_branch=main を設定しました"
 
       - name: Deploy to Cloudflare Pages (production branch)
@@ -83,7 +83,7 @@ jobs:
           EXPECTED="${GITHUB_SHA:0:7}"
           VERSION=$(curl -fsS "${DEPLOY_URL}/version.json")
           echo "deployment version.json: $VERSION"
-          echo "$VERSION" | grep -q "\"version\": \"${EXPECTED}\"" || \
+          echo "$VERSION" | grep -qE "\"version\"[[:space:]]*:[[:space:]]*\"${EXPECTED}\"" || \
             (echo "::error::デプロイ成果物の version が ${EXPECTED} と一致しません" && exit 1)
           echo "デプロイ成果物の検証に成功"
 
@@ -94,7 +94,7 @@ jobs:
             sleep 15
             VERSION=$(curl -fsS "https://ielts-study.pages.dev/version.json" || echo "{}")
             echo "attempt $i — production version.json: $VERSION"
-            if echo "$VERSION" | grep -q "\"version\": \"${EXPECTED}\""; then
+            if echo "$VERSION" | grep -qE "\"version\"[[:space:]]*:[[:space:]]*\"${EXPECTED}\""; then
               echo "本番エイリアスの反映を確認しました"
               exit 0
             fi
