@@ -7,7 +7,7 @@ import { StudyProgressBar } from "../StudyProgressBar";
 import { StudyToolbar } from "../StudyToolbar";
 import { ThemeNav } from "../ThemeNav";
 import { SM2 } from "../../lib/sm2";
-import { buildDailyReviewDeck, buildStudyDeck } from "../../lib/studyDeck";
+import { buildDailyReviewDeck, buildStudyDeck, buildThemeDeck } from "../../lib/studyDeck";
 import type { DailyQueueResult } from "../../lib/dailyQueue";
 import { getOrCreateSched } from "../../lib/srs";
 import {
@@ -26,9 +26,11 @@ interface Props {
   category: ItemType;
   items: ContentRecord[];
   showThemeNav?: boolean;
+  /** 文法など少数項目向けの簡素ツールバー＋全件出題 */
+  grammarMode?: boolean;
 }
 
-export function CategoryStudyView({ category, items, showThemeNav = false }: Props) {
+export function CategoryStudyView({ category, items, showThemeNav = false, grammarMode = false }: Props) {
   const progress = useProgressStore((s) => s.progress);
   const gradeItem = useProgressStore((s) => s.gradeItem);
   const recordStudyDay = useProgressStore((s) => s.recordStudyDay);
@@ -81,6 +83,15 @@ export function CategoryStudyView({ category, items, showThemeNav = false }: Pro
     }
   }, [category]);
 
+  useEffect(() => {
+    if (!grammarMode) return;
+    const s = useStudySessionStore.getState();
+    if (s.contentMode !== "semantic") s.setContentMode("semantic");
+    if (s.dueOnly) s.setDueOnly(false);
+    if (s.hardOnly) s.setHardOnly(false);
+    if (s.unlearnedOnly) s.setUnlearnedOnly(false);
+  }, [grammarMode]);
+
   const categoryItems = useMemo(
     () => items.filter((r) => r.item.type === category),
     [items, category],
@@ -124,23 +135,31 @@ export function CategoryStudyView({ category, items, showThemeNav = false }: Pro
   const effectiveThemeRange = showThemeNav ? themeRange : null;
 
   const setDeck = useMemo(
-    () =>
-      buildStudyDeck(categoryItems, progress, {
+    () => {
+      const filters = {
         category,
         themeFilter: effectiveThemeFilter,
         themeRange: effectiveThemeRange,
-        dueOnly: session.dueOnly,
-        hardOnly: session.hardOnly,
-        unlearnedOnly: session.unlearnedOnly,
-        setSize: session.setSize,
+        dueOnly: grammarMode ? false : session.dueOnly,
+        hardOnly: grammarMode ? false : session.hardOnly,
+        unlearnedOnly: grammarMode ? false : session.unlearnedOnly,
         sort: session.sort,
-      }),
+      };
+      if (grammarMode) {
+        return buildThemeDeck(categoryItems, progress, filters);
+      }
+      return buildStudyDeck(categoryItems, progress, {
+        ...filters,
+        setSize: session.setSize,
+      });
+    },
     [
       categoryItems,
       progress,
       category,
       effectiveThemeFilter,
       effectiveThemeRange,
+      grammarMode,
       session.dueOnly,
       session.hardOnly,
       session.unlearnedOnly,
@@ -230,6 +249,7 @@ export function CategoryStudyView({ category, items, showThemeNav = false }: Pro
         categories={[category]}
         category={category}
         hideCategoryTabs
+        variant={grammarMode ? "grammar" : "default"}
         studyMode={session.studyMode}
         direction={session.direction}
         contentMode={session.contentMode}

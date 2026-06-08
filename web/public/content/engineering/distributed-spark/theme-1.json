@@ -1,0 +1,268 @@
+{
+  "domain": "engineering",
+  "collection": "distributed-spark",
+  "collectionName": "分散処理・Spark",
+  "theme": 1,
+  "themeName": "分散処理とSpark（面接頻出）",
+  "version": "2b715125",
+  "items": [
+    {
+      "n": 216,
+      "id": "de-spark-lazy",
+      "type": "concept",
+      "front": "Lazy evaluation (transformations vs actions)",
+      "meaning": "Sparkは変換を遅延構築し、actionで初めて実行する。",
+      "detail_ja": "transformations(map/filter/join)は遅延評価でDAGを構築するだけ。action(count/collect/write)で初めて実行される。Catalystオプティマイザが論理計画→最適化された物理計画に変換。遅延評価により無駄な計算を省き、処理を融合できる。",
+      "examples": [
+        {
+          "en": "Nothing ran until the final write action triggered the DAG.",
+          "jp": "最後のwriteまでDAGは実行されなかった。"
+        }
+      ],
+      "pron": {
+        "tts": "Spark builds a DAG of transformations lazily and only runs it when an action is called."
+      },
+      "explain": {
+        "prompt_ja": "Sparkの遅延評価（transformations vs actions）を英語で説明して。",
+        "points_ja": [
+          "transformations(遅延) vs actions(実行)",
+          "DAGとCatalyst最適化",
+          "遅延評価で無駄を省き融合"
+        ],
+        "key_phrases": [
+          "lazy evaluation",
+          "transformations vs actions",
+          "DAG of stages",
+          "Catalyst optimizer",
+          "triggered by an action"
+        ],
+        "model_en": "Spark builds a DAG of transformations lazily and only runs it when an action is called.",
+        "model_en_long": "In Spark, transformations like map, filter, and join are lazy—they just build a DAG. Nothing actually runs until an action like count, collect, or write triggers execution. The Catalyst optimizer then turns the logical plan into an optimized physical plan. Lazy evaluation lets Spark fuse steps together and skip work it doesn't need."
+      },
+      "tags": [
+        "spark",
+        "distributed",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "distributed-spark",
+      "theme": 1,
+      "themeName": "分散処理とSpark（面接頻出）"
+    },
+    {
+      "n": 217,
+      "id": "de-spark-shuffle",
+      "type": "concept",
+      "front": "Shuffle (narrow vs wide transformations)",
+      "meaning": "ノード間のデータ再分配(shuffle)が最大コスト。狭い/広い変換を区別する。",
+      "detail_ja": "map/filterは narrow(パーティション内で完結)。groupBy/join/repartitionは wide で、ネットワーク越しに再分配する shuffle が発生し、stage境界になる。shuffleはSparkジョブで最も重く、これを減らす設計が性能の核心。",
+      "examples": [
+        {
+          "en": "Repartitioning by the join key removed a second shuffle.",
+          "jp": "結合キーで再分割し2回目のshuffleを除去した。"
+        }
+      ],
+      "pron": {
+        "tts": "Wide transformations cause a shuffle, which is the most expensive part, so I minimize them."
+      },
+      "explain": {
+        "prompt_ja": "Sparkのshuffleと、narrow/wide変換の違いを英語で説明して。",
+        "points_ja": [
+          "narrow(局所) vs wide(shuffle)",
+          "shuffleはネットワーク再分配で最重・stage境界",
+          "shuffle削減が最適化の核"
+        ],
+        "key_phrases": [
+          "shuffle",
+          "narrow vs wide transformation",
+          "data movement across the network",
+          "stage boundary",
+          "minimize shuffles"
+        ],
+        "model_en": "Wide transformations cause a shuffle, which is the most expensive part, so I minimize them.",
+        "model_en_long": "Narrow transformations like map and filter stay within a partition, but wide ones like groupBy and join trigger a shuffle that moves data across the network and defines a stage boundary. The shuffle is usually the most expensive part of a Spark job, so a lot of tuning is about minimizing it—pre-partitioning the data or broadcasting a small side instead of shuffling both."
+      },
+      "tags": [
+        "spark",
+        "shuffle",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "distributed-spark",
+      "theme": 1,
+      "themeName": "分散処理とSpark（面接頻出）"
+    },
+    {
+      "n": 218,
+      "id": "de-spark-skew",
+      "type": "concept",
+      "front": "Data skew",
+      "meaning": "一部のキーにデータが偏ると遅い。salting/broadcast/AQEで均す。",
+      "detail_ja": "groupBy/joinで特定キー(hot key)にデータが集中すると、そのパーティションだけ処理が長引き全体を引きずる。salting(キーに乱数を付与して分散)、小さい側のbroadcast、AQE(Adaptive Query Execution: 実行時に偏りを検知し分割)で緩和する。",
+      "examples": [
+        {
+          "en": "Salting a hot customer key cut the job from 40 minutes to 8.",
+          "jp": "偏った顧客キーへのsaltingでジョブが40分→8分に。"
+        }
+      ],
+      "pron": {
+        "tts": "If a few hot keys skew the data, I use salting, broadcast, or AQE to balance it."
+      },
+      "explain": {
+        "prompt_ja": "データスキューとは何で、どう対処するかを英語で説明して。",
+        "points_ja": [
+          "hot keyで一部タスクが遅延し全体を引きずる",
+          "salting / broadcast / AQEで緩和",
+          "AQEは実行時に分割"
+        ],
+        "key_phrases": [
+          "data skew",
+          "hot key",
+          "salting the key",
+          "skew join",
+          "Adaptive Query Execution (AQE)"
+        ],
+        "model_en": "If a few hot keys skew the data, I use salting, broadcast, or AQE to balance it.",
+        "model_en_long": "Data skew happens when a few hot keys hold most of the rows, so one partition runs long and stalls the whole stage. I fix it by salting the skewed key to spread it out, broadcasting the small side of a join, or relying on Adaptive Query Execution, which detects skew at runtime and splits those partitions. The goal is even work across all tasks."
+      },
+      "tags": [
+        "spark",
+        "skew",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "distributed-spark",
+      "theme": 1,
+      "themeName": "分散処理とSpark（面接頻出）"
+    },
+    {
+      "n": 219,
+      "id": "de-spark-partitioning",
+      "type": "concept",
+      "front": "Partitioning & parallelism",
+      "meaning": "パーティション数＝並列度。多すぎ・少なすぎを避けて調整する。",
+      "detail_ja": "Sparkはパーティション単位で並列処理するため、パーティション数が並列度を決める。少なすぎるとクラスタを使い切れず、多すぎると小タスク過多と小ファイル問題でオーバーヘッド。spark.sql.shuffle.partitions や repartition/coalesce で調整する。",
+      "examples": [
+        {
+          "en": "Coalescing to 50 partitions fixed the small-files problem on write.",
+          "jp": "50に集約して書き込み時の小ファイル問題を解消した。"
+        }
+      ],
+      "pron": {
+        "tts": "Partitions set the parallelism, so I tune them to avoid too few or too many."
+      },
+      "explain": {
+        "prompt_ja": "Sparkのパーティション数と並列度の関係を英語で説明して。",
+        "points_ja": [
+          "パーティション数＝並列度",
+          "少なすぎ/多すぎ両方が問題（小ファイル）",
+          "repartition/coalesce・shuffle.partitions調整"
+        ],
+        "key_phrases": [
+          "number of partitions",
+          "degree of parallelism",
+          "repartition vs coalesce",
+          "small files problem",
+          "spark.sql.shuffle.partitions"
+        ],
+        "model_en": "Partitions set the parallelism, so I tune them to avoid too few or too many.",
+        "model_en_long": "Spark processes one partition per task, so the number of partitions sets the parallelism. Too few and you underuse the cluster; too many and you drown in tiny tasks and the small-files problem. I tune the shuffle partitions and use repartition or coalesce to hit a partition size that's large enough to be efficient but small enough to parallelize well."
+      },
+      "tags": [
+        "spark",
+        "partitioning",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "distributed-spark",
+      "theme": 1,
+      "themeName": "分散処理とSpark（面接頻出）"
+    },
+    {
+      "n": 220,
+      "id": "de-spark-caching",
+      "type": "concept",
+      "front": "Caching / persistence",
+      "meaning": "再利用するデータをメモリ等に保持し、DAGの再計算を避ける。",
+      "detail_ja": "Sparkは遅延評価のため、同じDataFrameを再利用するたびに系譜(lineage)を再計算する。複数回使う/反復処理では cache()/persist() で保持し再計算を防ぐ。ストレージレベルでメモリ圧迫を調整し、使い終えたら unpersist する。",
+      "examples": [
+        {
+          "en": "Caching the joined dataset sped up five downstream queries.",
+          "jp": "結合済みデータのキャッシュで下流5クエリが高速化した。"
+        }
+      ],
+      "pron": {
+        "tts": "I cache a DataFrame when it's reused, to avoid recomputing the whole DAG."
+      },
+      "explain": {
+        "prompt_ja": "Sparkでcache/persistをいつ使うかを英語で説明して。",
+        "points_ja": [
+          "再利用/反復で再計算を回避",
+          "persistのストレージレベル選択",
+          "不要時はunpersist"
+        ],
+        "key_phrases": [
+          "cache / persist",
+          "avoid recomputation",
+          "storage level",
+          "memory pressure",
+          "unpersist"
+        ],
+        "model_en": "I cache a DataFrame when it's reused, to avoid recomputing the whole DAG.",
+        "model_en_long": "Because Spark is lazy, reusing a DataFrame recomputes its whole lineage each time. When I reuse one across multiple actions or in an iterative job, I cache or persist it so it stays in memory or on disk. I pick the storage level to balance memory pressure, and I unpersist it once I'm done to free resources."
+      },
+      "tags": [
+        "spark",
+        "caching",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "distributed-spark",
+      "theme": 1,
+      "themeName": "分散処理とSpark（面接頻出）"
+    },
+    {
+      "n": 221,
+      "id": "de-spark-broadcast-join",
+      "type": "concept",
+      "front": "Broadcast join",
+      "meaning": "小さいテーブルを全ノードに配ってshuffleを避ける結合。",
+      "detail_ja": "片方が十分小さい場合、そのテーブルを全executorにbroadcastして大テーブルとローカル結合すれば、大きなshuffleを回避できる(map-side join)。閾値(autoBroadcastJoinThreshold)で自動化されるが、broadcastヒントで明示も可能。小さい側が本当に小さい時だけ有効。",
+      "examples": [
+        {
+          "en": "Broadcasting the 20 MB lookup table removed the shuffle entirely.",
+          "jp": "20MBのルックアップ表をbroadcastしshuffleを完全に除去した。"
+        }
+      ],
+      "pron": {
+        "tts": "When one side is small, I broadcast it so the join avoids a shuffle."
+      },
+      "explain": {
+        "prompt_ja": "ブロードキャストジョインがなぜ速いか、条件を含めて英語で説明して。",
+        "points_ja": [
+          "小テーブルを全ノードに配布(map-side join)",
+          "大きなshuffleを回避",
+          "閾値/明示broadcast・小ささが条件"
+        ],
+        "key_phrases": [
+          "broadcast join",
+          "broadcast the small table",
+          "avoid a shuffle",
+          "autoBroadcastJoinThreshold",
+          "map-side join"
+        ],
+        "model_en": "When one side is small, I broadcast it so the join avoids a shuffle.",
+        "model_en_long": "If one table in a join is small enough, Spark can broadcast it to every executor and join locally, which avoids the expensive shuffle of a normal join. It happens automatically under a size threshold, but I can also force it with a broadcast hint. It only helps when the broadcast side is genuinely small, otherwise it just wastes memory."
+      },
+      "tags": [
+        "spark",
+        "join",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "distributed-spark",
+      "theme": 1,
+      "themeName": "分散処理とSpark（面接頻出）"
+    }
+  ]
+}

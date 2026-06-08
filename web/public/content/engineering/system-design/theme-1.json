@@ -1,0 +1,268 @@
+{
+  "domain": "engineering",
+  "collection": "system-design",
+  "collectionName": "システム設計（データ系）",
+  "theme": 1,
+  "themeName": "システム設計の基礎（面接頻出）",
+  "version": "12df98a5",
+  "items": [
+    {
+      "n": 240,
+      "id": "de-sd-scalability",
+      "type": "concept",
+      "front": "Vertical vs horizontal scaling",
+      "meaning": "1台を強くする(垂直) か、台数を増やす(水平) か。",
+      "detail_ja": "垂直スケールは単純だが上限と単一障害点がある。水平スケールはノードを足して負荷を分散し、ほぼ無制限だが分散の複雑さ(調整・整合性)を伴う。大規模データは基本水平で、statelessなサービスとデータのパーティションが鍵。",
+      "examples": [
+        {
+          "en": "We scaled out to twenty workers instead of buying one huge machine.",
+          "jp": "巨大1台でなく20ワーカーへ水平スケールした。"
+        }
+      ],
+      "pron": {
+        "tts": "I prefer horizontal scaling—adding nodes—over scaling a single machine up."
+      },
+      "explain": {
+        "prompt_ja": "垂直スケールと水平スケールの違いと使い分けを英語で説明して。",
+        "points_ja": [
+          "垂直=増強(上限/単一障害点) vs 水平=台数増",
+          "水平はほぼ無制限だが分散の複雑さ",
+          "statelessとパーティションが鍵"
+        ],
+        "key_phrases": [
+          "scale up vs scale out",
+          "vertical vs horizontal scaling",
+          "single point of failure",
+          "stateless services",
+          "add more nodes"
+        ],
+        "model_en": "I prefer horizontal scaling—adding nodes—over scaling a single machine up.",
+        "model_en_long": "Vertical scaling means making one machine bigger; it's simple but hits a ceiling and stays a single point of failure. Horizontal scaling adds more nodes and spreads the load, which is nearly unlimited but brings the complexity of distribution—coordination and consistency. For large data I default to scaling out, keeping services stateless and partitioning the data."
+      },
+      "tags": [
+        "system-design",
+        "scalability",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "system-design",
+      "theme": 1,
+      "themeName": "システム設計の基礎（面接頻出）"
+    },
+    {
+      "n": 241,
+      "id": "de-sd-cap",
+      "type": "concept",
+      "front": "CAP theorem",
+      "meaning": "分断時は一貫性と可用性のどちらかを選ぶ。",
+      "detail_ja": "分散システムは Consistency / Availability / Partition tolerance を同時に満たせない。ネットワーク分断(P)は避けられないので、実質『分断時にC(一貫性)を取るかA(可用性)を取るか』。多くのデータ系は最終的整合性(AP)を選ぶが、台帳などはCP寄り。",
+      "examples": [
+        {
+          "en": "We chose an AP store with eventual consistency for the event log.",
+          "jp": "イベントログには最終的整合性のAPストアを選んだ。"
+        }
+      ],
+      "pron": {
+        "tts": "Under a network partition, CAP says you choose between consistency and availability."
+      },
+      "explain": {
+        "prompt_ja": "CAP定理を、分断時の選択として英語で説明して。",
+        "points_ja": [
+          "C/A/Pの3つ同時は不可",
+          "Pは不可避→分断時にCかAを選ぶ",
+          "多くは最終的整合性(AP)、台帳はCP"
+        ],
+        "key_phrases": [
+          "CAP theorem",
+          "consistency, availability, partition tolerance",
+          "you can't have all three",
+          "eventual consistency",
+          "CP vs AP"
+        ],
+        "model_en": "Under a network partition, CAP says you choose between consistency and availability.",
+        "model_en_long": "The CAP theorem says a distributed system can't simultaneously guarantee consistency, availability, and partition tolerance. Since network partitions are unavoidable, it really comes down to choosing consistency or availability when a partition happens. Many data systems pick availability with eventual consistency, but something like a bank ledger leans toward consistency."
+      },
+      "tags": [
+        "system-design",
+        "cap",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "system-design",
+      "theme": 1,
+      "themeName": "システム設計の基礎（面接頻出）"
+    },
+    {
+      "n": 242,
+      "id": "de-sd-partition-shard",
+      "type": "concept",
+      "front": "Partitioning / sharding",
+      "meaning": "データをキーで分割し各ノードに分散してスケールさせる。",
+      "detail_ja": "大きなデータをキー(ハッシュ/範囲)で分割し複数ノードに分散する。水平スケールの土台。ハッシュ分割は負荷が均等だが範囲クエリに弱く、範囲分割は範囲に強いが偏り(hotspot)やすい。良い分割キーは負荷を均しhot partitionを避ける。",
+      "examples": [
+        {
+          "en": "Hashing on user_id avoided the hotspot we had with date ranges.",
+          "jp": "user_idのハッシュ分割で日付範囲のhotspotを回避した。"
+        }
+      ],
+      "pron": {
+        "tts": "I shard by a key that spreads load evenly and avoids hot partitions."
+      },
+      "explain": {
+        "prompt_ja": "パーティショニング/シャーディングと分割キー選びを英語で説明して。",
+        "points_ja": [
+          "キーで分割し分散(水平スケールの土台)",
+          "hash(均等) vs range(範囲強い/偏り)",
+          "hot partitionを避ける分割キー"
+        ],
+        "key_phrases": [
+          "partitioning / sharding",
+          "shard key",
+          "hash vs range partitioning",
+          "hot partition / hotspot",
+          "distribute load evenly"
+        ],
+        "model_en": "I shard by a key that spreads load evenly and avoids hot partitions.",
+        "model_en_long": "Sharding splits data by a key across multiple nodes, and it's the basis of horizontal scaling. Hash partitioning spreads load evenly but is weak for range queries, while range partitioning is great for ranges but can create hotspots. The hard part is choosing a shard key that distributes load evenly and avoids a hot partition."
+      },
+      "tags": [
+        "system-design",
+        "sharding",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "system-design",
+      "theme": 1,
+      "themeName": "システム設計の基礎（面接頻出）"
+    },
+    {
+      "n": 243,
+      "id": "de-sd-caching",
+      "type": "concept",
+      "front": "Caching strategies",
+      "meaning": "頻出データを近くに保持しレイテンシと負荷を下げる。",
+      "detail_ja": "読み多のワークロードでキャッシュ(Redis等)が効く。一般的なのは cache-aside(アプリがキャッシュを読み、無ければDBへフォールバックして書き戻す)。難所は無効化(invalidation)とTTL、stale data、多数同時失効によるcache stampede。",
+      "examples": [
+        {
+          "en": "A short TTL plus cache-aside cut database load by eighty percent.",
+          "jp": "短いTTL＋cache-asideでDB負荷を80%削減した。"
+        }
+      ],
+      "pron": {
+        "tts": "I add a cache-aside layer for hot reads, and the hard part is invalidation."
+      },
+      "explain": {
+        "prompt_ja": "キャッシュ戦略と、その難しさ(無効化)を英語で説明して。",
+        "points_ja": [
+          "読み多でレイテンシ/負荷削減",
+          "cache-aside＋TTL",
+          "無効化(invalidation)とstaleが難所"
+        ],
+        "key_phrases": [
+          "caching layer",
+          "cache-aside",
+          "TTL / expiration",
+          "cache invalidation",
+          "stale data / cache stampede"
+        ],
+        "model_en": "I add a cache-aside layer for hot reads, and the hard part is invalidation.",
+        "model_en_long": "For read-heavy workloads I put a cache like Redis in front, usually cache-aside, where the app reads the cache and falls back to the database on a miss. The hard parts are invalidation and TTLs—serving stale data, or a cache stampede when many keys expire at once. As the saying goes, cache invalidation is one of the two hard problems in computing."
+      },
+      "tags": [
+        "system-design",
+        "caching",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "system-design",
+      "theme": 1,
+      "themeName": "システム設計の基礎（面接頻出）"
+    },
+    {
+      "n": 244,
+      "id": "de-sd-idempotency",
+      "type": "concept",
+      "front": "Idempotency & exactly-once",
+      "meaning": "同じ処理を複数回受けても結果が一度きりになる設計。",
+      "detail_ja": "分散メッセージングは通常 at-least-once 配信で重複が起きる。真の exactly-once は難しいので、消費側を冪等にする(冪等キー・重複排除・upsert)ことで『実質 exactly-once』を実現するのが実務的。",
+      "examples": [
+        {
+          "en": "An idempotency key on each event removed duplicate charges.",
+          "jp": "イベント毎の冪等キーで二重課金を防いだ。"
+        }
+      ],
+      "pron": {
+        "tts": "Since delivery is at-least-once, I make consumers idempotent to get effectively-once."
+      },
+      "explain": {
+        "prompt_ja": "冪等性とexactly-onceを、at-least-once配信を前提に英語で説明して。",
+        "points_ja": [
+          "配信はat-least-once→重複前提",
+          "冪等キー/dedup/upsertで実質once",
+          "消費側を冪等にするのが現実解"
+        ],
+        "key_phrases": [
+          "idempotency",
+          "at-least-once delivery",
+          "effectively exactly-once",
+          "idempotency key / dedup",
+          "upsert"
+        ],
+        "model_en": "Since delivery is at-least-once, I make consumers idempotent to get effectively-once.",
+        "model_en_long": "In distributed messaging, delivery is usually at-least-once, so duplicates happen. Rather than chase true exactly-once, I make the consumer idempotent—using an idempotency key, deduplication, or an upsert—so processing the same message twice has the same effect as once. That gives effectively-once results, which is what matters in practice."
+      },
+      "tags": [
+        "system-design",
+        "idempotency",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "system-design",
+      "theme": 1,
+      "themeName": "システム設計の基礎（面接頻出）"
+    },
+    {
+      "n": 245,
+      "id": "de-sd-batch-stream",
+      "type": "concept",
+      "front": "Batch vs streaming (Lambda / Kappa)",
+      "meaning": "高スループットのバッチか、低遅延のストリームか。両立アーキも。",
+      "detail_ja": "バッチは高スループット・低コストだが鮮度が低い。ストリームは低遅延・高鮮度だが複雑。Lambdaアーキはバッチ層＋速度層を併用(強力だが複雑)、Kappaはストリームに一本化。要件(鮮度 vs コスト/単純さ)で選ぶ。",
+      "examples": [
+        {
+          "en": "We moved from Lambda to Kappa to stop maintaining two code paths.",
+          "jp": "2系統の保守をやめるためLambdaからKappaへ移行した。"
+        }
+      ],
+      "pron": {
+        "tts": "I pick batch for throughput and streaming for latency, sometimes combining them."
+      },
+      "explain": {
+        "prompt_ja": "バッチとストリーミング、Lambda/Kappaの選択を英語で説明して。",
+        "points_ja": [
+          "batch=高スループット/低コスト/鮮度低",
+          "stream=低遅延/高鮮度/複雑",
+          "Lambda(両層) vs Kappa(stream一本)"
+        ],
+        "key_phrases": [
+          "batch vs streaming",
+          "throughput vs latency",
+          "Lambda architecture",
+          "Kappa architecture",
+          "freshness vs cost"
+        ],
+        "model_en": "I pick batch for throughput and streaming for latency, sometimes combining them.",
+        "model_en_long": "Batch processing gives high throughput at low cost but stale data, while streaming gives low latency and freshness at the cost of complexity. The Lambda architecture runs a batch layer and a speed layer together, which is powerful but complex to maintain, whereas Kappa simplifies to a single streaming path. I choose based on how much freshness the use case needs versus cost and simplicity."
+      },
+      "tags": [
+        "system-design",
+        "batch-streaming",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "system-design",
+      "theme": 1,
+      "themeName": "システム設計の基礎（面接頻出）"
+    }
+  ]
+}

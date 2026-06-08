@@ -1,0 +1,237 @@
+{
+  "domain": "engineering",
+  "collection": "behavioral-star",
+  "collectionName": "英語の行動面接（STAR）",
+  "theme": 1,
+  "themeName": "STARで答える行動面接（英語）",
+  "version": "cbeacfc0",
+  "items": [
+    {
+      "n": 228,
+      "id": "de-star-method",
+      "type": "concept",
+      "front": "The STAR method",
+      "meaning": "行動面接の回答を Situation→Task→Action→Result で構成する。",
+      "detail_ja": "「〜した経験は？」型の質問は、状況(Situation)・自分の責務(Task)・取った行動(Action)・結果(Result, 可能なら数値)の順で簡潔に語ると伝わる。Actionを厚く『自分が何をしたか』を、Resultは定量で締める。",
+      "pron": {
+        "tts": "I structure behavioral answers with STAR: situation, task, action, and result."
+      },
+      "explain": {
+        "prompt_ja": "STARメソッドで行動面接にどう答えるかを英語で説明して。",
+        "points_ja": [
+          "Situation→Task→Action→Resultの順",
+          "Actionを厚く・自分が何をしたか",
+          "Resultは数値で締める"
+        ],
+        "key_phrases": [
+          "the STAR method",
+          "Situation, Task, Action, Result",
+          "I was responsible for",
+          "what I did was",
+          "as a result / which led to"
+        ],
+        "model_en": "I structure behavioral answers with STAR: situation, task, action, and result.",
+        "model_en_long": "For behavioral questions I use the STAR method. I briefly set the situation and my task, spend most of the time on the specific actions I took, and finish with a measurable result. Keeping the action centered on what I personally did, and quantifying the result, makes the answer clear and convincing."
+      },
+      "tags": [
+        "behavioral",
+        "star",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "behavioral-star",
+      "theme": 1,
+      "themeName": "STARで答える行動面接（英語）"
+    },
+    {
+      "n": 229,
+      "id": "de-star-project",
+      "type": "concept",
+      "front": "Describe a project you're proud of",
+      "meaning": "誇れるプロジェクトをSTARで。役割→技術選択→定量成果。",
+      "detail_ja": "自分の役割・課題・技術的アクション・定量成果を語る。下の模範はテンプレなので、必ず自分の実体験に置き換えること。",
+      "note": "※ model_en_long はテンプレ。自分の実プロジェクト・数値に差し替える。",
+      "pron": {
+        "tts": "In my last role, I rebuilt a slow, fragile pipeline into reliable Spark jobs."
+      },
+      "explain": {
+        "prompt_ja": "誇れるプロジェクトを英語で（STARで）話して。",
+        "points_ja": [
+          "役割と課題を短く",
+          "自分の技術的アクションを具体的に",
+          "定量成果で締める（※自分の実例に差し替え）"
+        ],
+        "key_phrases": [
+          "in my last role",
+          "my task was to",
+          "I designed / I rewrote",
+          "as a result, X dropped from ... to ...",
+          "I'm proud that"
+        ],
+        "model_en": "In my last role I rebuilt a slow, fragile nightly pipeline into reliable Spark jobs.",
+        "model_en_long": "In my last role, our nightly pipeline was too slow and often failed, so my task was to make it reliable and faster. I rewrote it as idempotent Spark jobs, fixed a data-skew problem with salting, and added data-quality tests. As a result, the runtime dropped from four hours to forty minutes and the on-call alerts almost disappeared."
+      },
+      "tags": [
+        "behavioral",
+        "star",
+        "project"
+      ],
+      "domain": "engineering",
+      "collection": "behavioral-star",
+      "theme": 1,
+      "themeName": "STARで答える行動面接（英語）"
+    },
+    {
+      "n": 230,
+      "id": "de-star-challenge",
+      "type": "concept",
+      "front": "A difficult problem you solved",
+      "meaning": "技術的に難しかった課題と解決をSTARで。",
+      "detail_ja": "根本原因をどう特定し、どう直したかを具体的に。下はテンプレなので自分の事例に。",
+      "note": "※ テンプレ。自分が実際に直した障害・原因・結果に置き換える。",
+      "pron": {
+        "tts": "The hardest problem was a job that kept failing at two a.m."
+      },
+      "explain": {
+        "prompt_ja": "直面した難しい技術課題と、その解決を英語で（STARで）話して。",
+        "points_ja": [
+          "症状→調査→根本原因→対処の順",
+          "自分の分析・判断を具体的に",
+          "安定/高速化など結果（※自分の事例に）"
+        ],
+        "key_phrases": [
+          "the hardest problem was",
+          "I dug into the logs",
+          "the root cause turned out to be",
+          "I fixed it by",
+          "it became stable"
+        ],
+        "model_en": "The hardest problem I solved was a job that kept failing at two a.m. with no clear cause.",
+        "model_en_long": "We had a job that kept failing at 2 a.m. and nobody knew why, so my task was to find the root cause. I added structured logging and traced it to a skewed join on one huge customer. I fixed it by broadcasting the small side and salting the key. As a result the job became stable and ran about five times faster."
+      },
+      "tags": [
+        "behavioral",
+        "star",
+        "problem-solving"
+      ],
+      "domain": "engineering",
+      "collection": "behavioral-star",
+      "theme": 1,
+      "themeName": "STARで答える行動面接（英語）"
+    },
+    {
+      "n": 231,
+      "id": "de-star-tradeoff",
+      "type": "concept",
+      "front": "A technical trade-off / decision",
+      "meaning": "トレードオフのある意思決定の語り方。",
+      "detail_ja": "選択肢・比較軸・根拠・結果を語る。判断の合理性とコミュニケーションを見られる。下はテンプレ。",
+      "note": "※ テンプレ。自分が実際に下した技術判断に置き換える。",
+      "pron": {
+        "tts": "We had to choose between a Lambda and a simpler Kappa architecture."
+      },
+      "explain": {
+        "prompt_ja": "トレードオフのある技術判断を英語で（STARで）話して。",
+        "points_ja": [
+          "選択肢と比較軸を明示",
+          "根拠を持って推奨",
+          "結果＋判断を共有したこと（※自分の事例に）"
+        ],
+        "key_phrases": [
+          "we had to choose between",
+          "I weighed X against Y",
+          "the trade-off was",
+          "I recommended ... because",
+          "it was the right call"
+        ],
+        "model_en": "We had to choose between a Lambda architecture and a simpler streaming-only design.",
+        "model_en_long": "We had to choose between a Lambda architecture and a simpler streaming-only Kappa design, and my task was to recommend one. I weighed freshness against the cost of maintaining two code paths, prototyped both, and recommended Kappa because our latency needs were modest. As a result we cut maintenance and shipped faster, and I documented the trade-off so the team understood the decision."
+      },
+      "tags": [
+        "behavioral",
+        "star",
+        "trade-off"
+      ],
+      "domain": "engineering",
+      "collection": "behavioral-star",
+      "theme": 1,
+      "themeName": "STARで答える行動面接（英語）"
+    },
+    {
+      "n": 232,
+      "id": "de-star-failure",
+      "type": "concept",
+      "front": "A failure & what you learned",
+      "meaning": "失敗と学びを前向きに語る。",
+      "detail_ja": "責任を認めつつ、再発防止と学びに着地させる。下はテンプレ。",
+      "note": "※ テンプレ。自分の実際の失敗・学びに置き換える。",
+      "pron": {
+        "tts": "Early on, I broke a dashboard by deploying a schema change without a contract."
+      },
+      "explain": {
+        "prompt_ja": "失敗経験と学びを英語で（STARで）前向きに話して。",
+        "points_ja": [
+          "失敗を率直に認める",
+          "どう対処・再発防止したか",
+          "学びで締める（※自分の事例に）"
+        ],
+        "key_phrases": [
+          "early in my career",
+          "I made the mistake of",
+          "what I learned was",
+          "to prevent it from happening again",
+          "I now always"
+        ],
+        "model_en": "Early on, I broke a dashboard by deploying a schema change without a data contract.",
+        "model_en_long": "Early on, I deployed a schema change without a data contract and broke a downstream dashboard during business hours. My task was to fix it fast and prevent a repeat, so I rolled back, communicated clearly with the affected team, and then introduced data contracts and CI tests. As a result that class of failure stopped, and I learned to design for the consumers of my data, not just the producers."
+      },
+      "tags": [
+        "behavioral",
+        "star",
+        "failure"
+      ],
+      "domain": "engineering",
+      "collection": "behavioral-star",
+      "theme": 1,
+      "themeName": "STARで答える行動面接（英語）"
+    },
+    {
+      "n": 233,
+      "id": "de-star-why-australia",
+      "type": "concept",
+      "front": "Why this role / moving to Australia",
+      "meaning": "志望動機と移住理由を、前向き・誠実・長期志向で。",
+      "detail_ja": "役割への具体的関心＋自分の強みが活きる点＋長期で貢献・成長したい意欲を簡潔に。移住は前向きな理由で。下はテンプレ。",
+      "note": "※ テンプレ。自分の言葉・本当の動機に調整する。",
+      "pron": {
+        "tts": "I'm moving to Australia for the long term and want to grow and contribute here."
+      },
+      "explain": {
+        "prompt_ja": "この職種への志望動機とオーストラリア移住の理由を英語で話して。",
+        "points_ja": [
+          "役割への関心を具体的に",
+          "自分の強みが活きる点",
+          "長期・前向きな移住理由（※自分の言葉に）"
+        ],
+        "key_phrases": [
+          "what draws me to this role",
+          "I'm excited by",
+          "for the long term",
+          "I want to grow and contribute",
+          "build a stable career"
+        ],
+        "model_en": "What draws me to this role is building reliable, well-modeled data platforms at scale.",
+        "model_en_long": "I'm a data engineer who enjoys turning messy data into reliable, well-modeled platforms, and this role focuses on exactly that at a scale I'm excited by. I'm moving to Australia for the long term—I want to grow here, contribute to the team, and keep improving my English in a real working environment. I see it as a place to build a stable career, not a short stay."
+      },
+      "tags": [
+        "behavioral",
+        "star",
+        "motivation"
+      ],
+      "domain": "engineering",
+      "collection": "behavioral-star",
+      "theme": 1,
+      "themeName": "STARで答える行動面接（英語）"
+    }
+  ]
+}

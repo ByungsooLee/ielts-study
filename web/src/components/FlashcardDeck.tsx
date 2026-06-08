@@ -1,4 +1,4 @@
-import { useRef, type TouchEvent } from "react";
+import { useRef, useState, type TouchEvent } from "react";
 import { FlashcardAnswer } from "./FlashcardAnswer";
 import { FlashcardPrompt } from "./FlashcardPrompt";
 import { playPronunciation, type PronunciationSource } from "../lib/pronunciation";
@@ -20,6 +20,12 @@ interface Props {
   sched?: Sched;
 }
 
+const INTERACTIVE_SELECTOR = "button, select, input, textarea, a, label, [role='tab']";
+
+function isInteractiveTarget(target: EventTarget | null) {
+  return target instanceof HTMLElement && !!target.closest(INTERACTIVE_SELECTOR);
+}
+
 export function FlashcardDeck({
   record,
   revealed,
@@ -35,7 +41,10 @@ export function FlashcardDeck({
   sched,
 }: Props) {
   const settings = useSettingsStore((s) => s.settings);
-  const touchStart = useRef<{ x: number; y: number } | null>(null);
+  const touchStart = useRef<{ x: number; y: number; fromInteractive: boolean } | null>(null);
+  const [coarsePointer] = useState(
+    () => typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches,
+  );
   const { item } = record;
 
   async function playText(text: string, source: PronunciationSource) {
@@ -55,19 +64,38 @@ export function FlashcardDeck({
   }
 
   function onTouchStart(e: TouchEvent) {
-    touchStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    if (coarsePointer) return;
+    if (isInteractiveTarget(e.target)) return;
+    touchStart.current = {
+      x: e.touches[0].clientX,
+      y: e.touches[0].clientY,
+      fromInteractive: false,
+    };
   }
 
   function onTouchEnd(e: TouchEvent) {
-    if (!touchStart.current) return;
+    if (coarsePointer || !touchStart.current) return;
+    if (isInteractiveTarget(e.target)) {
+      touchStart.current = null;
+      return;
+    }
+
     const dx = e.changedTouches[0].clientX - touchStart.current.x;
     const dy = e.changedTouches[0].clientY - touchStart.current.y;
     touchStart.current = null;
-    if (Math.abs(dy) > Math.abs(dx) && dy < -40 && !revealed) {
+
+    const absDx = Math.abs(dx);
+    const absDy = Math.abs(dy);
+    const minSwipe = 72;
+
+    if (absDx < minSwipe && absDy < minSwipe) return;
+
+    if (absDy > absDx * 1.5 && dy < -minSwipe && !revealed) {
       onReveal();
       return;
     }
-    if (Math.abs(dx) > 50) {
+
+    if (absDx > absDy * 1.5 && absDx >= minSwipe) {
       if (dx < 0) onNext();
       else if (canPrev) onPrev();
     }
@@ -86,6 +114,7 @@ export function FlashcardDeck({
   return (
     <div
       className="grid gap-4 md:grid-cols-2"
+      style={{ touchAction: coarsePointer ? "pan-y" : "manipulation" }}
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
     >
@@ -109,20 +138,25 @@ export function FlashcardDeck({
         <h2 className="text-xs font-semibold uppercase tracking-wide text-slate-500">答え</h2>
         {!revealed ? (
           <div className="mt-6 flex min-h-[200px] flex-col items-center justify-center">
-            <div className="select-none blur-md">
+            <div className="pointer-events-none select-none blur-md">
               <p className="text-2xl font-bold text-slate-400">••••••••</p>
               <p className="mt-2 text-slate-400">答えは隠れています</p>
             </div>
             <button
               type="button"
-              className="mt-6 w-full max-w-xs rounded-xl bg-blue-600 px-6 py-3 text-lg font-medium text-white hover:bg-blue-700 md:w-auto"
-              onClick={onReveal}
+              className="mt-6 w-full max-w-xs rounded-xl bg-blue-600 px-6 py-3 text-lg font-medium text-white hover:bg-blue-700 active:bg-blue-800 md:w-auto"
+              onClick={(e) => {
+                e.stopPropagation();
+                onReveal();
+              }}
             >
               答えを見る
             </button>
-            <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
-              Space / 上スワイプでも開けます
-            </p>
+            {!coarsePointer && (
+              <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
+                Space / 上スワイプでも開けます
+              </p>
+            )}
           </div>
         ) : (
           <div className="mt-4 motion-safe:animate-[fadeIn_0.2s_ease-out]">
@@ -142,21 +176,21 @@ export function FlashcardDeck({
             <div className="mt-6 flex flex-wrap gap-2">
               <button
                 type="button"
-                className="rounded-lg bg-rose-600 px-4 py-2 text-white hover:bg-rose-700"
+                className="rounded-lg bg-rose-600 px-4 py-2 text-white hover:bg-rose-700 active:bg-rose-800"
                 onClick={() => onGrade("forgot")}
               >
                 忘れた (1)
               </button>
               <button
                 type="button"
-                className="rounded-lg bg-amber-500 px-4 py-2 text-white hover:bg-amber-600"
+                className="rounded-lg bg-amber-500 px-4 py-2 text-white hover:bg-amber-600 active:bg-amber-800"
                 onClick={() => onGrade("maybe")}
               >
                 あいまい (2)
               </button>
               <button
                 type="button"
-                className="rounded-lg bg-emerald-600 px-4 py-2 text-white hover:bg-emerald-700"
+                className="rounded-lg bg-emerald-600 px-4 py-2 text-white hover:bg-emerald-700 active:bg-emerald-800"
                 onClick={() => onGrade("remembered")}
               >
                 覚えてた (3)

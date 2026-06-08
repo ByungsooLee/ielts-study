@@ -1,0 +1,116 @@
+{
+  "domain": "engineering",
+  "collection": "sql-optimization",
+  "collectionName": "SQL・クエリ最適化",
+  "kind": "concept",
+  "themes": [
+    {
+      "theme": 1,
+      "themeName": "SQL最適化（面接頻出）",
+      "items": [
+        {
+          "id": "de-sql-explain",
+          "type": "concept",
+          "front": "Read the query plan (EXPLAIN)",
+          "meaning": "実行計画を読み、遅さの原因を特定してから最適化する。",
+          "detail_ja": "EXPLAIN / EXPLAIN ANALYZE でオプティマイザの計画（走査種別・JOIN方式・推定行数・コスト）を確認する。Seq Scan か Index Scan か、推定行数と実測の乖離、最も重いノードを見て改善点を決める。推測でなく計画で動く。",
+          "examples": [{ "en": "EXPLAIN ANALYZE showed a sequential scan on a 50-million-row table.", "jp": "EXPLAIN ANALYZEで5000万行への全表走査が判明した。" }],
+          "pron": { "tts": "I start by reading the query plan with EXPLAIN ANALYZE to see where the time goes." },
+          "explain": {
+            "prompt_ja": "SQLを最適化する前にまず何を見るか（実行計画）を英語で説明して。",
+            "points_ja": ["EXPLAIN ANALYZEで計画を見る", "Seq vs Index・結合方式・推定行数", "推定と実測の乖離→統計/索引を見直す"],
+            "key_phrases": ["read the query plan", "EXPLAIN ANALYZE", "sequential scan vs index scan", "the optimizer", "estimated vs actual rows"],
+            "model_en": "I start by reading the query plan with EXPLAIN ANALYZE to see where the time actually goes.",
+            "model_en_long": "Before optimizing, I read the query plan with EXPLAIN ANALYZE. I look at whether the database does a sequential scan or an index scan, which join method it picks, and where estimated rows diverge from actual rows. That gap usually points to stale statistics or a missing index, so the plan tells me what to fix instead of guessing."
+          },
+          "tags": ["sql", "optimization", "interview"]
+        },
+        {
+          "id": "de-sql-index",
+          "type": "concept",
+          "front": "Indexing & selectivity",
+          "meaning": "選択性の高い列に索引を張り、走査を減らして高速化する。",
+          "detail_ja": "B-tree索引は WHERE/JOIN/ORDER BY を高速化するが、書き込みコストと容量を増やす。選択性の高い列、複合索引の列順、カバリング索引(index-only scan)を意識。過剰な索引は逆効果。",
+          "examples": [{ "en": "A composite index on (customer_id, created_at) removed the sort step.", "jp": "(customer_id, created_at)の複合索引でソート処理が消えた。" }],
+          "pron": { "tts": "I add indexes on high-selectivity columns used in WHERE and JOIN, watching the write cost." },
+          "explain": {
+            "prompt_ja": "インデックスをどう設計するか、トレードオフを含めて英語で説明して。",
+            "points_ja": ["索引で走査削減（選択性が鍵）", "複合索引の列順・カバリング索引", "書き込みコスト/容量とのトレードオフ"],
+            "key_phrases": ["B-tree index", "high selectivity", "composite / covering index", "index-only scan", "trade-off with write cost"],
+            "model_en": "I add indexes on high-selectivity columns used in WHERE and JOIN, watching the write cost.",
+            "model_en_long": "Indexes speed up reads by letting the database avoid scanning the whole table. I add B-tree indexes on high-selectivity columns used in WHERE, JOIN, and ORDER BY, and I order composite-index columns to match the query, sometimes making it a covering index for an index-only scan. But every index slows writes and uses space, so I avoid over-indexing."
+          },
+          "tags": ["sql", "index", "interview"]
+        },
+        {
+          "id": "de-sql-joins",
+          "type": "concept",
+          "front": "Join strategies",
+          "meaning": "nested loop / hash / sort-merge の違いを理解し最適な結合を選ぶ。",
+          "detail_ja": "nested loop は小×索引付きに有効、hash join は大規模な等値結合、sort-merge は両側ソート済みや範囲結合に有効。オプティマイザがデータ量と索引で選ぶが、統計が古いと誤選択する。",
+          "examples": [{ "en": "Updating statistics switched a slow nested loop to a hash join.", "jp": "統計更新で遅いnested loopがhash joinに切り替わった。" }],
+          "pron": { "tts": "The engine picks nested loop, hash, or sort-merge depending on size and indexes." },
+          "explain": {
+            "prompt_ja": "JOINの3戦略と、いつどれが選ばれるかを英語で説明して。",
+            "points_ja": ["3方式: nested loop / hash / sort-merge", "データ量・索引・等値/範囲で選ぶ", "統計が古いと誤選択する"],
+            "key_phrases": ["nested loop join", "hash join", "sort-merge join", "the optimizer chooses", "outdated statistics"],
+            "model_en": "The engine picks nested loop, hash, or sort-merge depending on size and indexes.",
+            "model_en_long": "There are three main join strategies. A nested loop is good for a small table joined to an indexed one, a hash join handles large equality joins, and a sort-merge join works when both sides are already sorted or for range joins. The optimizer chooses based on data size and indexes, but outdated statistics can make it pick the wrong one, so I keep stats fresh."
+          },
+          "tags": ["sql", "join", "interview"]
+        },
+        {
+          "id": "de-sql-window",
+          "type": "concept",
+          "front": "Window functions",
+          "meaning": "行を潰さずグループ内で順位・移動平均・累積などを計算する。",
+          "detail_ja": "OVER(PARTITION BY ... ORDER BY ...) で、各行に対しグループ内の集計・順位・前後参照(LAG/LEAD)・累積を計算する。GROUP BY と違い行を集約しない。ランキング、セッション分析、重複排除に多用。",
+          "examples": [{ "en": "ROW_NUMBER() OVER (PARTITION BY user ORDER BY ts DESC) dedups to the latest row.", "jp": "ROW_NUMBERで各ユーザーの最新行に重複排除した。" }],
+          "pron": { "tts": "Window functions compute per-row results within a partition without collapsing rows." },
+          "explain": {
+            "prompt_ja": "ウィンドウ関数がGROUP BYと何が違うか、用途を英語で説明して。",
+            "points_ja": ["集約せず行ごとに計算", "PARTITION BY / ORDER BY / frame", "ROW_NUMBER/RANK/LAG/LEAD・累積"],
+            "key_phrases": ["window function", "OVER (PARTITION BY ... ORDER BY ...)", "ROW_NUMBER / RANK", "running total", "without collapsing rows"],
+            "model_en": "Window functions compute per-row results within a partition without collapsing rows.",
+            "model_en_long": "Window functions let me compute rankings, running totals, or previous-row values within a partition, without collapsing rows the way GROUP BY does. I use OVER with PARTITION BY and ORDER BY, plus functions like ROW_NUMBER, RANK, and LAG. They're great for ranking, sessionization, and deduplicating to the latest record."
+          },
+          "tags": ["sql", "window-function", "interview"]
+        },
+        {
+          "id": "de-sql-partition-pruning",
+          "type": "concept",
+          "front": "Partitioning & partition pruning",
+          "meaning": "テーブルを分割し、不要パーティションを読み飛ばして高速化する。",
+          "detail_ja": "日付などでパーティション分割すると、WHERE で対象期間だけ読む(partition pruning)ため走査が激減する。データレイクでは日付ディレクトリ＋列指向(Parquet)で同様の効果。分割キーがクエリ条件と一致することとファイルサイズが鍵。",
+          "examples": [{ "en": "Partition pruning cut a scan from 2 TB to 20 GB.", "jp": "pruningで走査が2TBから20GBに減った。" }],
+          "pron": { "tts": "Partitioning by date lets the engine prune partitions and read only what's needed." },
+          "explain": {
+            "prompt_ja": "パーティショニングとpruningがなぜ速いかを英語で説明して。",
+            "points_ja": ["分割キー(日付等)でpruning", "読むデータ量を激減", "レイクではParquet＋ディレクトリ分割"],
+            "key_phrases": ["partitioning", "partition pruning", "prune partitions", "partition key", "columnar format (Parquet)"],
+            "model_en": "Partitioning by date lets the engine prune partitions and read only what's needed.",
+            "model_en_long": "Partitioning splits a big table by a key like date, so a query with a date filter prunes partitions and reads only the relevant slice instead of the whole table. In a data lake we get the same effect with date-based directories and a columnar format like Parquet. The key is choosing a partition key that matches query filters and keeping file sizes reasonable."
+          },
+          "tags": ["sql", "partitioning", "interview"]
+        },
+        {
+          "id": "de-sql-cte-materialize",
+          "type": "concept",
+          "front": "CTEs, subqueries & predicate pushdown",
+          "meaning": "可読性と最適化のため CTE/サブクエリを使い分け、述語を早く適用する。",
+          "detail_ja": "CTE(WITH)は可読性が高いが、エンジンによっては最適化境界(materialize)となり再利用や述語押下げ(predicate pushdown)を妨げることがある。大量データでは早期フィルタ、必要なら一時テーブル化、不要な DISTINCT/ORDER BY の削減が効く。",
+          "examples": [{ "en": "Pushing the date filter into the CTE cut runtime in half.", "jp": "日付フィルタをCTE内に押し込み実行時間が半減した。" }],
+          "pron": { "tts": "CTEs improve readability, but I watch that they don't block predicate pushdown." },
+          "explain": {
+            "prompt_ja": "CTE/サブクエリの使い分けと最適化の注意点を英語で説明して。",
+            "points_ja": ["CTEは可読性、ただし最適化境界になり得る", "述語押下げ(predicate pushdown)を意識", "早期フィルタ/一時テーブル化/不要処理削減"],
+            "key_phrases": ["common table expression (CTE)", "optimization fence / materialized", "predicate pushdown", "filter early", "temporary table"],
+            "model_en": "CTEs improve readability, but I watch that they don't block predicate pushdown.",
+            "model_en_long": "I use CTEs for readability, but in some engines a CTE becomes an optimization fence that gets materialized, which can block predicate pushdown and hurt performance on large data. So I filter as early as possible, sometimes materialize into a temporary table on purpose, and drop unnecessary DISTINCT or ORDER BY. The goal is to read and process as few rows as possible."
+          },
+          "tags": ["sql", "cte", "interview"]
+        }
+      ]
+    }
+  ]
+}

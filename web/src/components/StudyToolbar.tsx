@@ -2,10 +2,13 @@ import type { ReactNode } from "react";
 import type { DeckSort, ItemType, SetSize, StudyContentMode, StudyDirection, StudyMode } from "../types";
 import { CATEGORY_LABELS, CATEGORY_STYLES } from "../lib/themes";
 
+type ToolbarVariant = "default" | "grammar";
+
 interface Props {
   categories: ItemType[];
   category: ItemType;
   hideCategoryTabs?: boolean;
+  variant?: ToolbarVariant;
   studyMode: StudyMode;
   direction: StudyDirection;
   contentMode: StudyContentMode;
@@ -72,7 +75,10 @@ export function StudyToolbar({
   onUnlearnedOnly,
   onShuffle,
   hideCategoryTabs = false,
+  variant = "default",
 }: Props) {
+  const isGrammar = variant === "grammar";
+
   return (
     <div className="space-y-3 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
       {studyMode === "set" && !hideCategoryTabs ? (
@@ -94,7 +100,9 @@ export function StudyToolbar({
         </div>
       ) : (
         <p className="text-sm text-slate-600 dark:text-slate-400">
-          今日の復習は全カテゴリ混在キュー（忘却曲線優先）
+          {isGrammar
+            ? "文法項目の今日の復習（忘却曲線優先）"
+            : "今日の復習は全カテゴリ混在キュー（忘却曲線優先）"}
         </p>
       )}
 
@@ -114,49 +122,55 @@ export function StudyToolbar({
         <ToggleBtn active={direction === "jp-to-en"} onClick={() => onDirection("jp-to-en")}>
           意味→見出し
         </ToggleBtn>
-        <ToggleBtn active={contentMode === "semantic"} onClick={() => onContentMode("semantic")}>
-          語義
-        </ToggleBtn>
-        <ToggleBtn active={contentMode === "cloze"} onClick={() => onContentMode("cloze")}>
-          例文穴埋め
-        </ToggleBtn>
+        {!isGrammar && (
+          <>
+            <ToggleBtn active={contentMode === "semantic"} onClick={() => onContentMode("semantic")}>
+              語義
+            </ToggleBtn>
+            <ToggleBtn active={contentMode === "cloze"} onClick={() => onContentMode("cloze")}>
+              例文穴埋め
+            </ToggleBtn>
+          </>
+        )}
       </div>
 
       {studyMode === "set" && (
-        <>
-          <div className="flex flex-wrap gap-2">
-            {([10, 30, 50] as SetSize[]).map((n) => (
+        <div className="flex flex-wrap gap-2">
+          {!isGrammar &&
+            ([10, 30, 50] as SetSize[]).map((n) => (
               <ToggleBtn key={n} active={setSize === n} onClick={() => onSetSize(n)}>
                 {n}枚
               </ToggleBtn>
             ))}
-            <ToggleBtn active={sort === "random"} onClick={() => onSort("random")}>
-              ランダム
-            </ToggleBtn>
-            <ToggleBtn active={sort === "asc"} onClick={() => onSort("asc")}>
-              昇順
-            </ToggleBtn>
-            <button
-              type="button"
-              className="rounded-lg bg-slate-100 px-3 py-1.5 text-sm hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700"
-              onClick={onShuffle}
-              title="S キー"
-            >
-              シャッフル
-            </button>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            <ToggleBtn active={dueOnly} onClick={() => onDueOnly(!dueOnly)}>
-              今日の復習のみ
-            </ToggleBtn>
-            <ToggleBtn active={hardOnly} onClick={() => onHardOnly(!hardOnly)}>
-              苦手だけ
-            </ToggleBtn>
-            <ToggleBtn active={unlearnedOnly} onClick={() => onUnlearnedOnly(!unlearnedOnly)}>
-              未学習だけ
-            </ToggleBtn>
-          </div>
-        </>
+          <ToggleBtn active={sort === "random"} onClick={() => onSort("random")}>
+            ランダム
+          </ToggleBtn>
+          <ToggleBtn active={sort === "asc"} onClick={() => onSort("asc")}>
+            昇順
+          </ToggleBtn>
+          <button
+            type="button"
+            className="rounded-lg bg-slate-100 px-3 py-1.5 text-sm hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700"
+            onClick={onShuffle}
+            title="S キー"
+          >
+            シャッフル
+          </button>
+        </div>
+      )}
+
+      {studyMode === "set" && !isGrammar && (
+        <div className="flex flex-wrap gap-2">
+          <ToggleBtn active={dueOnly} onClick={() => onDueOnly(!dueOnly)}>
+            今日の復習のみ
+          </ToggleBtn>
+          <ToggleBtn active={hardOnly} onClick={() => onHardOnly(!hardOnly)}>
+            苦手だけ
+          </ToggleBtn>
+          <ToggleBtn active={unlearnedOnly} onClick={() => onUnlearnedOnly(!unlearnedOnly)}>
+            未学習だけ
+          </ToggleBtn>
+        </div>
       )}
     </div>
   );

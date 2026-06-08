@@ -1,0 +1,116 @@
+{
+  "domain": "engineering",
+  "collection": "data-modeling",
+  "collectionName": "データモデリング / DWH",
+  "kind": "concept",
+  "themes": [
+    {
+      "theme": 1,
+      "themeName": "ディメンショナルモデリング（面接頻出）",
+      "items": [
+        {
+          "id": "de-dm-star-schema",
+          "type": "concept",
+          "front": "Star schema (facts & dimensions)",
+          "meaning": "中心のfactテーブルを、文脈を持つdimensionで囲むDWH設計。",
+          "detail_ja": "factは数値の測定値(売上・クリック)と外部キーを持ち、dimensionは文脈(顧客・商品・日付)を持つ。あえて非正規化することで結合が単純・高速になりBIに最適。dimensionをさらに正規化したものがsnowflakeスキーマ。",
+          "examples": [{ "en": "We modeled sales as a fact table joined to date, store, and product dimensions.", "jp": "売上をfactにし、日付・店舗・商品のdimensionと結合した。" }],
+          "pron": { "tts": "A star schema puts a central fact table of measurements around descriptive dimension tables." },
+          "explain": {
+            "prompt_ja": "スタースキーマ(fact/dimension)とは何かを英語で説明して。",
+            "points_ja": ["中心fact(測定値+FK)＋周囲dimension(文脈)", "非正規化で結合が単純・高速・BI向き", "snowflakeとの違い"],
+            "key_phrases": ["star schema", "fact and dimension tables", "denormalized for fast joins", "the grain of the fact", "snowflake schema"],
+            "model_en": "A star schema puts a central fact table of measurements around descriptive dimension tables.",
+            "model_en_long": "A star schema has a central fact table—numeric measurements like sales plus foreign keys—surrounded by dimension tables that hold context like customer, product, and date. It's deliberately denormalized so joins are simple and fast, which is ideal for BI and analytics. A snowflake schema is the variant where the dimensions are further normalized."
+          },
+          "tags": ["data-modeling", "dwh", "interview"]
+        },
+        {
+          "id": "de-dm-normalization",
+          "type": "concept",
+          "front": "Normalization vs denormalization (OLTP/OLAP)",
+          "meaning": "正規化は冗長排除(書き込み向き)、非正規化は読み高速化(分析向き)。",
+          "detail_ja": "OLTP(業務処理)は正規化で更新異常を防ぎ整合性を重視。OLAP(分析)は非正規化やスタースキーマで結合を減らし読みを高速化。DWHは基本非正規化で、トレードオフは整合性/書き込み単純さ vs 読み速度。",
+          "examples": [{ "en": "For the warehouse we denormalized to cut join depth for dashboards.", "jp": "DWHではダッシュボード向けに非正規化して結合を浅くした。" }],
+          "pron": { "tts": "I normalize for transactional systems and denormalize for analytics." },
+          "explain": {
+            "prompt_ja": "正規化と非正規化(OLTP/OLAP)の使い分けを英語で説明して。",
+            "points_ja": ["正規化=冗長排除・整合性(OLTP)", "非正規化=読み高速(OLAP/分析)", "トレードオフ: 整合性 vs 読み速度"],
+            "key_phrases": ["normalization", "denormalization", "OLTP vs OLAP", "update anomalies", "redundancy for read speed"],
+            "model_en": "I normalize for transactional systems and denormalize for analytics.",
+            "model_en_long": "Normalization removes redundancy and prevents update anomalies, which is what you want in an OLTP transactional system. For analytics—OLAP—I denormalize, often into a star schema, so there are fewer joins and reads are fast. The trade-off is consistency and write simplicity versus read speed, and a warehouse leans toward read speed."
+          },
+          "tags": ["data-modeling", "oltp-olap", "interview"]
+        },
+        {
+          "id": "de-dm-grain",
+          "type": "concept",
+          "front": "The grain of a fact table",
+          "meaning": "factの1行が何を表すか(粒度)を最初に決める。",
+          "detail_ja": "『1行が何を表すか』(例:1注文明細、1日1店舗の集計)を最初に定義するのがディメンショナルモデリングの第一歩。粒度を混在させると集計が壊れ二重計上が起きる。細かい粒度ほど柔軟だが容量が増える。",
+          "examples": [{ "en": "We set the grain to one row per order line item.", "jp": "grainを『注文明細1行』に設定した。" }],
+          "pron": { "tts": "I declare the grain first—what a single fact row represents." },
+          "explain": {
+            "prompt_ja": "ファクトテーブルのgrain(粒度)を最初に決める理由を英語で説明して。",
+            "points_ja": ["grain=1行の意味を最初に宣言", "粒度の混在は集計を壊す(二重計上)", "細粒度=柔軟だが大容量"],
+            "key_phrases": ["the grain", "one row represents", "declare the grain first", "atomic vs aggregated grain", "mixing grains breaks aggregations"],
+            "model_en": "I declare the grain first—what a single fact row represents—before anything else.",
+            "model_en_long": "The grain is what a single fact row represents, like one order line item or one store-day summary. In dimensional modeling you declare the grain first, because mixing grains in one table breaks aggregations and double-counts. A finer grain is more flexible but larger, so I pick the finest grain the use cases actually need."
+          },
+          "tags": ["data-modeling", "grain", "interview"]
+        },
+        {
+          "id": "de-dm-scd",
+          "type": "concept",
+          "front": "Slowly Changing Dimensions (SCD)",
+          "meaning": "dimension属性の変化履歴の扱い。Type2で履歴を残す。",
+          "detail_ja": "顧客住所など時間で変わるdimension属性の扱い方。Type1は上書き(履歴なし)、Type2は新しい行＋有効/失効日で履歴を保持し、時点(point-in-time)分析を可能にする。『当時の値』が要るかで選ぶ。",
+          "examples": [{ "en": "We used SCD Type 2 so reports reflect the address a customer had at order time.", "jp": "SCD Type2で注文時点の住所を反映させた。" }],
+          "pron": { "tts": "For attributes that change over time I usually use SCD Type 2 to keep history." },
+          "explain": {
+            "prompt_ja": "SCD(特にType2)とは何かを英語で説明して。",
+            "points_ja": ["dimension属性の変化をどう扱うか", "Type1=上書き / Type2=履歴行(有効/失効日)", "『当時の値』が要るならType2"],
+            "key_phrases": ["slowly changing dimension", "SCD Type 1 vs Type 2", "overwrite vs keep history", "effective and expiry dates", "point-in-time analysis"],
+            "model_en": "For attributes that change over time I usually use SCD Type 2 to keep history.",
+            "model_en_long": "Slowly changing dimensions are about how you handle dimension attributes that change over time, like a customer's address. Type 1 just overwrites and keeps no history, while Type 2 adds a new row with effective and expiry dates so you preserve history. I use Type 2 when the analysis needs the value as it was at a point in time."
+          },
+          "tags": ["data-modeling", "scd", "interview"]
+        },
+        {
+          "id": "de-dm-elt-dbt",
+          "type": "concept",
+          "front": "ELT & dbt (staging → marts)",
+          "meaning": "生データを取り込んでからウェアハウス内でSQL/dbtにより層状に変換する。",
+          "detail_ja": "ELTは load→transform。生データをウェアハウスに入れ、dbtでSQLモデルとして staging→intermediate→marts と層状に変換する。テスト・lineage・ドキュメントが付き、変換がバージョン管理され再実行も容易。ETLより柔軟。",
+          "examples": [{ "en": "A dbt test caught a null key before it reached the marts layer.", "jp": "dbtのテストがmarts層に届く前にnullキーを検知した。" }],
+          "pron": { "tts": "We do ELT and transform in the warehouse with dbt, layering staging into marts." },
+          "explain": {
+            "prompt_ja": "ELTとdbtによる層状の変換を英語で説明して。",
+            "points_ja": ["ELT(load後にwarehouse内で変換)", "dbtで層状(staging→marts)・テスト/lineage", "SQLでバージョン管理・再実行容易"],
+            "key_phrases": ["ELT not ETL", "transform in the warehouse", "dbt models", "staging and marts layers", "tests and lineage"],
+            "model_en": "We do ELT and transform in the warehouse with dbt, layering staging into marts.",
+            "model_en_long": "With ELT we load raw data into the warehouse first and transform it there, instead of transforming before load. We use dbt to build SQL models in layers—staging, intermediate, then marts—with built-in tests, lineage, and docs. Because the transformations are just version-controlled SQL, they're easy to review, test, and re-run."
+          },
+          "tags": ["data-modeling", "elt", "dbt", "interview"]
+        },
+        {
+          "id": "de-dm-idempotent-merge",
+          "type": "concept",
+          "front": "Idempotent loads (MERGE / upsert)",
+          "meaning": "再実行しても二重にならない冪等なロード。",
+          "detail_ja": "パイプラインは失敗・再実行が前提。同じバッチを再実行しても重複しないよう、自然キーでのMERGE(upsert)やパーティション単位の上書き(insert-overwrite)を使う。冪等性はバックフィルや障害復旧で必須。",
+          "examples": [{ "en": "Switching to MERGE made nightly backfills safe to re-run.", "jp": "MERGE化で夜間バックフィルの再実行が安全になった。" }],
+          "pron": { "tts": "I make loads idempotent with MERGE so re-running a batch never duplicates rows." },
+          "explain": {
+            "prompt_ja": "冪等なロード(MERGE/upsert)がなぜ必要かを英語で説明して。",
+            "points_ja": ["再実行で重複しない(冪等)", "MERGE/upsert・パーティション上書き", "バックフィル/障害復旧に必須"],
+            "key_phrases": ["idempotent load", "MERGE / upsert", "insert-overwrite a partition", "natural key", "safe to re-run / backfill"],
+            "model_en": "I make loads idempotent with MERGE so re-running a batch never duplicates rows.",
+            "model_en_long": "Pipelines fail and get re-run, so loads must be idempotent—re-running the same batch shouldn't create duplicates. I do that with a MERGE or upsert on a natural key, or by overwriting a whole partition at once. Idempotency is what makes backfills and failure recovery safe."
+          },
+          "tags": ["data-modeling", "idempotency", "interview"]
+        }
+      ]
+    }
+  ]
+}

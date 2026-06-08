@@ -20,7 +20,7 @@ export function GrammarPage() {
           文法項目をフラッシュカードで学習します。
         </p>
       </div>
-      <CategoryStudyView category="grammar" items={items} />
+      <CategoryStudyView category="grammar" items={items} grammarMode />
     </div>
   );
 }
