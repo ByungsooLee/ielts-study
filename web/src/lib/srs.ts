@@ -24,7 +24,9 @@ export function getOrCreateSched(progress: ProgressData, itemId: string, today =
 }
 
 export function applyGrade(record: Sched, grade: Grade, today = todayDay()): Sched {
-  return applySm2Grade(record, grade, today);
+  const next = applySm2Grade(record, grade, today);
+  if (grade !== "maybe") return next;
+  return { ...next, maybeCount: (record.maybeCount ?? 0) + 1 };
 }
 
 export function isDue(record: Sched | undefined, today = todayDay()): boolean {

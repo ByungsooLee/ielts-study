@@ -7,19 +7,14 @@ import { ReviewForecast } from "../components/ReviewForecast";
 import { SetCompletePanel } from "../components/SetCompletePanel";
 import { StudyProgressBar } from "../components/StudyProgressBar";
 import { StudyToolbar } from "../components/StudyToolbar";
-import { ThemeNav } from "../components/ThemeNav";
 import { SM2 } from "../lib/sm2";
 import { buildDailyReviewDeck, buildStudyDeck } from "../lib/studyDeck";
 import type { DailyQueueResult } from "../lib/dailyQueue";
 import { getOrCreateSched } from "../lib/srs";
-import { collectThemes, buildThemeRanges, hasOtherThemeItems } from "../lib/themes";
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
-import {
-  getThemeRangeFromPrefs,
-  useStudySessionStore,
-} from "../stores/studySessionStore";
+import { useStudySessionStore } from "../stores/studySessionStore";
 import type { ContentRecord, ItemType, PlaybackRate } from "../types";
 
 const ALL_CATEGORIES: ItemType[] = ["word", "phrase", "grammar", "conversation"];
@@ -100,17 +95,6 @@ export function StudyPage() {
     categoryFixed.current = true;
   }, [categories, session.category]);
 
-  const themes = useMemo(
-    () => collectThemes(items, session.category),
-    [items, session.category],
-  );
-  const ranges = useMemo(() => buildThemeRanges(themes), [themes]);
-  const themeRange = getThemeRangeFromPrefs(ranges, session.themeRangeMin);
-  const hasOther = useMemo(
-    () => hasOtherThemeItems(items, session.category),
-    [items, session.category],
-  );
-
   useEffect(() => {
     if (session.studyMode !== "review" || items.length === 0) {
       setReviewSnapshot(null);
@@ -132,8 +116,8 @@ export function StudyPage() {
     () =>
       buildStudyDeck(items, progress, {
         category: session.category,
-        themeFilter: session.themeFilter,
-        themeRange,
+        themeFilter: "all",
+        themeRange: null,
         dueOnly: session.dueOnly,
         hardOnly: session.hardOnly,
         unlearnedOnly: session.unlearnedOnly,
@@ -144,8 +128,6 @@ export function StudyPage() {
       items,
       progress,
       session.category,
-      session.themeFilter,
-      themeRange,
       session.dueOnly,
       session.hardOnly,
       session.unlearnedOnly,
@@ -240,18 +222,6 @@ export function StudyPage() {
         onUnlearnedOnly={session.setUnlearnedOnly}
         onShuffle={session.bumpDeckKey}
       />
-
-      {session.studyMode === "set" && (
-        <ThemeNav
-          category={session.category}
-          ranges={ranges}
-          themeFilter={session.themeFilter}
-          themeRangeMin={session.themeRangeMin}
-          hasOther={hasOther}
-          onThemeFilter={session.setThemeFilter}
-          onThemeRange={session.setThemeRange}
-        />
-      )}
 
       {session.studyMode === "review" && (
         <ReviewForecast records={items} progress={progress} />

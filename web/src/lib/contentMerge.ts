@@ -1,4 +1,22 @@
-import type { ContentData, ContentRecord } from "../types";
+import type { ContentData, ContentRecord, StudyItem } from "../types";
+
+function enrichItemFromRemote(local: StudyItem, remote: StudyItem): StudyItem {
+  if (local.theme || !remote.theme) return local;
+  return {
+    ...local,
+    theme: remote.theme,
+    themeName: remote.themeName ?? local.themeName,
+  };
+}
+
+function mergeRecordPair(local: ContentRecord, remote: ContentRecord): ContentRecord {
+  if (remote.importedAt >= local.importedAt) {
+    const item = enrichItemFromRemote(remote.item, local.item);
+    return { ...remote, item };
+  }
+  const item = enrichItemFromRemote(local.item, remote.item);
+  return { ...local, item };
+}
 
 export function normalizeContentData(data: Partial<ContentData>): ContentData {
   return {
@@ -19,8 +37,10 @@ export function mergeContent(local: ContentData, remote: ContentData): ContentDa
   for (const record of local.records) map.set(record.id, record);
   for (const record of remote.records) {
     const existing = map.get(record.id);
-    if (!existing || record.importedAt >= existing.importedAt) {
+    if (!existing) {
       map.set(record.id, record);
+    } else {
+      map.set(record.id, mergeRecordPair(existing, record));
     }
   }
   return {

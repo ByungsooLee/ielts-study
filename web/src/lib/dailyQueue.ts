@@ -1,4 +1,5 @@
 import type { ContentRecord, ProgressData, Sched } from "../types";
+import { interleaveEvenly } from "./deckBalance";
 import { SM2 } from "./sm2";
 import { todayDay } from "./srs";
 
@@ -65,10 +66,7 @@ export function buildDailyQueue(
   newItems.sort((a, b) => (a.item.n ?? 999999) - (b.item.n ?? 999999));
 
   const newSelected = newItems.slice(0, newSlots);
-  let queue = [...dueItems, ...newSelected];
-  if (queue.length > maxTotal) {
-    queue = queue.slice(0, maxTotal);
-  }
+  const queue = interleaveEvenly(dueItems, newSelected, maxTotal);
 
   const newInQueue = queue.filter((r) => isNewItem(progress, r.id)).length;
 

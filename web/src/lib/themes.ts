@@ -1,4 +1,4 @@
-import type { ContentRecord, ItemType, ThemeInfo, ThemeRange } from "../types";
+import type { ContentRecord, ItemType, ThemeInfo, ThemeRange, ThemeStat } from "../types";
 
 export const THEME_OTHER = "other" as const;
 export type ThemeFilter = number | typeof THEME_OTHER | "all";
@@ -17,38 +17,51 @@ export const CATEGORY_STYLES: Record<
   word: {
     active: "bg-blue-600 text-white",
     inactive: "bg-blue-50 text-blue-800 hover:bg-blue-100 dark:bg-blue-950 dark:text-blue-200 dark:hover:bg-blue-900",
-    ring: "ring-blue-400",
+    ring: "ring-2 ring-blue-400",
     badge: "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200",
   },
   phrase: {
     active: "bg-emerald-600 text-white",
     inactive: "bg-emerald-50 text-emerald-800 hover:bg-emerald-100 dark:bg-emerald-950 dark:text-emerald-200 dark:hover:bg-emerald-900",
-    ring: "ring-emerald-400",
+    ring: "ring-2 ring-emerald-400",
     badge: "bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200",
   },
   grammar: {
     active: "bg-violet-600 text-white",
     inactive: "bg-violet-50 text-violet-800 hover:bg-violet-100 dark:bg-violet-950 dark:text-violet-200 dark:hover:bg-violet-900",
-    ring: "ring-violet-400",
+    ring: "ring-2 ring-violet-400",
     badge: "bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200",
   },
   conversation: {
     active: "bg-orange-600 text-white",
     inactive: "bg-orange-50 text-orange-800 hover:bg-orange-100 dark:bg-orange-950 dark:text-orange-200 dark:hover:bg-orange-900",
-    ring: "ring-orange-400",
+    ring: "ring-2 ring-orange-400",
     badge: "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200",
   },
 };
 
-export function collectThemes(records: ContentRecord[], category: ItemType): ThemeInfo[] {
-  const map = new Map<number, string>();
+export function collectThemeStats(records: ContentRecord[], category: ItemType): ThemeStat[] {
+  const map = new Map<number, { name: string; count: number }>();
   for (const { item } of records) {
     if (item.type !== category || !item.theme) continue;
-    map.set(item.theme, item.themeName ?? `テーマ${item.theme}`);
+    const existing = map.get(item.theme);
+    if (existing) {
+      existing.count += 1;
+      if (item.themeName) existing.name = item.themeName;
+    } else {
+      map.set(item.theme, {
+        name: item.themeName ?? `テーマ${item.theme}`,
+        count: 1,
+      });
+    }
   }
   return [...map.entries()]
     .sort(([a], [b]) => a - b)
-    .map(([num, name]) => ({ num, name }));
+    .map(([num, { name, count }]) => ({ num, name, count }));
+}
+
+export function collectThemes(records: ContentRecord[], category: ItemType): ThemeInfo[] {
+  return collectThemeStats(records, category).map(({ num, name }) => ({ num, name }));
 }
 
 export function buildThemeRanges(themes: ThemeInfo[]): ThemeRange[] {
@@ -69,6 +82,59 @@ export function buildThemeRanges(themes: ThemeInfo[]): ThemeRange[] {
   return ranges;
 }
 
+export function needsThemeRangeNav(stats: ThemeStat[]): boolean {
+  if (!stats.length) return false;
+  return stats[stats.length - 1].num >= 11;
+}
+
+export function getVisibleThemes(
+  stats: ThemeStat[],
+  ranges: ThemeRange[],
+  themeRangeMin: number | null,
+): ThemeStat[] {
+  if (!stats.length) return [];
+  if (!needsThemeRangeNav(stats)) return stats;
+
+  const activeRange =
+    themeRangeMin != null ? ranges.find((r) => r.min === themeRangeMin) : ranges[0];
+  if (!activeRange) return stats;
+
+  return stats.filter((t) => t.num >= activeRange.min && t.num <= activeRange.max);
+}
+
+export function countOtherThemeItems(records: ContentRecord[], category: ItemType): number {
+  return records.filter((r) => r.item.type === category && !r.item.theme).length;
+}
+
+export function getThemeSelectionLabel(
+  themeFilter: ThemeFilter,
+  stats: ThemeStat[],
+  visibleStats: ThemeStat[],
+  otherCount = 0,
+): string {
+  if (themeFilter === THEME_OTHER) {
+    return `その他・${otherCount}語`;
+  }
+  if (themeFilter === "all") {
+    const pool = visibleStats.length ? visibleStats : stats;
+    const total = pool.reduce((sum, t) => sum + t.count, 0);
+    if (needsThemeRangeNav(stats) && visibleStats.length) {
+      const min = visibleStats[0].num;
+      const max = visibleStats[visibleStats.length - 1].num;
+      return `テーマ${min}–${max} 全部・${total}語`;
+    }
+    return `全部・${total}語`;
+  }
+  if (typeof themeFilter === "number") {
+    const stat = stats.find((t) => t.num === themeFilter);
+    if (stat) {
+      return `テーマ${stat.num} ${stat.name}・${stat.count}語`;
+    }
+    return `テーマ${themeFilter}`;
+  }
+  return "テーマ";
+}
+
 export function matchesThemeFilter(item: ContentRecord["item"], themeFilter: ThemeFilter): boolean {
   if (themeFilter === "all") return true;
   if (themeFilter === THEME_OTHER) return !item.theme;
@@ -82,5 +148,5 @@ export function matchesThemeRange(item: ContentRecord["item"], range: ThemeRange
 }
 
 export function hasOtherThemeItems(records: ContentRecord[], category: ItemType): boolean {
-  return records.some((r) => r.item.type === category && !r.item.theme);
+  return countOtherThemeItems(records, category) > 0;
 }

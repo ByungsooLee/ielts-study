@@ -6,8 +6,10 @@ import { getAllContent } from "./db";
 import { startVersionCheck } from "./lib/versionCheck";
 import { HardPage } from "./pages/HardPage";
 import { LibraryPage } from "./pages/LibraryPage";
+import { MaybePage } from "./pages/MaybePage";
 import { SettingsPage } from "./pages/SettingsPage";
 import { StudyPage } from "./pages/StudyPage";
+import { SynonymQuizPage } from "./pages/SynonymQuizPage";
 import { useContentStore } from "./stores/contentStore";
 import { useProgressStore } from "./stores/progressStore";
 import { useSettingsStore } from "./stores/settingsStore";
@@ -64,6 +66,8 @@ export default function App() {
           <nav className="flex flex-wrap gap-2">
             <NavLink to="/" end className={navClass}>ライブラリ</NavLink>
             <NavLink to="/study" className={navClass}>学習</NavLink>
+            <NavLink to="/maybe" className={navClass}>あいまい一覧</NavLink>
+            <NavLink to="/synonym" className={navClass}>類義語クイズ</NavLink>
             <NavLink to="/settings" className={navClass}>設定</NavLink>
           </nav>
         </div>
@@ -73,6 +77,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<LibraryPage />} />
           <Route path="/study" element={<StudyPage />} />
+          <Route path="/maybe" element={<MaybePage />} />
+          <Route path="/synonym" element={<SynonymQuizPage />} />
           <Route path="/review" element={<Navigate to="/study" replace />} />
           <Route path="/hard" element={<HardPage />} />
           <Route path="/settings" element={<SettingsPage />} />

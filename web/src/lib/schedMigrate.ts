@@ -25,6 +25,7 @@ export function migrateLegacyRecord(legacy: LegacySrsRecord): Sched {
     interval: INTERVALS[box] ?? 0,
     due: legacy.due,
     lapses: legacy.lapses,
+    maybeCount: 0,
     last: legacy.ts,
     status,
   };
@@ -36,7 +37,8 @@ export function migrateProgressSrs(srs: ProgressData["srs"]): Record<string, Sch
     if (isLegacySrsRecord(record)) {
       migrated[id] = migrateLegacyRecord(record);
     } else {
-      migrated[id] = record as Sched;
+      const sched = record as Sched;
+      migrated[id] = { ...sched, maybeCount: sched.maybeCount ?? 0 };
     }
   }
   return migrated;

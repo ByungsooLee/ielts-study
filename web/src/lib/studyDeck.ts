@@ -1,4 +1,5 @@
 import type { ContentRecord, DeckSort, ItemType, ProgressData, SetSize, ThemeRange } from "../types";
+import { interleaveEvenly } from "./deckBalance";
 import { buildDailyQueue, type DailyQueueResult } from "./dailyQueue";
 import { isDue, isHard, todayDay } from "./srs";
 import { matchesThemeFilter, type ThemeFilter } from "./themes";
@@ -61,14 +62,33 @@ function sortRecords(records: ContentRecord[], sort: DeckSort): ContentRecord[] 
   return list;
 }
 
+function buildBalancedDeck(
+  records: ContentRecord[],
+  progress: ProgressData,
+  setSize: SetSize,
+  sort: DeckSort,
+): ContentRecord[] {
+  const unlearned = records.filter((r) => isUnlearned(r.item.id, progress));
+  const learned = records.filter((r) => !isUnlearned(r.item.id, progress));
+
+  if (unlearned.length === 0 || learned.length === 0) {
+    return sortRecords(records, sort).slice(0, setSize);
+  }
+
+  return interleaveEvenly(
+    sortRecords(learned, sort),
+    sortRecords(unlearned, sort),
+    setSize,
+  );
+}
+
 export function buildStudyDeck(
   records: ContentRecord[],
   progress: ProgressData,
   filters: DeckFilters,
 ): ContentRecord[] {
   const filtered = filterRecords(records, progress, filters);
-  const sorted = sortRecords(filtered, filters.sort);
-  return sorted.slice(0, filters.setSize);
+  return buildBalancedDeck(filtered, progress, filters.setSize, filters.sort);
 }
 
 export function countDueInCategory(

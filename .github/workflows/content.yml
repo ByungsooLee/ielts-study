@@ -1,0 +1,34 @@
+name: Push content
+
+on:
+  push:
+    branches: [main]
+    paths: ["sample/ielts-import.json"]
+  workflow_dispatch:
+
+concurrency:
+  group: content-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  push-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate secret
+        run: |
+          if [ -z "${{ secrets.SYNC_TOKEN }}" ]; then
+            echo "::error::SYNC_TOKEN が未設定です（GitHub → Settings → Secrets and variables → Actions）"
+            exit 1
+          fi
+
+      - name: Push content to KV
+        env:
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+          WORKER_URL: ${{ vars.WORKER_URL }}
+        run: node tools/push-content.mjs sample/ielts-import.json

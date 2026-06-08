@@ -154,14 +154,50 @@ node tools/push-content.mjs sample/ielts-import.json
 
 ## 教材の更新フロー
 
-```bash
-# 1. IELTS プロジェクトで JSON 再生成
-cd /Users/lee/Claude/Projects/IELTS && node tools/md2json.js
+dev（localhost）も本番（pages.dev）も同じ Worker/KV を参照するため、**KV に反映すれば両環境に届きます**。
 
-# 2. sample にコピーしてクラウドへ反映
-cp ielts-import.json /Users/lee/Documents/ielts-study/sample/ielts-import.json
-cd /Users/lee/Documents/ielts-study && npm run content:push
+### 1. repo に教材 JSON を置く
+
+```bash
+# A. 編集元から取り込み（推奨）
+npm run content:import
+# 別パス: CONTENT_SRC=/path/to/ielts-import.json npm run content:import
+
+# B. Claude などが sample/ielts-import.json を直接更新しても可
 ```
+
+`content:import` は `source.added` と `items[]` を検証します。ソースに `passages` が無い場合、既存 `sample` の `passages` は保持されます。
+
+### 2. git push で本番 KV へ自動反映
+
+```bash
+git add sample/ielts-import.json
+git commit -m "chore: update content"
+git push origin main
+```
+
+→ GitHub Actions の **Push content**（`.github/workflows/content.yml`）が走り、Worker KV `/content` を更新します。アプリは次回起動・同期で新教材を取得します。
+
+教材 JSON のみの push では **Deploy**（Pages/Worker）も並行して走りますが、アプリ本体に変更がなければ従来どおり成功します。
+
+### 3. ローカルで即時反映したい場合
+
+```bash
+npm run content:push
+```
+
+### GitHub Actions の設定（初回のみ）
+
+リポジトリ → **Settings → Secrets and variables → Actions**:
+
+| 種別 | 名前 | 内容 |
+|------|------|------|
+| Secret | `SYNC_TOKEN` | **必須**。Worker の secret `SYNC_TOKEN` と**同じ値**（不一致だと `/content` が 401） |
+| Variable | `WORKER_URL` | 任意。未設定時は `https://ielts-study-worker.byung4050.workers.dev` |
+
+手動実行: Actions → **Push content** → **Run workflow**。
+
+`SYNC_TOKEN` 未登録時はワークフローが明確なエラーで停止します（秘密情報はリポジトリにコミットしません）。
 
 ブラウザ取り込みでも同様にクラウドへ同期されます。各端末は次回起動時に自動取得します。
 

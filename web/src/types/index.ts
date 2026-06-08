@@ -66,6 +66,8 @@ export interface Sched {
   interval: number;
   due: number;
   lapses: number;
+  /** 「あいまい」ボタンを押した累計回数 */
+  maybeCount: number;
   last: number;
   status: SchedStatus;
 }
@@ -171,9 +173,37 @@ export interface ThemeInfo {
   name: string;
 }
 
+export interface ThemeStat {
+  num: number;
+  name: string;
+  count: number;
+}
+
 export interface ThemeRange {
   min: number;
   max: number;
   label: string;
   themes: ThemeInfo[];
+}
+
+export type SynonymQuizFormat = "mcq" | "paraphrase" | "oddOneOut" | "production";
+
+export interface SynonymFormatPrefs {
+  mcq: boolean;
+  paraphrase: boolean;
+  oddOneOut: boolean;
+  production: boolean;
+}
+
+export interface SynonymQuestion {
+  format: SynonymQuizFormat;
+  itemId: string;
+  record: ContentRecord;
+  prompt: string;
+  options?: string[];
+  correctIndex?: number;
+  correctAnswers: string[];
+  clozeSentence?: string;
+  exampleEn?: string;
+  hintLetter?: string;
 }

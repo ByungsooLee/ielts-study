@@ -9,6 +9,7 @@
     "build": "npm run build --prefix web",
     "deploy:worker": "npm run deploy --prefix worker",
     "deploy:web": "npm run deploy --prefix web",
-    "content:push": "node tools/push-content.mjs"
+    "content:push": "node tools/push-content.mjs",
+    "content:import": "node tools/import-content.mjs"
   }
 }

@@ -26,6 +26,7 @@ export function createNewSched(dueDay: number): Sched {
     interval: 0,
     due: dueDay,
     lapses: 0,
+    maybeCount: 0,
     last: Date.now(),
     status: "new",
   };
