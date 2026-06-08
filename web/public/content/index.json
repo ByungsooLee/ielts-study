@@ -1,5 +1,5 @@
 {
-  "version": "11045d01",
+  "version": "0ac42ddf",
   "collections": [
     {
       "id": "ielts-vocab",
@@ -97,7 +97,7 @@
           "themeName": "AI-ready データ基盤のベストプラクティス",
           "count": 9,
           "file": "engineering/ai-data-platform/theme-1.json",
-          "version": "464d88ab"
+          "version": "c5bd5ab8"
         }
       ]
     }

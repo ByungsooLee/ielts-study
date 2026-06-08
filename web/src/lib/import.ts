@@ -1,11 +1,24 @@
-import type { ContentRecord, Example, ImportFile, ImportResult, StudyItem } from "../types";
+import type { ConceptExplain, ContentRecord, Example, ImportFile, ImportResult, StudyItem } from "../types";
 
-const VALID_TYPES = new Set<StudyItem["type"]>(["word", "phrase", "grammar", "conversation"]);
+const VALID_TYPES = new Set<StudyItem["type"]>(["word", "phrase", "grammar", "conversation", "concept"]);
 
 type RawStudyItem = Partial<StudyItem> & {
   pronNote?: string;
   examples?: unknown[];
 };
+
+function normalizeExplain(raw: unknown): ConceptExplain | undefined {
+  if (!raw || typeof raw !== "object") return undefined;
+  const ex = raw as Partial<ConceptExplain>;
+  if (typeof ex.prompt_ja !== "string" || typeof ex.model_en !== "string") return undefined;
+  return {
+    prompt_ja: ex.prompt_ja,
+    model_en: ex.model_en,
+    points_ja: asStringArray(ex.points_ja),
+    key_phrases: asStringArray(ex.key_phrases),
+    model_en_long: typeof ex.model_en_long === "string" ? ex.model_en_long : undefined,
+  };
+}
 
 function asStringArray(value: unknown): string[] | undefined {
   if (!Array.isArray(value)) return undefined;
@@ -62,16 +75,8 @@ export function normalizeItem(raw: RawStudyItem): StudyItem {
     collection: typeof raw.collection === "string" ? raw.collection : undefined,
     theme: typeof raw.theme === "number" && raw.theme > 0 ? raw.theme : undefined,
     themeName: typeof raw.themeName === "string" && raw.themeName.trim() ? raw.themeName.trim() : undefined,
-    explain:
-      raw.explain &&
-      typeof raw.explain === "object" &&
-      typeof (raw.explain as { prompt_ja?: string }).prompt_ja === "string" &&
-      typeof (raw.explain as { model_en?: string }).model_en === "string"
-        ? {
-            prompt_ja: (raw.explain as { prompt_ja: string }).prompt_ja,
-            model_en: (raw.explain as { model_en: string }).model_en,
-          }
-        : undefined,
+    detail_ja: typeof raw.detail_ja === "string" ? raw.detail_ja : undefined,
+    explain: normalizeExplain(raw.explain),
     priority: raw.priority === "S" || raw.priority === "A" || raw.priority === "B" ? raw.priority : undefined,
     links: asStringArray(raw.links),
     note: typeof raw.note === "string" ? raw.note : undefined,

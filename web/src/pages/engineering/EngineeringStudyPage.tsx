@@ -16,9 +16,7 @@ import { useContentStore } from "../../stores/contentStore";
 import { useEngineeringSessionStore } from "../../stores/engineeringSessionStore";
 import { useProgressStore } from "../../stores/progressStore";
 import { useSettingsStore } from "../../stores/settingsStore";
-import type { PlaybackRate } from "../../types";
-
-type Phase = "meaning" | "prompt" | "model";
+import type { EngineeringStep, PlaybackRate } from "../../types";
 
 export function EngineeringStudyPage() {
   const allItems = useContentStore((s) => s.items);
@@ -32,7 +30,7 @@ export function EngineeringStudyPage() {
   const session = useEngineeringSessionStore();
   const [collections, setCollections] = useState<CollectionIndexEntry[]>([]);
   const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
-  const [phase, setPhase] = useState<Phase>("meaning");
+  const [step, setStep] = useState<EngineeringStep>("understand");
 
   useEffect(() => {
     void load();
@@ -84,7 +82,7 @@ export function EngineeringStudyPage() {
     : undefined;
 
   useEffect(() => {
-    setPhase("meaning");
+    setStep("understand");
   }, [session.index, session.deckKey, current?.id]);
 
   const handleGrade = useCallback(
@@ -188,8 +186,8 @@ export function EngineeringStudyPage() {
       {current && (
         <ConceptExplainCard
           record={current}
-          phase={phase}
-          onPhase={setPhase}
+          step={step}
+          onStep={setStep}
           playbackRate={playbackRate}
           onPlaybackRate={setPlaybackRate}
           onGrade={handleGrade}

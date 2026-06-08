@@ -4,8 +4,14 @@ export type ItemType = "word" | "phrase" | "grammar" | "conversation" | "concept
 
 export interface ConceptExplain {
   prompt_ja: string;
+  points_ja?: string[];
+  key_phrases?: string[];
   model_en: string;
+  model_en_long?: string;
 }
+
+/** Engineering 概念カードの学習ステップ */
+export type EngineeringStep = "understand" | "points" | "phrases" | "practice";
 
 export interface Example {
   en: string;
@@ -44,6 +50,7 @@ export interface StudyItem {
   front: string;
   ipa?: string;
   meaning: string;
+  detail_ja?: string;
   synonyms?: string[];
   collocation?: string;
   examples?: Example[];

@@ -4,26 +4,39 @@
   "collectionName": "AI-ready データ基盤",
   "theme": 1,
   "themeName": "AI-ready データ基盤のベストプラクティス",
-  "version": "464d88ab",
+  "version": "c5bd5ab8",
   "items": [
     {
       "n": 207,
       "id": "de-unified-access",
       "type": "concept",
       "front": "Break down silos / unified access",
-      "meaning": "AI基盤の第一歩はデータのサイロを壊し、全社のデータを単一の統治された見え方に統合すること。",
+      "meaning": "サイロを壊し、全社データを単一の統治されたビューに統合する（AI基盤の第一歩）。",
+      "detail_ja": "サイロ化したデータは重複・不整合・発見困難を生む。レイクハウスやデータ仮想化で物理的に分散したデータへ統一的にアクセスし、所有権・権限を保ったまま『単一の真実の源(SSOT)』に近づける。AIは横断データで初めて価値を出すため、統合が前提になる。",
       "examples": [
         {
-          "en": "The first step is breaking down silos and giving everyone a single, governed view of the data.",
-          "jp": "最初の一歩はサイロを壊し、統治された単一のデータビューを全員に提供すること。"
+          "en": "We unified access so analysts query one governed view instead of ten copies.",
+          "jp": "統一アクセスにより、アナリストは10個のコピーではなく1つの統治ビューを参照する。"
         }
       ],
       "pron": {
-        "tts": "The first step is breaking down silos and giving everyone a single, governed view of the data."
+        "tts": "The first step toward AI-ready data is breaking down silos and giving everyone a single, governed view."
       },
       "explain": {
-        "prompt_ja": "AI-readyなデータ基盤づくりで最初にやるべきこと（サイロ解消・統一アクセス）を英語で説明して。",
-        "model_en": "The first step toward AI-ready data is breaking down silos. We unify access across databases, lakes, and apps so everyone works from a single, governed view instead of scattered copies."
+        "prompt_ja": "AI-ready基盤で最初にやる『サイロ解消・統一アクセス』を、理由と手段を含めて英語で説明して。",
+        "points_ja": [
+          "なぜサイロが問題か（重複・不整合・発見困難）",
+          "統一アクセスの手段（lakehouse / データ仮想化 / カタログ）",
+          "SSOTと権限の両立"
+        ],
+        "key_phrases": [
+          "break down data silos",
+          "a single, governed view",
+          "single source of truth",
+          "unified access layer"
+        ],
+        "model_en": "The first step toward AI-ready data is breaking down silos and giving everyone a single, governed view.",
+        "model_en_long": "The first step toward AI-ready data is breaking down silos. When data is scattered across separate databases and apps, you get duplication, inconsistency, and things nobody can find. We build a unified access layer, often a lakehouse or data virtualization, so teams query one governed view that's close to a single source of truth while access controls stay intact. AI only delivers value when it can see data across the whole business, so this unification is foundational."
       },
       "tags": [
         "data-engineering",
@@ -40,22 +53,35 @@
       "id": "de-data-quality",
       "type": "concept",
       "front": "Data quality & data contracts",
-      "meaning": "モデルはデータ品質に依存。正確性・一貫性・鮮度・欠損の少なさを保証し、data contractsで上流がスキーマを壊さないようにする。",
+      "meaning": "正確性・一貫性・鮮度を担保し、data contracts でスキーマを守る。",
+      "detail_ja": "『Garbage in, garbage out』。欠損・重複・型崩れ・鮮度低下はモデル精度を直撃する。品質チェック（検証ルール／期待値テスト）をパイプラインに組み込み、上流の破壊を防ぐ data contracts（スキーマ・SLA・所有者を明文化）で producer と consumer の責任境界を定める。",
       "examples": [
         {
-          "en": "AI is only as good as its data, so we enforce quality and use data contracts.",
-          "jp": "AIはデータ次第なので、品質を担保しデータ契約を使う。"
+          "en": "A data contract caught a breaking schema change before it reached the model.",
+          "jp": "データ契約が、モデルに届く前に破壊的なスキーマ変更を検知した。"
         }
       ],
       "pron": {
         "tts": "AI is only as good as its data, so we enforce quality and use data contracts."
       },
       "explain": {
-        "prompt_ja": "データ品質とdata contractsの重要性を英語で説明して。",
-        "model_en": "AI is only as good as its data, so we enforce quality—accuracy, consistency, and freshness—and we use data contracts so upstream producers can't silently break the schema downstream."
+        "prompt_ja": "データ品質と data contracts を、品質の観点と上流破壊の防止を含めて英語で説明して。",
+        "points_ja": [
+          "品質の次元（正確性／一貫性／完全性／鮮度）",
+          "パイプライン内の検証（expectations / tests）",
+          "data contracts で上流破壊を防ぐ"
+        ],
+        "key_phrases": [
+          "garbage in, garbage out",
+          "data quality checks",
+          "data contracts",
+          "enforce a schema",
+          "service-level agreement (SLA)"
+        ],
+        "model_en": "AI is only as good as its data, so we enforce quality and use data contracts to stop upstream changes from breaking us.",
+        "model_en_long": "AI is only as good as its data—garbage in, garbage out. We enforce quality across several dimensions: accuracy, consistency, completeness, and freshness, with validation tests built right into the pipeline. To stop a producer from silently breaking a downstream model, we use data contracts that pin down the schema, the owner, and an SLA. That makes the boundary of responsibility explicit between the team producing the data and the teams consuming it."
       },
       "tags": [
-        "data-engineering",
         "data-quality",
         "data-contracts"
       ],
@@ -69,19 +95,33 @@
       "id": "de-governance-lineage",
       "type": "concept",
       "front": "Governance, lineage & security",
-      "meaning": "来歴(lineage)・アクセス制御・PII保護・監査ログを最初から組み込み、信頼でき準拠したデータにする。",
+      "meaning": "来歴・最小権限・PII保護・監査を最初から組み込み、信頼でき準拠したデータに。",
+      "detail_ja": "ガバナンスは後付けが困難なので設計初日から。データ来歴(lineage)で『どこから来てどう変換されたか』を追跡し影響分析・監査を可能に。RBAC/ABACで最小権限、PIIはマスキング/トークン化、すべての参照を監査ログに残し、GDPR等に準拠する。",
       "examples": [
         {
-          "en": "We bake in governance from day one: lineage, access control, and audit trails.",
-          "jp": "来歴・アクセス制御・監査ログを最初から組み込む。"
+          "en": "Lineage let us see every downstream report affected by one bad source.",
+          "jp": "lineageにより、1つの不良ソースが影響する全下流レポートを把握できた。"
         }
       ],
       "pron": {
-        "tts": "We bake in governance from day one: lineage, access control, and audit trails."
+        "tts": "We bake in governance from day one: lineage, least-privilege access, and audit trails."
       },
       "explain": {
-        "prompt_ja": "データガバナンス（来歴・アクセス制御・PII・監査）の必要性を英語で説明して。",
-        "model_en": "We bake in governance from day one. We track data lineage, enforce access controls, protect PII, and keep audit trails, so the data stays both trustworthy and compliant as it feeds our models."
+        "prompt_ja": "データガバナンス（来歴・最小権限・PII・監査・規制）を理由とともに英語で説明して。",
+        "points_ja": [
+          "lineage で来歴・影響分析",
+          "最小権限(RBAC/ABAC)とPII保護",
+          "監査ログと規制準拠(GDPR等)"
+        ],
+        "key_phrases": [
+          "data lineage",
+          "least-privilege access",
+          "mask or tokenize PII",
+          "audit trail",
+          "stay compliant"
+        ],
+        "model_en": "We bake in governance from day one: lineage, least-privilege access, PII protection, and audit trails.",
+        "model_en_long": "We bake in governance from day one, because it's very hard to bolt on later. Data lineage lets us trace where each dataset came from and how it was transformed, which is essential for impact analysis and audits. We apply least-privilege access with role- or attribute-based controls, mask or tokenize PII, and keep an audit trail of every access. That keeps the data both trustworthy and compliant with regulations like GDPR."
       },
       "tags": [
         "governance",
@@ -99,25 +139,38 @@
       "id": "de-metadata-catalog",
       "type": "concept",
       "front": "Metadata, catalog & semantic layer",
-      "meaning": "メタデータ管理とデータカタログで発見可能性を高め、意味層(semantic layer)で指標の共通定義を与える。",
+      "meaning": "カタログとメタデータで発見可能性、semantic layer で指標定義を統一。",
+      "detail_ja": "データが増えるほど『どこに何があるか』が課題。データカタログ＋豊富なメタデータ（説明・所有者・品質・lineage）で検索・自己解決を可能に。さらに semantic layer で指標(KPI)の定義を一元化し、部署ごとに数字がズレる事態を防ぐ。AIエージェントが正しいデータを選ぶ土台にもなる。",
       "examples": [
         {
-          "en": "A data catalog makes data discoverable, and a semantic layer gives consistent metric definitions.",
-          "jp": "カタログで発見可能に、意味層で指標の定義を統一。"
+          "en": "The semantic layer means 'active user' is defined once, not per team.",
+          "jp": "semantic layerにより『アクティブユーザー』の定義が部署ごとでなく一元化される。"
         }
       ],
       "pron": {
         "tts": "A data catalog makes data discoverable, and a semantic layer gives consistent metric definitions."
       },
       "explain": {
-        "prompt_ja": "メタデータ・データカタログ・意味層(semantic layer)の役割を英語で説明して。",
-        "model_en": "Rich metadata and a data catalog make data discoverable and self-service, and a semantic layer gives everyone consistent definitions of key metrics, so teams aren't computing the same number five different ways."
+        "prompt_ja": "メタデータ・カタログ・semantic layer の役割を、発見可能性と指標統一の観点で英語で説明して。",
+        "points_ja": [
+          "カタログ＋メタデータで発見可能性／セルフサービス",
+          "semantic layer で指標定義の統一",
+          "AIが正しいデータを選べる土台"
+        ],
+        "key_phrases": [
+          "data catalog",
+          "discoverable and self-service",
+          "semantic layer",
+          "consistent metric definitions",
+          "metadata"
+        ],
+        "model_en": "A data catalog makes data discoverable, and a semantic layer gives everyone consistent metric definitions.",
+        "model_en_long": "As the platform grows, the hard part becomes finding what exists and trusting it. A data catalog with rich metadata—descriptions, ownership, quality, and lineage—makes data discoverable and self-service. On top of that, a semantic layer centralizes how key metrics are defined, so different teams don't compute the same KPI five different ways. It also gives AI agents a reliable map for picking the right data."
       },
       "tags": [
         "metadata",
         "catalog",
-        "semantic-layer",
-        "discoverability"
+        "semantic-layer"
       ],
       "domain": "engineering",
       "collection": "ai-data-platform",
@@ -129,19 +182,33 @@
       "id": "de-lakehouse",
       "type": "concept",
       "front": "Lakehouse + open table formats (ELT)",
-      "meaning": "データレイクハウスとオープンテーブル形式(Iceberg/Delta)＋ELTで、構造化・非構造化を1基盤で扱う。",
+      "meaning": "レイクハウス＋オープンテーブル形式(Iceberg/Delta)＋ELTで構造化・非構造化を1基盤に。",
+      "detail_ja": "従来はデータレイク(安価・柔軟だが無秩序)とDWH(高速・統制だが高価・硬直)の二択だった。レイクハウスは安価なオブジェクトストレージ上に Iceberg/Delta のオープンテーブル形式で ACID・スキーマ進化・time travel を載せ両者を統合。ELTで生データを取り込んでから変換し、ストレージとコンピュートを分離して弾力的にスケールする。",
       "examples": [
         {
-          "en": "We use a lakehouse with open table formats like Iceberg and an ELT approach.",
-          "jp": "Iceberg等のオープン形式＋ELTのレイクハウスを使う。"
+          "en": "On the lakehouse, the same Iceberg tables serve both BI and model training.",
+          "jp": "レイクハウスでは同じIcebergテーブルがBIとモデル学習の両方に使える。"
         }
       ],
       "pron": {
         "tts": "We use a lakehouse with open table formats like Iceberg and an ELT approach."
       },
       "explain": {
-        "prompt_ja": "レイクハウス＋オープンテーブル形式＋ELTを採る理由を英語で説明して。",
-        "model_en": "We use a lakehouse with open table formats like Iceberg or Delta, and an ELT approach. That lets us handle both structured and unstructured data on one platform and avoid lock-in to a single vendor."
+        "prompt_ja": "レイクハウス＋オープンテーブル形式＋ELTを、従来の lake vs warehouse の二択との比較を含めて英語で説明して。",
+        "points_ja": [
+          "lake と warehouse の二択を統合",
+          "オープンテーブル形式(Iceberg/Delta)＝ACID/スキーマ進化/time travel",
+          "ストレージとコンピュート分離でスケール"
+        ],
+        "key_phrases": [
+          "lakehouse",
+          "open table formats like Iceberg or Delta",
+          "ACID transactions",
+          "decouple storage and compute",
+          "ELT"
+        ],
+        "model_en": "We use a lakehouse with open table formats like Iceberg and an ELT approach to handle structured and unstructured data on one platform.",
+        "model_en_long": "Historically you had to choose between a data lake—cheap and flexible but messy—and a warehouse—fast and governed but expensive and rigid. A lakehouse combines both: on cheap object storage, open table formats like Iceberg or Delta add ACID transactions, schema evolution, and time travel. We use ELT, loading raw data first and transforming it in place, so structured and unstructured data live on one platform. Because storage and compute are decoupled, we scale them independently and keep costs under control."
       },
       "tags": [
         "lakehouse",
@@ -159,19 +226,33 @@
       "id": "de-streaming-realtime",
       "type": "concept",
       "front": "Streaming & real-time pipelines",
-      "meaning": "バッチに加えストリーミング/リアルタイムのパイプラインで、鮮度の高いデータを継続供給する。",
+      "meaning": "バッチに加えストリーミングで鮮度の高いデータを継続供給する。",
+      "detail_ja": "バッチは安価だが鮮度が低い。Kafka等のストリーミングとイベント駆動で、データを発生と同時に処理し、特徴量やダッシュボードを準リアルタイムに保つ。多くは『lakehouse＋ストリーミング』のハイブリッド。AIの学習/推論が古いスナップショットに縛られない。",
       "examples": [
         {
-          "en": "Beyond batch, we run streaming pipelines so the data stays fresh.",
-          "jp": "バッチに加えストリーミングで鮮度を保つ。"
+          "en": "Fraud models score transactions in seconds thanks to a streaming pipeline.",
+          "jp": "ストリーミングにより不正検知モデルが取引を数秒で採点する。"
         }
       ],
       "pron": {
         "tts": "Beyond batch, we run streaming pipelines so the data stays fresh."
       },
       "explain": {
-        "prompt_ja": "バッチに加えてストリーミング/リアルタイム処理が要る理由を英語で説明して。",
-        "model_en": "Beyond batch jobs, we run streaming pipelines so the data stays fresh. That matters for AI because models can then train and serve on near real-time data instead of yesterday's snapshot."
+        "prompt_ja": "バッチとストリーミングの違いと、リアルタイム基盤がAIに必要な理由を英語で説明して。",
+        "points_ja": [
+          "batchの限界（鮮度）",
+          "streaming / event-driven で準リアルタイム",
+          "学習・推論を最新データで"
+        ],
+        "key_phrases": [
+          "batch vs streaming",
+          "event-driven",
+          "near real-time",
+          "keep features fresh",
+          "Kafka"
+        ],
+        "model_en": "Beyond batch, we run streaming pipelines so the data stays fresh for training and inference.",
+        "model_en_long": "Batch jobs are cheap but they leave the data stale. So beyond batch, we run streaming, event-driven pipelines, often on something like Kafka, that process events as they happen and keep features and dashboards near real-time. In practice it's a hybrid of the lakehouse for history and streaming for freshness. That matters for AI because models can then train and serve on current data instead of yesterday's snapshot."
       },
       "tags": [
         "streaming",
@@ -188,19 +269,33 @@
       "id": "de-versioning-reproducibility",
       "type": "concept",
       "front": "Data versioning & reproducibility",
-      "meaning": "データのバージョン管理・検証・再現性を確保し、実験と本番を同時に安全に回せるようにする。",
+      "meaning": "データのバージョン管理・検証・再現で実験と本番を安全に同時進行。",
+      "detail_ja": "モデルの再現には『同じデータ＋同じコード』が要る。データを(コードのように)バージョン管理し(lakeFS / Delta time travel / DVC)、どの時点のデータで学習したかを固定。実験の再現、ロールバック、本番と実験の並行運用が可能になり、監査・デバッグも容易になる。",
       "examples": [
         {
-          "en": "We version and validate data so experiments are reproducible.",
-          "jp": "データをバージョン管理・検証し実験を再現可能に。"
+          "en": "We reproduced last month's model exactly by pinning the data snapshot.",
+          "jp": "データのスナップショットを固定し、先月のモデルを完全に再現できた。"
         }
       ],
       "pron": {
-        "tts": "We version and validate data so experiments are reproducible."
+        "tts": "We version data like code so experiments are reproducible."
       },
       "explain": {
-        "prompt_ja": "データのバージョン管理と再現性がAIで重要な理由を英語で説明して。",
-        "model_en": "We version and validate our data the way we version code. That makes experiments reproducible and lets us run experimentation and production side by side without one corrupting the other."
+        "prompt_ja": "データのバージョン管理と再現性が、なぜAIで重要かを手段とともに英語で説明して。",
+        "points_ja": [
+          "再現には同データ＋同コード",
+          "データのバージョン管理(lakeFS / time travel / DVC)",
+          "実験と本番の並行・ロールバック"
+        ],
+        "key_phrases": [
+          "version data like code",
+          "reproducible experiments",
+          "time travel / snapshot",
+          "roll back",
+          "run experimentation and production side by side"
+        ],
+        "model_en": "We version data like code so experiments are reproducible and we can run experimentation and production side by side.",
+        "model_en_long": "Reproducing a model needs the same data and the same code. So we version our data the way we version code, using tools like lakeFS, Delta time travel, or DVC, and we pin exactly which snapshot a model was trained on. That makes experiments reproducible, lets us roll back, and lets experimentation run side by side with production without one corrupting the other. It also makes auditing and debugging far easier."
       },
       "tags": [
         "versioning",
@@ -217,19 +312,33 @@
       "id": "de-dataops-mlops",
       "type": "concept",
       "front": "Unified DataOps / MLOps + feature store",
-      "meaning": "データとモデルを共進化する資産とみなし、DataOpsとMLOpsを統合。フィーチャーストアで学習と推論の特徴量を揃える。",
+      "meaning": "データとモデルを共進化資産とみなし統合、feature store で特徴量を揃える。",
+      "detail_ja": "データとモデルは別チーム・別ツールになりがちで、学習時と推論時の特徴量ズレ(training-serving skew)などの不具合を生む。DataOpsとMLOpsを1つのワークフローに統合し、CI/CD・テスト・監視を共通化。feature store で特徴量を一元定義し、学習と推論で同じ計算を使うことでズレを排除する。",
       "examples": [
         {
-          "en": "We treat data and models as co-evolving assets and use a feature store.",
-          "jp": "データとモデルを共進化資産とみなしフィーチャーストアを使う。"
+          "en": "A feature store killed our training-serving skew bugs overnight.",
+          "jp": "feature storeの導入で学習と推論の特徴量ズレが一掃された。"
         }
       ],
       "pron": {
         "tts": "We treat data and models as co-evolving assets and use a feature store."
       },
       "explain": {
-        "prompt_ja": "DataOpsとMLOpsの統合とフィーチャーストアの利点を英語で説明して。",
-        "model_en": "We treat data and models as co-evolving assets, so we unify DataOps and MLOps into one workflow. A feature store keeps features consistent between training and serving, which removes a common source of model bugs."
+        "prompt_ja": "DataOpsとMLOpsの統合と feature store の利点を、training-serving skew に触れて英語で説明して。",
+        "points_ja": [
+          "data/modelの分断が生む不具合(training-serving skew)",
+          "DataOps×MLOps統合(CI/CD・監視)",
+          "feature store で特徴量統一"
+        ],
+        "key_phrases": [
+          "co-evolving assets",
+          "unify DataOps and MLOps",
+          "feature store",
+          "training-serving skew",
+          "CI/CD for data and models"
+        ],
+        "model_en": "We treat data and models as co-evolving assets, unify DataOps and MLOps, and use a feature store to keep features consistent.",
+        "model_en_long": "Data and models are often owned by different teams with different tools, which creates bugs like training-serving skew, where the features differ between training and production. We treat data and models as co-evolving assets and unify DataOps and MLOps into one workflow with shared CI/CD, testing, and monitoring. A feature store defines each feature once and serves the same computation to both training and inference, which removes that whole class of bugs."
       },
       "tags": [
         "mlops",
@@ -246,19 +355,33 @@
       "id": "de-vectors-rag",
       "type": "concept",
       "front": "Embeddings & vector store (for RAG)",
-      "meaning": "非構造化データを埋め込み(embeddings)化しベクトルDBに格納、RAGなどのAI用途で関連文脈を検索できるようにする。",
+      "meaning": "非構造化データを埋め込み化しベクトルDBに格納、RAGで関連文脈を検索する。",
+      "detail_ja": "LLM活用(特にRAG)では、社内文書などの非構造化データを埋め込み(embeddings)に変換し、ベクトルDB(意味的類似検索)に格納する。クエリ時に意味が近い文脈を取得してLLMに渡すことで、最新・社内固有の知識を再学習なしに反映できる。データ品質・権限・鮮度はここでも前提。",
       "examples": [
         {
-          "en": "For RAG, we turn unstructured data into embeddings stored in a vector database.",
-          "jp": "RAG用に非構造化データを埋め込みにしベクトルDBへ。"
+          "en": "RAG let the assistant cite our internal docs without retraining the model.",
+          "jp": "RAGにより、モデルを再学習せず社内文書を引用できた。"
         }
       ],
       "pron": {
         "tts": "For RAG, we turn unstructured data into embeddings stored in a vector database."
       },
       "explain": {
-        "prompt_ja": "AI（RAG）のために埋め込みとベクトルDBをどう使うか英語で説明して。",
-        "model_en": "For AI use cases like retrieval-augmented generation, we turn unstructured data into embeddings and store them in a vector database, so the model can retrieve the most relevant context at query time instead of relying only on its training data."
+        "prompt_ja": "RAGのために埋め込みとベクトルDBをどう使い、何が嬉しいかを英語で説明して。",
+        "points_ja": [
+          "非構造化 → embeddings → vector DB",
+          "RAGでクエリ時に関連文脈を取得",
+          "再学習なしで最新/社内知識を反映"
+        ],
+        "key_phrases": [
+          "embeddings",
+          "vector database",
+          "semantic search",
+          "retrieval-augmented generation (RAG)",
+          "retrieve relevant context"
+        ],
+        "model_en": "For RAG, we turn unstructured data into embeddings in a vector database so the model retrieves relevant context at query time.",
+        "model_en_long": "For LLM use cases, especially retrieval-augmented generation, we turn unstructured data like internal documents into embeddings and store them in a vector database that supports semantic similarity search. At query time we retrieve the most relevant context and pass it to the model, so it can use fresh, company-specific knowledge without retraining. The same fundamentals—quality, access control, and freshness—still apply to that data."
       },
       "tags": [
         "embeddings",

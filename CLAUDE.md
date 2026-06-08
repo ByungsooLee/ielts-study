@@ -64,6 +64,6 @@
 4. 発音（辞書/TTS・アクセント切替）＋リスニング（再生/ディクテ/シャドー）。
 5. SM-2 復習（docs 参照）。
 6. CI に教材反映（`docs/Cursor_自動反映プロンプト.md`）。
-7. Engineering 分野の最初のコレクション（例 SQL / システム設計、`type:"concept"`＋`explain{prompt_ja,model_en}`）を少量で試作。
+7. Engineering 分野（`type:"concept"`）。concept item は技術的深さと層状の英語説明を持つ：`detail_ja`（技術詳細）/`examples`/`pron.tts`/`explain{prompt_ja, points_ja[], key_phrases[], model_en, model_en_long}`。学習は「理解(JP)→骨子→英語フレーズ→産出(録音)→模範比較」の段階フロー。仕様: `docs/Cursor_Engineering説明力UI.md`。現行コレクション=`engineering/ai-data-platform`（AI-readyデータ基盤・9概念）。
 
 各タスク着手前に計画を提示し、確認が必要な操作は事前に相談すること。
