@@ -49,27 +49,57 @@ jobs:
         env:
           GITHUB_SHA: ${{ github.sha }}
 
+      - name: Ensure Pages production branch is main
+        run: |
+          RESP=$(curl -fsS -X PATCH \
+            "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/ielts-study" \
+            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data '{"production_branch":"main"}')
+          echo "$RESP" | grep -q '"success":true' || (echo "$RESP" && exit 1)
+          echo "production_branch=main を設定しました"
+
       - name: Deploy to Cloudflare Pages (production branch)
         working-directory: web
+        id: pages_deploy
         run: |
-          npx wrangler pages deploy dist \
+          set -o pipefail
+          OUT=$(npx wrangler pages deploy dist \
             --project-name=ielts-study \
             --branch=main \
             --commit-hash="${{ github.sha }}" \
-            --commit-message="Deploy ${{ github.sha }}"
+            --commit-message="Deploy ${{ github.sha }}" 2>&1 | tee /dev/stderr)
+          DEPLOY_URL=$(echo "$OUT" | grep -oE 'https://[a-f0-9]+\.ielts-study\.pages\.dev' | tail -1)
+          if [ -z "$DEPLOY_URL" ]; then
+            echo "::error::wrangler のデプロイ URL を取得できませんでした"
+            exit 1
+          fi
+          echo "deploy_url=$DEPLOY_URL" >> "$GITHUB_OUTPUT"
+          echo "Deployed to: $DEPLOY_URL"
 
-      - name: Verify production deployment
+      - name: Verify deployment artifact
         run: |
-          sleep 8
-          HTML=$(curl -fsS "https://ielts-study.pages.dev/index.html")
-          JS_PATH=$(echo "$HTML" | grep -oE '/assets/index-[^"]+\.js' | head -1)
-          echo "Production bundle: $JS_PATH"
-          JS=$(curl -fsS "https://ielts-study.pages.dev${JS_PATH}")
-          echo "$JS" | grep -q '単語帳で記憶に残る学習' || \
-            (echo "::error::本番が旧UIです。Cloudflare Dashboard → Pages → ielts-study → Settings で Production branch=main を確認し、最新デプロイを Promote してください" && exit 1)
-          VERSION=$(curl -fsS "https://ielts-study.pages.dev/version.json")
-          echo "version.json: $VERSION"
-          echo "$VERSION" | grep -q '"version"' || (echo "::error::version.json が HTML を返しています" && exit 1)
+          DEPLOY_URL="${{ steps.pages_deploy.outputs.deploy_url }}"
+          EXPECTED="${GITHUB_SHA:0:7}"
+          VERSION=$(curl -fsS "${DEPLOY_URL}/version.json")
+          echo "deployment version.json: $VERSION"
+          echo "$VERSION" | grep -q "\"version\": \"${EXPECTED}\"" || \
+            (echo "::error::デプロイ成果物の version が ${EXPECTED} と一致しません" && exit 1)
+          echo "デプロイ成果物の検証に成功"
+
+      - name: Wait for production alias to update
+        run: |
+          EXPECTED="${GITHUB_SHA:0:7}"
+          for i in $(seq 1 12); do
+            sleep 15
+            VERSION=$(curl -fsS "https://ielts-study.pages.dev/version.json" || echo "{}")
+            echo "attempt $i — production version.json: $VERSION"
+            if echo "$VERSION" | grep -q "\"version\": \"${EXPECTED}\""; then
+              echo "本番エイリアスの反映を確認しました"
+              exit 0
+            fi
+          done
+          echo "::warning::本番エイリアスが ${EXPECTED} に切り替わっていません。デプロイ自体は成功しています。Cloudflare の伝播を待つか、Deployments で Promote を確認してください。"
 
   deploy-worker:
     name: Deploy Worker
