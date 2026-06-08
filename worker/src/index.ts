@@ -179,9 +179,17 @@ export default {
       return new Response(null, { headers: corsHeaders(origin, env) });
     }
 
-    if (!isAuthorized(request, env)) return unauthorized(origin, env);
-
     const url = new URL(request.url);
+
+    /** 個人用：端末ごとの登録なし。アプリ起動時に合言葉を自動取得（CORS 許可オリジンのみ） */
+    if (url.pathname === "/app-bootstrap" && request.method === "GET") {
+      if (!env.SYNC_TOKEN) {
+        return json({ error: "SYNC_TOKEN not configured on Worker" }, origin, env, 503);
+      }
+      return json({ syncToken: env.SYNC_TOKEN }, origin, env);
+    }
+
+    if (!isAuthorized(request, env)) return unauthorized(origin, env);
     if (url.pathname === "/content") return handleContent(request, env, origin);
     if (url.pathname === "/progress") return handleProgress(request, env, origin);
     if (url.pathname === "/tts-usage" && request.method === "GET") return handleTtsUsage(env, origin);

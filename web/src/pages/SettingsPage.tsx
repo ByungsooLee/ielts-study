@@ -7,7 +7,7 @@ import { fetchRemoteProgress, putRemoteProgress, saveLocalProgress } from "../li
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { formatCharCount } from "../lib/ttsUsage";
-import { isSyncConfigured, workerUrlLabel } from "../lib/workerConfig";
+import { bootstrapSyncToken, isSyncConfigured, workerUrlLabel } from "../lib/workerConfig";
 import { useSettingsStore } from "../stores/settingsStore";
 import { useTtsUsageStore } from "../stores/ttsUsageStore";
 import type { Accent, ColorMode, DailyNewLimit } from "../types";
@@ -31,6 +31,7 @@ export function SettingsPage() {
     setDailyNewLimit,
     setSyncStatus,
     setLastSyncedAt,
+    refreshConnection,
   } = useSettingsStore();
   const progress = useProgressStore((s) => s.progress);
   const updateProgress = useProgressStore((s) => s.updateProgress);
@@ -49,26 +50,36 @@ export function SettingsPage() {
   }, []);
 
   useEffect(() => {
-    if (isSyncConfigured()) {
-      void refreshTtsUsage(settings.workerUrl, settings.syncToken);
-    }
-  }, [refreshTtsUsage, settings.syncToken, settings.workerUrl]);
+    void (async () => {
+      if (!isSyncConfigured()) {
+        await bootstrapSyncToken(settings.workerUrl);
+        refreshConnection();
+      }
+      const { settings: s } = useSettingsStore.getState();
+      if (isSyncConfigured()) {
+        await refreshTtsUsage(s.workerUrl, s.syncToken);
+      }
+    })();
+  }, [refreshConnection, refreshTtsUsage, settings.workerUrl]);
 
   async function testWorkerConnection() {
     if (!isSyncConfigured()) {
-      setWorkerTest("合言葉が未設定です。npm run setup で .env.local を同期してください");
+      await bootstrapSyncToken(settings.workerUrl);
+      refreshConnection();
+    }
+    const { settings: s } = useSettingsStore.getState();
+    if (!isSyncConfigured()) {
+      setWorkerTest("✗ 合言葉を取得できませんでした。ネットワーク接続を確認してください");
       return;
     }
     setWorkerTest("確認中...");
     try {
-      const base = settings.workerUrl.replace(/\/$/, "");
+      const base = s.workerUrl.replace(/\/$/, "");
       const res = await fetch(`${base}/tts-usage`, {
-        headers: { Authorization: `Bearer ${settings.syncToken}` },
+        headers: { Authorization: `Bearer ${s.syncToken}` },
       });
       if (res.status === 401) {
-        setWorkerTest(
-          "✗ 合言葉が一致しません。worker/.dev.vars の SYNC_TOKEN を設定画面に貼り、ターミナルで npm run secrets:push を実行してください",
-        );
+        setWorkerTest("✗ 合言葉が一致しません。Worker の SYNC_TOKEN を確認してください");
         return;
       }
       if (!res.ok) {
@@ -76,7 +87,7 @@ export function SettingsPage() {
         return;
       }
       setWorkerTest("✓ Worker に接続できました（TTS・同期が使えます）");
-      await refreshTtsUsage(settings.workerUrl, settings.syncToken);
+      await refreshTtsUsage(s.workerUrl, s.syncToken);
     } catch (e) {
       setWorkerTest(`✗ 接続失敗: ${e instanceof Error ? e.message : "不明"}`);
     }
@@ -84,13 +95,18 @@ export function SettingsPage() {
 
   async function syncNow() {
     if (!isSyncConfigured()) {
-      setSyncStatus("error", "合言葉が未設定です。npm run setup を実行してください");
+      await bootstrapSyncToken(settings.workerUrl);
+      refreshConnection();
+    }
+    const { settings: s } = useSettingsStore.getState();
+    if (!isSyncConfigured()) {
+      setSyncStatus("error", "合言葉を取得できませんでした。ネットワークを確認してください");
       return;
     }
     setSyncStatus("syncing");
     try {
       const localRecords = await getAllContent();
-      const remoteContent = await fetchRemoteContent(settings.workerUrl, settings.syncToken);
+      const remoteContent = await fetchRemoteContent(s.workerUrl, s.syncToken);
       const mergedContent = mergeContent(
         recordsToContentData(localRecords),
         remoteContent,
@@ -99,21 +115,21 @@ export function SettingsPage() {
         await upsertContent(mergedContent.records);
         await loadContent();
       }
-      await putRemoteContent(settings.workerUrl, settings.syncToken, mergedContent);
+      await putRemoteContent(s.workerUrl, s.syncToken, mergedContent);
 
-      const remote = await fetchRemoteProgress(settings.workerUrl, settings.syncToken);
+      const remote = await fetchRemoteProgress(s.workerUrl, s.syncToken);
       const merged = mergeProgress(progress, remote);
       updateProgress(merged);
       saveLocalProgress(merged);
-      await putRemoteProgress(settings.workerUrl, settings.syncToken, merged);
+      await putRemoteProgress(s.workerUrl, s.syncToken, merged);
       setSyncStatus("ok");
       setLastSyncedAt(Date.now());
-      await refreshTtsUsage(settings.workerUrl, settings.syncToken);
+      await refreshTtsUsage(s.workerUrl, s.syncToken);
     } catch (e) {
       const msg = e instanceof Error ? e.message : "同期に失敗しました";
       const hint =
         msg.includes("401") || msg.includes("Unauthorized")
-          ? "（合言葉不一致。worker/.dev.vars の SYNC_TOKEN を再入力し npm run secrets:push）"
+          ? "（合言葉不一致。Worker の SYNC_TOKEN を確認してください）"
           : msg === "Failed to fetch"
             ? "（CORSまたはネットワークエラー。Workerを再デプロイしてください）"
             : "";
@@ -150,9 +166,7 @@ export function SettingsPage() {
           )}
         </p>
         <p className={`mt-2 ${hintClass}`}>
-          個人用のため URL と合言葉はビルド時に固定されます。ローカルは{" "}
-          <code className="text-xs">npm run setup</code> で <code className="text-xs">worker/.dev.vars</code>{" "}
-          から <code className="text-xs">web/.env.local</code> へ同期します。
+          端末ごとの登録は不要です。初回起動時に Worker から合言葉を自動取得し、この端末に保存します。
         </p>
         <button
           type="button"
@@ -240,7 +254,7 @@ export function SettingsPage() {
           <p className={`mt-1 ${hintClass}`}>
             {isSyncConfigured()
               ? (ttsLoadError ?? "使用量を読み込み中...")
-              : "npm run setup で合言葉を同期すると表示されます。"}
+              : "合言葉を取得中… しばらくしてから再読み込みしてください。"}
           </p>
         )}
       </div>

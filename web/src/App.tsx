@@ -20,7 +20,7 @@ import { useContentStore } from "./stores/contentStore";
 import { useProgressStore } from "./stores/progressStore";
 import { useSettingsStore } from "./stores/settingsStore";
 import { useTtsUsageStore } from "./stores/ttsUsageStore";
-import { isSyncConfigured } from "./lib/workerConfig";
+import { bootstrapSyncToken, isSyncConfigured } from "./lib/workerConfig";
 
 export default function App() {
   const loadContent = useContentStore((s) => s.load);
@@ -29,6 +29,7 @@ export default function App() {
   const setSyncStatus = useSettingsStore((s) => s.setSyncStatus);
   const setLastSyncedAt = useSettingsStore((s) => s.setLastSyncedAt);
   const refreshTtsUsage = useTtsUsageStore((s) => s.refresh);
+  const refreshConnection = useSettingsStore((s) => s.refreshConnection);
 
   useEffect(() => startVersionCheck(), []);
 
@@ -39,25 +40,40 @@ export default function App() {
       } catch {
         /* オフライン時は IndexedDB キャッシュのみ */
       }
+
+      if (!isSyncConfigured()) {
+        await bootstrapSyncToken(settings.workerUrl);
+        refreshConnection();
+      }
+
       const localRecords = await getAllContent();
       await loadContent();
       const local = useProgressStore.getState().progress;
+      const syncSettings = useSettingsStore.getState().settings;
       if (isSyncConfigured()) {
         setSyncStatus("syncing");
-        await syncContentOnStartup(settings.workerUrl, settings.syncToken, localRecords);
+        await syncContentOnStartup(syncSettings.workerUrl, syncSettings.syncToken, localRecords);
         await loadContent();
-        const merged = await syncOnStartup(settings.workerUrl, settings.syncToken, local);
+        const merged = await syncOnStartup(syncSettings.workerUrl, syncSettings.syncToken, local);
         hydrate(merged);
         setSyncStatus("ok");
         setLastSyncedAt(Date.now());
-        await refreshTtsUsage(settings.workerUrl, settings.syncToken);
+        await refreshTtsUsage(syncSettings.workerUrl, syncSettings.syncToken);
       } else {
         hydrate(local);
         setSyncStatus(navigator.onLine ? "idle" : "offline");
       }
     }
     void init();
-  }, [hydrate, loadContent, refreshTtsUsage, setLastSyncedAt, setSyncStatus, settings.syncToken, settings.workerUrl]);
+  }, [
+    hydrate,
+    loadContent,
+    refreshConnection,
+    refreshTtsUsage,
+    setLastSyncedAt,
+    setSyncStatus,
+    settings.workerUrl,
+  ]);
 
   return (
     <Routes>
