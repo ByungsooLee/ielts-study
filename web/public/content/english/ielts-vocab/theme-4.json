@@ -1,0 +1,650 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 4,
+  "themeName": "アイダホのビーバー",
+  "version": "6fecffba",
+  "items": [
+    {
+      "n": 65,
+      "id": "w-nuisance",
+      "type": "word",
+      "front": "nuisance",
+      "meaning": "迷惑",
+      "synonyms": [
+        "inconvenience"
+      ],
+      "collocation": "a public nuisance, cause inconvenience",
+      "examples": [
+        {
+          "en": "Beavers became such a nuisance in Idaho that their dam construction began to alter the whole landscape.",
+          "linking": "Beavers became such‿a nuisance‿in Idaho that their dam construction began to alter the whole landscape.",
+          "tips": [
+            "連結: such‿a=サッチャ, nuisance‿in",
+            "弱形: a/in/that/to/the(that=/ðət/)",
+            "強勢: NUI·sance, I·da·ho, con·STRUC·tion, AL·ter",
+            "注意音: TH(that/their/the), nuisance=ニューサンス"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "nuisance",
+        "tts": "nuisance"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 66,
+      "id": "w-construction",
+      "type": "word",
+      "front": "construction",
+      "meaning": "建設・開発",
+      "synonyms": [
+        "development"
+      ],
+      "collocation": "under construction, urban development",
+      "examples": [
+        {
+          "en": "Beavers became such a nuisance in Idaho that their dam construction began to alter the whole landscape.",
+          "linking": "Beavers became such‿a nuisance‿in Idaho that their dam construction began to alter the whole landscape.",
+          "tips": [
+            "連結: such‿a=サッチャ, nuisance‿in",
+            "弱形: a/in/that/to/the(that=/ðət/)",
+            "強勢: NUI·sance, I·da·ho, con·STRUC·tion, AL·ter",
+            "注意音: TH(that/their/the), nuisance=ニューサンス"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "construction",
+        "tts": "construction"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 67,
+      "id": "w-alter",
+      "type": "word",
+      "front": "alter",
+      "meaning": "変える",
+      "synonyms": [
+        "transform",
+        "modify"
+      ],
+      "collocation": "alter the landscape, transform sth completely",
+      "examples": [
+        {
+          "en": "Beavers became such a nuisance in Idaho that their dam construction began to alter the whole landscape.",
+          "linking": "Beavers became such‿a nuisance‿in Idaho that their dam construction began to alter the whole landscape.",
+          "tips": [
+            "連結: such‿a=サッチャ, nuisance‿in",
+            "弱形: a/in/that/to/the(that=/ðət/)",
+            "強勢: NUI·sance, I·da·ho, con·STRUC·tion, AL·ter",
+            "注意音: TH(that/their/the), nuisance=ニューサンス"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "alter",
+        "tts": "alter"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 68,
+      "id": "w-ideal",
+      "type": "word",
+      "front": "ideal",
+      "meaning": "理想的な",
+      "synonyms": [
+        "optimal"
+      ],
+      "collocation": "an ideal location, optimal conditions",
+      "examples": [
+        {
+          "en": "So wardens found an ideal valley with an abundance of food.",
+          "linking": "So wardens found‿an‿ideal valley with‿an‿abundance‿of food.",
+          "tips": [
+            "連結: found‿an=ファウンダン, with‿an=ウィザン, abundance‿of",
+            "弱形: an/with/of(=/əv/)",
+            "強勢: WAR·dens, i·DE·al, a·BUN·dance, FOOD",
+            "注意音: TH(with), V(valley)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "ideal",
+        "tts": "ideal"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 69,
+      "id": "w-abundance",
+      "type": "word",
+      "front": "abundance",
+      "meaning": "豊富さ",
+      "synonyms": [
+        "a wealth of"
+      ],
+      "collocation": "an abundance of food, in abundance",
+      "examples": [
+        {
+          "en": "So wardens found an ideal valley with an abundance of food.",
+          "linking": "So wardens found‿an‿ideal valley with‿an‿abundance‿of food.",
+          "tips": [
+            "連結: found‿an=ファウンダン, with‿an=ウィザン, abundance‿of",
+            "弱形: an/with/of(=/əv/)",
+            "強勢: WAR·dens, i·DE·al, a·BUN·dance, FOOD",
+            "注意音: TH(with), V(valley)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "abundance",
+        "tts": "abundance"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 70,
+      "id": "p-prove-impossible",
+      "type": "phrase",
+      "front": "prove impossible",
+      "meaning": "不可能だと分かる",
+      "synonyms": [
+        "turn out to be unfeasible"
+      ],
+      "collocation": "it proved impossible to…",
+      "pron": {
+        "tts": "prove impossible"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 71,
+      "id": "w-unique",
+      "type": "word",
+      "front": "unique",
+      "meaning": "独自の",
+      "synonyms": [
+        "one-of-a-kind"
+      ],
+      "collocation": "a unique solution, a unique opportunity",
+      "examples": [
+        {
+          "en": "Using a surplus of war parachutes, they dropped the beavers from a plane — a truly unique solution.",
+          "linking": "Using‿a surplus‿of war parachutes, they dropped the beavers from‿a plane — a truly‿unique solution.",
+          "tips": [
+            "連結: surplus‿of, from‿a=フロマ",
+            "弱形: a/of/the/from を弱く",
+            "強勢: SUR·plus, PA·rachutes, u·NIQUE, so·LU·tion",
+            "注意音: R(surplus/war), unique=ユニーク /juːˈniːk/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "unique",
+        "tts": "unique"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 72,
+      "id": "w-surplus",
+      "type": "word",
+      "front": "surplus",
+      "meaning": "余剰",
+      "synonyms": [
+        "excess"
+      ],
+      "collocation": "a surplus of, surplus stock",
+      "examples": [
+        {
+          "en": "Using a surplus of war parachutes, they dropped the beavers from a plane — a truly unique solution.",
+          "linking": "Using‿a surplus‿of war parachutes, they dropped the beavers from‿a plane — a truly‿unique solution.",
+          "tips": [
+            "連結: surplus‿of, from‿a=フロマ",
+            "弱形: a/of/the/from を弱く",
+            "強勢: SUR·plus, PA·rachutes, u·NIQUE, so·LU·tion",
+            "注意音: R(surplus/war), unique=ユニーク /juːˈniːk/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "surplus",
+        "tts": "surplus"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 73,
+      "id": "p-encroach-on",
+      "type": "phrase",
+      "front": "encroach on",
+      "meaning": "～を侵害する",
+      "synonyms": [
+        "infringe upon"
+      ],
+      "collocation": "encroach on natural habitat",
+      "examples": [
+        {
+          "en": "Their instinct to build never stops, and homes had begun to encroach on their habitat.",
+          "linking": "Their‿instinct to build never stops, and homes had begun to encroach‿on their habitat.",
+          "tips": [
+            "連結: encroach‿on=インクローチョン, homes‿had",
+            "弱形: to/and/had(=/əd/)/their/on",
+            "強勢: IN·stinct, BUILD, be·GUN, en·CROACH, HA·bitat",
+            "注意音: TH(their), instinctの-nct連続子音"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "encroach on"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 74,
+      "id": "w-instinct",
+      "type": "word",
+      "front": "instinct",
+      "meaning": "本能・性質",
+      "synonyms": [
+        "predisposition"
+      ],
+      "collocation": "a natural instinct to…",
+      "examples": [
+        {
+          "en": "Their instinct to build never stops, and homes had begun to encroach on their habitat.",
+          "linking": "Their‿instinct to build never stops, and homes had begun to encroach‿on their habitat.",
+          "tips": [
+            "連結: encroach‿on=インクローチョン, homes‿had",
+            "弱形: to/and/had(=/əd/)/their/on",
+            "強勢: IN·stinct, BUILD, be·GUN, en·CROACH, HA·bitat",
+            "注意音: TH(their), instinctの-nct連続子音"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "instinct",
+        "tts": "instinct"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 75,
+      "id": "w-overpopulated",
+      "type": "word",
+      "front": "overpopulated",
+      "meaning": "過剰の",
+      "synonyms": [
+        "inundated"
+      ],
+      "pron": {
+        "lookup": "overpopulated",
+        "tts": "overpopulated"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 76,
+      "id": "w-inhabit",
+      "type": "word",
+      "front": "inhabit",
+      "meaning": "住む",
+      "synonyms": [
+        "populate"
+      ],
+      "pron": {
+        "lookup": "inhabit",
+        "tts": "inhabit"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 77,
+      "id": "w-domicile",
+      "type": "word",
+      "front": "domicile",
+      "meaning": "住居",
+      "synonyms": [
+        "residence",
+        "property"
+      ],
+      "pron": {
+        "lookup": "domicile",
+        "tts": "domicile"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 78,
+      "id": "w-route",
+      "type": "word",
+      "front": "route",
+      "meaning": "道・通路",
+      "synonyms": [
+        "access"
+      ],
+      "pron": {
+        "lookup": "route",
+        "tts": "route"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 79,
+      "id": "p-grow-agitated",
+      "type": "phrase",
+      "front": "grow agitated",
+      "meaning": "動揺する",
+      "synonyms": [
+        "grow nervous"
+      ],
+      "pron": {
+        "tts": "grow agitated"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 80,
+      "id": "w-strike",
+      "type": "word",
+      "front": "strike",
+      "meaning": "当たる",
+      "synonyms": [
+        "impact",
+        "hit"
+      ],
+      "pron": {
+        "lookup": "strike",
+        "tts": "strike"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 81,
+      "id": "p-trial-run",
+      "type": "phrase",
+      "front": "trial run",
+      "meaning": "試験運用",
+      "synonyms": [
+        "practice session"
+      ],
+      "pron": {
+        "tts": "trial run"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 82,
+      "id": "w-relocate",
+      "type": "word",
+      "front": "relocate",
+      "meaning": "移す",
+      "synonyms": [
+        "transport"
+      ],
+      "pron": {
+        "lookup": "relocate",
+        "tts": "relocate"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 83,
+      "id": "w-predator",
+      "type": "word",
+      "front": "predator",
+      "meaning": "捕食者",
+      "synonyms": [
+        "natural enemy"
+      ],
+      "pron": {
+        "lookup": "predator",
+        "tts": "predator"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 84,
+      "id": "w-landscape",
+      "type": "word",
+      "front": "landscape",
+      "meaning": "地形",
+      "synonyms": [
+        "terrain"
+      ],
+      "pron": {
+        "lookup": "landscape",
+        "tts": "landscape"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 85,
+      "id": "p-make-a-beeline-for",
+      "type": "phrase",
+      "front": "make a beeline for",
+      "meaning": "真っ直ぐ進む",
+      "pron": {
+        "tts": "make a beeline for"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t4",
+    "theme": 4,
+    "themeName": "アイダホのビーバー",
+    "jp": "アイダホでビーバーは大迷惑になり、そのダム建設が地形全体を変え始めた。作る本能は止まらず、人家が彼らの生息地を侵害し始めていた。そこで猟区管理人は食料が豊富な理想的な谷を見つけた。第二次大戦の余剰パラシュートを使い、飛行機からビーバーを落とすという実にユニークな解決策をとった。",
+    "sentences": [
+      {
+        "en": "Beavers became such a nuisance in Idaho that their dam construction began to alter the whole landscape.",
+        "linking": "Beavers became such‿a nuisance‿in Idaho that their dam construction began to alter the whole landscape.",
+        "tips": [
+          "連結: such‿a=サッチャ, nuisance‿in",
+          "弱形: a/in/that/to/the(that=/ðət/)",
+          "強勢: NUI·sance, I·da·ho, con·STRUC·tion, AL·ter",
+          "注意音: TH(that/their/the), nuisance=ニューサンス"
+        ],
+        "targets": [
+          "w-nuisance",
+          "w-construction",
+          "w-alter"
+        ]
+      },
+      {
+        "en": "Their instinct to build never stops, and homes had begun to encroach on their habitat.",
+        "linking": "Their‿instinct to build never stops, and homes had begun to encroach‿on their habitat.",
+        "tips": [
+          "連結: encroach‿on=インクローチョン, homes‿had",
+          "弱形: to/and/had(=/əd/)/their/on",
+          "強勢: IN·stinct, BUILD, be·GUN, en·CROACH, HA·bitat",
+          "注意音: TH(their), instinctの-nct連続子音"
+        ],
+        "targets": [
+          "w-instinct",
+          "p-encroach-on"
+        ]
+      },
+      {
+        "en": "So wardens found an ideal valley with an abundance of food.",
+        "linking": "So wardens found‿an‿ideal valley with‿an‿abundance‿of food.",
+        "tips": [
+          "連結: found‿an=ファウンダン, with‿an=ウィザン, abundance‿of",
+          "弱形: an/with/of(=/əv/)",
+          "強勢: WAR·dens, i·DE·al, a·BUN·dance, FOOD",
+          "注意音: TH(with), V(valley)"
+        ],
+        "targets": [
+          "w-ideal",
+          "w-abundance"
+        ]
+      },
+      {
+        "en": "Using a surplus of war parachutes, they dropped the beavers from a plane — a truly unique solution.",
+        "linking": "Using‿a surplus‿of war parachutes, they dropped the beavers from‿a plane — a truly‿unique solution.",
+        "tips": [
+          "連結: surplus‿of, from‿a=フロマ",
+          "弱形: a/of/the/from を弱く",
+          "強勢: SUR·plus, PA·rachutes, u·NIQUE, so·LU·tion",
+          "注意音: R(surplus/war), unique=ユニーク /juːˈniːk/"
+        ],
+        "targets": [
+          "w-surplus",
+          "w-unique"
+        ]
+      }
+    ]
+  }
+}

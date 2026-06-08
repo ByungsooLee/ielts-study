@@ -1,0 +1,767 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 2,
+  "themeName": "プラスチック",
+  "version": "e829bc86",
+  "items": [
+    {
+      "n": 21,
+      "id": "w-arguably",
+      "type": "word",
+      "front": "arguably",
+      "meaning": "おそらく",
+      "synonyms": [
+        "possibly"
+      ],
+      "collocation": "arguably the most important…",
+      "examples": [
+        {
+          "en": "Plastic is arguably one of the most useful inventions, since it can be formed into a huge variety of products.",
+          "linking": "Plastic‿is‿arguably one‿of the most useful‿inventions, since‿it can be formed‿into‿a huge variety‿of products.",
+          "tips": [
+            "連結: one‿of, formed‿into, variety‿of",
+            "弱形: is/of/the/it/can/be/a",
+            "強勢: AR·guably, USE·ful, FORMED, va·RI·ety, PRO·ducts",
+            "注意音: R(arguably/variety/products), V(useful/inventions/variety)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "arguably",
+        "tts": "arguably"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 22,
+      "id": "w-flexible",
+      "type": "word",
+      "front": "flexible",
+      "meaning": "柔軟な",
+      "synonyms": [
+        "malleable"
+      ],
+      "collocation": "a flexible approach / policy",
+      "pron": {
+        "lookup": "flexible",
+        "tts": "flexible"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 23,
+      "id": "w-form",
+      "type": "word",
+      "front": "form",
+      "meaning": "形成する",
+      "synonyms": [
+        "shape",
+        "mould"
+      ],
+      "collocation": "shape public opinion, take shape",
+      "examples": [
+        {
+          "en": "Plastic is arguably one of the most useful inventions, since it can be formed into a huge variety of products.",
+          "linking": "Plastic‿is‿arguably one‿of the most useful‿inventions, since‿it can be formed‿into‿a huge variety‿of products.",
+          "tips": [
+            "連結: one‿of, formed‿into, variety‿of",
+            "弱形: is/of/the/it/can/be/a",
+            "強勢: AR·guably, USE·ful, FORMED, va·RI·ety, PRO·ducts",
+            "注意音: R(arguably/variety/products), V(useful/inventions/variety)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "form",
+        "tts": "form"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 24,
+      "id": "p-a-variety-of",
+      "type": "phrase",
+      "front": "a variety of",
+      "meaning": "様々な",
+      "synonyms": [
+        "a wide range of"
+      ],
+      "collocation": "a wide range of options",
+      "examples": [
+        {
+          "en": "Plastic is arguably one of the most useful inventions, since it can be formed into a huge variety of products.",
+          "linking": "Plastic‿is‿arguably one‿of the most useful‿inventions, since‿it can be formed‿into‿a huge variety‿of products.",
+          "tips": [
+            "連結: one‿of, formed‿into, variety‿of",
+            "弱形: is/of/the/it/can/be/a",
+            "強勢: AR·guably, USE·ful, FORMED, va·RI·ety, PRO·ducts",
+            "注意音: R(arguably/variety/products), V(useful/inventions/variety)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "a variety of"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 25,
+      "id": "w-waterproof",
+      "type": "word",
+      "front": "waterproof",
+      "meaning": "防水の",
+      "synonyms": [
+        "impermeable"
+      ],
+      "collocation": "waterproof material",
+      "examples": [
+        {
+          "en": "A waterproof coating protects cables, while synthetic bottles are light and inexpensive.",
+          "linking": "A waterproof coating protects cables, while synthetic bottles‿are light‿and‿inexpensive.",
+          "tips": [
+            "連結: bottles‿are, light‿and",
+            "弱形: a/while/are/and",
+            "強勢: WA·terproof, COAT·ing, syn·THE·tic, inex·PEN·sive",
+            "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "waterproof",
+        "tts": "waterproof"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 26,
+      "id": "w-originate",
+      "type": "word",
+      "front": "originate",
+      "meaning": "～から生じる",
+      "synonyms": [
+        "spring from",
+        "stem from"
+      ],
+      "collocation": "problems originate from…",
+      "examples": [
+        {
+          "en": "The idea did not originate recently; mankind has used simple plastics since the medieval period.",
+          "linking": "The‿idea did not‿originate recently; mankind has‿used simple plastics since the medieval period.",
+          "tips": [
+            "連結: not‿originate, has‿used",
+            "弱形: the/did/not/has/since",
+            "強勢: i·DE·a, O·riginate, man·KIND, me·DI·eval",
+            "注意音: TH(the), R(originate/recently/period)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "originate",
+        "tts": "originate"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 27,
+      "id": "w-mankind",
+      "type": "word",
+      "front": "mankind",
+      "meaning": "人類",
+      "synonyms": [
+        "humanity"
+      ],
+      "collocation": "the future of mankind",
+      "examples": [
+        {
+          "en": "The idea did not originate recently; mankind has used simple plastics since the medieval period.",
+          "linking": "The‿idea did not‿originate recently; mankind has‿used simple plastics since the medieval period.",
+          "tips": [
+            "連結: not‿originate, has‿used",
+            "弱形: the/did/not/has/since",
+            "強勢: i·DE·a, O·riginate, man·KIND, me·DI·eval",
+            "注意音: TH(the), R(originate/recently/period)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "mankind",
+        "tts": "mankind"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 28,
+      "id": "p-the-medieval-period",
+      "type": "phrase",
+      "front": "the medieval period",
+      "meaning": "中世",
+      "synonyms": [
+        "the Middle Ages"
+      ],
+      "collocation": "in the medieval period",
+      "examples": [
+        {
+          "en": "The idea did not originate recently; mankind has used simple plastics since the medieval period.",
+          "linking": "The‿idea did not‿originate recently; mankind has‿used simple plastics since the medieval period.",
+          "tips": [
+            "連結: not‿originate, has‿used",
+            "弱形: the/did/not/has/since",
+            "強勢: i·DE·a, O·riginate, man·KIND, me·DI·eval",
+            "注意音: TH(the), R(originate/recently/period)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "the medieval period"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 29,
+      "id": "p-turning-point",
+      "type": "phrase",
+      "front": "turning point",
+      "meaning": "転機",
+      "synonyms": [
+        "watershed"
+      ],
+      "collocation": "a turning point in history",
+      "examples": [
+        {
+          "en": "The real turning point came in 1907, though one early inventor went bankrupt before success.",
+          "linking": "The real turning point came‿in 1907, though‿one early‿inventor went bankrupt before success.",
+          "tips": [
+            "連結: came‿in, though‿one, early‿inventor",
+            "弱形: the/in/though/one/before",
+            "強勢: REAL, TURN·ing POINT, in·VEN·tor, BANK·rupt, suc·CESS",
+            "注意音: TH(though), R(real/turning/inventor/before)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "turning point"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 30,
+      "id": "p-go-bankrupt",
+      "type": "phrase",
+      "front": "go bankrupt",
+      "meaning": "倒産する",
+      "synonyms": [
+        "go out of business"
+      ],
+      "collocation": "the firm went bankrupt",
+      "examples": [
+        {
+          "en": "The real turning point came in 1907, though one early inventor went bankrupt before success.",
+          "linking": "The real turning point came‿in 1907, though‿one early‿inventor went bankrupt before success.",
+          "tips": [
+            "連結: came‿in, though‿one, early‿inventor",
+            "弱形: the/in/though/one/before",
+            "強勢: REAL, TURN·ing POINT, in·VEN·tor, BANK·rupt, suc·CESS",
+            "注意音: TH(though), R(real/turning/inventor/before)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "go bankrupt"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 31,
+      "id": "w-synthetic",
+      "type": "word",
+      "front": "synthetic",
+      "meaning": "人工の",
+      "synonyms": [
+        "artificial",
+        "man-made"
+      ],
+      "collocation": "synthetic materials",
+      "examples": [
+        {
+          "en": "A waterproof coating protects cables, while synthetic bottles are light and inexpensive.",
+          "linking": "A waterproof coating protects cables, while synthetic bottles‿are light‿and‿inexpensive.",
+          "tips": [
+            "連結: bottles‿are, light‿and",
+            "弱形: a/while/are/and",
+            "強勢: WA·terproof, COAT·ing, syn·THE·tic, inex·PEN·sive",
+            "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "synthetic",
+        "tts": "synthetic"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 32,
+      "id": "p-be-made-from",
+      "type": "phrase",
+      "front": "be made from",
+      "meaning": "～でできている",
+      "synonyms": [
+        "be composed of"
+      ],
+      "collocation": "be made from recycled materials",
+      "pron": {
+        "tts": "be made from"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 33,
+      "id": "w-inexpensive",
+      "type": "word",
+      "front": "inexpensive",
+      "meaning": "安価な",
+      "synonyms": [
+        "cost-effective",
+        "economical"
+      ],
+      "collocation": "a cost-effective solution",
+      "examples": [
+        {
+          "en": "A waterproof coating protects cables, while synthetic bottles are light and inexpensive.",
+          "linking": "A waterproof coating protects cables, while synthetic bottles‿are light‿and‿inexpensive.",
+          "tips": [
+            "連結: bottles‿are, light‿and",
+            "弱形: a/while/are/and",
+            "強勢: WA·terproof, COAT·ing, syn·THE·tic, inex·PEN·sive",
+            "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "inexpensive",
+        "tts": "inexpensive"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 34,
+      "id": "w-impact",
+      "type": "word",
+      "front": "impact",
+      "meaning": "影響",
+      "synonyms": [
+        "effect",
+        "consequence"
+      ],
+      "collocation": "have a significant impact on",
+      "examples": [
+        {
+          "en": "Today the environmental impact of plastic is a growing concern, so biodegradable bottles have been launched.",
+          "linking": "Today the‿environmental‿impact‿of plastic‿is‿a growing concern, so biodegradable bottles have‿been launched.",
+          "tips": [
+            "連結: impact‿of, is‿a, have‿been",
+            "弱形: the/of/a/so/have/been",
+            "強勢: to·DAY, en·viron·MEN·tal, IM·pact, con·CERN, LAUNCHED",
+            "注意音: R(environmental/concern/growing), V(environmental/biodegradable)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "impact",
+        "tts": "impact"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 35,
+      "id": "p-a-growing-concern",
+      "type": "phrase",
+      "front": "a growing concern",
+      "meaning": "懸念の高まり",
+      "synonyms": [
+        "serious worry"
+      ],
+      "collocation": "a growing concern over…",
+      "examples": [
+        {
+          "en": "Today the environmental impact of plastic is a growing concern, so biodegradable bottles have been launched.",
+          "linking": "Today the‿environmental‿impact‿of plastic‿is‿a growing concern, so biodegradable bottles have‿been launched.",
+          "tips": [
+            "連結: impact‿of, is‿a, have‿been",
+            "弱形: the/of/a/so/have/been",
+            "強勢: to·DAY, en·viron·MEN·tal, IM·pact, con·CERN, LAUNCHED",
+            "注意音: R(environmental/concern/growing), V(environmental/biodegradable)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "a growing concern"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 36,
+      "id": "w-launch",
+      "type": "word",
+      "front": "launch",
+      "meaning": "世に出す",
+      "synonyms": [
+        "introduce"
+      ],
+      "collocation": "launch a product, introduce a policy",
+      "examples": [
+        {
+          "en": "Today the environmental impact of plastic is a growing concern, so biodegradable bottles have been launched.",
+          "linking": "Today the‿environmental‿impact‿of plastic‿is‿a growing concern, so biodegradable bottles have‿been launched.",
+          "tips": [
+            "連結: impact‿of, is‿a, have‿been",
+            "弱形: the/of/a/so/have/been",
+            "強勢: to·DAY, en·viron·MEN·tal, IM·pact, con·CERN, LAUNCHED",
+            "注意音: R(environmental/concern/growing), V(environmental/biodegradable)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "launch",
+        "tts": "launch"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 37,
+      "id": "w-coating",
+      "type": "word",
+      "front": "coating",
+      "meaning": "外層",
+      "synonyms": [
+        "outer layer"
+      ],
+      "examples": [
+        {
+          "en": "A waterproof coating protects cables, while synthetic bottles are light and inexpensive.",
+          "linking": "A waterproof coating protects cables, while synthetic bottles‿are light‿and‿inexpensive.",
+          "tips": [
+            "連結: bottles‿are, light‿and",
+            "弱形: a/while/are/and",
+            "強勢: WA·terproof, COAT·ing, syn·THE·tic, inex·PEN·sive",
+            "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "coating",
+        "tts": "coating"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 38,
+      "id": "w-shatterproof",
+      "type": "word",
+      "front": "shatterproof",
+      "meaning": "割れない",
+      "synonyms": [
+        "unbreakable"
+      ],
+      "pron": {
+        "lookup": "shatterproof",
+        "tts": "shatterproof"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 39,
+      "id": "w-see-through",
+      "type": "word",
+      "front": "see-through",
+      "meaning": "透明な",
+      "synonyms": [
+        "transparent"
+      ],
+      "pron": {
+        "lookup": "see-through",
+        "tts": "see-through"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 40,
+      "id": "p-earliest-origins",
+      "type": "phrase",
+      "front": "earliest origins",
+      "meaning": "最初の起源",
+      "synonyms": [
+        "first known use"
+      ],
+      "pron": {
+        "tts": "earliest origins"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 41,
+      "id": "p-be-derived-from",
+      "type": "phrase",
+      "front": "be derived from",
+      "meaning": "由来する",
+      "pron": {
+        "tts": "be derived from"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 42,
+      "id": "p-host-of",
+      "type": "phrase",
+      "front": "host of",
+      "meaning": "様々な",
+      "synonyms": [
+        "assortment of",
+        "diverse array of"
+      ],
+      "pron": {
+        "tts": "host of"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t2",
+    "theme": 2,
+    "themeName": "プラスチック",
+    "jp": "プラスチックは、あらゆる種類の製品に形成できることから、おそらく最も便利な発明の一つだ。防水のコーティングはケーブルを守り、合成のボトルは軽くて安価だ。この発想は最近生じたものではなく、人類は中世から簡単なプラスチックを使ってきた。本当の転機は1907年に訪れたが、ある初期の発明家は成功前に倒産した。今日ではプラスチックの環境への影響が懸念の高まりとなり、生分解性ボトルが世に出された。",
+    "sentences": [
+      {
+        "en": "Plastic is arguably one of the most useful inventions, since it can be formed into a huge variety of products.",
+        "linking": "Plastic‿is‿arguably one‿of the most useful‿inventions, since‿it can be formed‿into‿a huge variety‿of products.",
+        "tips": [
+          "連結: one‿of, formed‿into, variety‿of",
+          "弱形: is/of/the/it/can/be/a",
+          "強勢: AR·guably, USE·ful, FORMED, va·RI·ety, PRO·ducts",
+          "注意音: R(arguably/variety/products), V(useful/inventions/variety)"
+        ],
+        "targets": [
+          "w-arguably",
+          "w-form",
+          "p-a-variety-of"
+        ]
+      },
+      {
+        "en": "A waterproof coating protects cables, while synthetic bottles are light and inexpensive.",
+        "linking": "A waterproof coating protects cables, while synthetic bottles‿are light‿and‿inexpensive.",
+        "tips": [
+          "連結: bottles‿are, light‿and",
+          "弱形: a/while/are/and",
+          "強勢: WA·terproof, COAT·ing, syn·THE·tic, inex·PEN·sive",
+          "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
+        ],
+        "targets": [
+          "w-waterproof",
+          "w-coating",
+          "w-synthetic",
+          "w-inexpensive"
+        ]
+      },
+      {
+        "en": "The idea did not originate recently; mankind has used simple plastics since the medieval period.",
+        "linking": "The‿idea did not‿originate recently; mankind has‿used simple plastics since the medieval period.",
+        "tips": [
+          "連結: not‿originate, has‿used",
+          "弱形: the/did/not/has/since",
+          "強勢: i·DE·a, O·riginate, man·KIND, me·DI·eval",
+          "注意音: TH(the), R(originate/recently/period)"
+        ],
+        "targets": [
+          "w-originate",
+          "w-mankind",
+          "p-the-medieval-period"
+        ]
+      },
+      {
+        "en": "The real turning point came in 1907, though one early inventor went bankrupt before success.",
+        "linking": "The real turning point came‿in 1907, though‿one early‿inventor went bankrupt before success.",
+        "tips": [
+          "連結: came‿in, though‿one, early‿inventor",
+          "弱形: the/in/though/one/before",
+          "強勢: REAL, TURN·ing POINT, in·VEN·tor, BANK·rupt, suc·CESS",
+          "注意音: TH(though), R(real/turning/inventor/before)"
+        ],
+        "targets": [
+          "p-turning-point",
+          "p-go-bankrupt"
+        ]
+      },
+      {
+        "en": "Today the environmental impact of plastic is a growing concern, so biodegradable bottles have been launched.",
+        "linking": "Today the‿environmental‿impact‿of plastic‿is‿a growing concern, so biodegradable bottles have‿been launched.",
+        "tips": [
+          "連結: impact‿of, is‿a, have‿been",
+          "弱形: the/of/a/so/have/been",
+          "強勢: to·DAY, en·viron·MEN·tal, IM·pact, con·CERN, LAUNCHED",
+          "注意音: R(environmental/concern/growing), V(environmental/biodegradable)"
+        ],
+        "targets": [
+          "w-impact",
+          "p-a-growing-concern",
+          "w-launch"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,673 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 9,
+  "themeName": "マリア・モンテッソーリ",
+  "version": "66680609",
+  "items": [
+    {
+      "n": 164,
+      "id": "w-struggle",
+      "type": "word",
+      "front": "struggle",
+      "meaning": "奮闘する",
+      "synonyms": [
+        "fight",
+        "battle"
+      ],
+      "collocation": "struggle for a cause, struggle to do",
+      "examples": [
+        {
+          "en": "Maria Montessori struggled for every child's right to learn.",
+          "linking": "Maria Montessori struggled for‿every child's‿right to learn.",
+          "tips": [
+            "連結: child's‿right, for‿every",
+            "弱形: for(=/fə/)/to(=/tə/)",
+            "強勢: Ma·RI·a, Montes·SO·ri, STRUG·gled, RIGHT, LEARN",
+            "注意音: R(Maria/struggled/right/learn), L(struggled/child/learn)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "struggle",
+        "tts": "struggle"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 165,
+      "id": "w-esteemed",
+      "type": "word",
+      "front": "esteemed",
+      "meaning": "立派な・名高い",
+      "synonyms": [
+        "prestigious",
+        "renowned"
+      ],
+      "collocation": "a prestigious university, a renowned expert",
+      "examples": [
+        {
+          "en": "From an esteemed family, she persevered as the only woman in medical school and graduated with top grades.",
+          "linking": "From‿an‿esteemed family, she persevered‿as the‿only woman‿in medical school‿and graduated with top grades.",
+          "tips": [
+            "連結: from‿an=フロマン, persevered‿as, woman‿in",
+            "弱形: an/as(=/əz/)/the/in/and(=/ən/)/with",
+            "強勢: es·TEEMED, perse·VERED, ON·ly, ME·dical, GRA·duated",
+            "注意音: TH(the/with), R(from/persevered/grades)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "esteemed",
+        "tts": "esteemed"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 166,
+      "id": "w-approval",
+      "type": "word",
+      "front": "approval",
+      "meaning": "承認・支援",
+      "synonyms": [
+        "support",
+        "backing"
+      ],
+      "collocation": "gain approval, have the backing of",
+      "pron": {
+        "lookup": "approval",
+        "tts": "approval"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 167,
+      "id": "w-sole",
+      "type": "word",
+      "front": "sole",
+      "meaning": "唯一の",
+      "synonyms": [
+        "lone",
+        "only"
+      ],
+      "collocation": "the sole reason, the lone survivor",
+      "pron": {
+        "lookup": "sole",
+        "tts": "sole"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 168,
+      "id": "w-persevere",
+      "type": "word",
+      "front": "persevere",
+      "meaning": "耐え忍ぶ",
+      "synonyms": [
+        "persist"
+      ],
+      "collocation": "persevere despite difficulties",
+      "examples": [
+        {
+          "en": "From an esteemed family, she persevered as the only woman in medical school and graduated with top grades.",
+          "linking": "From‿an‿esteemed family, she persevered‿as the‿only woman‿in medical school‿and graduated with top grades.",
+          "tips": [
+            "連結: from‿an=フロマン, persevered‿as, woman‿in",
+            "弱形: an/as(=/əz/)/the/in/and(=/ən/)/with",
+            "強勢: es·TEEMED, perse·VERED, ON·ly, ME·dical, GRA·duated",
+            "注意音: TH(the/with), R(from/persevered/grades)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "persevere",
+        "tts": "persevere"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 169,
+      "id": "w-tenacity",
+      "type": "word",
+      "front": "tenacity",
+      "meaning": "粘り強さ",
+      "synonyms": [
+        "perseverance",
+        "persistence"
+      ],
+      "collocation": "sheer tenacity, with perseverance",
+      "pron": {
+        "lookup": "tenacity",
+        "tts": "tenacity"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 170,
+      "id": "p-come-up-with",
+      "type": "phrase",
+      "front": "come up with",
+      "meaning": "～を思いつく",
+      "synonyms": [
+        "conceive"
+      ],
+      "collocation": "come up with an idea, conceive a plan",
+      "examples": [
+        {
+          "en": "Working with poor children, she came up with the theory that all kids have an innate desire to learn.",
+          "linking": "Working with poor children, she came‿up with the theory that‿all kids‿have‿an‿innate desire to learn.",
+          "tips": [
+            "連結: came‿up=ケイマップ, have‿an=ハヴァン, kids‿have",
+            "弱形: with/the/that(=/ðət/)/an/to(=/tə/)",
+            "強勢: WORK·ing, THEO·ry, in·NATE, de·SIRE, LEARN",
+            "注意音: TH(with/the/theory/that), R(poor/children/desire), V(have)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "come up with"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 171,
+      "id": "w-innate",
+      "type": "word",
+      "front": "innate",
+      "meaning": "生まれつきの",
+      "synonyms": [
+        "natural",
+        "inborn"
+      ],
+      "collocation": "an innate desire, innate ability",
+      "examples": [
+        {
+          "en": "Working with poor children, she came up with the theory that all kids have an innate desire to learn.",
+          "linking": "Working with poor children, she came‿up with the theory that‿all kids‿have‿an‿innate desire to learn.",
+          "tips": [
+            "連結: came‿up=ケイマップ, have‿an=ハヴァン, kids‿have",
+            "弱形: with/the/that(=/ðət/)/an/to(=/tə/)",
+            "強勢: WORK·ing, THEO·ry, in·NATE, de·SIRE, LEARN",
+            "注意音: TH(with/the/theory/that), R(poor/children/desire), V(have)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "innate",
+        "tts": "innate"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 172,
+      "id": "p-radical-change",
+      "type": "phrase",
+      "front": "radical change",
+      "meaning": "急進的な変化",
+      "synonyms": [
+        "monumental shift"
+      ],
+      "collocation": "undergo radical change",
+      "pron": {
+        "tts": "radical change"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 173,
+      "id": "w-force",
+      "type": "word",
+      "front": "force",
+      "meaning": "強制する",
+      "synonyms": [
+        "compel"
+      ],
+      "collocation": "be forced to…, compel sb to do",
+      "pron": {
+        "lookup": "force",
+        "tts": "force"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 174,
+      "id": "w-emphasise",
+      "type": "word",
+      "front": "emphasise",
+      "meaning": "強調する",
+      "synonyms": [
+        "highlight",
+        "underscore"
+      ],
+      "collocation": "emphasise the importance of",
+      "examples": [
+        {
+          "en": "Her method emphasised freedom and responsibility, and was soon adopted worldwide.",
+          "linking": "Her method‿emphasised freedom‿and responsibility, and was soon‿adopted worldwide.",
+          "tips": [
+            "連結: freedom‿and, soon‿adopted, method‿emphasised",
+            "弱形: and(=/ən/)/was(=/wəz/)",
+            "強勢: ME·thod, EM·phasised, FREE·dom, respon·si·BI·lity, a·DOP·ted",
+            "注意音: TH(method), R(her/freedom/worldwide)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "emphasise",
+        "tts": "emphasise"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 175,
+      "id": "w-adopt",
+      "type": "word",
+      "front": "adopt",
+      "meaning": "～を採用する",
+      "synonyms": [
+        "embrace",
+        "take up"
+      ],
+      "collocation": "adopt a method, embrace change",
+      "examples": [
+        {
+          "en": "Her method emphasised freedom and responsibility, and was soon adopted worldwide.",
+          "linking": "Her method‿emphasised freedom‿and responsibility, and was soon‿adopted worldwide.",
+          "tips": [
+            "連結: freedom‿and, soon‿adopted, method‿emphasised",
+            "弱形: and(=/ən/)/was(=/wəz/)",
+            "強勢: ME·thod, EM·phasised, FREE·dom, respon·si·BI·lity, a·DOP·ted",
+            "注意音: TH(method), R(her/freedom/worldwide)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "adopt",
+        "tts": "adopt"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 176,
+      "id": "p-advocate-of",
+      "type": "phrase",
+      "front": "advocate of",
+      "meaning": "～の擁護者",
+      "synonyms": [
+        "champion of"
+      ],
+      "collocation": "a strong advocate of reform",
+      "examples": [
+        {
+          "en": "A lifelong advocate of peace, her subsequent influence on education endures.",
+          "linking": "A lifelong‿advocate‿of peace, her subsequent‿influence‿on‿education‿endures.",
+          "tips": [
+            "連結: advocate‿of=アドヴォケイトヴ, influence‿on, education‿endures",
+            "弱形: a/of(=/əv/)/her/on",
+            "強勢: LIFE·long, AD·vocate, PEACE, SUB·sequent, edu·CA·tion, en·DURES",
+            "注意音: R(her/influence/endures), V(advocate/influence)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "advocate of"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 177,
+      "id": "w-subsequent",
+      "type": "word",
+      "front": "subsequent",
+      "meaning": "その後の",
+      "synonyms": [
+        "resulting",
+        "later"
+      ],
+      "collocation": "subsequent events, the resulting impact",
+      "examples": [
+        {
+          "en": "A lifelong advocate of peace, her subsequent influence on education endures.",
+          "linking": "A lifelong‿advocate‿of peace, her subsequent‿influence‿on‿education‿endures.",
+          "tips": [
+            "連結: advocate‿of=アドヴォケイトヴ, influence‿on, education‿endures",
+            "弱形: a/of(=/əv/)/her/on",
+            "強勢: LIFE·long, AD·vocate, PEACE, SUB·sequent, edu·CA·tion, en·DURES",
+            "注意音: R(her/influence/endures), V(advocate/influence)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "subsequent",
+        "tts": "subsequent"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 178,
+      "id": "w-icon",
+      "type": "word",
+      "front": "icon",
+      "meaning": "象徴・指導者",
+      "synonyms": [
+        "luminary",
+        "leading light"
+      ],
+      "pron": {
+        "lookup": "icon",
+        "tts": "icon"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 179,
+      "id": "p-challenge-convention",
+      "type": "phrase",
+      "front": "challenge convention",
+      "meaning": "しきたりに挑む",
+      "synonyms": [
+        "buck social norms"
+      ],
+      "pron": {
+        "tts": "challenge convention"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 180,
+      "id": "w-backlash",
+      "type": "word",
+      "front": "backlash",
+      "meaning": "反感・報復",
+      "synonyms": [
+        "retaliation"
+      ],
+      "pron": {
+        "lookup": "backlash",
+        "tts": "backlash"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 181,
+      "id": "w-prodigious",
+      "type": "word",
+      "front": "prodigious",
+      "meaning": "驚くべき",
+      "synonyms": [
+        "exceptional",
+        "extraordinary"
+      ],
+      "pron": {
+        "lookup": "prodigious",
+        "tts": "prodigious"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 182,
+      "id": "w-replicate",
+      "type": "word",
+      "front": "replicate",
+      "meaning": "模倣する",
+      "synonyms": [
+        "duplicate"
+      ],
+      "pron": {
+        "lookup": "replicate",
+        "tts": "replicate"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 183,
+      "id": "p-receive-recognition",
+      "type": "phrase",
+      "front": "receive recognition",
+      "meaning": "評価を受ける",
+      "synonyms": [
+        "acknowledgment"
+      ],
+      "pron": {
+        "tts": "receive recognition"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 184,
+      "id": "p-far-and-wide",
+      "type": "phrase",
+      "front": "far and wide",
+      "meaning": "至るところに",
+      "pron": {
+        "tts": "far and wide"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t9",
+    "theme": 9,
+    "themeName": "マリア・モンテッソーリ",
+    "jp": "マリア・モンテッソーリは、すべての子どもの学ぶ権利のために奮闘した。名家に生まれ、医学部で唯一の女性として耐え抜き、優秀な成績で卒業した。貧しい子どもたちと働く中で、すべての子は生まれつき学びたい願望を持つという理論を思いついた。彼女の手法は自由と責任を強調し、すぐに世界中で採用された。生涯平和の擁護者であり、その後の教育への影響は今も続いている。",
+    "sentences": [
+      {
+        "en": "Maria Montessori struggled for every child's right to learn.",
+        "linking": "Maria Montessori struggled for‿every child's‿right to learn.",
+        "tips": [
+          "連結: child's‿right, for‿every",
+          "弱形: for(=/fə/)/to(=/tə/)",
+          "強勢: Ma·RI·a, Montes·SO·ri, STRUG·gled, RIGHT, LEARN",
+          "注意音: R(Maria/struggled/right/learn), L(struggled/child/learn)"
+        ],
+        "targets": [
+          "w-struggle"
+        ]
+      },
+      {
+        "en": "From an esteemed family, she persevered as the only woman in medical school and graduated with top grades.",
+        "linking": "From‿an‿esteemed family, she persevered‿as the‿only woman‿in medical school‿and graduated with top grades.",
+        "tips": [
+          "連結: from‿an=フロマン, persevered‿as, woman‿in",
+          "弱形: an/as(=/əz/)/the/in/and(=/ən/)/with",
+          "強勢: es·TEEMED, perse·VERED, ON·ly, ME·dical, GRA·duated",
+          "注意音: TH(the/with), R(from/persevered/grades)"
+        ],
+        "targets": [
+          "w-esteemed",
+          "w-persevere"
+        ]
+      },
+      {
+        "en": "Working with poor children, she came up with the theory that all kids have an innate desire to learn.",
+        "linking": "Working with poor children, she came‿up with the theory that‿all kids‿have‿an‿innate desire to learn.",
+        "tips": [
+          "連結: came‿up=ケイマップ, have‿an=ハヴァン, kids‿have",
+          "弱形: with/the/that(=/ðət/)/an/to(=/tə/)",
+          "強勢: WORK·ing, THEO·ry, in·NATE, de·SIRE, LEARN",
+          "注意音: TH(with/the/theory/that), R(poor/children/desire), V(have)"
+        ],
+        "targets": [
+          "p-come-up-with",
+          "w-innate"
+        ]
+      },
+      {
+        "en": "Her method emphasised freedom and responsibility, and was soon adopted worldwide.",
+        "linking": "Her method‿emphasised freedom‿and responsibility, and was soon‿adopted worldwide.",
+        "tips": [
+          "連結: freedom‿and, soon‿adopted, method‿emphasised",
+          "弱形: and(=/ən/)/was(=/wəz/)",
+          "強勢: ME·thod, EM·phasised, FREE·dom, respon·si·BI·lity, a·DOP·ted",
+          "注意音: TH(method), R(her/freedom/worldwide)"
+        ],
+        "targets": [
+          "w-emphasise",
+          "w-adopt"
+        ]
+      },
+      {
+        "en": "A lifelong advocate of peace, her subsequent influence on education endures.",
+        "linking": "A lifelong‿advocate‿of peace, her subsequent‿influence‿on‿education‿endures.",
+        "tips": [
+          "連結: advocate‿of=アドヴォケイトヴ, influence‿on, education‿endures",
+          "弱形: a/of(=/əv/)/her/on",
+          "強勢: LIFE·long, AD·vocate, PEACE, SUB·sequent, edu·CA·tion, en·DURES",
+          "注意音: R(her/influence/endures), V(advocate/influence)"
+        ],
+        "targets": [
+          "p-advocate-of",
+          "w-subsequent"
+        ]
+      }
+    ]
+  }
+}

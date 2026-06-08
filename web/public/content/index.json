@@ -1,0 +1,90 @@
+{
+  "version": "1019dabc",
+  "collections": [
+    {
+      "id": "ielts-vocab",
+      "domain": "english",
+      "name": "IELTS単語帳",
+      "kind": "vocab",
+      "themes": [
+        {
+          "theme": 0,
+          "themeName": "汎用（文法など）",
+          "count": 3,
+          "file": "english/ielts-vocab/theme-0.json",
+          "version": "b21d5528"
+        },
+        {
+          "theme": 1,
+          "themeName": "ポリネシアの入植",
+          "count": 20,
+          "file": "english/ielts-vocab/theme-1.json",
+          "version": "d4cb4ccb"
+        },
+        {
+          "theme": 2,
+          "themeName": "プラスチック",
+          "count": 22,
+          "file": "english/ielts-vocab/theme-2.json",
+          "version": "e829bc86"
+        },
+        {
+          "theme": 3,
+          "themeName": "タイタニック",
+          "count": 22,
+          "file": "english/ielts-vocab/theme-3.json",
+          "version": "cf0d1af5"
+        },
+        {
+          "theme": 4,
+          "themeName": "アイダホのビーバー",
+          "count": 21,
+          "file": "english/ielts-vocab/theme-4.json",
+          "version": "6fecffba"
+        },
+        {
+          "theme": 5,
+          "themeName": "ダンス",
+          "count": 19,
+          "file": "english/ielts-vocab/theme-5.json",
+          "version": "aa6a11bc"
+        },
+        {
+          "theme": 6,
+          "themeName": "AIによる芸術",
+          "count": 19,
+          "file": "english/ielts-vocab/theme-6.json",
+          "version": "b8d9c034"
+        },
+        {
+          "theme": 7,
+          "themeName": "才能ある子どもの学校",
+          "count": 19,
+          "file": "english/ielts-vocab/theme-7.json",
+          "version": "48034b0b"
+        },
+        {
+          "theme": 8,
+          "themeName": "ハイパーループ",
+          "count": 21,
+          "file": "english/ielts-vocab/theme-8.json",
+          "version": "12398282"
+        },
+        {
+          "theme": 9,
+          "themeName": "マリア・モンテッソーリ",
+          "count": 21,
+          "file": "english/ielts-vocab/theme-9.json",
+          "version": "66680609"
+        },
+        {
+          "theme": 10,
+          "themeName": "なぜ人はウソをつくのか",
+          "count": 19,
+          "file": "english/ielts-vocab/theme-10.json",
+          "version": "9585c8e6"
+        }
+      ]
+    }
+  ]
+}

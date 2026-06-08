@@ -1,0 +1,4490 @@
+{
+  "source": {
+    "book": "文脈で覚えるIELTS英単語",
+    "section": "batch-2026-06-07",
+    "added": "2026-06-07"
+  },
+  "items": [
+    {
+      "n": 43,
+      "id": "w-depart",
+      "type": "word",
+      "front": "depart",
+      "meaning": "出発する",
+      "synonyms": [
+        "leave",
+        "set off"
+      ],
+      "collocation": "depart from, departure time",
+      "examples": [
+        {
+          "en": "When the Titanic departed from Ireland in 1912, few had any doubt it was unsinkable.",
+          "linking": "When the Titanic departed from Ireland in 1912, few had‿any doubt‿it was unsinkable.",
+          "tips": [
+            "連結: had‿any=ハダニ, doubt‿it=ダウティッ(tは弱く)",
+            "弱形: the/from/in/it/was を弱く(was=/wəz/)",
+            "強勢: Ti·TA·nic, de·PAR·ted, DOUBT, un·SINK·able",
+            "注意音: doubtのbは無音、TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "depart",
+        "tts": "depart"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 44,
+      "id": "w-lack",
+      "type": "word",
+      "front": "lack",
+      "meaning": "～が不足している",
+      "synonyms": [
+        "be short of",
+        "shortage of"
+      ],
+      "collocation": "a lack of resources, a shortage of staff",
+      "examples": [
+        {
+          "en": "Initially, the crew ignored the iceberg warnings, and a fatal lack of lifeboats turned the night into a tragedy.",
+          "linking": "Initially, the crew ignored the iceberg warnings, and‿a fatal lack‿of lifeboats turned the night‿into‿a tragedy.",
+          "tips": [
+            "連結: lack‿of=ラッコヴ, night‿into=ナイティントゥ",
+            "弱形: and=/ən/, of=/əv/, a=/ə/",
+            "強勢: i·NI·tially, ICE·berg, FA·tal, LACK, TRA·gedy",
+            "注意音: R(crew/ignored), V(of)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "lack",
+        "tts": "lack"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 45,
+      "id": "w-doubt",
+      "type": "word",
+      "front": "doubt",
+      "meaning": "疑い",
+      "synonyms": [
+        "scepticism"
+      ],
+      "collocation": "cast doubt on, there is little doubt that…",
+      "examples": [
+        {
+          "en": "When the Titanic departed from Ireland in 1912, few had any doubt it was unsinkable.",
+          "linking": "When the Titanic departed from Ireland in 1912, few had‿any doubt‿it was unsinkable.",
+          "tips": [
+            "連結: had‿any=ハダニ, doubt‿it=ダウティッ(tは弱く)",
+            "弱形: the/from/in/it/was を弱く(was=/wəz/)",
+            "強勢: Ti·TA·nic, de·PAR·ted, DOUBT, un·SINK·able",
+            "注意音: doubtのbは無音、TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "doubt",
+        "tts": "doubt"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 46,
+      "id": "w-initially",
+      "type": "word",
+      "front": "initially",
+      "meaning": "最初は",
+      "synonyms": [
+        "at first"
+      ],
+      "collocation": "initially planned, the initial stage",
+      "examples": [
+        {
+          "en": "Initially, the crew ignored the iceberg warnings, and a fatal lack of lifeboats turned the night into a tragedy.",
+          "linking": "Initially, the crew ignored the iceberg warnings, and‿a fatal lack‿of lifeboats turned the night‿into‿a tragedy.",
+          "tips": [
+            "連結: lack‿of=ラッコヴ, night‿into=ナイティントゥ",
+            "弱形: and=/ən/, of=/əv/, a=/ə/",
+            "強勢: i·NI·tially, ICE·berg, FA·tal, LACK, TRA·gedy",
+            "注意音: R(crew/ignored), V(of)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "initially",
+        "tts": "initially"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 47,
+      "id": "w-deteriorate",
+      "type": "word",
+      "front": "deteriorate",
+      "meaning": "悪化・劣化する",
+      "synonyms": [
+        "worsen",
+        "decline"
+      ],
+      "collocation": "conditions deteriorate, deteriorate rapidly",
+      "examples": [
+        {
+          "en": "Then, in collaboration with a French team, explorers made an astonishing discovery on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "linking": "Then, in collaboration with‿a French team, explorers made‿an astonishing discovery‿on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "tips": [
+            "連結: made‿an=メイダン, discovery‿on=ディスカヴァリオン",
+            "弱形: with/a/on/the を弱く",
+            "強勢: collabo·RA·tion, FRENCH, a·STON·ishing, dis·CO·very",
+            "注意音: TH(with/the/though), R(French/discovery/explorers)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "deteriorate",
+        "tts": "deteriorate"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 48,
+      "id": "w-discovery",
+      "type": "word",
+      "front": "discovery",
+      "meaning": "発見",
+      "synonyms": [
+        "finding"
+      ],
+      "collocation": "make a discovery, recent findings",
+      "examples": [
+        {
+          "en": "Then, in collaboration with a French team, explorers made an astonishing discovery on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "linking": "Then, in collaboration with‿a French team, explorers made‿an astonishing discovery‿on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "tips": [
+            "連結: made‿an=メイダン, discovery‿on=ディスカヴァリオン",
+            "弱形: with/a/on/the を弱く",
+            "強勢: collabo·RA·tion, FRENCH, a·STON·ishing, dis·CO·very",
+            "注意音: TH(with/the/though), R(French/discovery/explorers)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "discovery",
+        "tts": "discovery"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 49,
+      "id": "p-in-collaboration-with",
+      "type": "phrase",
+      "front": "in collaboration with",
+      "meaning": "～と協力して",
+      "synonyms": [
+        "in partnership with"
+      ],
+      "collocation": "work in collaboration with",
+      "examples": [
+        {
+          "en": "Then, in collaboration with a French team, explorers made an astonishing discovery on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "linking": "Then, in collaboration with‿a French team, explorers made‿an astonishing discovery‿on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "tips": [
+            "連結: made‿an=メイダン, discovery‿on=ディスカヴァリオン",
+            "弱形: with/a/on/the を弱く",
+            "強勢: collabo·RA·tion, FRENCH, a·STON·ishing, dis·CO·very",
+            "注意音: TH(with/the/though), R(French/discovery/explorers)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "in collaboration with"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 50,
+      "id": "p-previous-attempt",
+      "type": "phrase",
+      "front": "previous attempt",
+      "meaning": "以前の試み",
+      "synonyms": [
+        "earlier effort"
+      ],
+      "collocation": "previous attempts to…",
+      "examples": [
+        {
+          "en": "For decades, previous attempts to find the wreck all failed.",
+          "linking": "For decades, previous‿attempts to find the wreck‿all failed.",
+          "tips": [
+            "連結: previous‿attempts, wreck‿all=レッコール",
+            "弱形: for=/fə/, to=/tə/, the",
+            "強勢: DE·cades, at·TEMPTS, WRECK, FAILED",
+            "注意音: wreckのwは無音(/r/), V(previous)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "previous attempt"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 51,
+      "id": "p-in-hindsight",
+      "type": "phrase",
+      "front": "in hindsight",
+      "meaning": "後で分かったが",
+      "synonyms": [
+        "looking back"
+      ],
+      "collocation": "in hindsight, it was a mistake",
+      "pron": {
+        "tts": "in hindsight"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 52,
+      "id": "p-accounts-vary",
+      "type": "phrase",
+      "front": "accounts vary",
+      "meaning": "諸説ある",
+      "synonyms": [
+        "opinions differ"
+      ],
+      "collocation": "accounts vary as to…",
+      "pron": {
+        "tts": "accounts vary"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 53,
+      "id": "w-recover",
+      "type": "word",
+      "front": "recover",
+      "meaning": "回収する",
+      "synonyms": [
+        "salvage"
+      ],
+      "pron": {
+        "lookup": "recover",
+        "tts": "recover"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 54,
+      "id": "p-the-ocean-floor",
+      "type": "phrase",
+      "front": "the ocean floor",
+      "meaning": "海底",
+      "synonyms": [
+        "seabed"
+      ],
+      "pron": {
+        "tts": "the ocean floor"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 55,
+      "id": "w-watertight",
+      "type": "word",
+      "front": "watertight",
+      "meaning": "防水・密閉",
+      "synonyms": [
+        "seal shut"
+      ],
+      "pron": {
+        "lookup": "watertight",
+        "tts": "watertight"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 56,
+      "id": "p-tight-timetable",
+      "type": "phrase",
+      "front": "tight timetable",
+      "meaning": "きつい予定",
+      "synonyms": [
+        "strict schedule"
+      ],
+      "pron": {
+        "tts": "tight timetable"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 57,
+      "id": "w-sink",
+      "type": "word",
+      "front": "sink",
+      "meaning": "沈む",
+      "synonyms": [
+        "go under"
+      ],
+      "pron": {
+        "lookup": "sink",
+        "tts": "sink"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 58,
+      "id": "w-remains",
+      "type": "word",
+      "front": "remains",
+      "meaning": "遺物・残骸",
+      "synonyms": [
+        "debris",
+        "wreckage"
+      ],
+      "pron": {
+        "lookup": "remains",
+        "tts": "remains"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 59,
+      "id": "w-site",
+      "type": "word",
+      "front": "site",
+      "meaning": "場所",
+      "synonyms": [
+        "location"
+      ],
+      "pron": {
+        "lookup": "site",
+        "tts": "site"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 60,
+      "id": "w-intact",
+      "type": "word",
+      "front": "intact",
+      "meaning": "無傷の",
+      "synonyms": [
+        "undamaged"
+      ],
+      "pron": {
+        "lookup": "intact",
+        "tts": "intact"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 61,
+      "id": "p-split-in-half",
+      "type": "phrase",
+      "front": "split in half",
+      "meaning": "二つに割れる",
+      "synonyms": [
+        "break in two"
+      ],
+      "pron": {
+        "tts": "split in half"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 62,
+      "id": "p-leave-exposed",
+      "type": "phrase",
+      "front": "leave exposed",
+      "meaning": "さらす",
+      "pron": {
+        "tts": "leave exposed"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 63,
+      "id": "w-corrode",
+      "type": "word",
+      "front": "corrode",
+      "meaning": "腐食する",
+      "synonyms": [
+        "erode"
+      ],
+      "pron": {
+        "lookup": "corrode",
+        "tts": "corrode"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 64,
+      "id": "p-treasure-trove",
+      "type": "phrase",
+      "front": "treasure trove",
+      "meaning": "埋蔵品",
+      "synonyms": [
+        "artefacts"
+      ],
+      "pron": {
+        "tts": "treasure trove"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 65,
+      "id": "w-nuisance",
+      "type": "word",
+      "front": "nuisance",
+      "meaning": "迷惑",
+      "synonyms": [
+        "inconvenience"
+      ],
+      "collocation": "a public nuisance, cause inconvenience",
+      "examples": [
+        {
+          "en": "Beavers became such a nuisance in Idaho that their dam construction began to alter the whole landscape.",
+          "linking": "Beavers became such‿a nuisance‿in Idaho that their dam construction began to alter the whole landscape.",
+          "tips": [
+            "連結: such‿a=サッチャ, nuisance‿in",
+            "弱形: a/in/that/to/the(that=/ðət/)",
+            "強勢: NUI·sance, I·da·ho, con·STRUC·tion, AL·ter",
+            "注意音: TH(that/their/the), nuisance=ニューサンス"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "nuisance",
+        "tts": "nuisance"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 66,
+      "id": "w-construction",
+      "type": "word",
+      "front": "construction",
+      "meaning": "建設・開発",
+      "synonyms": [
+        "development"
+      ],
+      "collocation": "under construction, urban development",
+      "examples": [
+        {
+          "en": "Beavers became such a nuisance in Idaho that their dam construction began to alter the whole landscape.",
+          "linking": "Beavers became such‿a nuisance‿in Idaho that their dam construction began to alter the whole landscape.",
+          "tips": [
+            "連結: such‿a=サッチャ, nuisance‿in",
+            "弱形: a/in/that/to/the(that=/ðət/)",
+            "強勢: NUI·sance, I·da·ho, con·STRUC·tion, AL·ter",
+            "注意音: TH(that/their/the), nuisance=ニューサンス"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "construction",
+        "tts": "construction"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 67,
+      "id": "w-alter",
+      "type": "word",
+      "front": "alter",
+      "meaning": "変える",
+      "synonyms": [
+        "transform",
+        "modify"
+      ],
+      "collocation": "alter the landscape, transform sth completely",
+      "examples": [
+        {
+          "en": "Beavers became such a nuisance in Idaho that their dam construction began to alter the whole landscape.",
+          "linking": "Beavers became such‿a nuisance‿in Idaho that their dam construction began to alter the whole landscape.",
+          "tips": [
+            "連結: such‿a=サッチャ, nuisance‿in",
+            "弱形: a/in/that/to/the(that=/ðət/)",
+            "強勢: NUI·sance, I·da·ho, con·STRUC·tion, AL·ter",
+            "注意音: TH(that/their/the), nuisance=ニューサンス"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "alter",
+        "tts": "alter"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 68,
+      "id": "w-ideal",
+      "type": "word",
+      "front": "ideal",
+      "meaning": "理想的な",
+      "synonyms": [
+        "optimal"
+      ],
+      "collocation": "an ideal location, optimal conditions",
+      "examples": [
+        {
+          "en": "So wardens found an ideal valley with an abundance of food.",
+          "linking": "So wardens found‿an‿ideal valley with‿an‿abundance‿of food.",
+          "tips": [
+            "連結: found‿an=ファウンダン, with‿an=ウィザン, abundance‿of",
+            "弱形: an/with/of(=/əv/)",
+            "強勢: WAR·dens, i·DE·al, a·BUN·dance, FOOD",
+            "注意音: TH(with), V(valley)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "ideal",
+        "tts": "ideal"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 69,
+      "id": "w-abundance",
+      "type": "word",
+      "front": "abundance",
+      "meaning": "豊富さ",
+      "synonyms": [
+        "a wealth of"
+      ],
+      "collocation": "an abundance of food, in abundance",
+      "examples": [
+        {
+          "en": "So wardens found an ideal valley with an abundance of food.",
+          "linking": "So wardens found‿an‿ideal valley with‿an‿abundance‿of food.",
+          "tips": [
+            "連結: found‿an=ファウンダン, with‿an=ウィザン, abundance‿of",
+            "弱形: an/with/of(=/əv/)",
+            "強勢: WAR·dens, i·DE·al, a·BUN·dance, FOOD",
+            "注意音: TH(with), V(valley)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "abundance",
+        "tts": "abundance"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 70,
+      "id": "p-prove-impossible",
+      "type": "phrase",
+      "front": "prove impossible",
+      "meaning": "不可能だと分かる",
+      "synonyms": [
+        "turn out to be unfeasible"
+      ],
+      "collocation": "it proved impossible to…",
+      "pron": {
+        "tts": "prove impossible"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 71,
+      "id": "w-unique",
+      "type": "word",
+      "front": "unique",
+      "meaning": "独自の",
+      "synonyms": [
+        "one-of-a-kind"
+      ],
+      "collocation": "a unique solution, a unique opportunity",
+      "examples": [
+        {
+          "en": "Using a surplus of war parachutes, they dropped the beavers from a plane — a truly unique solution.",
+          "linking": "Using‿a surplus‿of war parachutes, they dropped the beavers from‿a plane — a truly‿unique solution.",
+          "tips": [
+            "連結: surplus‿of, from‿a=フロマ",
+            "弱形: a/of/the/from を弱く",
+            "強勢: SUR·plus, PA·rachutes, u·NIQUE, so·LU·tion",
+            "注意音: R(surplus/war), unique=ユニーク /juːˈniːk/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "unique",
+        "tts": "unique"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 72,
+      "id": "w-surplus",
+      "type": "word",
+      "front": "surplus",
+      "meaning": "余剰",
+      "synonyms": [
+        "excess"
+      ],
+      "collocation": "a surplus of, surplus stock",
+      "examples": [
+        {
+          "en": "Using a surplus of war parachutes, they dropped the beavers from a plane — a truly unique solution.",
+          "linking": "Using‿a surplus‿of war parachutes, they dropped the beavers from‿a plane — a truly‿unique solution.",
+          "tips": [
+            "連結: surplus‿of, from‿a=フロマ",
+            "弱形: a/of/the/from を弱く",
+            "強勢: SUR·plus, PA·rachutes, u·NIQUE, so·LU·tion",
+            "注意音: R(surplus/war), unique=ユニーク /juːˈniːk/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "surplus",
+        "tts": "surplus"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 73,
+      "id": "p-encroach-on",
+      "type": "phrase",
+      "front": "encroach on",
+      "meaning": "～を侵害する",
+      "synonyms": [
+        "infringe upon"
+      ],
+      "collocation": "encroach on natural habitat",
+      "examples": [
+        {
+          "en": "Their instinct to build never stops, and homes had begun to encroach on their habitat.",
+          "linking": "Their‿instinct to build never stops, and homes had begun to encroach‿on their habitat.",
+          "tips": [
+            "連結: encroach‿on=インクローチョン, homes‿had",
+            "弱形: to/and/had(=/əd/)/their/on",
+            "強勢: IN·stinct, BUILD, be·GUN, en·CROACH, HA·bitat",
+            "注意音: TH(their), instinctの-nct連続子音"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "encroach on"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 74,
+      "id": "w-instinct",
+      "type": "word",
+      "front": "instinct",
+      "meaning": "本能・性質",
+      "synonyms": [
+        "predisposition"
+      ],
+      "collocation": "a natural instinct to…",
+      "examples": [
+        {
+          "en": "Their instinct to build never stops, and homes had begun to encroach on their habitat.",
+          "linking": "Their‿instinct to build never stops, and homes had begun to encroach‿on their habitat.",
+          "tips": [
+            "連結: encroach‿on=インクローチョン, homes‿had",
+            "弱形: to/and/had(=/əd/)/their/on",
+            "強勢: IN·stinct, BUILD, be·GUN, en·CROACH, HA·bitat",
+            "注意音: TH(their), instinctの-nct連続子音"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "instinct",
+        "tts": "instinct"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 75,
+      "id": "w-overpopulated",
+      "type": "word",
+      "front": "overpopulated",
+      "meaning": "過剰の",
+      "synonyms": [
+        "inundated"
+      ],
+      "pron": {
+        "lookup": "overpopulated",
+        "tts": "overpopulated"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 76,
+      "id": "w-inhabit",
+      "type": "word",
+      "front": "inhabit",
+      "meaning": "住む",
+      "synonyms": [
+        "populate"
+      ],
+      "pron": {
+        "lookup": "inhabit",
+        "tts": "inhabit"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 77,
+      "id": "w-domicile",
+      "type": "word",
+      "front": "domicile",
+      "meaning": "住居",
+      "synonyms": [
+        "residence",
+        "property"
+      ],
+      "pron": {
+        "lookup": "domicile",
+        "tts": "domicile"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 78,
+      "id": "w-route",
+      "type": "word",
+      "front": "route",
+      "meaning": "道・通路",
+      "synonyms": [
+        "access"
+      ],
+      "pron": {
+        "lookup": "route",
+        "tts": "route"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 79,
+      "id": "p-grow-agitated",
+      "type": "phrase",
+      "front": "grow agitated",
+      "meaning": "動揺する",
+      "synonyms": [
+        "grow nervous"
+      ],
+      "pron": {
+        "tts": "grow agitated"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 80,
+      "id": "w-strike",
+      "type": "word",
+      "front": "strike",
+      "meaning": "当たる",
+      "synonyms": [
+        "impact",
+        "hit"
+      ],
+      "pron": {
+        "lookup": "strike",
+        "tts": "strike"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 81,
+      "id": "p-trial-run",
+      "type": "phrase",
+      "front": "trial run",
+      "meaning": "試験運用",
+      "synonyms": [
+        "practice session"
+      ],
+      "pron": {
+        "tts": "trial run"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 82,
+      "id": "w-relocate",
+      "type": "word",
+      "front": "relocate",
+      "meaning": "移す",
+      "synonyms": [
+        "transport"
+      ],
+      "pron": {
+        "lookup": "relocate",
+        "tts": "relocate"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 83,
+      "id": "w-predator",
+      "type": "word",
+      "front": "predator",
+      "meaning": "捕食者",
+      "synonyms": [
+        "natural enemy"
+      ],
+      "pron": {
+        "lookup": "predator",
+        "tts": "predator"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 84,
+      "id": "w-landscape",
+      "type": "word",
+      "front": "landscape",
+      "meaning": "地形",
+      "synonyms": [
+        "terrain"
+      ],
+      "pron": {
+        "lookup": "landscape",
+        "tts": "landscape"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 85,
+      "id": "p-make-a-beeline-for",
+      "type": "phrase",
+      "front": "make a beeline for",
+      "meaning": "真っ直ぐ進む",
+      "pron": {
+        "tts": "make a beeline for"
+      },
+      "tags": [
+        "beaver"
+      ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 86,
+      "id": "w-stimulate",
+      "type": "word",
+      "front": "stimulate",
+      "meaning": "刺激する",
+      "synonyms": [
+        "trigger",
+        "arouse"
+      ],
+      "collocation": "stimulate the brain, trigger emotions",
+      "examples": [
+        {
+          "en": "Dancing stimulates the brain like little else.",
+          "linking": "Dancing stimulates the brain like‿little‿else.",
+          "tips": [
+            "連結: little‿else=リトゥルエルス(L連結)",
+            "弱形: the を弱く",
+            "強勢: DAN·cing, STI·mulates, BRAIN, LIT·tle",
+            "注意音: stim-の/st/クラスター, littleのt(米=フラップ/英=明瞭)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "stimulate",
+        "tts": "stimulate"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 87,
+      "id": "w-uncertainty",
+      "type": "word",
+      "front": "uncertainty",
+      "meaning": "不確かなこと",
+      "synonyms": [
+        "ambiguity"
+      ],
+      "collocation": "a degree of uncertainty",
+      "examples": [
+        {
+          "en": "Despite some uncertainty, one theory is that a key factor is how music and movement combine to generate dopamine.",
+          "linking": "Despite some‿uncertainty, one theory‿is that‿a key factor‿is how music‿and movement combine to generate dopamine.",
+          "tips": [
+            "連結: factor‿is=ファクタリズ, music‿and",
+            "弱形: some/that/a/and(=/ən/)/to(=/tə/)",
+            "強勢: uncer·TAIN·ty, THEO·ry, FAC·tor, GE·nerate, DO·pamine",
+            "注意音: TH(theory/that), R(theory/factor)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "uncertainty",
+        "tts": "uncertainty"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 88,
+      "id": "w-theory",
+      "type": "word",
+      "front": "theory",
+      "meaning": "説・主張",
+      "synonyms": [
+        "argument"
+      ],
+      "collocation": "one theory is that…, a common argument",
+      "examples": [
+        {
+          "en": "Despite some uncertainty, one theory is that a key factor is how music and movement combine to generate dopamine.",
+          "linking": "Despite some‿uncertainty, one theory‿is that‿a key factor‿is how music‿and movement combine to generate dopamine.",
+          "tips": [
+            "連結: factor‿is=ファクタリズ, music‿and",
+            "弱形: some/that/a/and(=/ən/)/to(=/tə/)",
+            "強勢: uncer·TAIN·ty, THEO·ry, FAC·tor, GE·nerate, DO·pamine",
+            "注意音: TH(theory/that), R(theory/factor)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "theory",
+        "tts": "theory"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 89,
+      "id": "w-factor",
+      "type": "word",
+      "front": "factor",
+      "meaning": "要素・要因",
+      "synonyms": [
+        "element"
+      ],
+      "collocation": "a key factor, an essential element",
+      "examples": [
+        {
+          "en": "Despite some uncertainty, one theory is that a key factor is how music and movement combine to generate dopamine.",
+          "linking": "Despite some‿uncertainty, one theory‿is that‿a key factor‿is how music‿and movement combine to generate dopamine.",
+          "tips": [
+            "連結: factor‿is=ファクタリズ, music‿and",
+            "弱形: some/that/a/and(=/ən/)/to(=/tə/)",
+            "強勢: uncer·TAIN·ty, THEO·ry, FAC·tor, GE·nerate, DO·pamine",
+            "注意音: TH(theory/that), R(theory/factor)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "factor",
+        "tts": "factor"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 90,
+      "id": "w-straightforward",
+      "type": "word",
+      "front": "straightforward",
+      "meaning": "明快な・簡単な",
+      "synonyms": [
+        "uncomplicated"
+      ],
+      "collocation": "a straightforward explanation",
+      "pron": {
+        "lookup": "straightforward",
+        "tts": "straightforward"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 91,
+      "id": "w-generate",
+      "type": "word",
+      "front": "generate",
+      "meaning": "生み出す",
+      "synonyms": [
+        "produce"
+      ],
+      "collocation": "generate energy / dopamine",
+      "examples": [
+        {
+          "en": "Despite some uncertainty, one theory is that a key factor is how music and movement combine to generate dopamine.",
+          "linking": "Despite some‿uncertainty, one theory‿is that‿a key factor‿is how music‿and movement combine to generate dopamine.",
+          "tips": [
+            "連結: factor‿is=ファクタリズ, music‿and",
+            "弱形: some/that/a/and(=/ən/)/to(=/tə/)",
+            "強勢: uncer·TAIN·ty, THEO·ry, FAC·tor, GE·nerate, DO·pamine",
+            "注意音: TH(theory/that), R(theory/factor)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "generate",
+        "tts": "generate"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 92,
+      "id": "w-obvious",
+      "type": "word",
+      "front": "obvious",
+      "meaning": "明らかな",
+      "synonyms": [
+        "self-evident"
+      ],
+      "collocation": "it is obvious that…",
+      "examples": [
+        {
+          "en": "The brain loves to predict patterns, so watching a complex move we cannot foresee creates an intense rush of pleasure — it is obvious why we love the dance floor.",
+          "linking": "The brain loves to predict patterns, so watching‿a complex move we cannot foresee creates‿an‿intense rush‿of pleasure — it‿is‿obvious why we love the dance floor.",
+          "tips": [
+            "連結: watching‿a=ワッチンガ, rush‿of=ラッショヴ, it‿is=イティズ",
+            "弱形: to/a/an/of/the",
+            "強勢: pre·DICT, PAT·terns, com·PLEX, in·TENSE, OB·vious",
+            "注意音: R(predict/rush/floor), pleasureの/ʒ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "obvious",
+        "tts": "obvious"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 93,
+      "id": "w-predict",
+      "type": "word",
+      "front": "predict",
+      "meaning": "予測する",
+      "synonyms": [
+        "anticipate",
+        "foresee"
+      ],
+      "collocation": "predict the outcome, anticipate problems",
+      "examples": [
+        {
+          "en": "The brain loves to predict patterns, so watching a complex move we cannot foresee creates an intense rush of pleasure — it is obvious why we love the dance floor.",
+          "linking": "The brain loves to predict patterns, so watching‿a complex move we cannot foresee creates‿an‿intense rush‿of pleasure — it‿is‿obvious why we love the dance floor.",
+          "tips": [
+            "連結: watching‿a=ワッチンガ, rush‿of=ラッショヴ, it‿is=イティズ",
+            "弱形: to/a/an/of/the",
+            "強勢: pre·DICT, PAT·terns, com·PLEX, in·TENSE, OB·vious",
+            "注意音: R(predict/rush/floor), pleasureの/ʒ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "predict",
+        "tts": "predict"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 94,
+      "id": "w-complicated",
+      "type": "word",
+      "front": "complicated",
+      "meaning": "複雑な",
+      "synonyms": [
+        "complex"
+      ],
+      "collocation": "a complicated process, a complex system",
+      "pron": {
+        "lookup": "complicated",
+        "tts": "complicated"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 95,
+      "id": "w-intense",
+      "type": "word",
+      "front": "intense",
+      "meaning": "強烈な",
+      "synonyms": [
+        "deep"
+      ],
+      "collocation": "intense emotion, intense excitement",
+      "examples": [
+        {
+          "en": "The brain loves to predict patterns, so watching a complex move we cannot foresee creates an intense rush of pleasure — it is obvious why we love the dance floor.",
+          "linking": "The brain loves to predict patterns, so watching‿a complex move we cannot foresee creates‿an‿intense rush‿of pleasure — it‿is‿obvious why we love the dance floor.",
+          "tips": [
+            "連結: watching‿a=ワッチンガ, rush‿of=ラッショヴ, it‿is=イティズ",
+            "弱形: to/a/an/of/the",
+            "強勢: pre·DICT, PAT·terns, com·PLEX, in·TENSE, OB·vious",
+            "注意音: R(predict/rush/floor), pleasureの/ʒ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "intense",
+        "tts": "intense"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 96,
+      "id": "w-spectacular",
+      "type": "word",
+      "front": "spectacular",
+      "meaning": "目を見張る",
+      "synonyms": [
+        "impressive"
+      ],
+      "collocation": "a spectacular performance",
+      "pron": {
+        "lookup": "spectacular",
+        "tts": "spectacular"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 97,
+      "id": "w-coordination",
+      "type": "word",
+      "front": "coordination",
+      "meaning": "調整・調和",
+      "synonyms": [
+        "harmony"
+      ],
+      "pron": {
+        "lookup": "coordination",
+        "tts": "coordination"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 98,
+      "id": "w-puzzle",
+      "type": "word",
+      "front": "puzzle",
+      "meaning": "謎",
+      "synonyms": [
+        "mystery",
+        "riddle"
+      ],
+      "pron": {
+        "lookup": "puzzle",
+        "tts": "puzzle"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 99,
+      "id": "p-mounting-evidence",
+      "type": "phrase",
+      "front": "mounting evidence",
+      "meaning": "増える証拠",
+      "pron": {
+        "tts": "mounting evidence"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 100,
+      "id": "w-pattern",
+      "type": "word",
+      "front": "pattern",
+      "meaning": "パターン",
+      "synonyms": [
+        "sequence"
+      ],
+      "pron": {
+        "lookup": "pattern",
+        "tts": "pattern"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 101,
+      "id": "w-mirror",
+      "type": "word",
+      "front": "mirror",
+      "meaning": "真似する",
+      "synonyms": [
+        "mimic"
+      ],
+      "pron": {
+        "lookup": "mirror",
+        "tts": "mirror"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 102,
+      "id": "w-professional",
+      "type": "word",
+      "front": "professional",
+      "meaning": "プロの",
+      "synonyms": [
+        "expert"
+      ],
+      "pron": {
+        "lookup": "professional",
+        "tts": "professional"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 103,
+      "id": "w-surge",
+      "type": "word",
+      "front": "surge",
+      "meaning": "急増",
+      "synonyms": [
+        "flood"
+      ],
+      "pron": {
+        "lookup": "surge",
+        "tts": "surge"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 104,
+      "id": "w-anxious",
+      "type": "word",
+      "front": "anxious",
+      "meaning": "不安な",
+      "synonyms": [
+        "nervous"
+      ],
+      "pron": {
+        "lookup": "anxious",
+        "tts": "anxious"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 105,
+      "id": "w-perspective",
+      "type": "word",
+      "front": "perspective",
+      "meaning": "見方・視点",
+      "synonyms": [
+        "viewpoint",
+        "standpoint"
+      ],
+      "collocation": "from my perspective, a different viewpoint",
+      "examples": [
+        {
+          "en": "AI art challenges our perspective on creativity.",
+          "linking": "AI‿art challenges‿our perspective‿on creativity.",
+          "tips": [
+            "連結: perspective‿on, challenges‿our",
+            "弱形: our/on を弱く",
+            "強勢: AI ART, CHAL·lenges, per·SPEC·tive, crea·TI·vity",
+            "注意音: R(art/our/perspective), creativity=クリエイ·TI·ヴィティ"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "perspective",
+        "tts": "perspective"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 106,
+      "id": "w-interpret",
+      "type": "word",
+      "front": "interpret",
+      "meaning": "解釈する",
+      "synonyms": [
+        "decipher"
+      ],
+      "collocation": "interpret a text, interpret data",
+      "examples": [
+        {
+          "en": "There is a real disparity between how experts and the public interpret such art — and a fear that automation will replace human artists.",
+          "linking": "There‿is‿a real disparity between how experts‿and the public‿interpret such‿art — and‿a fear that‿automation will replace human‿artists.",
+          "tips": [
+            "連結: there‿is‿a=ゼアリザ, experts‿and, such‿art",
+            "弱形: a/and(=/ən/)/the/that/will",
+            "強勢: dis·PA·rity, ex·PERTS, in·TER·pret, auto·MA·tion, re·PLACE",
+            "注意音: R(real/disparity/interpret/art), TH(there/the/that)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "interpret",
+        "tts": "interpret"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 107,
+      "id": "w-notion",
+      "type": "word",
+      "front": "notion",
+      "meaning": "考え方",
+      "synonyms": [
+        "concept",
+        "idea"
+      ],
+      "collocation": "the notion that…, an interesting concept",
+      "examples": [
+        {
+          "en": "At first, the notion that machines could paint was met with scepticism, yet the results were credible enough to fool experts.",
+          "linking": "At first, the notion that machines could paint was met‿with scepticism, yet the results were credible‿enough to fool experts.",
+          "tips": [
+            "連結: met‿with=メットウィズ, credible‿enough",
+            "弱形: the/that/was(=/wəz/)/with/to/were(=/wə/)",
+            "強勢: NO·tion, ma·CHINES, SCEP·ticism, CRE·dible, e·NOUGH",
+            "注意音: TH(the/that/with), scepticism=スケプティスィズム"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "notion",
+        "tts": "notion"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 108,
+      "id": "w-scepticism",
+      "type": "word",
+      "front": "scepticism",
+      "meaning": "懐疑",
+      "synonyms": [
+        "doubt"
+      ],
+      "collocation": "met with scepticism, express scepticism",
+      "examples": [
+        {
+          "en": "At first, the notion that machines could paint was met with scepticism, yet the results were credible enough to fool experts.",
+          "linking": "At first, the notion that machines could paint was met‿with scepticism, yet the results were credible‿enough to fool experts.",
+          "tips": [
+            "連結: met‿with=メットウィズ, credible‿enough",
+            "弱形: the/that/was(=/wəz/)/with/to/were(=/wə/)",
+            "強勢: NO·tion, ma·CHINES, SCEP·ticism, CRE·dible, e·NOUGH",
+            "注意音: TH(the/that/with), scepticism=スケプティスィズム"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "scepticism",
+        "tts": "scepticism"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 109,
+      "id": "w-credible",
+      "type": "word",
+      "front": "credible",
+      "meaning": "信じられる・もっともらしい",
+      "synonyms": [
+        "plausible"
+      ],
+      "collocation": "a credible explanation, a plausible argument",
+      "examples": [
+        {
+          "en": "At first, the notion that machines could paint was met with scepticism, yet the results were credible enough to fool experts.",
+          "linking": "At first, the notion that machines could paint was met‿with scepticism, yet the results were credible‿enough to fool experts.",
+          "tips": [
+            "連結: met‿with=メットウィズ, credible‿enough",
+            "弱形: the/that/was(=/wəz/)/with/to/were(=/wə/)",
+            "強勢: NO·tion, ma·CHINES, SCEP·ticism, CRE·dible, e·NOUGH",
+            "注意音: TH(the/that/with), scepticism=スケプティスィズム"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "credible",
+        "tts": "credible"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 110,
+      "id": "w-innovative",
+      "type": "word",
+      "front": "innovative",
+      "meaning": "革新的な",
+      "synonyms": [
+        "ingenious",
+        "groundbreaking"
+      ],
+      "collocation": "an innovative approach",
+      "examples": [
+        {
+          "en": "This innovative technology raises hard questions about value: the scarcity of an original gives it worth, so where does that leave a copy?",
+          "linking": "This‿innovative technology raises hard questions‿about value: the scarcity‿of‿an‿original gives‿it worth, so where does that leave‿a copy?",
+          "tips": [
+            "連結: of‿an, gives‿it=ギヴズィッ, scarcity‿of",
+            "弱形: about/the/of(=/əv/)/an/that/a",
+            "強勢: IN·novative, tech·NO·logy, SCAR·city, o·RI·ginal",
+            "注意音: TH(this/the/that/worth), V(innovative/value/gives)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "innovative",
+        "tts": "innovative"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 111,
+      "id": "w-value",
+      "type": "word",
+      "front": "value",
+      "meaning": "価値",
+      "synonyms": [
+        "worth"
+      ],
+      "collocation": "the true value of…, of great worth",
+      "examples": [
+        {
+          "en": "This innovative technology raises hard questions about value: the scarcity of an original gives it worth, so where does that leave a copy?",
+          "linking": "This‿innovative technology raises hard questions‿about value: the scarcity‿of‿an‿original gives‿it worth, so where does that leave‿a copy?",
+          "tips": [
+            "連結: of‿an, gives‿it=ギヴズィッ, scarcity‿of",
+            "弱形: about/the/of(=/əv/)/an/that/a",
+            "強勢: IN·novative, tech·NO·logy, SCAR·city, o·RI·ginal",
+            "注意音: TH(this/the/that/worth), V(innovative/value/gives)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "value",
+        "tts": "value"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 112,
+      "id": "w-priceless",
+      "type": "word",
+      "front": "priceless",
+      "meaning": "非常に貴重な",
+      "synonyms": [
+        "invaluable"
+      ],
+      "collocation": "priceless artwork, invaluable experience",
+      "pron": {
+        "lookup": "priceless",
+        "tts": "priceless"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 113,
+      "id": "w-disparity",
+      "type": "word",
+      "front": "disparity",
+      "meaning": "隔たり・差",
+      "synonyms": [
+        "gap",
+        "difference"
+      ],
+      "collocation": "a wide disparity, bridge the gap",
+      "examples": [
+        {
+          "en": "There is a real disparity between how experts and the public interpret such art — and a fear that automation will replace human artists.",
+          "linking": "There‿is‿a real disparity between how experts‿and the public‿interpret such‿art — and‿a fear that‿automation will replace human‿artists.",
+          "tips": [
+            "連結: there‿is‿a=ゼアリザ, experts‿and, such‿art",
+            "弱形: a/and(=/ən/)/the/that/will",
+            "強勢: dis·PA·rity, ex·PERTS, in·TER·pret, auto·MA·tion, re·PLACE",
+            "注意音: R(real/disparity/interpret/art), TH(there/the/that)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "disparity",
+        "tts": "disparity"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 114,
+      "id": "w-scarcity",
+      "type": "word",
+      "front": "scarcity",
+      "meaning": "希少性",
+      "synonyms": [
+        "rarity"
+      ],
+      "collocation": "scarcity of resources, due to its rarity",
+      "examples": [
+        {
+          "en": "This innovative technology raises hard questions about value: the scarcity of an original gives it worth, so where does that leave a copy?",
+          "linking": "This‿innovative technology raises hard questions‿about value: the scarcity‿of‿an‿original gives‿it worth, so where does that leave‿a copy?",
+          "tips": [
+            "連結: of‿an, gives‿it=ギヴズィッ, scarcity‿of",
+            "弱形: about/the/of(=/əv/)/an/that/a",
+            "強勢: IN·novative, tech·NO·logy, SCAR·city, o·RI·ginal",
+            "注意音: TH(this/the/that/worth), V(innovative/value/gives)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "scarcity",
+        "tts": "scarcity"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 115,
+      "id": "p-be-made-redundant",
+      "type": "phrase",
+      "front": "be made redundant",
+      "meaning": "解雇される",
+      "synonyms": [
+        "be laid off",
+        "lose one's job"
+      ],
+      "collocation": "be made redundant due to…",
+      "pron": {
+        "tts": "be made redundant"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 116,
+      "id": "w-automation",
+      "type": "word",
+      "front": "automation",
+      "meaning": "自動化",
+      "synonyms": [
+        "mechanisation"
+      ],
+      "collocation": "the rise of automation",
+      "examples": [
+        {
+          "en": "There is a real disparity between how experts and the public interpret such art — and a fear that automation will replace human artists.",
+          "linking": "There‿is‿a real disparity between how experts‿and the public‿interpret such‿art — and‿a fear that‿automation will replace human‿artists.",
+          "tips": [
+            "連結: there‿is‿a=ゼアリザ, experts‿and, such‿art",
+            "弱形: a/and(=/ən/)/the/that/will",
+            "強勢: dis·PA·rity, ex·PERTS, in·TER·pret, auto·MA·tion, re·PLACE",
+            "注意音: R(real/disparity/interpret/art), TH(there/the/that)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "automation",
+        "tts": "automation"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 117,
+      "id": "p-area-of-expertise",
+      "type": "phrase",
+      "front": "area of expertise",
+      "meaning": "専門分野",
+      "synonyms": [
+        "speciality"
+      ],
+      "collocation": "outside my area of expertise",
+      "pron": {
+        "tts": "area of expertise"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 118,
+      "id": "p-pose-a-problem",
+      "type": "phrase",
+      "front": "pose a problem",
+      "meaning": "疑問を投げかける",
+      "synonyms": [
+        "raise a question"
+      ],
+      "collocation": "this poses a problem, raise questions about",
+      "pron": {
+        "tts": "pose a problem"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 119,
+      "id": "p-from-scratch",
+      "type": "phrase",
+      "front": "from scratch",
+      "meaning": "一から",
+      "synonyms": [
+        "from the beginning"
+      ],
+      "pron": {
+        "tts": "from scratch"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 120,
+      "id": "w-fool",
+      "type": "word",
+      "front": "fool",
+      "meaning": "騙す",
+      "synonyms": [
+        "dupe",
+        "mislead"
+      ],
+      "pron": {
+        "lookup": "fool",
+        "tts": "fool"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 121,
+      "id": "p-lay-person",
+      "type": "phrase",
+      "front": "lay person",
+      "meaning": "一般人",
+      "synonyms": [
+        "the man on the street"
+      ],
+      "pron": {
+        "tts": "lay person"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 122,
+      "id": "w-haphazard",
+      "type": "word",
+      "front": "haphazard",
+      "meaning": "場当たり的な",
+      "synonyms": [
+        "erratic"
+      ],
+      "pron": {
+        "lookup": "haphazard",
+        "tts": "haphazard"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 123,
+      "id": "w-refuge",
+      "type": "word",
+      "front": "refuge",
+      "meaning": "避難所",
+      "synonyms": [
+        "sanctuary"
+      ],
+      "pron": {
+        "lookup": "refuge",
+        "tts": "refuge"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 124,
+      "id": "w-gifted",
+      "type": "word",
+      "front": "gifted",
+      "meaning": "才能のある",
+      "synonyms": [
+        "talented",
+        "bright"
+      ],
+      "collocation": "a gifted child, academically gifted",
+      "examples": [
+        {
+          "en": "Our school exists to foster the talents of gifted children.",
+          "linking": "Our school‿exists to foster the talents‿of gifted children.",
+          "tips": [
+            "連結: talents‿of=タレンツォヴ, school‿exists",
+            "弱形: to/the/of を弱く",
+            "強勢: ex·ISTS, FOS·ter, TA·lents, GIF·ted, CHIL·dren",
+            "注意音: R(our/foster/children), TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "gifted",
+        "tts": "gifted"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 125,
+      "id": "w-blueprint",
+      "type": "word",
+      "front": "blueprint",
+      "meaning": "計画・構想",
+      "synonyms": [
+        "framework",
+        "model"
+      ],
+      "collocation": "a blueprint for success, a clear framework",
+      "examples": [
+        {
+          "en": "We follow a clear blueprint: rather than coddle pupils, we build their self-reliance and independence.",
+          "linking": "We follow‿a clear blueprint: rather than coddle pupils, we build their self-reliance‿and‿independence.",
+          "tips": [
+            "連結: follow‿a, reliance‿and",
+            "弱形: a/than(=/ðən/)/their/and(=/ən/)",
+            "強勢: FOL·low, BLUE·print, RA·ther, COD·dle, inde·PEN·dence",
+            "注意音: TH(rather/than/their), R(clear/rather/reliance)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "blueprint",
+        "tts": "blueprint"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 126,
+      "id": "w-progress",
+      "type": "word",
+      "front": "progress",
+      "meaning": "成長・進歩",
+      "synonyms": [
+        "advancement",
+        "betterment"
+      ],
+      "collocation": "make progress, career advancement",
+      "examples": [
+        {
+          "en": "Doing things alone compensates for time away from family, sparks creativity, and drives real progress.",
+          "linking": "Doing things‿alone compensates for time‿away from family, sparks creativity, and drives real progress.",
+          "tips": [
+            "連結: time‿away, away‿from=アウェイフロム, things‿alone",
+            "弱形: for(=/fə/)/from(=/frəm/)/and(=/ən/)",
+            "強勢: COM·pensates, FA·mily, crea·TI·vity, PRO·gress",
+            "注意音: TH(things), R(creativity/drives/real/progress)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "progress",
+        "tts": "progress"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 127,
+      "id": "w-foster",
+      "type": "word",
+      "front": "foster",
+      "meaning": "育成する",
+      "synonyms": [
+        "nurture",
+        "cultivate"
+      ],
+      "collocation": "foster independence, nurture talent",
+      "examples": [
+        {
+          "en": "Our school exists to foster the talents of gifted children.",
+          "linking": "Our school‿exists to foster the talents‿of gifted children.",
+          "tips": [
+            "連結: talents‿of=タレンツォヴ, school‿exists",
+            "弱形: to/the/of を弱く",
+            "強勢: ex·ISTS, FOS·ter, TA·lents, GIF·ted, CHIL·dren",
+            "注意音: R(our/foster/children), TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "foster",
+        "tts": "foster"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 128,
+      "id": "w-self-reliance",
+      "type": "word",
+      "front": "self-reliance",
+      "meaning": "自立",
+      "synonyms": [
+        "independence",
+        "autonomy"
+      ],
+      "collocation": "develop self-reliance, greater autonomy",
+      "examples": [
+        {
+          "en": "We follow a clear blueprint: rather than coddle pupils, we build their self-reliance and independence.",
+          "linking": "We follow‿a clear blueprint: rather than coddle pupils, we build their self-reliance‿and‿independence.",
+          "tips": [
+            "連結: follow‿a, reliance‿and",
+            "弱形: a/than(=/ðən/)/their/and(=/ən/)",
+            "強勢: FOL·low, BLUE·print, RA·ther, COD·dle, inde·PEN·dence",
+            "注意音: TH(rather/than/their), R(clear/rather/reliance)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "self-reliance",
+        "tts": "self-reliance"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 129,
+      "id": "p-compensate-for",
+      "type": "phrase",
+      "front": "compensate for",
+      "meaning": "～の埋め合わせをする",
+      "synonyms": [
+        "make up for"
+      ],
+      "collocation": "compensate for the lack of…",
+      "examples": [
+        {
+          "en": "Doing things alone compensates for time away from family, sparks creativity, and drives real progress.",
+          "linking": "Doing things‿alone compensates for time‿away from family, sparks creativity, and drives real progress.",
+          "tips": [
+            "連結: time‿away, away‿from=アウェイフロム, things‿alone",
+            "弱形: for(=/fə/)/from(=/frəm/)/and(=/ən/)",
+            "強勢: COM·pensates, FA·mily, crea·TI·vity, PRO·gress",
+            "注意音: TH(things), R(creativity/drives/real/progress)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "compensate for"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 130,
+      "id": "p-trial-and-error",
+      "type": "phrase",
+      "front": "trial and error",
+      "meaning": "試行錯誤",
+      "synonyms": [
+        "experimentation"
+      ],
+      "collocation": "through trial and error",
+      "pron": {
+        "tts": "trial and error"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 131,
+      "id": "w-inventiveness",
+      "type": "word",
+      "front": "inventiveness",
+      "meaning": "発想力・創造性",
+      "synonyms": [
+        "creativity",
+        "ingenuity"
+      ],
+      "collocation": "encourage creativity",
+      "pron": {
+        "lookup": "inventiveness",
+        "tts": "inventiveness"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 132,
+      "id": "p-channel-into",
+      "type": "phrase",
+      "front": "channel into",
+      "meaning": "～へ向ける",
+      "synonyms": [
+        "direct towards"
+      ],
+      "collocation": "channel energy into sport",
+      "pron": {
+        "tts": "channel into"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 133,
+      "id": "w-grant",
+      "type": "word",
+      "front": "grant",
+      "meaning": "補助金・奨学金",
+      "synonyms": [
+        "scholarship",
+        "stipend"
+      ],
+      "collocation": "provide grants, offer a scholarship",
+      "pron": {
+        "lookup": "grant",
+        "tts": "grant"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 134,
+      "id": "p-socially-disadvantaged",
+      "type": "phrase",
+      "front": "socially disadvantaged",
+      "meaning": "社会的に恵まれない",
+      "synonyms": [
+        "economically deprived"
+      ],
+      "collocation": "socially disadvantaged families",
+      "pron": {
+        "tts": "socially disadvantaged"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 135,
+      "id": "p-confidence-in",
+      "type": "phrase",
+      "front": "confidence in",
+      "meaning": "～に対する自信",
+      "synonyms": [
+        "faith",
+        "belief in"
+      ],
+      "collocation": "build confidence in oneself",
+      "pron": {
+        "tts": "confidence in"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 136,
+      "id": "p-rely-on",
+      "type": "phrase",
+      "front": "rely on",
+      "meaning": "～に頼る",
+      "synonyms": [
+        "depend on",
+        "count on"
+      ],
+      "collocation": "rely on others, count on support",
+      "pron": {
+        "tts": "rely on"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 137,
+      "id": "p-get-accustomed-to",
+      "type": "phrase",
+      "front": "get accustomed to",
+      "meaning": "～に慣れる",
+      "synonyms": [
+        "get used to"
+      ],
+      "collocation": "get accustomed to doing sth",
+      "pron": {
+        "tts": "get accustomed to"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 138,
+      "id": "w-coddle",
+      "type": "word",
+      "front": "coddle",
+      "meaning": "甘やかす",
+      "synonyms": [
+        "overprotect",
+        "baby"
+      ],
+      "pron": {
+        "lookup": "coddle",
+        "tts": "coddle"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 139,
+      "id": "p-immediate-family",
+      "type": "phrase",
+      "front": "immediate family",
+      "meaning": "身内",
+      "synonyms": [
+        "blood relative"
+      ],
+      "pron": {
+        "tts": "immediate family"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 140,
+      "id": "w-know-how",
+      "type": "word",
+      "front": "know-how",
+      "meaning": "ノウハウ",
+      "synonyms": [
+        "knowledge"
+      ],
+      "pron": {
+        "lookup": "know-how",
+        "tts": "know-how"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 141,
+      "id": "w-spur",
+      "type": "word",
+      "front": "spur",
+      "meaning": "促進する",
+      "synonyms": [
+        "stimulate"
+      ],
+      "pron": {
+        "lookup": "spur",
+        "tts": "spur"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 142,
+      "id": "p-in-one-s-care",
+      "type": "phrase",
+      "front": "in one's care",
+      "meaning": "監督下で",
+      "synonyms": [
+        "under supervision"
+      ],
+      "pron": {
+        "tts": "in one's care"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 143,
+      "id": "p-overnight-success",
+      "type": "phrase",
+      "front": "overnight success",
+      "meaning": "一夜にして成功",
+      "synonyms": [
+        "instant success"
+      ],
+      "collocation": "achieve overnight success",
+      "examples": [
+        {
+          "en": "A famous entrepreneur who achieved overnight success online decided to invest in a groundbreaking train linking two metropolitan areas.",
+          "linking": "A famous‿entrepreneur who‿achieved‿overnight success‿online decided to‿invest‿in‿a groundbreaking train linking two metropolitan‿areas.",
+          "tips": [
+            "連結: invest‿in=インヴェスティン, achieved‿overnight, in‿a",
+            "弱形: a/who/to(=/tə/)/in",
+            "強勢: FA·mous, entrepre·NEUR, suc·CESS, in·VEST, GROUND·breaking",
+            "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "overnight success"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 144,
+      "id": "p-invest-in",
+      "type": "phrase",
+      "front": "invest in",
+      "meaning": "投資する",
+      "synonyms": [
+        "finance",
+        "put money into"
+      ],
+      "collocation": "invest in infrastructure",
+      "examples": [
+        {
+          "en": "A famous entrepreneur who achieved overnight success online decided to invest in a groundbreaking train linking two metropolitan areas.",
+          "linking": "A famous‿entrepreneur who‿achieved‿overnight success‿online decided to‿invest‿in‿a groundbreaking train linking two metropolitan‿areas.",
+          "tips": [
+            "連結: invest‿in=インヴェスティン, achieved‿overnight, in‿a",
+            "弱形: a/who/to(=/tə/)/in",
+            "強勢: FA·mous, entrepre·NEUR, suc·CESS, in·VEST, GROUND·breaking",
+            "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "invest in"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 145,
+      "id": "w-top-notch",
+      "type": "word",
+      "front": "top-notch",
+      "meaning": "最高の・一流の",
+      "synonyms": [
+        "first-rate",
+        "premier"
+      ],
+      "collocation": "top-notch facilities",
+      "pron": {
+        "lookup": "top-notch",
+        "tts": "top-notch"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 146,
+      "id": "w-metropolitan",
+      "type": "word",
+      "front": "metropolitan",
+      "meaning": "大都市の",
+      "synonyms": [
+        "urban"
+      ],
+      "collocation": "metropolitan areas, urban centres",
+      "examples": [
+        {
+          "en": "A famous entrepreneur who achieved overnight success online decided to invest in a groundbreaking train linking two metropolitan areas.",
+          "linking": "A famous‿entrepreneur who‿achieved‿overnight success‿online decided to‿invest‿in‿a groundbreaking train linking two metropolitan‿areas.",
+          "tips": [
+            "連結: invest‿in=インヴェスティン, achieved‿overnight, in‿a",
+            "弱形: a/who/to(=/tə/)/in",
+            "強勢: FA·mous, entrepre·NEUR, suc·CESS, in·VEST, GROUND·breaking",
+            "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "metropolitan",
+        "tts": "metropolitan"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 147,
+      "id": "w-groundbreaking",
+      "type": "word",
+      "front": "groundbreaking",
+      "meaning": "画期的な",
+      "synonyms": [
+        "revolutionary",
+        "innovative"
+      ],
+      "collocation": "a groundbreaking technique",
+      "examples": [
+        {
+          "en": "A famous entrepreneur who achieved overnight success online decided to invest in a groundbreaking train linking two metropolitan areas.",
+          "linking": "A famous‿entrepreneur who‿achieved‿overnight success‿online decided to‿invest‿in‿a groundbreaking train linking two metropolitan‿areas.",
+          "tips": [
+            "連結: invest‿in=インヴェスティン, achieved‿overnight, in‿a",
+            "弱形: a/who/to(=/tə/)/in",
+            "強勢: FA·mous, entrepre·NEUR, suc·CESS, in·VEST, GROUND·breaking",
+            "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "groundbreaking",
+        "tts": "groundbreaking"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 148,
+      "id": "p-stumbling-block",
+      "type": "phrase",
+      "front": "stumbling block",
+      "meaning": "障害",
+      "synonyms": [
+        "obstacle",
+        "impediment"
+      ],
+      "collocation": "a major stumbling block",
+      "pron": {
+        "tts": "stumbling block"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 149,
+      "id": "p-cut-expenditure",
+      "type": "phrase",
+      "front": "cut expenditure",
+      "meaning": "支出を抑える",
+      "synonyms": [
+        "reduce spending"
+      ],
+      "collocation": "cut expenditure on…",
+      "pron": {
+        "tts": "cut expenditure"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 150,
+      "id": "p-appetite-for",
+      "type": "phrase",
+      "front": "appetite for",
+      "meaning": "～への欲求",
+      "synonyms": [
+        "hunger",
+        "yearning for"
+      ],
+      "collocation": "an appetite for change",
+      "pron": {
+        "tts": "appetite for"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 151,
+      "id": "w-exorbitant",
+      "type": "word",
+      "front": "exorbitant",
+      "meaning": "法外な",
+      "synonyms": [
+        "excessive"
+      ],
+      "collocation": "exorbitant prices, excessive costs",
+      "examples": [
+        {
+          "en": "But there were obstacles. Tickets might be too exorbitant for ordinary people to afford.",
+          "linking": "But there‿were‿obstacles. Tickets might be too‿exorbitant for‿ordinary people to‿afford.",
+          "tips": [
+            "連結: there‿were, were‿obstacles, too‿exorbitant",
+            "弱形: there/were(=/wə/)/for(=/fə/)/to(=/tə/)",
+            "強勢: OB·stacles, TI·ckets, ex·OR·bitant, OR·dinary, af·FORD",
+            "注意音: R(there/exorbitant/ordinary/afford), TH(there)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "exorbitant",
+        "tts": "exorbitant"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 152,
+      "id": "w-afford",
+      "type": "word",
+      "front": "afford",
+      "meaning": "～する余裕がある",
+      "synonyms": [
+        "budget for"
+      ],
+      "collocation": "can't afford to…, afford a ticket",
+      "examples": [
+        {
+          "en": "But there were obstacles. Tickets might be too exorbitant for ordinary people to afford.",
+          "linking": "But there‿were‿obstacles. Tickets might be too‿exorbitant for‿ordinary people to‿afford.",
+          "tips": [
+            "連結: there‿were, were‿obstacles, too‿exorbitant",
+            "弱形: there/were(=/wə/)/for(=/fə/)/to(=/tə/)",
+            "強勢: OB·stacles, TI·ckets, ex·OR·bitant, OR·dinary, af·FORD",
+            "注意音: R(there/exorbitant/ordinary/afford), TH(there)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "afford",
+        "tts": "afford"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 153,
+      "id": "p-the-whole-picture",
+      "type": "phrase",
+      "front": "the whole picture",
+      "meaning": "全体像",
+      "synonyms": [
+        "the bigger picture"
+      ],
+      "collocation": "look at the whole picture",
+      "pron": {
+        "tts": "the whole picture"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 154,
+      "id": "p-set-down",
+      "type": "phrase",
+      "front": "set down",
+      "meaning": "(法律を)定める",
+      "synonyms": [
+        "enact",
+        "pass",
+        "legislate"
+      ],
+      "collocation": "enact a law, pass legislation",
+      "pron": {
+        "tts": "set down"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 155,
+      "id": "w-decelerate",
+      "type": "word",
+      "front": "decelerate",
+      "meaning": "減速する",
+      "synonyms": [
+        "slow down"
+      ],
+      "collocation": "the train decelerates",
+      "pron": {
+        "lookup": "decelerate",
+        "tts": "decelerate"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 156,
+      "id": "p-lengthy-delay",
+      "type": "phrase",
+      "front": "lengthy delay",
+      "meaning": "長期間の遅れ",
+      "synonyms": [
+        "prolonged delay"
+      ],
+      "collocation": "expect lengthy delays",
+      "pron": {
+        "tts": "lengthy delay"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 157,
+      "id": "w-sway",
+      "type": "word",
+      "front": "sway",
+      "meaning": "(人の心を)左右する",
+      "synonyms": [
+        "persuade",
+        "influence"
+      ],
+      "collocation": "sway public opinion, persuade sb to…",
+      "pron": {
+        "lookup": "sway",
+        "tts": "sway"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 158,
+      "id": "w-authorise",
+      "type": "word",
+      "front": "authorise",
+      "meaning": "認可する",
+      "synonyms": [
+        "approve",
+        "permit"
+      ],
+      "collocation": "authorise a project, approve plans",
+      "examples": [
+        {
+          "en": "Until the company can persuade local governments to authorise the project, the train of the future stays on the drawing board.",
+          "linking": "Until the company can persuade local governments to‿authorise the project, the train‿of the future stays‿on the drawing board.",
+          "tips": [
+            "連結: train‿of, stays‿on=ステイゾン",
+            "弱形: the/can(=/kən/)/to(=/tə/)/of(=/əv/)",
+            "強勢: COM·pany, per·SUADE, AU·thorise, PRO·ject, DRAW·ing BOARD",
+            "注意音: R(persuade/authorise/project/train/board), TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "authorise",
+        "tts": "authorise"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 159,
+      "id": "p-like-something-from-the-pages-of-a-novel",
+      "type": "phrase",
+      "front": "like something from the pages of a novel",
+      "meaning": "ありそうもない",
+      "synonyms": [
+        "far-fetched",
+        "improbable"
+      ],
+      "pron": {
+        "tts": "like something from the pages of a novel"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 160,
+      "id": "w-bankroll",
+      "type": "word",
+      "front": "bankroll",
+      "meaning": "出資する",
+      "pron": {
+        "lookup": "bankroll",
+        "tts": "bankroll"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 161,
+      "id": "w-zip",
+      "type": "word",
+      "front": "zip",
+      "meaning": "素早く走らせる",
+      "synonyms": [
+        "dart"
+      ],
+      "pron": {
+        "lookup": "zip",
+        "tts": "zip"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 162,
+      "id": "p-place-sb-in-harm-s-way",
+      "type": "phrase",
+      "front": "place sb in harm's way",
+      "meaning": "危険にさらす",
+      "pron": {
+        "tts": "place sb in harm's way"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 163,
+      "id": "p-take-a-spin",
+      "type": "phrase",
+      "front": "take a spin",
+      "meaning": "試乗する",
+      "synonyms": [
+        "have a go"
+      ],
+      "pron": {
+        "tts": "take a spin"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 164,
+      "id": "w-struggle",
+      "type": "word",
+      "front": "struggle",
+      "meaning": "奮闘する",
+      "synonyms": [
+        "fight",
+        "battle"
+      ],
+      "collocation": "struggle for a cause, struggle to do",
+      "examples": [
+        {
+          "en": "Maria Montessori struggled for every child's right to learn.",
+          "linking": "Maria Montessori struggled for‿every child's‿right to learn.",
+          "tips": [
+            "連結: child's‿right, for‿every",
+            "弱形: for(=/fə/)/to(=/tə/)",
+            "強勢: Ma·RI·a, Montes·SO·ri, STRUG·gled, RIGHT, LEARN",
+            "注意音: R(Maria/struggled/right/learn), L(struggled/child/learn)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "struggle",
+        "tts": "struggle"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 165,
+      "id": "w-esteemed",
+      "type": "word",
+      "front": "esteemed",
+      "meaning": "立派な・名高い",
+      "synonyms": [
+        "prestigious",
+        "renowned"
+      ],
+      "collocation": "a prestigious university, a renowned expert",
+      "examples": [
+        {
+          "en": "From an esteemed family, she persevered as the only woman in medical school and graduated with top grades.",
+          "linking": "From‿an‿esteemed family, she persevered‿as the‿only woman‿in medical school‿and graduated with top grades.",
+          "tips": [
+            "連結: from‿an=フロマン, persevered‿as, woman‿in",
+            "弱形: an/as(=/əz/)/the/in/and(=/ən/)/with",
+            "強勢: es·TEEMED, perse·VERED, ON·ly, ME·dical, GRA·duated",
+            "注意音: TH(the/with), R(from/persevered/grades)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "esteemed",
+        "tts": "esteemed"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 166,
+      "id": "w-approval",
+      "type": "word",
+      "front": "approval",
+      "meaning": "承認・支援",
+      "synonyms": [
+        "support",
+        "backing"
+      ],
+      "collocation": "gain approval, have the backing of",
+      "pron": {
+        "lookup": "approval",
+        "tts": "approval"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 167,
+      "id": "w-sole",
+      "type": "word",
+      "front": "sole",
+      "meaning": "唯一の",
+      "synonyms": [
+        "lone",
+        "only"
+      ],
+      "collocation": "the sole reason, the lone survivor",
+      "pron": {
+        "lookup": "sole",
+        "tts": "sole"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 168,
+      "id": "w-persevere",
+      "type": "word",
+      "front": "persevere",
+      "meaning": "耐え忍ぶ",
+      "synonyms": [
+        "persist"
+      ],
+      "collocation": "persevere despite difficulties",
+      "examples": [
+        {
+          "en": "From an esteemed family, she persevered as the only woman in medical school and graduated with top grades.",
+          "linking": "From‿an‿esteemed family, she persevered‿as the‿only woman‿in medical school‿and graduated with top grades.",
+          "tips": [
+            "連結: from‿an=フロマン, persevered‿as, woman‿in",
+            "弱形: an/as(=/əz/)/the/in/and(=/ən/)/with",
+            "強勢: es·TEEMED, perse·VERED, ON·ly, ME·dical, GRA·duated",
+            "注意音: TH(the/with), R(from/persevered/grades)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "persevere",
+        "tts": "persevere"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 169,
+      "id": "w-tenacity",
+      "type": "word",
+      "front": "tenacity",
+      "meaning": "粘り強さ",
+      "synonyms": [
+        "perseverance",
+        "persistence"
+      ],
+      "collocation": "sheer tenacity, with perseverance",
+      "pron": {
+        "lookup": "tenacity",
+        "tts": "tenacity"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 170,
+      "id": "p-come-up-with",
+      "type": "phrase",
+      "front": "come up with",
+      "meaning": "～を思いつく",
+      "synonyms": [
+        "conceive"
+      ],
+      "collocation": "come up with an idea, conceive a plan",
+      "examples": [
+        {
+          "en": "Working with poor children, she came up with the theory that all kids have an innate desire to learn.",
+          "linking": "Working with poor children, she came‿up with the theory that‿all kids‿have‿an‿innate desire to learn.",
+          "tips": [
+            "連結: came‿up=ケイマップ, have‿an=ハヴァン, kids‿have",
+            "弱形: with/the/that(=/ðət/)/an/to(=/tə/)",
+            "強勢: WORK·ing, THEO·ry, in·NATE, de·SIRE, LEARN",
+            "注意音: TH(with/the/theory/that), R(poor/children/desire), V(have)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "come up with"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 171,
+      "id": "w-innate",
+      "type": "word",
+      "front": "innate",
+      "meaning": "生まれつきの",
+      "synonyms": [
+        "natural",
+        "inborn"
+      ],
+      "collocation": "an innate desire, innate ability",
+      "examples": [
+        {
+          "en": "Working with poor children, she came up with the theory that all kids have an innate desire to learn.",
+          "linking": "Working with poor children, she came‿up with the theory that‿all kids‿have‿an‿innate desire to learn.",
+          "tips": [
+            "連結: came‿up=ケイマップ, have‿an=ハヴァン, kids‿have",
+            "弱形: with/the/that(=/ðət/)/an/to(=/tə/)",
+            "強勢: WORK·ing, THEO·ry, in·NATE, de·SIRE, LEARN",
+            "注意音: TH(with/the/theory/that), R(poor/children/desire), V(have)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "innate",
+        "tts": "innate"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 172,
+      "id": "p-radical-change",
+      "type": "phrase",
+      "front": "radical change",
+      "meaning": "急進的な変化",
+      "synonyms": [
+        "monumental shift"
+      ],
+      "collocation": "undergo radical change",
+      "pron": {
+        "tts": "radical change"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 173,
+      "id": "w-force",
+      "type": "word",
+      "front": "force",
+      "meaning": "強制する",
+      "synonyms": [
+        "compel"
+      ],
+      "collocation": "be forced to…, compel sb to do",
+      "pron": {
+        "lookup": "force",
+        "tts": "force"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 174,
+      "id": "w-emphasise",
+      "type": "word",
+      "front": "emphasise",
+      "meaning": "強調する",
+      "synonyms": [
+        "highlight",
+        "underscore"
+      ],
+      "collocation": "emphasise the importance of",
+      "examples": [
+        {
+          "en": "Her method emphasised freedom and responsibility, and was soon adopted worldwide.",
+          "linking": "Her method‿emphasised freedom‿and responsibility, and was soon‿adopted worldwide.",
+          "tips": [
+            "連結: freedom‿and, soon‿adopted, method‿emphasised",
+            "弱形: and(=/ən/)/was(=/wəz/)",
+            "強勢: ME·thod, EM·phasised, FREE·dom, respon·si·BI·lity, a·DOP·ted",
+            "注意音: TH(method), R(her/freedom/worldwide)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "emphasise",
+        "tts": "emphasise"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 175,
+      "id": "w-adopt",
+      "type": "word",
+      "front": "adopt",
+      "meaning": "～を採用する",
+      "synonyms": [
+        "embrace",
+        "take up"
+      ],
+      "collocation": "adopt a method, embrace change",
+      "examples": [
+        {
+          "en": "Her method emphasised freedom and responsibility, and was soon adopted worldwide.",
+          "linking": "Her method‿emphasised freedom‿and responsibility, and was soon‿adopted worldwide.",
+          "tips": [
+            "連結: freedom‿and, soon‿adopted, method‿emphasised",
+            "弱形: and(=/ən/)/was(=/wəz/)",
+            "強勢: ME·thod, EM·phasised, FREE·dom, respon·si·BI·lity, a·DOP·ted",
+            "注意音: TH(method), R(her/freedom/worldwide)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "adopt",
+        "tts": "adopt"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 176,
+      "id": "p-advocate-of",
+      "type": "phrase",
+      "front": "advocate of",
+      "meaning": "～の擁護者",
+      "synonyms": [
+        "champion of"
+      ],
+      "collocation": "a strong advocate of reform",
+      "examples": [
+        {
+          "en": "A lifelong advocate of peace, her subsequent influence on education endures.",
+          "linking": "A lifelong‿advocate‿of peace, her subsequent‿influence‿on‿education‿endures.",
+          "tips": [
+            "連結: advocate‿of=アドヴォケイトヴ, influence‿on, education‿endures",
+            "弱形: a/of(=/əv/)/her/on",
+            "強勢: LIFE·long, AD·vocate, PEACE, SUB·sequent, edu·CA·tion, en·DURES",
+            "注意音: R(her/influence/endures), V(advocate/influence)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "advocate of"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 177,
+      "id": "w-subsequent",
+      "type": "word",
+      "front": "subsequent",
+      "meaning": "その後の",
+      "synonyms": [
+        "resulting",
+        "later"
+      ],
+      "collocation": "subsequent events, the resulting impact",
+      "examples": [
+        {
+          "en": "A lifelong advocate of peace, her subsequent influence on education endures.",
+          "linking": "A lifelong‿advocate‿of peace, her subsequent‿influence‿on‿education‿endures.",
+          "tips": [
+            "連結: advocate‿of=アドヴォケイトヴ, influence‿on, education‿endures",
+            "弱形: a/of(=/əv/)/her/on",
+            "強勢: LIFE·long, AD·vocate, PEACE, SUB·sequent, edu·CA·tion, en·DURES",
+            "注意音: R(her/influence/endures), V(advocate/influence)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "subsequent",
+        "tts": "subsequent"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 178,
+      "id": "w-icon",
+      "type": "word",
+      "front": "icon",
+      "meaning": "象徴・指導者",
+      "synonyms": [
+        "luminary",
+        "leading light"
+      ],
+      "pron": {
+        "lookup": "icon",
+        "tts": "icon"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 179,
+      "id": "p-challenge-convention",
+      "type": "phrase",
+      "front": "challenge convention",
+      "meaning": "しきたりに挑む",
+      "synonyms": [
+        "buck social norms"
+      ],
+      "pron": {
+        "tts": "challenge convention"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 180,
+      "id": "w-backlash",
+      "type": "word",
+      "front": "backlash",
+      "meaning": "反感・報復",
+      "synonyms": [
+        "retaliation"
+      ],
+      "pron": {
+        "lookup": "backlash",
+        "tts": "backlash"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 181,
+      "id": "w-prodigious",
+      "type": "word",
+      "front": "prodigious",
+      "meaning": "驚くべき",
+      "synonyms": [
+        "exceptional",
+        "extraordinary"
+      ],
+      "pron": {
+        "lookup": "prodigious",
+        "tts": "prodigious"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 182,
+      "id": "w-replicate",
+      "type": "word",
+      "front": "replicate",
+      "meaning": "模倣する",
+      "synonyms": [
+        "duplicate"
+      ],
+      "pron": {
+        "lookup": "replicate",
+        "tts": "replicate"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 183,
+      "id": "p-receive-recognition",
+      "type": "phrase",
+      "front": "receive recognition",
+      "meaning": "評価を受ける",
+      "synonyms": [
+        "acknowledgment"
+      ],
+      "pron": {
+        "tts": "receive recognition"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 184,
+      "id": "p-far-and-wide",
+      "type": "phrase",
+      "front": "far and wide",
+      "meaning": "至るところに",
+      "pron": {
+        "tts": "far and wide"
+      },
+      "tags": [
+        "montessori"
+      ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 185,
+      "id": "w-troubling",
+      "type": "word",
+      "front": "troubling",
+      "meaning": "問題となる",
+      "synonyms": [
+        "worrisome",
+        "disquieting"
+      ],
+      "collocation": "a troubling trend",
+      "examples": [
+        {
+          "en": "Lying may seem troubling, but it is an indication of a sophisticated brain.",
+          "linking": "Lying may seem troubling, but‿it‿is‿an‿indication‿of‿a sophisticated brain.",
+          "tips": [
+            "連結: it‿is‿an=イティザン, indication‿of, but‿it",
+            "弱形: but/it/an/of(=/əv/)/a",
+            "強勢: LY·ing, TROU·bling, indi·CA·tion, so·PHIS·ticated, BRAIN",
+            "注意音: R(troubling/brain), sophisticated=ソフィスティケイティッド"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "troubling",
+        "tts": "troubling"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 186,
+      "id": "w-indication",
+      "type": "word",
+      "front": "indication",
+      "meaning": "証・しるし",
+      "synonyms": [
+        "sign",
+        "evidence"
+      ],
+      "collocation": "a clear indication of…, a sign that…",
+      "examples": [
+        {
+          "en": "Lying may seem troubling, but it is an indication of a sophisticated brain.",
+          "linking": "Lying may seem troubling, but‿it‿is‿an‿indication‿of‿a sophisticated brain.",
+          "tips": [
+            "連結: it‿is‿an=イティザン, indication‿of, but‿it",
+            "弱形: but/it/an/of(=/əv/)/a",
+            "強勢: LY·ing, TROU·bling, indi·CA·tion, so·PHIS·ticated, BRAIN",
+            "注意音: R(troubling/brain), sophisticated=ソフィスティケイティッド"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "indication",
+        "tts": "indication"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 187,
+      "id": "w-sophisticated",
+      "type": "word",
+      "front": "sophisticated",
+      "meaning": "洗練された",
+      "synonyms": [
+        "refined",
+        "polished"
+      ],
+      "collocation": "a sophisticated system",
+      "examples": [
+        {
+          "en": "Lying may seem troubling, but it is an indication of a sophisticated brain.",
+          "linking": "Lying may seem troubling, but‿it‿is‿an‿indication‿of‿a sophisticated brain.",
+          "tips": [
+            "連結: it‿is‿an=イティザン, indication‿of, but‿it",
+            "弱形: but/it/an/of(=/əv/)/a",
+            "強勢: LY·ing, TROU·bling, indi·CA·tion, so·PHIS·ticated, BRAIN",
+            "注意音: R(troubling/brain), sophisticated=ソフィスティケイティッド"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "sophisticated",
+        "tts": "sophisticated"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 188,
+      "id": "w-deceitful",
+      "type": "word",
+      "front": "deceitful",
+      "meaning": "不正直な",
+      "synonyms": [
+        "deceptive",
+        "dishonest"
+      ],
+      "collocation": "deceitful behaviour",
+      "pron": {
+        "lookup": "deceitful",
+        "tts": "deceitful"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 189,
+      "id": "w-linguistic",
+      "type": "word",
+      "front": "linguistic",
+      "meaning": "言語の",
+      "synonyms": [
+        "verbal"
+      ],
+      "collocation": "linguistic ability, verbal skills",
+      "pron": {
+        "lookup": "linguistic",
+        "tts": "linguistic"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 190,
+      "id": "w-manipulate",
+      "type": "word",
+      "front": "manipulate",
+      "meaning": "操作する・説得する",
+      "synonyms": [
+        "persuade",
+        "convince"
+      ],
+      "collocation": "manipulate others, convince sb to do",
+      "examples": [
+        {
+          "en": "The skill of manipulating others without force was an evolutionary advantage, and skilled liars passed this trait to their children.",
+          "linking": "The skill‿of manipulating‿others without force was‿an‿evolutionary‿advantage, and skilled liars passed this trait to their children.",
+          "tips": [
+            "連結: skill‿of=スキロヴ, was‿an, manipulating‿others",
+            "弱形: of/without/was(=/wəz/)/an/and(=/ən/)/to(=/tə/)",
+            "強勢: ma·NI·pulating, with·OUT, evo·LU·tionary, ad·VAN·tage, TRAIT",
+            "注意音: TH(others/without/this/their), L(skill/skilled/liars)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "manipulate",
+        "tts": "manipulate"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 191,
+      "id": "w-trait",
+      "type": "word",
+      "front": "trait",
+      "meaning": "(性格上の)特徴",
+      "synonyms": [
+        "characteristic"
+      ],
+      "collocation": "a personality trait, a key characteristic",
+      "examples": [
+        {
+          "en": "The skill of manipulating others without force was an evolutionary advantage, and skilled liars passed this trait to their children.",
+          "linking": "The skill‿of manipulating‿others without force was‿an‿evolutionary‿advantage, and skilled liars passed this trait to their children.",
+          "tips": [
+            "連結: skill‿of=スキロヴ, was‿an, manipulating‿others",
+            "弱形: of/without/was(=/wəz/)/an/and(=/ən/)/to(=/tə/)",
+            "強勢: ma·NI·pulating, with·OUT, evo·LU·tionary, ad·VAN·tage, TRAIT",
+            "注意音: TH(others/without/this/their), L(skill/skilled/liars)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "trait",
+        "tts": "trait"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 192,
+      "id": "w-inflate",
+      "type": "word",
+      "front": "inflate",
+      "meaning": "誇張する",
+      "synonyms": [
+        "exaggerate"
+      ],
+      "collocation": "inflate figures, exaggerate the truth",
+      "pron": {
+        "lookup": "inflate",
+        "tts": "inflate"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 193,
+      "id": "w-standing",
+      "type": "word",
+      "front": "standing",
+      "meaning": "立場・地位",
+      "synonyms": [
+        "position",
+        "stature"
+      ],
+      "collocation": "social standing, improve one's stature",
+      "pron": {
+        "lookup": "standing",
+        "tts": "standing"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 194,
+      "id": "w-appease",
+      "type": "word",
+      "front": "appease",
+      "meaning": "なだめる",
+      "synonyms": [
+        "placate",
+        "mollify"
+      ],
+      "collocation": "appease angry people",
+      "pron": {
+        "lookup": "appease",
+        "tts": "appease"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 195,
+      "id": "w-tension",
+      "type": "word",
+      "front": "tension",
+      "meaning": "緊張",
+      "synonyms": [
+        "stress",
+        "strain"
+      ],
+      "collocation": "ease tension, cause strain",
+      "examples": [
+        {
+          "en": "We lie to exaggerate our image or to ease social tension.",
+          "linking": "We lie to‿exaggerate‿our‿image‿or to‿ease social tension.",
+          "tips": [
+            "連結: exaggerate‿our, image‿or, to‿ease",
+            "弱形: to(=/tə/)/our/or を弱く",
+            "強勢: LIE, ex·AG·gerate, I·mage, EASE, SO·cial, TEN·sion",
+            "注意音: R(exaggerate/our/or), exaggerate=イグ·ザ·ジャレイト, image=イミッジ"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "tension",
+        "tts": "tension"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 196,
+      "id": "w-milestone",
+      "type": "word",
+      "front": "milestone",
+      "meaning": "道しるべ・節目",
+      "synonyms": [
+        "turning point",
+        "landmark"
+      ],
+      "collocation": "a key milestone, a turning point",
+      "examples": [
+        {
+          "en": "Scientists who investigated child development found that learning to conceal the truth is actually a milestone — a sign the brain is reaching maturity.",
+          "linking": "Scientists who‿investigated child development found that learning to‿conceal the truth‿is‿actually‿a milestone — a sign the brain‿is reaching maturity.",
+          "tips": [
+            "連結: truth‿is, brain‿is=ブレイニズ, to‿conceal",
+            "弱形: who/that(=/ðət/)/to(=/tə/)/the/a/is",
+            "強勢: SCI·entists, in·VES·tigated, con·CEAL, MILE·stone, ma·TU·rity",
+            "注意音: TH(that/the/truth), R(reaching/maturity/learning), truth=トゥルース/θ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "milestone",
+        "tts": "milestone"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 197,
+      "id": "p-delve-into",
+      "type": "phrase",
+      "front": "delve into",
+      "meaning": "～を掘り下げて調べる",
+      "synonyms": [
+        "investigate",
+        "research"
+      ],
+      "collocation": "delve into the causes of…",
+      "pron": {
+        "tts": "delve into"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 198,
+      "id": "w-mask",
+      "type": "word",
+      "front": "mask",
+      "meaning": "隠す",
+      "synonyms": [
+        "cover up",
+        "disguise",
+        "conceal"
+      ],
+      "collocation": "mask one's feelings, cover up the truth",
+      "pron": {
+        "lookup": "mask",
+        "tts": "mask"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 199,
+      "id": "w-maturity",
+      "type": "word",
+      "front": "maturity",
+      "meaning": "成熟",
+      "synonyms": [
+        "adulthood"
+      ],
+      "collocation": "a sign of maturity, reach maturity",
+      "examples": [
+        {
+          "en": "Scientists who investigated child development found that learning to conceal the truth is actually a milestone — a sign the brain is reaching maturity.",
+          "linking": "Scientists who‿investigated child development found that learning to‿conceal the truth‿is‿actually‿a milestone — a sign the brain‿is reaching maturity.",
+          "tips": [
+            "連結: truth‿is, brain‿is=ブレイニズ, to‿conceal",
+            "弱形: who/that(=/ðət/)/to(=/tə/)/the/a/is",
+            "強勢: SCI·entists, in·VES·tigated, con·CEAL, MILE·stone, ma·TU·rity",
+            "注意音: TH(that/the/truth), R(reaching/maturity/learning), truth=トゥルース/θ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "maturity",
+        "tts": "maturity"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 200,
+      "id": "w-cognition",
+      "type": "word",
+      "front": "cognition",
+      "meaning": "認知力",
+      "synonyms": [
+        "thought process"
+      ],
+      "pron": {
+        "lookup": "cognition",
+        "tts": "cognition"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 201,
+      "id": "p-on-track",
+      "type": "phrase",
+      "front": "on track",
+      "meaning": "順調に",
+      "synonyms": [
+        "on target"
+      ],
+      "pron": {
+        "tts": "on track"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 202,
+      "id": "w-revealing",
+      "type": "word",
+      "front": "revealing",
+      "meaning": "わかりやすい",
+      "synonyms": [
+        "tell-tale"
+      ],
+      "pron": {
+        "lookup": "revealing",
+        "tts": "revealing"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 203,
+      "id": "p-sudden-leap",
+      "type": "phrase",
+      "front": "sudden leap",
+      "meaning": "急な上昇",
+      "synonyms": [
+        "rapid advancement"
+      ],
+      "pron": {
+        "tts": "sudden leap"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 204,
+      "id": "g-past-perfect",
+      "type": "grammar",
+      "front": "had + 過去分詞（過去完了）",
+      "meaning": "過去のある時点より前に完了した動作・状態を表す",
+      "examples": [
+        {
+          "en": "By 1985, previous attempts had all failed.",
+          "jp": "1985年までに、以前の試みは全て失敗していた。"
+        }
+      ],
+      "pron": {
+        "tts": "By 1985, previous attempts had all failed."
+      },
+      "tags": [
+        "grammar"
+      ],
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 205,
+      "id": "g-uncountable-evidence",
+      "type": "grammar",
+      "front": "不可算名詞（evidence など）",
+      "meaning": "evidence/information/advice/research/progress は不可算。複数形・a/many は不可。much/a lot of を使う",
+      "examples": [
+        {
+          "en": "There is a lot of evidence for this.",
+          "jp": "これには多くの証拠がある。（×many evidences）"
+        }
+      ],
+      "pron": {
+        "tts": "There is a lot of evidence for this."
+      },
+      "tags": [
+        "grammar"
+      ],
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 206,
+      "id": "g-move-usage",
+      "type": "grammar",
+      "front": "move の用法（移住 vs 移動）",
+      "meaning": "move は『永続的に住む場所を移す』時に使う。日常の移動には go を使う",
+      "examples": [
+        {
+          "en": "I go to work by train.",
+          "jp": "電車で通勤します。（×I move to work by train）"
+        }
+      ],
+      "pron": {
+        "tts": "I go to work by train."
+      },
+      "tags": [
+        "grammar"
+      ],
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}
