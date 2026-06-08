@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   collectThemeStats,
+  collectThemeVocabStats,
   getThemeSelectionLabel,
   getVisibleThemes,
   needsThemeRangeNav,
@@ -9,7 +10,12 @@ import {
 } from "./themes";
 import type { ContentRecord } from "../types";
 
-function record(id: string, type: "word" | "grammar", theme?: number, themeName?: string): ContentRecord {
+function record(
+  id: string,
+  type: "word" | "phrase" | "grammar",
+  theme?: number,
+  themeName?: string,
+): ContentRecord {
   return {
     id,
     item: {
@@ -24,6 +30,20 @@ function record(id: string, type: "word" | "grammar", theme?: number, themeName?
     importedAt: 0,
   };
 }
+
+describe("collectThemeVocabStats", () => {
+  it("counts word and phrase together per theme", () => {
+    const records = [
+      record("w1", "word", 1, "A"),
+      record("w2", "word", 1, "A"),
+      record("p1", "phrase", 1, "A"),
+      record("g1", "grammar", 1, "A"),
+    ];
+    expect(collectThemeVocabStats(records)).toEqual([
+      { num: 1, name: "A", count: 3 },
+    ]);
+  });
+});
 
 describe("collectThemeStats", () => {
   it("counts items per theme in ascending order", () => {

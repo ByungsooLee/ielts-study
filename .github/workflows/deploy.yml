@@ -48,6 +48,7 @@ jobs:
           npm run build
         env:
           GITHUB_SHA: ${{ github.sha }}
+          VITE_DEFAULT_SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
 
       - name: Ensure Pages production branch is main
         run: |

@@ -1,4 +1,11 @@
-export type ItemType = "word" | "phrase" | "grammar" | "conversation";
+export type Domain = "english" | "engineering";
+
+export type ItemType = "word" | "phrase" | "grammar" | "conversation" | "concept";
+
+export interface ConceptExplain {
+  prompt_ja: string;
+  model_en: string;
+}
 
 export interface Example {
   en: string;
@@ -6,6 +13,28 @@ export interface Example {
   linking?: string;
   tips?: string[];
   stressWords?: string[];
+}
+
+export interface PassageTarget {
+  id: string;
+  text: string;
+}
+
+export interface PassageSentence {
+  en: string;
+  jp?: string;
+  linking?: string;
+  tips?: string[];
+  targets?: PassageTarget[];
+}
+
+export interface Passage {
+  id: string;
+  theme: number;
+  themeName: string;
+  title?: string;
+  jp?: string;
+  sentences: PassageSentence[];
 }
 
 export interface StudyItem {
@@ -27,11 +56,14 @@ export interface StudyItem {
     stressWords?: string[];
   };
   tags?: string[];
+  domain?: Domain;
+  collection?: string;
   theme?: number;
   themeName?: string;
   priority?: "S" | "A" | "B";
   links?: string[];
   note?: string;
+  explain?: ConceptExplain;
 }
 
 export interface ImportSource {

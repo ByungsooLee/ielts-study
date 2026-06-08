@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 5,
   "themeName": "ダンス",
-  "version": "aa6a11bc",
+  "version": "abe49464",
   "items": [
     {
       "n": 86,
@@ -157,6 +157,11 @@
         "uncomplicated"
       ],
       "collocation": "a straightforward explanation",
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "lookup": "straightforward",
         "tts": "straightforward"
@@ -286,6 +291,11 @@
         "complex"
       ],
       "collocation": "a complicated process, a complex system",
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
+      ],
       "pron": {
         "lookup": "complicated",
         "tts": "complicated"
@@ -344,6 +354,11 @@
         "impressive"
       ],
       "collocation": "a spectacular performance",
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
+      ],
       "pron": {
         "lookup": "spectacular",
         "tts": "spectacular"
@@ -365,6 +380,11 @@
       "meaning": "調整・調和",
       "synonyms": [
         "harmony"
+      ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
       ],
       "pron": {
         "lookup": "coordination",
@@ -389,6 +409,11 @@
         "mystery",
         "riddle"
       ],
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "lookup": "puzzle",
         "tts": "puzzle"
@@ -408,6 +433,11 @@
       "type": "phrase",
       "front": "mounting evidence",
       "meaning": "増える証拠",
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "tts": "mounting evidence"
       },
@@ -428,6 +458,11 @@
       "meaning": "パターン",
       "synonyms": [
         "sequence"
+      ],
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
       ],
       "pron": {
         "lookup": "pattern",
@@ -451,6 +486,11 @@
       "synonyms": [
         "mimic"
       ],
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "lookup": "mirror",
         "tts": "mirror"
@@ -472,6 +512,11 @@
       "meaning": "プロの",
       "synonyms": [
         "expert"
+      ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
       ],
       "pron": {
         "lookup": "professional",
@@ -495,6 +540,11 @@
       "synonyms": [
         "flood"
       ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
+      ],
       "pron": {
         "lookup": "surge",
         "tts": "surge"
@@ -516,6 +566,11 @@
       "meaning": "不安な",
       "synonyms": [
         "nervous"
+      ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
       ],
       "pron": {
         "lookup": "anxious",
@@ -547,7 +602,10 @@
           "注意音: stim-の/st/クラスター, littleのt(米=フラップ/英=明瞭)"
         ],
         "targets": [
-          "w-stimulate"
+          {
+            "id": "w-stimulate",
+            "text": "stimulates"
+          }
         ]
       },
       {
@@ -560,10 +618,22 @@
           "注意音: TH(theory/that), R(theory/factor)"
         ],
         "targets": [
-          "w-uncertainty",
-          "w-theory",
-          "w-factor",
-          "w-generate"
+          {
+            "id": "w-uncertainty",
+            "text": "uncertainty"
+          },
+          {
+            "id": "w-theory",
+            "text": "theory"
+          },
+          {
+            "id": "w-factor",
+            "text": "factor"
+          },
+          {
+            "id": "w-generate",
+            "text": "generate"
+          }
         ]
       },
       {
@@ -576,9 +646,72 @@
           "注意音: R(predict/rush/floor), pleasureの/ʒ/"
         ],
         "targets": [
-          "w-predict",
-          "w-intense",
-          "w-obvious"
+          {
+            "id": "w-predict",
+            "text": "predict"
+          },
+          {
+            "id": "w-intense",
+            "text": "intense"
+          },
+          {
+            "id": "w-obvious",
+            "text": "obvious"
+          }
+        ]
+      },
+      {
+        "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others.",
+        "targets": [
+          {
+            "id": "w-puzzle",
+            "text": "puzzle"
+          },
+          {
+            "id": "w-straightforward",
+            "text": "straightforward"
+          },
+          {
+            "id": "p-mounting-evidence",
+            "text": "mounting evidence"
+          },
+          {
+            "id": "w-pattern",
+            "text": "patterns"
+          },
+          {
+            "id": "w-mirror",
+            "text": "mirror"
+          }
+        ]
+      },
+      {
+        "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy.",
+        "targets": [
+          {
+            "id": "w-professional",
+            "text": "professional"
+          },
+          {
+            "id": "w-complicated",
+            "text": "complicated"
+          },
+          {
+            "id": "w-spectacular",
+            "text": "spectacular"
+          },
+          {
+            "id": "w-coordination",
+            "text": "coordination"
+          },
+          {
+            "id": "w-anxious",
+            "text": "anxious"
+          },
+          {
+            "id": "w-surge",
+            "text": "surge"
+          }
         ]
       }
     ]

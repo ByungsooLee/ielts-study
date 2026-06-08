@@ -17,6 +17,9 @@ const THEME_TAG = {1:"polynesia",2:"plastic",3:"titanic",4:"beaver",5:"dance",
 /* ---- 発音コーチ・データ ---- */
 let COACH = {};
 try { COACH = require(path.join(ROOT, "content-src", "pron-coach.js")); } catch (e) { /* 無くてもOK */ }
+let EXTRA = {};  // テーマ別「不足語を補う追記文」
+try { EXTRA = require(path.join(ROOT, "content-src", "passage-extra.js")); } catch (e) { /* 無くてもOK */ }
+const themeSentences = t => [ ...(t.story || []), ...((EXTRA[t.id]) || []) ]; // story + 追記文
 
 /* ---- 例文をデータ.jsの物語から取得（テーマ/文番号キー付き） ---- */
 const exMap = {};
@@ -27,7 +30,7 @@ try {
   require(path.join(ROOT, "content-src", "ielts-vocab-data.js"));
   STORY = g.IELTS_DATA || [];
   const re = /\[([^\]]+)\]/g;
-  (g.IELTS_DATA || []).forEach(t => t.story.forEach((s, idx) => {
+  (g.IELTS_DATA || []).forEach(t => themeSentences(t).forEach((s, idx) => {
     const clean = s.replace(re, (_, b) => b.split("|")[0]); // 表示形に戻す
     const key = `t${t.id}-s${idx + 1}`;
     let m; const r2 = /\[([^\]]+)\]/g;
@@ -172,13 +175,13 @@ fs.writeFileSync(LEDGER, JSON.stringify(ledger,null,2)+"\n");
 /* ---- passages（文脈モード用）: data.js の物語から生成 ---- */
 const itemIds = new Set(items.map(it=>it.id));
 const passages = STORY.map(t=>{
-  const sentences = (t.story||[]).map((s, idx)=>{
-    const targets=[];
+  const sentences = themeSentences(t).map((s, idx)=>{
+    const targets=[]; const seen=new Set();
     const clean = s.replace(/\[([^\]]+)\]/g, (_, b)=>{
-      const f=b.split("|"); const base=(f[1]||f[0]).trim();
+      const f=b.split("|"); const surface=f[0]; const base=(f[1]||f[0]).trim();
       const tid=(isPhrase(base)?"p-":"w-")+slug(base);
-      if(itemIds.has(tid) && !targets.includes(tid)) targets.push(tid); // 存在する語だけ紐づけ
-      return f[0]; // 表示形に戻す
+      if(itemIds.has(tid) && !seen.has(tid)){ seen.add(tid); targets.push({id:tid, text:surface}); } // 文中の表示形も保持
+      return surface; // 表示形に戻す
     });
     const c = COACH[`t${t.id}-s${idx+1}`] || {};
     return { en: clean,

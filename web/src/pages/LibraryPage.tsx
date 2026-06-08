@@ -2,11 +2,13 @@ import { useEffect, useMemo } from "react";
 import { ImportZone } from "../components/ImportZone";
 import { ItemCard } from "../components/ItemCard";
 import { isHard } from "../lib/srs";
+import { filterEnglishRecords } from "../lib/domain";
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 
 export function LibraryPage() {
-  const items = useContentStore((s) => s.items);
+  const allItems = useContentStore((s) => s.items);
+  const items = useMemo(() => filterEnglishRecords(allItems), [allItems]);
   const filters = useContentStore((s) => s.filters);
   const setFilters = useContentStore((s) => s.setFilters);
   const load = useContentStore((s) => s.load);

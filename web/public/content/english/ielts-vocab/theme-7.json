@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 7,
   "themeName": "才能ある子どもの学校",
-  "version": "48034b0b",
+  "version": "421d075f",
   "items": [
     {
       "n": 124,
@@ -230,6 +230,11 @@
         "experimentation"
       ],
       "collocation": "through trial and error",
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
+      ],
       "pron": {
         "tts": "trial and error"
       },
@@ -253,6 +258,11 @@
         "ingenuity"
       ],
       "collocation": "encourage creativity",
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "lookup": "inventiveness",
         "tts": "inventiveness"
@@ -276,6 +286,11 @@
         "direct towards"
       ],
       "collocation": "channel energy into sport",
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "tts": "channel into"
       },
@@ -299,6 +314,11 @@
         "stipend"
       ],
       "collocation": "provide grants, offer a scholarship",
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
+      ],
       "pron": {
         "lookup": "grant",
         "tts": "grant"
@@ -322,6 +342,11 @@
         "economically deprived"
       ],
       "collocation": "socially disadvantaged families",
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
+      ],
       "pron": {
         "tts": "socially disadvantaged"
       },
@@ -345,6 +370,11 @@
         "belief in"
       ],
       "collocation": "build confidence in oneself",
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
+      ],
       "pron": {
         "tts": "confidence in"
       },
@@ -368,6 +398,11 @@
         "count on"
       ],
       "collocation": "rely on others, count on support",
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
+      ],
       "pron": {
         "tts": "rely on"
       },
@@ -390,6 +425,11 @@
         "get used to"
       ],
       "collocation": "get accustomed to doing sth",
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
+      ],
       "pron": {
         "tts": "get accustomed to"
       },
@@ -411,6 +451,11 @@
       "synonyms": [
         "overprotect",
         "baby"
+      ],
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
       ],
       "pron": {
         "lookup": "coddle",
@@ -434,6 +479,11 @@
       "synonyms": [
         "blood relative"
       ],
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "tts": "immediate family"
       },
@@ -454,6 +504,11 @@
       "meaning": "ノウハウ",
       "synonyms": [
         "knowledge"
+      ],
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
       ],
       "pron": {
         "lookup": "know-how",
@@ -477,6 +532,11 @@
       "synonyms": [
         "stimulate"
       ],
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "lookup": "spur",
         "tts": "spur"
@@ -498,6 +558,11 @@
       "meaning": "監督下で",
       "synonyms": [
         "under supervision"
+      ],
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
       ],
       "pron": {
         "tts": "in one's care"
@@ -528,8 +593,14 @@
           "注意音: R(our/foster/children), TH(the)"
         ],
         "targets": [
-          "w-foster",
-          "w-gifted"
+          {
+            "id": "w-foster",
+            "text": "foster"
+          },
+          {
+            "id": "w-gifted",
+            "text": "gifted"
+          }
         ]
       },
       {
@@ -542,8 +613,14 @@
           "注意音: TH(rather/than/their), R(clear/rather/reliance)"
         ],
         "targets": [
-          "w-blueprint",
-          "w-self-reliance"
+          {
+            "id": "w-blueprint",
+            "text": "blueprint"
+          },
+          {
+            "id": "w-self-reliance",
+            "text": "self-reliance"
+          }
         ]
       },
       {
@@ -556,8 +633,81 @@
           "注意音: TH(things), R(creativity/drives/real/progress)"
         ],
         "targets": [
-          "p-compensate-for",
-          "w-progress"
+          {
+            "id": "p-compensate-for",
+            "text": "compensates for"
+          },
+          {
+            "id": "w-progress",
+            "text": "progress"
+          }
+        ]
+      },
+      {
+        "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment.",
+        "targets": [
+          {
+            "id": "p-trial-and-error",
+            "text": "trial and error"
+          },
+          {
+            "id": "w-know-how",
+            "text": "know-how"
+          },
+          {
+            "id": "p-confidence-in",
+            "text": "confidence in"
+          },
+          {
+            "id": "p-rely-on",
+            "text": "rely on"
+          }
+        ]
+      },
+      {
+        "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family.",
+        "targets": [
+          {
+            "id": "w-coddle",
+            "text": "coddle"
+          },
+          {
+            "id": "w-spur",
+            "text": "spur"
+          },
+          {
+            "id": "w-inventiveness",
+            "text": "inventiveness"
+          },
+          {
+            "id": "p-channel-into",
+            "text": "channel into"
+          },
+          {
+            "id": "p-immediate-family",
+            "text": "immediate family"
+          }
+        ]
+      },
+      {
+        "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged.",
+        "targets": [
+          {
+            "id": "p-in-one-s-care",
+            "text": "in our care"
+          },
+          {
+            "id": "p-get-accustomed-to",
+            "text": "get accustomed to"
+          },
+          {
+            "id": "w-grant",
+            "text": "grant"
+          },
+          {
+            "id": "p-socially-disadvantaged",
+            "text": "socially disadvantaged"
+          }
         ]
       }
     ]

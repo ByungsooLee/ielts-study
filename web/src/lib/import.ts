@@ -57,8 +57,21 @@ export function normalizeItem(raw: RawStudyItem): StudyItem {
     examples: examples.length > 0 ? examples : undefined,
     pron: Object.keys(pron).length > 0 ? pron : undefined,
     tags: asStringArray(raw.tags),
+    domain:
+      raw.domain === "engineering" || raw.domain === "english" ? raw.domain : undefined,
+    collection: typeof raw.collection === "string" ? raw.collection : undefined,
     theme: typeof raw.theme === "number" && raw.theme > 0 ? raw.theme : undefined,
     themeName: typeof raw.themeName === "string" && raw.themeName.trim() ? raw.themeName.trim() : undefined,
+    explain:
+      raw.explain &&
+      typeof raw.explain === "object" &&
+      typeof (raw.explain as { prompt_ja?: string }).prompt_ja === "string" &&
+      typeof (raw.explain as { model_en?: string }).model_en === "string"
+        ? {
+            prompt_ja: (raw.explain as { prompt_ja: string }).prompt_ja,
+            model_en: (raw.explain as { model_en: string }).model_en,
+          }
+        : undefined,
     priority: raw.priority === "S" || raw.priority === "A" || raw.priority === "B" ? raw.priority : undefined,
     links: asStringArray(raw.links),
     note: typeof raw.note === "string" ? raw.note : undefined,

@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 10,
   "themeName": "なぜ人はウソをつくのか",
-  "version": "9585c8e6",
+  "version": "89ccb28a",
   "items": [
     {
       "n": 185,
@@ -125,6 +125,11 @@
         "dishonest"
       ],
       "collocation": "deceitful behaviour",
+      "examples": [
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words."
+        }
+      ],
       "pron": {
         "lookup": "deceitful",
         "tts": "deceitful"
@@ -148,6 +153,11 @@
         "verbal"
       ],
       "collocation": "linguistic ability, verbal skills",
+      "examples": [
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words."
+        }
+      ],
       "pron": {
         "lookup": "linguistic",
         "tts": "linguistic"
@@ -242,6 +252,11 @@
         "exaggerate"
       ],
       "collocation": "inflate figures, exaggerate the truth",
+      "examples": [
+        {
+          "en": "We lie to inflate our image and standing, or to appease others."
+        }
+      ],
       "pron": {
         "lookup": "inflate",
         "tts": "inflate"
@@ -266,6 +281,11 @@
         "stature"
       ],
       "collocation": "social standing, improve one's stature",
+      "examples": [
+        {
+          "en": "We lie to inflate our image and standing, or to appease others."
+        }
+      ],
       "pron": {
         "lookup": "standing",
         "tts": "standing"
@@ -290,6 +310,11 @@
         "mollify"
       ],
       "collocation": "appease angry people",
+      "examples": [
+        {
+          "en": "We lie to inflate our image and standing, or to appease others."
+        }
+      ],
       "pron": {
         "lookup": "appease",
         "tts": "appease"
@@ -386,6 +411,11 @@
         "research"
       ],
       "collocation": "delve into the causes of…",
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
+      ],
       "pron": {
         "tts": "delve into"
       },
@@ -410,6 +440,11 @@
         "conceal"
       ],
       "collocation": "mask one's feelings, cover up the truth",
+      "examples": [
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words."
+        }
+      ],
       "pron": {
         "lookup": "mask",
         "tts": "mask"
@@ -467,6 +502,11 @@
       "synonyms": [
         "thought process"
       ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
+      ],
       "pron": {
         "lookup": "cognition",
         "tts": "cognition"
@@ -489,6 +529,11 @@
       "synonyms": [
         "on target"
       ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
+      ],
       "pron": {
         "tts": "on track"
       },
@@ -509,6 +554,11 @@
       "meaning": "わかりやすい",
       "synonyms": [
         "tell-tale"
+      ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
       ],
       "pron": {
         "lookup": "revealing",
@@ -531,6 +581,11 @@
       "meaning": "急な上昇",
       "synonyms": [
         "rapid advancement"
+      ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
       ],
       "pron": {
         "tts": "sudden leap"
@@ -561,9 +616,18 @@
           "注意音: R(troubling/brain), sophisticated=ソフィスティケイティッド"
         ],
         "targets": [
-          "w-troubling",
-          "w-indication",
-          "w-sophisticated"
+          {
+            "id": "w-troubling",
+            "text": "troubling"
+          },
+          {
+            "id": "w-indication",
+            "text": "indication"
+          },
+          {
+            "id": "w-sophisticated",
+            "text": "sophisticated"
+          }
         ]
       },
       {
@@ -576,8 +640,14 @@
           "注意音: TH(others/without/this/their), L(skill/skilled/liars)"
         ],
         "targets": [
-          "w-manipulate",
-          "w-trait"
+          {
+            "id": "w-manipulate",
+            "text": "manipulating"
+          },
+          {
+            "id": "w-trait",
+            "text": "trait"
+          }
         ]
       },
       {
@@ -590,7 +660,10 @@
           "注意音: R(exaggerate/our/or), exaggerate=イグ·ザ·ジャレイト, image=イミッジ"
         ],
         "targets": [
-          "w-tension"
+          {
+            "id": "w-tension",
+            "text": "tension"
+          }
         ]
       },
       {
@@ -603,8 +676,73 @@
           "注意音: TH(that/the/truth), R(reaching/maturity/learning), truth=トゥルース/θ/"
         ],
         "targets": [
-          "w-milestone",
-          "w-maturity"
+          {
+            "id": "w-milestone",
+            "text": "milestone"
+          },
+          {
+            "id": "w-maturity",
+            "text": "maturity"
+          }
+        ]
+      },
+      {
+        "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words.",
+        "targets": [
+          {
+            "id": "w-deceitful",
+            "text": "deceitful"
+          },
+          {
+            "id": "w-linguistic",
+            "text": "linguistic"
+          },
+          {
+            "id": "w-mask",
+            "text": "mask"
+          }
+        ]
+      },
+      {
+        "en": "We lie to inflate our image and standing, or to appease others.",
+        "targets": [
+          {
+            "id": "w-inflate",
+            "text": "inflate"
+          },
+          {
+            "id": "w-standing",
+            "text": "standing"
+          },
+          {
+            "id": "w-appease",
+            "text": "appease"
+          }
+        ]
+      },
+      {
+        "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track.",
+        "targets": [
+          {
+            "id": "p-delve-into",
+            "text": "delve into"
+          },
+          {
+            "id": "w-revealing",
+            "text": "revealing"
+          },
+          {
+            "id": "p-sudden-leap",
+            "text": "sudden leap"
+          },
+          {
+            "id": "w-cognition",
+            "text": "cognition"
+          },
+          {
+            "id": "p-on-track",
+            "text": "on track"
+          }
         ]
       }
     ]

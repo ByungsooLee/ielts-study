@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 6,
   "themeName": "AIによる芸術",
-  "version": "b8d9c034",
+  "version": "0ba7a3c2",
   "items": [
     {
       "n": 105,
@@ -264,6 +264,11 @@
         "invaluable"
       ],
       "collocation": "priceless artwork, invaluable experience",
+      "examples": [
+        {
+          "en": "This does pose a problem about worth: an original is priceless because of its rarity."
+        }
+      ],
       "pron": {
         "lookup": "priceless",
         "tts": "priceless"
@@ -359,6 +364,11 @@
         "lose one's job"
       ],
       "collocation": "be made redundant due to…",
+      "examples": [
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise."
+        }
+      ],
       "pron": {
         "tts": "be made redundant"
       },
@@ -416,6 +426,11 @@
         "speciality"
       ],
       "collocation": "outside my area of expertise",
+      "examples": [
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise."
+        }
+      ],
       "pron": {
         "tts": "area of expertise"
       },
@@ -438,6 +453,11 @@
         "raise a question"
       ],
       "collocation": "this poses a problem, raise questions about",
+      "examples": [
+        {
+          "en": "This does pose a problem about worth: an original is priceless because of its rarity."
+        }
+      ],
       "pron": {
         "tts": "pose a problem"
       },
@@ -458,6 +478,11 @@
       "meaning": "一から",
       "synonyms": [
         "from the beginning"
+      ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
       ],
       "pron": {
         "tts": "from scratch"
@@ -481,6 +506,11 @@
         "dupe",
         "mislead"
       ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
+      ],
       "pron": {
         "lookup": "fool",
         "tts": "fool"
@@ -503,6 +533,11 @@
       "synonyms": [
         "the man on the street"
       ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
+      ],
       "pron": {
         "tts": "lay person"
       },
@@ -523,6 +558,11 @@
       "meaning": "場当たり的な",
       "synonyms": [
         "erratic"
+      ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
       ],
       "pron": {
         "lookup": "haphazard",
@@ -545,6 +585,11 @@
       "meaning": "避難所",
       "synonyms": [
         "sanctuary"
+      ],
+      "examples": [
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise."
+        }
       ],
       "pron": {
         "lookup": "refuge",
@@ -576,7 +621,10 @@
           "注意音: R(art/our/perspective), creativity=クリエイ·TI·ヴィティ"
         ],
         "targets": [
-          "w-perspective"
+          {
+            "id": "w-perspective",
+            "text": "perspective"
+          }
         ]
       },
       {
@@ -589,9 +637,18 @@
           "注意音: TH(the/that/with), scepticism=スケプティスィズム"
         ],
         "targets": [
-          "w-notion",
-          "w-scepticism",
-          "w-credible"
+          {
+            "id": "w-notion",
+            "text": "notion"
+          },
+          {
+            "id": "w-scepticism",
+            "text": "scepticism"
+          },
+          {
+            "id": "w-credible",
+            "text": "credible"
+          }
         ]
       },
       {
@@ -604,9 +661,18 @@
           "注意音: TH(this/the/that/worth), V(innovative/value/gives)"
         ],
         "targets": [
-          "w-innovative",
-          "w-value",
-          "w-scarcity"
+          {
+            "id": "w-innovative",
+            "text": "innovative"
+          },
+          {
+            "id": "w-value",
+            "text": "value"
+          },
+          {
+            "id": "w-scarcity",
+            "text": "scarcity"
+          }
         ]
       },
       {
@@ -619,9 +685,69 @@
           "注意音: R(real/disparity/interpret/art), TH(there/the/that)"
         ],
         "targets": [
-          "w-disparity",
-          "w-interpret",
-          "w-automation"
+          {
+            "id": "w-disparity",
+            "text": "disparity"
+          },
+          {
+            "id": "w-interpret",
+            "text": "interpret"
+          },
+          {
+            "id": "w-automation",
+            "text": "automation"
+          }
+        ]
+      },
+      {
+        "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine.",
+        "targets": [
+          {
+            "id": "w-fool",
+            "text": "fool"
+          },
+          {
+            "id": "p-lay-person",
+            "text": "lay person"
+          },
+          {
+            "id": "w-haphazard",
+            "text": "haphazard"
+          },
+          {
+            "id": "p-from-scratch",
+            "text": "from scratch"
+          }
+        ]
+      },
+      {
+        "en": "This does pose a problem about worth: an original is priceless because of its rarity.",
+        "targets": [
+          {
+            "id": "p-pose-a-problem",
+            "text": "pose a problem"
+          },
+          {
+            "id": "w-priceless",
+            "text": "priceless"
+          }
+        ]
+      },
+      {
+        "en": "Artists fear being made redundant even in this last refuge, their own area of expertise.",
+        "targets": [
+          {
+            "id": "p-be-made-redundant",
+            "text": "made redundant"
+          },
+          {
+            "id": "w-refuge",
+            "text": "refuge"
+          },
+          {
+            "id": "p-area-of-expertise",
+            "text": "area of expertise"
+          }
         ]
       }
     ]

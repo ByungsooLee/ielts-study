@@ -16,8 +16,13 @@ export function resolveWorkerUrl(): string {
   return (import.meta.env.DEV ? LOCAL_WORKER_URL : PRODUCTION_WORKER_URL).replace(/\/$/, "");
 }
 
+/** ビルド時に VITE_DEFAULT_SYNC_TOKEN へ埋め込み（ローカルは .env.local、本番は CI secret） */
 export function resolveSyncToken(): string {
   return (import.meta.env.VITE_DEFAULT_SYNC_TOKEN ?? "").trim();
+}
+
+export function isSyncConfigured(): boolean {
+  return resolveSyncToken().length > 0;
 }
 
 export function workerUrlLabel(url: string): string {

@@ -7,7 +7,7 @@ import { fetchRemoteProgress, putRemoteProgress, saveLocalProgress } from "../li
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { formatCharCount } from "../lib/ttsUsage";
-import { workerUrlLabel } from "../lib/workerConfig";
+import { isSyncConfigured, workerUrlLabel } from "../lib/workerConfig";
 import { useSettingsStore } from "../stores/settingsStore";
 import { useTtsUsageStore } from "../stores/ttsUsageStore";
 import type { Accent, ColorMode, DailyNewLimit } from "../types";
@@ -26,7 +26,6 @@ export function SettingsPage() {
     syncStatus,
     lastSyncedAt,
     syncError,
-    setSyncToken,
     setAccent,
     setColorMode,
     setDailyNewLimit,
@@ -50,14 +49,14 @@ export function SettingsPage() {
   }, []);
 
   useEffect(() => {
-    if (settings.workerUrl && settings.syncToken) {
+    if (isSyncConfigured()) {
       void refreshTtsUsage(settings.workerUrl, settings.syncToken);
     }
   }, [refreshTtsUsage, settings.syncToken, settings.workerUrl]);
 
   async function testWorkerConnection() {
-    if (!settings.syncToken) {
-      setWorkerTest("合言葉を入力してください");
+    if (!isSyncConfigured()) {
+      setWorkerTest("合言葉が未設定です。npm run setup で .env.local を同期してください");
       return;
     }
     setWorkerTest("確認中...");
@@ -84,8 +83,8 @@ export function SettingsPage() {
   }
 
   async function syncNow() {
-    if (!settings.syncToken) {
-      setSyncStatus("error", "合言葉を入力してください");
+    if (!isSyncConfigured()) {
+      setSyncStatus("error", "合言葉が未設定です。npm run setup を実行してください");
       return;
     }
     setSyncStatus("syncing");
@@ -138,27 +137,22 @@ export function SettingsPage() {
       <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-100">設定</h2>
 
       <div className={panelClass}>
-        <p className="font-medium text-slate-900 dark:text-slate-100">Worker 接続先（自動）</p>
+        <p className="font-medium text-slate-900 dark:text-slate-100">Worker 接続（自動）</p>
         <p className="mt-1 text-sm text-slate-700 dark:text-slate-300">
           {workerUrlLabel(settings.workerUrl)} — <code className="text-xs">{settings.workerUrl}</code>
         </p>
-        <p className={`mt-2 ${hintClass}`}>
-          個人用のため URL は固定です。ローカル開発（<code className="text-xs">npm run dev</code>）では
-          ローカル Worker、本番（pages.dev）では本番 Worker に接続します。
+        <p className="mt-2 text-sm text-slate-700 dark:text-slate-300">
+          合言葉:{" "}
+          {isSyncConfigured() ? (
+            <span className="text-emerald-700 dark:text-emerald-400">設定済み</span>
+          ) : (
+            <span className="text-amber-700 dark:text-amber-300">未設定</span>
+          )}
         </p>
-      </div>
-
-      <label className="block text-sm">
-        <span className={labelClass}>合言葉 (SYNC_TOKEN)</span>
-        <input
-          className={fieldClass}
-          type="password"
-          value={settings.syncToken}
-          onChange={(e) => setSyncToken(e.target.value)}
-        />
-        <p className={hintClass}>
-          強固なランダム文字列を使ってください。漏れると進捗を読み書きされる可能性があります。
-          Worker を再デプロイしたあとは <code className="text-xs">npm run secrets:push</code> で本番に反映が必要です。
+        <p className={`mt-2 ${hintClass}`}>
+          個人用のため URL と合言葉はビルド時に固定されます。ローカルは{" "}
+          <code className="text-xs">npm run setup</code> で <code className="text-xs">worker/.dev.vars</code>{" "}
+          から <code className="text-xs">web/.env.local</code> へ同期します。
         </p>
         <button
           type="button"
@@ -167,8 +161,14 @@ export function SettingsPage() {
         >
           Worker 接続テスト
         </button>
-        {workerTest && <p className={`mt-2 text-sm ${workerTest.startsWith("✓") ? "text-emerald-700 dark:text-emerald-400" : "text-red-700 dark:text-red-400"}`}>{workerTest}</p>}
-      </label>
+        {workerTest && (
+          <p
+            className={`mt-2 text-sm ${workerTest.startsWith("✓") ? "text-emerald-700 dark:text-emerald-400" : "text-red-700 dark:text-red-400"}`}
+          >
+            {workerTest}
+          </p>
+        )}
+      </div>
 
       <label className="block text-sm">
         <span className={labelClass}>表示テーマ</span>
@@ -238,9 +238,9 @@ export function SettingsPage() {
           </div>
         ) : (
           <p className={`mt-1 ${hintClass}`}>
-            {settings.workerUrl && settings.syncToken
+            {isSyncConfigured()
               ? (ttsLoadError ?? "使用量を読み込み中...")
-              : "Worker URL と合言葉を設定すると表示されます。"}
+              : "npm run setup で合言葉を同期すると表示されます。"}
           </p>
         )}
       </div>

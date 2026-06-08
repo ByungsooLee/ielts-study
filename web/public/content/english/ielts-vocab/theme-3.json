@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 3,
   "themeName": "タイタニック",
-  "version": "cf0d1af5",
+  "version": "107bdf0c",
   "items": [
     {
       "n": 43,
@@ -297,6 +297,11 @@
         "looking back"
       ],
       "collocation": "in hindsight, it was a mistake",
+      "examples": [
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept."
+        }
+      ],
       "pron": {
         "tts": "in hindsight"
       },
@@ -319,6 +324,11 @@
         "opinions differ"
       ],
       "collocation": "accounts vary as to…",
+      "examples": [
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept."
+        }
+      ],
       "pron": {
         "tts": "accounts vary"
       },
@@ -339,6 +349,11 @@
       "meaning": "回収する",
       "synonyms": [
         "salvage"
+      ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
       ],
       "pron": {
         "lookup": "recover",
@@ -362,6 +377,11 @@
       "synonyms": [
         "seabed"
       ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
+      ],
       "pron": {
         "tts": "the ocean floor"
       },
@@ -382,6 +402,11 @@
       "meaning": "防水・密閉",
       "synonyms": [
         "seal shut"
+      ],
+      "examples": [
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half."
+        }
       ],
       "pron": {
         "lookup": "watertight",
@@ -405,6 +430,11 @@
       "synonyms": [
         "strict schedule"
       ],
+      "examples": [
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept."
+        }
+      ],
       "pron": {
         "tts": "tight timetable"
       },
@@ -425,6 +455,11 @@
       "meaning": "沈む",
       "synonyms": [
         "go under"
+      ],
+      "examples": [
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half."
+        }
       ],
       "pron": {
         "lookup": "sink",
@@ -449,6 +484,11 @@
         "debris",
         "wreckage"
       ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
+      ],
       "pron": {
         "lookup": "remains",
         "tts": "remains"
@@ -470,6 +510,11 @@
       "meaning": "場所",
       "synonyms": [
         "location"
+      ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
       ],
       "pron": {
         "lookup": "site",
@@ -493,6 +538,11 @@
       "synonyms": [
         "undamaged"
       ],
+      "examples": [
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode."
+        }
+      ],
       "pron": {
         "lookup": "intact",
         "tts": "intact"
@@ -515,6 +565,11 @@
       "synonyms": [
         "break in two"
       ],
+      "examples": [
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half."
+        }
+      ],
       "pron": {
         "tts": "split in half"
       },
@@ -533,6 +588,11 @@
       "type": "phrase",
       "front": "leave exposed",
       "meaning": "さらす",
+      "examples": [
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode."
+        }
+      ],
       "pron": {
         "tts": "leave exposed"
       },
@@ -553,6 +613,11 @@
       "meaning": "腐食する",
       "synonyms": [
         "erode"
+      ],
+      "examples": [
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode."
+        }
       ],
       "pron": {
         "lookup": "corrode",
@@ -575,6 +640,11 @@
       "meaning": "埋蔵品",
       "synonyms": [
         "artefacts"
+      ],
+      "examples": [
+        {
+          "en": "Explorers later found a treasure trove of items scattered around it."
+        }
       ],
       "pron": {
         "tts": "treasure trove"
@@ -605,8 +675,14 @@
           "注意音: doubtのbは無音、TH(the)"
         ],
         "targets": [
-          "w-depart",
-          "w-doubt"
+          {
+            "id": "w-depart",
+            "text": "departed"
+          },
+          {
+            "id": "w-doubt",
+            "text": "doubt"
+          }
         ]
       },
       {
@@ -619,8 +695,14 @@
           "注意音: R(crew/ignored), V(of)"
         ],
         "targets": [
-          "w-initially",
-          "w-lack"
+          {
+            "id": "w-initially",
+            "text": "Initially"
+          },
+          {
+            "id": "w-lack",
+            "text": "lack"
+          }
         ]
       },
       {
@@ -633,7 +715,10 @@
           "注意音: wreckのwは無音(/r/), V(previous)"
         ],
         "targets": [
-          "p-previous-attempt"
+          {
+            "id": "p-previous-attempt",
+            "text": "previous attempts"
+          }
         ]
       },
       {
@@ -646,9 +731,99 @@
           "注意音: TH(with/the/though), R(French/discovery/explorers)"
         ],
         "targets": [
-          "p-in-collaboration-with",
-          "w-discovery",
-          "w-deteriorate"
+          {
+            "id": "p-in-collaboration-with",
+            "text": "in collaboration with"
+          },
+          {
+            "id": "w-discovery",
+            "text": "discovery"
+          },
+          {
+            "id": "w-deteriorate",
+            "text": "deteriorated"
+          }
+        ]
+      },
+      {
+        "en": "In hindsight, accounts vary about the tight timetable the captain kept.",
+        "targets": [
+          {
+            "id": "p-in-hindsight",
+            "text": "In hindsight"
+          },
+          {
+            "id": "p-accounts-vary",
+            "text": "accounts vary"
+          },
+          {
+            "id": "p-tight-timetable",
+            "text": "tight timetable"
+          }
+        ]
+      },
+      {
+        "en": "Although watertight doors were meant to save it, the ship began to sink and split in half.",
+        "targets": [
+          {
+            "id": "w-watertight",
+            "text": "watertight"
+          },
+          {
+            "id": "w-sink",
+            "text": "sink"
+          },
+          {
+            "id": "p-split-in-half",
+            "text": "split in half"
+          }
+        ]
+      },
+      {
+        "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains.",
+        "targets": [
+          {
+            "id": "w-recover",
+            "text": "recover"
+          },
+          {
+            "id": "p-the-ocean-floor",
+            "text": "the ocean floor"
+          },
+          {
+            "id": "w-site",
+            "text": "site"
+          },
+          {
+            "id": "w-remains",
+            "text": "remains"
+          }
+        ]
+      },
+      {
+        "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode.",
+        "targets": [
+          {
+            "id": "w-intact",
+            "text": "intact"
+          },
+          {
+            "id": "p-leave-exposed",
+            "text": "left exposed"
+          },
+          {
+            "id": "w-corrode",
+            "text": "corrode"
+          }
+        ]
+      },
+      {
+        "en": "Explorers later found a treasure trove of items scattered around it.",
+        "targets": [
+          {
+            "id": "p-treasure-trove",
+            "text": "treasure trove"
+          }
         ]
       }
     ]

@@ -181,6 +181,11 @@
         "settle"
       ],
       "collocation": "resolve an issue",
+      "examples": [
+        {
+          "en": "The mystery dogged scholars for decades before Heyerdahl tried to resolve it."
+        }
+      ],
       "pron": {
         "lookup": "resolve",
         "tts": "resolve"
@@ -330,6 +335,11 @@
       "type": "word",
       "front": "dog",
       "meaning": "気をもませる",
+      "examples": [
+        {
+          "en": "The mystery dogged scholars for decades before Heyerdahl tried to resolve it."
+        }
+      ],
       "pron": {
         "lookup": "dog",
         "tts": "dog"
@@ -505,6 +515,11 @@
       "type": "word",
       "front": "auspicious",
       "meaning": "幸運な",
+      "examples": [
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps."
+        }
+      ],
       "pron": {
         "lookup": "auspicious",
         "tts": "auspicious"
@@ -550,6 +565,11 @@
       "type": "phrase",
       "front": "follow in one's footsteps",
       "meaning": "足跡をたどる",
+      "examples": [
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps."
+        }
+      ],
       "pron": {
         "tts": "follow in one's footsteps"
       },
@@ -566,6 +586,11 @@
       "type": "phrase",
       "front": "on hand",
       "meaning": "手元に",
+      "examples": [
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps."
+        }
+      ],
       "pron": {
         "tts": "on hand"
       },
@@ -619,6 +644,11 @@
         "malleable"
       ],
       "collocation": "a flexible approach / policy",
+      "examples": [
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it."
+        }
+      ],
       "pron": {
         "lookup": "flexible",
         "tts": "flexible"
@@ -936,6 +966,11 @@
         "be composed of"
       ],
       "collocation": "be made from recycled materials",
+      "examples": [
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it."
+        }
+      ],
       "pron": {
         "tts": "be made from"
       },
@@ -1120,6 +1155,11 @@
       "synonyms": [
         "unbreakable"
       ],
+      "examples": [
+        {
+          "en": "Shatterproof cases and see-through film show how versatile it is."
+        }
+      ],
       "pron": {
         "lookup": "shatterproof",
         "tts": "shatterproof"
@@ -1139,6 +1179,11 @@
       "meaning": "透明な",
       "synonyms": [
         "transparent"
+      ],
+      "examples": [
+        {
+          "en": "Shatterproof cases and see-through film show how versatile it is."
+        }
       ],
       "pron": {
         "lookup": "see-through",
@@ -1160,6 +1205,11 @@
       "synonyms": [
         "first known use"
       ],
+      "examples": [
+        {
+          "en": "Its earliest origins go back centuries, and modern plastic is derived from oil."
+        }
+      ],
       "pron": {
         "tts": "earliest origins"
       },
@@ -1176,6 +1226,11 @@
       "type": "phrase",
       "front": "be derived from",
       "meaning": "由来する",
+      "examples": [
+        {
+          "en": "Its earliest origins go back centuries, and modern plastic is derived from oil."
+        }
+      ],
       "pron": {
         "tts": "be derived from"
       },
@@ -1195,6 +1250,11 @@
       "synonyms": [
         "assortment of",
         "diverse array of"
+      ],
+      "examples": [
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it."
+        }
       ],
       "pron": {
         "tts": "host of"
@@ -1481,6 +1541,11 @@
         "looking back"
       ],
       "collocation": "in hindsight, it was a mistake",
+      "examples": [
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept."
+        }
+      ],
       "pron": {
         "tts": "in hindsight"
       },
@@ -1501,6 +1566,11 @@
         "opinions differ"
       ],
       "collocation": "accounts vary as to…",
+      "examples": [
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept."
+        }
+      ],
       "pron": {
         "tts": "accounts vary"
       },
@@ -1519,6 +1589,11 @@
       "meaning": "回収する",
       "synonyms": [
         "salvage"
+      ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
       ],
       "pron": {
         "lookup": "recover",
@@ -1540,6 +1615,11 @@
       "synonyms": [
         "seabed"
       ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
+      ],
       "pron": {
         "tts": "the ocean floor"
       },
@@ -1558,6 +1638,11 @@
       "meaning": "防水・密閉",
       "synonyms": [
         "seal shut"
+      ],
+      "examples": [
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half."
+        }
       ],
       "pron": {
         "lookup": "watertight",
@@ -1579,6 +1664,11 @@
       "synonyms": [
         "strict schedule"
       ],
+      "examples": [
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept."
+        }
+      ],
       "pron": {
         "tts": "tight timetable"
       },
@@ -1597,6 +1687,11 @@
       "meaning": "沈む",
       "synonyms": [
         "go under"
+      ],
+      "examples": [
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half."
+        }
       ],
       "pron": {
         "lookup": "sink",
@@ -1619,6 +1714,11 @@
         "debris",
         "wreckage"
       ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
+      ],
       "pron": {
         "lookup": "remains",
         "tts": "remains"
@@ -1638,6 +1738,11 @@
       "meaning": "場所",
       "synonyms": [
         "location"
+      ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
       ],
       "pron": {
         "lookup": "site",
@@ -1659,6 +1764,11 @@
       "synonyms": [
         "undamaged"
       ],
+      "examples": [
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode."
+        }
+      ],
       "pron": {
         "lookup": "intact",
         "tts": "intact"
@@ -1679,6 +1789,11 @@
       "synonyms": [
         "break in two"
       ],
+      "examples": [
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half."
+        }
+      ],
       "pron": {
         "tts": "split in half"
       },
@@ -1695,6 +1810,11 @@
       "type": "phrase",
       "front": "leave exposed",
       "meaning": "さらす",
+      "examples": [
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode."
+        }
+      ],
       "pron": {
         "tts": "leave exposed"
       },
@@ -1713,6 +1833,11 @@
       "meaning": "腐食する",
       "synonyms": [
         "erode"
+      ],
+      "examples": [
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode."
+        }
       ],
       "pron": {
         "lookup": "corrode",
@@ -1733,6 +1858,11 @@
       "meaning": "埋蔵品",
       "synonyms": [
         "artefacts"
+      ],
+      "examples": [
+        {
+          "en": "Explorers later found a treasure trove of items scattered around it."
+        }
       ],
       "pron": {
         "tts": "treasure trove"
@@ -1920,6 +2050,11 @@
         "turn out to be unfeasible"
       ],
       "collocation": "it proved impossible to…",
+      "examples": [
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated."
+        }
+      ],
       "pron": {
         "tts": "prove impossible"
       },
@@ -2070,6 +2205,11 @@
       "synonyms": [
         "inundated"
       ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
+      ],
       "pron": {
         "lookup": "overpopulated",
         "tts": "overpopulated"
@@ -2089,6 +2229,11 @@
       "meaning": "住む",
       "synonyms": [
         "populate"
+      ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
       ],
       "pron": {
         "lookup": "inhabit",
@@ -2111,6 +2256,11 @@
         "residence",
         "property"
       ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
+      ],
       "pron": {
         "lookup": "domicile",
         "tts": "domicile"
@@ -2130,6 +2280,11 @@
       "meaning": "道・通路",
       "synonyms": [
         "access"
+      ],
+      "examples": [
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated."
+        }
       ],
       "pron": {
         "lookup": "route",
@@ -2151,6 +2306,11 @@
       "synonyms": [
         "grow nervous"
       ],
+      "examples": [
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated."
+        }
+      ],
       "pron": {
         "tts": "grow agitated"
       },
@@ -2170,6 +2330,11 @@
       "synonyms": [
         "impact",
         "hit"
+      ],
+      "examples": [
+        {
+          "en": "Boxes that struck the ground would open, and the first beaver made a beeline for the brush."
+        }
       ],
       "pron": {
         "lookup": "strike",
@@ -2191,6 +2356,11 @@
       "synonyms": [
         "practice session"
       ],
+      "examples": [
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators."
+        }
+      ],
       "pron": {
         "tts": "trial run"
       },
@@ -2209,6 +2379,11 @@
       "meaning": "移す",
       "synonyms": [
         "transport"
+      ],
+      "examples": [
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators."
+        }
       ],
       "pron": {
         "lookup": "relocate",
@@ -2230,6 +2405,11 @@
       "synonyms": [
         "natural enemy"
       ],
+      "examples": [
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators."
+        }
+      ],
       "pron": {
         "lookup": "predator",
         "tts": "predator"
@@ -2250,6 +2430,11 @@
       "synonyms": [
         "terrain"
       ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
+      ],
       "pron": {
         "lookup": "landscape",
         "tts": "landscape"
@@ -2267,6 +2452,11 @@
       "type": "phrase",
       "front": "make a beeline for",
       "meaning": "真っ直ぐ進む",
+      "examples": [
+        {
+          "en": "Boxes that struck the ground would open, and the first beaver made a beeline for the brush."
+        }
+      ],
       "pron": {
         "tts": "make a beeline for"
       },
@@ -2420,6 +2610,11 @@
         "uncomplicated"
       ],
       "collocation": "a straightforward explanation",
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "lookup": "straightforward",
         "tts": "straightforward"
@@ -2541,6 +2736,11 @@
         "complex"
       ],
       "collocation": "a complicated process, a complex system",
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
+      ],
       "pron": {
         "lookup": "complicated",
         "tts": "complicated"
@@ -2595,6 +2795,11 @@
         "impressive"
       ],
       "collocation": "a spectacular performance",
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
+      ],
       "pron": {
         "lookup": "spectacular",
         "tts": "spectacular"
@@ -2614,6 +2819,11 @@
       "meaning": "調整・調和",
       "synonyms": [
         "harmony"
+      ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
       ],
       "pron": {
         "lookup": "coordination",
@@ -2636,6 +2846,11 @@
         "mystery",
         "riddle"
       ],
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "lookup": "puzzle",
         "tts": "puzzle"
@@ -2653,6 +2868,11 @@
       "type": "phrase",
       "front": "mounting evidence",
       "meaning": "増える証拠",
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "tts": "mounting evidence"
       },
@@ -2671,6 +2891,11 @@
       "meaning": "パターン",
       "synonyms": [
         "sequence"
+      ],
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
       ],
       "pron": {
         "lookup": "pattern",
@@ -2692,6 +2917,11 @@
       "synonyms": [
         "mimic"
       ],
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "lookup": "mirror",
         "tts": "mirror"
@@ -2711,6 +2941,11 @@
       "meaning": "プロの",
       "synonyms": [
         "expert"
+      ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
       ],
       "pron": {
         "lookup": "professional",
@@ -2732,6 +2967,11 @@
       "synonyms": [
         "flood"
       ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
+      ],
       "pron": {
         "lookup": "surge",
         "tts": "surge"
@@ -2751,6 +2991,11 @@
       "meaning": "不安な",
       "synonyms": [
         "nervous"
+      ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
       ],
       "pron": {
         "lookup": "anxious",
@@ -3007,6 +3252,11 @@
         "invaluable"
       ],
       "collocation": "priceless artwork, invaluable experience",
+      "examples": [
+        {
+          "en": "This does pose a problem about worth: an original is priceless because of its rarity."
+        }
+      ],
       "pron": {
         "lookup": "priceless",
         "tts": "priceless"
@@ -3096,6 +3346,11 @@
         "lose one's job"
       ],
       "collocation": "be made redundant due to…",
+      "examples": [
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise."
+        }
+      ],
       "pron": {
         "tts": "be made redundant"
       },
@@ -3149,6 +3404,11 @@
         "speciality"
       ],
       "collocation": "outside my area of expertise",
+      "examples": [
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise."
+        }
+      ],
       "pron": {
         "tts": "area of expertise"
       },
@@ -3169,6 +3429,11 @@
         "raise a question"
       ],
       "collocation": "this poses a problem, raise questions about",
+      "examples": [
+        {
+          "en": "This does pose a problem about worth: an original is priceless because of its rarity."
+        }
+      ],
       "pron": {
         "tts": "pose a problem"
       },
@@ -3187,6 +3452,11 @@
       "meaning": "一から",
       "synonyms": [
         "from the beginning"
+      ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
       ],
       "pron": {
         "tts": "from scratch"
@@ -3208,6 +3478,11 @@
         "dupe",
         "mislead"
       ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
+      ],
       "pron": {
         "lookup": "fool",
         "tts": "fool"
@@ -3228,6 +3503,11 @@
       "synonyms": [
         "the man on the street"
       ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
+      ],
       "pron": {
         "tts": "lay person"
       },
@@ -3246,6 +3526,11 @@
       "meaning": "場当たり的な",
       "synonyms": [
         "erratic"
+      ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
       ],
       "pron": {
         "lookup": "haphazard",
@@ -3266,6 +3551,11 @@
       "meaning": "避難所",
       "synonyms": [
         "sanctuary"
+      ],
+      "examples": [
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise."
+        }
       ],
       "pron": {
         "lookup": "refuge",
@@ -3490,6 +3780,11 @@
         "experimentation"
       ],
       "collocation": "through trial and error",
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
+      ],
       "pron": {
         "tts": "trial and error"
       },
@@ -3511,6 +3806,11 @@
         "ingenuity"
       ],
       "collocation": "encourage creativity",
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "lookup": "inventiveness",
         "tts": "inventiveness"
@@ -3532,6 +3832,11 @@
         "direct towards"
       ],
       "collocation": "channel energy into sport",
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "tts": "channel into"
       },
@@ -3553,6 +3858,11 @@
         "stipend"
       ],
       "collocation": "provide grants, offer a scholarship",
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
+      ],
       "pron": {
         "lookup": "grant",
         "tts": "grant"
@@ -3574,6 +3884,11 @@
         "economically deprived"
       ],
       "collocation": "socially disadvantaged families",
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
+      ],
       "pron": {
         "tts": "socially disadvantaged"
       },
@@ -3595,6 +3910,11 @@
         "belief in"
       ],
       "collocation": "build confidence in oneself",
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
+      ],
       "pron": {
         "tts": "confidence in"
       },
@@ -3616,6 +3936,11 @@
         "count on"
       ],
       "collocation": "rely on others, count on support",
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
+      ],
       "pron": {
         "tts": "rely on"
       },
@@ -3636,6 +3961,11 @@
         "get used to"
       ],
       "collocation": "get accustomed to doing sth",
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
+      ],
       "pron": {
         "tts": "get accustomed to"
       },
@@ -3655,6 +3985,11 @@
       "synonyms": [
         "overprotect",
         "baby"
+      ],
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
       ],
       "pron": {
         "lookup": "coddle",
@@ -3676,6 +4011,11 @@
       "synonyms": [
         "blood relative"
       ],
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "tts": "immediate family"
       },
@@ -3694,6 +4034,11 @@
       "meaning": "ノウハウ",
       "synonyms": [
         "knowledge"
+      ],
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
       ],
       "pron": {
         "lookup": "know-how",
@@ -3715,6 +4060,11 @@
       "synonyms": [
         "stimulate"
       ],
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "lookup": "spur",
         "tts": "spur"
@@ -3734,6 +4084,11 @@
       "meaning": "監督下で",
       "synonyms": [
         "under supervision"
+      ],
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
       ],
       "pron": {
         "tts": "in one's care"
@@ -3821,6 +4176,11 @@
         "premier"
       ],
       "collocation": "top-notch facilities",
+      "examples": [
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks."
+        }
+      ],
       "pron": {
         "lookup": "top-notch",
         "tts": "top-notch"
@@ -3910,6 +4270,11 @@
         "impediment"
       ],
       "collocation": "a major stumbling block",
+      "examples": [
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks."
+        }
+      ],
       "pron": {
         "tts": "stumbling block"
       },
@@ -3930,6 +4295,11 @@
         "reduce spending"
       ],
       "collocation": "cut expenditure on…",
+      "examples": [
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays."
+        }
+      ],
       "pron": {
         "tts": "cut expenditure"
       },
@@ -3951,6 +4321,11 @@
         "yearning for"
       ],
       "collocation": "an appetite for change",
+      "examples": [
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays."
+        }
+      ],
       "pron": {
         "tts": "appetite for"
       },
@@ -4037,6 +4412,11 @@
         "the bigger picture"
       ],
       "collocation": "look at the whole picture",
+      "examples": [
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin."
+        }
+      ],
       "pron": {
         "tts": "the whole picture"
       },
@@ -4059,6 +4439,11 @@
         "legislate"
       ],
       "collocation": "enact a law, pass legislation",
+      "examples": [
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time."
+        }
+      ],
       "pron": {
         "tts": "set down"
       },
@@ -4079,6 +4464,11 @@
         "slow down"
       ],
       "collocation": "the train decelerates",
+      "examples": [
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time."
+        }
+      ],
       "pron": {
         "lookup": "decelerate",
         "tts": "decelerate"
@@ -4100,6 +4490,11 @@
         "prolonged delay"
       ],
       "collocation": "expect lengthy delays",
+      "examples": [
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays."
+        }
+      ],
       "pron": {
         "tts": "lengthy delay"
       },
@@ -4121,6 +4516,11 @@
         "influence"
       ],
       "collocation": "sway public opinion, persuade sb to…",
+      "examples": [
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin."
+        }
+      ],
       "pron": {
         "lookup": "sway",
         "tts": "sway"
@@ -4176,6 +4576,11 @@
         "far-fetched",
         "improbable"
       ],
+      "examples": [
+        {
+          "en": "The pod can zip between cities, a plan that sounds like something from the pages of a novel."
+        }
+      ],
       "pron": {
         "tts": "like something from the pages of a novel"
       },
@@ -4192,6 +4597,11 @@
       "type": "word",
       "front": "bankroll",
       "meaning": "出資する",
+      "examples": [
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks."
+        }
+      ],
       "pron": {
         "lookup": "bankroll",
         "tts": "bankroll"
@@ -4212,6 +4622,11 @@
       "synonyms": [
         "dart"
       ],
+      "examples": [
+        {
+          "en": "The pod can zip between cities, a plan that sounds like something from the pages of a novel."
+        }
+      ],
       "pron": {
         "lookup": "zip",
         "tts": "zip"
@@ -4229,6 +4644,11 @@
       "type": "phrase",
       "front": "place sb in harm's way",
       "meaning": "危険にさらす",
+      "examples": [
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time."
+        }
+      ],
       "pron": {
         "tts": "place sb in harm's way"
       },
@@ -4247,6 +4667,11 @@
       "meaning": "試乗する",
       "synonyms": [
         "have a go"
+      ],
+      "examples": [
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin."
+        }
       ],
       "pron": {
         "tts": "take a spin"
@@ -4337,6 +4762,11 @@
         "backing"
       ],
       "collocation": "gain approval, have the backing of",
+      "examples": [
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly."
+        }
+      ],
       "pron": {
         "lookup": "approval",
         "tts": "approval"
@@ -4359,6 +4789,11 @@
         "only"
       ],
       "collocation": "the sole reason, the lone survivor",
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "sole",
         "tts": "sole"
@@ -4414,6 +4849,11 @@
         "persistence"
       ],
       "collocation": "sheer tenacity, with perseverance",
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "tenacity",
         "tts": "tenacity"
@@ -4501,6 +4941,11 @@
         "monumental shift"
       ],
       "collocation": "undergo radical change",
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
+      ],
       "pron": {
         "tts": "radical change"
       },
@@ -4521,6 +4966,11 @@
         "compel"
       ],
       "collocation": "be forced to…, compel sb to do",
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "force",
         "tts": "force"
@@ -4676,6 +5126,11 @@
         "luminary",
         "leading light"
       ],
+      "examples": [
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly."
+        }
+      ],
       "pron": {
         "lookup": "icon",
         "tts": "icon"
@@ -4696,6 +5151,11 @@
       "synonyms": [
         "buck social norms"
       ],
+      "examples": [
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly."
+        }
+      ],
       "pron": {
         "tts": "challenge convention"
       },
@@ -4714,6 +5174,11 @@
       "meaning": "反感・報復",
       "synonyms": [
         "retaliation"
+      ],
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
       ],
       "pron": {
         "lookup": "backlash",
@@ -4736,6 +5201,11 @@
         "exceptional",
         "extraordinary"
       ],
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "prodigious",
         "tts": "prodigious"
@@ -4755,6 +5225,11 @@
       "meaning": "模倣する",
       "synonyms": [
         "duplicate"
+      ],
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
       ],
       "pron": {
         "lookup": "replicate",
@@ -4776,6 +5251,11 @@
       "synonyms": [
         "acknowledgment"
       ],
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
+      ],
       "pron": {
         "tts": "receive recognition"
       },
@@ -4792,6 +5272,11 @@
       "type": "phrase",
       "front": "far and wide",
       "meaning": "至るところに",
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
+      ],
       "pron": {
         "tts": "far and wide"
       },
@@ -4915,6 +5400,11 @@
         "dishonest"
       ],
       "collocation": "deceitful behaviour",
+      "examples": [
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words."
+        }
+      ],
       "pron": {
         "lookup": "deceitful",
         "tts": "deceitful"
@@ -4936,6 +5426,11 @@
         "verbal"
       ],
       "collocation": "linguistic ability, verbal skills",
+      "examples": [
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words."
+        }
+      ],
       "pron": {
         "lookup": "linguistic",
         "tts": "linguistic"
@@ -5024,6 +5519,11 @@
         "exaggerate"
       ],
       "collocation": "inflate figures, exaggerate the truth",
+      "examples": [
+        {
+          "en": "We lie to inflate our image and standing, or to appease others."
+        }
+      ],
       "pron": {
         "lookup": "inflate",
         "tts": "inflate"
@@ -5046,6 +5546,11 @@
         "stature"
       ],
       "collocation": "social standing, improve one's stature",
+      "examples": [
+        {
+          "en": "We lie to inflate our image and standing, or to appease others."
+        }
+      ],
       "pron": {
         "lookup": "standing",
         "tts": "standing"
@@ -5068,6 +5573,11 @@
         "mollify"
       ],
       "collocation": "appease angry people",
+      "examples": [
+        {
+          "en": "We lie to inflate our image and standing, or to appease others."
+        }
+      ],
       "pron": {
         "lookup": "appease",
         "tts": "appease"
@@ -5158,6 +5668,11 @@
         "research"
       ],
       "collocation": "delve into the causes of…",
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
+      ],
       "pron": {
         "tts": "delve into"
       },
@@ -5180,6 +5695,11 @@
         "conceal"
       ],
       "collocation": "mask one's feelings, cover up the truth",
+      "examples": [
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words."
+        }
+      ],
       "pron": {
         "lookup": "mask",
         "tts": "mask"
@@ -5233,6 +5753,11 @@
       "synonyms": [
         "thought process"
       ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
+      ],
       "pron": {
         "lookup": "cognition",
         "tts": "cognition"
@@ -5253,6 +5778,11 @@
       "synonyms": [
         "on target"
       ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
+      ],
       "pron": {
         "tts": "on track"
       },
@@ -5271,6 +5801,11 @@
       "meaning": "わかりやすい",
       "synonyms": [
         "tell-tale"
+      ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
       ],
       "pron": {
         "lookup": "revealing",
@@ -5291,6 +5826,11 @@
       "meaning": "急な上昇",
       "synonyms": [
         "rapid advancement"
+      ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
       ],
       "pron": {
         "tts": "sudden leap"
@@ -5377,9 +5917,18 @@
             "注意音: R(years/real/concern), TH(the)"
           ],
           "targets": [
-            "w-concern",
-            "w-ancient",
-            "w-settle"
+            {
+              "id": "w-concern",
+              "text": "concern"
+            },
+            {
+              "id": "w-ancient",
+              "text": "ancient"
+            },
+            {
+              "id": "w-settle",
+              "text": "settle"
+            }
           ]
         },
         {
@@ -5392,9 +5941,18 @@
             "注意音: L(believe/skilled/sailed/only/tools), R(pioneers/seafarers/primitive)"
           ],
           "targets": [
-            "w-pioneer",
-            "w-seafarer",
-            "w-primitive"
+            {
+              "id": "w-pioneer",
+              "text": "pioneers"
+            },
+            {
+              "id": "w-seafarer",
+              "text": "seafarers"
+            },
+            {
+              "id": "w-primitive",
+              "text": "primitive"
+            }
           ]
         },
         {
@@ -5407,10 +5965,22 @@
             "注意音: TH(the/their), R(resources/construct/stars)"
           ],
           "targets": [
-            "w-available",
-            "w-construct",
-            "w-navigate",
-            "p-find-one-s-bearings"
+            {
+              "id": "w-available",
+              "text": "available"
+            },
+            {
+              "id": "w-construct",
+              "text": "construct"
+            },
+            {
+              "id": "w-navigate",
+              "text": "navigate"
+            },
+            {
+              "id": "p-find-one-s-bearings",
+              "text": "find their bearings"
+            }
           ]
         },
         {
@@ -5423,8 +5993,14 @@
             "注意音: TH(truth), R(discover/truth/Peru/raft)"
           ],
           "targets": [
-            "w-discover",
-            "w-dub"
+            {
+              "id": "w-discover",
+              "text": "discover"
+            },
+            {
+              "id": "w-dub",
+              "text": "dubbed"
+            }
           ]
         },
         {
@@ -5437,9 +6013,48 @@
             "注意音: V(favourable/voyage), R(favourable/source)"
           ],
           "targets": [
-            "w-favourable",
-            "w-source",
-            "w-voyage"
+            {
+              "id": "w-favourable",
+              "text": "Favourable"
+            },
+            {
+              "id": "w-source",
+              "text": "source"
+            },
+            {
+              "id": "w-voyage",
+              "text": "voyage"
+            }
+          ]
+        },
+        {
+          "en": "The mystery dogged scholars for decades before Heyerdahl tried to resolve it.",
+          "targets": [
+            {
+              "id": "w-dog",
+              "text": "dogged"
+            },
+            {
+              "id": "w-resolve",
+              "text": "resolve"
+            }
+          ]
+        },
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps.",
+          "targets": [
+            {
+              "id": "w-auspicious",
+              "text": "Auspicious"
+            },
+            {
+              "id": "p-on-hand",
+              "text": "on hand"
+            },
+            {
+              "id": "p-follow-in-one-s-footsteps",
+              "text": "follow in his footsteps"
+            }
           ]
         }
       ]
@@ -5460,9 +6075,18 @@
             "注意音: R(arguably/variety/products), V(useful/inventions/variety)"
           ],
           "targets": [
-            "w-arguably",
-            "w-form",
-            "p-a-variety-of"
+            {
+              "id": "w-arguably",
+              "text": "arguably"
+            },
+            {
+              "id": "w-form",
+              "text": "formed"
+            },
+            {
+              "id": "p-a-variety-of",
+              "text": "variety of"
+            }
           ]
         },
         {
@@ -5475,10 +6099,22 @@
             "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
           ],
           "targets": [
-            "w-waterproof",
-            "w-coating",
-            "w-synthetic",
-            "w-inexpensive"
+            {
+              "id": "w-waterproof",
+              "text": "waterproof"
+            },
+            {
+              "id": "w-coating",
+              "text": "coating"
+            },
+            {
+              "id": "w-synthetic",
+              "text": "synthetic"
+            },
+            {
+              "id": "w-inexpensive",
+              "text": "inexpensive"
+            }
           ]
         },
         {
@@ -5491,9 +6127,18 @@
             "注意音: TH(the), R(originate/recently/period)"
           ],
           "targets": [
-            "w-originate",
-            "w-mankind",
-            "p-the-medieval-period"
+            {
+              "id": "w-originate",
+              "text": "originate"
+            },
+            {
+              "id": "w-mankind",
+              "text": "mankind"
+            },
+            {
+              "id": "p-the-medieval-period",
+              "text": "the medieval period"
+            }
           ]
         },
         {
@@ -5506,8 +6151,14 @@
             "注意音: TH(though), R(real/turning/inventor/before)"
           ],
           "targets": [
-            "p-turning-point",
-            "p-go-bankrupt"
+            {
+              "id": "p-turning-point",
+              "text": "turning point"
+            },
+            {
+              "id": "p-go-bankrupt",
+              "text": "bankrupt"
+            }
           ]
         },
         {
@@ -5520,9 +6171,61 @@
             "注意音: R(environmental/concern/growing), V(environmental/biodegradable)"
           ],
           "targets": [
-            "w-impact",
-            "p-a-growing-concern",
-            "w-launch"
+            {
+              "id": "w-impact",
+              "text": "impact"
+            },
+            {
+              "id": "p-a-growing-concern",
+              "text": "growing concern"
+            },
+            {
+              "id": "w-launch",
+              "text": "launched"
+            }
+          ]
+        },
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it.",
+          "targets": [
+            {
+              "id": "w-flexible",
+              "text": "flexible"
+            },
+            {
+              "id": "p-host-of",
+              "text": "host of"
+            },
+            {
+              "id": "p-be-made-from",
+              "text": "made from"
+            }
+          ]
+        },
+        {
+          "en": "Shatterproof cases and see-through film show how versatile it is.",
+          "targets": [
+            {
+              "id": "w-shatterproof",
+              "text": "Shatterproof"
+            },
+            {
+              "id": "w-see-through",
+              "text": "see-through"
+            }
+          ]
+        },
+        {
+          "en": "Its earliest origins go back centuries, and modern plastic is derived from oil.",
+          "targets": [
+            {
+              "id": "p-earliest-origins",
+              "text": "earliest origins"
+            },
+            {
+              "id": "p-be-derived-from",
+              "text": "derived from"
+            }
           ]
         }
       ]
@@ -5543,8 +6246,14 @@
             "注意音: doubtのbは無音、TH(the)"
           ],
           "targets": [
-            "w-depart",
-            "w-doubt"
+            {
+              "id": "w-depart",
+              "text": "departed"
+            },
+            {
+              "id": "w-doubt",
+              "text": "doubt"
+            }
           ]
         },
         {
@@ -5557,8 +6266,14 @@
             "注意音: R(crew/ignored), V(of)"
           ],
           "targets": [
-            "w-initially",
-            "w-lack"
+            {
+              "id": "w-initially",
+              "text": "Initially"
+            },
+            {
+              "id": "w-lack",
+              "text": "lack"
+            }
           ]
         },
         {
@@ -5571,7 +6286,10 @@
             "注意音: wreckのwは無音(/r/), V(previous)"
           ],
           "targets": [
-            "p-previous-attempt"
+            {
+              "id": "p-previous-attempt",
+              "text": "previous attempts"
+            }
           ]
         },
         {
@@ -5584,9 +6302,99 @@
             "注意音: TH(with/the/though), R(French/discovery/explorers)"
           ],
           "targets": [
-            "p-in-collaboration-with",
-            "w-discovery",
-            "w-deteriorate"
+            {
+              "id": "p-in-collaboration-with",
+              "text": "in collaboration with"
+            },
+            {
+              "id": "w-discovery",
+              "text": "discovery"
+            },
+            {
+              "id": "w-deteriorate",
+              "text": "deteriorated"
+            }
+          ]
+        },
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept.",
+          "targets": [
+            {
+              "id": "p-in-hindsight",
+              "text": "In hindsight"
+            },
+            {
+              "id": "p-accounts-vary",
+              "text": "accounts vary"
+            },
+            {
+              "id": "p-tight-timetable",
+              "text": "tight timetable"
+            }
+          ]
+        },
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half.",
+          "targets": [
+            {
+              "id": "w-watertight",
+              "text": "watertight"
+            },
+            {
+              "id": "w-sink",
+              "text": "sink"
+            },
+            {
+              "id": "p-split-in-half",
+              "text": "split in half"
+            }
+          ]
+        },
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains.",
+          "targets": [
+            {
+              "id": "w-recover",
+              "text": "recover"
+            },
+            {
+              "id": "p-the-ocean-floor",
+              "text": "the ocean floor"
+            },
+            {
+              "id": "w-site",
+              "text": "site"
+            },
+            {
+              "id": "w-remains",
+              "text": "remains"
+            }
+          ]
+        },
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode.",
+          "targets": [
+            {
+              "id": "w-intact",
+              "text": "intact"
+            },
+            {
+              "id": "p-leave-exposed",
+              "text": "left exposed"
+            },
+            {
+              "id": "w-corrode",
+              "text": "corrode"
+            }
+          ]
+        },
+        {
+          "en": "Explorers later found a treasure trove of items scattered around it.",
+          "targets": [
+            {
+              "id": "p-treasure-trove",
+              "text": "treasure trove"
+            }
           ]
         }
       ]
@@ -5607,9 +6415,18 @@
             "注意音: TH(that/their/the), nuisance=ニューサンス"
           ],
           "targets": [
-            "w-nuisance",
-            "w-construction",
-            "w-alter"
+            {
+              "id": "w-nuisance",
+              "text": "nuisance"
+            },
+            {
+              "id": "w-construction",
+              "text": "construction"
+            },
+            {
+              "id": "w-alter",
+              "text": "alter"
+            }
           ]
         },
         {
@@ -5622,8 +6439,14 @@
             "注意音: TH(their), instinctの-nct連続子音"
           ],
           "targets": [
-            "w-instinct",
-            "p-encroach-on"
+            {
+              "id": "w-instinct",
+              "text": "instinct"
+            },
+            {
+              "id": "p-encroach-on",
+              "text": "encroach on"
+            }
           ]
         },
         {
@@ -5636,8 +6459,14 @@
             "注意音: TH(with), V(valley)"
           ],
           "targets": [
-            "w-ideal",
-            "w-abundance"
+            {
+              "id": "w-ideal",
+              "text": "ideal"
+            },
+            {
+              "id": "w-abundance",
+              "text": "abundance"
+            }
           ]
         },
         {
@@ -5650,8 +6479,82 @@
             "注意音: R(surplus/war), unique=ユニーク /juːˈniːk/"
           ],
           "targets": [
-            "w-surplus",
-            "w-unique"
+            {
+              "id": "w-surplus",
+              "text": "surplus"
+            },
+            {
+              "id": "w-unique",
+              "text": "unique"
+            }
+          ]
+        },
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape.",
+          "targets": [
+            {
+              "id": "w-overpopulated",
+              "text": "overpopulated"
+            },
+            {
+              "id": "w-inhabit",
+              "text": "inhabit"
+            },
+            {
+              "id": "w-domicile",
+              "text": "domiciles"
+            },
+            {
+              "id": "w-landscape",
+              "text": "landscape"
+            }
+          ]
+        },
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated.",
+          "targets": [
+            {
+              "id": "w-route",
+              "text": "route"
+            },
+            {
+              "id": "p-prove-impossible",
+              "text": "proved impossible"
+            },
+            {
+              "id": "p-grow-agitated",
+              "text": "grow agitated"
+            }
+          ]
+        },
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators.",
+          "targets": [
+            {
+              "id": "p-trial-run",
+              "text": "trial run"
+            },
+            {
+              "id": "w-relocate",
+              "text": "relocate"
+            },
+            {
+              "id": "w-predator",
+              "text": "predators"
+            }
+          ]
+        },
+        {
+          "en": "Boxes that struck the ground would open, and the first beaver made a beeline for the brush.",
+          "targets": [
+            {
+              "id": "w-strike",
+              "text": "struck"
+            },
+            {
+              "id": "p-make-a-beeline-for",
+              "text": "made a beeline for"
+            }
           ]
         }
       ]
@@ -5672,7 +6575,10 @@
             "注意音: stim-の/st/クラスター, littleのt(米=フラップ/英=明瞭)"
           ],
           "targets": [
-            "w-stimulate"
+            {
+              "id": "w-stimulate",
+              "text": "stimulates"
+            }
           ]
         },
         {
@@ -5685,10 +6591,22 @@
             "注意音: TH(theory/that), R(theory/factor)"
           ],
           "targets": [
-            "w-uncertainty",
-            "w-theory",
-            "w-factor",
-            "w-generate"
+            {
+              "id": "w-uncertainty",
+              "text": "uncertainty"
+            },
+            {
+              "id": "w-theory",
+              "text": "theory"
+            },
+            {
+              "id": "w-factor",
+              "text": "factor"
+            },
+            {
+              "id": "w-generate",
+              "text": "generate"
+            }
           ]
         },
         {
@@ -5701,9 +6619,72 @@
             "注意音: R(predict/rush/floor), pleasureの/ʒ/"
           ],
           "targets": [
-            "w-predict",
-            "w-intense",
-            "w-obvious"
+            {
+              "id": "w-predict",
+              "text": "predict"
+            },
+            {
+              "id": "w-intense",
+              "text": "intense"
+            },
+            {
+              "id": "w-obvious",
+              "text": "obvious"
+            }
+          ]
+        },
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others.",
+          "targets": [
+            {
+              "id": "w-puzzle",
+              "text": "puzzle"
+            },
+            {
+              "id": "w-straightforward",
+              "text": "straightforward"
+            },
+            {
+              "id": "p-mounting-evidence",
+              "text": "mounting evidence"
+            },
+            {
+              "id": "w-pattern",
+              "text": "patterns"
+            },
+            {
+              "id": "w-mirror",
+              "text": "mirror"
+            }
+          ]
+        },
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy.",
+          "targets": [
+            {
+              "id": "w-professional",
+              "text": "professional"
+            },
+            {
+              "id": "w-complicated",
+              "text": "complicated"
+            },
+            {
+              "id": "w-spectacular",
+              "text": "spectacular"
+            },
+            {
+              "id": "w-coordination",
+              "text": "coordination"
+            },
+            {
+              "id": "w-anxious",
+              "text": "anxious"
+            },
+            {
+              "id": "w-surge",
+              "text": "surge"
+            }
           ]
         }
       ]
@@ -5724,7 +6705,10 @@
             "注意音: R(art/our/perspective), creativity=クリエイ·TI·ヴィティ"
           ],
           "targets": [
-            "w-perspective"
+            {
+              "id": "w-perspective",
+              "text": "perspective"
+            }
           ]
         },
         {
@@ -5737,9 +6721,18 @@
             "注意音: TH(the/that/with), scepticism=スケプティスィズム"
           ],
           "targets": [
-            "w-notion",
-            "w-scepticism",
-            "w-credible"
+            {
+              "id": "w-notion",
+              "text": "notion"
+            },
+            {
+              "id": "w-scepticism",
+              "text": "scepticism"
+            },
+            {
+              "id": "w-credible",
+              "text": "credible"
+            }
           ]
         },
         {
@@ -5752,9 +6745,18 @@
             "注意音: TH(this/the/that/worth), V(innovative/value/gives)"
           ],
           "targets": [
-            "w-innovative",
-            "w-value",
-            "w-scarcity"
+            {
+              "id": "w-innovative",
+              "text": "innovative"
+            },
+            {
+              "id": "w-value",
+              "text": "value"
+            },
+            {
+              "id": "w-scarcity",
+              "text": "scarcity"
+            }
           ]
         },
         {
@@ -5767,9 +6769,69 @@
             "注意音: R(real/disparity/interpret/art), TH(there/the/that)"
           ],
           "targets": [
-            "w-disparity",
-            "w-interpret",
-            "w-automation"
+            {
+              "id": "w-disparity",
+              "text": "disparity"
+            },
+            {
+              "id": "w-interpret",
+              "text": "interpret"
+            },
+            {
+              "id": "w-automation",
+              "text": "automation"
+            }
+          ]
+        },
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine.",
+          "targets": [
+            {
+              "id": "w-fool",
+              "text": "fool"
+            },
+            {
+              "id": "p-lay-person",
+              "text": "lay person"
+            },
+            {
+              "id": "w-haphazard",
+              "text": "haphazard"
+            },
+            {
+              "id": "p-from-scratch",
+              "text": "from scratch"
+            }
+          ]
+        },
+        {
+          "en": "This does pose a problem about worth: an original is priceless because of its rarity.",
+          "targets": [
+            {
+              "id": "p-pose-a-problem",
+              "text": "pose a problem"
+            },
+            {
+              "id": "w-priceless",
+              "text": "priceless"
+            }
+          ]
+        },
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise.",
+          "targets": [
+            {
+              "id": "p-be-made-redundant",
+              "text": "made redundant"
+            },
+            {
+              "id": "w-refuge",
+              "text": "refuge"
+            },
+            {
+              "id": "p-area-of-expertise",
+              "text": "area of expertise"
+            }
           ]
         }
       ]
@@ -5790,8 +6852,14 @@
             "注意音: R(our/foster/children), TH(the)"
           ],
           "targets": [
-            "w-foster",
-            "w-gifted"
+            {
+              "id": "w-foster",
+              "text": "foster"
+            },
+            {
+              "id": "w-gifted",
+              "text": "gifted"
+            }
           ]
         },
         {
@@ -5804,8 +6872,14 @@
             "注意音: TH(rather/than/their), R(clear/rather/reliance)"
           ],
           "targets": [
-            "w-blueprint",
-            "w-self-reliance"
+            {
+              "id": "w-blueprint",
+              "text": "blueprint"
+            },
+            {
+              "id": "w-self-reliance",
+              "text": "self-reliance"
+            }
           ]
         },
         {
@@ -5818,8 +6892,81 @@
             "注意音: TH(things), R(creativity/drives/real/progress)"
           ],
           "targets": [
-            "p-compensate-for",
-            "w-progress"
+            {
+              "id": "p-compensate-for",
+              "text": "compensates for"
+            },
+            {
+              "id": "w-progress",
+              "text": "progress"
+            }
+          ]
+        },
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment.",
+          "targets": [
+            {
+              "id": "p-trial-and-error",
+              "text": "trial and error"
+            },
+            {
+              "id": "w-know-how",
+              "text": "know-how"
+            },
+            {
+              "id": "p-confidence-in",
+              "text": "confidence in"
+            },
+            {
+              "id": "p-rely-on",
+              "text": "rely on"
+            }
+          ]
+        },
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family.",
+          "targets": [
+            {
+              "id": "w-coddle",
+              "text": "coddle"
+            },
+            {
+              "id": "w-spur",
+              "text": "spur"
+            },
+            {
+              "id": "w-inventiveness",
+              "text": "inventiveness"
+            },
+            {
+              "id": "p-channel-into",
+              "text": "channel into"
+            },
+            {
+              "id": "p-immediate-family",
+              "text": "immediate family"
+            }
+          ]
+        },
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged.",
+          "targets": [
+            {
+              "id": "p-in-one-s-care",
+              "text": "in our care"
+            },
+            {
+              "id": "p-get-accustomed-to",
+              "text": "get accustomed to"
+            },
+            {
+              "id": "w-grant",
+              "text": "grant"
+            },
+            {
+              "id": "p-socially-disadvantaged",
+              "text": "socially disadvantaged"
+            }
           ]
         }
       ]
@@ -5840,10 +6987,22 @@
             "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
           ],
           "targets": [
-            "p-overnight-success",
-            "p-invest-in",
-            "w-groundbreaking",
-            "w-metropolitan"
+            {
+              "id": "p-overnight-success",
+              "text": "overnight success"
+            },
+            {
+              "id": "p-invest-in",
+              "text": "invest in"
+            },
+            {
+              "id": "w-groundbreaking",
+              "text": "groundbreaking"
+            },
+            {
+              "id": "w-metropolitan",
+              "text": "metropolitan"
+            }
           ]
         },
         {
@@ -5856,8 +7015,14 @@
             "注意音: R(there/exorbitant/ordinary/afford), TH(there)"
           ],
           "targets": [
-            "w-exorbitant",
-            "w-afford"
+            {
+              "id": "w-exorbitant",
+              "text": "exorbitant"
+            },
+            {
+              "id": "w-afford",
+              "text": "afford"
+            }
           ]
         },
         {
@@ -5870,7 +7035,91 @@
             "注意音: R(persuade/authorise/project/train/board), TH(the)"
           ],
           "targets": [
-            "w-authorise"
+            {
+              "id": "w-authorise",
+              "text": "authorise"
+            }
+          ]
+        },
+        {
+          "en": "The pod can zip between cities, a plan that sounds like something from the pages of a novel.",
+          "targets": [
+            {
+              "id": "w-zip",
+              "text": "zip"
+            },
+            {
+              "id": "p-like-something-from-the-pages-of-a-novel",
+              "text": "like something from the pages of a novel"
+            }
+          ]
+        },
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks.",
+          "targets": [
+            {
+              "id": "w-bankroll",
+              "text": "bankroll"
+            },
+            {
+              "id": "w-top-notch",
+              "text": "top-notch"
+            },
+            {
+              "id": "p-stumbling-block",
+              "text": "stumbling blocks"
+            }
+          ]
+        },
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays.",
+          "targets": [
+            {
+              "id": "p-cut-expenditure",
+              "text": "cut expenditure"
+            },
+            {
+              "id": "p-appetite-for",
+              "text": "appetite for"
+            },
+            {
+              "id": "p-lengthy-delay",
+              "text": "lengthy delays"
+            }
+          ]
+        },
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time.",
+          "targets": [
+            {
+              "id": "p-set-down",
+              "text": "set down"
+            },
+            {
+              "id": "p-place-sb-in-harm-s-way",
+              "text": "place riders in harm's way"
+            },
+            {
+              "id": "w-decelerate",
+              "text": "decelerate"
+            }
+          ]
+        },
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin.",
+          "targets": [
+            {
+              "id": "w-sway",
+              "text": "sway"
+            },
+            {
+              "id": "p-the-whole-picture",
+              "text": "the whole picture"
+            },
+            {
+              "id": "p-take-a-spin",
+              "text": "take a spin"
+            }
           ]
         }
       ]
@@ -5891,7 +7140,10 @@
             "注意音: R(Maria/struggled/right/learn), L(struggled/child/learn)"
           ],
           "targets": [
-            "w-struggle"
+            {
+              "id": "w-struggle",
+              "text": "struggled"
+            }
           ]
         },
         {
@@ -5904,8 +7156,14 @@
             "注意音: TH(the/with), R(from/persevered/grades)"
           ],
           "targets": [
-            "w-esteemed",
-            "w-persevere"
+            {
+              "id": "w-esteemed",
+              "text": "esteemed"
+            },
+            {
+              "id": "w-persevere",
+              "text": "persevered"
+            }
           ]
         },
         {
@@ -5918,8 +7176,14 @@
             "注意音: TH(with/the/theory/that), R(poor/children/desire), V(have)"
           ],
           "targets": [
-            "p-come-up-with",
-            "w-innate"
+            {
+              "id": "p-come-up-with",
+              "text": "came up with"
+            },
+            {
+              "id": "w-innate",
+              "text": "innate"
+            }
           ]
         },
         {
@@ -5932,8 +7196,14 @@
             "注意音: TH(method), R(her/freedom/worldwide)"
           ],
           "targets": [
-            "w-emphasise",
-            "w-adopt"
+            {
+              "id": "w-emphasise",
+              "text": "emphasised"
+            },
+            {
+              "id": "w-adopt",
+              "text": "adopted"
+            }
           ]
         },
         {
@@ -5946,8 +7216,77 @@
             "注意音: R(her/influence/endures), V(advocate/influence)"
           ],
           "targets": [
-            "p-advocate-of",
-            "w-subsequent"
+            {
+              "id": "p-advocate-of",
+              "text": "advocate"
+            },
+            {
+              "id": "w-subsequent",
+              "text": "subsequent"
+            }
+          ]
+        },
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly.",
+          "targets": [
+            {
+              "id": "w-icon",
+              "text": "icon"
+            },
+            {
+              "id": "p-challenge-convention",
+              "text": "challenge convention"
+            },
+            {
+              "id": "w-approval",
+              "text": "approval"
+            }
+          ]
+        },
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out.",
+          "targets": [
+            {
+              "id": "w-sole",
+              "text": "sole"
+            },
+            {
+              "id": "w-backlash",
+              "text": "backlash"
+            },
+            {
+              "id": "w-tenacity",
+              "text": "tenacity"
+            },
+            {
+              "id": "w-prodigious",
+              "text": "prodigious"
+            },
+            {
+              "id": "w-force",
+              "text": "force"
+            }
+          ]
+        },
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition.",
+          "targets": [
+            {
+              "id": "p-radical-change",
+              "text": "radical change"
+            },
+            {
+              "id": "w-replicate",
+              "text": "replicated"
+            },
+            {
+              "id": "p-far-and-wide",
+              "text": "far and wide"
+            },
+            {
+              "id": "p-receive-recognition",
+              "text": "receive recognition"
+            }
           ]
         }
       ]
@@ -5968,9 +7307,18 @@
             "注意音: R(troubling/brain), sophisticated=ソフィスティケイティッド"
           ],
           "targets": [
-            "w-troubling",
-            "w-indication",
-            "w-sophisticated"
+            {
+              "id": "w-troubling",
+              "text": "troubling"
+            },
+            {
+              "id": "w-indication",
+              "text": "indication"
+            },
+            {
+              "id": "w-sophisticated",
+              "text": "sophisticated"
+            }
           ]
         },
         {
@@ -5983,8 +7331,14 @@
             "注意音: TH(others/without/this/their), L(skill/skilled/liars)"
           ],
           "targets": [
-            "w-manipulate",
-            "w-trait"
+            {
+              "id": "w-manipulate",
+              "text": "manipulating"
+            },
+            {
+              "id": "w-trait",
+              "text": "trait"
+            }
           ]
         },
         {
@@ -5997,7 +7351,10 @@
             "注意音: R(exaggerate/our/or), exaggerate=イグ·ザ·ジャレイト, image=イミッジ"
           ],
           "targets": [
-            "w-tension"
+            {
+              "id": "w-tension",
+              "text": "tension"
+            }
           ]
         },
         {
@@ -6010,8 +7367,73 @@
             "注意音: TH(that/the/truth), R(reaching/maturity/learning), truth=トゥルース/θ/"
           ],
           "targets": [
-            "w-milestone",
-            "w-maturity"
+            {
+              "id": "w-milestone",
+              "text": "milestone"
+            },
+            {
+              "id": "w-maturity",
+              "text": "maturity"
+            }
+          ]
+        },
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words.",
+          "targets": [
+            {
+              "id": "w-deceitful",
+              "text": "deceitful"
+            },
+            {
+              "id": "w-linguistic",
+              "text": "linguistic"
+            },
+            {
+              "id": "w-mask",
+              "text": "mask"
+            }
+          ]
+        },
+        {
+          "en": "We lie to inflate our image and standing, or to appease others.",
+          "targets": [
+            {
+              "id": "w-inflate",
+              "text": "inflate"
+            },
+            {
+              "id": "w-standing",
+              "text": "standing"
+            },
+            {
+              "id": "w-appease",
+              "text": "appease"
+            }
+          ]
+        },
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track.",
+          "targets": [
+            {
+              "id": "p-delve-into",
+              "text": "delve into"
+            },
+            {
+              "id": "w-revealing",
+              "text": "revealing"
+            },
+            {
+              "id": "p-sudden-leap",
+              "text": "sudden leap"
+            },
+            {
+              "id": "w-cognition",
+              "text": "cognition"
+            },
+            {
+              "id": "p-on-track",
+              "text": "on track"
+            }
           ]
         }
       ]

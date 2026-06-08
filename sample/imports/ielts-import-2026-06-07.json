@@ -296,6 +296,11 @@
         "looking back"
       ],
       "collocation": "in hindsight, it was a mistake",
+      "examples": [
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept."
+        }
+      ],
       "pron": {
         "tts": "in hindsight"
       },
@@ -318,6 +323,11 @@
         "opinions differ"
       ],
       "collocation": "accounts vary as to…",
+      "examples": [
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept."
+        }
+      ],
       "pron": {
         "tts": "accounts vary"
       },
@@ -338,6 +348,11 @@
       "meaning": "回収する",
       "synonyms": [
         "salvage"
+      ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
       ],
       "pron": {
         "lookup": "recover",
@@ -361,6 +376,11 @@
       "synonyms": [
         "seabed"
       ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
+      ],
       "pron": {
         "tts": "the ocean floor"
       },
@@ -381,6 +401,11 @@
       "meaning": "防水・密閉",
       "synonyms": [
         "seal shut"
+      ],
+      "examples": [
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half."
+        }
       ],
       "pron": {
         "lookup": "watertight",
@@ -404,6 +429,11 @@
       "synonyms": [
         "strict schedule"
       ],
+      "examples": [
+        {
+          "en": "In hindsight, accounts vary about the tight timetable the captain kept."
+        }
+      ],
       "pron": {
         "tts": "tight timetable"
       },
@@ -424,6 +454,11 @@
       "meaning": "沈む",
       "synonyms": [
         "go under"
+      ],
+      "examples": [
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half."
+        }
       ],
       "pron": {
         "lookup": "sink",
@@ -448,6 +483,11 @@
         "debris",
         "wreckage"
       ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
+      ],
       "pron": {
         "lookup": "remains",
         "tts": "remains"
@@ -469,6 +509,11 @@
       "meaning": "場所",
       "synonyms": [
         "location"
+      ],
+      "examples": [
+        {
+          "en": "For years, efforts to recover it from the ocean floor failed to find the site or its remains."
+        }
       ],
       "pron": {
         "lookup": "site",
@@ -492,6 +537,11 @@
       "synonyms": [
         "undamaged"
       ],
+      "examples": [
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode."
+        }
+      ],
       "pron": {
         "lookup": "intact",
         "tts": "intact"
@@ -514,6 +564,11 @@
       "synonyms": [
         "break in two"
       ],
+      "examples": [
+        {
+          "en": "Although watertight doors were meant to save it, the ship began to sink and split in half."
+        }
+      ],
       "pron": {
         "tts": "split in half"
       },
@@ -532,6 +587,11 @@
       "type": "phrase",
       "front": "leave exposed",
       "meaning": "さらす",
+      "examples": [
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode."
+        }
+      ],
       "pron": {
         "tts": "leave exposed"
       },
@@ -552,6 +612,11 @@
       "meaning": "腐食する",
       "synonyms": [
         "erode"
+      ],
+      "examples": [
+        {
+          "en": "The wreck was not intact; left exposed to salt water, the metal began to corrode."
+        }
       ],
       "pron": {
         "lookup": "corrode",
@@ -574,6 +639,11 @@
       "meaning": "埋蔵品",
       "synonyms": [
         "artefacts"
+      ],
+      "examples": [
+        {
+          "en": "Explorers later found a treasure trove of items scattered around it."
+        }
       ],
       "pron": {
         "tts": "treasure trove"
@@ -773,6 +843,11 @@
         "turn out to be unfeasible"
       ],
       "collocation": "it proved impossible to…",
+      "examples": [
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated."
+        }
+      ],
       "pron": {
         "tts": "prove impossible"
       },
@@ -933,6 +1008,11 @@
       "synonyms": [
         "inundated"
       ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
+      ],
       "pron": {
         "lookup": "overpopulated",
         "tts": "overpopulated"
@@ -954,6 +1034,11 @@
       "meaning": "住む",
       "synonyms": [
         "populate"
+      ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
       ],
       "pron": {
         "lookup": "inhabit",
@@ -978,6 +1063,11 @@
         "residence",
         "property"
       ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
+      ],
       "pron": {
         "lookup": "domicile",
         "tts": "domicile"
@@ -999,6 +1089,11 @@
       "meaning": "道・通路",
       "synonyms": [
         "access"
+      ],
+      "examples": [
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated."
+        }
       ],
       "pron": {
         "lookup": "route",
@@ -1022,6 +1117,11 @@
       "synonyms": [
         "grow nervous"
       ],
+      "examples": [
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated."
+        }
+      ],
       "pron": {
         "tts": "grow agitated"
       },
@@ -1043,6 +1143,11 @@
       "synonyms": [
         "impact",
         "hit"
+      ],
+      "examples": [
+        {
+          "en": "Boxes that struck the ground would open, and the first beaver made a beeline for the brush."
+        }
       ],
       "pron": {
         "lookup": "strike",
@@ -1066,6 +1171,11 @@
       "synonyms": [
         "practice session"
       ],
+      "examples": [
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators."
+        }
+      ],
       "pron": {
         "tts": "trial run"
       },
@@ -1086,6 +1196,11 @@
       "meaning": "移す",
       "synonyms": [
         "transport"
+      ],
+      "examples": [
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators."
+        }
       ],
       "pron": {
         "lookup": "relocate",
@@ -1109,6 +1224,11 @@
       "synonyms": [
         "natural enemy"
       ],
+      "examples": [
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators."
+        }
+      ],
       "pron": {
         "lookup": "predator",
         "tts": "predator"
@@ -1131,6 +1251,11 @@
       "synonyms": [
         "terrain"
       ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
+      ],
       "pron": {
         "lookup": "landscape",
         "tts": "landscape"
@@ -1150,6 +1275,11 @@
       "type": "phrase",
       "front": "make a beeline for",
       "meaning": "真っ直ぐ進む",
+      "examples": [
+        {
+          "en": "Boxes that struck the ground would open, and the first beaver made a beeline for the brush."
+        }
+      ],
       "pron": {
         "tts": "make a beeline for"
       },
@@ -1313,6 +1443,11 @@
         "uncomplicated"
       ],
       "collocation": "a straightforward explanation",
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "lookup": "straightforward",
         "tts": "straightforward"
@@ -1442,6 +1577,11 @@
         "complex"
       ],
       "collocation": "a complicated process, a complex system",
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
+      ],
       "pron": {
         "lookup": "complicated",
         "tts": "complicated"
@@ -1500,6 +1640,11 @@
         "impressive"
       ],
       "collocation": "a spectacular performance",
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
+      ],
       "pron": {
         "lookup": "spectacular",
         "tts": "spectacular"
@@ -1521,6 +1666,11 @@
       "meaning": "調整・調和",
       "synonyms": [
         "harmony"
+      ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
       ],
       "pron": {
         "lookup": "coordination",
@@ -1545,6 +1695,11 @@
         "mystery",
         "riddle"
       ],
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "lookup": "puzzle",
         "tts": "puzzle"
@@ -1564,6 +1719,11 @@
       "type": "phrase",
       "front": "mounting evidence",
       "meaning": "増える証拠",
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "tts": "mounting evidence"
       },
@@ -1584,6 +1744,11 @@
       "meaning": "パターン",
       "synonyms": [
         "sequence"
+      ],
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
       ],
       "pron": {
         "lookup": "pattern",
@@ -1607,6 +1772,11 @@
       "synonyms": [
         "mimic"
       ],
+      "examples": [
+        {
+          "en": "One part of the puzzle is straightforward: there is mounting evidence that the brain loves to spot patterns and to mirror others."
+        }
+      ],
       "pron": {
         "lookup": "mirror",
         "tts": "mirror"
@@ -1628,6 +1798,11 @@
       "meaning": "プロの",
       "synonyms": [
         "expert"
+      ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
       ],
       "pron": {
         "lookup": "professional",
@@ -1651,6 +1826,11 @@
       "synonyms": [
         "flood"
       ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
+      ],
       "pron": {
         "lookup": "surge",
         "tts": "surge"
@@ -1672,6 +1852,11 @@
       "meaning": "不安な",
       "synonyms": [
         "nervous"
+      ],
+      "examples": [
+        {
+          "en": "When a professional attempts something complicated and spectacular, needing perfect coordination, we feel anxious, and success brings a surge of joy."
+        }
       ],
       "pron": {
         "lookup": "anxious",
@@ -1944,6 +2129,11 @@
         "invaluable"
       ],
       "collocation": "priceless artwork, invaluable experience",
+      "examples": [
+        {
+          "en": "This does pose a problem about worth: an original is priceless because of its rarity."
+        }
+      ],
       "pron": {
         "lookup": "priceless",
         "tts": "priceless"
@@ -2039,6 +2229,11 @@
         "lose one's job"
       ],
       "collocation": "be made redundant due to…",
+      "examples": [
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise."
+        }
+      ],
       "pron": {
         "tts": "be made redundant"
       },
@@ -2096,6 +2291,11 @@
         "speciality"
       ],
       "collocation": "outside my area of expertise",
+      "examples": [
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise."
+        }
+      ],
       "pron": {
         "tts": "area of expertise"
       },
@@ -2118,6 +2318,11 @@
         "raise a question"
       ],
       "collocation": "this poses a problem, raise questions about",
+      "examples": [
+        {
+          "en": "This does pose a problem about worth: an original is priceless because of its rarity."
+        }
+      ],
       "pron": {
         "tts": "pose a problem"
       },
@@ -2138,6 +2343,11 @@
       "meaning": "一から",
       "synonyms": [
         "from the beginning"
+      ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
       ],
       "pron": {
         "tts": "from scratch"
@@ -2161,6 +2371,11 @@
         "dupe",
         "mislead"
       ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
+      ],
       "pron": {
         "lookup": "fool",
         "tts": "fool"
@@ -2183,6 +2398,11 @@
       "synonyms": [
         "the man on the street"
       ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
+      ],
       "pron": {
         "tts": "lay person"
       },
@@ -2203,6 +2423,11 @@
       "meaning": "場当たり的な",
       "synonyms": [
         "erratic"
+      ],
+      "examples": [
+        {
+          "en": "Early AI art could fool a lay person, and though some looked haphazard, the best were made from scratch by the machine."
+        }
       ],
       "pron": {
         "lookup": "haphazard",
@@ -2225,6 +2450,11 @@
       "meaning": "避難所",
       "synonyms": [
         "sanctuary"
+      ],
+      "examples": [
+        {
+          "en": "Artists fear being made redundant even in this last refuge, their own area of expertise."
+        }
       ],
       "pron": {
         "lookup": "refuge",
@@ -2463,6 +2693,11 @@
         "experimentation"
       ],
       "collocation": "through trial and error",
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
+      ],
       "pron": {
         "tts": "trial and error"
       },
@@ -2486,6 +2721,11 @@
         "ingenuity"
       ],
       "collocation": "encourage creativity",
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "lookup": "inventiveness",
         "tts": "inventiveness"
@@ -2509,6 +2749,11 @@
         "direct towards"
       ],
       "collocation": "channel energy into sport",
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "tts": "channel into"
       },
@@ -2532,6 +2777,11 @@
         "stipend"
       ],
       "collocation": "provide grants, offer a scholarship",
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
+      ],
       "pron": {
         "lookup": "grant",
         "tts": "grant"
@@ -2555,6 +2805,11 @@
         "economically deprived"
       ],
       "collocation": "socially disadvantaged families",
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
+      ],
       "pron": {
         "tts": "socially disadvantaged"
       },
@@ -2578,6 +2833,11 @@
         "belief in"
       ],
       "collocation": "build confidence in oneself",
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
+      ],
       "pron": {
         "tts": "confidence in"
       },
@@ -2601,6 +2861,11 @@
         "count on"
       ],
       "collocation": "rely on others, count on support",
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
+      ],
       "pron": {
         "tts": "rely on"
       },
@@ -2623,6 +2888,11 @@
         "get used to"
       ],
       "collocation": "get accustomed to doing sth",
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
+      ],
       "pron": {
         "tts": "get accustomed to"
       },
@@ -2644,6 +2914,11 @@
       "synonyms": [
         "overprotect",
         "baby"
+      ],
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
       ],
       "pron": {
         "lookup": "coddle",
@@ -2667,6 +2942,11 @@
       "synonyms": [
         "blood relative"
       ],
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "tts": "immediate family"
       },
@@ -2687,6 +2967,11 @@
       "meaning": "ノウハウ",
       "synonyms": [
         "knowledge"
+      ],
+      "examples": [
+        {
+          "en": "Through trial and error, pupils build know-how and the confidence in themselves to rely on their own judgment."
+        }
       ],
       "pron": {
         "lookup": "know-how",
@@ -2710,6 +2995,11 @@
       "synonyms": [
         "stimulate"
       ],
+      "examples": [
+        {
+          "en": "Rather than coddle them, we spur their inventiveness and channel into sport the energy they once spent on their immediate family."
+        }
+      ],
       "pron": {
         "lookup": "spur",
         "tts": "spur"
@@ -2731,6 +3021,11 @@
       "meaning": "監督下で",
       "synonyms": [
         "under supervision"
+      ],
+      "examples": [
+        {
+          "en": "Living in our care, children quickly get accustomed to independence, and we offer a grant to those who are socially disadvantaged."
+        }
       ],
       "pron": {
         "tts": "in one's care"
@@ -2824,6 +3119,11 @@
         "premier"
       ],
       "collocation": "top-notch facilities",
+      "examples": [
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks."
+        }
+      ],
       "pron": {
         "lookup": "top-notch",
         "tts": "top-notch"
@@ -2919,6 +3219,11 @@
         "impediment"
       ],
       "collocation": "a major stumbling block",
+      "examples": [
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks."
+        }
+      ],
       "pron": {
         "tts": "stumbling block"
       },
@@ -2941,6 +3246,11 @@
         "reduce spending"
       ],
       "collocation": "cut expenditure on…",
+      "examples": [
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays."
+        }
+      ],
       "pron": {
         "tts": "cut expenditure"
       },
@@ -2964,6 +3274,11 @@
         "yearning for"
       ],
       "collocation": "an appetite for change",
+      "examples": [
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays."
+        }
+      ],
       "pron": {
         "tts": "appetite for"
       },
@@ -3056,6 +3371,11 @@
         "the bigger picture"
       ],
       "collocation": "look at the whole picture",
+      "examples": [
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin."
+        }
+      ],
       "pron": {
         "tts": "the whole picture"
       },
@@ -3080,6 +3400,11 @@
         "legislate"
       ],
       "collocation": "enact a law, pass legislation",
+      "examples": [
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time."
+        }
+      ],
       "pron": {
         "tts": "set down"
       },
@@ -3102,6 +3427,11 @@
         "slow down"
       ],
       "collocation": "the train decelerates",
+      "examples": [
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time."
+        }
+      ],
       "pron": {
         "lookup": "decelerate",
         "tts": "decelerate"
@@ -3125,6 +3455,11 @@
         "prolonged delay"
       ],
       "collocation": "expect lengthy delays",
+      "examples": [
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays."
+        }
+      ],
       "pron": {
         "tts": "lengthy delay"
       },
@@ -3148,6 +3483,11 @@
         "influence"
       ],
       "collocation": "sway public opinion, persuade sb to…",
+      "examples": [
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin."
+        }
+      ],
       "pron": {
         "lookup": "sway",
         "tts": "sway"
@@ -3207,6 +3547,11 @@
         "far-fetched",
         "improbable"
       ],
+      "examples": [
+        {
+          "en": "The pod can zip between cities, a plan that sounds like something from the pages of a novel."
+        }
+      ],
       "pron": {
         "tts": "like something from the pages of a novel"
       },
@@ -3225,6 +3570,11 @@
       "type": "word",
       "front": "bankroll",
       "meaning": "出資する",
+      "examples": [
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks."
+        }
+      ],
       "pron": {
         "lookup": "bankroll",
         "tts": "bankroll"
@@ -3247,6 +3597,11 @@
       "synonyms": [
         "dart"
       ],
+      "examples": [
+        {
+          "en": "The pod can zip between cities, a plan that sounds like something from the pages of a novel."
+        }
+      ],
       "pron": {
         "lookup": "zip",
         "tts": "zip"
@@ -3266,6 +3621,11 @@
       "type": "phrase",
       "front": "place sb in harm's way",
       "meaning": "危険にさらす",
+      "examples": [
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time."
+        }
+      ],
       "pron": {
         "tts": "place sb in harm's way"
       },
@@ -3286,6 +3646,11 @@
       "meaning": "試乗する",
       "synonyms": [
         "have a go"
+      ],
+      "examples": [
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin."
+        }
       ],
       "pron": {
         "tts": "take a spin"
@@ -3382,6 +3747,11 @@
         "backing"
       ],
       "collocation": "gain approval, have the backing of",
+      "examples": [
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly."
+        }
+      ],
       "pron": {
         "lookup": "approval",
         "tts": "approval"
@@ -3406,6 +3776,11 @@
         "only"
       ],
       "collocation": "the sole reason, the lone survivor",
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "sole",
         "tts": "sole"
@@ -3465,6 +3840,11 @@
         "persistence"
       ],
       "collocation": "sheer tenacity, with perseverance",
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "tenacity",
         "tts": "tenacity"
@@ -3558,6 +3938,11 @@
         "monumental shift"
       ],
       "collocation": "undergo radical change",
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
+      ],
       "pron": {
         "tts": "radical change"
       },
@@ -3580,6 +3965,11 @@
         "compel"
       ],
       "collocation": "be forced to…, compel sb to do",
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "force",
         "tts": "force"
@@ -3745,6 +4135,11 @@
         "luminary",
         "leading light"
       ],
+      "examples": [
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly."
+        }
+      ],
       "pron": {
         "lookup": "icon",
         "tts": "icon"
@@ -3767,6 +4162,11 @@
       "synonyms": [
         "buck social norms"
       ],
+      "examples": [
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly."
+        }
+      ],
       "pron": {
         "tts": "challenge convention"
       },
@@ -3787,6 +4187,11 @@
       "meaning": "反感・報復",
       "synonyms": [
         "retaliation"
+      ],
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
       ],
       "pron": {
         "lookup": "backlash",
@@ -3811,6 +4216,11 @@
         "exceptional",
         "extraordinary"
       ],
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "prodigious",
         "tts": "prodigious"
@@ -3832,6 +4242,11 @@
       "meaning": "模倣する",
       "synonyms": [
         "duplicate"
+      ],
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
       ],
       "pron": {
         "lookup": "replicate",
@@ -3855,6 +4270,11 @@
       "synonyms": [
         "acknowledgment"
       ],
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
+      ],
       "pron": {
         "tts": "receive recognition"
       },
@@ -3873,6 +4293,11 @@
       "type": "phrase",
       "front": "far and wide",
       "meaning": "至るところに",
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
+      ],
       "pron": {
         "tts": "far and wide"
       },
@@ -4004,6 +4429,11 @@
         "dishonest"
       ],
       "collocation": "deceitful behaviour",
+      "examples": [
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words."
+        }
+      ],
       "pron": {
         "lookup": "deceitful",
         "tts": "deceitful"
@@ -4027,6 +4457,11 @@
         "verbal"
       ],
       "collocation": "linguistic ability, verbal skills",
+      "examples": [
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words."
+        }
+      ],
       "pron": {
         "lookup": "linguistic",
         "tts": "linguistic"
@@ -4121,6 +4556,11 @@
         "exaggerate"
       ],
       "collocation": "inflate figures, exaggerate the truth",
+      "examples": [
+        {
+          "en": "We lie to inflate our image and standing, or to appease others."
+        }
+      ],
       "pron": {
         "lookup": "inflate",
         "tts": "inflate"
@@ -4145,6 +4585,11 @@
         "stature"
       ],
       "collocation": "social standing, improve one's stature",
+      "examples": [
+        {
+          "en": "We lie to inflate our image and standing, or to appease others."
+        }
+      ],
       "pron": {
         "lookup": "standing",
         "tts": "standing"
@@ -4169,6 +4614,11 @@
         "mollify"
       ],
       "collocation": "appease angry people",
+      "examples": [
+        {
+          "en": "We lie to inflate our image and standing, or to appease others."
+        }
+      ],
       "pron": {
         "lookup": "appease",
         "tts": "appease"
@@ -4265,6 +4715,11 @@
         "research"
       ],
       "collocation": "delve into the causes of…",
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
+      ],
       "pron": {
         "tts": "delve into"
       },
@@ -4289,6 +4744,11 @@
         "conceal"
       ],
       "collocation": "mask one's feelings, cover up the truth",
+      "examples": [
+        {
+          "en": "Being deceitful relies on our linguistic skill, since to mask the truth you need words."
+        }
+      ],
       "pron": {
         "lookup": "mask",
         "tts": "mask"
@@ -4346,6 +4806,11 @@
       "synonyms": [
         "thought process"
       ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
+      ],
       "pron": {
         "lookup": "cognition",
         "tts": "cognition"
@@ -4368,6 +4833,11 @@
       "synonyms": [
         "on target"
       ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
+      ],
       "pron": {
         "tts": "on track"
       },
@@ -4388,6 +4858,11 @@
       "meaning": "わかりやすい",
       "synonyms": [
         "tell-tale"
+      ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
       ],
       "pron": {
         "lookup": "revealing",
@@ -4410,6 +4885,11 @@
       "meaning": "急な上昇",
       "synonyms": [
         "rapid advancement"
+      ],
+      "examples": [
+        {
+          "en": "Scientists who delve into this see a revealing sudden leap in cognition, a sign the child is on track."
+        }
       ],
       "pron": {
         "tts": "sudden leap"

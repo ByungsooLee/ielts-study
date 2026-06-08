@@ -17,6 +17,7 @@ import {
   hasOtherThemeItems,
   needsThemeRangeNav,
 } from "../lib/themes";
+import { filterEnglishRecords } from "../lib/domain";
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
@@ -27,7 +28,8 @@ import {
 import type { PlaybackRate } from "../types";
 
 export function SynonymQuizPage() {
-  const items = useContentStore((s) => s.items);
+  const allItems = useContentStore((s) => s.items);
+  const items = useMemo(() => filterEnglishRecords(allItems), [allItems]);
   const load = useContentStore((s) => s.load);
   const progress = useProgressStore((s) => s.progress);
   const gradeItem = useProgressStore((s) => s.gradeItem);

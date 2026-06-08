@@ -11,6 +11,7 @@ import { SM2 } from "../lib/sm2";
 import { buildDailyReviewDeck, buildStudyDeck } from "../lib/studyDeck";
 import type { DailyQueueResult } from "../lib/dailyQueue";
 import { getOrCreateSched } from "../lib/srs";
+import { filterEnglishRecords } from "../lib/domain";
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
@@ -21,7 +22,8 @@ const ALL_CATEGORIES: ItemType[] = ["word", "phrase", "grammar", "conversation"]
 
 export function StudyPage() {
   const [searchParams] = useSearchParams();
-  const items = useContentStore((s) => s.items);
+  const allItems = useContentStore((s) => s.items);
+  const items = useMemo(() => filterEnglishRecords(allItems), [allItems]);
   const load = useContentStore((s) => s.load);
   const progress = useProgressStore((s) => s.progress);
   const gradeItem = useProgressStore((s) => s.gradeItem);

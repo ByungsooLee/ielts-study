@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 9,
   "themeName": "マリア・モンテッソーリ",
-  "version": "66680609",
+  "version": "1c3ee2a7",
   "items": [
     {
       "n": 164,
@@ -89,6 +89,11 @@
         "backing"
       ],
       "collocation": "gain approval, have the backing of",
+      "examples": [
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly."
+        }
+      ],
       "pron": {
         "lookup": "approval",
         "tts": "approval"
@@ -113,6 +118,11 @@
         "only"
       ],
       "collocation": "the sole reason, the lone survivor",
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "sole",
         "tts": "sole"
@@ -172,6 +182,11 @@
         "persistence"
       ],
       "collocation": "sheer tenacity, with perseverance",
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "tenacity",
         "tts": "tenacity"
@@ -265,6 +280,11 @@
         "monumental shift"
       ],
       "collocation": "undergo radical change",
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
+      ],
       "pron": {
         "tts": "radical change"
       },
@@ -287,6 +307,11 @@
         "compel"
       ],
       "collocation": "be forced to…, compel sb to do",
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "force",
         "tts": "force"
@@ -452,6 +477,11 @@
         "luminary",
         "leading light"
       ],
+      "examples": [
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly."
+        }
+      ],
       "pron": {
         "lookup": "icon",
         "tts": "icon"
@@ -474,6 +504,11 @@
       "synonyms": [
         "buck social norms"
       ],
+      "examples": [
+        {
+          "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly."
+        }
+      ],
       "pron": {
         "tts": "challenge convention"
       },
@@ -494,6 +529,11 @@
       "meaning": "反感・報復",
       "synonyms": [
         "retaliation"
+      ],
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
       ],
       "pron": {
         "lookup": "backlash",
@@ -518,6 +558,11 @@
         "exceptional",
         "extraordinary"
       ],
+      "examples": [
+        {
+          "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out."
+        }
+      ],
       "pron": {
         "lookup": "prodigious",
         "tts": "prodigious"
@@ -539,6 +584,11 @@
       "meaning": "模倣する",
       "synonyms": [
         "duplicate"
+      ],
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
       ],
       "pron": {
         "lookup": "replicate",
@@ -562,6 +612,11 @@
       "synonyms": [
         "acknowledgment"
       ],
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
+      ],
       "pron": {
         "tts": "receive recognition"
       },
@@ -580,6 +635,11 @@
       "type": "phrase",
       "front": "far and wide",
       "meaning": "至るところに",
+      "examples": [
+        {
+          "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition."
+        }
+      ],
       "pron": {
         "tts": "far and wide"
       },
@@ -609,7 +669,10 @@
           "注意音: R(Maria/struggled/right/learn), L(struggled/child/learn)"
         ],
         "targets": [
-          "w-struggle"
+          {
+            "id": "w-struggle",
+            "text": "struggled"
+          }
         ]
       },
       {
@@ -622,8 +685,14 @@
           "注意音: TH(the/with), R(from/persevered/grades)"
         ],
         "targets": [
-          "w-esteemed",
-          "w-persevere"
+          {
+            "id": "w-esteemed",
+            "text": "esteemed"
+          },
+          {
+            "id": "w-persevere",
+            "text": "persevered"
+          }
         ]
       },
       {
@@ -636,8 +705,14 @@
           "注意音: TH(with/the/theory/that), R(poor/children/desire), V(have)"
         ],
         "targets": [
-          "p-come-up-with",
-          "w-innate"
+          {
+            "id": "p-come-up-with",
+            "text": "came up with"
+          },
+          {
+            "id": "w-innate",
+            "text": "innate"
+          }
         ]
       },
       {
@@ -650,8 +725,14 @@
           "注意音: TH(method), R(her/freedom/worldwide)"
         ],
         "targets": [
-          "w-emphasise",
-          "w-adopt"
+          {
+            "id": "w-emphasise",
+            "text": "emphasised"
+          },
+          {
+            "id": "w-adopt",
+            "text": "adopted"
+          }
         ]
       },
       {
@@ -664,8 +745,77 @@
           "注意音: R(her/influence/endures), V(advocate/influence)"
         ],
         "targets": [
-          "p-advocate-of",
-          "w-subsequent"
+          {
+            "id": "p-advocate-of",
+            "text": "advocate"
+          },
+          {
+            "id": "w-subsequent",
+            "text": "subsequent"
+          }
+        ]
+      },
+      {
+        "en": "Now an icon, Montessori had to challenge convention and won official approval only slowly.",
+        "targets": [
+          {
+            "id": "w-icon",
+            "text": "icon"
+          },
+          {
+            "id": "p-challenge-convention",
+            "text": "challenge convention"
+          },
+          {
+            "id": "w-approval",
+            "text": "approval"
+          }
+        ]
+      },
+      {
+        "en": "As the sole woman in her school she faced a backlash, but her tenacity and prodigious memory carried her through, refusing to let critics force her out.",
+        "targets": [
+          {
+            "id": "w-sole",
+            "text": "sole"
+          },
+          {
+            "id": "w-backlash",
+            "text": "backlash"
+          },
+          {
+            "id": "w-tenacity",
+            "text": "tenacity"
+          },
+          {
+            "id": "w-prodigious",
+            "text": "prodigious"
+          },
+          {
+            "id": "w-force",
+            "text": "force"
+          }
+        ]
+      },
+      {
+        "en": "Her radical change to teaching was replicated far and wide and still continues to receive recognition.",
+        "targets": [
+          {
+            "id": "p-radical-change",
+            "text": "radical change"
+          },
+          {
+            "id": "w-replicate",
+            "text": "replicated"
+          },
+          {
+            "id": "p-far-and-wide",
+            "text": "far and wide"
+          },
+          {
+            "id": "p-receive-recognition",
+            "text": "receive recognition"
+          }
         ]
       }
     ]

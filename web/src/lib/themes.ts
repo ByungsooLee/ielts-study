@@ -8,6 +8,7 @@ export const CATEGORY_LABELS: Record<ItemType, string> = {
   phrase: "構文",
   grammar: "文法",
   conversation: "会話",
+  concept: "概念",
 };
 
 export const CATEGORY_STYLES: Record<
@@ -38,7 +39,50 @@ export const CATEGORY_STYLES: Record<
     ring: "ring-2 ring-orange-400",
     badge: "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200",
   },
+  concept: {
+    active: "bg-teal-600 text-white",
+    inactive: "bg-teal-50 text-teal-800 hover:bg-teal-100 dark:bg-teal-950 dark:text-teal-200 dark:hover:bg-teal-900",
+    ring: "ring-2 ring-teal-400",
+    badge: "bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-200",
+  },
 };
+
+function isVocabType(type: ItemType) {
+  return type === "word" || type === "phrase";
+}
+
+/** 単語ページ用：word + phrase をテーマごとに集計 */
+export function collectThemeVocabStats(records: ContentRecord[]): ThemeStat[] {
+  const map = new Map<number, { name: string; count: number }>();
+  for (const { item } of records) {
+    if (!isVocabType(item.type) || !item.theme) continue;
+    const existing = map.get(item.theme);
+    if (existing) {
+      existing.count += 1;
+      if (item.themeName) existing.name = item.themeName;
+    } else {
+      map.set(item.theme, {
+        name: item.themeName ?? `テーマ${item.theme}`,
+        count: 1,
+      });
+    }
+  }
+  return [...map.entries()]
+    .sort(([a], [b]) => a - b)
+    .map(([num, { name, count }]) => ({ num, name, count }));
+}
+
+export function collectThemeVocabThemes(records: ContentRecord[]): ThemeInfo[] {
+  return collectThemeVocabStats(records).map(({ num, name }) => ({ num, name }));
+}
+
+export function countOtherVocabItems(records: ContentRecord[]): number {
+  return records.filter((r) => isVocabType(r.item.type) && !r.item.theme).length;
+}
+
+export function hasOtherVocabItems(records: ContentRecord[]): boolean {
+  return countOtherVocabItems(records) > 0;
+}
 
 export function collectThemeStats(records: ContentRecord[], category: ItemType): ThemeStat[] {
   const map = new Map<number, { name: string; count: number }>();

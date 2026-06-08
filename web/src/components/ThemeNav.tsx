@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import type { ContentRecord, ItemType, ThemeRange } from "../types";
+import type { ContentRecord, ItemType, ThemeRange, ThemeStat } from "../types";
 import {
   CATEGORY_STYLES,
   THEME_OTHER,
@@ -18,6 +18,7 @@ interface Props {
   themeFilter: ThemeFilter;
   themeRangeMin: number | null;
   hasOther: boolean;
+  themeStats?: ThemeStat[];
   onThemeFilter: (filter: ThemeFilter) => void;
   onThemeRange: (range: ThemeRange | null) => void;
 }
@@ -31,19 +32,26 @@ export function ThemeNav({
   themeFilter,
   themeRangeMin,
   hasOther,
+  themeStats,
   onThemeFilter,
   onThemeRange,
 }: Props) {
   const [open, setOpen] = useState(true);
   const style = CATEGORY_STYLES[category];
 
-  const stats = useMemo(() => collectThemeStats(records, category), [records, category]);
+  const stats = useMemo(
+    () => themeStats ?? collectThemeStats(records, category),
+    [themeStats, records, category],
+  );
   const showRangeNav = needsThemeRangeNav(stats);
   const visibleStats = useMemo(
     () => getVisibleThemes(stats, ranges, themeRangeMin),
     [stats, ranges, themeRangeMin],
   );
-  const otherCount = useMemo(() => countOtherThemeItems(records, category), [records, category]);
+  const otherCount = useMemo(
+    () => (themeStats ? 0 : countOtherThemeItems(records, category)),
+    [themeStats, records, category],
+  );
   const selectionLabel = getThemeSelectionLabel(themeFilter, stats, visibleStats, otherCount);
 
   const activeRange = themeRangeMin != null ? ranges.find((r) => r.min === themeRangeMin) : null;

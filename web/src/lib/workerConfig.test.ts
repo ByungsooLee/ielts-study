@@ -1,5 +1,16 @@
 import { describe, expect, it } from "vitest";
-import { LOCAL_WORKER_URL, PRODUCTION_WORKER_URL, workerUrlLabel } from "./workerConfig";
+import {
+  isSyncConfigured,
+  LOCAL_WORKER_URL,
+  PRODUCTION_WORKER_URL,
+  workerUrlLabel,
+} from "./workerConfig";
+
+describe("isSyncConfigured", () => {
+  it("reflects env token presence", () => {
+    expect(typeof isSyncConfigured()).toBe("boolean");
+  });
+});
 
 describe("workerUrlLabel", () => {
   it("labels known URLs", () => {

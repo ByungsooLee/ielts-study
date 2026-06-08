@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 8,
   "themeName": "ハイパーループ",
-  "version": "12398282",
+  "version": "45ba80dd",
   "items": [
     {
       "n": 143,
@@ -86,6 +86,11 @@
         "premier"
       ],
       "collocation": "top-notch facilities",
+      "examples": [
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks."
+        }
+      ],
       "pron": {
         "lookup": "top-notch",
         "tts": "top-notch"
@@ -181,6 +186,11 @@
         "impediment"
       ],
       "collocation": "a major stumbling block",
+      "examples": [
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks."
+        }
+      ],
       "pron": {
         "tts": "stumbling block"
       },
@@ -203,6 +213,11 @@
         "reduce spending"
       ],
       "collocation": "cut expenditure on…",
+      "examples": [
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays."
+        }
+      ],
       "pron": {
         "tts": "cut expenditure"
       },
@@ -226,6 +241,11 @@
         "yearning for"
       ],
       "collocation": "an appetite for change",
+      "examples": [
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays."
+        }
+      ],
       "pron": {
         "tts": "appetite for"
       },
@@ -318,6 +338,11 @@
         "the bigger picture"
       ],
       "collocation": "look at the whole picture",
+      "examples": [
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin."
+        }
+      ],
       "pron": {
         "tts": "the whole picture"
       },
@@ -342,6 +367,11 @@
         "legislate"
       ],
       "collocation": "enact a law, pass legislation",
+      "examples": [
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time."
+        }
+      ],
       "pron": {
         "tts": "set down"
       },
@@ -364,6 +394,11 @@
         "slow down"
       ],
       "collocation": "the train decelerates",
+      "examples": [
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time."
+        }
+      ],
       "pron": {
         "lookup": "decelerate",
         "tts": "decelerate"
@@ -387,6 +422,11 @@
         "prolonged delay"
       ],
       "collocation": "expect lengthy delays",
+      "examples": [
+        {
+          "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays."
+        }
+      ],
       "pron": {
         "tts": "lengthy delay"
       },
@@ -410,6 +450,11 @@
         "influence"
       ],
       "collocation": "sway public opinion, persuade sb to…",
+      "examples": [
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin."
+        }
+      ],
       "pron": {
         "lookup": "sway",
         "tts": "sway"
@@ -469,6 +514,11 @@
         "far-fetched",
         "improbable"
       ],
+      "examples": [
+        {
+          "en": "The pod can zip between cities, a plan that sounds like something from the pages of a novel."
+        }
+      ],
       "pron": {
         "tts": "like something from the pages of a novel"
       },
@@ -487,6 +537,11 @@
       "type": "word",
       "front": "bankroll",
       "meaning": "出資する",
+      "examples": [
+        {
+          "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks."
+        }
+      ],
       "pron": {
         "lookup": "bankroll",
         "tts": "bankroll"
@@ -509,6 +564,11 @@
       "synonyms": [
         "dart"
       ],
+      "examples": [
+        {
+          "en": "The pod can zip between cities, a plan that sounds like something from the pages of a novel."
+        }
+      ],
       "pron": {
         "lookup": "zip",
         "tts": "zip"
@@ -528,6 +588,11 @@
       "type": "phrase",
       "front": "place sb in harm's way",
       "meaning": "危険にさらす",
+      "examples": [
+        {
+          "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time."
+        }
+      ],
       "pron": {
         "tts": "place sb in harm's way"
       },
@@ -548,6 +613,11 @@
       "meaning": "試乗する",
       "synonyms": [
         "have a go"
+      ],
+      "examples": [
+        {
+          "en": "Until the firm can sway officials to see the whole picture, no one can take a spin."
+        }
       ],
       "pron": {
         "tts": "take a spin"
@@ -578,10 +648,22 @@
           "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
         ],
         "targets": [
-          "p-overnight-success",
-          "p-invest-in",
-          "w-groundbreaking",
-          "w-metropolitan"
+          {
+            "id": "p-overnight-success",
+            "text": "overnight success"
+          },
+          {
+            "id": "p-invest-in",
+            "text": "invest in"
+          },
+          {
+            "id": "w-groundbreaking",
+            "text": "groundbreaking"
+          },
+          {
+            "id": "w-metropolitan",
+            "text": "metropolitan"
+          }
         ]
       },
       {
@@ -594,8 +676,14 @@
           "注意音: R(there/exorbitant/ordinary/afford), TH(there)"
         ],
         "targets": [
-          "w-exorbitant",
-          "w-afford"
+          {
+            "id": "w-exorbitant",
+            "text": "exorbitant"
+          },
+          {
+            "id": "w-afford",
+            "text": "afford"
+          }
         ]
       },
       {
@@ -608,7 +696,91 @@
           "注意音: R(persuade/authorise/project/train/board), TH(the)"
         ],
         "targets": [
-          "w-authorise"
+          {
+            "id": "w-authorise",
+            "text": "authorise"
+          }
+        ]
+      },
+      {
+        "en": "The pod can zip between cities, a plan that sounds like something from the pages of a novel.",
+        "targets": [
+          {
+            "id": "w-zip",
+            "text": "zip"
+          },
+          {
+            "id": "p-like-something-from-the-pages-of-a-novel",
+            "text": "like something from the pages of a novel"
+          }
+        ]
+      },
+      {
+        "en": "Investors agreed to bankroll this top-notch line, but there were stumbling blocks.",
+        "targets": [
+          {
+            "id": "w-bankroll",
+            "text": "bankroll"
+          },
+          {
+            "id": "w-top-notch",
+            "text": "top-notch"
+          },
+          {
+            "id": "p-stumbling-block",
+            "text": "stumbling blocks"
+          }
+        ]
+      },
+      {
+        "en": "To cut expenditure they must build cheaply, yet despite people's appetite for speed, the project faced lengthy delays.",
+        "targets": [
+          {
+            "id": "p-cut-expenditure",
+            "text": "cut expenditure"
+          },
+          {
+            "id": "p-appetite-for",
+            "text": "appetite for"
+          },
+          {
+            "id": "p-lengthy-delay",
+            "text": "lengthy delays"
+          }
+        ]
+      },
+      {
+        "en": "The law set down across the state bans anything that could place riders in harm's way if the pod cannot decelerate in time.",
+        "targets": [
+          {
+            "id": "p-set-down",
+            "text": "set down"
+          },
+          {
+            "id": "p-place-sb-in-harm-s-way",
+            "text": "place riders in harm's way"
+          },
+          {
+            "id": "w-decelerate",
+            "text": "decelerate"
+          }
+        ]
+      },
+      {
+        "en": "Until the firm can sway officials to see the whole picture, no one can take a spin.",
+        "targets": [
+          {
+            "id": "w-sway",
+            "text": "sway"
+          },
+          {
+            "id": "p-the-whole-picture",
+            "text": "the whole picture"
+          },
+          {
+            "id": "p-take-a-spin",
+            "text": "take a spin"
+          }
         ]
       }
     ]

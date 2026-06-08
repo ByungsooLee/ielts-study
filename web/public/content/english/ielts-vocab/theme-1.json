@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 1,
   "themeName": "ポリネシアの入植",
-  "version": "d4cb4ccb",
+  "version": "6fff5b4f",
   "items": [
     {
       "n": 1,
@@ -192,6 +192,11 @@
         "settle"
       ],
       "collocation": "resolve an issue",
+      "examples": [
+        {
+          "en": "The mystery dogged scholars for decades before Heyerdahl tried to resolve it."
+        }
+      ],
       "pron": {
         "lookup": "resolve",
         "tts": "resolve"
@@ -351,6 +356,11 @@
       "type": "word",
       "front": "dog",
       "meaning": "気をもませる",
+      "examples": [
+        {
+          "en": "The mystery dogged scholars for decades before Heyerdahl tried to resolve it."
+        }
+      ],
       "pron": {
         "lookup": "dog",
         "tts": "dog"
@@ -538,6 +548,11 @@
       "type": "word",
       "front": "auspicious",
       "meaning": "幸運な",
+      "examples": [
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps."
+        }
+      ],
       "pron": {
         "lookup": "auspicious",
         "tts": "auspicious"
@@ -587,6 +602,11 @@
       "type": "phrase",
       "front": "follow in one's footsteps",
       "meaning": "足跡をたどる",
+      "examples": [
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps."
+        }
+      ],
       "pron": {
         "tts": "follow in one's footsteps"
       },
@@ -605,6 +625,11 @@
       "type": "phrase",
       "front": "on hand",
       "meaning": "手元に",
+      "examples": [
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps."
+        }
+      ],
       "pron": {
         "tts": "on hand"
       },
@@ -634,9 +659,18 @@
           "注意音: R(years/real/concern), TH(the)"
         ],
         "targets": [
-          "w-concern",
-          "w-ancient",
-          "w-settle"
+          {
+            "id": "w-concern",
+            "text": "concern"
+          },
+          {
+            "id": "w-ancient",
+            "text": "ancient"
+          },
+          {
+            "id": "w-settle",
+            "text": "settle"
+          }
         ]
       },
       {
@@ -649,9 +683,18 @@
           "注意音: L(believe/skilled/sailed/only/tools), R(pioneers/seafarers/primitive)"
         ],
         "targets": [
-          "w-pioneer",
-          "w-seafarer",
-          "w-primitive"
+          {
+            "id": "w-pioneer",
+            "text": "pioneers"
+          },
+          {
+            "id": "w-seafarer",
+            "text": "seafarers"
+          },
+          {
+            "id": "w-primitive",
+            "text": "primitive"
+          }
         ]
       },
       {
@@ -664,10 +707,22 @@
           "注意音: TH(the/their), R(resources/construct/stars)"
         ],
         "targets": [
-          "w-available",
-          "w-construct",
-          "w-navigate",
-          "p-find-one-s-bearings"
+          {
+            "id": "w-available",
+            "text": "available"
+          },
+          {
+            "id": "w-construct",
+            "text": "construct"
+          },
+          {
+            "id": "w-navigate",
+            "text": "navigate"
+          },
+          {
+            "id": "p-find-one-s-bearings",
+            "text": "find their bearings"
+          }
         ]
       },
       {
@@ -680,8 +735,14 @@
           "注意音: TH(truth), R(discover/truth/Peru/raft)"
         ],
         "targets": [
-          "w-discover",
-          "w-dub"
+          {
+            "id": "w-discover",
+            "text": "discover"
+          },
+          {
+            "id": "w-dub",
+            "text": "dubbed"
+          }
         ]
       },
       {
@@ -694,9 +755,48 @@
           "注意音: V(favourable/voyage), R(favourable/source)"
         ],
         "targets": [
-          "w-favourable",
-          "w-source",
-          "w-voyage"
+          {
+            "id": "w-favourable",
+            "text": "Favourable"
+          },
+          {
+            "id": "w-source",
+            "text": "source"
+          },
+          {
+            "id": "w-voyage",
+            "text": "voyage"
+          }
+        ]
+      },
+      {
+        "en": "The mystery dogged scholars for decades before Heyerdahl tried to resolve it.",
+        "targets": [
+          {
+            "id": "w-dog",
+            "text": "dogged"
+          },
+          {
+            "id": "w-resolve",
+            "text": "resolve"
+          }
+        ]
+      },
+      {
+        "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps.",
+        "targets": [
+          {
+            "id": "w-auspicious",
+            "text": "Auspicious"
+          },
+          {
+            "id": "p-on-hand",
+            "text": "on hand"
+          },
+          {
+            "id": "p-follow-in-one-s-footsteps",
+            "text": "follow in his footsteps"
+          }
         ]
       }
     ]

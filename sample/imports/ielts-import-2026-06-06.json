@@ -191,6 +191,11 @@
         "settle"
       ],
       "collocation": "resolve an issue",
+      "examples": [
+        {
+          "en": "The mystery dogged scholars for decades before Heyerdahl tried to resolve it."
+        }
+      ],
       "pron": {
         "lookup": "resolve",
         "tts": "resolve"
@@ -350,6 +355,11 @@
       "type": "word",
       "front": "dog",
       "meaning": "気をもませる",
+      "examples": [
+        {
+          "en": "The mystery dogged scholars for decades before Heyerdahl tried to resolve it."
+        }
+      ],
       "pron": {
         "lookup": "dog",
         "tts": "dog"
@@ -537,6 +547,11 @@
       "type": "word",
       "front": "auspicious",
       "meaning": "幸運な",
+      "examples": [
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps."
+        }
+      ],
       "pron": {
         "lookup": "auspicious",
         "tts": "auspicious"
@@ -586,6 +601,11 @@
       "type": "phrase",
       "front": "follow in one's footsteps",
       "meaning": "足跡をたどる",
+      "examples": [
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps."
+        }
+      ],
       "pron": {
         "tts": "follow in one's footsteps"
       },
@@ -604,6 +624,11 @@
       "type": "phrase",
       "front": "on hand",
       "meaning": "手元に",
+      "examples": [
+        {
+          "en": "Auspicious winds and supplies kept on hand made the trip possible, and later explorers chose to follow in his footsteps."
+        }
+      ],
       "pron": {
         "tts": "on hand"
       },
@@ -661,6 +686,11 @@
         "malleable"
       ],
       "collocation": "a flexible approach / policy",
+      "examples": [
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it."
+        }
+      ],
       "pron": {
         "lookup": "flexible",
         "tts": "flexible"
@@ -998,6 +1028,11 @@
         "be composed of"
       ],
       "collocation": "be made from recycled materials",
+      "examples": [
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it."
+        }
+      ],
       "pron": {
         "tts": "be made from"
       },
@@ -1194,6 +1229,11 @@
       "synonyms": [
         "unbreakable"
       ],
+      "examples": [
+        {
+          "en": "Shatterproof cases and see-through film show how versatile it is."
+        }
+      ],
       "pron": {
         "lookup": "shatterproof",
         "tts": "shatterproof"
@@ -1215,6 +1255,11 @@
       "meaning": "透明な",
       "synonyms": [
         "transparent"
+      ],
+      "examples": [
+        {
+          "en": "Shatterproof cases and see-through film show how versatile it is."
+        }
       ],
       "pron": {
         "lookup": "see-through",
@@ -1238,6 +1283,11 @@
       "synonyms": [
         "first known use"
       ],
+      "examples": [
+        {
+          "en": "Its earliest origins go back centuries, and modern plastic is derived from oil."
+        }
+      ],
       "pron": {
         "tts": "earliest origins"
       },
@@ -1256,6 +1306,11 @@
       "type": "phrase",
       "front": "be derived from",
       "meaning": "由来する",
+      "examples": [
+        {
+          "en": "Its earliest origins go back centuries, and modern plastic is derived from oil."
+        }
+      ],
       "pron": {
         "tts": "be derived from"
       },
@@ -1277,6 +1332,11 @@
       "synonyms": [
         "assortment of",
         "diverse array of"
+      ],
+      "examples": [
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it."
+        }
       ],
       "pron": {
         "tts": "host of"

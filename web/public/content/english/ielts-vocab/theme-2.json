@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 2,
   "themeName": "プラスチック",
-  "version": "e829bc86",
+  "version": "384e9320",
   "items": [
     {
       "n": 21,
@@ -51,6 +51,11 @@
         "malleable"
       ],
       "collocation": "a flexible approach / policy",
+      "examples": [
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it."
+        }
+      ],
       "pron": {
         "lookup": "flexible",
         "tts": "flexible"
@@ -388,6 +393,11 @@
         "be composed of"
       ],
       "collocation": "be made from recycled materials",
+      "examples": [
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it."
+        }
+      ],
       "pron": {
         "tts": "be made from"
       },
@@ -584,6 +594,11 @@
       "synonyms": [
         "unbreakable"
       ],
+      "examples": [
+        {
+          "en": "Shatterproof cases and see-through film show how versatile it is."
+        }
+      ],
       "pron": {
         "lookup": "shatterproof",
         "tts": "shatterproof"
@@ -605,6 +620,11 @@
       "meaning": "透明な",
       "synonyms": [
         "transparent"
+      ],
+      "examples": [
+        {
+          "en": "Shatterproof cases and see-through film show how versatile it is."
+        }
       ],
       "pron": {
         "lookup": "see-through",
@@ -628,6 +648,11 @@
       "synonyms": [
         "first known use"
       ],
+      "examples": [
+        {
+          "en": "Its earliest origins go back centuries, and modern plastic is derived from oil."
+        }
+      ],
       "pron": {
         "tts": "earliest origins"
       },
@@ -646,6 +671,11 @@
       "type": "phrase",
       "front": "be derived from",
       "meaning": "由来する",
+      "examples": [
+        {
+          "en": "Its earliest origins go back centuries, and modern plastic is derived from oil."
+        }
+      ],
       "pron": {
         "tts": "be derived from"
       },
@@ -667,6 +697,11 @@
       "synonyms": [
         "assortment of",
         "diverse array of"
+      ],
+      "examples": [
+        {
+          "en": "Plastic is flexible, and a host of everyday goods are now made from it."
+        }
       ],
       "pron": {
         "tts": "host of"
@@ -697,9 +732,18 @@
           "注意音: R(arguably/variety/products), V(useful/inventions/variety)"
         ],
         "targets": [
-          "w-arguably",
-          "w-form",
-          "p-a-variety-of"
+          {
+            "id": "w-arguably",
+            "text": "arguably"
+          },
+          {
+            "id": "w-form",
+            "text": "formed"
+          },
+          {
+            "id": "p-a-variety-of",
+            "text": "variety of"
+          }
         ]
       },
       {
@@ -712,10 +756,22 @@
           "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
         ],
         "targets": [
-          "w-waterproof",
-          "w-coating",
-          "w-synthetic",
-          "w-inexpensive"
+          {
+            "id": "w-waterproof",
+            "text": "waterproof"
+          },
+          {
+            "id": "w-coating",
+            "text": "coating"
+          },
+          {
+            "id": "w-synthetic",
+            "text": "synthetic"
+          },
+          {
+            "id": "w-inexpensive",
+            "text": "inexpensive"
+          }
         ]
       },
       {
@@ -728,9 +784,18 @@
           "注意音: TH(the), R(originate/recently/period)"
         ],
         "targets": [
-          "w-originate",
-          "w-mankind",
-          "p-the-medieval-period"
+          {
+            "id": "w-originate",
+            "text": "originate"
+          },
+          {
+            "id": "w-mankind",
+            "text": "mankind"
+          },
+          {
+            "id": "p-the-medieval-period",
+            "text": "the medieval period"
+          }
         ]
       },
       {
@@ -743,8 +808,14 @@
           "注意音: TH(though), R(real/turning/inventor/before)"
         ],
         "targets": [
-          "p-turning-point",
-          "p-go-bankrupt"
+          {
+            "id": "p-turning-point",
+            "text": "turning point"
+          },
+          {
+            "id": "p-go-bankrupt",
+            "text": "bankrupt"
+          }
         ]
       },
       {
@@ -757,9 +828,61 @@
           "注意音: R(environmental/concern/growing), V(environmental/biodegradable)"
         ],
         "targets": [
-          "w-impact",
-          "p-a-growing-concern",
-          "w-launch"
+          {
+            "id": "w-impact",
+            "text": "impact"
+          },
+          {
+            "id": "p-a-growing-concern",
+            "text": "growing concern"
+          },
+          {
+            "id": "w-launch",
+            "text": "launched"
+          }
+        ]
+      },
+      {
+        "en": "Plastic is flexible, and a host of everyday goods are now made from it.",
+        "targets": [
+          {
+            "id": "w-flexible",
+            "text": "flexible"
+          },
+          {
+            "id": "p-host-of",
+            "text": "host of"
+          },
+          {
+            "id": "p-be-made-from",
+            "text": "made from"
+          }
+        ]
+      },
+      {
+        "en": "Shatterproof cases and see-through film show how versatile it is.",
+        "targets": [
+          {
+            "id": "w-shatterproof",
+            "text": "Shatterproof"
+          },
+          {
+            "id": "w-see-through",
+            "text": "see-through"
+          }
+        ]
+      },
+      {
+        "en": "Its earliest origins go back centuries, and modern plastic is derived from oil.",
+        "targets": [
+          {
+            "id": "p-earliest-origins",
+            "text": "earliest origins"
+          },
+          {
+            "id": "p-be-derived-from",
+            "text": "derived from"
+          }
         ]
       }
     ]

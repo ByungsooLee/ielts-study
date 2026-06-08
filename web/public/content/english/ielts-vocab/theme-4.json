@@ -4,7 +4,7 @@
   "collectionName": "IELTS単語帳",
   "theme": 4,
   "themeName": "アイダホのビーバー",
-  "version": "6fecffba",
+  "version": "14a26d92",
   "items": [
     {
       "n": 65,
@@ -192,6 +192,11 @@
         "turn out to be unfeasible"
       ],
       "collocation": "it proved impossible to…",
+      "examples": [
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated."
+        }
+      ],
       "pron": {
         "tts": "prove impossible"
       },
@@ -352,6 +357,11 @@
       "synonyms": [
         "inundated"
       ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
+      ],
       "pron": {
         "lookup": "overpopulated",
         "tts": "overpopulated"
@@ -373,6 +383,11 @@
       "meaning": "住む",
       "synonyms": [
         "populate"
+      ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
       ],
       "pron": {
         "lookup": "inhabit",
@@ -397,6 +412,11 @@
         "residence",
         "property"
       ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
+      ],
       "pron": {
         "lookup": "domicile",
         "tts": "domicile"
@@ -418,6 +438,11 @@
       "meaning": "道・通路",
       "synonyms": [
         "access"
+      ],
+      "examples": [
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated."
+        }
       ],
       "pron": {
         "lookup": "route",
@@ -441,6 +466,11 @@
       "synonyms": [
         "grow nervous"
       ],
+      "examples": [
+        {
+          "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated."
+        }
+      ],
       "pron": {
         "tts": "grow agitated"
       },
@@ -462,6 +492,11 @@
       "synonyms": [
         "impact",
         "hit"
+      ],
+      "examples": [
+        {
+          "en": "Boxes that struck the ground would open, and the first beaver made a beeline for the brush."
+        }
       ],
       "pron": {
         "lookup": "strike",
@@ -485,6 +520,11 @@
       "synonyms": [
         "practice session"
       ],
+      "examples": [
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators."
+        }
+      ],
       "pron": {
         "tts": "trial run"
       },
@@ -505,6 +545,11 @@
       "meaning": "移す",
       "synonyms": [
         "transport"
+      ],
+      "examples": [
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators."
+        }
       ],
       "pron": {
         "lookup": "relocate",
@@ -528,6 +573,11 @@
       "synonyms": [
         "natural enemy"
       ],
+      "examples": [
+        {
+          "en": "So wardens tried a trial run to relocate them far from predators."
+        }
+      ],
       "pron": {
         "lookup": "predator",
         "tts": "predator"
@@ -550,6 +600,11 @@
       "synonyms": [
         "terrain"
       ],
+      "examples": [
+        {
+          "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape."
+        }
+      ],
       "pron": {
         "lookup": "landscape",
         "tts": "landscape"
@@ -569,6 +624,11 @@
       "type": "phrase",
       "front": "make a beeline for",
       "meaning": "真っ直ぐ進む",
+      "examples": [
+        {
+          "en": "Boxes that struck the ground would open, and the first beaver made a beeline for the brush."
+        }
+      ],
       "pron": {
         "tts": "make a beeline for"
       },
@@ -598,9 +658,18 @@
           "注意音: TH(that/their/the), nuisance=ニューサンス"
         ],
         "targets": [
-          "w-nuisance",
-          "w-construction",
-          "w-alter"
+          {
+            "id": "w-nuisance",
+            "text": "nuisance"
+          },
+          {
+            "id": "w-construction",
+            "text": "construction"
+          },
+          {
+            "id": "w-alter",
+            "text": "alter"
+          }
         ]
       },
       {
@@ -613,8 +682,14 @@
           "注意音: TH(their), instinctの-nct連続子音"
         ],
         "targets": [
-          "w-instinct",
-          "p-encroach-on"
+          {
+            "id": "w-instinct",
+            "text": "instinct"
+          },
+          {
+            "id": "p-encroach-on",
+            "text": "encroach on"
+          }
         ]
       },
       {
@@ -627,8 +702,14 @@
           "注意音: TH(with), V(valley)"
         ],
         "targets": [
-          "w-ideal",
-          "w-abundance"
+          {
+            "id": "w-ideal",
+            "text": "ideal"
+          },
+          {
+            "id": "w-abundance",
+            "text": "abundance"
+          }
         ]
       },
       {
@@ -641,8 +722,82 @@
           "注意音: R(surplus/war), unique=ユニーク /juːˈniːk/"
         ],
         "targets": [
-          "w-surplus",
-          "w-unique"
+          {
+            "id": "w-surplus",
+            "text": "surplus"
+          },
+          {
+            "id": "w-unique",
+            "text": "unique"
+          }
+        ]
+      },
+      {
+        "en": "Idaho was overpopulated with beavers that inhabit its rivers and damaged people's domiciles, reshaping the landscape.",
+        "targets": [
+          {
+            "id": "w-overpopulated",
+            "text": "overpopulated"
+          },
+          {
+            "id": "w-inhabit",
+            "text": "inhabit"
+          },
+          {
+            "id": "w-domicile",
+            "text": "domiciles"
+          },
+          {
+            "id": "w-landscape",
+            "text": "landscape"
+          }
+        ]
+      },
+      {
+        "en": "With no route in, moving them proved impossible by horse, as the animals would grow agitated.",
+        "targets": [
+          {
+            "id": "w-route",
+            "text": "route"
+          },
+          {
+            "id": "p-prove-impossible",
+            "text": "proved impossible"
+          },
+          {
+            "id": "p-grow-agitated",
+            "text": "grow agitated"
+          }
+        ]
+      },
+      {
+        "en": "So wardens tried a trial run to relocate them far from predators.",
+        "targets": [
+          {
+            "id": "p-trial-run",
+            "text": "trial run"
+          },
+          {
+            "id": "w-relocate",
+            "text": "relocate"
+          },
+          {
+            "id": "w-predator",
+            "text": "predators"
+          }
+        ]
+      },
+      {
+        "en": "Boxes that struck the ground would open, and the first beaver made a beeline for the brush.",
+        "targets": [
+          {
+            "id": "w-strike",
+            "text": "struck"
+          },
+          {
+            "id": "p-make-a-beeline-for",
+            "text": "made a beeline for"
+          }
         ]
       }
     ]

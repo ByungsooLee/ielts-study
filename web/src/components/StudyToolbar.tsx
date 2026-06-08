@@ -5,6 +5,7 @@ import { CATEGORY_LABELS, CATEGORY_STYLES } from "../lib/themes";
 interface Props {
   categories: ItemType[];
   category: ItemType;
+  hideCategoryTabs?: boolean;
   studyMode: StudyMode;
   direction: StudyDirection;
   contentMode: StudyContentMode;
@@ -70,10 +71,11 @@ export function StudyToolbar({
   onHardOnly,
   onUnlearnedOnly,
   onShuffle,
+  hideCategoryTabs = false,
 }: Props) {
   return (
     <div className="space-y-3 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
-      {studyMode === "set" ? (
+      {studyMode === "set" && !hideCategoryTabs ? (
         <div className="flex flex-wrap gap-2" role="tablist" aria-label="カテゴリ">
           {categories.map((c) => (
             <button

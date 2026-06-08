@@ -15,6 +15,7 @@
   - `web/public/content/index.json` … 目次（collections→themes{theme,themeName,count,file,version}）。`version` は内容md5(8桁)。
   - `web/public/content/english/ielts-vocab/theme-0..10.json` … 各テーマ（`domain,collection,themeName,version,items,passage`）。theme-0=「汎用（文法など）」。
 - 取得方針: 起動時に **index.json だけ**取得 → 選んだ theme のファイルを遅延取得 → `version` が変わった時だけ再取得（オフラインは IndexedDB キャッシュ）。
+- **passage は各テーマの全item（word+phrase）を網羅**（`content-src/passage-extra.js` で不足語を補う追記文）。`passage.sentences[].targets` は **`{id, text}[]`**（`text`＝文中の表示形＝活用/変化形あり）。UIは **`text` でハイライト・`id` でグロス/発音**する（`item.front` 完全一致に依存しない）。単語ページのテーマ学習は **word+phrase 両方**をカード化（構文も統合）。
 - item スキーマ（要点）: `id`(固定・不変), `n`(通し番号), `domain`, `collection`, `theme`, `themeName`, `type`(word|phrase|grammar|conversation; 将来 concept 追加), `front`, `ipa?`, `meaning`, `synonyms?`, `collocation?`, `examples[{en,jp,linking,tips}]`, `pron{lookup,tts}`, `tags?`, `priority?(S/A/B)`, `links?`。
 - id 命名: `w-`(単語)/`p-`(フレーズ)/`g-`(文法)/`c-`(会話) + slug。**id は変えない**（upsert/進捗の鍵）。将来はコレクションで名前空間化（例 `de-sql-join`）。
 - 後方互換: `sample/ielts-import.json`（全件1ファイル）も併行生成。`npm run content:push` がこれを KV `/content` に入れる（現行の取得方式）。**新UIは静的 `content/` への移行が目標**。
@@ -57,7 +58,7 @@
 ※ docs は「Cursor用」と銘打っているが、agent 非依存の仕様書。Claude Code はこれを実装指針として使う。
 
 ## 直近の優先タスク（提案）
-1. UI を **English / Engineering の2分野**に再編。English は **単語/文法/構文/長文** の4タブ。
+1. UI を **English / Engineering の2分野**に再編（ヘッダ完全切替: `docs/分野切替_Engineeringページ.md`）。English ヘッダは **単語/文法/構文/あいまい一覧/類義語クイズ/設定**（ライブラリ・会話なし）。単語は**テーマ選択UI**で、テーマ内に長文(passage)＋単語カードを統合（旧『長文』タブ廃止）。詳細: `docs/英語ページ再構成_単語テーマUI.md`。
 2. 教材取得を **静的 `content/index.json` → 遅延読み込み** に対応（現状の sample 全取得から移行）。
 3. テーマ番号ボタン＋セット量(10/30/50)＋並び。
 4. 発音（辞書/TTS・アクセント切替）＋リスニング（再生/ディクテ/シャドー）。
