@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { DomainSwitch } from "../components/DomainSwitch";
+import { prefetchEngineeringThemes } from "../lib/staticContent";
+import { useContentStore } from "../stores/contentStore";
 import { useDomainStore } from "../stores/domainStore";
 import { TtsUsageBanner } from "../components/TtsUsageBanner";
 
@@ -15,9 +17,22 @@ export function EngineeringLayout() {
   const setDomain = useDomainStore((s) => s.setDomain);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const loadContent = useContentStore((s) => s.load);
+
   useEffect(() => {
     setDomain("engineering");
   }, [setDomain]);
+
+  useEffect(() => {
+    void (async () => {
+      try {
+        await prefetchEngineeringThemes();
+        await loadContent();
+      } catch {
+        /* オフライン時はキャッシュのみ */
+      }
+    })();
+  }, [loadContent]);
 
   return (
     <div className="min-h-screen bg-slate-100 text-slate-900 dark:bg-slate-950 dark:text-slate-100">

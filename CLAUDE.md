@@ -64,6 +64,6 @@
 4. 発音（辞書/TTS・アクセント切替）＋リスニング（再生/ディクテ/シャドー）。
 5. SM-2 復習（docs 参照）。
 6. CI に教材反映（`docs/Cursor_自動反映プロンプト.md`）。
-7. Engineering 分野（`type:"concept"`）。concept item は技術的深さと層状の英語説明を持つ：`detail_ja`（技術詳細）/`examples`/`pron.tts`/`explain{prompt_ja, points_ja[], key_phrases[], model_en, model_en_long}`。学習は「理解(JP)→骨子→英語フレーズ→産出(録音)→模範比較」の段階フロー。仕様: `docs/Cursor_Engineering説明力UI.md`。現行コレクション(engineering・計39概念): `ai-data-platform`(9)/`sql-optimization`(6)/`distributed-spark`(6)/`data-modeling`(6)/`system-design`(6)/`behavioral-star`(英語の行動面接STAR・6、model_en_longはテンプレ＝要個人化)。コレクション追加は `content-src/collections/*.json` を足して `npm run content:build`。今後候補: データパイプライン/オーケストレーション(Airflow等)。
+7. Engineering 分野（`type:"concept"`）。concept item は技術的深さと層状の英語説明を持つ：`detail_ja`（技術詳細）/`examples`/`pron.tts`/`explain{prompt_ja, points_ja[], key_phrases[], model_en, model_en_long}`。学習は「理解(JP)→骨子→英語フレーズ→産出(録音)→模範比較」の段階フロー。仕様: `docs/Cursor_Engineering説明力UI.md`。現行コレクション(engineering・計45概念): `ai-data-platform`(9)/`sql-optimization`(6)/`distributed-spark`(6)/`data-modeling`(6)/`system-design`(6)/`data-pipelines`(オーケストレーション・6)/`behavioral-star`(英語の行動面接STAR・6、model_en_longはテンプレ＝要個人化)。コレクション追加は `content-src/collections/*.json` を足して `npm run content:build`。
 
 各タスク着手前に計画を提示し、確認が必要な操作は事前に相談すること。

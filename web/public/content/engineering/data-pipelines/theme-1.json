@@ -1,0 +1,269 @@
+{
+  "domain": "engineering",
+  "collection": "data-pipelines",
+  "collectionName": "データパイプライン / オーケストレーション",
+  "theme": 1,
+  "themeName": "パイプラインとオーケストレーション（面接頻出）",
+  "version": "d523e110",
+  "items": [
+    {
+      "n": 246,
+      "id": "de-pipe-orchestration",
+      "type": "concept",
+      "front": "Orchestration & DAGs (Airflow)",
+      "meaning": "タスクの依存関係をDAGで定義し、スケジュール・リトライ・監視を一元化する。",
+      "detail_ja": "オーケストレーター(Airflow/Dagster/Prefect等)はパイプラインのタスクを有向非巡回グラフ(DAG)として定義し、依存順に実行・リトライ・監視する。スケジュール・再実行・可視化・失敗通知を一元管理でき、cron単体より依存解決と可観測性に強い。",
+      "examples": [
+        {
+          "en": "The DAG won't start the load until extraction succeeds.",
+          "jp": "DAGは抽出が成功するまでロードを開始しない。"
+        }
+      ],
+      "pron": {
+        "tts": "We orchestrate pipelines as DAGs in a tool like Airflow."
+      },
+      "explain": {
+        "prompt_ja": "オーケストレーション(Airflow/DAG)とは何かを英語で説明して。",
+        "points_ja": [
+          "DAGで依存関係を定義",
+          "スケジュール/リトライ/監視を一元化",
+          "cronより依存解決・可観測性に強い"
+        ],
+        "key_phrases": [
+          "orchestrator like Airflow",
+          "directed acyclic graph (DAG)",
+          "task dependencies",
+          "schedule and monitor",
+          "retries and alerting"
+        ],
+        "model_en": "We orchestrate pipelines as DAGs in a tool like Airflow.",
+        "model_en_long": "We use an orchestrator like Airflow to define a pipeline as a directed acyclic graph of tasks. It runs tasks in dependency order and handles scheduling, retries, and monitoring, giving us one place to see what ran and what failed. It's far better than plain cron because it understands dependencies and gives real observability."
+      },
+      "tags": [
+        "pipelines",
+        "airflow",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "data-pipelines",
+      "theme": 1,
+      "themeName": "パイプラインとオーケストレーション（面接頻出）"
+    },
+    {
+      "n": 247,
+      "id": "de-pipe-scheduling-deps",
+      "type": "concept",
+      "front": "Scheduling, dependencies & sensors",
+      "meaning": "上流の完了を待ってから実行する依存・センサー設計。",
+      "detail_ja": "タスクは上流の成功を条件に実行する(依存)。外部データの到着を待つには固定時刻でなくセンサー(sensor)やイベント駆動を使う。スケジュール間隔と論理日付(execution date)を区別し、依存を明示して順序不整合や競合を防ぐ。",
+      "examples": [
+        {
+          "en": "A sensor waits for the upstream file before the transform runs.",
+          "jp": "上流ファイルの到着をsensorが待ってから変換を実行する。"
+        }
+      ],
+      "pron": {
+        "tts": "Tasks run only after their upstream succeeds, and sensors wait for external data."
+      },
+      "explain": {
+        "prompt_ja": "タスク依存・センサー・スケジュールの考え方を英語で説明して。",
+        "points_ja": [
+          "上流成功を条件に実行(依存)",
+          "外部到着はsensor/イベント駆動",
+          "論理日付(execution date)とスケジュールを区別"
+        ],
+        "key_phrases": [
+          "task dependencies",
+          "wait for upstream",
+          "sensor / event-driven trigger",
+          "execution date",
+          "schedule interval"
+        ],
+        "model_en": "Tasks run only after their upstream succeeds, and sensors wait for external data.",
+        "model_en_long": "Each task runs only after its upstream dependencies succeed, which the DAG enforces. To wait for data arriving from outside, we use sensors or event-driven triggers instead of guessing with a fixed time. I also separate the schedule interval from the logical execution date, so reruns always process the right slice of data."
+      },
+      "tags": [
+        "pipelines",
+        "scheduling",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "data-pipelines",
+      "theme": 1,
+      "themeName": "パイプラインとオーケストレーション（面接頻出）"
+    },
+    {
+      "n": 248,
+      "id": "de-pipe-incremental-cdc",
+      "type": "concept",
+      "front": "Incremental loads & CDC",
+      "meaning": "全件でなく差分だけ処理し、CDCでソースの変更を捕捉する。",
+      "detail_ja": "大きなテーブルは毎回全件処理せず、ウォーターマーク(更新時刻や増分ID)で差分だけ取り込む。ソースDBの変更はCDC(Change Data Capture: ログ/トリガー)で捕捉し、挿入・更新・削除を下流に反映する。コストと鮮度を両立できる。",
+      "examples": [
+        {
+          "en": "CDC let us mirror deletes that a timestamp-based load would miss.",
+          "jp": "CDCで、時刻ベースでは取りこぼす削除も反映できた。"
+        }
+      ],
+      "pron": {
+        "tts": "Instead of full loads, I process incrementally using a watermark, and use CDC for source changes."
+      },
+      "explain": {
+        "prompt_ja": "差分処理(incremental)とCDCを英語で説明して。",
+        "points_ja": [
+          "差分(incremental)で全件回避",
+          "watermark(更新時刻/増分ID)",
+          "CDCで挿入/更新/削除を捕捉"
+        ],
+        "key_phrases": [
+          "incremental load",
+          "high-water mark",
+          "change data capture (CDC)",
+          "capture inserts/updates/deletes",
+          "process only what changed"
+        ],
+        "model_en": "Instead of full loads, I process incrementally using a watermark, and use CDC for source changes.",
+        "model_en_long": "For large tables I avoid full reloads and process incrementally, tracking a high-water mark like an updated-at timestamp or an increasing id, so I only pull what changed. To capture inserts, updates, and deletes from a source database, I use change data capture from its log. That keeps cost down while keeping the warehouse fresh."
+      },
+      "tags": [
+        "pipelines",
+        "incremental",
+        "cdc",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "data-pipelines",
+      "theme": 1,
+      "themeName": "パイプラインとオーケストレーション（面接頻出）"
+    },
+    {
+      "n": 249,
+      "id": "de-pipe-backfill",
+      "type": "concept",
+      "front": "Backfill & reprocessing",
+      "meaning": "過去分を遡って再生成する。冪等＋パーティション単位が鍵。",
+      "detail_ja": "ロジック変更やデータ修正時、過去期間を遡って再処理(backfill)する。パイプラインが冪等で、論理日付でパラメータ化され、パーティション単位に再実行できる設計だと安全。対象期間だけを上書き再生成する。",
+      "examples": [
+        {
+          "en": "We backfilled three months one partition at a time with no duplicates.",
+          "jp": "3か月分をパーティション単位で重複なくバックフィルした。"
+        }
+      ],
+      "pron": {
+        "tts": "I backfill by re-running idempotent jobs parameterized per date partition."
+      },
+      "explain": {
+        "prompt_ja": "バックフィル(過去再処理)を安全に行う条件を英語で説明して。",
+        "points_ja": [
+          "過去期間を遡って再生成",
+          "冪等＋パーティション単位で安全",
+          "論理日付でパラメータ化し対象だけ上書き"
+        ],
+        "key_phrases": [
+          "backfill",
+          "reprocess historical data",
+          "parameterized by execution date",
+          "idempotent reruns",
+          "overwrite per partition"
+        ],
+        "model_en": "I backfill by re-running idempotent jobs parameterized per date partition.",
+        "model_en_long": "When logic changes or data is corrected, I backfill—reprocess past periods. This is safe only if the pipeline is idempotent and parameterized by the execution date, so I can re-run a specific date range and overwrite just those partitions. Without idempotency, a backfill risks duplicates, so the two always go together."
+      },
+      "tags": [
+        "pipelines",
+        "backfill",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "data-pipelines",
+      "theme": 1,
+      "themeName": "パイプラインとオーケストレーション（面接頻出）"
+    },
+    {
+      "n": 250,
+      "id": "de-pipe-data-quality",
+      "type": "concept",
+      "front": "Data quality checks & circuit breaker",
+      "meaning": "パイプライン内で品質を検証し、不良なら下流を止める。",
+      "detail_ja": "取り込み時に期待値テスト(行数・null率・値域・一意性)を実行し、Great Expectations等で検証する。閾値を割れば下流を止める(circuit breaker)ことで、悪いデータの伝播を防ぐ。品質を運用の一部として自動化する。",
+      "examples": [
+        {
+          "en": "A null-rate check halted the run before bad data hit the reports.",
+          "jp": "null率チェックが、不良データがレポートに届く前に実行を止めた。"
+        }
+      ],
+      "pron": {
+        "tts": "I run quality checks in the pipeline and stop downstream if they fail."
+      },
+      "explain": {
+        "prompt_ja": "パイプライン内のデータ品質チェックと circuit breaker を英語で説明して。",
+        "points_ja": [
+          "期待値テスト(行数/null/値域/一意性)",
+          "Great Expectations等で自動検証",
+          "不良なら下流停止(circuit breaker)"
+        ],
+        "key_phrases": [
+          "data quality checks",
+          "expectations / assertions",
+          "Great Expectations",
+          "circuit breaker / fail the pipeline",
+          "stop bad data from propagating"
+        ],
+        "model_en": "I run quality checks in the pipeline and stop downstream if they fail.",
+        "model_en_long": "I build data quality checks into the pipeline—assertions on row counts, null rates, value ranges, and uniqueness, often with a tool like Great Expectations. If a check fails, I trip a circuit breaker and stop the downstream tasks so bad data doesn't propagate to dashboards or models. That makes quality an automated part of operations, not an afterthought."
+      },
+      "tags": [
+        "pipelines",
+        "data-quality",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "data-pipelines",
+      "theme": 1,
+      "themeName": "パイプラインとオーケストレーション（面接頻出）"
+    },
+    {
+      "n": 251,
+      "id": "de-pipe-retries-sla",
+      "type": "concept",
+      "front": "Retries, alerting & SLAs (observability)",
+      "meaning": "失敗を冪等に再試行し、SLA超過を通知し、可観測性を持つ。",
+      "detail_ja": "一時障害には自動リトライ(指数バックオフ)。リトライはタスクが冪等であることが前提。SLA(完了期限)やデータ鮮度を監視し、失敗・遅延をアラートする。メトリクス・ログ・lineageでパイプラインを可観測にし、原因究明を速める。",
+      "examples": [
+        {
+          "en": "An SLA miss paged us before users noticed stale data.",
+          "jp": "SLA超過の通知で、ユーザーが鮮度低下に気づく前に対応できた。"
+        }
+      ],
+      "pron": {
+        "tts": "I add idempotent retries with backoff and alert when an SLA is missed."
+      },
+      "explain": {
+        "prompt_ja": "リトライ・SLA監視・可観測性を英語で説明して。",
+        "points_ja": [
+          "冪等な自動リトライ(指数バックオフ)",
+          "SLA/鮮度の監視とアラート",
+          "メトリクス/ログ/lineageで可観測性"
+        ],
+        "key_phrases": [
+          "automatic retries with backoff",
+          "idempotent retries",
+          "SLA / data freshness",
+          "alerting on failure",
+          "observability: metrics, logs, lineage"
+        ],
+        "model_en": "I add idempotent retries with backoff and alert when an SLA is missed.",
+        "model_en_long": "For transient failures I add automatic retries with exponential backoff, which is only safe because the tasks are idempotent. I monitor SLAs and data freshness and alert the team when a job fails or runs late. Good observability—metrics, logs, and lineage—lets us find the root cause fast instead of guessing."
+      },
+      "tags": [
+        "pipelines",
+        "observability",
+        "interview"
+      ],
+      "domain": "engineering",
+      "collection": "data-pipelines",
+      "theme": 1,
+      "themeName": "パイプラインとオーケストレーション（面接頻出）"
+    }
+  ]
+}

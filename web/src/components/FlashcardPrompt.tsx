@@ -68,7 +68,7 @@ export function FlashcardPrompt({ record, direction, contentMode, onPlayAudio }:
   }
 
   return (
-    <div>
+    <div className="min-w-0 max-w-full">
       <div className="flex flex-wrap items-center gap-2">
         <span className={`rounded px-2 py-0.5 text-xs ${style.badge}`}>{item.type}</span>
         {item.themeName && (
@@ -78,7 +78,9 @@ export function FlashcardPrompt({ record, direction, contentMode, onPlayAudio }:
         )}
       </div>
       <p className="mt-3 text-sm text-indigo-700 dark:text-indigo-300">まず意味を予想してから答えを開いてください</p>
-      <p className="mt-4 text-2xl font-bold leading-snug text-slate-900 dark:text-slate-50 md:text-3xl">{main}</p>
+      <p className="mt-4 break-words text-2xl font-bold leading-snug text-slate-900 [overflow-wrap:anywhere] dark:text-slate-50 md:text-3xl">
+        {main}
+      </p>
       {sub && <p className="mt-3 text-sm text-slate-500 dark:text-slate-400">{sub}</p>}
       <button
         type="button"

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { syncContentOnStartup } from "./lib/contentSync";
 import { syncOnStartup } from "./lib/sync";
-import { syncStaticDomainContent } from "./lib/staticContent";
+import { fetchContentIndex } from "./lib/staticContent";
 import { getAllContent } from "./db";
 import { startVersionCheck } from "./lib/versionCheck";
 import { EnglishLayout } from "./layouts/EnglishLayout";
@@ -35,9 +35,9 @@ export default function App() {
   useEffect(() => {
     async function init() {
       try {
-        await syncStaticDomainContent("engineering");
+        await fetchContentIndex();
       } catch {
-        /* 静的教材はオフライン時スキップ */
+        /* オフライン時は IndexedDB キャッシュのみ */
       }
       const localRecords = await getAllContent();
       await loadContent();

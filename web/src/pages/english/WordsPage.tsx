@@ -10,7 +10,13 @@ import { ThemeStudyToolbar } from "../../components/ThemeStudyToolbar";
 import { filterEnglishRecords } from "../../lib/domain";
 import { buildThemeVocabDeck } from "../../lib/studyDeck";
 import { getOrCreateSched } from "../../lib/srs";
-import { fetchThemeShard } from "../../lib/themeShard";
+import {
+  ensureEnglishVocabTheme,
+  fetchContentIndex,
+  findCollection,
+  prefetchEnglishVocabThemes,
+  themeVocabStatsFromIndex,
+} from "../../lib/staticContent";
 import {
   buildThemeRanges,
   collectThemeVocabStats,
@@ -21,7 +27,9 @@ import {
 import { useContentStore } from "../../stores/contentStore";
 import { useProgressStore } from "../../stores/progressStore";
 import { isThemeSelected, useWordSessionStore } from "../../stores/wordSessionStore";
-import type { ContentRecord, Passage, PlaybackRate } from "../../types";
+import type { ContentRecord, Passage, PlaybackRate, ThemeStat } from "../../types";
+
+const ENGLISH_VOCAB = "ielts-vocab";
 
 function isThemeVocab(record: ContentRecord, themeNum: number) {
   const { type, theme } = record.item;
@@ -43,6 +51,7 @@ export function WordsPage() {
       sort: s.sort,
       themeFilter: s.themeFilter,
       themeRangeMin: s.themeRangeMin,
+      vocabTypeFilter: s.vocabTypeFilter,
       revealed: s.revealed,
       index: s.index,
       deckKey: s.deckKey,
@@ -51,6 +60,7 @@ export function WordsPage() {
       setSort: s.setSort,
       setThemeFilter: s.setThemeFilter,
       setThemeRange: s.setThemeRange,
+      setVocabTypeFilter: s.setVocabTypeFilter,
       reveal: s.reveal,
       next: s.next,
       prev: s.prev,
@@ -60,47 +70,40 @@ export function WordsPage() {
 
   const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
   const [passageLoading, setPassageLoading] = useState(false);
-  const [themeRecords, setThemeRecords] = useState<ContentRecord[]>([]);
+  const [indexThemeStats, setIndexThemeStats] = useState<ThemeStat[]>([]);
 
   useEffect(() => {
     void load();
+    void fetchContentIndex()
+      .then((index) => {
+        const collection = findCollection(index, ENGLISH_VOCAB);
+        if (collection) setIndexThemeStats(themeVocabStatsFromIndex(collection));
+      })
+      .catch(() => {
+        /* オフライン時はロード済み items から集計 */
+      });
   }, [load]);
 
-  const themeStats = useMemo(() => collectThemeVocabStats(items), [items]);
-  const themes = useMemo(() => collectThemeVocabThemes(items), [items]);
+  const loadedThemeStats = useMemo(() => collectThemeVocabStats(items), [items]);
+  const themeStats = indexThemeStats.length > 0 ? indexThemeStats : loadedThemeStats;
+  const themes = useMemo(
+    () =>
+      indexThemeStats.length > 0
+        ? indexThemeStats.map(({ num, name }) => ({ num, name }))
+        : collectThemeVocabThemes(items),
+    [indexThemeStats, items],
+  );
   const ranges = useMemo(() => buildThemeRanges(themes), [themes]);
   const hasOther = useMemo(() => hasOtherVocabItems(items), [items]);
   const themeSelected = isThemeSelected(session.themeFilter);
 
   useEffect(() => {
-    if (
-      needsThemeRangeNav(themeStats) &&
-      session.themeRangeMin == null &&
-      ranges.length > 0
-    ) {
+    if (needsThemeRangeNav(themeStats) && session.themeRangeMin == null && ranges.length > 0) {
       session.setThemeRange(ranges[0]);
     }
   }, [themeStats, ranges, session.themeRangeMin, session.setThemeRange]);
 
   const themeNum = isThemeSelected(session.themeFilter) ? session.themeFilter : null;
-
-  useEffect(() => {
-    if (themeNum == null) {
-      setThemeRecords([]);
-      return;
-    }
-    setThemeRecords(items.filter((r) => isThemeVocab(r, themeNum)));
-
-    let cancelled = false;
-    setPassageLoading(true);
-    void fetchThemeShard(themeNum).finally(() => {
-      if (!cancelled) setPassageLoading(false);
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [themeNum, items]);
-
   const [passage, setPassage] = useState<Passage | undefined>(undefined);
 
   useEffect(() => {
@@ -108,10 +111,36 @@ export function WordsPage() {
       setPassage(undefined);
       return;
     }
-    void fetchThemeShard(themeNum).then((shard) => {
-      setPassage(shard?.passage);
+
+    let cancelled = false;
+    setPassageLoading(true);
+
+    void (async () => {
+      try {
+        const shard = await ensureEnglishVocabTheme(themeNum);
+        if (cancelled) return;
+        setPassage(shard?.passage);
+        await load();
+        void prefetchEnglishVocabThemes(themeNum);
+      } finally {
+        if (!cancelled) setPassageLoading(false);
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [themeNum, load]);
+
+  const themeRecords = useMemo(() => {
+    if (themeNum == null) return [];
+    return items.filter((r) => {
+      if (!isThemeVocab(r, themeNum)) return false;
+      if (session.vocabTypeFilter === "word") return r.item.type === "word";
+      if (session.vocabTypeFilter === "phrase") return r.item.type === "phrase";
+      return true;
     });
-  }, [themeNum]);
+  }, [items, themeNum, session.vocabTypeFilter]);
 
   const deck = useMemo(
     () =>
@@ -130,7 +159,7 @@ export function WordsPage() {
 
   const current = deck[session.index];
   const complete = session.index >= deck.length && deck.length > 0;
-  const empty = themeNum != null && deck.length === 0;
+  const empty = themeNum != null && deck.length === 0 && !passageLoading;
 
   const currentSched = current
     ? progress.srs[current.item.id] ?? getOrCreateSched(progress, current.item.id)
@@ -202,7 +231,7 @@ export function WordsPage() {
       {themeNum != null && (
         <>
           {passageLoading && !passage && (
-            <p className="text-sm text-slate-500">長文を読み込み中…</p>
+            <p className="text-sm text-slate-500">テーマデータを読み込み中…</p>
           )}
           {passage && (
             <PassagePanel
@@ -222,9 +251,11 @@ export function WordsPage() {
             direction={session.direction}
             contentMode={session.contentMode}
             sort={session.sort}
+            vocabTypeFilter={session.vocabTypeFilter}
             onDirection={session.setDirection}
             onContentMode={session.setContentMode}
             onSort={session.setSort}
+            onVocabTypeFilter={session.setVocabTypeFilter}
             onShuffle={session.bumpDeckKey}
           />
 
@@ -236,7 +267,7 @@ export function WordsPage() {
 
           {empty && (
             <div className="rounded-xl bg-white p-8 text-center text-slate-600 shadow-sm dark:bg-slate-900 dark:text-slate-400">
-              このテーマに語彙がありません。
+              このテーマに該当する語彙がありません。
             </div>
           )}
 

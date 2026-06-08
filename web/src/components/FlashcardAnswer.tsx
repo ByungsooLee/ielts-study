@@ -31,43 +31,49 @@ export function FlashcardAnswer({
   const example = item.examples?.[0];
   const showFront = direction === "jp-to-en" || item.type === "grammar" || item.type === "conversation";
 
+  const wrapText = "min-w-0 break-words [overflow-wrap:anywhere]";
+
   return (
-    <div className="space-y-3">
-      <p className="text-2xl font-bold text-slate-900 dark:text-slate-50 md:text-3xl">
+    <div className="min-w-0 max-w-full space-y-3">
+      <p className={`text-2xl font-bold text-slate-900 dark:text-slate-50 md:text-3xl ${wrapText}`}>
         {showFront ? item.front : item.meaning}
       </p>
-      {item.ipa && <p className="font-mono text-sm text-slate-500">{item.ipa}</p>}
+      {item.ipa && <p className={`font-mono text-sm text-slate-500 ${wrapText}`}>{item.ipa}</p>}
 
       {!showFront && (
-        <p className="text-lg text-slate-700 dark:text-slate-300">
+        <p className={`text-lg text-slate-700 dark:text-slate-300 ${wrapText}`}>
           <span className="text-sm text-slate-500">英: </span>
           {item.front}
         </p>
       )}
       {showFront && item.meaning && (
-        <p className="text-lg text-slate-700 dark:text-slate-300">
+        <p className={`text-lg leading-relaxed text-slate-700 dark:text-slate-300 ${wrapText}`}>
           <span className="text-sm text-slate-500">意味: </span>
           {item.meaning}
         </p>
       )}
 
       {item.synonyms && item.synonyms.length > 0 && (
-        <p className="text-sm text-slate-600 dark:text-slate-400">
+        <p className={`text-sm text-slate-600 dark:text-slate-400 ${wrapText}`}>
           <span className="font-medium">言い換え: </span>
           {item.synonyms.join(", ")}
         </p>
       )}
       {item.collocation && (
-        <p className="text-sm text-slate-600 dark:text-slate-400">
+        <p className={`text-sm text-slate-600 dark:text-slate-400 ${wrapText}`}>
           <span className="font-medium">コロケーション: </span>
           {item.collocation}
         </p>
       )}
 
       {example && (
-        <div className="rounded-lg bg-slate-50 p-3 dark:bg-slate-800/60">
-          <p className="text-base leading-relaxed text-slate-800 dark:text-slate-200">{example.en}</p>
-          {example.jp && <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">{example.jp}</p>}
+        <div className="min-w-0 rounded-lg bg-slate-50 p-3 dark:bg-slate-800/60">
+          <p className={`text-base leading-relaxed text-slate-800 dark:text-slate-200 ${wrapText}`}>
+            {example.en}
+          </p>
+          {example.jp && (
+            <p className={`mt-1 text-sm text-slate-600 dark:text-slate-400 ${wrapText}`}>{example.jp}</p>
+          )}
         </div>
       )}
 

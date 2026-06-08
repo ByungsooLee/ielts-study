@@ -113,13 +113,13 @@ export function FlashcardDeck({
 
   return (
     <div
-      className="grid gap-4 md:grid-cols-2"
+      className="grid min-w-0 gap-4 md:grid-cols-2"
       style={{ touchAction: coarsePointer ? "pan-y" : "manipulation" }}
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
     >
       <section
-        className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900"
+        className="min-w-0 max-w-full rounded-xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900"
         aria-label="問題"
       >
         <h2 className="text-xs font-semibold uppercase tracking-wide text-slate-500">問題</h2>
@@ -132,7 +132,7 @@ export function FlashcardDeck({
       </section>
 
       <section
-        className="relative rounded-xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900"
+        className="relative min-w-0 max-w-full rounded-xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900"
         aria-label="答え"
       >
         <h2 className="text-xs font-semibold uppercase tracking-wide text-slate-500">答え</h2>
@@ -159,7 +159,7 @@ export function FlashcardDeck({
             )}
           </div>
         ) : (
-          <div className="mt-4 motion-safe:animate-[fadeIn_0.2s_ease-out]">
+          <div className="mt-4 min-w-0 max-w-full motion-safe:animate-[fadeIn_0.2s_ease-out]">
             <FlashcardAnswer
               record={record}
               direction={direction}

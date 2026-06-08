@@ -243,5 +243,11 @@
   "de-sd-partition-shard": 242,
   "de-sd-caching": 243,
   "de-sd-idempotency": 244,
-  "de-sd-batch-stream": 245
+  "de-sd-batch-stream": 245,
+  "de-pipe-orchestration": 246,
+  "de-pipe-scheduling-deps": 247,
+  "de-pipe-incremental-cdc": 248,
+  "de-pipe-backfill": 249,
+  "de-pipe-data-quality": 250,
+  "de-pipe-retries-sla": 251
 }

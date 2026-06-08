@@ -9,12 +9,15 @@ import type { ThemeFilter } from "../lib/themes";
 
 const PREFS_KEY = "word-study-prefs";
 
+export type VocabTypeFilter = "all" | "word" | "phrase";
+
 interface WordPrefs {
   direction: StudyDirection;
   contentMode: StudyContentMode;
   sort: DeckSort;
   themeFilter: ThemeFilter;
   themeRangeMin: number | null;
+  vocabTypeFilter: VocabTypeFilter;
 }
 
 const defaultPrefs: WordPrefs = {
@@ -23,6 +26,7 @@ const defaultPrefs: WordPrefs = {
   sort: "random",
   themeFilter: "all",
   themeRangeMin: null,
+  vocabTypeFilter: "all",
 };
 
 function loadPrefs(): WordPrefs {
@@ -44,6 +48,7 @@ function savePrefs(state: WordSessionState) {
       sort: state.sort,
       themeFilter: state.themeFilter,
       themeRangeMin: state.themeRangeMin,
+      vocabTypeFilter: state.vocabTypeFilter,
     }),
   );
 }
@@ -57,6 +62,7 @@ interface WordSessionState extends WordPrefs {
   setSort: (sort: DeckSort) => void;
   setThemeFilter: (filter: ThemeFilter) => void;
   setThemeRange: (range: ThemeRange | null) => void;
+  setVocabTypeFilter: (filter: VocabTypeFilter) => void;
   reveal: () => void;
   next: () => void;
   prev: () => void;
@@ -87,6 +93,10 @@ export const useWordSessionStore = create<WordSessionState>((set, get) => ({
   setThemeRange: (range) => {
     const themeRangeMin = range?.min ?? null;
     set({ themeFilter: "all", themeRangeMin, revealed: false, index: 0, deckKey: String(Date.now()) });
+    savePrefs(get());
+  },
+  setVocabTypeFilter: (vocabTypeFilter) => {
+    set({ vocabTypeFilter, revealed: false, index: 0, deckKey: String(Date.now()) });
     savePrefs(get());
   },
   reveal: () => set({ revealed: true }),

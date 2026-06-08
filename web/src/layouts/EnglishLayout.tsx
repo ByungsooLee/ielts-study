@@ -66,7 +66,7 @@ export function EnglishLayout() {
         </div>
       </header>
       <TtsUsageBanner />
-      <main className="mx-auto max-w-6xl px-4 py-6">
+      <main className="mx-auto max-w-6xl overflow-x-hidden px-4 py-6">
         <Outlet />
       </main>
     </div>
