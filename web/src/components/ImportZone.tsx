@@ -40,7 +40,9 @@ export function ImportZone() {
           void handleFiles(e.dataTransfer.files);
         }}
       >
-        <p className="text-sm text-slate-600">JSONファイルをドラッグ&ドロップ</p>
+        <p className="text-sm text-slate-600">
+          JSONファイルをドラッグ&ドロップ（取り込み後、設定済みならクラウドにも自動保存）
+        </p>
         <button
           type="button"
           className="mt-3 rounded-lg bg-blue-600 px-4 py-2 text-sm text-white hover:bg-blue-700"

@@ -47,6 +47,7 @@ export function normalizeItem(raw: RawStudyItem): StudyItem {
 
   return {
     id: raw.id!,
+    n: typeof raw.n === "number" && raw.n > 0 ? raw.n : undefined,
     type: raw.type!,
     front: raw.front!,
     meaning: raw.meaning!,
@@ -56,6 +57,8 @@ export function normalizeItem(raw: RawStudyItem): StudyItem {
     examples: examples.length > 0 ? examples : undefined,
     pron: Object.keys(pron).length > 0 ? pron : undefined,
     tags: asStringArray(raw.tags),
+    theme: typeof raw.theme === "number" && raw.theme > 0 ? raw.theme : undefined,
+    themeName: typeof raw.themeName === "string" && raw.themeName.trim() ? raw.themeName.trim() : undefined,
     priority: raw.priority === "S" || raw.priority === "A" || raw.priority === "B" ? raw.priority : undefined,
     links: asStringArray(raw.links),
     note: typeof raw.note === "string" ? raw.note : undefined,

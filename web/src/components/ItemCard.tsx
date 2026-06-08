@@ -6,7 +6,7 @@ import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
 import type { ContentRecord, PlaybackRate } from "../types";
-import { PronunciationCoach } from "./PronunciationCoach";
+import { PronunciationNotes } from "./PronunciationNotes";
 import { RecordingPanel } from "./RecordingPanel";
 
 interface Props {
@@ -18,10 +18,12 @@ export function ItemCard({ record, onNavigate }: Props) {
   const { item, source } = record;
   const progress = useProgressStore((s) => s.progress);
   const toggleHard = useProgressStore((s) => s.toggleHard);
+  const unsuspendItem = useProgressStore((s) => s.unsuspendItem);
   const getById = useContentStore((s) => s.getById);
   const settings = useSettingsStore((s) => s.settings);
   const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
   const hard = isHard(item.id, progress);
+  const suspended = progress.srs[item.id]?.status === "suspended";
 
   async function play() {
     try {
@@ -38,7 +40,7 @@ export function ItemCard({ record, onNavigate }: Props) {
   }
 
   return (
-    <article className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+    <article className="rounded-xl border border-slate-200 bg-white p-4 text-slate-900 shadow-sm dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">
       <div className="flex items-start justify-between gap-3">
         <div>
           <div className="flex flex-wrap items-center gap-2">
@@ -47,6 +49,11 @@ export function ItemCard({ record, onNavigate }: Props) {
               <span className="rounded bg-amber-100 px-2 py-0.5 text-xs text-amber-700">{item.priority}</span>
             )}
             {hard && <span className="rounded bg-rose-100 px-2 py-0.5 text-xs text-rose-700">苦手</span>}
+            {suspended && (
+              <span className="rounded bg-slate-200 px-2 py-0.5 text-xs text-slate-700 dark:bg-slate-700 dark:text-slate-300">
+                リーチ（停止中）
+              </span>
+            )}
           </div>
           <h3 className="mt-2 text-xl font-semibold text-slate-900">{item.front}</h3>
           {item.ipa && <p className="text-sm text-slate-500">{item.ipa}</p>}
@@ -74,7 +81,7 @@ export function ItemCard({ record, onNavigate }: Props) {
         <div key={i} className="mt-2 rounded bg-slate-50 p-2 text-sm">
           <p className="text-slate-800">{ex.en}</p>
           {ex.jp && <p className="text-slate-500">{ex.jp}</p>}
-          <PronunciationCoach sentence={ex.en} example={ex} pron={i === 0 ? item.pron : undefined} compact />
+          <PronunciationNotes sentence={ex.en} example={ex} pron={i === 0 ? item.pron : undefined} compact />
         </div>
       ))}
 
@@ -94,10 +101,7 @@ export function ItemCard({ record, onNavigate }: Props) {
       ) : null}
 
       {!item.examples?.length && item.pron && (
-        <PronunciationCoach
-          sentence={item.pron.tts ?? item.front}
-          pron={item.pron}
-        />
+        <PronunciationNotes sentence={item.pron.tts ?? item.front} pron={item.pron} />
       )}
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
@@ -105,6 +109,15 @@ export function ItemCard({ record, onNavigate }: Props) {
         <button type="button" className="rounded bg-blue-600 px-3 py-1 text-sm text-white" onClick={() => void play()}>
           発音
         </button>
+        {suspended && (
+          <button
+            type="button"
+            className="rounded border border-slate-300 px-3 py-1 text-sm dark:border-slate-600"
+            onClick={() => unsuspendItem(item.id)}
+          >
+            復習を再開
+          </button>
+        )}
       </div>
 
       <div className="mt-3">

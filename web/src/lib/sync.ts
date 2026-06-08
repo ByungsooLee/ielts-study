@@ -1,5 +1,6 @@
 import type { ProgressData } from "../types";
 import { mergeProgress } from "./merge";
+import { normalizeProgress } from "./progress";
 
 const PROGRESS_KEY = "progress";
 const DEBOUNCE_MS = 1200;
@@ -9,16 +10,11 @@ let debounceTimer: ReturnType<typeof setTimeout> | null = null;
 export function loadLocalProgress(): ProgressData {
   try {
     const raw = localStorage.getItem(PROGRESS_KEY);
-    if (!raw) return { srs: {}, hard: {}, userSentences: {}, updatedAt: Date.now() };
-    const parsed = JSON.parse(raw) as ProgressData;
-    return {
-      srs: parsed.srs ?? {},
-      hard: parsed.hard ?? {},
-      userSentences: parsed.userSentences ?? {},
-      updatedAt: parsed.updatedAt ?? Date.now(),
-    };
+    if (!raw) return normalizeProgress({});
+    const parsed = JSON.parse(raw) as Partial<ProgressData>;
+    return normalizeProgress(parsed);
   } catch {
-    return { srs: {}, hard: {}, userSentences: {}, updatedAt: Date.now() };
+    return normalizeProgress({});
   }
 }
 
@@ -49,12 +45,7 @@ export async function fetchRemoteProgress(
   const res = await workerFetch(workerUrl, syncToken, "/progress");
   if (!res.ok) throw new Error(`進捗取得失敗 (${res.status})`);
   const data = (await res.json()) as Partial<ProgressData>;
-  return {
-    srs: data.srs ?? {},
-    hard: data.hard ?? {},
-    userSentences: data.userSentences ?? {},
-    updatedAt: data.updatedAt ?? 0,
-  };
+  return normalizeProgress({ ...data, updatedAt: data.updatedAt ?? 0 });
 }
 
 export async function putRemoteProgress(

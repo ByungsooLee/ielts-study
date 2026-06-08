@@ -1,10 +1,10 @@
-import type { ProgressData, SrsRecord, UserSentence } from "../types";
+import type { ProgressData, Sched, UserSentence } from "../types";
 
-function mergeSrs(local: Record<string, SrsRecord>, remote: Record<string, SrsRecord>) {
-  const merged: Record<string, SrsRecord> = { ...local };
+function mergeSched(local: Record<string, Sched>, remote: Record<string, Sched>) {
+  const merged: Record<string, Sched> = { ...local };
   for (const [id, remoteRecord] of Object.entries(remote)) {
     const localRecord = merged[id];
-    if (!localRecord || remoteRecord.ts > localRecord.ts) {
+    if (!localRecord || remoteRecord.last > localRecord.last) {
       merged[id] = remoteRecord;
     }
   }
@@ -51,13 +51,34 @@ function mergeSentences(
   return merged;
 }
 
+function mergeDailyMeta(
+  local: ProgressData["dailyMeta"],
+  remote: ProgressData["dailyMeta"],
+): ProgressData["dailyMeta"] {
+  if (!local && !remote) return undefined;
+  if (!local) return remote;
+  if (!remote) return local;
+  if (local.day !== remote.day) return local.day > remote.day ? local : remote;
+  return local.newIntroduced >= remote.newIntroduced ? local : remote;
+}
+
+function mergeStreak(local: ProgressData["streak"], remote: ProgressData["streak"]) {
+  if (!local && !remote) return undefined;
+  if (!local) return remote;
+  if (!remote) return local;
+  return local.lastDay >= remote.lastDay ? local : remote;
+}
+
 export function mergeProgress(local: ProgressData, remote: ProgressData): ProgressData {
   const localUpdatedAt = local.updatedAt ?? 0;
   const remoteUpdatedAt = remote.updatedAt ?? 0;
   return {
-    srs: mergeSrs(local.srs ?? {}, remote.srs ?? {}),
+    srs: mergeSched(local.srs ?? {}, remote.srs ?? {}),
     hard: mergeHard(local.hard ?? {}, remote.hard ?? {}, localUpdatedAt, remoteUpdatedAt),
     userSentences: mergeSentences(local.userSentences ?? {}, remote.userSentences ?? {}),
+    streak: mergeStreak(local.streak, remote.streak),
+    dailyMeta: mergeDailyMeta(local.dailyMeta, remote.dailyMeta),
+    schemaVersion: Math.max(local.schemaVersion ?? 1, remote.schemaVersion ?? 1, 2),
     updatedAt: Math.max(localUpdatedAt, remoteUpdatedAt, Date.now()),
   };
 }

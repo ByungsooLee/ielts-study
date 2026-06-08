@@ -2,7 +2,7 @@
 # GitHub Secrets に登録する前後で、Cloudflare 認証情報をローカル検証する。
 # 使い方:
 #   export CLOUDFLARE_API_TOKEN="あなたのトークン"
-#   export CLOUDFLARE_ACCOUNT_ID="32文字のAccount ID"
+#   export CLOUDFLARE_ACCOUNT_ID="abcdef0123456789abcdef0123456789"
 #   ./scripts/verify-cloudflare-secrets.sh
 
 set -euo pipefail

@@ -1,5 +1,7 @@
-import type { Grade, ProgressData, SrsRecord, StudyItem } from "../types";
+import type { Grade, ProgressData, Sched, StudyItem } from "../types";
+import { applyGrade as applySm2Grade, createNewSched, SM2 } from "./sm2";
 
+/** 旧移行用に残す */
 export const INTERVALS = [0, 1, 3, 7, 16, 40] as const;
 
 export function todayDay(): number {
@@ -7,48 +9,46 @@ export function todayDay(): number {
 }
 
 export function emptyProgress(): ProgressData {
-  return { srs: {}, hard: {}, userSentences: {}, updatedAt: Date.now() };
+  return {
+    srs: {},
+    hard: {},
+    userSentences: {},
+    streak: { count: 0, lastDay: 0 },
+    schemaVersion: 2,
+    updatedAt: Date.now(),
+  };
 }
 
-export function getOrCreateSrs(progress: ProgressData, itemId: string): SrsRecord {
-  return (
-    progress.srs[itemId] ?? {
-      box: 0,
-      due: todayDay(),
-      ts: Date.now(),
-      lapses: 0,
-    }
-  );
+export function getOrCreateSched(progress: ProgressData, itemId: string, today = todayDay()): Sched {
+  return progress.srs[itemId] ?? createNewSched(today);
 }
 
-export function applyGrade(record: SrsRecord, grade: Grade, today = todayDay()): SrsRecord {
-  const next = { ...record, ts: Date.now() };
-  if (grade === "forgot") {
-    next.box = 0;
-    next.lapses += 1;
-    next.due = today;
-  } else if (grade === "maybe") {
-    next.due = today + INTERVALS[next.box];
-  } else {
-    next.box = Math.min(next.box + 1, 5);
-    next.due = today + INTERVALS[next.box];
-  }
-  return next;
+export function applyGrade(record: Sched, grade: Grade, today = todayDay()): Sched {
+  return applySm2Grade(record, grade, today);
 }
 
-export function isDue(record: SrsRecord | undefined, today = todayDay()): boolean {
+export function isDue(record: Sched | undefined, today = todayDay()): boolean {
   if (!record) return true;
+  if (record.status === "suspended") return false;
+  if (record.status === "new") return true;
   return record.due <= today;
 }
 
-export function isHard(
-  itemId: string,
-  progress: ProgressData,
-): boolean {
-  const srs = progress.srs[itemId];
-  return progress.hard[itemId] === true || (srs?.lapses ?? 0) >= 2;
+export function isHard(itemId: string, progress: ProgressData): boolean {
+  const sched = progress.srs[itemId];
+  return progress.hard[itemId] === true || (sched?.lapses ?? 0) >= 2;
 }
 
+export function isReach(sched: Sched | undefined): boolean {
+  return (sched?.lapses ?? 0) >= SM2.REACH_LAPSES || sched?.status === "suspended";
+}
+
+export function isUnlearned(progress: ProgressData, itemId: string): boolean {
+  const sched = progress.srs[itemId];
+  return !sched || sched.status === "new";
+}
+
+/** @deprecated セット学習の due フィルタ用。今日の復習は dailyQueue を使う */
 export function getReviewQueue(
   items: StudyItem[],
   progress: ProgressData,
@@ -57,7 +57,8 @@ export function getReviewQueue(
   const today = todayDay();
   return items.filter((item) => {
     if (typeFilter !== "all" && item.type !== typeFilter) return false;
-    const srs = progress.srs[item.id];
-    return isDue(srs, today);
+    const sched = progress.srs[item.id];
+    if (sched?.status === "suspended") return false;
+    return isDue(sched, today);
   });
 }

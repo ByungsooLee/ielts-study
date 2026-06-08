@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "node scripts/generate-version.mjs && tsc -b && vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name=ielts-study"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=ielts-study",
+    "test": "vitest run",
+    "test:sm2": "vitest run src/lib/sm2.test.ts"
   },
   "dependencies": {
     "idb": "^8.0.2",
@@ -24,6 +26,7 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.7.2",
+    "vitest": "^3.0.5",
     "vite": "^6.0.0",
     "wrangler": "^4.98.0"
   }

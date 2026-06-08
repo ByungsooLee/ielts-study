@@ -3,7 +3,7 @@ import { PlaybackSpeedPicker } from "./PlaybackSpeedPicker";
 import { playPronunciation } from "../lib/pronunciation";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
-import { PronunciationCoach } from "./PronunciationCoach";
+import { PronunciationNotes } from "./PronunciationNotes";
 import type { ContentRecord, PlaybackRate } from "../types";
 
 interface Props {
@@ -67,11 +67,7 @@ export function ReviewCard({ record, onDone }: Props) {
                 答えを再生
               </button>
             </div>
-            <PronunciationCoach
-              sentence={answer}
-              example={item.examples?.[0]}
-              pron={item.pron}
-            />
+            <PronunciationNotes sentence={answer} example={item.examples?.[0]} pron={item.pron} />
           </div>
         )}
       </div>

@@ -1,0 +1,14 @@
+{
+  "name": "ielts-study",
+  "private": true,
+  "scripts": {
+    "setup": "bash scripts/setup-local.sh",
+    "secrets:push": "bash scripts/push-worker-secrets.sh",
+    "dev": "npm run dev --prefix web",
+    "dev:worker": "npm run dev --prefix worker",
+    "build": "npm run build --prefix web",
+    "deploy:worker": "npm run deploy --prefix worker",
+    "deploy:web": "npm run deploy --prefix web",
+    "content:push": "node tools/push-content.mjs"
+  }
+}

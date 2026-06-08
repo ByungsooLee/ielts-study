@@ -1,0 +1,7 @@
+# ローカル開発・本番 secret 一括登録用（1回コピーして値を埋める）
+# cp .dev.vars.example .dev.vars
+#
+# wrangler dev が自動読み込み。本番へは: npm run secrets:push（リポジトリルート）
+
+SYNC_TOKEN=
+GOOGLE_TTS_KEY=

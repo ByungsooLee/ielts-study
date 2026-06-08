@@ -9,7 +9,7 @@ interface Props {
 export function PlaybackSpeedPicker({ value, onChange }: Props) {
   return (
     <select
-      className="rounded border border-slate-300 bg-white px-2 py-1 text-xs text-slate-700"
+      className="rounded border border-slate-300 bg-white px-2 py-1 text-xs text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100"
       value={value}
       onChange={(e) => onChange(Number(e.target.value) as PlaybackRate)}
       aria-label="再生速度"

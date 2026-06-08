@@ -14,6 +14,20 @@ async function fetchDictionary(word: string) {
   const cached = await getDictCache(word);
   if (cached?.blob) return cached;
 
+  if (cached?.audioUrl) {
+    try {
+      const audioRes = await fetch(cached.audioUrl);
+      if (audioRes.ok) {
+        const blob = await audioRes.blob();
+        const result = { ...cached, blob, cachedAt: Date.now() };
+        await setDictCache(result);
+        return result;
+      }
+    } catch {
+      // API へフォールバック
+    }
+  }
+
   const res = await fetch(`${DICT_API}/${encodeURIComponent(word)}`);
   if (!res.ok) throw new Error("辞書に見つかりません");
   const data = (await res.json()) as Array<{
@@ -112,31 +126,45 @@ async function fetchTts(
   return res.blob();
 }
 
+export type PronunciationSource = "word" | "sentence";
+
+function dictionaryLookup(item: StudyItem | undefined): string | undefined {
+  if (!item) return undefined;
+  if (item.pron?.lookup) return item.pron.lookup;
+  if (item.type === "word" || item.type === "phrase") return item.front;
+  return undefined;
+}
+
 export async function playPronunciation(options: {
   item?: StudyItem;
   text?: string;
+  source?: PronunciationSource;
   accent: Accent;
   workerUrl: string;
   syncToken: string;
   playbackRate?: PlaybackRate;
 }): Promise<void> {
-  const { item, accent, workerUrl, syncToken, playbackRate = 1 } = options;
-  const text = options.text ?? item?.pron?.tts ?? item?.front ?? "";
-  const lookup = item?.pron?.lookup ?? (item?.type === "word" || item?.type === "phrase" ? item.front : undefined);
+  const { item, accent, workerUrl, syncToken, playbackRate = 1, source = "word" } = options;
+  const text = (options.text ?? item?.pron?.tts ?? item?.front ?? "").trim();
+  if (!text) throw new Error("再生するテキストがありません");
 
-  if (lookup) {
-    try {
-      const dict = await fetchDictionary(lookup);
-      if (dict.blob) {
-        await playAudioBlob(dict.blob, playbackRate);
-        return;
+  if (source === "word") {
+    const lookup = dictionaryLookup(item);
+    if (lookup) {
+      try {
+        const dict = await fetchDictionary(lookup);
+        if (dict.blob) {
+          await playAudioBlob(dict.blob, playbackRate);
+          return;
+        }
+      } catch {
+        // TTS へフォールバック
       }
-    } catch {
-      // fallback to TTS
     }
   }
 
-  const cacheKey = audioCacheKey(text, accent);
+  const ttsText = source === "word" ? (dictionaryLookup(item) ?? text) : text;
+  const cacheKey = audioCacheKey(ttsText, accent);
   const cached = await getAudioCache(cacheKey);
   if (cached) {
     await playAudioBlob(cached, playbackRate);
@@ -144,10 +172,14 @@ export async function playPronunciation(options: {
   }
 
   if (!workerUrl || !syncToken) {
-    throw new Error("TTSには Worker URL と合言葉の設定が必要です");
+    throw new Error(
+      source === "sentence"
+        ? "例文の再生には設定画面で Worker URL と合言葉を入力してください"
+        : "辞書音声が見つかりません。設定画面で Worker URL と合言葉を入力すると TTS で再生できます",
+    );
   }
 
-  const blob = await fetchTts(workerUrl, syncToken, text, accent);
+  const blob = await fetchTts(workerUrl, syncToken, ttsText, accent);
   await setAudioCache(cacheKey, blob);
   await playAudioBlob(blob, playbackRate);
 }

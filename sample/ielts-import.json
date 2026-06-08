@@ -2,10 +2,11 @@
   "source": {
     "book": "文脈で覚えるIELTS英単語",
     "section": "01-10",
-    "added": "2026-06-07"
+    "added": "2026-06-08"
   },
   "items": [
     {
+      "n": 1,
       "id": "w-concern",
       "type": "word",
       "front": "concern",
@@ -22,9 +23,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 2,
       "id": "w-settle",
       "type": "word",
       "front": "settle",
@@ -40,9 +44,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 3,
       "id": "w-available",
       "type": "word",
       "front": "available",
@@ -58,9 +65,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 4,
       "id": "w-construct",
       "type": "word",
       "front": "construct",
@@ -76,9 +86,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 5,
       "id": "w-favourable",
       "type": "word",
       "front": "favourable",
@@ -94,9 +107,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 6,
       "id": "w-resolve",
       "type": "word",
       "front": "resolve",
@@ -112,9 +128,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 7,
       "id": "w-source",
       "type": "word",
       "front": "source",
@@ -130,9 +149,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 8,
       "id": "w-navigate",
       "type": "word",
       "front": "navigate",
@@ -148,9 +170,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 9,
       "id": "w-discover",
       "type": "word",
       "front": "discover",
@@ -166,9 +191,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 10,
       "id": "w-primitive",
       "type": "word",
       "front": "primitive",
@@ -184,9 +212,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "A"
     },
     {
+      "n": 11,
       "id": "w-dog",
       "type": "word",
       "front": "dog",
@@ -198,9 +229,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 12,
       "id": "w-pioneer",
       "type": "word",
       "front": "pioneer",
@@ -212,9 +246,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 13,
       "id": "w-seafarer",
       "type": "word",
       "front": "seafarer",
@@ -230,9 +267,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 14,
       "id": "w-ancient",
       "type": "word",
       "front": "ancient",
@@ -247,9 +287,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 15,
       "id": "w-voyage",
       "type": "word",
       "front": "voyage",
@@ -264,9 +307,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 16,
       "id": "w-dub",
       "type": "word",
       "front": "dub",
@@ -281,9 +327,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 17,
       "id": "w-auspicious",
       "type": "word",
       "front": "auspicious",
@@ -295,9 +344,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 18,
       "id": "p-find-one-s-bearings",
       "type": "phrase",
       "front": "find one's bearings",
@@ -308,9 +360,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 19,
       "id": "p-follow-in-one-s-footsteps",
       "type": "phrase",
       "front": "follow in one's footsteps",
@@ -321,9 +376,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 20,
       "id": "p-on-hand",
       "type": "phrase",
       "front": "on hand",
@@ -334,9 +392,12 @@
       "tags": [
         "polynesia"
       ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
       "priority": "B"
     },
     {
+      "n": 21,
       "id": "w-arguably",
       "type": "word",
       "front": "arguably",
@@ -352,9 +413,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 22,
       "id": "w-flexible",
       "type": "word",
       "front": "flexible",
@@ -370,9 +434,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 23,
       "id": "w-form",
       "type": "word",
       "front": "form",
@@ -389,9 +456,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 24,
       "id": "p-a-variety-of",
       "type": "phrase",
       "front": "a variety of",
@@ -406,9 +476,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 25,
       "id": "w-waterproof",
       "type": "word",
       "front": "waterproof",
@@ -424,9 +497,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 26,
       "id": "w-originate",
       "type": "word",
       "front": "originate",
@@ -443,9 +519,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 27,
       "id": "w-mankind",
       "type": "word",
       "front": "mankind",
@@ -461,9 +540,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 28,
       "id": "p-the-medieval-period",
       "type": "phrase",
       "front": "the medieval period",
@@ -478,9 +560,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 29,
       "id": "p-turning-point",
       "type": "phrase",
       "front": "turning point",
@@ -495,9 +580,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 30,
       "id": "p-go-bankrupt",
       "type": "phrase",
       "front": "go bankrupt",
@@ -512,9 +600,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 31,
       "id": "w-synthetic",
       "type": "word",
       "front": "synthetic",
@@ -531,9 +622,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 32,
       "id": "p-be-made-from",
       "type": "phrase",
       "front": "be made from",
@@ -548,9 +642,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 33,
       "id": "w-inexpensive",
       "type": "word",
       "front": "inexpensive",
@@ -567,9 +664,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 34,
       "id": "w-impact",
       "type": "word",
       "front": "impact",
@@ -586,9 +686,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "B"
     },
     {
+      "n": 35,
       "id": "p-a-growing-concern",
       "type": "phrase",
       "front": "a growing concern",
@@ -603,9 +706,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 36,
       "id": "w-launch",
       "type": "word",
       "front": "launch",
@@ -621,9 +727,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "A"
     },
     {
+      "n": 37,
       "id": "w-coating",
       "type": "word",
       "front": "coating",
@@ -638,9 +747,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "B"
     },
     {
+      "n": 38,
       "id": "w-shatterproof",
       "type": "word",
       "front": "shatterproof",
@@ -655,9 +767,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "B"
     },
     {
+      "n": 39,
       "id": "w-see-through",
       "type": "word",
       "front": "see-through",
@@ -672,9 +787,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "B"
     },
     {
+      "n": 40,
       "id": "p-earliest-origins",
       "type": "phrase",
       "front": "earliest origins",
@@ -688,9 +806,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "B"
     },
     {
+      "n": 41,
       "id": "p-be-derived-from",
       "type": "phrase",
       "front": "be derived from",
@@ -701,9 +822,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "B"
     },
     {
+      "n": 42,
       "id": "p-host-of",
       "type": "phrase",
       "front": "host of",
@@ -718,9 +842,12 @@
       "tags": [
         "plastic"
       ],
+      "theme": 2,
+      "themeName": "プラスチック",
       "priority": "B"
     },
     {
+      "n": 43,
       "id": "w-depart",
       "type": "word",
       "front": "depart",
@@ -749,9 +876,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "A"
     },
     {
+      "n": 44,
       "id": "w-lack",
       "type": "word",
       "front": "lack",
@@ -780,9 +910,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "A"
     },
     {
+      "n": 45,
       "id": "w-doubt",
       "type": "word",
       "front": "doubt",
@@ -810,9 +943,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "A"
     },
     {
+      "n": 46,
       "id": "w-initially",
       "type": "word",
       "front": "initially",
@@ -840,9 +976,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "A"
     },
     {
+      "n": 47,
       "id": "w-deteriorate",
       "type": "word",
       "front": "deteriorate",
@@ -871,9 +1010,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "S"
     },
     {
+      "n": 48,
       "id": "w-discovery",
       "type": "word",
       "front": "discovery",
@@ -901,9 +1043,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "A"
     },
     {
+      "n": 49,
       "id": "p-in-collaboration-with",
       "type": "phrase",
       "front": "in collaboration with",
@@ -930,9 +1075,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "A"
     },
     {
+      "n": 50,
       "id": "p-previous-attempt",
       "type": "phrase",
       "front": "previous attempt",
@@ -959,9 +1107,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 51,
       "id": "p-in-hindsight",
       "type": "phrase",
       "front": "in hindsight",
@@ -976,9 +1127,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 52,
       "id": "p-accounts-vary",
       "type": "phrase",
       "front": "accounts vary",
@@ -993,9 +1147,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 53,
       "id": "w-recover",
       "type": "word",
       "front": "recover",
@@ -1010,9 +1167,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 54,
       "id": "p-the-ocean-floor",
       "type": "phrase",
       "front": "the ocean floor",
@@ -1026,9 +1186,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 55,
       "id": "w-watertight",
       "type": "word",
       "front": "watertight",
@@ -1043,9 +1206,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 56,
       "id": "p-tight-timetable",
       "type": "phrase",
       "front": "tight timetable",
@@ -1059,9 +1225,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 57,
       "id": "w-sink",
       "type": "word",
       "front": "sink",
@@ -1076,9 +1245,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 58,
       "id": "w-remains",
       "type": "word",
       "front": "remains",
@@ -1094,9 +1266,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 59,
       "id": "w-site",
       "type": "word",
       "front": "site",
@@ -1111,9 +1286,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 60,
       "id": "w-intact",
       "type": "word",
       "front": "intact",
@@ -1128,9 +1306,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 61,
       "id": "p-split-in-half",
       "type": "phrase",
       "front": "split in half",
@@ -1144,9 +1325,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 62,
       "id": "p-leave-exposed",
       "type": "phrase",
       "front": "leave exposed",
@@ -1157,9 +1341,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 63,
       "id": "w-corrode",
       "type": "word",
       "front": "corrode",
@@ -1174,9 +1361,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 64,
       "id": "p-treasure-trove",
       "type": "phrase",
       "front": "treasure trove",
@@ -1190,9 +1380,12 @@
       "tags": [
         "titanic"
       ],
+      "theme": 3,
+      "themeName": "タイタニック",
       "priority": "B"
     },
     {
+      "n": 65,
       "id": "w-nuisance",
       "type": "word",
       "front": "nuisance",
@@ -1220,9 +1413,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "A"
     },
     {
+      "n": 66,
       "id": "w-construction",
       "type": "word",
       "front": "construction",
@@ -1250,9 +1446,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "A"
     },
     {
+      "n": 67,
       "id": "w-alter",
       "type": "word",
       "front": "alter",
@@ -1281,9 +1480,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "S"
     },
     {
+      "n": 68,
       "id": "w-ideal",
       "type": "word",
       "front": "ideal",
@@ -1311,9 +1513,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "S"
     },
     {
+      "n": 69,
       "id": "w-abundance",
       "type": "word",
       "front": "abundance",
@@ -1341,9 +1546,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "S"
     },
     {
+      "n": 70,
       "id": "p-prove-impossible",
       "type": "phrase",
       "front": "prove impossible",
@@ -1358,9 +1566,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 71,
       "id": "w-unique",
       "type": "word",
       "front": "unique",
@@ -1388,9 +1599,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "S"
     },
     {
+      "n": 72,
       "id": "w-surplus",
       "type": "word",
       "front": "surplus",
@@ -1418,9 +1632,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "A"
     },
     {
+      "n": 73,
       "id": "p-encroach-on",
       "type": "phrase",
       "front": "encroach on",
@@ -1447,9 +1664,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "A"
     },
     {
+      "n": 74,
       "id": "w-instinct",
       "type": "word",
       "front": "instinct",
@@ -1477,9 +1697,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "A"
     },
     {
+      "n": 75,
       "id": "w-overpopulated",
       "type": "word",
       "front": "overpopulated",
@@ -1494,9 +1717,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 76,
       "id": "w-inhabit",
       "type": "word",
       "front": "inhabit",
@@ -1511,9 +1737,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 77,
       "id": "w-domicile",
       "type": "word",
       "front": "domicile",
@@ -1529,9 +1758,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 78,
       "id": "w-route",
       "type": "word",
       "front": "route",
@@ -1546,9 +1778,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 79,
       "id": "p-grow-agitated",
       "type": "phrase",
       "front": "grow agitated",
@@ -1562,9 +1797,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 80,
       "id": "w-strike",
       "type": "word",
       "front": "strike",
@@ -1580,9 +1818,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 81,
       "id": "p-trial-run",
       "type": "phrase",
       "front": "trial run",
@@ -1596,9 +1837,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 82,
       "id": "w-relocate",
       "type": "word",
       "front": "relocate",
@@ -1613,9 +1857,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 83,
       "id": "w-predator",
       "type": "word",
       "front": "predator",
@@ -1630,9 +1877,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 84,
       "id": "w-landscape",
       "type": "word",
       "front": "landscape",
@@ -1647,9 +1897,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 85,
       "id": "p-make-a-beeline-for",
       "type": "phrase",
       "front": "make a beeline for",
@@ -1660,9 +1913,12 @@
       "tags": [
         "beaver"
       ],
+      "theme": 4,
+      "themeName": "アイダホのビーバー",
       "priority": "B"
     },
     {
+      "n": 86,
       "id": "w-stimulate",
       "type": "word",
       "front": "stimulate",
@@ -1691,9 +1947,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "S"
     },
     {
+      "n": 87,
       "id": "w-uncertainty",
       "type": "word",
       "front": "uncertainty",
@@ -1721,9 +1980,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "S"
     },
     {
+      "n": 88,
       "id": "w-theory",
       "type": "word",
       "front": "theory",
@@ -1751,9 +2013,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "A"
     },
     {
+      "n": 89,
       "id": "w-factor",
       "type": "word",
       "front": "factor",
@@ -1781,9 +2046,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "S"
     },
     {
+      "n": 90,
       "id": "w-straightforward",
       "type": "word",
       "front": "straightforward",
@@ -1799,9 +2067,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "B"
     },
     {
+      "n": 91,
       "id": "w-generate",
       "type": "word",
       "front": "generate",
@@ -1829,9 +2100,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "S"
     },
     {
+      "n": 92,
       "id": "w-obvious",
       "type": "word",
       "front": "obvious",
@@ -1859,9 +2133,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "A"
     },
     {
+      "n": 93,
       "id": "w-predict",
       "type": "word",
       "front": "predict",
@@ -1890,9 +2167,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "S"
     },
     {
+      "n": 94,
       "id": "w-complicated",
       "type": "word",
       "front": "complicated",
@@ -1908,9 +2188,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "S"
     },
     {
+      "n": 95,
       "id": "w-intense",
       "type": "word",
       "front": "intense",
@@ -1938,9 +2221,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "S"
     },
     {
+      "n": 96,
       "id": "w-spectacular",
       "type": "word",
       "front": "spectacular",
@@ -1956,9 +2242,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "B"
     },
     {
+      "n": 97,
       "id": "w-coordination",
       "type": "word",
       "front": "coordination",
@@ -1973,9 +2262,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "B"
     },
     {
+      "n": 98,
       "id": "w-puzzle",
       "type": "word",
       "front": "puzzle",
@@ -1991,9 +2283,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "B"
     },
     {
+      "n": 99,
       "id": "p-mounting-evidence",
       "type": "phrase",
       "front": "mounting evidence",
@@ -2004,9 +2299,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "B"
     },
     {
+      "n": 100,
       "id": "w-pattern",
       "type": "word",
       "front": "pattern",
@@ -2021,9 +2319,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "A"
     },
     {
+      "n": 101,
       "id": "w-mirror",
       "type": "word",
       "front": "mirror",
@@ -2038,9 +2339,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "B"
     },
     {
+      "n": 102,
       "id": "w-professional",
       "type": "word",
       "front": "professional",
@@ -2055,9 +2359,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "B"
     },
     {
+      "n": 103,
       "id": "w-surge",
       "type": "word",
       "front": "surge",
@@ -2072,9 +2379,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "A"
     },
     {
+      "n": 104,
       "id": "w-anxious",
       "type": "word",
       "front": "anxious",
@@ -2089,9 +2399,12 @@
       "tags": [
         "dance"
       ],
+      "theme": 5,
+      "themeName": "ダンス",
       "priority": "A"
     },
     {
+      "n": 105,
       "id": "w-perspective",
       "type": "word",
       "front": "perspective",
@@ -2120,9 +2433,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "S"
     },
     {
+      "n": 106,
       "id": "w-interpret",
       "type": "word",
       "front": "interpret",
@@ -2150,9 +2466,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "S"
     },
     {
+      "n": 107,
       "id": "w-notion",
       "type": "word",
       "front": "notion",
@@ -2181,9 +2500,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "S"
     },
     {
+      "n": 108,
       "id": "w-scepticism",
       "type": "word",
       "front": "scepticism",
@@ -2211,9 +2533,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "S"
     },
     {
+      "n": 109,
       "id": "w-credible",
       "type": "word",
       "front": "credible",
@@ -2241,9 +2566,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "S"
     },
     {
+      "n": 110,
       "id": "w-innovative",
       "type": "word",
       "front": "innovative",
@@ -2272,9 +2600,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "S"
     },
     {
+      "n": 111,
       "id": "w-value",
       "type": "word",
       "front": "value",
@@ -2302,9 +2633,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "S"
     },
     {
+      "n": 112,
       "id": "w-priceless",
       "type": "word",
       "front": "priceless",
@@ -2320,9 +2654,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "A"
     },
     {
+      "n": 113,
       "id": "w-disparity",
       "type": "word",
       "front": "disparity",
@@ -2351,9 +2688,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "S"
     },
     {
+      "n": 114,
       "id": "w-scarcity",
       "type": "word",
       "front": "scarcity",
@@ -2381,9 +2721,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "S"
     },
     {
+      "n": 115,
       "id": "p-be-made-redundant",
       "type": "phrase",
       "front": "be made redundant",
@@ -2399,9 +2742,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "A"
     },
     {
+      "n": 116,
       "id": "w-automation",
       "type": "word",
       "front": "automation",
@@ -2429,9 +2775,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "A"
     },
     {
+      "n": 117,
       "id": "p-area-of-expertise",
       "type": "phrase",
       "front": "area of expertise",
@@ -2446,9 +2795,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "A"
     },
     {
+      "n": 118,
       "id": "p-pose-a-problem",
       "type": "phrase",
       "front": "pose a problem",
@@ -2463,9 +2815,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "A"
     },
     {
+      "n": 119,
       "id": "p-from-scratch",
       "type": "phrase",
       "front": "from scratch",
@@ -2479,9 +2834,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "B"
     },
     {
+      "n": 120,
       "id": "w-fool",
       "type": "word",
       "front": "fool",
@@ -2497,9 +2855,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "B"
     },
     {
+      "n": 121,
       "id": "p-lay-person",
       "type": "phrase",
       "front": "lay person",
@@ -2513,9 +2874,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "B"
     },
     {
+      "n": 122,
       "id": "w-haphazard",
       "type": "word",
       "front": "haphazard",
@@ -2530,9 +2894,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "B"
     },
     {
+      "n": 123,
       "id": "w-refuge",
       "type": "word",
       "front": "refuge",
@@ -2547,9 +2914,12 @@
       "tags": [
         "ai-art"
       ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
       "priority": "B"
     },
     {
+      "n": 124,
       "id": "w-gifted",
       "type": "word",
       "front": "gifted",
@@ -2578,9 +2948,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 125,
       "id": "w-blueprint",
       "type": "word",
       "front": "blueprint",
@@ -2609,9 +2982,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 126,
       "id": "w-progress",
       "type": "word",
       "front": "progress",
@@ -2640,9 +3016,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "S"
     },
     {
+      "n": 127,
       "id": "w-foster",
       "type": "word",
       "front": "foster",
@@ -2671,9 +3050,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "S"
     },
     {
+      "n": 128,
       "id": "w-self-reliance",
       "type": "word",
       "front": "self-reliance",
@@ -2702,9 +3084,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 129,
       "id": "p-compensate-for",
       "type": "phrase",
       "front": "compensate for",
@@ -2731,9 +3116,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "S"
     },
     {
+      "n": 130,
       "id": "p-trial-and-error",
       "type": "phrase",
       "front": "trial and error",
@@ -2748,9 +3136,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 131,
       "id": "w-inventiveness",
       "type": "word",
       "front": "inventiveness",
@@ -2767,9 +3158,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 132,
       "id": "p-channel-into",
       "type": "phrase",
       "front": "channel into",
@@ -2784,9 +3178,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 133,
       "id": "w-grant",
       "type": "word",
       "front": "grant",
@@ -2803,9 +3200,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 134,
       "id": "p-socially-disadvantaged",
       "type": "phrase",
       "front": "socially disadvantaged",
@@ -2820,9 +3220,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 135,
       "id": "p-confidence-in",
       "type": "phrase",
       "front": "confidence in",
@@ -2838,9 +3241,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 136,
       "id": "p-rely-on",
       "type": "phrase",
       "front": "rely on",
@@ -2856,9 +3262,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 137,
       "id": "p-get-accustomed-to",
       "type": "phrase",
       "front": "get accustomed to",
@@ -2873,9 +3282,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "A"
     },
     {
+      "n": 138,
       "id": "w-coddle",
       "type": "word",
       "front": "coddle",
@@ -2891,9 +3303,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "B"
     },
     {
+      "n": 139,
       "id": "p-immediate-family",
       "type": "phrase",
       "front": "immediate family",
@@ -2907,9 +3322,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "B"
     },
     {
+      "n": 140,
       "id": "w-know-how",
       "type": "word",
       "front": "know-how",
@@ -2924,9 +3342,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "B"
     },
     {
+      "n": 141,
       "id": "w-spur",
       "type": "word",
       "front": "spur",
@@ -2941,9 +3362,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "B"
     },
     {
+      "n": 142,
       "id": "p-in-one-s-care",
       "type": "phrase",
       "front": "in one's care",
@@ -2957,9 +3381,12 @@
       "tags": [
         "gifted-school"
       ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
       "priority": "B"
     },
     {
+      "n": 143,
       "id": "p-overnight-success",
       "type": "phrase",
       "front": "overnight success",
@@ -2986,9 +3413,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 144,
       "id": "p-invest-in",
       "type": "phrase",
       "front": "invest in",
@@ -3016,9 +3446,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "S"
     },
     {
+      "n": 145,
       "id": "w-top-notch",
       "type": "word",
       "front": "top-notch",
@@ -3035,9 +3468,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 146,
       "id": "w-metropolitan",
       "type": "word",
       "front": "metropolitan",
@@ -3065,9 +3501,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 147,
       "id": "w-groundbreaking",
       "type": "word",
       "front": "groundbreaking",
@@ -3096,9 +3535,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 148,
       "id": "p-stumbling-block",
       "type": "phrase",
       "front": "stumbling block",
@@ -3114,9 +3556,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 149,
       "id": "p-cut-expenditure",
       "type": "phrase",
       "front": "cut expenditure",
@@ -3131,9 +3576,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 150,
       "id": "p-appetite-for",
       "type": "phrase",
       "front": "appetite for",
@@ -3149,9 +3597,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 151,
       "id": "w-exorbitant",
       "type": "word",
       "front": "exorbitant",
@@ -3179,9 +3630,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "S"
     },
     {
+      "n": 152,
       "id": "w-afford",
       "type": "word",
       "front": "afford",
@@ -3209,9 +3663,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 153,
       "id": "p-the-whole-picture",
       "type": "phrase",
       "front": "the whole picture",
@@ -3226,9 +3683,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 154,
       "id": "p-set-down",
       "type": "phrase",
       "front": "set down",
@@ -3245,9 +3705,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "B"
     },
     {
+      "n": 155,
       "id": "w-decelerate",
       "type": "word",
       "front": "decelerate",
@@ -3263,9 +3726,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 156,
       "id": "p-lengthy-delay",
       "type": "phrase",
       "front": "lengthy delay",
@@ -3280,9 +3746,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 157,
       "id": "w-sway",
       "type": "word",
       "front": "sway",
@@ -3299,9 +3768,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "B"
     },
     {
+      "n": 158,
       "id": "w-authorise",
       "type": "word",
       "front": "authorise",
@@ -3330,9 +3802,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "A"
     },
     {
+      "n": 159,
       "id": "p-like-something-from-the-pages-of-a-novel",
       "type": "phrase",
       "front": "like something from the pages of a novel",
@@ -3347,9 +3822,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "B"
     },
     {
+      "n": 160,
       "id": "w-bankroll",
       "type": "word",
       "front": "bankroll",
@@ -3361,9 +3839,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "B"
     },
     {
+      "n": 161,
       "id": "w-zip",
       "type": "word",
       "front": "zip",
@@ -3378,9 +3859,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "B"
     },
     {
+      "n": 162,
       "id": "p-place-sb-in-harm-s-way",
       "type": "phrase",
       "front": "place sb in harm's way",
@@ -3391,9 +3875,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "B"
     },
     {
+      "n": 163,
       "id": "p-take-a-spin",
       "type": "phrase",
       "front": "take a spin",
@@ -3407,9 +3894,12 @@
       "tags": [
         "hyperloop"
       ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
       "priority": "B"
     },
     {
+      "n": 164,
       "id": "w-struggle",
       "type": "word",
       "front": "struggle",
@@ -3438,9 +3928,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "S"
     },
     {
+      "n": 165,
       "id": "w-esteemed",
       "type": "word",
       "front": "esteemed",
@@ -3469,9 +3962,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "A"
     },
     {
+      "n": 166,
       "id": "w-approval",
       "type": "word",
       "front": "approval",
@@ -3488,9 +3984,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "A"
     },
     {
+      "n": 167,
       "id": "w-sole",
       "type": "word",
       "front": "sole",
@@ -3507,9 +4006,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "A"
     },
     {
+      "n": 168,
       "id": "w-persevere",
       "type": "word",
       "front": "persevere",
@@ -3537,9 +4039,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "S"
     },
     {
+      "n": 169,
       "id": "w-tenacity",
       "type": "word",
       "front": "tenacity",
@@ -3556,9 +4061,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "A"
     },
     {
+      "n": 170,
       "id": "p-come-up-with",
       "type": "phrase",
       "front": "come up with",
@@ -3585,9 +4093,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "A"
     },
     {
+      "n": 171,
       "id": "w-innate",
       "type": "word",
       "front": "innate",
@@ -3616,9 +4127,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "A"
     },
     {
+      "n": 172,
       "id": "p-radical-change",
       "type": "phrase",
       "front": "radical change",
@@ -3633,9 +4147,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "A"
     },
     {
+      "n": 173,
       "id": "w-force",
       "type": "word",
       "front": "force",
@@ -3651,9 +4168,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "A"
     },
     {
+      "n": 174,
       "id": "w-emphasise",
       "type": "word",
       "front": "emphasise",
@@ -3682,9 +4202,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "S"
     },
     {
+      "n": 175,
       "id": "w-adopt",
       "type": "word",
       "front": "adopt",
@@ -3713,9 +4236,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "S"
     },
     {
+      "n": 176,
       "id": "p-advocate-of",
       "type": "phrase",
       "front": "advocate of",
@@ -3742,9 +4268,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "A"
     },
     {
+      "n": 177,
       "id": "w-subsequent",
       "type": "word",
       "front": "subsequent",
@@ -3773,9 +4302,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "S"
     },
     {
+      "n": 178,
       "id": "w-icon",
       "type": "word",
       "front": "icon",
@@ -3791,9 +4323,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "B"
     },
     {
+      "n": 179,
       "id": "p-challenge-convention",
       "type": "phrase",
       "front": "challenge convention",
@@ -3807,9 +4342,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "B"
     },
     {
+      "n": 180,
       "id": "w-backlash",
       "type": "word",
       "front": "backlash",
@@ -3824,9 +4362,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "B"
     },
     {
+      "n": 181,
       "id": "w-prodigious",
       "type": "word",
       "front": "prodigious",
@@ -3842,9 +4383,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "B"
     },
     {
+      "n": 182,
       "id": "w-replicate",
       "type": "word",
       "front": "replicate",
@@ -3859,9 +4403,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "B"
     },
     {
+      "n": 183,
       "id": "p-receive-recognition",
       "type": "phrase",
       "front": "receive recognition",
@@ -3875,9 +4422,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "B"
     },
     {
+      "n": 184,
       "id": "p-far-and-wide",
       "type": "phrase",
       "front": "far and wide",
@@ -3888,9 +4438,12 @@
       "tags": [
         "montessori"
       ],
+      "theme": 9,
+      "themeName": "マリア・モンテッソーリ",
       "priority": "B"
     },
     {
+      "n": 185,
       "id": "w-troubling",
       "type": "word",
       "front": "troubling",
@@ -3919,9 +4472,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "A"
     },
     {
+      "n": 186,
       "id": "w-indication",
       "type": "word",
       "front": "indication",
@@ -3950,9 +4506,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "S"
     },
     {
+      "n": 187,
       "id": "w-sophisticated",
       "type": "word",
       "front": "sophisticated",
@@ -3981,9 +4540,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "S"
     },
     {
+      "n": 188,
       "id": "w-deceitful",
       "type": "word",
       "front": "deceitful",
@@ -4000,9 +4562,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "B"
     },
     {
+      "n": 189,
       "id": "w-linguistic",
       "type": "word",
       "front": "linguistic",
@@ -4018,9 +4583,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "A"
     },
     {
+      "n": 190,
       "id": "w-manipulate",
       "type": "word",
       "front": "manipulate",
@@ -4049,9 +4617,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "S"
     },
     {
+      "n": 191,
       "id": "w-trait",
       "type": "word",
       "front": "trait",
@@ -4079,9 +4650,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "S"
     },
     {
+      "n": 192,
       "id": "w-inflate",
       "type": "word",
       "front": "inflate",
@@ -4097,9 +4671,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "B"
     },
     {
+      "n": 193,
       "id": "w-standing",
       "type": "word",
       "front": "standing",
@@ -4116,9 +4693,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "A"
     },
     {
+      "n": 194,
       "id": "w-appease",
       "type": "word",
       "front": "appease",
@@ -4135,9 +4715,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "A"
     },
     {
+      "n": 195,
       "id": "w-tension",
       "type": "word",
       "front": "tension",
@@ -4166,9 +4749,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "S"
     },
     {
+      "n": 196,
       "id": "w-milestone",
       "type": "word",
       "front": "milestone",
@@ -4197,9 +4783,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "A"
     },
     {
+      "n": 197,
       "id": "p-delve-into",
       "type": "phrase",
       "front": "delve into",
@@ -4215,9 +4804,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "A"
     },
     {
+      "n": 198,
       "id": "w-mask",
       "type": "word",
       "front": "mask",
@@ -4235,9 +4827,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "B"
     },
     {
+      "n": 199,
       "id": "w-maturity",
       "type": "word",
       "front": "maturity",
@@ -4265,9 +4860,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "S"
     },
     {
+      "n": 200,
       "id": "w-cognition",
       "type": "word",
       "front": "cognition",
@@ -4282,9 +4880,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "A"
     },
     {
+      "n": 201,
       "id": "p-on-track",
       "type": "phrase",
       "front": "on track",
@@ -4298,9 +4899,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "A"
     },
     {
+      "n": 202,
       "id": "w-revealing",
       "type": "word",
       "front": "revealing",
@@ -4315,9 +4919,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "B"
     },
     {
+      "n": 203,
       "id": "p-sudden-leap",
       "type": "phrase",
       "front": "sudden leap",
@@ -4331,9 +4938,12 @@
       "tags": [
         "lying"
       ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
       "priority": "B"
     },
     {
+      "n": 204,
       "id": "g-past-perfect",
       "type": "grammar",
       "front": "had + 過去分詞（過去完了）",
@@ -4352,6 +4962,7 @@
       ]
     },
     {
+      "n": 205,
       "id": "g-uncountable-evidence",
       "type": "grammar",
       "front": "不可算名詞（evidence など）",
@@ -4370,6 +4981,7 @@
       ]
     },
     {
+      "n": 206,
       "id": "g-move-usage",
       "type": "grammar",
       "front": "move の用法（移住 vs 移動）",

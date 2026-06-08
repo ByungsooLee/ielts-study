@@ -31,6 +31,7 @@ export function LibraryPage() {
     if (filters.tag && !(item.tags ?? []).includes(filters.tag)) return false;
     if (filters.priority !== "all" && item.priority !== filters.priority) return false;
     if (filters.hardOnly && !isHard(item.id, progress)) return false;
+    if (filters.suspendedOnly && progress.srs[item.id]?.status !== "suspended") return false;
     if (filters.query) {
       const q = filters.query.toLowerCase();
       const hay = [item.front, item.meaning, ...(item.tags ?? [])].join(" ").toLowerCase();
@@ -42,51 +43,59 @@ export function LibraryPage() {
   return (
     <div className="space-y-6">
       <ImportZone />
-      <div className="grid gap-3 rounded-xl bg-white p-4 shadow-sm md:grid-cols-3">
+      <div className="grid gap-3 rounded-xl bg-white p-4 text-slate-900 shadow-sm dark:bg-slate-900 dark:text-slate-100 md:grid-cols-3">
         <input
-          className="rounded border px-3 py-2 text-sm"
+          className="rounded border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100"
           placeholder="検索"
           value={filters.query}
           onChange={(e) => setFilters({ query: e.target.value })}
         />
-        <select className="rounded border px-3 py-2 text-sm" value={filters.type} onChange={(e) => setFilters({ type: e.target.value as typeof filters.type })}>
+        <select className="rounded border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" value={filters.type} onChange={(e) => setFilters({ type: e.target.value as typeof filters.type })}>
           <option value="all">すべての種類</option>
           <option value="word">単語</option>
           <option value="phrase">フレーズ</option>
           <option value="grammar">構文</option>
           <option value="conversation">会話</option>
         </select>
-        <select className="rounded border px-3 py-2 text-sm" value={filters.priority} onChange={(e) => setFilters({ priority: e.target.value as typeof filters.priority })}>
+        <select className="rounded border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" value={filters.priority} onChange={(e) => setFilters({ priority: e.target.value as typeof filters.priority })}>
           <option value="all">すべての優先度</option>
           <option value="S">S</option>
           <option value="A">A</option>
           <option value="B">B</option>
         </select>
-        <select className="rounded border px-3 py-2 text-sm" value={filters.book} onChange={(e) => setFilters({ book: e.target.value })}>
+        <select className="rounded border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" value={filters.book} onChange={(e) => setFilters({ book: e.target.value })}>
           <option value="">すべての本</option>
           {books.map((b) => (
             <option key={b} value={b}>{b}</option>
           ))}
         </select>
-        <select className="rounded border px-3 py-2 text-sm" value={filters.section} onChange={(e) => setFilters({ section: e.target.value })}>
+        <select className="rounded border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" value={filters.section} onChange={(e) => setFilters({ section: e.target.value })}>
           <option value="">すべての章</option>
           {sections.map((s) => (
             <option key={s} value={s}>{s}</option>
           ))}
         </select>
-        <select className="rounded border px-3 py-2 text-sm" value={filters.tag} onChange={(e) => setFilters({ tag: e.target.value })}>
+        <select className="rounded border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" value={filters.tag} onChange={(e) => setFilters({ tag: e.target.value })}>
           <option value="">すべてのタグ</option>
           {tags.map((t) => (
             <option key={t} value={t}>{t}</option>
           ))}
         </select>
-        <label className="flex items-center gap-2 text-sm text-slate-700">
+        <label className="flex items-center gap-2 text-sm text-slate-900 dark:text-slate-100">
           <input type="checkbox" checked={filters.hardOnly} onChange={(e) => setFilters({ hardOnly: e.target.checked })} />
           苦手のみ
         </label>
+        <label className="flex items-center gap-2 text-sm text-slate-900 dark:text-slate-100">
+          <input
+            type="checkbox"
+            checked={filters.suspendedOnly}
+            onChange={(e) => setFilters({ suspendedOnly: e.target.checked })}
+          />
+          リーチ（停止中）のみ
+        </label>
       </div>
 
-      <p className="text-sm text-slate-500">{filtered.length} 件</p>
+      <p className="text-sm text-slate-800 dark:text-slate-200">{filtered.length} 件</p>
       <div className="space-y-4">
         {filtered.map((record) => (
           <ItemCard key={record.id} record={record} />
