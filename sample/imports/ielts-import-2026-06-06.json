@@ -1,0 +1,1294 @@
+{
+  "source": {
+    "book": "文脈で覚えるIELTS英単語",
+    "section": "batch-2026-06-06",
+    "added": "2026-06-06"
+  },
+  "items": [
+    {
+      "n": 1,
+      "id": "w-concern",
+      "type": "word",
+      "front": "concern",
+      "meaning": "心配させる/懸念",
+      "synonyms": [
+        "worry",
+        "trouble"
+      ],
+      "collocation": "a growing concern, raise concerns",
+      "examples": [
+        {
+          "en": "For years it was a real concern how the ancient people first came to settle the Polynesian islands.",
+          "linking": "For years‿it was‿a real concern how the‿ancient people first came to settle the Polynesian islands.",
+          "tips": [
+            "連結: it‿was, was‿a, the‿ancient",
+            "弱形: for/it/was/a/the/to を弱く",
+            "強勢: YEARS, con·CERN, AN·cient, SET·tle, Poly·NE·sian",
+            "注意音: R(years/real/concern), TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "concern",
+        "tts": "concern"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 2,
+      "id": "w-settle",
+      "type": "word",
+      "front": "settle",
+      "meaning": "入植・定住させる",
+      "synonyms": [
+        "colonise"
+      ],
+      "collocation": "settle in a region, settle disputes",
+      "examples": [
+        {
+          "en": "For years it was a real concern how the ancient people first came to settle the Polynesian islands.",
+          "linking": "For years‿it was‿a real concern how the‿ancient people first came to settle the Polynesian islands.",
+          "tips": [
+            "連結: it‿was, was‿a, the‿ancient",
+            "弱形: for/it/was/a/the/to を弱く",
+            "強勢: YEARS, con·CERN, AN·cient, SET·tle, Poly·NE·sian",
+            "注意音: R(years/real/concern), TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "settle",
+        "tts": "settle"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 3,
+      "id": "w-available",
+      "type": "word",
+      "front": "available",
+      "meaning": "利用できる",
+      "synonyms": [
+        "accessible"
+      ],
+      "collocation": "readily available, make sth available",
+      "examples": [
+        {
+          "en": "With few resources available, they had to construct sturdy rafts and navigate by the stars to find their bearings.",
+          "linking": "With few resources‿available, they had to construct sturdy rafts‿and navigate by the stars to find‿their bearings.",
+          "tips": [
+            "連結: resources‿available, rafts‿and, find‿their",
+            "弱形: with/they/had/to/the/their",
+            "強勢: re·SOURCES, a·VAIL·able, con·STRUCT, NA·vigate, BEAR·ings",
+            "注意音: TH(the/their), R(resources/construct/stars)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "available",
+        "tts": "available"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 4,
+      "id": "w-construct",
+      "type": "word",
+      "front": "construct",
+      "meaning": "組み立てる/構築する",
+      "synonyms": [
+        "build"
+      ],
+      "collocation": "construct an argument",
+      "examples": [
+        {
+          "en": "With few resources available, they had to construct sturdy rafts and navigate by the stars to find their bearings.",
+          "linking": "With few resources‿available, they had to construct sturdy rafts‿and navigate by the stars to find‿their bearings.",
+          "tips": [
+            "連結: resources‿available, rafts‿and, find‿their",
+            "弱形: with/they/had/to/the/their",
+            "強勢: re·SOURCES, a·VAIL·able, con·STRUCT, NA·vigate, BEAR·ings",
+            "注意音: TH(the/their), R(resources/construct/stars)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "construct",
+        "tts": "construct"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 5,
+      "id": "w-favourable",
+      "type": "word",
+      "front": "favourable",
+      "meaning": "好都合な",
+      "synonyms": [
+        "advantageous"
+      ],
+      "collocation": "favourable conditions, a favourable outcome",
+      "examples": [
+        {
+          "en": "Favourable winds and fish as a source of food made the long voyage possible.",
+          "linking": "Favourable winds‿and fish‿as‿a source‿of food made the long voyage possible.",
+          "tips": [
+            "連結: winds‿and, as‿a, source‿of",
+            "弱形: and/as/a/of/the",
+            "強勢: FA·vourable, WINDS, SOURCE, VOY·age, POS·sible",
+            "注意音: V(favourable/voyage), R(favourable/source)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "favourable",
+        "tts": "favourable"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 6,
+      "id": "w-resolve",
+      "type": "word",
+      "front": "resolve",
+      "meaning": "解決する",
+      "synonyms": [
+        "settle"
+      ],
+      "collocation": "resolve an issue",
+      "pron": {
+        "lookup": "resolve",
+        "tts": "resolve"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 7,
+      "id": "w-source",
+      "type": "word",
+      "front": "source",
+      "meaning": "供給源",
+      "synonyms": [
+        "supply"
+      ],
+      "collocation": "a source of income / stress",
+      "examples": [
+        {
+          "en": "Favourable winds and fish as a source of food made the long voyage possible.",
+          "linking": "Favourable winds‿and fish‿as‿a source‿of food made the long voyage possible.",
+          "tips": [
+            "連結: winds‿and, as‿a, source‿of",
+            "弱形: and/as/a/of/the",
+            "強勢: FA·vourable, WINDS, SOURCE, VOY·age, POS·sible",
+            "注意音: V(favourable/voyage), R(favourable/source)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "source",
+        "tts": "source"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 8,
+      "id": "w-navigate",
+      "type": "word",
+      "front": "navigate",
+      "meaning": "航海・誘導する",
+      "synonyms": [
+        "steer"
+      ],
+      "collocation": "navigate challenges",
+      "examples": [
+        {
+          "en": "With few resources available, they had to construct sturdy rafts and navigate by the stars to find their bearings.",
+          "linking": "With few resources‿available, they had to construct sturdy rafts‿and navigate by the stars to find‿their bearings.",
+          "tips": [
+            "連結: resources‿available, rafts‿and, find‿their",
+            "弱形: with/they/had/to/the/their",
+            "強勢: re·SOURCES, a·VAIL·able, con·STRUCT, NA·vigate, BEAR·ings",
+            "注意音: TH(the/their), R(resources/construct/stars)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "navigate",
+        "tts": "navigate"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 9,
+      "id": "w-discover",
+      "type": "word",
+      "front": "discover",
+      "meaning": "発見する",
+      "synonyms": [
+        "come upon"
+      ],
+      "collocation": "discover that…, a recent discovery",
+      "examples": [
+        {
+          "en": "Thor Heyerdahl set out to discover the truth, leading an expedition from Peru on a raft he dubbed Kon-Tiki.",
+          "linking": "Thor Heyerdahl set‿out to discover the truth, leading‿an expedition from Peru on‿a raft he dubbed Kon-Tiki.",
+          "tips": [
+            "連結: set‿out=セッタウト, leading‿an, on‿a",
+            "弱形: to/the/an/from/on/a/he",
+            "強勢: dis·CO·ver, TRUTH, expe·DI·tion, Pe·RU, DUBBED",
+            "注意音: TH(truth), R(discover/truth/Peru/raft)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "discover",
+        "tts": "discover"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 10,
+      "id": "w-primitive",
+      "type": "word",
+      "front": "primitive",
+      "meaning": "原始的な",
+      "synonyms": [
+        "undeveloped"
+      ],
+      "collocation": "primitive tools / technology",
+      "examples": [
+        {
+          "en": "Some believe bold pioneers, skilled seafarers, sailed east using only primitive tools.",
+          "linking": "Some believe bold pioneers, skilled seafarers, sailed‿east‿using‿only primitive tools.",
+          "tips": [
+            "連結: sailed‿east, east‿using",
+            "弱形: some/only",
+            "強勢: be·LIEVE, pio·NEERS, SEA·farers, EAST, PRI·mitive",
+            "注意音: L(believe/skilled/sailed/only/tools), R(pioneers/seafarers/primitive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "primitive",
+        "tts": "primitive"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 11,
+      "id": "w-dog",
+      "type": "word",
+      "front": "dog",
+      "meaning": "気をもませる",
+      "pron": {
+        "lookup": "dog",
+        "tts": "dog"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 12,
+      "id": "w-pioneer",
+      "type": "word",
+      "front": "pioneer",
+      "meaning": "先駆者",
+      "examples": [
+        {
+          "en": "Some believe bold pioneers, skilled seafarers, sailed east using only primitive tools.",
+          "linking": "Some believe bold pioneers, skilled seafarers, sailed‿east‿using‿only primitive tools.",
+          "tips": [
+            "連結: sailed‿east, east‿using",
+            "弱形: some/only",
+            "強勢: be·LIEVE, pio·NEERS, SEA·farers, EAST, PRI·mitive",
+            "注意音: L(believe/skilled/sailed/only/tools), R(pioneers/seafarers/primitive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "pioneer",
+        "tts": "pioneer"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 13,
+      "id": "w-seafarer",
+      "type": "word",
+      "front": "seafarer",
+      "meaning": "船乗り",
+      "synonyms": [
+        "voyager",
+        "mariner"
+      ],
+      "examples": [
+        {
+          "en": "Some believe bold pioneers, skilled seafarers, sailed east using only primitive tools.",
+          "linking": "Some believe bold pioneers, skilled seafarers, sailed‿east‿using‿only primitive tools.",
+          "tips": [
+            "連結: sailed‿east, east‿using",
+            "弱形: some/only",
+            "強勢: be·LIEVE, pio·NEERS, SEA·farers, EAST, PRI·mitive",
+            "注意音: L(believe/skilled/sailed/only/tools), R(pioneers/seafarers/primitive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "seafarer",
+        "tts": "seafarer"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 14,
+      "id": "w-ancient",
+      "type": "word",
+      "front": "ancient",
+      "meaning": "先史の",
+      "synonyms": [
+        "prehistoric"
+      ],
+      "examples": [
+        {
+          "en": "For years it was a real concern how the ancient people first came to settle the Polynesian islands.",
+          "linking": "For years‿it was‿a real concern how the‿ancient people first came to settle the Polynesian islands.",
+          "tips": [
+            "連結: it‿was, was‿a, the‿ancient",
+            "弱形: for/it/was/a/the/to を弱く",
+            "強勢: YEARS, con·CERN, AN·cient, SET·tle, Poly·NE·sian",
+            "注意音: R(years/real/concern), TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "ancient",
+        "tts": "ancient"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 15,
+      "id": "w-voyage",
+      "type": "word",
+      "front": "voyage",
+      "meaning": "航海・探検",
+      "synonyms": [
+        "expedition"
+      ],
+      "examples": [
+        {
+          "en": "Favourable winds and fish as a source of food made the long voyage possible.",
+          "linking": "Favourable winds‿and fish‿as‿a source‿of food made the long voyage possible.",
+          "tips": [
+            "連結: winds‿and, as‿a, source‿of",
+            "弱形: and/as/a/of/the",
+            "強勢: FA·vourable, WINDS, SOURCE, VOY·age, POS·sible",
+            "注意音: V(favourable/voyage), R(favourable/source)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "voyage",
+        "tts": "voyage"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 16,
+      "id": "w-dub",
+      "type": "word",
+      "front": "dub",
+      "meaning": "名づける・作る",
+      "synonyms": [
+        "fashion"
+      ],
+      "examples": [
+        {
+          "en": "Thor Heyerdahl set out to discover the truth, leading an expedition from Peru on a raft he dubbed Kon-Tiki.",
+          "linking": "Thor Heyerdahl set‿out to discover the truth, leading‿an expedition from Peru on‿a raft he dubbed Kon-Tiki.",
+          "tips": [
+            "連結: set‿out=セッタウト, leading‿an, on‿a",
+            "弱形: to/the/an/from/on/a/he",
+            "強勢: dis·CO·ver, TRUTH, expe·DI·tion, Pe·RU, DUBBED",
+            "注意音: TH(truth), R(discover/truth/Peru/raft)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "dub",
+        "tts": "dub"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 17,
+      "id": "w-auspicious",
+      "type": "word",
+      "front": "auspicious",
+      "meaning": "幸運な",
+      "pron": {
+        "lookup": "auspicious",
+        "tts": "auspicious"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 18,
+      "id": "p-find-one-s-bearings",
+      "type": "phrase",
+      "front": "find one's bearings",
+      "meaning": "方角を知る",
+      "examples": [
+        {
+          "en": "With few resources available, they had to construct sturdy rafts and navigate by the stars to find their bearings.",
+          "linking": "With few resources‿available, they had to construct sturdy rafts‿and navigate by the stars to find‿their bearings.",
+          "tips": [
+            "連結: resources‿available, rafts‿and, find‿their",
+            "弱形: with/they/had/to/the/their",
+            "強勢: re·SOURCES, a·VAIL·able, con·STRUCT, NA·vigate, BEAR·ings",
+            "注意音: TH(the/their), R(resources/construct/stars)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "find one's bearings"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 19,
+      "id": "p-follow-in-one-s-footsteps",
+      "type": "phrase",
+      "front": "follow in one's footsteps",
+      "meaning": "足跡をたどる",
+      "pron": {
+        "tts": "follow in one's footsteps"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 20,
+      "id": "p-on-hand",
+      "type": "phrase",
+      "front": "on hand",
+      "meaning": "手元に",
+      "pron": {
+        "tts": "on hand"
+      },
+      "tags": [
+        "polynesia"
+      ],
+      "theme": 1,
+      "themeName": "ポリネシアの入植",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 21,
+      "id": "w-arguably",
+      "type": "word",
+      "front": "arguably",
+      "meaning": "おそらく",
+      "synonyms": [
+        "possibly"
+      ],
+      "collocation": "arguably the most important…",
+      "examples": [
+        {
+          "en": "Plastic is arguably one of the most useful inventions, since it can be formed into a huge variety of products.",
+          "linking": "Plastic‿is‿arguably one‿of the most useful‿inventions, since‿it can be formed‿into‿a huge variety‿of products.",
+          "tips": [
+            "連結: one‿of, formed‿into, variety‿of",
+            "弱形: is/of/the/it/can/be/a",
+            "強勢: AR·guably, USE·ful, FORMED, va·RI·ety, PRO·ducts",
+            "注意音: R(arguably/variety/products), V(useful/inventions/variety)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "arguably",
+        "tts": "arguably"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 22,
+      "id": "w-flexible",
+      "type": "word",
+      "front": "flexible",
+      "meaning": "柔軟な",
+      "synonyms": [
+        "malleable"
+      ],
+      "collocation": "a flexible approach / policy",
+      "pron": {
+        "lookup": "flexible",
+        "tts": "flexible"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 23,
+      "id": "w-form",
+      "type": "word",
+      "front": "form",
+      "meaning": "形成する",
+      "synonyms": [
+        "shape",
+        "mould"
+      ],
+      "collocation": "shape public opinion, take shape",
+      "examples": [
+        {
+          "en": "Plastic is arguably one of the most useful inventions, since it can be formed into a huge variety of products.",
+          "linking": "Plastic‿is‿arguably one‿of the most useful‿inventions, since‿it can be formed‿into‿a huge variety‿of products.",
+          "tips": [
+            "連結: one‿of, formed‿into, variety‿of",
+            "弱形: is/of/the/it/can/be/a",
+            "強勢: AR·guably, USE·ful, FORMED, va·RI·ety, PRO·ducts",
+            "注意音: R(arguably/variety/products), V(useful/inventions/variety)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "form",
+        "tts": "form"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 24,
+      "id": "p-a-variety-of",
+      "type": "phrase",
+      "front": "a variety of",
+      "meaning": "様々な",
+      "synonyms": [
+        "a wide range of"
+      ],
+      "collocation": "a wide range of options",
+      "examples": [
+        {
+          "en": "Plastic is arguably one of the most useful inventions, since it can be formed into a huge variety of products.",
+          "linking": "Plastic‿is‿arguably one‿of the most useful‿inventions, since‿it can be formed‿into‿a huge variety‿of products.",
+          "tips": [
+            "連結: one‿of, formed‿into, variety‿of",
+            "弱形: is/of/the/it/can/be/a",
+            "強勢: AR·guably, USE·ful, FORMED, va·RI·ety, PRO·ducts",
+            "注意音: R(arguably/variety/products), V(useful/inventions/variety)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "a variety of"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 25,
+      "id": "w-waterproof",
+      "type": "word",
+      "front": "waterproof",
+      "meaning": "防水の",
+      "synonyms": [
+        "impermeable"
+      ],
+      "collocation": "waterproof material",
+      "examples": [
+        {
+          "en": "A waterproof coating protects cables, while synthetic bottles are light and inexpensive.",
+          "linking": "A waterproof coating protects cables, while synthetic bottles‿are light‿and‿inexpensive.",
+          "tips": [
+            "連結: bottles‿are, light‿and",
+            "弱形: a/while/are/and",
+            "強勢: WA·terproof, COAT·ing, syn·THE·tic, inex·PEN·sive",
+            "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "waterproof",
+        "tts": "waterproof"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 26,
+      "id": "w-originate",
+      "type": "word",
+      "front": "originate",
+      "meaning": "～から生じる",
+      "synonyms": [
+        "spring from",
+        "stem from"
+      ],
+      "collocation": "problems originate from…",
+      "examples": [
+        {
+          "en": "The idea did not originate recently; mankind has used simple plastics since the medieval period.",
+          "linking": "The‿idea did not‿originate recently; mankind has‿used simple plastics since the medieval period.",
+          "tips": [
+            "連結: not‿originate, has‿used",
+            "弱形: the/did/not/has/since",
+            "強勢: i·DE·a, O·riginate, man·KIND, me·DI·eval",
+            "注意音: TH(the), R(originate/recently/period)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "originate",
+        "tts": "originate"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 27,
+      "id": "w-mankind",
+      "type": "word",
+      "front": "mankind",
+      "meaning": "人類",
+      "synonyms": [
+        "humanity"
+      ],
+      "collocation": "the future of mankind",
+      "examples": [
+        {
+          "en": "The idea did not originate recently; mankind has used simple plastics since the medieval period.",
+          "linking": "The‿idea did not‿originate recently; mankind has‿used simple plastics since the medieval period.",
+          "tips": [
+            "連結: not‿originate, has‿used",
+            "弱形: the/did/not/has/since",
+            "強勢: i·DE·a, O·riginate, man·KIND, me·DI·eval",
+            "注意音: TH(the), R(originate/recently/period)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "mankind",
+        "tts": "mankind"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 28,
+      "id": "p-the-medieval-period",
+      "type": "phrase",
+      "front": "the medieval period",
+      "meaning": "中世",
+      "synonyms": [
+        "the Middle Ages"
+      ],
+      "collocation": "in the medieval period",
+      "examples": [
+        {
+          "en": "The idea did not originate recently; mankind has used simple plastics since the medieval period.",
+          "linking": "The‿idea did not‿originate recently; mankind has‿used simple plastics since the medieval period.",
+          "tips": [
+            "連結: not‿originate, has‿used",
+            "弱形: the/did/not/has/since",
+            "強勢: i·DE·a, O·riginate, man·KIND, me·DI·eval",
+            "注意音: TH(the), R(originate/recently/period)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "the medieval period"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 29,
+      "id": "p-turning-point",
+      "type": "phrase",
+      "front": "turning point",
+      "meaning": "転機",
+      "synonyms": [
+        "watershed"
+      ],
+      "collocation": "a turning point in history",
+      "examples": [
+        {
+          "en": "The real turning point came in 1907, though one early inventor went bankrupt before success.",
+          "linking": "The real turning point came‿in 1907, though‿one early‿inventor went bankrupt before success.",
+          "tips": [
+            "連結: came‿in, though‿one, early‿inventor",
+            "弱形: the/in/though/one/before",
+            "強勢: REAL, TURN·ing POINT, in·VEN·tor, BANK·rupt, suc·CESS",
+            "注意音: TH(though), R(real/turning/inventor/before)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "turning point"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 30,
+      "id": "p-go-bankrupt",
+      "type": "phrase",
+      "front": "go bankrupt",
+      "meaning": "倒産する",
+      "synonyms": [
+        "go out of business"
+      ],
+      "collocation": "the firm went bankrupt",
+      "examples": [
+        {
+          "en": "The real turning point came in 1907, though one early inventor went bankrupt before success.",
+          "linking": "The real turning point came‿in 1907, though‿one early‿inventor went bankrupt before success.",
+          "tips": [
+            "連結: came‿in, though‿one, early‿inventor",
+            "弱形: the/in/though/one/before",
+            "強勢: REAL, TURN·ing POINT, in·VEN·tor, BANK·rupt, suc·CESS",
+            "注意音: TH(though), R(real/turning/inventor/before)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "go bankrupt"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 31,
+      "id": "w-synthetic",
+      "type": "word",
+      "front": "synthetic",
+      "meaning": "人工の",
+      "synonyms": [
+        "artificial",
+        "man-made"
+      ],
+      "collocation": "synthetic materials",
+      "examples": [
+        {
+          "en": "A waterproof coating protects cables, while synthetic bottles are light and inexpensive.",
+          "linking": "A waterproof coating protects cables, while synthetic bottles‿are light‿and‿inexpensive.",
+          "tips": [
+            "連結: bottles‿are, light‿and",
+            "弱形: a/while/are/and",
+            "強勢: WA·terproof, COAT·ing, syn·THE·tic, inex·PEN·sive",
+            "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "synthetic",
+        "tts": "synthetic"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 32,
+      "id": "p-be-made-from",
+      "type": "phrase",
+      "front": "be made from",
+      "meaning": "～でできている",
+      "synonyms": [
+        "be composed of"
+      ],
+      "collocation": "be made from recycled materials",
+      "pron": {
+        "tts": "be made from"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 33,
+      "id": "w-inexpensive",
+      "type": "word",
+      "front": "inexpensive",
+      "meaning": "安価な",
+      "synonyms": [
+        "cost-effective",
+        "economical"
+      ],
+      "collocation": "a cost-effective solution",
+      "examples": [
+        {
+          "en": "A waterproof coating protects cables, while synthetic bottles are light and inexpensive.",
+          "linking": "A waterproof coating protects cables, while synthetic bottles‿are light‿and‿inexpensive.",
+          "tips": [
+            "連結: bottles‿are, light‿and",
+            "弱形: a/while/are/and",
+            "強勢: WA·terproof, COAT·ing, syn·THE·tic, inex·PEN·sive",
+            "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "inexpensive",
+        "tts": "inexpensive"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 34,
+      "id": "w-impact",
+      "type": "word",
+      "front": "impact",
+      "meaning": "影響",
+      "synonyms": [
+        "effect",
+        "consequence"
+      ],
+      "collocation": "have a significant impact on",
+      "examples": [
+        {
+          "en": "Today the environmental impact of plastic is a growing concern, so biodegradable bottles have been launched.",
+          "linking": "Today the‿environmental‿impact‿of plastic‿is‿a growing concern, so biodegradable bottles have‿been launched.",
+          "tips": [
+            "連結: impact‿of, is‿a, have‿been",
+            "弱形: the/of/a/so/have/been",
+            "強勢: to·DAY, en·viron·MEN·tal, IM·pact, con·CERN, LAUNCHED",
+            "注意音: R(environmental/concern/growing), V(environmental/biodegradable)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "impact",
+        "tts": "impact"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 35,
+      "id": "p-a-growing-concern",
+      "type": "phrase",
+      "front": "a growing concern",
+      "meaning": "懸念の高まり",
+      "synonyms": [
+        "serious worry"
+      ],
+      "collocation": "a growing concern over…",
+      "examples": [
+        {
+          "en": "Today the environmental impact of plastic is a growing concern, so biodegradable bottles have been launched.",
+          "linking": "Today the‿environmental‿impact‿of plastic‿is‿a growing concern, so biodegradable bottles have‿been launched.",
+          "tips": [
+            "連結: impact‿of, is‿a, have‿been",
+            "弱形: the/of/a/so/have/been",
+            "強勢: to·DAY, en·viron·MEN·tal, IM·pact, con·CERN, LAUNCHED",
+            "注意音: R(environmental/concern/growing), V(environmental/biodegradable)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "a growing concern"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 36,
+      "id": "w-launch",
+      "type": "word",
+      "front": "launch",
+      "meaning": "世に出す",
+      "synonyms": [
+        "introduce"
+      ],
+      "collocation": "launch a product, introduce a policy",
+      "examples": [
+        {
+          "en": "Today the environmental impact of plastic is a growing concern, so biodegradable bottles have been launched.",
+          "linking": "Today the‿environmental‿impact‿of plastic‿is‿a growing concern, so biodegradable bottles have‿been launched.",
+          "tips": [
+            "連結: impact‿of, is‿a, have‿been",
+            "弱形: the/of/a/so/have/been",
+            "強勢: to·DAY, en·viron·MEN·tal, IM·pact, con·CERN, LAUNCHED",
+            "注意音: R(environmental/concern/growing), V(environmental/biodegradable)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "launch",
+        "tts": "launch"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 37,
+      "id": "w-coating",
+      "type": "word",
+      "front": "coating",
+      "meaning": "外層",
+      "synonyms": [
+        "outer layer"
+      ],
+      "examples": [
+        {
+          "en": "A waterproof coating protects cables, while synthetic bottles are light and inexpensive.",
+          "linking": "A waterproof coating protects cables, while synthetic bottles‿are light‿and‿inexpensive.",
+          "tips": [
+            "連結: bottles‿are, light‿and",
+            "弱形: a/while/are/and",
+            "強勢: WA·terproof, COAT·ing, syn·THE·tic, inex·PEN·sive",
+            "注意音: R(waterproof/protects/are), TH(synthetic), V(inexpensive)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "coating",
+        "tts": "coating"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 38,
+      "id": "w-shatterproof",
+      "type": "word",
+      "front": "shatterproof",
+      "meaning": "割れない",
+      "synonyms": [
+        "unbreakable"
+      ],
+      "pron": {
+        "lookup": "shatterproof",
+        "tts": "shatterproof"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 39,
+      "id": "w-see-through",
+      "type": "word",
+      "front": "see-through",
+      "meaning": "透明な",
+      "synonyms": [
+        "transparent"
+      ],
+      "pron": {
+        "lookup": "see-through",
+        "tts": "see-through"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 40,
+      "id": "p-earliest-origins",
+      "type": "phrase",
+      "front": "earliest origins",
+      "meaning": "最初の起源",
+      "synonyms": [
+        "first known use"
+      ],
+      "pron": {
+        "tts": "earliest origins"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 41,
+      "id": "p-be-derived-from",
+      "type": "phrase",
+      "front": "be derived from",
+      "meaning": "由来する",
+      "pron": {
+        "tts": "be derived from"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 42,
+      "id": "p-host-of",
+      "type": "phrase",
+      "front": "host of",
+      "meaning": "様々な",
+      "synonyms": [
+        "assortment of",
+        "diverse array of"
+      ],
+      "pron": {
+        "tts": "host of"
+      },
+      "tags": [
+        "plastic"
+      ],
+      "theme": 2,
+      "themeName": "プラスチック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

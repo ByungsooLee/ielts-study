@@ -1,0 +1,616 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 8,
+  "themeName": "ハイパーループ",
+  "version": "12398282",
+  "items": [
+    {
+      "n": 143,
+      "id": "p-overnight-success",
+      "type": "phrase",
+      "front": "overnight success",
+      "meaning": "一夜にして成功",
+      "synonyms": [
+        "instant success"
+      ],
+      "collocation": "achieve overnight success",
+      "examples": [
+        {
+          "en": "A famous entrepreneur who achieved overnight success online decided to invest in a groundbreaking train linking two metropolitan areas.",
+          "linking": "A famous‿entrepreneur who‿achieved‿overnight success‿online decided to‿invest‿in‿a groundbreaking train linking two metropolitan‿areas.",
+          "tips": [
+            "連結: invest‿in=インヴェスティン, achieved‿overnight, in‿a",
+            "弱形: a/who/to(=/tə/)/in",
+            "強勢: FA·mous, entrepre·NEUR, suc·CESS, in·VEST, GROUND·breaking",
+            "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "overnight success"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 144,
+      "id": "p-invest-in",
+      "type": "phrase",
+      "front": "invest in",
+      "meaning": "投資する",
+      "synonyms": [
+        "finance",
+        "put money into"
+      ],
+      "collocation": "invest in infrastructure",
+      "examples": [
+        {
+          "en": "A famous entrepreneur who achieved overnight success online decided to invest in a groundbreaking train linking two metropolitan areas.",
+          "linking": "A famous‿entrepreneur who‿achieved‿overnight success‿online decided to‿invest‿in‿a groundbreaking train linking two metropolitan‿areas.",
+          "tips": [
+            "連結: invest‿in=インヴェスティン, achieved‿overnight, in‿a",
+            "弱形: a/who/to(=/tə/)/in",
+            "強勢: FA·mous, entrepre·NEUR, suc·CESS, in·VEST, GROUND·breaking",
+            "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "invest in"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 145,
+      "id": "w-top-notch",
+      "type": "word",
+      "front": "top-notch",
+      "meaning": "最高の・一流の",
+      "synonyms": [
+        "first-rate",
+        "premier"
+      ],
+      "collocation": "top-notch facilities",
+      "pron": {
+        "lookup": "top-notch",
+        "tts": "top-notch"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 146,
+      "id": "w-metropolitan",
+      "type": "word",
+      "front": "metropolitan",
+      "meaning": "大都市の",
+      "synonyms": [
+        "urban"
+      ],
+      "collocation": "metropolitan areas, urban centres",
+      "examples": [
+        {
+          "en": "A famous entrepreneur who achieved overnight success online decided to invest in a groundbreaking train linking two metropolitan areas.",
+          "linking": "A famous‿entrepreneur who‿achieved‿overnight success‿online decided to‿invest‿in‿a groundbreaking train linking two metropolitan‿areas.",
+          "tips": [
+            "連結: invest‿in=インヴェスティン, achieved‿overnight, in‿a",
+            "弱形: a/who/to(=/tə/)/in",
+            "強勢: FA·mous, entrepre·NEUR, suc·CESS, in·VEST, GROUND·breaking",
+            "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "metropolitan",
+        "tts": "metropolitan"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 147,
+      "id": "w-groundbreaking",
+      "type": "word",
+      "front": "groundbreaking",
+      "meaning": "画期的な",
+      "synonyms": [
+        "revolutionary",
+        "innovative"
+      ],
+      "collocation": "a groundbreaking technique",
+      "examples": [
+        {
+          "en": "A famous entrepreneur who achieved overnight success online decided to invest in a groundbreaking train linking two metropolitan areas.",
+          "linking": "A famous‿entrepreneur who‿achieved‿overnight success‿online decided to‿invest‿in‿a groundbreaking train linking two metropolitan‿areas.",
+          "tips": [
+            "連結: invest‿in=インヴェスティン, achieved‿overnight, in‿a",
+            "弱形: a/who/to(=/tə/)/in",
+            "強勢: FA·mous, entrepre·NEUR, suc·CESS, in·VEST, GROUND·breaking",
+            "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "groundbreaking",
+        "tts": "groundbreaking"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 148,
+      "id": "p-stumbling-block",
+      "type": "phrase",
+      "front": "stumbling block",
+      "meaning": "障害",
+      "synonyms": [
+        "obstacle",
+        "impediment"
+      ],
+      "collocation": "a major stumbling block",
+      "pron": {
+        "tts": "stumbling block"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 149,
+      "id": "p-cut-expenditure",
+      "type": "phrase",
+      "front": "cut expenditure",
+      "meaning": "支出を抑える",
+      "synonyms": [
+        "reduce spending"
+      ],
+      "collocation": "cut expenditure on…",
+      "pron": {
+        "tts": "cut expenditure"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 150,
+      "id": "p-appetite-for",
+      "type": "phrase",
+      "front": "appetite for",
+      "meaning": "～への欲求",
+      "synonyms": [
+        "hunger",
+        "yearning for"
+      ],
+      "collocation": "an appetite for change",
+      "pron": {
+        "tts": "appetite for"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 151,
+      "id": "w-exorbitant",
+      "type": "word",
+      "front": "exorbitant",
+      "meaning": "法外な",
+      "synonyms": [
+        "excessive"
+      ],
+      "collocation": "exorbitant prices, excessive costs",
+      "examples": [
+        {
+          "en": "But there were obstacles. Tickets might be too exorbitant for ordinary people to afford.",
+          "linking": "But there‿were‿obstacles. Tickets might be too‿exorbitant for‿ordinary people to‿afford.",
+          "tips": [
+            "連結: there‿were, were‿obstacles, too‿exorbitant",
+            "弱形: there/were(=/wə/)/for(=/fə/)/to(=/tə/)",
+            "強勢: OB·stacles, TI·ckets, ex·OR·bitant, OR·dinary, af·FORD",
+            "注意音: R(there/exorbitant/ordinary/afford), TH(there)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "exorbitant",
+        "tts": "exorbitant"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 152,
+      "id": "w-afford",
+      "type": "word",
+      "front": "afford",
+      "meaning": "～する余裕がある",
+      "synonyms": [
+        "budget for"
+      ],
+      "collocation": "can't afford to…, afford a ticket",
+      "examples": [
+        {
+          "en": "But there were obstacles. Tickets might be too exorbitant for ordinary people to afford.",
+          "linking": "But there‿were‿obstacles. Tickets might be too‿exorbitant for‿ordinary people to‿afford.",
+          "tips": [
+            "連結: there‿were, were‿obstacles, too‿exorbitant",
+            "弱形: there/were(=/wə/)/for(=/fə/)/to(=/tə/)",
+            "強勢: OB·stacles, TI·ckets, ex·OR·bitant, OR·dinary, af·FORD",
+            "注意音: R(there/exorbitant/ordinary/afford), TH(there)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "afford",
+        "tts": "afford"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 153,
+      "id": "p-the-whole-picture",
+      "type": "phrase",
+      "front": "the whole picture",
+      "meaning": "全体像",
+      "synonyms": [
+        "the bigger picture"
+      ],
+      "collocation": "look at the whole picture",
+      "pron": {
+        "tts": "the whole picture"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 154,
+      "id": "p-set-down",
+      "type": "phrase",
+      "front": "set down",
+      "meaning": "(法律を)定める",
+      "synonyms": [
+        "enact",
+        "pass",
+        "legislate"
+      ],
+      "collocation": "enact a law, pass legislation",
+      "pron": {
+        "tts": "set down"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 155,
+      "id": "w-decelerate",
+      "type": "word",
+      "front": "decelerate",
+      "meaning": "減速する",
+      "synonyms": [
+        "slow down"
+      ],
+      "collocation": "the train decelerates",
+      "pron": {
+        "lookup": "decelerate",
+        "tts": "decelerate"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 156,
+      "id": "p-lengthy-delay",
+      "type": "phrase",
+      "front": "lengthy delay",
+      "meaning": "長期間の遅れ",
+      "synonyms": [
+        "prolonged delay"
+      ],
+      "collocation": "expect lengthy delays",
+      "pron": {
+        "tts": "lengthy delay"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 157,
+      "id": "w-sway",
+      "type": "word",
+      "front": "sway",
+      "meaning": "(人の心を)左右する",
+      "synonyms": [
+        "persuade",
+        "influence"
+      ],
+      "collocation": "sway public opinion, persuade sb to…",
+      "pron": {
+        "lookup": "sway",
+        "tts": "sway"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 158,
+      "id": "w-authorise",
+      "type": "word",
+      "front": "authorise",
+      "meaning": "認可する",
+      "synonyms": [
+        "approve",
+        "permit"
+      ],
+      "collocation": "authorise a project, approve plans",
+      "examples": [
+        {
+          "en": "Until the company can persuade local governments to authorise the project, the train of the future stays on the drawing board.",
+          "linking": "Until the company can persuade local governments to‿authorise the project, the train‿of the future stays‿on the drawing board.",
+          "tips": [
+            "連結: train‿of, stays‿on=ステイゾン",
+            "弱形: the/can(=/kən/)/to(=/tə/)/of(=/əv/)",
+            "強勢: COM·pany, per·SUADE, AU·thorise, PRO·ject, DRAW·ing BOARD",
+            "注意音: R(persuade/authorise/project/train/board), TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "authorise",
+        "tts": "authorise"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 159,
+      "id": "p-like-something-from-the-pages-of-a-novel",
+      "type": "phrase",
+      "front": "like something from the pages of a novel",
+      "meaning": "ありそうもない",
+      "synonyms": [
+        "far-fetched",
+        "improbable"
+      ],
+      "pron": {
+        "tts": "like something from the pages of a novel"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 160,
+      "id": "w-bankroll",
+      "type": "word",
+      "front": "bankroll",
+      "meaning": "出資する",
+      "pron": {
+        "lookup": "bankroll",
+        "tts": "bankroll"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 161,
+      "id": "w-zip",
+      "type": "word",
+      "front": "zip",
+      "meaning": "素早く走らせる",
+      "synonyms": [
+        "dart"
+      ],
+      "pron": {
+        "lookup": "zip",
+        "tts": "zip"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 162,
+      "id": "p-place-sb-in-harm-s-way",
+      "type": "phrase",
+      "front": "place sb in harm's way",
+      "meaning": "危険にさらす",
+      "pron": {
+        "tts": "place sb in harm's way"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 163,
+      "id": "p-take-a-spin",
+      "type": "phrase",
+      "front": "take a spin",
+      "meaning": "試乗する",
+      "synonyms": [
+        "have a go"
+      ],
+      "pron": {
+        "tts": "take a spin"
+      },
+      "tags": [
+        "hyperloop"
+      ],
+      "theme": 8,
+      "themeName": "ハイパーループ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t8",
+    "theme": 8,
+    "themeName": "ハイパーループ",
+    "jp": "オンラインで一夜にして成功した有名な起業家が、二つの大都市圏を結ぶ画期的な列車に投資することを決めた。だが障害があった。運賃は一般の人が払えないほど法外かもしれない。会社が地元政府を説得して計画を認可させるまで、未来の列車は設計図のままだ。",
+    "sentences": [
+      {
+        "en": "A famous entrepreneur who achieved overnight success online decided to invest in a groundbreaking train linking two metropolitan areas.",
+        "linking": "A famous‿entrepreneur who‿achieved‿overnight success‿online decided to‿invest‿in‿a groundbreaking train linking two metropolitan‿areas.",
+        "tips": [
+          "連結: invest‿in=インヴェスティン, achieved‿overnight, in‿a",
+          "弱形: a/who/to(=/tə/)/in",
+          "強勢: FA·mous, entrepre·NEUR, suc·CESS, in·VEST, GROUND·breaking",
+          "注意音: R(entrepreneur/areas/train), entrepreneur=アントレプレ·ヌァ"
+        ],
+        "targets": [
+          "p-overnight-success",
+          "p-invest-in",
+          "w-groundbreaking",
+          "w-metropolitan"
+        ]
+      },
+      {
+        "en": "But there were obstacles. Tickets might be too exorbitant for ordinary people to afford.",
+        "linking": "But there‿were‿obstacles. Tickets might be too‿exorbitant for‿ordinary people to‿afford.",
+        "tips": [
+          "連結: there‿were, were‿obstacles, too‿exorbitant",
+          "弱形: there/were(=/wə/)/for(=/fə/)/to(=/tə/)",
+          "強勢: OB·stacles, TI·ckets, ex·OR·bitant, OR·dinary, af·FORD",
+          "注意音: R(there/exorbitant/ordinary/afford), TH(there)"
+        ],
+        "targets": [
+          "w-exorbitant",
+          "w-afford"
+        ]
+      },
+      {
+        "en": "Until the company can persuade local governments to authorise the project, the train of the future stays on the drawing board.",
+        "linking": "Until the company can persuade local governments to‿authorise the project, the train‿of the future stays‿on the drawing board.",
+        "tips": [
+          "連結: train‿of, stays‿on=ステイゾン",
+          "弱形: the/can(=/kən/)/to(=/tə/)/of(=/əv/)",
+          "強勢: COM·pany, per·SUADE, AU·thorise, PRO·ject, DRAW·ing BOARD",
+          "注意音: R(persuade/authorise/project/train/board), TH(the)"
+        ],
+        "targets": [
+          "w-authorise"
+        ]
+      }
+    ]
+  }
+}

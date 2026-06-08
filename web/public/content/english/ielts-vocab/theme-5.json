@@ -1,0 +1,586 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 5,
+  "themeName": "ダンス",
+  "version": "aa6a11bc",
+  "items": [
+    {
+      "n": 86,
+      "id": "w-stimulate",
+      "type": "word",
+      "front": "stimulate",
+      "meaning": "刺激する",
+      "synonyms": [
+        "trigger",
+        "arouse"
+      ],
+      "collocation": "stimulate the brain, trigger emotions",
+      "examples": [
+        {
+          "en": "Dancing stimulates the brain like little else.",
+          "linking": "Dancing stimulates the brain like‿little‿else.",
+          "tips": [
+            "連結: little‿else=リトゥルエルス(L連結)",
+            "弱形: the を弱く",
+            "強勢: DAN·cing, STI·mulates, BRAIN, LIT·tle",
+            "注意音: stim-の/st/クラスター, littleのt(米=フラップ/英=明瞭)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "stimulate",
+        "tts": "stimulate"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 87,
+      "id": "w-uncertainty",
+      "type": "word",
+      "front": "uncertainty",
+      "meaning": "不確かなこと",
+      "synonyms": [
+        "ambiguity"
+      ],
+      "collocation": "a degree of uncertainty",
+      "examples": [
+        {
+          "en": "Despite some uncertainty, one theory is that a key factor is how music and movement combine to generate dopamine.",
+          "linking": "Despite some‿uncertainty, one theory‿is that‿a key factor‿is how music‿and movement combine to generate dopamine.",
+          "tips": [
+            "連結: factor‿is=ファクタリズ, music‿and",
+            "弱形: some/that/a/and(=/ən/)/to(=/tə/)",
+            "強勢: uncer·TAIN·ty, THEO·ry, FAC·tor, GE·nerate, DO·pamine",
+            "注意音: TH(theory/that), R(theory/factor)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "uncertainty",
+        "tts": "uncertainty"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 88,
+      "id": "w-theory",
+      "type": "word",
+      "front": "theory",
+      "meaning": "説・主張",
+      "synonyms": [
+        "argument"
+      ],
+      "collocation": "one theory is that…, a common argument",
+      "examples": [
+        {
+          "en": "Despite some uncertainty, one theory is that a key factor is how music and movement combine to generate dopamine.",
+          "linking": "Despite some‿uncertainty, one theory‿is that‿a key factor‿is how music‿and movement combine to generate dopamine.",
+          "tips": [
+            "連結: factor‿is=ファクタリズ, music‿and",
+            "弱形: some/that/a/and(=/ən/)/to(=/tə/)",
+            "強勢: uncer·TAIN·ty, THEO·ry, FAC·tor, GE·nerate, DO·pamine",
+            "注意音: TH(theory/that), R(theory/factor)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "theory",
+        "tts": "theory"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 89,
+      "id": "w-factor",
+      "type": "word",
+      "front": "factor",
+      "meaning": "要素・要因",
+      "synonyms": [
+        "element"
+      ],
+      "collocation": "a key factor, an essential element",
+      "examples": [
+        {
+          "en": "Despite some uncertainty, one theory is that a key factor is how music and movement combine to generate dopamine.",
+          "linking": "Despite some‿uncertainty, one theory‿is that‿a key factor‿is how music‿and movement combine to generate dopamine.",
+          "tips": [
+            "連結: factor‿is=ファクタリズ, music‿and",
+            "弱形: some/that/a/and(=/ən/)/to(=/tə/)",
+            "強勢: uncer·TAIN·ty, THEO·ry, FAC·tor, GE·nerate, DO·pamine",
+            "注意音: TH(theory/that), R(theory/factor)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "factor",
+        "tts": "factor"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 90,
+      "id": "w-straightforward",
+      "type": "word",
+      "front": "straightforward",
+      "meaning": "明快な・簡単な",
+      "synonyms": [
+        "uncomplicated"
+      ],
+      "collocation": "a straightforward explanation",
+      "pron": {
+        "lookup": "straightforward",
+        "tts": "straightforward"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 91,
+      "id": "w-generate",
+      "type": "word",
+      "front": "generate",
+      "meaning": "生み出す",
+      "synonyms": [
+        "produce"
+      ],
+      "collocation": "generate energy / dopamine",
+      "examples": [
+        {
+          "en": "Despite some uncertainty, one theory is that a key factor is how music and movement combine to generate dopamine.",
+          "linking": "Despite some‿uncertainty, one theory‿is that‿a key factor‿is how music‿and movement combine to generate dopamine.",
+          "tips": [
+            "連結: factor‿is=ファクタリズ, music‿and",
+            "弱形: some/that/a/and(=/ən/)/to(=/tə/)",
+            "強勢: uncer·TAIN·ty, THEO·ry, FAC·tor, GE·nerate, DO·pamine",
+            "注意音: TH(theory/that), R(theory/factor)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "generate",
+        "tts": "generate"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 92,
+      "id": "w-obvious",
+      "type": "word",
+      "front": "obvious",
+      "meaning": "明らかな",
+      "synonyms": [
+        "self-evident"
+      ],
+      "collocation": "it is obvious that…",
+      "examples": [
+        {
+          "en": "The brain loves to predict patterns, so watching a complex move we cannot foresee creates an intense rush of pleasure — it is obvious why we love the dance floor.",
+          "linking": "The brain loves to predict patterns, so watching‿a complex move we cannot foresee creates‿an‿intense rush‿of pleasure — it‿is‿obvious why we love the dance floor.",
+          "tips": [
+            "連結: watching‿a=ワッチンガ, rush‿of=ラッショヴ, it‿is=イティズ",
+            "弱形: to/a/an/of/the",
+            "強勢: pre·DICT, PAT·terns, com·PLEX, in·TENSE, OB·vious",
+            "注意音: R(predict/rush/floor), pleasureの/ʒ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "obvious",
+        "tts": "obvious"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 93,
+      "id": "w-predict",
+      "type": "word",
+      "front": "predict",
+      "meaning": "予測する",
+      "synonyms": [
+        "anticipate",
+        "foresee"
+      ],
+      "collocation": "predict the outcome, anticipate problems",
+      "examples": [
+        {
+          "en": "The brain loves to predict patterns, so watching a complex move we cannot foresee creates an intense rush of pleasure — it is obvious why we love the dance floor.",
+          "linking": "The brain loves to predict patterns, so watching‿a complex move we cannot foresee creates‿an‿intense rush‿of pleasure — it‿is‿obvious why we love the dance floor.",
+          "tips": [
+            "連結: watching‿a=ワッチンガ, rush‿of=ラッショヴ, it‿is=イティズ",
+            "弱形: to/a/an/of/the",
+            "強勢: pre·DICT, PAT·terns, com·PLEX, in·TENSE, OB·vious",
+            "注意音: R(predict/rush/floor), pleasureの/ʒ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "predict",
+        "tts": "predict"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 94,
+      "id": "w-complicated",
+      "type": "word",
+      "front": "complicated",
+      "meaning": "複雑な",
+      "synonyms": [
+        "complex"
+      ],
+      "collocation": "a complicated process, a complex system",
+      "pron": {
+        "lookup": "complicated",
+        "tts": "complicated"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 95,
+      "id": "w-intense",
+      "type": "word",
+      "front": "intense",
+      "meaning": "強烈な",
+      "synonyms": [
+        "deep"
+      ],
+      "collocation": "intense emotion, intense excitement",
+      "examples": [
+        {
+          "en": "The brain loves to predict patterns, so watching a complex move we cannot foresee creates an intense rush of pleasure — it is obvious why we love the dance floor.",
+          "linking": "The brain loves to predict patterns, so watching‿a complex move we cannot foresee creates‿an‿intense rush‿of pleasure — it‿is‿obvious why we love the dance floor.",
+          "tips": [
+            "連結: watching‿a=ワッチンガ, rush‿of=ラッショヴ, it‿is=イティズ",
+            "弱形: to/a/an/of/the",
+            "強勢: pre·DICT, PAT·terns, com·PLEX, in·TENSE, OB·vious",
+            "注意音: R(predict/rush/floor), pleasureの/ʒ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "intense",
+        "tts": "intense"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 96,
+      "id": "w-spectacular",
+      "type": "word",
+      "front": "spectacular",
+      "meaning": "目を見張る",
+      "synonyms": [
+        "impressive"
+      ],
+      "collocation": "a spectacular performance",
+      "pron": {
+        "lookup": "spectacular",
+        "tts": "spectacular"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 97,
+      "id": "w-coordination",
+      "type": "word",
+      "front": "coordination",
+      "meaning": "調整・調和",
+      "synonyms": [
+        "harmony"
+      ],
+      "pron": {
+        "lookup": "coordination",
+        "tts": "coordination"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 98,
+      "id": "w-puzzle",
+      "type": "word",
+      "front": "puzzle",
+      "meaning": "謎",
+      "synonyms": [
+        "mystery",
+        "riddle"
+      ],
+      "pron": {
+        "lookup": "puzzle",
+        "tts": "puzzle"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 99,
+      "id": "p-mounting-evidence",
+      "type": "phrase",
+      "front": "mounting evidence",
+      "meaning": "増える証拠",
+      "pron": {
+        "tts": "mounting evidence"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 100,
+      "id": "w-pattern",
+      "type": "word",
+      "front": "pattern",
+      "meaning": "パターン",
+      "synonyms": [
+        "sequence"
+      ],
+      "pron": {
+        "lookup": "pattern",
+        "tts": "pattern"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 101,
+      "id": "w-mirror",
+      "type": "word",
+      "front": "mirror",
+      "meaning": "真似する",
+      "synonyms": [
+        "mimic"
+      ],
+      "pron": {
+        "lookup": "mirror",
+        "tts": "mirror"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 102,
+      "id": "w-professional",
+      "type": "word",
+      "front": "professional",
+      "meaning": "プロの",
+      "synonyms": [
+        "expert"
+      ],
+      "pron": {
+        "lookup": "professional",
+        "tts": "professional"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 103,
+      "id": "w-surge",
+      "type": "word",
+      "front": "surge",
+      "meaning": "急増",
+      "synonyms": [
+        "flood"
+      ],
+      "pron": {
+        "lookup": "surge",
+        "tts": "surge"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 104,
+      "id": "w-anxious",
+      "type": "word",
+      "front": "anxious",
+      "meaning": "不安な",
+      "synonyms": [
+        "nervous"
+      ],
+      "pron": {
+        "lookup": "anxious",
+        "tts": "anxious"
+      },
+      "tags": [
+        "dance"
+      ],
+      "theme": 5,
+      "themeName": "ダンス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t5",
+    "theme": 5,
+    "themeName": "ダンス",
+    "jp": "ダンスは他に類を見ないほど脳を刺激する。多少の不確かさはあるが、一説では、音楽と動きが組み合わさってドーパミンを生み出す点が重要な要因だという。脳はパターンを予測するのが好きで、予見できない複雑な動きを見ると強烈な快感が湧く——私たちがダンスフロアを愛する理由は明らかだ。",
+    "sentences": [
+      {
+        "en": "Dancing stimulates the brain like little else.",
+        "linking": "Dancing stimulates the brain like‿little‿else.",
+        "tips": [
+          "連結: little‿else=リトゥルエルス(L連結)",
+          "弱形: the を弱く",
+          "強勢: DAN·cing, STI·mulates, BRAIN, LIT·tle",
+          "注意音: stim-の/st/クラスター, littleのt(米=フラップ/英=明瞭)"
+        ],
+        "targets": [
+          "w-stimulate"
+        ]
+      },
+      {
+        "en": "Despite some uncertainty, one theory is that a key factor is how music and movement combine to generate dopamine.",
+        "linking": "Despite some‿uncertainty, one theory‿is that‿a key factor‿is how music‿and movement combine to generate dopamine.",
+        "tips": [
+          "連結: factor‿is=ファクタリズ, music‿and",
+          "弱形: some/that/a/and(=/ən/)/to(=/tə/)",
+          "強勢: uncer·TAIN·ty, THEO·ry, FAC·tor, GE·nerate, DO·pamine",
+          "注意音: TH(theory/that), R(theory/factor)"
+        ],
+        "targets": [
+          "w-uncertainty",
+          "w-theory",
+          "w-factor",
+          "w-generate"
+        ]
+      },
+      {
+        "en": "The brain loves to predict patterns, so watching a complex move we cannot foresee creates an intense rush of pleasure — it is obvious why we love the dance floor.",
+        "linking": "The brain loves to predict patterns, so watching‿a complex move we cannot foresee creates‿an‿intense rush‿of pleasure — it‿is‿obvious why we love the dance floor.",
+        "tips": [
+          "連結: watching‿a=ワッチンガ, rush‿of=ラッショヴ, it‿is=イティズ",
+          "弱形: to/a/an/of/the",
+          "強勢: pre·DICT, PAT·terns, com·PLEX, in·TENSE, OB·vious",
+          "注意音: R(predict/rush/floor), pleasureの/ʒ/"
+        ],
+        "targets": [
+          "w-predict",
+          "w-intense",
+          "w-obvious"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,629 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 6,
+  "themeName": "AIによる芸術",
+  "version": "b8d9c034",
+  "items": [
+    {
+      "n": 105,
+      "id": "w-perspective",
+      "type": "word",
+      "front": "perspective",
+      "meaning": "見方・視点",
+      "synonyms": [
+        "viewpoint",
+        "standpoint"
+      ],
+      "collocation": "from my perspective, a different viewpoint",
+      "examples": [
+        {
+          "en": "AI art challenges our perspective on creativity.",
+          "linking": "AI‿art challenges‿our perspective‿on creativity.",
+          "tips": [
+            "連結: perspective‿on, challenges‿our",
+            "弱形: our/on を弱く",
+            "強勢: AI ART, CHAL·lenges, per·SPEC·tive, crea·TI·vity",
+            "注意音: R(art/our/perspective), creativity=クリエイ·TI·ヴィティ"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "perspective",
+        "tts": "perspective"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 106,
+      "id": "w-interpret",
+      "type": "word",
+      "front": "interpret",
+      "meaning": "解釈する",
+      "synonyms": [
+        "decipher"
+      ],
+      "collocation": "interpret a text, interpret data",
+      "examples": [
+        {
+          "en": "There is a real disparity between how experts and the public interpret such art — and a fear that automation will replace human artists.",
+          "linking": "There‿is‿a real disparity between how experts‿and the public‿interpret such‿art — and‿a fear that‿automation will replace human‿artists.",
+          "tips": [
+            "連結: there‿is‿a=ゼアリザ, experts‿and, such‿art",
+            "弱形: a/and(=/ən/)/the/that/will",
+            "強勢: dis·PA·rity, ex·PERTS, in·TER·pret, auto·MA·tion, re·PLACE",
+            "注意音: R(real/disparity/interpret/art), TH(there/the/that)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "interpret",
+        "tts": "interpret"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 107,
+      "id": "w-notion",
+      "type": "word",
+      "front": "notion",
+      "meaning": "考え方",
+      "synonyms": [
+        "concept",
+        "idea"
+      ],
+      "collocation": "the notion that…, an interesting concept",
+      "examples": [
+        {
+          "en": "At first, the notion that machines could paint was met with scepticism, yet the results were credible enough to fool experts.",
+          "linking": "At first, the notion that machines could paint was met‿with scepticism, yet the results were credible‿enough to fool experts.",
+          "tips": [
+            "連結: met‿with=メットウィズ, credible‿enough",
+            "弱形: the/that/was(=/wəz/)/with/to/were(=/wə/)",
+            "強勢: NO·tion, ma·CHINES, SCEP·ticism, CRE·dible, e·NOUGH",
+            "注意音: TH(the/that/with), scepticism=スケプティスィズム"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "notion",
+        "tts": "notion"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 108,
+      "id": "w-scepticism",
+      "type": "word",
+      "front": "scepticism",
+      "meaning": "懐疑",
+      "synonyms": [
+        "doubt"
+      ],
+      "collocation": "met with scepticism, express scepticism",
+      "examples": [
+        {
+          "en": "At first, the notion that machines could paint was met with scepticism, yet the results were credible enough to fool experts.",
+          "linking": "At first, the notion that machines could paint was met‿with scepticism, yet the results were credible‿enough to fool experts.",
+          "tips": [
+            "連結: met‿with=メットウィズ, credible‿enough",
+            "弱形: the/that/was(=/wəz/)/with/to/were(=/wə/)",
+            "強勢: NO·tion, ma·CHINES, SCEP·ticism, CRE·dible, e·NOUGH",
+            "注意音: TH(the/that/with), scepticism=スケプティスィズム"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "scepticism",
+        "tts": "scepticism"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 109,
+      "id": "w-credible",
+      "type": "word",
+      "front": "credible",
+      "meaning": "信じられる・もっともらしい",
+      "synonyms": [
+        "plausible"
+      ],
+      "collocation": "a credible explanation, a plausible argument",
+      "examples": [
+        {
+          "en": "At first, the notion that machines could paint was met with scepticism, yet the results were credible enough to fool experts.",
+          "linking": "At first, the notion that machines could paint was met‿with scepticism, yet the results were credible‿enough to fool experts.",
+          "tips": [
+            "連結: met‿with=メットウィズ, credible‿enough",
+            "弱形: the/that/was(=/wəz/)/with/to/were(=/wə/)",
+            "強勢: NO·tion, ma·CHINES, SCEP·ticism, CRE·dible, e·NOUGH",
+            "注意音: TH(the/that/with), scepticism=スケプティスィズム"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "credible",
+        "tts": "credible"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 110,
+      "id": "w-innovative",
+      "type": "word",
+      "front": "innovative",
+      "meaning": "革新的な",
+      "synonyms": [
+        "ingenious",
+        "groundbreaking"
+      ],
+      "collocation": "an innovative approach",
+      "examples": [
+        {
+          "en": "This innovative technology raises hard questions about value: the scarcity of an original gives it worth, so where does that leave a copy?",
+          "linking": "This‿innovative technology raises hard questions‿about value: the scarcity‿of‿an‿original gives‿it worth, so where does that leave‿a copy?",
+          "tips": [
+            "連結: of‿an, gives‿it=ギヴズィッ, scarcity‿of",
+            "弱形: about/the/of(=/əv/)/an/that/a",
+            "強勢: IN·novative, tech·NO·logy, SCAR·city, o·RI·ginal",
+            "注意音: TH(this/the/that/worth), V(innovative/value/gives)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "innovative",
+        "tts": "innovative"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 111,
+      "id": "w-value",
+      "type": "word",
+      "front": "value",
+      "meaning": "価値",
+      "synonyms": [
+        "worth"
+      ],
+      "collocation": "the true value of…, of great worth",
+      "examples": [
+        {
+          "en": "This innovative technology raises hard questions about value: the scarcity of an original gives it worth, so where does that leave a copy?",
+          "linking": "This‿innovative technology raises hard questions‿about value: the scarcity‿of‿an‿original gives‿it worth, so where does that leave‿a copy?",
+          "tips": [
+            "連結: of‿an, gives‿it=ギヴズィッ, scarcity‿of",
+            "弱形: about/the/of(=/əv/)/an/that/a",
+            "強勢: IN·novative, tech·NO·logy, SCAR·city, o·RI·ginal",
+            "注意音: TH(this/the/that/worth), V(innovative/value/gives)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "value",
+        "tts": "value"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 112,
+      "id": "w-priceless",
+      "type": "word",
+      "front": "priceless",
+      "meaning": "非常に貴重な",
+      "synonyms": [
+        "invaluable"
+      ],
+      "collocation": "priceless artwork, invaluable experience",
+      "pron": {
+        "lookup": "priceless",
+        "tts": "priceless"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 113,
+      "id": "w-disparity",
+      "type": "word",
+      "front": "disparity",
+      "meaning": "隔たり・差",
+      "synonyms": [
+        "gap",
+        "difference"
+      ],
+      "collocation": "a wide disparity, bridge the gap",
+      "examples": [
+        {
+          "en": "There is a real disparity between how experts and the public interpret such art — and a fear that automation will replace human artists.",
+          "linking": "There‿is‿a real disparity between how experts‿and the public‿interpret such‿art — and‿a fear that‿automation will replace human‿artists.",
+          "tips": [
+            "連結: there‿is‿a=ゼアリザ, experts‿and, such‿art",
+            "弱形: a/and(=/ən/)/the/that/will",
+            "強勢: dis·PA·rity, ex·PERTS, in·TER·pret, auto·MA·tion, re·PLACE",
+            "注意音: R(real/disparity/interpret/art), TH(there/the/that)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "disparity",
+        "tts": "disparity"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 114,
+      "id": "w-scarcity",
+      "type": "word",
+      "front": "scarcity",
+      "meaning": "希少性",
+      "synonyms": [
+        "rarity"
+      ],
+      "collocation": "scarcity of resources, due to its rarity",
+      "examples": [
+        {
+          "en": "This innovative technology raises hard questions about value: the scarcity of an original gives it worth, so where does that leave a copy?",
+          "linking": "This‿innovative technology raises hard questions‿about value: the scarcity‿of‿an‿original gives‿it worth, so where does that leave‿a copy?",
+          "tips": [
+            "連結: of‿an, gives‿it=ギヴズィッ, scarcity‿of",
+            "弱形: about/the/of(=/əv/)/an/that/a",
+            "強勢: IN·novative, tech·NO·logy, SCAR·city, o·RI·ginal",
+            "注意音: TH(this/the/that/worth), V(innovative/value/gives)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "scarcity",
+        "tts": "scarcity"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 115,
+      "id": "p-be-made-redundant",
+      "type": "phrase",
+      "front": "be made redundant",
+      "meaning": "解雇される",
+      "synonyms": [
+        "be laid off",
+        "lose one's job"
+      ],
+      "collocation": "be made redundant due to…",
+      "pron": {
+        "tts": "be made redundant"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 116,
+      "id": "w-automation",
+      "type": "word",
+      "front": "automation",
+      "meaning": "自動化",
+      "synonyms": [
+        "mechanisation"
+      ],
+      "collocation": "the rise of automation",
+      "examples": [
+        {
+          "en": "There is a real disparity between how experts and the public interpret such art — and a fear that automation will replace human artists.",
+          "linking": "There‿is‿a real disparity between how experts‿and the public‿interpret such‿art — and‿a fear that‿automation will replace human‿artists.",
+          "tips": [
+            "連結: there‿is‿a=ゼアリザ, experts‿and, such‿art",
+            "弱形: a/and(=/ən/)/the/that/will",
+            "強勢: dis·PA·rity, ex·PERTS, in·TER·pret, auto·MA·tion, re·PLACE",
+            "注意音: R(real/disparity/interpret/art), TH(there/the/that)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "automation",
+        "tts": "automation"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 117,
+      "id": "p-area-of-expertise",
+      "type": "phrase",
+      "front": "area of expertise",
+      "meaning": "専門分野",
+      "synonyms": [
+        "speciality"
+      ],
+      "collocation": "outside my area of expertise",
+      "pron": {
+        "tts": "area of expertise"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 118,
+      "id": "p-pose-a-problem",
+      "type": "phrase",
+      "front": "pose a problem",
+      "meaning": "疑問を投げかける",
+      "synonyms": [
+        "raise a question"
+      ],
+      "collocation": "this poses a problem, raise questions about",
+      "pron": {
+        "tts": "pose a problem"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 119,
+      "id": "p-from-scratch",
+      "type": "phrase",
+      "front": "from scratch",
+      "meaning": "一から",
+      "synonyms": [
+        "from the beginning"
+      ],
+      "pron": {
+        "tts": "from scratch"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 120,
+      "id": "w-fool",
+      "type": "word",
+      "front": "fool",
+      "meaning": "騙す",
+      "synonyms": [
+        "dupe",
+        "mislead"
+      ],
+      "pron": {
+        "lookup": "fool",
+        "tts": "fool"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 121,
+      "id": "p-lay-person",
+      "type": "phrase",
+      "front": "lay person",
+      "meaning": "一般人",
+      "synonyms": [
+        "the man on the street"
+      ],
+      "pron": {
+        "tts": "lay person"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 122,
+      "id": "w-haphazard",
+      "type": "word",
+      "front": "haphazard",
+      "meaning": "場当たり的な",
+      "synonyms": [
+        "erratic"
+      ],
+      "pron": {
+        "lookup": "haphazard",
+        "tts": "haphazard"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 123,
+      "id": "w-refuge",
+      "type": "word",
+      "front": "refuge",
+      "meaning": "避難所",
+      "synonyms": [
+        "sanctuary"
+      ],
+      "pron": {
+        "lookup": "refuge",
+        "tts": "refuge"
+      },
+      "tags": [
+        "ai-art"
+      ],
+      "theme": 6,
+      "themeName": "AIによる芸術",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t6",
+    "theme": 6,
+    "themeName": "AIによる芸術",
+    "jp": "AI芸術は創造性に対する私たちの見方を揺さぶる。当初、機械が絵を描けるという考え方は懐疑をもって受け止められたが、その結果は専門家を騙すほど本物らしかった。この革新的技術は価値について難しい問いを投げかける。原画の希少性がその価値を生むなら、複製はどうなるのか。専門家と一般人がこうした芸術を解釈する仕方には大きな隔たりがあり、自動化が人間の芸術家に取って代わるという恐れもある。",
+    "sentences": [
+      {
+        "en": "AI art challenges our perspective on creativity.",
+        "linking": "AI‿art challenges‿our perspective‿on creativity.",
+        "tips": [
+          "連結: perspective‿on, challenges‿our",
+          "弱形: our/on を弱く",
+          "強勢: AI ART, CHAL·lenges, per·SPEC·tive, crea·TI·vity",
+          "注意音: R(art/our/perspective), creativity=クリエイ·TI·ヴィティ"
+        ],
+        "targets": [
+          "w-perspective"
+        ]
+      },
+      {
+        "en": "At first, the notion that machines could paint was met with scepticism, yet the results were credible enough to fool experts.",
+        "linking": "At first, the notion that machines could paint was met‿with scepticism, yet the results were credible‿enough to fool experts.",
+        "tips": [
+          "連結: met‿with=メットウィズ, credible‿enough",
+          "弱形: the/that/was(=/wəz/)/with/to/were(=/wə/)",
+          "強勢: NO·tion, ma·CHINES, SCEP·ticism, CRE·dible, e·NOUGH",
+          "注意音: TH(the/that/with), scepticism=スケプティスィズム"
+        ],
+        "targets": [
+          "w-notion",
+          "w-scepticism",
+          "w-credible"
+        ]
+      },
+      {
+        "en": "This innovative technology raises hard questions about value: the scarcity of an original gives it worth, so where does that leave a copy?",
+        "linking": "This‿innovative technology raises hard questions‿about value: the scarcity‿of‿an‿original gives‿it worth, so where does that leave‿a copy?",
+        "tips": [
+          "連結: of‿an, gives‿it=ギヴズィッ, scarcity‿of",
+          "弱形: about/the/of(=/əv/)/an/that/a",
+          "強勢: IN·novative, tech·NO·logy, SCAR·city, o·RI·ginal",
+          "注意音: TH(this/the/that/worth), V(innovative/value/gives)"
+        ],
+        "targets": [
+          "w-innovative",
+          "w-value",
+          "w-scarcity"
+        ]
+      },
+      {
+        "en": "There is a real disparity between how experts and the public interpret such art — and a fear that automation will replace human artists.",
+        "linking": "There‿is‿a real disparity between how experts‿and the public‿interpret such‿art — and‿a fear that‿automation will replace human‿artists.",
+        "tips": [
+          "連結: there‿is‿a=ゼアリザ, experts‿and, such‿art",
+          "弱形: a/and(=/ən/)/the/that/will",
+          "強勢: dis·PA·rity, ex·PERTS, in·TER·pret, auto·MA·tion, re·PLACE",
+          "注意音: R(real/disparity/interpret/art), TH(there/the/that)"
+        ],
+        "targets": [
+          "w-disparity",
+          "w-interpret",
+          "w-automation"
+        ]
+      }
+    ]
+  }
+}

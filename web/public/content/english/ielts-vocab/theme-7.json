@@ -1,0 +1,565 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 7,
+  "themeName": "才能ある子どもの学校",
+  "version": "48034b0b",
+  "items": [
+    {
+      "n": 124,
+      "id": "w-gifted",
+      "type": "word",
+      "front": "gifted",
+      "meaning": "才能のある",
+      "synonyms": [
+        "talented",
+        "bright"
+      ],
+      "collocation": "a gifted child, academically gifted",
+      "examples": [
+        {
+          "en": "Our school exists to foster the talents of gifted children.",
+          "linking": "Our school‿exists to foster the talents‿of gifted children.",
+          "tips": [
+            "連結: talents‿of=タレンツォヴ, school‿exists",
+            "弱形: to/the/of を弱く",
+            "強勢: ex·ISTS, FOS·ter, TA·lents, GIF·ted, CHIL·dren",
+            "注意音: R(our/foster/children), TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "gifted",
+        "tts": "gifted"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 125,
+      "id": "w-blueprint",
+      "type": "word",
+      "front": "blueprint",
+      "meaning": "計画・構想",
+      "synonyms": [
+        "framework",
+        "model"
+      ],
+      "collocation": "a blueprint for success, a clear framework",
+      "examples": [
+        {
+          "en": "We follow a clear blueprint: rather than coddle pupils, we build their self-reliance and independence.",
+          "linking": "We follow‿a clear blueprint: rather than coddle pupils, we build their self-reliance‿and‿independence.",
+          "tips": [
+            "連結: follow‿a, reliance‿and",
+            "弱形: a/than(=/ðən/)/their/and(=/ən/)",
+            "強勢: FOL·low, BLUE·print, RA·ther, COD·dle, inde·PEN·dence",
+            "注意音: TH(rather/than/their), R(clear/rather/reliance)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "blueprint",
+        "tts": "blueprint"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 126,
+      "id": "w-progress",
+      "type": "word",
+      "front": "progress",
+      "meaning": "成長・進歩",
+      "synonyms": [
+        "advancement",
+        "betterment"
+      ],
+      "collocation": "make progress, career advancement",
+      "examples": [
+        {
+          "en": "Doing things alone compensates for time away from family, sparks creativity, and drives real progress.",
+          "linking": "Doing things‿alone compensates for time‿away from family, sparks creativity, and drives real progress.",
+          "tips": [
+            "連結: time‿away, away‿from=アウェイフロム, things‿alone",
+            "弱形: for(=/fə/)/from(=/frəm/)/and(=/ən/)",
+            "強勢: COM·pensates, FA·mily, crea·TI·vity, PRO·gress",
+            "注意音: TH(things), R(creativity/drives/real/progress)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "progress",
+        "tts": "progress"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 127,
+      "id": "w-foster",
+      "type": "word",
+      "front": "foster",
+      "meaning": "育成する",
+      "synonyms": [
+        "nurture",
+        "cultivate"
+      ],
+      "collocation": "foster independence, nurture talent",
+      "examples": [
+        {
+          "en": "Our school exists to foster the talents of gifted children.",
+          "linking": "Our school‿exists to foster the talents‿of gifted children.",
+          "tips": [
+            "連結: talents‿of=タレンツォヴ, school‿exists",
+            "弱形: to/the/of を弱く",
+            "強勢: ex·ISTS, FOS·ter, TA·lents, GIF·ted, CHIL·dren",
+            "注意音: R(our/foster/children), TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "foster",
+        "tts": "foster"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 128,
+      "id": "w-self-reliance",
+      "type": "word",
+      "front": "self-reliance",
+      "meaning": "自立",
+      "synonyms": [
+        "independence",
+        "autonomy"
+      ],
+      "collocation": "develop self-reliance, greater autonomy",
+      "examples": [
+        {
+          "en": "We follow a clear blueprint: rather than coddle pupils, we build their self-reliance and independence.",
+          "linking": "We follow‿a clear blueprint: rather than coddle pupils, we build their self-reliance‿and‿independence.",
+          "tips": [
+            "連結: follow‿a, reliance‿and",
+            "弱形: a/than(=/ðən/)/their/and(=/ən/)",
+            "強勢: FOL·low, BLUE·print, RA·ther, COD·dle, inde·PEN·dence",
+            "注意音: TH(rather/than/their), R(clear/rather/reliance)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "self-reliance",
+        "tts": "self-reliance"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 129,
+      "id": "p-compensate-for",
+      "type": "phrase",
+      "front": "compensate for",
+      "meaning": "～の埋め合わせをする",
+      "synonyms": [
+        "make up for"
+      ],
+      "collocation": "compensate for the lack of…",
+      "examples": [
+        {
+          "en": "Doing things alone compensates for time away from family, sparks creativity, and drives real progress.",
+          "linking": "Doing things‿alone compensates for time‿away from family, sparks creativity, and drives real progress.",
+          "tips": [
+            "連結: time‿away, away‿from=アウェイフロム, things‿alone",
+            "弱形: for(=/fə/)/from(=/frəm/)/and(=/ən/)",
+            "強勢: COM·pensates, FA·mily, crea·TI·vity, PRO·gress",
+            "注意音: TH(things), R(creativity/drives/real/progress)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "compensate for"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 130,
+      "id": "p-trial-and-error",
+      "type": "phrase",
+      "front": "trial and error",
+      "meaning": "試行錯誤",
+      "synonyms": [
+        "experimentation"
+      ],
+      "collocation": "through trial and error",
+      "pron": {
+        "tts": "trial and error"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 131,
+      "id": "w-inventiveness",
+      "type": "word",
+      "front": "inventiveness",
+      "meaning": "発想力・創造性",
+      "synonyms": [
+        "creativity",
+        "ingenuity"
+      ],
+      "collocation": "encourage creativity",
+      "pron": {
+        "lookup": "inventiveness",
+        "tts": "inventiveness"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 132,
+      "id": "p-channel-into",
+      "type": "phrase",
+      "front": "channel into",
+      "meaning": "～へ向ける",
+      "synonyms": [
+        "direct towards"
+      ],
+      "collocation": "channel energy into sport",
+      "pron": {
+        "tts": "channel into"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 133,
+      "id": "w-grant",
+      "type": "word",
+      "front": "grant",
+      "meaning": "補助金・奨学金",
+      "synonyms": [
+        "scholarship",
+        "stipend"
+      ],
+      "collocation": "provide grants, offer a scholarship",
+      "pron": {
+        "lookup": "grant",
+        "tts": "grant"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 134,
+      "id": "p-socially-disadvantaged",
+      "type": "phrase",
+      "front": "socially disadvantaged",
+      "meaning": "社会的に恵まれない",
+      "synonyms": [
+        "economically deprived"
+      ],
+      "collocation": "socially disadvantaged families",
+      "pron": {
+        "tts": "socially disadvantaged"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 135,
+      "id": "p-confidence-in",
+      "type": "phrase",
+      "front": "confidence in",
+      "meaning": "～に対する自信",
+      "synonyms": [
+        "faith",
+        "belief in"
+      ],
+      "collocation": "build confidence in oneself",
+      "pron": {
+        "tts": "confidence in"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 136,
+      "id": "p-rely-on",
+      "type": "phrase",
+      "front": "rely on",
+      "meaning": "～に頼る",
+      "synonyms": [
+        "depend on",
+        "count on"
+      ],
+      "collocation": "rely on others, count on support",
+      "pron": {
+        "tts": "rely on"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 137,
+      "id": "p-get-accustomed-to",
+      "type": "phrase",
+      "front": "get accustomed to",
+      "meaning": "～に慣れる",
+      "synonyms": [
+        "get used to"
+      ],
+      "collocation": "get accustomed to doing sth",
+      "pron": {
+        "tts": "get accustomed to"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 138,
+      "id": "w-coddle",
+      "type": "word",
+      "front": "coddle",
+      "meaning": "甘やかす",
+      "synonyms": [
+        "overprotect",
+        "baby"
+      ],
+      "pron": {
+        "lookup": "coddle",
+        "tts": "coddle"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 139,
+      "id": "p-immediate-family",
+      "type": "phrase",
+      "front": "immediate family",
+      "meaning": "身内",
+      "synonyms": [
+        "blood relative"
+      ],
+      "pron": {
+        "tts": "immediate family"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 140,
+      "id": "w-know-how",
+      "type": "word",
+      "front": "know-how",
+      "meaning": "ノウハウ",
+      "synonyms": [
+        "knowledge"
+      ],
+      "pron": {
+        "lookup": "know-how",
+        "tts": "know-how"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 141,
+      "id": "w-spur",
+      "type": "word",
+      "front": "spur",
+      "meaning": "促進する",
+      "synonyms": [
+        "stimulate"
+      ],
+      "pron": {
+        "lookup": "spur",
+        "tts": "spur"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 142,
+      "id": "p-in-one-s-care",
+      "type": "phrase",
+      "front": "in one's care",
+      "meaning": "監督下で",
+      "synonyms": [
+        "under supervision"
+      ],
+      "pron": {
+        "tts": "in one's care"
+      },
+      "tags": [
+        "gifted-school"
+      ],
+      "theme": 7,
+      "themeName": "才能ある子どもの学校",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t7",
+    "theme": 7,
+    "themeName": "才能ある子どもの学校",
+    "jp": "当校は才能ある子どもの能力を育むために存在する。明確な構想に従い、生徒を甘やかすのではなく、自立と自主性を育てる。自分で物事を行うことは家族と離れている時間を埋め合わせ、創造性を刺激し、本当の成長を促す。",
+    "sentences": [
+      {
+        "en": "Our school exists to foster the talents of gifted children.",
+        "linking": "Our school‿exists to foster the talents‿of gifted children.",
+        "tips": [
+          "連結: talents‿of=タレンツォヴ, school‿exists",
+          "弱形: to/the/of を弱く",
+          "強勢: ex·ISTS, FOS·ter, TA·lents, GIF·ted, CHIL·dren",
+          "注意音: R(our/foster/children), TH(the)"
+        ],
+        "targets": [
+          "w-foster",
+          "w-gifted"
+        ]
+      },
+      {
+        "en": "We follow a clear blueprint: rather than coddle pupils, we build their self-reliance and independence.",
+        "linking": "We follow‿a clear blueprint: rather than coddle pupils, we build their self-reliance‿and‿independence.",
+        "tips": [
+          "連結: follow‿a, reliance‿and",
+          "弱形: a/than(=/ðən/)/their/and(=/ən/)",
+          "強勢: FOL·low, BLUE·print, RA·ther, COD·dle, inde·PEN·dence",
+          "注意音: TH(rather/than/their), R(clear/rather/reliance)"
+        ],
+        "targets": [
+          "w-blueprint",
+          "w-self-reliance"
+        ]
+      },
+      {
+        "en": "Doing things alone compensates for time away from family, sparks creativity, and drives real progress.",
+        "linking": "Doing things‿alone compensates for time‿away from family, sparks creativity, and drives real progress.",
+        "tips": [
+          "連結: time‿away, away‿from=アウェイフロム, things‿alone",
+          "弱形: for(=/fə/)/from(=/frəm/)/and(=/ən/)",
+          "強勢: COM·pensates, FA·mily, crea·TI·vity, PRO·gress",
+          "注意音: TH(things), R(creativity/drives/real/progress)"
+        ],
+        "targets": [
+          "p-compensate-for",
+          "w-progress"
+        ]
+      }
+    ]
+  }
+}

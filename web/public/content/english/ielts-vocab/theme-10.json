@@ -1,0 +1,612 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 10,
+  "themeName": "なぜ人はウソをつくのか",
+  "version": "9585c8e6",
+  "items": [
+    {
+      "n": 185,
+      "id": "w-troubling",
+      "type": "word",
+      "front": "troubling",
+      "meaning": "問題となる",
+      "synonyms": [
+        "worrisome",
+        "disquieting"
+      ],
+      "collocation": "a troubling trend",
+      "examples": [
+        {
+          "en": "Lying may seem troubling, but it is an indication of a sophisticated brain.",
+          "linking": "Lying may seem troubling, but‿it‿is‿an‿indication‿of‿a sophisticated brain.",
+          "tips": [
+            "連結: it‿is‿an=イティザン, indication‿of, but‿it",
+            "弱形: but/it/an/of(=/əv/)/a",
+            "強勢: LY·ing, TROU·bling, indi·CA·tion, so·PHIS·ticated, BRAIN",
+            "注意音: R(troubling/brain), sophisticated=ソフィスティケイティッド"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "troubling",
+        "tts": "troubling"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 186,
+      "id": "w-indication",
+      "type": "word",
+      "front": "indication",
+      "meaning": "証・しるし",
+      "synonyms": [
+        "sign",
+        "evidence"
+      ],
+      "collocation": "a clear indication of…, a sign that…",
+      "examples": [
+        {
+          "en": "Lying may seem troubling, but it is an indication of a sophisticated brain.",
+          "linking": "Lying may seem troubling, but‿it‿is‿an‿indication‿of‿a sophisticated brain.",
+          "tips": [
+            "連結: it‿is‿an=イティザン, indication‿of, but‿it",
+            "弱形: but/it/an/of(=/əv/)/a",
+            "強勢: LY·ing, TROU·bling, indi·CA·tion, so·PHIS·ticated, BRAIN",
+            "注意音: R(troubling/brain), sophisticated=ソフィスティケイティッド"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "indication",
+        "tts": "indication"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 187,
+      "id": "w-sophisticated",
+      "type": "word",
+      "front": "sophisticated",
+      "meaning": "洗練された",
+      "synonyms": [
+        "refined",
+        "polished"
+      ],
+      "collocation": "a sophisticated system",
+      "examples": [
+        {
+          "en": "Lying may seem troubling, but it is an indication of a sophisticated brain.",
+          "linking": "Lying may seem troubling, but‿it‿is‿an‿indication‿of‿a sophisticated brain.",
+          "tips": [
+            "連結: it‿is‿an=イティザン, indication‿of, but‿it",
+            "弱形: but/it/an/of(=/əv/)/a",
+            "強勢: LY·ing, TROU·bling, indi·CA·tion, so·PHIS·ticated, BRAIN",
+            "注意音: R(troubling/brain), sophisticated=ソフィスティケイティッド"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "sophisticated",
+        "tts": "sophisticated"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 188,
+      "id": "w-deceitful",
+      "type": "word",
+      "front": "deceitful",
+      "meaning": "不正直な",
+      "synonyms": [
+        "deceptive",
+        "dishonest"
+      ],
+      "collocation": "deceitful behaviour",
+      "pron": {
+        "lookup": "deceitful",
+        "tts": "deceitful"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 189,
+      "id": "w-linguistic",
+      "type": "word",
+      "front": "linguistic",
+      "meaning": "言語の",
+      "synonyms": [
+        "verbal"
+      ],
+      "collocation": "linguistic ability, verbal skills",
+      "pron": {
+        "lookup": "linguistic",
+        "tts": "linguistic"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 190,
+      "id": "w-manipulate",
+      "type": "word",
+      "front": "manipulate",
+      "meaning": "操作する・説得する",
+      "synonyms": [
+        "persuade",
+        "convince"
+      ],
+      "collocation": "manipulate others, convince sb to do",
+      "examples": [
+        {
+          "en": "The skill of manipulating others without force was an evolutionary advantage, and skilled liars passed this trait to their children.",
+          "linking": "The skill‿of manipulating‿others without force was‿an‿evolutionary‿advantage, and skilled liars passed this trait to their children.",
+          "tips": [
+            "連結: skill‿of=スキロヴ, was‿an, manipulating‿others",
+            "弱形: of/without/was(=/wəz/)/an/and(=/ən/)/to(=/tə/)",
+            "強勢: ma·NI·pulating, with·OUT, evo·LU·tionary, ad·VAN·tage, TRAIT",
+            "注意音: TH(others/without/this/their), L(skill/skilled/liars)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "manipulate",
+        "tts": "manipulate"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 191,
+      "id": "w-trait",
+      "type": "word",
+      "front": "trait",
+      "meaning": "(性格上の)特徴",
+      "synonyms": [
+        "characteristic"
+      ],
+      "collocation": "a personality trait, a key characteristic",
+      "examples": [
+        {
+          "en": "The skill of manipulating others without force was an evolutionary advantage, and skilled liars passed this trait to their children.",
+          "linking": "The skill‿of manipulating‿others without force was‿an‿evolutionary‿advantage, and skilled liars passed this trait to their children.",
+          "tips": [
+            "連結: skill‿of=スキロヴ, was‿an, manipulating‿others",
+            "弱形: of/without/was(=/wəz/)/an/and(=/ən/)/to(=/tə/)",
+            "強勢: ma·NI·pulating, with·OUT, evo·LU·tionary, ad·VAN·tage, TRAIT",
+            "注意音: TH(others/without/this/their), L(skill/skilled/liars)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "trait",
+        "tts": "trait"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 192,
+      "id": "w-inflate",
+      "type": "word",
+      "front": "inflate",
+      "meaning": "誇張する",
+      "synonyms": [
+        "exaggerate"
+      ],
+      "collocation": "inflate figures, exaggerate the truth",
+      "pron": {
+        "lookup": "inflate",
+        "tts": "inflate"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 193,
+      "id": "w-standing",
+      "type": "word",
+      "front": "standing",
+      "meaning": "立場・地位",
+      "synonyms": [
+        "position",
+        "stature"
+      ],
+      "collocation": "social standing, improve one's stature",
+      "pron": {
+        "lookup": "standing",
+        "tts": "standing"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 194,
+      "id": "w-appease",
+      "type": "word",
+      "front": "appease",
+      "meaning": "なだめる",
+      "synonyms": [
+        "placate",
+        "mollify"
+      ],
+      "collocation": "appease angry people",
+      "pron": {
+        "lookup": "appease",
+        "tts": "appease"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 195,
+      "id": "w-tension",
+      "type": "word",
+      "front": "tension",
+      "meaning": "緊張",
+      "synonyms": [
+        "stress",
+        "strain"
+      ],
+      "collocation": "ease tension, cause strain",
+      "examples": [
+        {
+          "en": "We lie to exaggerate our image or to ease social tension.",
+          "linking": "We lie to‿exaggerate‿our‿image‿or to‿ease social tension.",
+          "tips": [
+            "連結: exaggerate‿our, image‿or, to‿ease",
+            "弱形: to(=/tə/)/our/or を弱く",
+            "強勢: LIE, ex·AG·gerate, I·mage, EASE, SO·cial, TEN·sion",
+            "注意音: R(exaggerate/our/or), exaggerate=イグ·ザ·ジャレイト, image=イミッジ"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "tension",
+        "tts": "tension"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 196,
+      "id": "w-milestone",
+      "type": "word",
+      "front": "milestone",
+      "meaning": "道しるべ・節目",
+      "synonyms": [
+        "turning point",
+        "landmark"
+      ],
+      "collocation": "a key milestone, a turning point",
+      "examples": [
+        {
+          "en": "Scientists who investigated child development found that learning to conceal the truth is actually a milestone — a sign the brain is reaching maturity.",
+          "linking": "Scientists who‿investigated child development found that learning to‿conceal the truth‿is‿actually‿a milestone — a sign the brain‿is reaching maturity.",
+          "tips": [
+            "連結: truth‿is, brain‿is=ブレイニズ, to‿conceal",
+            "弱形: who/that(=/ðət/)/to(=/tə/)/the/a/is",
+            "強勢: SCI·entists, in·VES·tigated, con·CEAL, MILE·stone, ma·TU·rity",
+            "注意音: TH(that/the/truth), R(reaching/maturity/learning), truth=トゥルース/θ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "milestone",
+        "tts": "milestone"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 197,
+      "id": "p-delve-into",
+      "type": "phrase",
+      "front": "delve into",
+      "meaning": "～を掘り下げて調べる",
+      "synonyms": [
+        "investigate",
+        "research"
+      ],
+      "collocation": "delve into the causes of…",
+      "pron": {
+        "tts": "delve into"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 198,
+      "id": "w-mask",
+      "type": "word",
+      "front": "mask",
+      "meaning": "隠す",
+      "synonyms": [
+        "cover up",
+        "disguise",
+        "conceal"
+      ],
+      "collocation": "mask one's feelings, cover up the truth",
+      "pron": {
+        "lookup": "mask",
+        "tts": "mask"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 199,
+      "id": "w-maturity",
+      "type": "word",
+      "front": "maturity",
+      "meaning": "成熟",
+      "synonyms": [
+        "adulthood"
+      ],
+      "collocation": "a sign of maturity, reach maturity",
+      "examples": [
+        {
+          "en": "Scientists who investigated child development found that learning to conceal the truth is actually a milestone — a sign the brain is reaching maturity.",
+          "linking": "Scientists who‿investigated child development found that learning to‿conceal the truth‿is‿actually‿a milestone — a sign the brain‿is reaching maturity.",
+          "tips": [
+            "連結: truth‿is, brain‿is=ブレイニズ, to‿conceal",
+            "弱形: who/that(=/ðət/)/to(=/tə/)/the/a/is",
+            "強勢: SCI·entists, in·VES·tigated, con·CEAL, MILE·stone, ma·TU·rity",
+            "注意音: TH(that/the/truth), R(reaching/maturity/learning), truth=トゥルース/θ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "maturity",
+        "tts": "maturity"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 200,
+      "id": "w-cognition",
+      "type": "word",
+      "front": "cognition",
+      "meaning": "認知力",
+      "synonyms": [
+        "thought process"
+      ],
+      "pron": {
+        "lookup": "cognition",
+        "tts": "cognition"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 201,
+      "id": "p-on-track",
+      "type": "phrase",
+      "front": "on track",
+      "meaning": "順調に",
+      "synonyms": [
+        "on target"
+      ],
+      "pron": {
+        "tts": "on track"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 202,
+      "id": "w-revealing",
+      "type": "word",
+      "front": "revealing",
+      "meaning": "わかりやすい",
+      "synonyms": [
+        "tell-tale"
+      ],
+      "pron": {
+        "lookup": "revealing",
+        "tts": "revealing"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 203,
+      "id": "p-sudden-leap",
+      "type": "phrase",
+      "front": "sudden leap",
+      "meaning": "急な上昇",
+      "synonyms": [
+        "rapid advancement"
+      ],
+      "pron": {
+        "tts": "sudden leap"
+      },
+      "tags": [
+        "lying"
+      ],
+      "theme": 10,
+      "themeName": "なぜ人はウソをつくのか",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t10",
+    "theme": 10,
+    "themeName": "なぜ人はウソをつくのか",
+    "jp": "ウソは問題に見えるが、実は洗練された脳の証だ。力を使わずに他人を操る技術は進化上の利点であり、巧みな嘘つきはこの特徴を子へ伝えた。人は自分のイメージを誇張するため、または社会的緊張を和らげるために嘘をつく。子どもの発達を調査した科学者は、真実を隠すことを学ぶのは実は節目——脳が成熟に近づいている印——だと突き止めた。",
+    "sentences": [
+      {
+        "en": "Lying may seem troubling, but it is an indication of a sophisticated brain.",
+        "linking": "Lying may seem troubling, but‿it‿is‿an‿indication‿of‿a sophisticated brain.",
+        "tips": [
+          "連結: it‿is‿an=イティザン, indication‿of, but‿it",
+          "弱形: but/it/an/of(=/əv/)/a",
+          "強勢: LY·ing, TROU·bling, indi·CA·tion, so·PHIS·ticated, BRAIN",
+          "注意音: R(troubling/brain), sophisticated=ソフィスティケイティッド"
+        ],
+        "targets": [
+          "w-troubling",
+          "w-indication",
+          "w-sophisticated"
+        ]
+      },
+      {
+        "en": "The skill of manipulating others without force was an evolutionary advantage, and skilled liars passed this trait to their children.",
+        "linking": "The skill‿of manipulating‿others without force was‿an‿evolutionary‿advantage, and skilled liars passed this trait to their children.",
+        "tips": [
+          "連結: skill‿of=スキロヴ, was‿an, manipulating‿others",
+          "弱形: of/without/was(=/wəz/)/an/and(=/ən/)/to(=/tə/)",
+          "強勢: ma·NI·pulating, with·OUT, evo·LU·tionary, ad·VAN·tage, TRAIT",
+          "注意音: TH(others/without/this/their), L(skill/skilled/liars)"
+        ],
+        "targets": [
+          "w-manipulate",
+          "w-trait"
+        ]
+      },
+      {
+        "en": "We lie to exaggerate our image or to ease social tension.",
+        "linking": "We lie to‿exaggerate‿our‿image‿or to‿ease social tension.",
+        "tips": [
+          "連結: exaggerate‿our, image‿or, to‿ease",
+          "弱形: to(=/tə/)/our/or を弱く",
+          "強勢: LIE, ex·AG·gerate, I·mage, EASE, SO·cial, TEN·sion",
+          "注意音: R(exaggerate/our/or), exaggerate=イグ·ザ·ジャレイト, image=イミッジ"
+        ],
+        "targets": [
+          "w-tension"
+        ]
+      },
+      {
+        "en": "Scientists who investigated child development found that learning to conceal the truth is actually a milestone — a sign the brain is reaching maturity.",
+        "linking": "Scientists who‿investigated child development found that learning to‿conceal the truth‿is‿actually‿a milestone — a sign the brain‿is reaching maturity.",
+        "tips": [
+          "連結: truth‿is, brain‿is=ブレイニズ, to‿conceal",
+          "弱形: who/that(=/ðət/)/to(=/tə/)/the/a/is",
+          "強勢: SCI·entists, in·VES·tigated, con·CEAL, MILE·stone, ma·TU·rity",
+          "注意音: TH(that/the/truth), R(reaching/maturity/learning), truth=トゥルース/θ/"
+        ],
+        "targets": [
+          "w-milestone",
+          "w-maturity"
+        ]
+      }
+    ]
+  }
+}

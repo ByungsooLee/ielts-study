@@ -4,9 +4,10 @@
    ※ idは front から固定生成。front を変えなければ毎回同じid＝上書き更新される。 */
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 
 const ROOT = path.join(__dirname, "..");
-const MD = fs.readFileSync(path.join(ROOT, "単語マスターリスト.md"), "utf8");
+const MD = fs.readFileSync(path.join(ROOT, "content-src", "単語マスターリスト.md"), "utf8");
 const today = new Date().toISOString().slice(0, 10);
 
 const THEME_TAG = {1:"polynesia",2:"plastic",3:"titanic",4:"beaver",5:"dance",
@@ -14,14 +15,16 @@ const THEME_TAG = {1:"polynesia",2:"plastic",3:"titanic",4:"beaver",5:"dance",
 
 /* ---- 発音コーチ・データ ---- */
 let COACH = {};
-try { COACH = require(path.join(__dirname, "pron-coach.js")); } catch (e) { /* 無くてもOK */ }
+try { COACH = require(path.join(ROOT, "content-src", "pron-coach.js")); } catch (e) { /* 無くてもOK */ }
 
 /* ---- 例文をデータ.jsの物語から取得（テーマ/文番号キー付き） ---- */
 const exMap = {};
+let STORY = [];               // data.js の物語（passages生成にも使う）
 try {
   const g = {};
   global.window = g;
-  require(path.join(ROOT, "ielts-vocab-data.js"));
+  require(path.join(ROOT, "content-src", "ielts-vocab-data.js"));
+  STORY = g.IELTS_DATA || [];
   const re = /\[([^\]]+)\]/g;
   (g.IELTS_DATA || []).forEach(t => t.story.forEach((s, idx) => {
     const clean = s.replace(re, (_, b) => b.split("|")[0]); // 表示形に戻す
@@ -158,23 +161,81 @@ const grammar=[
 grammar.forEach(g=>items.push({...g,_date:"2026-06-07"}));
 
 /* ---- 通し番号 n を付与（id→番号を台帳で固定。新規はmax+1。再生成してもズレない） ---- */
-const LEDGER=path.join(__dirname,"number-ledger.json");
+const LEDGER=path.join(ROOT,"content-src","number-ledger.json");
 let ledger={};
 try{ ledger=JSON.parse(fs.readFileSync(LEDGER,"utf8")); }catch(e){ /* 初回は空 */ }
 let maxN=Object.values(ledger).reduce((m,v)=>Math.max(m,v),0);
 items.forEach(it=>{ if(ledger[it.id]==null) ledger[it.id]=++maxN; it.n=ledger[it.id]; });
 fs.writeFileSync(LEDGER, JSON.stringify(ledger,null,2)+"\n");
 
+/* ---- passages（文脈モード用）: data.js の物語から生成 ---- */
+const itemIds = new Set(items.map(it=>it.id));
+const passages = STORY.map(t=>{
+  const sentences = (t.story||[]).map((s, idx)=>{
+    const targets=[];
+    const clean = s.replace(/\[([^\]]+)\]/g, (_, b)=>{
+      const f=b.split("|"); const base=(f[1]||f[0]).trim();
+      const tid=(isPhrase(base)?"p-":"w-")+slug(base);
+      if(itemIds.has(tid) && !targets.includes(tid)) targets.push(tid); // 存在する語だけ紐づけ
+      return f[0]; // 表示形に戻す
+    });
+    const c = COACH[`t${t.id}-s${idx+1}`] || {};
+    return { en: clean,
+      ...(c.linking?{linking:c.linking}:{}),
+      ...(c.tips?{tips:c.tips}:{}),
+      ...(targets.length?{targets}:{}) };
+  });
+  return { id:"t"+t.id, theme:t.id, themeName:t.title, ...(t.jp?{jp:t.jp}:{}), sentences };
+}).filter(p=>p.sentences.length).sort((a,b)=>a.theme-b.theme);
+
 /* ---- 出力（累積版＋日付ごとの差分版） ---- */
 // n を先頭付近に並べ、内部用 _date を除去
 const clean = arr => arr.map(({_date, n, id, type, ...rest})=>({ n, id, type, ...rest }));
 
-// 累積版（全件・upsertで何度でも安全）
-fs.writeFileSync(path.join(ROOT,"ielts-import.json"),
-  JSON.stringify({source:{book:"文脈で覚えるIELTS英単語",section:"01-10",added:today},items:clean(items)},null,2)+"\n");
+// 累積版（全件・upsertで何度でも安全）。passages も同梱（文脈モード用）
+fs.writeFileSync(path.join(ROOT,"sample","ielts-import.json"),
+  JSON.stringify({source:{book:"文脈で覚えるIELTS英単語",section:"01-10",added:today},items:clean(items),passages},null,2)+"\n");
+
+/* ---- 新レイアウト: domain/collection/theme でシャード＋目次(index.json) ----
+   静的(Pages)配信用。content/ 以下に出力。version は内容ハッシュ＝中身が変わった時だけ更新。 */
+const DOMAIN="english", COLLECTION="ielts-vocab", COLLECTION_NAME="IELTS単語帳";
+const hash = s => crypto.createHash("md5").update(s).digest("hex").slice(0,8);
+
+// 各itemに domain/collection を付与
+items.forEach(it=>{ it.domain=DOMAIN; it.collection=COLLECTION; });
+
+// テーマ別にまとめる（theme無し=0「汎用（文法など）」）
+const byTheme={};
+items.forEach(it=>{ const th=it.theme||0; (byTheme[th]=byTheme[th]||[]).push(it); });
+const passageByTheme={}; passages.forEach(p=>{ passageByTheme[p.theme]=p; });
+
+const CONTENT = path.join(ROOT,"web","public","content");
+const COLLDIR = path.join(CONTENT, DOMAIN, COLLECTION);
+fs.mkdirSync(COLLDIR, {recursive:true});
+
+const themeEntries=[];
+Object.keys(byTheme).map(Number).sort((a,b)=>a-b).forEach(th=>{
+  const list = byTheme[th];
+  const themeName = th===0 ? "汎用（文法など）" : (list[0].themeName || `テーマ${th}`);
+  const cleanItems = clean(list);                 // _date除去・n/id/type整列
+  const passage = passageByTheme[th] || null;
+  const version = hash(JSON.stringify({items:cleanItems, passage}));
+  const file = `${DOMAIN}/${COLLECTION}/theme-${th}.json`;
+  const body = { domain:DOMAIN, collection:COLLECTION, collectionName:COLLECTION_NAME,
+                 theme:th, themeName, version, items:cleanItems, ...(passage?{passage}:{}) };
+  fs.writeFileSync(path.join(CONTENT,file), JSON.stringify(body,null,2)+"\n");
+  themeEntries.push({ theme:th, themeName, count:cleanItems.length, file, version });
+});
+
+// 目次（最初にこれだけ取得。各themeのversionで差分判定）
+const index = {
+  version: hash(themeEntries.map(t=>t.theme+":"+t.version).join("|")),
+  collections: [ { id:COLLECTION, domain:DOMAIN, name:COLLECTION_NAME, kind:"vocab", themes:themeEntries } ]
+};
+fs.writeFileSync(path.join(CONTENT,"index.json"), JSON.stringify(index,null,2)+"\n");
 
 // 日付ごとの追記分（新しいバッチだけアップロードしたい時用）
-const IMPORTS=path.join(ROOT,"imports");
+const IMPORTS=path.join(ROOT,"sample","imports");
 fs.mkdirSync(IMPORTS,{recursive:true});
 const byDate={};
 items.forEach(it=>{(byDate[it._date]=byDate[it._date]||[]).push(it);});

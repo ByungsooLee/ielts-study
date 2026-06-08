@@ -1,0 +1,656 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 3,
+  "themeName": "タイタニック",
+  "version": "cf0d1af5",
+  "items": [
+    {
+      "n": 43,
+      "id": "w-depart",
+      "type": "word",
+      "front": "depart",
+      "meaning": "出発する",
+      "synonyms": [
+        "leave",
+        "set off"
+      ],
+      "collocation": "depart from, departure time",
+      "examples": [
+        {
+          "en": "When the Titanic departed from Ireland in 1912, few had any doubt it was unsinkable.",
+          "linking": "When the Titanic departed from Ireland in 1912, few had‿any doubt‿it was unsinkable.",
+          "tips": [
+            "連結: had‿any=ハダニ, doubt‿it=ダウティッ(tは弱く)",
+            "弱形: the/from/in/it/was を弱く(was=/wəz/)",
+            "強勢: Ti·TA·nic, de·PAR·ted, DOUBT, un·SINK·able",
+            "注意音: doubtのbは無音、TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "depart",
+        "tts": "depart"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 44,
+      "id": "w-lack",
+      "type": "word",
+      "front": "lack",
+      "meaning": "～が不足している",
+      "synonyms": [
+        "be short of",
+        "shortage of"
+      ],
+      "collocation": "a lack of resources, a shortage of staff",
+      "examples": [
+        {
+          "en": "Initially, the crew ignored the iceberg warnings, and a fatal lack of lifeboats turned the night into a tragedy.",
+          "linking": "Initially, the crew ignored the iceberg warnings, and‿a fatal lack‿of lifeboats turned the night‿into‿a tragedy.",
+          "tips": [
+            "連結: lack‿of=ラッコヴ, night‿into=ナイティントゥ",
+            "弱形: and=/ən/, of=/əv/, a=/ə/",
+            "強勢: i·NI·tially, ICE·berg, FA·tal, LACK, TRA·gedy",
+            "注意音: R(crew/ignored), V(of)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "lack",
+        "tts": "lack"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 45,
+      "id": "w-doubt",
+      "type": "word",
+      "front": "doubt",
+      "meaning": "疑い",
+      "synonyms": [
+        "scepticism"
+      ],
+      "collocation": "cast doubt on, there is little doubt that…",
+      "examples": [
+        {
+          "en": "When the Titanic departed from Ireland in 1912, few had any doubt it was unsinkable.",
+          "linking": "When the Titanic departed from Ireland in 1912, few had‿any doubt‿it was unsinkable.",
+          "tips": [
+            "連結: had‿any=ハダニ, doubt‿it=ダウティッ(tは弱く)",
+            "弱形: the/from/in/it/was を弱く(was=/wəz/)",
+            "強勢: Ti·TA·nic, de·PAR·ted, DOUBT, un·SINK·able",
+            "注意音: doubtのbは無音、TH(the)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "doubt",
+        "tts": "doubt"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 46,
+      "id": "w-initially",
+      "type": "word",
+      "front": "initially",
+      "meaning": "最初は",
+      "synonyms": [
+        "at first"
+      ],
+      "collocation": "initially planned, the initial stage",
+      "examples": [
+        {
+          "en": "Initially, the crew ignored the iceberg warnings, and a fatal lack of lifeboats turned the night into a tragedy.",
+          "linking": "Initially, the crew ignored the iceberg warnings, and‿a fatal lack‿of lifeboats turned the night‿into‿a tragedy.",
+          "tips": [
+            "連結: lack‿of=ラッコヴ, night‿into=ナイティントゥ",
+            "弱形: and=/ən/, of=/əv/, a=/ə/",
+            "強勢: i·NI·tially, ICE·berg, FA·tal, LACK, TRA·gedy",
+            "注意音: R(crew/ignored), V(of)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "initially",
+        "tts": "initially"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 47,
+      "id": "w-deteriorate",
+      "type": "word",
+      "front": "deteriorate",
+      "meaning": "悪化・劣化する",
+      "synonyms": [
+        "worsen",
+        "decline"
+      ],
+      "collocation": "conditions deteriorate, deteriorate rapidly",
+      "examples": [
+        {
+          "en": "Then, in collaboration with a French team, explorers made an astonishing discovery on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "linking": "Then, in collaboration with‿a French team, explorers made‿an astonishing discovery‿on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "tips": [
+            "連結: made‿an=メイダン, discovery‿on=ディスカヴァリオン",
+            "弱形: with/a/on/the を弱く",
+            "強勢: collabo·RA·tion, FRENCH, a·STON·ishing, dis·CO·very",
+            "注意音: TH(with/the/though), R(French/discovery/explorers)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "deteriorate",
+        "tts": "deteriorate"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 48,
+      "id": "w-discovery",
+      "type": "word",
+      "front": "discovery",
+      "meaning": "発見",
+      "synonyms": [
+        "finding"
+      ],
+      "collocation": "make a discovery, recent findings",
+      "examples": [
+        {
+          "en": "Then, in collaboration with a French team, explorers made an astonishing discovery on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "linking": "Then, in collaboration with‿a French team, explorers made‿an astonishing discovery‿on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "tips": [
+            "連結: made‿an=メイダン, discovery‿on=ディスカヴァリオン",
+            "弱形: with/a/on/the を弱く",
+            "強勢: collabo·RA·tion, FRENCH, a·STON·ishing, dis·CO·very",
+            "注意音: TH(with/the/though), R(French/discovery/explorers)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "discovery",
+        "tts": "discovery"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 49,
+      "id": "p-in-collaboration-with",
+      "type": "phrase",
+      "front": "in collaboration with",
+      "meaning": "～と協力して",
+      "synonyms": [
+        "in partnership with"
+      ],
+      "collocation": "work in collaboration with",
+      "examples": [
+        {
+          "en": "Then, in collaboration with a French team, explorers made an astonishing discovery on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "linking": "Then, in collaboration with‿a French team, explorers made‿an astonishing discovery‿on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+          "tips": [
+            "連結: made‿an=メイダン, discovery‿on=ディスカヴァリオン",
+            "弱形: with/a/on/the を弱く",
+            "強勢: collabo·RA·tion, FRENCH, a·STON·ishing, dis·CO·very",
+            "注意音: TH(with/the/though), R(French/discovery/explorers)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "in collaboration with"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 50,
+      "id": "p-previous-attempt",
+      "type": "phrase",
+      "front": "previous attempt",
+      "meaning": "以前の試み",
+      "synonyms": [
+        "earlier effort"
+      ],
+      "collocation": "previous attempts to…",
+      "examples": [
+        {
+          "en": "For decades, previous attempts to find the wreck all failed.",
+          "linking": "For decades, previous‿attempts to find the wreck‿all failed.",
+          "tips": [
+            "連結: previous‿attempts, wreck‿all=レッコール",
+            "弱形: for=/fə/, to=/tə/, the",
+            "強勢: DE·cades, at·TEMPTS, WRECK, FAILED",
+            "注意音: wreckのwは無音(/r/), V(previous)"
+          ]
+        }
+      ],
+      "pron": {
+        "tts": "previous attempt"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 51,
+      "id": "p-in-hindsight",
+      "type": "phrase",
+      "front": "in hindsight",
+      "meaning": "後で分かったが",
+      "synonyms": [
+        "looking back"
+      ],
+      "collocation": "in hindsight, it was a mistake",
+      "pron": {
+        "tts": "in hindsight"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 52,
+      "id": "p-accounts-vary",
+      "type": "phrase",
+      "front": "accounts vary",
+      "meaning": "諸説ある",
+      "synonyms": [
+        "opinions differ"
+      ],
+      "collocation": "accounts vary as to…",
+      "pron": {
+        "tts": "accounts vary"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 53,
+      "id": "w-recover",
+      "type": "word",
+      "front": "recover",
+      "meaning": "回収する",
+      "synonyms": [
+        "salvage"
+      ],
+      "pron": {
+        "lookup": "recover",
+        "tts": "recover"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 54,
+      "id": "p-the-ocean-floor",
+      "type": "phrase",
+      "front": "the ocean floor",
+      "meaning": "海底",
+      "synonyms": [
+        "seabed"
+      ],
+      "pron": {
+        "tts": "the ocean floor"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 55,
+      "id": "w-watertight",
+      "type": "word",
+      "front": "watertight",
+      "meaning": "防水・密閉",
+      "synonyms": [
+        "seal shut"
+      ],
+      "pron": {
+        "lookup": "watertight",
+        "tts": "watertight"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 56,
+      "id": "p-tight-timetable",
+      "type": "phrase",
+      "front": "tight timetable",
+      "meaning": "きつい予定",
+      "synonyms": [
+        "strict schedule"
+      ],
+      "pron": {
+        "tts": "tight timetable"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 57,
+      "id": "w-sink",
+      "type": "word",
+      "front": "sink",
+      "meaning": "沈む",
+      "synonyms": [
+        "go under"
+      ],
+      "pron": {
+        "lookup": "sink",
+        "tts": "sink"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 58,
+      "id": "w-remains",
+      "type": "word",
+      "front": "remains",
+      "meaning": "遺物・残骸",
+      "synonyms": [
+        "debris",
+        "wreckage"
+      ],
+      "pron": {
+        "lookup": "remains",
+        "tts": "remains"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 59,
+      "id": "w-site",
+      "type": "word",
+      "front": "site",
+      "meaning": "場所",
+      "synonyms": [
+        "location"
+      ],
+      "pron": {
+        "lookup": "site",
+        "tts": "site"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 60,
+      "id": "w-intact",
+      "type": "word",
+      "front": "intact",
+      "meaning": "無傷の",
+      "synonyms": [
+        "undamaged"
+      ],
+      "pron": {
+        "lookup": "intact",
+        "tts": "intact"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 61,
+      "id": "p-split-in-half",
+      "type": "phrase",
+      "front": "split in half",
+      "meaning": "二つに割れる",
+      "synonyms": [
+        "break in two"
+      ],
+      "pron": {
+        "tts": "split in half"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 62,
+      "id": "p-leave-exposed",
+      "type": "phrase",
+      "front": "leave exposed",
+      "meaning": "さらす",
+      "pron": {
+        "tts": "leave exposed"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 63,
+      "id": "w-corrode",
+      "type": "word",
+      "front": "corrode",
+      "meaning": "腐食する",
+      "synonyms": [
+        "erode"
+      ],
+      "pron": {
+        "lookup": "corrode",
+        "tts": "corrode"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 64,
+      "id": "p-treasure-trove",
+      "type": "phrase",
+      "front": "treasure trove",
+      "meaning": "埋蔵品",
+      "synonyms": [
+        "artefacts"
+      ],
+      "pron": {
+        "tts": "treasure trove"
+      },
+      "tags": [
+        "titanic"
+      ],
+      "theme": 3,
+      "themeName": "タイタニック",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t3",
+    "theme": 3,
+    "themeName": "タイタニック",
+    "jp": "1912年にタイタニックがアイルランドを出発した時、それが沈むと疑う者はほとんどいなかった。当初、乗組員は氷山警告を無視し、救命ボートの致命的な不足が悲劇を生んだ。何十年もの間、残骸を見つける以前の試みはすべて失敗した。やがてフランスのチームと協力して、探検家たちは海底で驚くべき発見をした——船体は70年の海中で激しく劣化していたが。",
+    "sentences": [
+      {
+        "en": "When the Titanic departed from Ireland in 1912, few had any doubt it was unsinkable.",
+        "linking": "When the Titanic departed from Ireland in 1912, few had‿any doubt‿it was unsinkable.",
+        "tips": [
+          "連結: had‿any=ハダニ, doubt‿it=ダウティッ(tは弱く)",
+          "弱形: the/from/in/it/was を弱く(was=/wəz/)",
+          "強勢: Ti·TA·nic, de·PAR·ted, DOUBT, un·SINK·able",
+          "注意音: doubtのbは無音、TH(the)"
+        ],
+        "targets": [
+          "w-depart",
+          "w-doubt"
+        ]
+      },
+      {
+        "en": "Initially, the crew ignored the iceberg warnings, and a fatal lack of lifeboats turned the night into a tragedy.",
+        "linking": "Initially, the crew ignored the iceberg warnings, and‿a fatal lack‿of lifeboats turned the night‿into‿a tragedy.",
+        "tips": [
+          "連結: lack‿of=ラッコヴ, night‿into=ナイティントゥ",
+          "弱形: and=/ən/, of=/əv/, a=/ə/",
+          "強勢: i·NI·tially, ICE·berg, FA·tal, LACK, TRA·gedy",
+          "注意音: R(crew/ignored), V(of)"
+        ],
+        "targets": [
+          "w-initially",
+          "w-lack"
+        ]
+      },
+      {
+        "en": "For decades, previous attempts to find the wreck all failed.",
+        "linking": "For decades, previous‿attempts to find the wreck‿all failed.",
+        "tips": [
+          "連結: previous‿attempts, wreck‿all=レッコール",
+          "弱形: for=/fə/, to=/tə/, the",
+          "強勢: DE·cades, at·TEMPTS, WRECK, FAILED",
+          "注意音: wreckのwは無音(/r/), V(previous)"
+        ],
+        "targets": [
+          "p-previous-attempt"
+        ]
+      },
+      {
+        "en": "Then, in collaboration with a French team, explorers made an astonishing discovery on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+        "linking": "Then, in collaboration with‿a French team, explorers made‿an astonishing discovery‿on the seabed — though the hull had badly deteriorated after seventy years underwater.",
+        "tips": [
+          "連結: made‿an=メイダン, discovery‿on=ディスカヴァリオン",
+          "弱形: with/a/on/the を弱く",
+          "強勢: collabo·RA·tion, FRENCH, a·STON·ishing, dis·CO·very",
+          "注意音: TH(with/the/though), R(French/discovery/explorers)"
+        ],
+        "targets": [
+          "p-in-collaboration-with",
+          "w-discovery",
+          "w-deteriorate"
+        ]
+      }
+    ]
+  }
+}

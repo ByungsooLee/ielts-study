@@ -1,0 +1,73 @@
+{
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 0,
+  "themeName": "汎用（文法など）",
+  "version": "b21d5528",
+  "items": [
+    {
+      "n": 204,
+      "id": "g-past-perfect",
+      "type": "grammar",
+      "front": "had + 過去分詞（過去完了）",
+      "meaning": "過去のある時点より前に完了した動作・状態を表す",
+      "examples": [
+        {
+          "en": "By 1985, previous attempts had all failed.",
+          "jp": "1985年までに、以前の試みは全て失敗していた。"
+        }
+      ],
+      "pron": {
+        "tts": "By 1985, previous attempts had all failed."
+      },
+      "tags": [
+        "grammar"
+      ],
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 205,
+      "id": "g-uncountable-evidence",
+      "type": "grammar",
+      "front": "不可算名詞（evidence など）",
+      "meaning": "evidence/information/advice/research/progress は不可算。複数形・a/many は不可。much/a lot of を使う",
+      "examples": [
+        {
+          "en": "There is a lot of evidence for this.",
+          "jp": "これには多くの証拠がある。（×many evidences）"
+        }
+      ],
+      "pron": {
+        "tts": "There is a lot of evidence for this."
+      },
+      "tags": [
+        "grammar"
+      ],
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 206,
+      "id": "g-move-usage",
+      "type": "grammar",
+      "front": "move の用法（移住 vs 移動）",
+      "meaning": "move は『永続的に住む場所を移す』時に使う。日常の移動には go を使う",
+      "examples": [
+        {
+          "en": "I go to work by train.",
+          "jp": "電車で通勤します。（×I move to work by train）"
+        }
+      ],
+      "pron": {
+        "tts": "I go to work by train."
+      },
+      "tags": [
+        "grammar"
+      ],
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}
