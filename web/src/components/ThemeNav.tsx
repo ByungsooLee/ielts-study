@@ -19,6 +19,9 @@ interface Props {
   themeRangeMin: number | null;
   hasOther: boolean;
   themeStats?: ThemeStat[];
+  /** genre=ジャンル名を主表示（文法向け） */
+  variant?: "theme" | "genre";
+  panelTitle?: string;
   onThemeFilter: (filter: ThemeFilter) => void;
   onThemeRange: (range: ThemeRange | null) => void;
 }
@@ -33,6 +36,8 @@ export function ThemeNav({
   themeRangeMin,
   hasOther,
   themeStats,
+  variant = "theme",
+  panelTitle,
   onThemeFilter,
   onThemeRange,
 }: Props) {
@@ -131,7 +136,9 @@ export function ThemeNav({
   if (!stats.length) {
     return (
       <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-800 dark:bg-amber-950/40">
-        <p className="text-sm font-medium text-amber-900 dark:text-amber-200">テーマ番号がありません</p>
+        <p className="text-sm font-medium text-amber-900 dark:text-amber-200">
+          {variant === "genre" ? "ジャンルがありません" : "テーマ番号がありません"}
+        </p>
         <p className="mt-1 text-sm text-amber-800 dark:text-amber-300">
           教材に <code className="rounded bg-amber-100 px-1 dark:bg-amber-900">theme</code> /{" "}
           <code className="rounded bg-amber-100 px-1 dark:bg-amber-900">themeName</code>{" "}
@@ -169,15 +176,15 @@ export function ThemeNav({
       <div
         className="flex gap-2 overflow-x-auto pb-1 sm:grid sm:grid-cols-5 sm:overflow-visible lg:grid-cols-6"
         role="group"
-        aria-label="テーマ番号"
+        aria-label={variant === "genre" ? "ジャンル" : "テーマ番号"}
       >
         <button
           type="button"
           aria-pressed={allActive}
-          aria-label={`全部 ${allCount}語`}
-          className={`relative flex min-w-[4.5rem] shrink-0 flex-col items-center rounded-xl px-3 py-3 transition-colors ${
-            allActive ? `${style.active} ${style.ring}` : style.inactive
-          }`}
+          aria-label={`全部 ${allCount}件`}
+          className={`relative flex shrink-0 flex-col items-center rounded-xl px-3 py-3 transition-colors ${
+            variant === "genre" ? "min-w-[5rem]" : "min-w-[4.5rem]"
+          } ${allActive ? `${style.active} ${style.ring}` : style.inactive}`}
           onClick={() => onThemeFilter("all")}
         >
           <span className="text-lg font-bold leading-none">全部</span>
@@ -191,11 +198,11 @@ export function ThemeNav({
               key={t.num}
               type="button"
               aria-pressed={pressed}
-              aria-label={`テーマ${t.num} ${t.name} ${t.count}語`}
+              aria-label={`${t.name} ${t.count}件`}
               title={t.name}
-              className={`relative flex min-w-[4.5rem] shrink-0 flex-col items-center rounded-xl px-2 py-3 transition-colors ${
-                pressed ? `${style.active} ${style.ring}` : style.inactive
-              }`}
+              className={`relative flex shrink-0 flex-col items-center rounded-xl px-2 py-3 transition-colors ${
+                variant === "genre" ? "min-w-[5.5rem]" : "min-w-[4.5rem]"
+              } ${pressed ? `${style.active} ${style.ring}` : style.inactive}`}
               onClick={() => onThemeFilter(t.num)}
             >
               <span
@@ -205,14 +212,20 @@ export function ThemeNav({
               >
                 {t.count}
               </span>
-              <span className="text-2xl font-bold leading-none">{t.num}</span>
-              <span
-                className={`mt-1 max-w-full truncate text-center text-[10px] leading-tight ${
-                  pressed ? "text-white/90" : "text-slate-500 dark:text-slate-400"
-                }`}
-              >
-                {t.name}
-              </span>
+              {variant === "genre" ? (
+                <span className="px-1 text-center text-sm font-bold leading-tight">{t.name}</span>
+              ) : (
+                <>
+                  <span className="text-2xl font-bold leading-none">{t.num}</span>
+                  <span
+                    className={`mt-1 max-w-full truncate text-center text-[10px] leading-tight ${
+                      pressed ? "text-white/90" : "text-slate-500 dark:text-slate-400"
+                    }`}
+                  >
+                    {t.name}
+                  </span>
+                </>
+              )}
             </button>
           );
         })}
@@ -243,7 +256,9 @@ export function ThemeNav({
   return (
     <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-700 dark:bg-slate-900">
       <div className="flex items-center justify-between gap-2">
-        <p className="text-sm font-medium text-slate-800 dark:text-slate-200">テーマ</p>
+        <p className="text-sm font-medium text-slate-800 dark:text-slate-200">
+          {panelTitle ?? (variant === "genre" ? "ジャンル" : "テーマ")}
+        </p>
         <button
           type="button"
           className="rounded-lg border px-3 py-1.5 text-sm md:hidden dark:border-slate-600"

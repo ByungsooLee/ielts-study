@@ -1,5 +1,5 @@
 {
-  "version": "c0d010d3",
+  "version": "053e580e",
   "collections": [
     {
       "id": "ielts-vocab",
@@ -83,6 +83,35 @@
           "count": 19,
           "file": "english/ielts-vocab/theme-10.json",
           "version": "89ccb28a"
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "domain": "english",
+      "name": "文法",
+      "kind": "grammar",
+      "themes": [
+        {
+          "theme": 1,
+          "themeName": "動詞",
+          "count": 4,
+          "file": "english/grammar/genre-1.json",
+          "version": "7ae6df22"
+        },
+        {
+          "theme": 2,
+          "themeName": "句動詞",
+          "count": 4,
+          "file": "english/grammar/genre-2.json",
+          "version": "249ce4fc"
+        },
+        {
+          "theme": 3,
+          "themeName": "時制",
+          "count": 11,
+          "file": "english/grammar/genre-3.json",
+          "version": "38b3f5b8"
         }
       ]
     },

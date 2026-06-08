@@ -21,6 +21,12 @@ export interface Example {
   stressWords?: string[];
 }
 
+export interface GrammarCloze {
+  q: string;
+  a: string;
+  hint?: string;
+}
+
 export interface PassageTarget {
   id: string;
   text: string;
@@ -50,7 +56,10 @@ export interface StudyItem {
   front: string;
   ipa?: string;
   meaning: string;
+  /** 文法専用：IELTS 4技能での使いどころ */
+  ielts?: string;
   detail_ja?: string;
+  cloze?: GrammarCloze[];
   synonyms?: string[];
   collocation?: string;
   examples?: Example[];

@@ -40,6 +40,7 @@ export interface ThemeShardData {
 }
 
 const ENGLISH_VOCAB = "ielts-vocab";
+const ENGLISH_GRAMMAR = "grammar";
 const INDEX_PATH = "/content/index.json";
 
 let cachedIndex: ContentIndex | null = null;
@@ -98,12 +99,21 @@ export function findCollection(index: ContentIndex, collectionId: string): Colle
   return index.collections.find((c) => c.id === collectionId);
 }
 
-/** index.json から単語テーマの件数一覧（theme>=1、未ロードでも表示可能） */
-export function themeVocabStatsFromIndex(collection: CollectionIndexEntry): ThemeStat[] {
+/** index.json からテーマ/ジャンルの件数一覧（未ロードでも表示可能） */
+export function themeStatsFromIndex(
+  collection: CollectionIndexEntry,
+  options?: { minTheme?: number },
+): ThemeStat[] {
+  const minTheme = options?.minTheme ?? 0;
   return collection.themes
-    .filter((t) => t.theme >= 1)
+    .filter((t) => t.theme >= minTheme)
     .map((t) => ({ num: t.theme, name: t.themeName, count: t.count }))
     .sort((a, b) => a.num - b.num);
+}
+
+/** @deprecated themeStatsFromIndex を使用 */
+export function themeVocabStatsFromIndex(collection: CollectionIndexEntry): ThemeStat[] {
+  return themeStatsFromIndex(collection, { minTheme: 1 });
 }
 
 /**
@@ -153,12 +163,23 @@ export async function ensureThemeShard(
   return task;
 }
 
-export async function ensureEnglishVocabTheme(themeNum: number): Promise<ThemeShardData | null> {
+export async function ensureCollectionTheme(
+  collectionId: string,
+  themeNum: number,
+): Promise<ThemeShardData | null> {
   const index = await fetchContentIndex();
-  const collection = findCollection(index, ENGLISH_VOCAB);
+  const collection = findCollection(index, collectionId);
   const entry = collection?.themes.find((t) => t.theme === themeNum);
   if (!collection || !entry) return null;
   return ensureThemeShard(collection, entry);
+}
+
+export async function ensureEnglishVocabTheme(themeNum: number): Promise<ThemeShardData | null> {
+  return ensureCollectionTheme(ENGLISH_VOCAB, themeNum);
+}
+
+export async function ensureGrammarGenre(genreNum: number): Promise<ThemeShardData | null> {
+  return ensureCollectionTheme(ENGLISH_GRAMMAR, genreNum);
 }
 
 function prefetchThemes(
@@ -180,6 +201,14 @@ export async function prefetchEnglishVocabThemes(skipTheme?: number): Promise<vo
   const collection = findCollection(index, ENGLISH_VOCAB);
   if (!collection) return;
   prefetchThemes(collection, collection.themes, skipTheme);
+}
+
+/** 選択ジャンル以外の grammar をバックグラウンド先読み */
+export async function prefetchGrammarGenres(skipGenre?: number): Promise<void> {
+  const index = await fetchContentIndex();
+  const collection = findCollection(index, ENGLISH_GRAMMAR);
+  if (!collection) return;
+  prefetchThemes(collection, collection.themes, skipGenre);
 }
 
 /** Engineering 分野の全テーマをバックグラウンド先読み（/engineering 入室時） */

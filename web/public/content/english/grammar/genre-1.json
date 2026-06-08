@@ -1,0 +1,206 @@
+{
+  "domain": "english",
+  "collection": "grammar",
+  "collectionName": "文法",
+  "theme": 1,
+  "themeName": "動詞",
+  "items": [
+    {
+      "n": 207,
+      "id": "g-svc-second-pattern",
+      "type": "grammar",
+      "front": "第2文型 S+V+C（become/remain/turn など）",
+      "meaning": "be動詞以外でも『S=C』の関係を作る動詞がある。remain（〜のままだ）/turn（〜に変わる）/become/get/grow/seem/feel/look など。C には形容詞か名詞が来る。",
+      "ielts": "Speaking/Writingで状態の変化や持続を自然に描写できる。図表描写(Task1)で The figure remained stable / turned negative、Speakingで I felt nervous, the weather got colder など。Cに副詞を置く誤り(×remained quietly)に注意し形容詞を使う。",
+      "note": "第2文型の動詞の後は副詞ではなく形容詞。例: He remained calm（○）/ calmly（×）。",
+      "examples": [
+        {
+          "en": "After the car hit the boy, he remained unconscious for two days.",
+          "jp": "車にはねられた後、その少年は2日間意識不明のままだった。"
+        },
+        {
+          "en": "The leaves turn red in fall.",
+          "jp": "葉は秋に赤く染まる。"
+        },
+        {
+          "en": "As the data shows, the unemployment rate remained stable throughout the decade.",
+          "jp": "データが示すように、失業率はその10年間ずっと安定したままだった。（Task1向け）"
+        }
+      ],
+      "cloze": [
+        {
+          "q": "The leaves ___ red in fall.",
+          "a": "turn",
+          "hint": "第2文型: 〜に変わる"
+        },
+        {
+          "q": "He ___ calm during the interview. (落ち着いたままだった)",
+          "a": "remained",
+          "hint": "remain+形容詞"
+        }
+      ],
+      "pron": {
+        "tts": "The leaves turn red in fall."
+      },
+      "tags": [
+        "grammar",
+        "verb"
+      ],
+      "theme": 1,
+      "themeName": "動詞",
+      "domain": "english",
+      "collection": "grammar",
+      "source": {
+        "book": "キク英文法",
+        "days": "Day1-7",
+        "added": "2026-06-08"
+      }
+    },
+    {
+      "n": 208,
+      "id": "g-svoo-svoc-pattern",
+      "type": "grammar",
+      "front": "第4文型 S+V+O+O / 第5文型 S+V+O+C",
+      "meaning": "第4文型=『(人)に(物)を』2つの目的語(tell/give/show/teach)。第5文型=『O を C だと』O と C が『O=C』の関係(find/make/keep/call/consider)。find it C to do の形が頻出。",
+      "ielts": "Writingの論述で I found it difficult to..., This makes it easier for people to... のように仮目的語 it を使うと自然で高評価。Speakingでも It made me realize... が便利。",
+      "note": "find/make/think + it + 形容詞 + to do（形式目的語 it）。This makes it possible to do の語順を固定で覚える。",
+      "examples": [
+        {
+          "en": "She told us nothing about it.",
+          "jp": "彼女は私たちにそのことを何も言わなかった。"
+        },
+        {
+          "en": "I found it difficult to succeed in that business.",
+          "jp": "私はその事業で成功するのは難しいと分かった。"
+        },
+        {
+          "en": "Technology has made it easier for students to access information.",
+          "jp": "テクノロジーは学生が情報にアクセスするのを容易にした。（Task2向け）"
+        }
+      ],
+      "cloze": [
+        {
+          "q": "I found ___ difficult to succeed in that business.",
+          "a": "it",
+          "hint": "形式目的語"
+        },
+        {
+          "q": "Technology has made ___ easier for students to access information.",
+          "a": "it",
+          "hint": "make it+形容詞+to do"
+        }
+      ],
+      "pron": {
+        "tts": "I found it difficult to succeed in that business."
+      },
+      "tags": [
+        "grammar",
+        "verb"
+      ],
+      "theme": 1,
+      "themeName": "動詞",
+      "domain": "english",
+      "collection": "grammar",
+      "source": {
+        "book": "キク英文法",
+        "days": "Day1-7",
+        "added": "2026-06-08"
+      }
+    },
+    {
+      "n": 209,
+      "id": "g-vi-mistaken-as-vt",
+      "type": "grammar",
+      "front": "他動詞と間違えやすい自動詞（前置詞が要る）",
+      "meaning": "目的語の前に前置詞が必要な自動詞。look at（見る）/ listen to / wait for / arrive at / graduate from / apologize to / reply to / object to。前置詞の脱落がよくある誤り。",
+      "ielts": "Listening/Readingで聞き取り・読解の正確さに直結。Writing/Speakingでは前置詞ミス(×discuss about は逆/×listen the music)が減点対象。コロケーションごと暗記。",
+      "note": "Leeの弱点（前置詞）。look AT, listen TO, wait FOR, arrive AT/IN, apologize TO 人 FOR 事。",
+      "examples": [
+        {
+          "en": "We looked at the pictures in the museum for several hours.",
+          "jp": "私たちは数時間、その美術館で絵画を見た。"
+        },
+        {
+          "en": "Researchers should listen to a wide range of opinions before drawing conclusions.",
+          "jp": "研究者は結論を出す前に幅広い意見に耳を傾けるべきだ。"
+        }
+      ],
+      "cloze": [
+        {
+          "q": "We looked ___ the pictures for several hours.",
+          "a": "at",
+          "hint": "自動詞+前置詞"
+        },
+        {
+          "q": "Researchers should listen ___ a wide range of opinions.",
+          "a": "to",
+          "hint": "listen to"
+        }
+      ],
+      "pron": {
+        "tts": "We looked at the pictures in the museum for several hours."
+      },
+      "tags": [
+        "grammar",
+        "verb"
+      ],
+      "theme": 1,
+      "themeName": "動詞",
+      "domain": "english",
+      "collection": "grammar",
+      "source": {
+        "book": "キク英文法",
+        "days": "Day1-7",
+        "added": "2026-06-08"
+      }
+    },
+    {
+      "n": 210,
+      "id": "g-vt-mistaken-as-vi",
+      "type": "grammar",
+      "front": "自動詞と間違えやすい他動詞（前置詞は不要）",
+      "meaning": "前置詞なしで直接目的語を取る他動詞。discuss（×discuss about）/ marry / mention / reach / attend / enter / approach / resemble。日本語の『〜について』につられて前置詞を入れる誤りに注意。",
+      "ielts": "Writing Task2で discuss the merits of..., attend university, reach a conclusion などを正確に。前置詞を足すと減点。",
+      "note": "discuss / mention / reach / attend / enter / approach は前置詞なし。×discuss about the issue → ○discuss the issue。",
+      "examples": [
+        {
+          "en": "The members have discussed the merits of opening a new local airport.",
+          "jp": "議員たちは新しい地方空港を開港することの利点について議論してきた。"
+        },
+        {
+          "en": "Many young people now attend university and enter the workforce later.",
+          "jp": "今は多くの若者が大学に進学し、より遅く就職する。"
+        }
+      ],
+      "cloze": [
+        {
+          "q": "They discussed ___ the merits of the plan. (前置詞は要る?)",
+          "a": "(なし)",
+          "hint": "discussは他動詞=前置詞不要"
+        },
+        {
+          "q": "Many young people now ___ university. (通う)",
+          "a": "attend",
+          "hint": "attend=他動詞"
+        }
+      ],
+      "pron": {
+        "tts": "The members have discussed the merits of opening a new local airport."
+      },
+      "tags": [
+        "grammar",
+        "verb"
+      ],
+      "theme": 1,
+      "themeName": "動詞",
+      "domain": "english",
+      "collection": "grammar",
+      "source": {
+        "book": "キク英文法",
+        "days": "Day1-7",
+        "added": "2026-06-08"
+      }
+    }
+  ],
+  "version": "7ae6df22"
+}

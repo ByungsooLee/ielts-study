@@ -1,0 +1,197 @@
+{
+  "domain": "english",
+  "collection": "grammar",
+  "collectionName": "文法",
+  "theme": 2,
+  "themeName": "句動詞",
+  "items": [
+    {
+      "n": 211,
+      "id": "g-phrasal-vi",
+      "type": "grammar",
+      "front": "自動詞の働きをする「動詞＋副詞」型句動詞",
+      "meaning": "目的語を取らない句動詞。take off（離陸する）/ break down（故障する）/ grow up / set off / come about。副詞は動詞と切り離さない。",
+      "ielts": "Speakingで口語的で自然な表現として有効（My car broke down, I grew up in...）。Listening会話パートで頻出。Writingでは堅い同義語(depart, malfunction)も併用するとLexical Resourceが上がる。",
+      "note": "自動詞句動詞は目的語を取らない。意味は動詞単体と異なる（take off≠take）。",
+      "examples": [
+        {
+          "en": "More than 8.5 million planes take off from airports in the U.S.A. annually.",
+          "jp": "アメリカでは毎年、850万を超える飛行機が空港から離陸している。"
+        },
+        {
+          "en": "Many start-ups break down within their first three years.",
+          "jp": "多くのスタートアップは最初の3年以内に立ち行かなくなる。"
+        }
+      ],
+      "cloze": [
+        {
+          "q": "Millions of planes ___ ___ from airports every year. (離陸する)",
+          "a": "take off",
+          "hint": "自動詞句動詞"
+        }
+      ],
+      "pron": {
+        "tts": "More than 8.5 million planes take off from airports in the U.S.A. annually."
+      },
+      "tags": [
+        "grammar",
+        "phrasal"
+      ],
+      "theme": 2,
+      "themeName": "句動詞",
+      "domain": "english",
+      "collection": "grammar",
+      "source": {
+        "book": "キク英文法",
+        "days": "Day1-7",
+        "added": "2026-06-08"
+      }
+    },
+    {
+      "n": 212,
+      "id": "g-phrasal-vt-separable",
+      "type": "grammar",
+      "front": "他動詞の働きをする「動詞＋副詞」型句動詞（分離可）",
+      "meaning": "目的語を取る句動詞。take over（引き継ぐ）/ fill out（記入する）/ turn in（提出する）/ carry out / point out / bring about。目的語が代名詞なら必ず動詞と副詞の間に置く（turn it in、×turn in it）。",
+      "ielts": "Writing Task2で carry out research, point out that..., bring about change が高頻度・高評価。Speakingで fill out a form, take over a role など実用的。",
+      "note": "代名詞目的語は間に入れる: turn it in（○）/ turn in it（×）。名詞ならどちらでも可。",
+      "examples": [
+        {
+          "en": "Mr. Thompson took over Sharon's job after she left the company.",
+          "jp": "トンプソン氏はシャロンが会社を辞めた後、彼女の仕事を引き継いだ。"
+        },
+        {
+          "en": "Please fill out the form and turn it in at window No.3.",
+          "jp": "その用紙に必要事項を記入して、3番窓口に提出してください。"
+        },
+        {
+          "en": "The government should carry out further research and point out the risks.",
+          "jp": "政府はさらなる調査を行い、リスクを指摘すべきだ。"
+        }
+      ],
+      "cloze": [
+        {
+          "q": "Please fill out the form and turn ___ ___ at window No.3. (it を使って)",
+          "a": "it in",
+          "hint": "代名詞は間に置く"
+        },
+        {
+          "q": "The government should carry ___ further research. (実施する)",
+          "a": "out",
+          "hint": "carry out"
+        }
+      ],
+      "pron": {
+        "tts": "Please fill out the form and turn it in at window No.3."
+      },
+      "tags": [
+        "grammar",
+        "phrasal"
+      ],
+      "theme": 2,
+      "themeName": "句動詞",
+      "domain": "english",
+      "collection": "grammar",
+      "source": {
+        "book": "キク英文法",
+        "days": "Day1-7",
+        "added": "2026-06-08"
+      }
+    },
+    {
+      "n": 213,
+      "id": "g-phrasal-three-word",
+      "type": "grammar",
+      "front": "「動詞＋副詞＋前置詞」型の3語句動詞",
+      "meaning": "動詞＋副詞＋前置詞の3語で1つの他動詞として働く。get on with（〜を続ける/うまくやる）/ catch up with / look forward to / put up with / come up with / get rid of。",
+      "ielts": "Speakingで look forward to, put up with, come up with が自然。Writingでは come up with solutions, get rid of waste など。look forward to の to は前置詞→動名詞(-ing)。",
+      "note": "look forward to / get on with の to は前置詞。後ろは動名詞: look forward to seeing you（×to see）。",
+      "examples": [
+        {
+          "en": "Stop talking and get on with that work.",
+          "jp": "話をするのをやめて、その仕事を続けなさい。"
+        },
+        {
+          "en": "Governments need to come up with practical solutions to deal with pollution.",
+          "jp": "政府は汚染に対処する実用的な解決策を考え出す必要がある。"
+        }
+      ],
+      "cloze": [
+        {
+          "q": "I'm looking forward ___ ___ you. (会うのを)",
+          "a": "to seeing",
+          "hint": "to は前置詞→-ing"
+        },
+        {
+          "q": "We must come ___ ___ a solution. (考え出す)",
+          "a": "up with",
+          "hint": "come up with"
+        }
+      ],
+      "pron": {
+        "tts": "Stop talking and get on with that work."
+      },
+      "tags": [
+        "grammar",
+        "phrasal"
+      ],
+      "theme": 2,
+      "themeName": "句動詞",
+      "domain": "english",
+      "collection": "grammar",
+      "source": {
+        "book": "キク英文法",
+        "days": "Day1-7",
+        "added": "2026-06-08"
+      }
+    },
+    {
+      "n": 214,
+      "id": "g-verb-noun-prep",
+      "type": "grammar",
+      "front": "「動詞＋名詞＋前置詞」型の句動詞",
+      "meaning": "動詞＋名詞＋前置詞でまとまった意味。pay a visit to（〜を訪れる）/ take care of / make use of / take advantage of / pay attention to / make a difference to。",
+      "ielts": "Writing/Speakingで take advantage of opportunities, pay attention to detail, make use of resources がアカデミックで自然。",
+      "note": "名詞部分は固定（a visit, care, use, advantage）。pay attention TO, make use OF の前置詞も固定。",
+      "examples": [
+        {
+          "en": "We paid a visit to a famous temple on that occasion.",
+          "jp": "私たちはその時に有名な寺を訪ねた。"
+        },
+        {
+          "en": "Students should take advantage of online resources and pay attention to feedback.",
+          "jp": "学生はオンライン資源を活用し、フィードバックに注意を払うべきだ。"
+        }
+      ],
+      "cloze": [
+        {
+          "q": "Students should take ___ ___ online resources. (活用する)",
+          "a": "advantage of",
+          "hint": "take advantage of"
+        },
+        {
+          "q": "You should pay attention ___ detail.",
+          "a": "to",
+          "hint": "pay attention to"
+        }
+      ],
+      "pron": {
+        "tts": "We paid a visit to a famous temple on that occasion."
+      },
+      "tags": [
+        "grammar",
+        "phrasal"
+      ],
+      "theme": 2,
+      "themeName": "句動詞",
+      "domain": "english",
+      "collection": "grammar",
+      "source": {
+        "book": "キク英文法",
+        "days": "Day1-7",
+        "added": "2026-06-08"
+      }
+    }
+  ],
+  "version": "249ce4fc"
+}
