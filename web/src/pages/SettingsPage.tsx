@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { getAllContent, upsertContent } from "../db";
 import { mergeContent, recordsToContentData } from "../lib/contentMerge";
 import { fetchRemoteContent, putRemoteContent } from "../lib/contentSync";
@@ -39,6 +39,14 @@ export function SettingsPage() {
   const ttsUsage = useTtsUsageStore((s) => s.usage);
   const ttsLoadError = useTtsUsageStore((s) => s.loadError);
   const refreshTtsUsage = useTtsUsageStore((s) => s.refresh);
+  const [buildVersion, setBuildVersion] = useState<string | null>(null);
+
+  useEffect(() => {
+    void fetch(`/version.json?t=${Date.now()}`, { cache: "no-store" })
+      .then((r) => r.json())
+      .then((d: { version?: string }) => setBuildVersion(d.version ?? "不明"))
+      .catch(() => setBuildVersion("取得失敗"));
+  }, []);
 
   useEffect(() => {
     if (settings.workerUrl && settings.syncToken) {
@@ -207,6 +215,10 @@ export function SettingsPage() {
       <button type="button" className="rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700" onClick={() => void syncNow()}>
         今すぐ同期
       </button>
+
+      {buildVersion && (
+        <p className={`${hintClass} text-center`}>ビルド: {buildVersion}</p>
+      )}
     </div>
   );
 }

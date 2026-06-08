@@ -49,9 +49,27 @@ jobs:
         env:
           GITHUB_SHA: ${{ github.sha }}
 
-      - name: Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Pages (production branch)
         working-directory: web
-        run: npx wrangler pages deploy dist --project-name=ielts-study --commit-hash="${{ github.sha }}"
+        run: |
+          npx wrangler pages deploy dist \
+            --project-name=ielts-study \
+            --branch=main \
+            --commit-hash="${{ github.sha }}" \
+            --commit-message="Deploy ${{ github.sha }}"
+
+      - name: Verify production deployment
+        run: |
+          sleep 8
+          HTML=$(curl -fsS "https://ielts-study.pages.dev/index.html")
+          JS_PATH=$(echo "$HTML" | grep -oE '/assets/index-[^"]+\.js' | head -1)
+          echo "Production bundle: $JS_PATH"
+          JS=$(curl -fsS "https://ielts-study.pages.dev${JS_PATH}")
+          echo "$JS" | grep -q '単語帳で記憶に残る学習' || \
+            (echo "::error::本番が旧UIです。Cloudflare Dashboard → Pages → ielts-study → Settings で Production branch=main を確認し、最新デプロイを Promote してください" && exit 1)
+          VERSION=$(curl -fsS "https://ielts-study.pages.dev/version.json")
+          echo "version.json: $VERSION"
+          echo "$VERSION" | grep -q '"version"' || (echo "::error::version.json が HTML を返しています" && exit 1)
 
   deploy-worker:
     name: Deploy Worker
