@@ -1,5 +1,5 @@
 {
-  "version": "1019dabc",
+  "version": "a4afbad2",
   "collections": [
     {
       "id": "ielts-vocab",
@@ -83,6 +83,21 @@
           "count": 19,
           "file": "english/ielts-vocab/theme-10.json",
           "version": "9585c8e6"
+        }
+      ]
+    },
+    {
+      "id": "ai-data-platform",
+      "domain": "engineering",
+      "name": "AI-ready データ基盤",
+      "kind": "concept",
+      "themes": [
+        {
+          "theme": 1,
+          "themeName": "AI-ready データ基盤のベストプラクティス",
+          "count": 9,
+          "file": "engineering/ai-data-platform/theme-1.json",
+          "version": "464d88ab"
         }
       ]
     }

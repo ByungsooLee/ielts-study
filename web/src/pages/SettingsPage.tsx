@@ -7,6 +7,7 @@ import { fetchRemoteProgress, putRemoteProgress, saveLocalProgress } from "../li
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { formatCharCount } from "../lib/ttsUsage";
+import { workerUrlLabel } from "../lib/workerConfig";
 import { useSettingsStore } from "../stores/settingsStore";
 import { useTtsUsageStore } from "../stores/ttsUsageStore";
 import type { Accent, ColorMode, DailyNewLimit } from "../types";
@@ -25,7 +26,6 @@ export function SettingsPage() {
     syncStatus,
     lastSyncedAt,
     syncError,
-    setWorkerUrl,
     setSyncToken,
     setAccent,
     setColorMode,
@@ -56,8 +56,8 @@ export function SettingsPage() {
   }, [refreshTtsUsage, settings.syncToken, settings.workerUrl]);
 
   async function testWorkerConnection() {
-    if (!settings.workerUrl || !settings.syncToken) {
-      setWorkerTest("Worker URL と合言葉を入力してください");
+    if (!settings.syncToken) {
+      setWorkerTest("合言葉を入力してください");
       return;
     }
     setWorkerTest("確認中...");
@@ -84,8 +84,8 @@ export function SettingsPage() {
   }
 
   async function syncNow() {
-    if (!settings.workerUrl || !settings.syncToken) {
-      setSyncStatus("error", "Worker URL と合言葉を入力してください");
+    if (!settings.syncToken) {
+      setSyncStatus("error", "合言葉を入力してください");
       return;
     }
     setSyncStatus("syncing");
@@ -137,15 +137,16 @@ export function SettingsPage() {
     <div className="mx-auto max-w-xl space-y-6 rounded-xl bg-white p-6 text-slate-900 shadow-sm dark:bg-slate-900 dark:text-slate-100">
       <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-100">設定</h2>
 
-      <label className="block text-sm">
-        <span className={labelClass}>Worker URL</span>
-        <input
-          className={fieldClass}
-          placeholder="https://your-worker.workers.dev"
-          value={settings.workerUrl}
-          onChange={(e) => setWorkerUrl(e.target.value)}
-        />
-      </label>
+      <div className={panelClass}>
+        <p className="font-medium text-slate-900 dark:text-slate-100">Worker 接続先（自動）</p>
+        <p className="mt-1 text-sm text-slate-700 dark:text-slate-300">
+          {workerUrlLabel(settings.workerUrl)} — <code className="text-xs">{settings.workerUrl}</code>
+        </p>
+        <p className={`mt-2 ${hintClass}`}>
+          個人用のため URL は固定です。ローカル開発（<code className="text-xs">npm run dev</code>）では
+          ローカル Worker、本番（pages.dev）では本番 Worker に接続します。
+        </p>
+      </div>
 
       <label className="block text-sm">
         <span className={labelClass}>合言葉 (SYNC_TOKEN)</span>

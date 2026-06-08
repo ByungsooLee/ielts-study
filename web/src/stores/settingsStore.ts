@@ -1,17 +1,21 @@
 import { create } from "zustand";
 import type { Accent, AppSettings, ColorMode, DailyNewLimit, SyncStatus } from "../types";
 import { SM2 } from "../lib/sm2";
+import { resolveSyncToken, resolveWorkerUrl } from "../lib/workerConfig";
 
 const SETTINGS_KEY = "settings";
 
-const envDefaults: Pick<AppSettings, "workerUrl" | "syncToken"> = {
-  workerUrl: import.meta.env.VITE_DEFAULT_WORKER_URL ?? "",
-  syncToken: import.meta.env.VITE_DEFAULT_SYNC_TOKEN ?? "",
-};
+/** localStorage に保存する項目（Worker URL は毎回自動決定） */
+interface StoredSettings {
+  syncToken?: string;
+  accent?: Accent;
+  colorMode?: ColorMode;
+  dailyNewLimit?: DailyNewLimit;
+}
 
 const defaultSettings: AppSettings = {
-  workerUrl: "",
-  syncToken: "",
+  workerUrl: resolveWorkerUrl(),
+  syncToken: resolveSyncToken(),
   accent: "en-GB",
   colorMode: "system",
   dailyNewLimit: SM2.DAILY_NEW_DEFAULT,
@@ -33,19 +37,18 @@ function normalizeDailyNewLimit(value: unknown): DailyNewLimit {
 }
 
 function loadSettings(): AppSettings {
+  const workerUrl = resolveWorkerUrl();
   try {
     const raw = localStorage.getItem(SETTINGS_KEY);
     if (!raw) {
-      const s = { ...defaultSettings, ...envDefaults };
-      applyColorMode(s.colorMode);
-      return s;
+      applyColorMode(defaultSettings.colorMode);
+      return { ...defaultSettings, workerUrl };
     }
-    const parsed = JSON.parse(raw) as Partial<AppSettings>;
+    const parsed = JSON.parse(raw) as StoredSettings;
     const settings: AppSettings = {
       ...defaultSettings,
-      ...parsed,
-      workerUrl: (parsed.workerUrl || envDefaults.workerUrl).trim(),
-      syncToken: (parsed.syncToken || envDefaults.syncToken).trim(),
+      workerUrl,
+      syncToken: (parsed.syncToken || resolveSyncToken()).trim(),
       accent: parsed.accent ?? defaultSettings.accent,
       colorMode: parsed.colorMode ?? defaultSettings.colorMode,
       dailyNewLimit: normalizeDailyNewLimit(parsed.dailyNewLimit),
@@ -53,9 +56,8 @@ function loadSettings(): AppSettings {
     applyColorMode(settings.colorMode);
     return settings;
   } catch {
-    const s = { ...defaultSettings, ...envDefaults };
-    applyColorMode(s.colorMode);
-    return s;
+    applyColorMode(defaultSettings.colorMode);
+    return { ...defaultSettings, workerUrl };
   }
 }
 
@@ -64,8 +66,8 @@ interface SettingsState {
   syncStatus: SyncStatus;
   lastSyncedAt: number | null;
   syncError: string | null;
-  setWorkerUrl: (url: string) => void;
   setSyncToken: (token: string) => void;
+  refreshWorkerUrl: () => void;
   setAccent: (accent: Accent) => void;
   setColorMode: (mode: ColorMode) => void;
   setDailyNewLimit: (limit: DailyNewLimit) => void;
@@ -74,7 +76,13 @@ interface SettingsState {
 }
 
 function persist(settings: AppSettings) {
-  localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
+  const stored: StoredSettings = {
+    syncToken: settings.syncToken,
+    accent: settings.accent,
+    colorMode: settings.colorMode,
+    dailyNewLimit: settings.dailyNewLimit,
+  };
+  localStorage.setItem(SETTINGS_KEY, JSON.stringify(stored));
 }
 
 export const useSettingsStore = create<SettingsState>((set, get) => ({
@@ -82,10 +90,8 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
   syncStatus: "idle",
   lastSyncedAt: null,
   syncError: null,
-  setWorkerUrl: (url) => {
-    const settings = { ...get().settings, workerUrl: url.trim() };
-    persist(settings);
-    set({ settings });
+  refreshWorkerUrl: () => {
+    set({ settings: { ...get().settings, workerUrl: resolveWorkerUrl() } });
   },
   setSyncToken: (token) => {
     const settings = { ...get().settings, syncToken: token.trim() };

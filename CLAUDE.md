@@ -53,6 +53,7 @@
 - `docs/Cursor_類義語クイズプロンプト.md` … 類義語クイズ（干渉回避・文脈・産出）。
 - `docs/Cursor_忘却曲線復習プロンプト.md` … SM-2 間隔反復（今日の復習・新規n順）。
 - `docs/Cursor_自動反映プロンプト.md` … 教材の本番反映（CI content push）。
+- `docs/分野切替_Engineeringページ.md` … ヘッダで English⇄Engineering を完全切替（Engineeringは専用オリジナルページ）。
 ※ docs は「Cursor用」と銘打っているが、agent 非依存の仕様書。Claude Code はこれを実装指針として使う。
 
 ## 直近の優先タスク（提案）

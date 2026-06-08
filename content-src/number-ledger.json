@@ -204,5 +204,14 @@
   "p-sudden-leap": 203,
   "g-past-perfect": 204,
   "g-uncountable-evidence": 205,
-  "g-move-usage": 206
+  "g-move-usage": 206,
+  "de-unified-access": 207,
+  "de-data-quality": 208,
+  "de-governance-lineage": 209,
+  "de-metadata-catalog": 210,
+  "de-lakehouse": 211,
+  "de-streaming-realtime": 212,
+  "de-versioning-reproducibility": 213,
+  "de-dataops-mlops": 214,
+  "de-vectors-rag": 215
 }

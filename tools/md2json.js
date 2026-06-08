@@ -214,24 +214,50 @@ const CONTENT = path.join(ROOT,"web","public","content");
 const COLLDIR = path.join(CONTENT, DOMAIN, COLLECTION);
 fs.mkdirSync(COLLDIR, {recursive:true});
 
-const themeEntries=[];
-Object.keys(byTheme).map(Number).sort((a,b)=>a-b).forEach(th=>{
-  const list = byTheme[th];
-  const themeName = th===0 ? "汎用（文法など）" : (list[0].themeName || `テーマ${th}`);
-  const cleanItems = clean(list);                 // _date除去・n/id/type整列
-  const passage = passageByTheme[th] || null;
-  const version = hash(JSON.stringify({items:cleanItems, passage}));
-  const file = `${DOMAIN}/${COLLECTION}/theme-${th}.json`;
-  const body = { domain:DOMAIN, collection:COLLECTION, collectionName:COLLECTION_NAME,
-                 theme:th, themeName, version, items:cleanItems, ...(passage?{passage}:{}) };
-  fs.writeFileSync(path.join(CONTENT,file), JSON.stringify(body,null,2)+"\n");
-  themeEntries.push({ theme:th, themeName, count:cleanItems.length, file, version });
-});
+// コレクションをシャード出力する汎用関数（domain/collection/theme でファイル分割）
+function emitCollection(col){
+  fs.mkdirSync(path.join(CONTENT, col.domain, col.collection), {recursive:true});
+  const entries = (col.themes||[]).slice().sort((a,b)=>a.theme-b.theme).map(t=>{
+    const cleanItems = clean(t.items);
+    const passage = t.passage || null;
+    const version = hash(JSON.stringify({items:cleanItems, passage}));
+    const file = `${col.domain}/${col.collection}/theme-${t.theme}.json`;
+    const body = { domain:col.domain, collection:col.collection, collectionName:col.collectionName,
+                   theme:t.theme, themeName:t.themeName, version, items:cleanItems, ...(passage?{passage}:{}) };
+    fs.writeFileSync(path.join(CONTENT,file), JSON.stringify(body,null,2)+"\n");
+    return { theme:t.theme, themeName:t.themeName, count:cleanItems.length, file, version };
+  });
+  const cversion = hash(entries.map(e=>e.theme+":"+e.version).join("|"));
+  return { id:col.collection, domain:col.domain, name:col.collectionName, kind:col.kind||"vocab", version:cversion, themes:entries };
+}
 
-// 目次（最初にこれだけ取得。各themeのversionで差分判定）
+// 1) 英語・単語帳（md/data.js 由来）
+const englishThemes = Object.keys(byTheme).map(Number).sort((a,b)=>a-b).map(th=>{
+  const list = byTheme[th];
+  return { theme:th, themeName: th===0 ? "汎用（文法など）" : (list[0].themeName || `テーマ${th}`),
+           items:list, passage: passageByTheme[th]||null };
+});
+const collectionsOut = [ emitCollection({domain:DOMAIN, collection:COLLECTION, collectionName:COLLECTION_NAME, kind:"vocab", themes:englishThemes}) ];
+
+// 2) 事前ビルド済みコレクション（engineering 等）: content-src/collections/*.json
+const COLDIR = path.join(ROOT,"content-src","collections");
+let prebuiltFiles=[];
+try { prebuiltFiles = fs.readdirSync(COLDIR).filter(f=>f.endsWith(".json")).sort(); } catch(e){ prebuiltFiles=[]; }
+for(const f of prebuiltFiles){
+  const col = JSON.parse(fs.readFileSync(path.join(COLDIR,f),"utf8"));
+  (col.themes||[]).forEach(t=>(t.items||[]).forEach(it=>{
+    it.domain=col.domain; it.collection=col.collection; it.theme=t.theme; it.themeName=t.themeName;
+    if(!it.type) it.type="concept";
+    if(ledger[it.id]==null) ledger[it.id]=++maxN; it.n=ledger[it.id];   // 通し番号も統一台帳で固定
+  }));
+  collectionsOut.push(emitCollection({domain:col.domain, collection:col.collection, collectionName:col.collectionName, kind:col.kind, themes:col.themes||[]}));
+}
+fs.writeFileSync(LEDGER, JSON.stringify(ledger,null,2)+"\n"); // 事前ビルド分の n も台帳へ反映
+
+// 目次（最初にこれだけ取得。collection/theme の version で差分判定）
 const index = {
-  version: hash(themeEntries.map(t=>t.theme+":"+t.version).join("|")),
-  collections: [ { id:COLLECTION, domain:DOMAIN, name:COLLECTION_NAME, kind:"vocab", themes:themeEntries } ]
+  version: hash(collectionsOut.map(c=>c.id+":"+c.version).join("|")),
+  collections: collectionsOut.map(({version, ...rest})=>rest)
 };
 fs.writeFileSync(path.join(CONTENT,"index.json"), JSON.stringify(index,null,2)+"\n");
 
