@@ -53,19 +53,19 @@ export function PassagePanel({ passage, records, playbackRate, onPlaybackRate }:
 
   return (
     <div className="space-y-4 rounded-xl border border-blue-200 bg-white p-4 dark:border-blue-900 dark:bg-slate-900">
-      <div className="flex flex-wrap items-start justify-between gap-3">
-        <div className="min-w-0 flex-1">
-          <h3 className="text-lg font-bold text-blue-900 dark:text-blue-100">
+      <div className="space-y-3">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+          <h3 className="text-lg font-bold leading-snug text-blue-900 dark:text-blue-100 sm:min-w-0 sm:flex-1 sm:pr-4">
             長文 — テーマ{passage.theme} {passage.themeName}
           </h3>
-          {passage.jp && (
-            <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400">{passage.jp}</p>
-          )}
+          <div className="flex shrink-0 items-center justify-end gap-2 sm:pt-0.5">
+            <span className="text-xs text-slate-500 dark:text-slate-400">再生速度</span>
+            <PlaybackSpeedPicker value={playbackRate} onChange={onPlaybackRate} />
+          </div>
         </div>
-        <div className="flex shrink-0 items-center gap-2">
-          <span className="text-xs text-slate-500 dark:text-slate-400">再生速度</span>
-          <PlaybackSpeedPicker value={playbackRate} onChange={onPlaybackRate} />
-        </div>
+        {passage.jp && (
+          <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400">{passage.jp}</p>
+        )}
       </div>
 
       <ol className="space-y-4">
