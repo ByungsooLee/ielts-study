@@ -10,6 +10,24 @@
       "id": "g-phrasal-vi",
       "type": "grammar",
       "front": "自動詞の働きをする「動詞＋副詞」型句動詞",
+      "tip": "自動詞の句動詞は目的語を取らない。意味は元の動詞と別物。",
+      "drill": [
+        {
+          "jp": "毎年850万機を超える飛行機が離陸する。",
+          "en": "More than 8.5 million planes take off every year.",
+          "point": "take off=離陸する"
+        },
+        {
+          "jp": "多くのスタートアップは3年以内に行き詰まる。",
+          "en": "Many start-ups break down within three years.",
+          "point": "break down=破綻/故障"
+        },
+        {
+          "jp": "私は田舎で育った。",
+          "en": "I grew up in the countryside.",
+          "point": "grow up=育つ"
+        }
+      ],
       "meaning": "目的語を取らない句動詞。take off（離陸する）/ break down（故障する）/ grow up / set off / come about。副詞は動詞と切り離さない。",
       "ielts": "Speakingで口語的で自然な表現として有効（My car broke down, I grew up in...）。Listening会話パートで頻出。Writingでは堅い同義語(depart, malfunction)も併用するとLexical Resourceが上がる。",
       "note": "自動詞句動詞は目的語を取らない。意味は動詞単体と異なる（take off≠take）。",
@@ -52,6 +70,25 @@
       "id": "g-phrasal-vt-separable",
       "type": "grammar",
       "front": "他動詞の働きをする「動詞＋副詞」型句動詞（分離可）",
+      "tip": "目的語が代名詞なら動詞と副詞の間（turn it in）。名詞ならどちらでも可。",
+      "drill": [
+        {
+          "jp": "その用紙に記入して、それを提出してください。",
+          "en": "Please fill out the form and turn it in.",
+          "point": "代名詞は間に挟む",
+          "ng": "×turn in it"
+        },
+        {
+          "jp": "彼は彼女の仕事を引き継いだ。",
+          "en": "He took over her job.",
+          "point": "take over=引き継ぐ"
+        },
+        {
+          "jp": "政府はさらなる調査を行うべきだ。",
+          "en": "The government should carry out further research.",
+          "point": "carry out=実施する"
+        }
+      ],
       "meaning": "目的語を取る句動詞。take over（引き継ぐ）/ fill out（記入する）/ turn in（提出する）/ carry out / point out / bring about。目的語が代名詞なら必ず動詞と副詞の間に置く（turn it in、×turn in it）。",
       "ielts": "Writing Task2で carry out research, point out that..., bring about change が高頻度・高評価。Speakingで fill out a form, take over a role など実用的。",
       "note": "代名詞目的語は間に入れる: turn it in（○）/ turn in it（×）。名詞ならどちらでも可。",
@@ -103,6 +140,25 @@
       "id": "g-phrasal-three-word",
       "type": "grammar",
       "front": "「動詞＋副詞＋前置詞」型の3語句動詞",
+      "tip": "look forward to / get on with の to は『前置詞』→後ろは -ing（動名詞）。",
+      "drill": [
+        {
+          "jp": "お会いできるのを楽しみにしています。",
+          "en": "I'm looking forward to seeing you.",
+          "point": "to seeing（to は前置詞）",
+          "ng": "×look forward to see"
+        },
+        {
+          "jp": "私たちは実用的な解決策を考え出す必要がある。",
+          "en": "We need to come up with a practical solution.",
+          "point": "come up with=考え出す"
+        },
+        {
+          "jp": "おしゃべりをやめて仕事を続けなさい。",
+          "en": "Stop talking and get on with the work.",
+          "point": "get on with=続ける"
+        }
+      ],
       "meaning": "動詞＋副詞＋前置詞の3語で1つの他動詞として働く。get on with（〜を続ける/うまくやる）/ catch up with / look forward to / put up with / come up with / get rid of。",
       "ielts": "Speakingで look forward to, put up with, come up with が自然。Writingでは come up with solutions, get rid of waste など。look forward to の to は前置詞→動名詞(-ing)。",
       "note": "look forward to / get on with の to は前置詞。後ろは動名詞: look forward to seeing you（×to see）。",
@@ -150,6 +206,24 @@
       "id": "g-verb-noun-prep",
       "type": "grammar",
       "front": "「動詞＋名詞＋前置詞」型の句動詞",
+      "tip": "pay a visit to / take advantage of など『名詞＋前置詞』がセットで固定。",
+      "drill": [
+        {
+          "jp": "私たちはその時、有名な寺を訪れた。",
+          "en": "We paid a visit to a famous temple.",
+          "point": "pay a visit to"
+        },
+        {
+          "jp": "学生はオンライン資源を活用すべきだ。",
+          "en": "Students should take advantage of online resources.",
+          "point": "take advantage of"
+        },
+        {
+          "jp": "細部に注意を払いなさい。",
+          "en": "Pay attention to detail.",
+          "point": "pay attention to"
+        }
+      ],
       "meaning": "動詞＋名詞＋前置詞でまとまった意味。pay a visit to（〜を訪れる）/ take care of / make use of / take advantage of / pay attention to / make a difference to。",
       "ielts": "Writing/Speakingで take advantage of opportunities, pay attention to detail, make use of resources がアカデミックで自然。",
       "note": "名詞部分は固定（a visit, care, use, advantage）。pay attention TO, make use OF の前置詞も固定。",
@@ -193,5 +267,5 @@
       }
     }
   ],
-  "version": "249ce4fc"
+  "version": "3de2c209"
 }

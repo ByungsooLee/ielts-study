@@ -67,17 +67,21 @@ export function GrammarPage() {
     useShallow((s) => ({
       studyMode: s.studyMode,
       genreFilter: s.genreFilter,
-      revealed: s.revealed,
+      drillIndex: s.drillIndex,
+      drillRevealed: s.drillRevealed,
+      moreOpen: s.moreOpen,
+      clozeOpen: s.clozeOpen,
       index: s.index,
       deckKey: s.deckKey,
-      quizOpen: s.quizOpen,
       setStudyMode: s.setStudyMode,
       setGenreFilter: s.setGenreFilter,
-      reveal: s.reveal,
+      revealDrill: s.revealDrill,
+      advanceAfterGrade: s.advanceAfterGrade,
       next: s.next,
       prev: s.prev,
       bumpDeckKey: s.bumpDeckKey,
-      setQuizOpen: s.setQuizOpen,
+      setMoreOpen: s.setMoreOpen,
+      setClozeOpen: s.setClozeOpen,
     })),
   );
 
@@ -211,7 +215,12 @@ export function GrammarPage() {
       if (!id) return;
       gradeItem(id, kind);
       recordStudyDay();
-      useGrammarSessionStore.getState().next();
+      if (currentCard) {
+        const drillCount = currentCard.item.drill?.length ?? 0;
+        useGrammarSessionStore.getState().advanceAfterGrade(drillCount);
+      } else {
+        useGrammarSessionStore.getState().next();
+      }
     },
     [currentCard, currentCloze, gradeItem, recordStudyDay],
   );
@@ -223,12 +232,12 @@ export function GrammarPage() {
       if (session.studyMode === "cloze") return;
 
       const s = useGrammarSessionStore.getState();
-      if (e.code === "Space" && !s.revealed) {
+      if (e.code === "Space" && !s.drillRevealed) {
         e.preventDefault();
-        s.reveal();
+        s.revealDrill();
         return;
       }
-      if (!s.revealed) return;
+      if (!s.drillRevealed) return;
       if (e.key === "1") handleGrade("forgot");
       if (e.key === "2") handleGrade("maybe");
       if (e.key === "3") handleGrade("remembered");
@@ -244,13 +253,13 @@ export function GrammarPage() {
       <div>
         <h2 className="text-lg font-bold text-slate-900 dark:text-slate-100">文法</h2>
         <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-          ジャンルを選び、ルールの理解・IELTS活用・穴埋めクイズで学習します。
+          ジャンルを選び、日本語から英語を作るドリルで瞬間英作文を鍛えます。
         </p>
       </div>
 
       <div className="flex flex-wrap gap-2 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
         <ToggleBtn active={session.studyMode === "card"} onClick={() => session.setStudyMode("card")}>
-          カード学習
+          ドリル学習
         </ToggleBtn>
         <ToggleBtn active={session.studyMode === "review"} onClick={() => session.setStudyMode("review")}>
           今日の復習
@@ -322,18 +331,21 @@ export function GrammarPage() {
       {currentCard && !complete && (session.studyMode === "card" || session.studyMode === "review") && (
         <ErrorBoundary label="文法カード">
           <GrammarCard
-            key={`${currentCard.id}-${session.index}`}
+            key={`${currentCard.id}-${session.index}-${session.drillIndex}`}
             record={currentCard}
-            revealed={session.revealed}
+            drillIndex={session.drillIndex}
+            drillRevealed={session.drillRevealed}
+            moreOpen={session.moreOpen}
+            clozeOpen={session.clozeOpen}
             playbackRate={playbackRate}
             sched={currentSched}
-            quizOpen={session.quizOpen}
             onPlaybackRate={setPlaybackRate}
-            onReveal={session.reveal}
+            onRevealDrill={session.revealDrill}
             onGrade={handleGrade}
             onPrev={session.prev}
             onNext={session.next}
-            onQuizOpen={session.setQuizOpen}
+            onMoreOpen={session.setMoreOpen}
+            onClozeOpen={session.setClozeOpen}
             canPrev={session.index > 0}
           />
         </ErrorBoundary>

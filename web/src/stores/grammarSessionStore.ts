@@ -35,39 +35,67 @@ function savePrefs(state: GrammarSessionState) {
   );
 }
 
+function resetDrillState() {
+  return {
+    drillIndex: 0,
+    drillRevealed: false,
+    moreOpen: false,
+    clozeOpen: false,
+  };
+}
+
 interface GrammarSessionState extends GrammarPrefs {
-  revealed: boolean;
   index: number;
   deckKey: string;
-  quizOpen: boolean;
+  drillIndex: number;
+  drillRevealed: boolean;
+  moreOpen: boolean;
+  clozeOpen: boolean;
   setStudyMode: (mode: GrammarStudyMode) => void;
   setGenreFilter: (filter: ThemeFilter) => void;
-  reveal: () => void;
+  revealDrill: () => void;
+  advanceAfterGrade: (drillCount: number) => void;
   next: () => void;
   prev: () => void;
   bumpDeckKey: () => void;
-  setQuizOpen: (open: boolean) => void;
+  setMoreOpen: (open: boolean) => void;
+  setClozeOpen: (open: boolean) => void;
 }
 
 export const useGrammarSessionStore = create<GrammarSessionState>((set, get) => ({
   ...loadPrefs(),
-  revealed: false,
   index: 0,
   deckKey: "0",
-  quizOpen: false,
+  drillIndex: 0,
+  drillRevealed: false,
+  moreOpen: false,
+  clozeOpen: false,
   setStudyMode: (studyMode) => {
-    set({ studyMode, revealed: false, index: 0, deckKey: String(Date.now()), quizOpen: false });
+    set({ studyMode, index: 0, deckKey: String(Date.now()), ...resetDrillState() });
     savePrefs(get());
   },
   setGenreFilter: (genreFilter) => {
-    set({ genreFilter, revealed: false, index: 0, deckKey: String(Date.now()), quizOpen: false });
+    set({ genreFilter, index: 0, deckKey: String(Date.now()), ...resetDrillState() });
     savePrefs(get());
   },
-  reveal: () => set({ revealed: true }),
-  next: () => set((s) => ({ index: s.index + 1, revealed: false, quizOpen: false })),
-  prev: () => set((s) => ({ index: Math.max(0, s.index - 1), revealed: false, quizOpen: false })),
-  bumpDeckKey: () => set({ deckKey: String(Date.now()), index: 0, revealed: false, quizOpen: false }),
-  setQuizOpen: (quizOpen) => set({ quizOpen }),
+  revealDrill: () => set({ drillRevealed: true }),
+  advanceAfterGrade: (drillCount) => {
+    const { drillIndex, index } = get();
+    if (drillCount > 0 && drillIndex + 1 < drillCount) {
+      set({ drillIndex: drillIndex + 1, drillRevealed: false });
+      return;
+    }
+    set({ index: index + 1, ...resetDrillState() });
+  },
+  next: () => set((s) => ({ index: s.index + 1, ...resetDrillState() })),
+  prev: () =>
+    set((s) => ({
+      index: Math.max(0, s.index - 1),
+      ...resetDrillState(),
+    })),
+  bumpDeckKey: () => set({ deckKey: String(Date.now()), index: 0, ...resetDrillState() }),
+  setMoreOpen: (moreOpen) => set({ moreOpen }),
+  setClozeOpen: (clozeOpen) => set({ clozeOpen }),
 }));
 
 export function isGenreSelected(filter: ThemeFilter): filter is number {

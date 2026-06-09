@@ -10,6 +10,25 @@
       "id": "g-svc-second-pattern",
       "type": "grammar",
       "front": "第2文型 S+V+C（become/remain/turn など）",
+      "tip": "remain / turn / become / get の後ろは『形容詞』。Sがその状態になる・のままだ。副詞は使わない。",
+      "drill": [
+        {
+          "jp": "その少年は2日間意識不明のままだった。",
+          "en": "The boy remained unconscious for two days.",
+          "point": "remain+形容詞=〜のままだ",
+          "ng": "×remained unconsciously（副詞は不可）"
+        },
+        {
+          "jp": "葉は秋に赤くなる。",
+          "en": "The leaves turn red in fall.",
+          "point": "turn+形容詞=〜に変わる"
+        },
+        {
+          "jp": "失業率はその10年間ずっと安定していた。",
+          "en": "The unemployment rate remained stable throughout the decade.",
+          "point": "Task1で『変化なし』を表す"
+        }
+      ],
       "meaning": "be動詞以外でも『S=C』の関係を作る動詞がある。remain（〜のままだ）/turn（〜に変わる）/become/get/grow/seem/feel/look など。C には形容詞か名詞が来る。",
       "ielts": "Speaking/Writingで状態の変化や持続を自然に描写できる。図表描写(Task1)で The figure remained stable / turned negative、Speakingで I felt nervous, the weather got colder など。Cに副詞を置く誤り(×remained quietly)に注意し形容詞を使う。",
       "note": "第2文型の動詞の後は副詞ではなく形容詞。例: He remained calm（○）/ calmly（×）。",
@@ -61,6 +80,25 @@
       "id": "g-svoo-svoc-pattern",
       "type": "grammar",
       "front": "第4文型 S+V+O+O / 第5文型 S+V+O+C",
+      "tip": "『〜するのは…だ』は find / make / think + it + 形容詞 + to do。形式目的語 it を必ず置く。",
+      "drill": [
+        {
+          "jp": "私はその事業で成功するのは難しいと分かった。",
+          "en": "I found it difficult to succeed in that business.",
+          "point": "find it+形容詞+to do",
+          "ng": "×I found difficult to...（itが抜け）"
+        },
+        {
+          "jp": "テクノロジーは学生が情報を得るのを容易にした。",
+          "en": "Technology has made it easier for students to access information.",
+          "point": "make it+形容詞+for 人+to do"
+        },
+        {
+          "jp": "彼女は私たちにそのことを何も言わなかった。",
+          "en": "She told us nothing about it.",
+          "point": "tell 人 物（第4文型）"
+        }
+      ],
       "meaning": "第4文型=『(人)に(物)を』2つの目的語(tell/give/show/teach)。第5文型=『O を C だと』O と C が『O=C』の関係(find/make/keep/call/consider)。find it C to do の形が頻出。",
       "ielts": "Writingの論述で I found it difficult to..., This makes it easier for people to... のように仮目的語 it を使うと自然で高評価。Speakingでも It made me realize... が便利。",
       "note": "find/make/think + it + 形容詞 + to do（形式目的語 it）。This makes it possible to do の語順を固定で覚える。",
@@ -112,6 +150,26 @@
       "id": "g-vi-mistaken-as-vt",
       "type": "grammar",
       "front": "他動詞と間違えやすい自動詞（前置詞が要る）",
+      "tip": "look / listen / wait / arrive は目的語の前に前置詞が要る（自動詞）。",
+      "drill": [
+        {
+          "jp": "私たちは数時間その絵を見た。",
+          "en": "We looked at the pictures for several hours.",
+          "point": "look at",
+          "ng": "×looked the pictures"
+        },
+        {
+          "jp": "結論を出す前に幅広い意見に耳を傾けるべきだ。",
+          "en": "We should listen to a wide range of opinions before drawing conclusions.",
+          "point": "listen to"
+        },
+        {
+          "jp": "私は8時に空港に着いた。",
+          "en": "I arrived at the airport at eight.",
+          "point": "arrive at（広い場所は in）",
+          "ng": "×arrived the airport"
+        }
+      ],
       "meaning": "目的語の前に前置詞が必要な自動詞。look at（見る）/ listen to / wait for / arrive at / graduate from / apologize to / reply to / object to。前置詞の脱落がよくある誤り。",
       "ielts": "Listening/Readingで聞き取り・読解の正確さに直結。Writing/Speakingでは前置詞ミス(×discuss about は逆/×listen the music)が減点対象。コロケーションごと暗記。",
       "note": "Leeの弱点（前置詞）。look AT, listen TO, wait FOR, arrive AT/IN, apologize TO 人 FOR 事。",
@@ -159,6 +217,27 @@
       "id": "g-vt-mistaken-as-vi",
       "type": "grammar",
       "front": "自動詞と間違えやすい他動詞（前置詞は不要）",
+      "tip": "discuss / mention / reach / attend / enter は前置詞なしで直接目的語（他動詞）。『〜について』に釣られない。",
+      "drill": [
+        {
+          "jp": "議員たちはその利点について議論した。",
+          "en": "The members discussed the merits.",
+          "point": "discuss=他動詞",
+          "ng": "×discussed about the merits"
+        },
+        {
+          "jp": "今は多くの若者が大学に通う。",
+          "en": "Many young people now attend university.",
+          "point": "attend=他動詞",
+          "ng": "×attend to university"
+        },
+        {
+          "jp": "私たちはようやく結論に達した。",
+          "en": "We finally reached a conclusion.",
+          "point": "reach=他動詞",
+          "ng": "×reached to a conclusion"
+        }
+      ],
       "meaning": "前置詞なしで直接目的語を取る他動詞。discuss（×discuss about）/ marry / mention / reach / attend / enter / approach / resemble。日本語の『〜について』につられて前置詞を入れる誤りに注意。",
       "ielts": "Writing Task2で discuss the merits of..., attend university, reach a conclusion などを正確に。前置詞を足すと減点。",
       "note": "discuss / mention / reach / attend / enter / approach は前置詞なし。×discuss about the issue → ○discuss the issue。",
@@ -202,5 +281,5 @@
       }
     }
   ],
-  "version": "7ae6df22"
+  "version": "38d2c6df"
 }

@@ -9,6 +9,25 @@
       "id": "g-svc-second-pattern",
       "type": "grammar",
       "front": "第2文型 S+V+C（become/remain/turn など）",
+      "tip": "remain / turn / become / get の後ろは『形容詞』。Sがその状態になる・のままだ。副詞は使わない。",
+      "drill": [
+        {
+          "jp": "その少年は2日間意識不明のままだった。",
+          "en": "The boy remained unconscious for two days.",
+          "point": "remain+形容詞=〜のままだ",
+          "ng": "×remained unconsciously（副詞は不可）"
+        },
+        {
+          "jp": "葉は秋に赤くなる。",
+          "en": "The leaves turn red in fall.",
+          "point": "turn+形容詞=〜に変わる"
+        },
+        {
+          "jp": "失業率はその10年間ずっと安定していた。",
+          "en": "The unemployment rate remained stable throughout the decade.",
+          "point": "Task1で『変化なし』を表す"
+        }
+      ],
       "meaning": "be動詞以外でも『S=C』の関係を作る動詞がある。remain（〜のままだ）/turn（〜に変わる）/become/get/grow/seem/feel/look など。C には形容詞か名詞が来る。",
       "ielts": "Speaking/Writingで状態の変化や持続を自然に描写できる。図表描写(Task1)で The figure remained stable / turned negative、Speakingで I felt nervous, the weather got colder など。Cに副詞を置く誤り(×remained quietly)に注意し形容詞を使う。",
       "note": "第2文型の動詞の後は副詞ではなく形容詞。例: He remained calm（○）/ calmly（×）。",
@@ -60,6 +79,25 @@
       "id": "g-svoo-svoc-pattern",
       "type": "grammar",
       "front": "第4文型 S+V+O+O / 第5文型 S+V+O+C",
+      "tip": "『〜するのは…だ』は find / make / think + it + 形容詞 + to do。形式目的語 it を必ず置く。",
+      "drill": [
+        {
+          "jp": "私はその事業で成功するのは難しいと分かった。",
+          "en": "I found it difficult to succeed in that business.",
+          "point": "find it+形容詞+to do",
+          "ng": "×I found difficult to...（itが抜け）"
+        },
+        {
+          "jp": "テクノロジーは学生が情報を得るのを容易にした。",
+          "en": "Technology has made it easier for students to access information.",
+          "point": "make it+形容詞+for 人+to do"
+        },
+        {
+          "jp": "彼女は私たちにそのことを何も言わなかった。",
+          "en": "She told us nothing about it.",
+          "point": "tell 人 物（第4文型）"
+        }
+      ],
       "meaning": "第4文型=『(人)に(物)を』2つの目的語(tell/give/show/teach)。第5文型=『O を C だと』O と C が『O=C』の関係(find/make/keep/call/consider)。find it C to do の形が頻出。",
       "ielts": "Writingの論述で I found it difficult to..., This makes it easier for people to... のように仮目的語 it を使うと自然で高評価。Speakingでも It made me realize... が便利。",
       "note": "find/make/think + it + 形容詞 + to do（形式目的語 it）。This makes it possible to do の語順を固定で覚える。",
@@ -111,6 +149,26 @@
       "id": "g-vi-mistaken-as-vt",
       "type": "grammar",
       "front": "他動詞と間違えやすい自動詞（前置詞が要る）",
+      "tip": "look / listen / wait / arrive は目的語の前に前置詞が要る（自動詞）。",
+      "drill": [
+        {
+          "jp": "私たちは数時間その絵を見た。",
+          "en": "We looked at the pictures for several hours.",
+          "point": "look at",
+          "ng": "×looked the pictures"
+        },
+        {
+          "jp": "結論を出す前に幅広い意見に耳を傾けるべきだ。",
+          "en": "We should listen to a wide range of opinions before drawing conclusions.",
+          "point": "listen to"
+        },
+        {
+          "jp": "私は8時に空港に着いた。",
+          "en": "I arrived at the airport at eight.",
+          "point": "arrive at（広い場所は in）",
+          "ng": "×arrived the airport"
+        }
+      ],
       "meaning": "目的語の前に前置詞が必要な自動詞。look at（見る）/ listen to / wait for / arrive at / graduate from / apologize to / reply to / object to。前置詞の脱落がよくある誤り。",
       "ielts": "Listening/Readingで聞き取り・読解の正確さに直結。Writing/Speakingでは前置詞ミス(×discuss about は逆/×listen the music)が減点対象。コロケーションごと暗記。",
       "note": "Leeの弱点（前置詞）。look AT, listen TO, wait FOR, arrive AT/IN, apologize TO 人 FOR 事。",
@@ -158,6 +216,27 @@
       "id": "g-vt-mistaken-as-vi",
       "type": "grammar",
       "front": "自動詞と間違えやすい他動詞（前置詞は不要）",
+      "tip": "discuss / mention / reach / attend / enter は前置詞なしで直接目的語（他動詞）。『〜について』に釣られない。",
+      "drill": [
+        {
+          "jp": "議員たちはその利点について議論した。",
+          "en": "The members discussed the merits.",
+          "point": "discuss=他動詞",
+          "ng": "×discussed about the merits"
+        },
+        {
+          "jp": "今は多くの若者が大学に通う。",
+          "en": "Many young people now attend university.",
+          "point": "attend=他動詞",
+          "ng": "×attend to university"
+        },
+        {
+          "jp": "私たちはようやく結論に達した。",
+          "en": "We finally reached a conclusion.",
+          "point": "reach=他動詞",
+          "ng": "×reached to a conclusion"
+        }
+      ],
       "meaning": "前置詞なしで直接目的語を取る他動詞。discuss（×discuss about）/ marry / mention / reach / attend / enter / approach / resemble。日本語の『〜について』につられて前置詞を入れる誤りに注意。",
       "ielts": "Writing Task2で discuss the merits of..., attend university, reach a conclusion などを正確に。前置詞を足すと減点。",
       "note": "discuss / mention / reach / attend / enter / approach は前置詞なし。×discuss about the issue → ○discuss the issue。",
@@ -205,6 +284,24 @@
       "id": "g-phrasal-vi",
       "type": "grammar",
       "front": "自動詞の働きをする「動詞＋副詞」型句動詞",
+      "tip": "自動詞の句動詞は目的語を取らない。意味は元の動詞と別物。",
+      "drill": [
+        {
+          "jp": "毎年850万機を超える飛行機が離陸する。",
+          "en": "More than 8.5 million planes take off every year.",
+          "point": "take off=離陸する"
+        },
+        {
+          "jp": "多くのスタートアップは3年以内に行き詰まる。",
+          "en": "Many start-ups break down within three years.",
+          "point": "break down=破綻/故障"
+        },
+        {
+          "jp": "私は田舎で育った。",
+          "en": "I grew up in the countryside.",
+          "point": "grow up=育つ"
+        }
+      ],
       "meaning": "目的語を取らない句動詞。take off（離陸する）/ break down（故障する）/ grow up / set off / come about。副詞は動詞と切り離さない。",
       "ielts": "Speakingで口語的で自然な表現として有効（My car broke down, I grew up in...）。Listening会話パートで頻出。Writingでは堅い同義語(depart, malfunction)も併用するとLexical Resourceが上がる。",
       "note": "自動詞句動詞は目的語を取らない。意味は動詞単体と異なる（take off≠take）。",
@@ -247,6 +344,25 @@
       "id": "g-phrasal-vt-separable",
       "type": "grammar",
       "front": "他動詞の働きをする「動詞＋副詞」型句動詞（分離可）",
+      "tip": "目的語が代名詞なら動詞と副詞の間（turn it in）。名詞ならどちらでも可。",
+      "drill": [
+        {
+          "jp": "その用紙に記入して、それを提出してください。",
+          "en": "Please fill out the form and turn it in.",
+          "point": "代名詞は間に挟む",
+          "ng": "×turn in it"
+        },
+        {
+          "jp": "彼は彼女の仕事を引き継いだ。",
+          "en": "He took over her job.",
+          "point": "take over=引き継ぐ"
+        },
+        {
+          "jp": "政府はさらなる調査を行うべきだ。",
+          "en": "The government should carry out further research.",
+          "point": "carry out=実施する"
+        }
+      ],
       "meaning": "目的語を取る句動詞。take over（引き継ぐ）/ fill out（記入する）/ turn in（提出する）/ carry out / point out / bring about。目的語が代名詞なら必ず動詞と副詞の間に置く（turn it in、×turn in it）。",
       "ielts": "Writing Task2で carry out research, point out that..., bring about change が高頻度・高評価。Speakingで fill out a form, take over a role など実用的。",
       "note": "代名詞目的語は間に入れる: turn it in（○）/ turn in it（×）。名詞ならどちらでも可。",
@@ -298,6 +414,25 @@
       "id": "g-phrasal-three-word",
       "type": "grammar",
       "front": "「動詞＋副詞＋前置詞」型の3語句動詞",
+      "tip": "look forward to / get on with の to は『前置詞』→後ろは -ing（動名詞）。",
+      "drill": [
+        {
+          "jp": "お会いできるのを楽しみにしています。",
+          "en": "I'm looking forward to seeing you.",
+          "point": "to seeing（to は前置詞）",
+          "ng": "×look forward to see"
+        },
+        {
+          "jp": "私たちは実用的な解決策を考え出す必要がある。",
+          "en": "We need to come up with a practical solution.",
+          "point": "come up with=考え出す"
+        },
+        {
+          "jp": "おしゃべりをやめて仕事を続けなさい。",
+          "en": "Stop talking and get on with the work.",
+          "point": "get on with=続ける"
+        }
+      ],
       "meaning": "動詞＋副詞＋前置詞の3語で1つの他動詞として働く。get on with（〜を続ける/うまくやる）/ catch up with / look forward to / put up with / come up with / get rid of。",
       "ielts": "Speakingで look forward to, put up with, come up with が自然。Writingでは come up with solutions, get rid of waste など。look forward to の to は前置詞→動名詞(-ing)。",
       "note": "look forward to / get on with の to は前置詞。後ろは動名詞: look forward to seeing you（×to see）。",
@@ -345,6 +480,24 @@
       "id": "g-verb-noun-prep",
       "type": "grammar",
       "front": "「動詞＋名詞＋前置詞」型の句動詞",
+      "tip": "pay a visit to / take advantage of など『名詞＋前置詞』がセットで固定。",
+      "drill": [
+        {
+          "jp": "私たちはその時、有名な寺を訪れた。",
+          "en": "We paid a visit to a famous temple.",
+          "point": "pay a visit to"
+        },
+        {
+          "jp": "学生はオンライン資源を活用すべきだ。",
+          "en": "Students should take advantage of online resources.",
+          "point": "take advantage of"
+        },
+        {
+          "jp": "細部に注意を払いなさい。",
+          "en": "Pay attention to detail.",
+          "point": "pay attention to"
+        }
+      ],
       "meaning": "動詞＋名詞＋前置詞でまとまった意味。pay a visit to（〜を訪れる）/ take care of / make use of / take advantage of / pay attention to / make a difference to。",
       "ielts": "Writing/Speakingで take advantage of opportunities, pay attention to detail, make use of resources がアカデミックで自然。",
       "note": "名詞部分は固定（a visit, care, use, advantage）。pay attention TO, make use OF の前置詞も固定。",
@@ -392,6 +545,25 @@
       "id": "g-tense-present-simple",
       "type": "grammar",
       "front": "現在形：状態・習慣・不変の真理",
+      "tip": "一般的事実・真理・習慣は現在形。主語が三人称単数なら動詞に -s。",
+      "drill": [
+        {
+          "jp": "植物は二酸化炭素を吸い、酸素を出す。",
+          "en": "Plants breathe in carbon dioxide and breathe out oxygen.",
+          "point": "不変の真理=現在形"
+        },
+        {
+          "jp": "教育は経済発展に重要な役割を果たす。",
+          "en": "Education plays a vital role in economic development.",
+          "point": "一般論・三単現 plays",
+          "ng": "×Education play"
+        },
+        {
+          "jp": "私は時々風邪をひく。",
+          "en": "I sometimes catch a cold.",
+          "point": "習慣=現在形"
+        }
+      ],
       "meaning": "現在の状態(is/like)、習慣的動作(often get)、一般的事実・科学的真理(Plants breathe...)を表す。do/does を加えると動詞を強調(I do catch a cold)。",
       "ielts": "Writing Task2の一般論・序論で必須(People believe..., Pollution affects...)。図表の一般的傾向や定義にも。三単現の -s 落としに注意。",
       "note": "一般論・真理は現在形。三単現 -s を忘れない（×A plant breathe）。",
@@ -443,6 +615,26 @@
       "id": "g-tense-present-for-future",
       "type": "grammar",
       "front": "時・条件の副詞節中では未来も現在形",
+      "tip": "when / if などの副詞節の中は、未来のことでも現在形。willは主節だけ。",
+      "drill": [
+        {
+          "jp": "彼は帰宅したら、あなたに会えて喜ぶだろう。",
+          "en": "He will be glad to see you when he comes home.",
+          "point": "when節は現在形(comes)",
+          "ng": "×when he will come"
+        },
+        {
+          "jp": "政府が今行動しなければ、問題は悪化するだろう。",
+          "en": "If the government does not act now, the problem will get worse.",
+          "point": "if節は現在形・三単現",
+          "ng": "×if the government will not act"
+        },
+        {
+          "jp": "雨がやんだら出かけます。",
+          "en": "I will go out when the rain stops.",
+          "point": "when節=stops"
+        }
+      ],
       "meaning": "when/before/after/until/as soon as（時）や if/unless（条件）で始まる副詞節の中では、未来のことでも will を使わず現在形にする。主節は will。",
       "ielts": "Writing/Speakingで頻出かつ誤りやすい。If the government invests..., the economy will improve. when節中の will 付けは典型ミス。",
       "note": "Leeの弱点。×when he will come home → ○when he comes home。副詞節は現在形、主節に will。",
@@ -494,6 +686,24 @@
       "id": "g-tense-present-progressive",
       "type": "grammar",
       "front": "現在進行形：進行中の動作／計画した未来",
+      "tip": "今進行中・変化の途中・確定した予定は be + -ing。状態動詞(know/like)は不可。",
+      "drill": [
+        {
+          "jp": "事業はずっと好転してきている。",
+          "en": "Business is getting better all the time.",
+          "point": "変化の進行"
+        },
+        {
+          "jp": "シンディーは来週ロンドンに引っ越す。",
+          "en": "Cindy is moving to London next week.",
+          "point": "確定した予定=現在進行形"
+        },
+        {
+          "jp": "失業率は今上昇している。",
+          "en": "The unemployment rate is rising.",
+          "point": "Task1の進行中トレンド"
+        }
+      ],
       "meaning": "be + -ing。今進行中の動作(am talking)、変化の進行(is getting better)、always と共に『いつも〜してばかり』の非難。確定した未来の予定(is moving next week)も表す。",
       "ielts": "Task1の変化描写(is rising, is declining)で必須。Speakingで予定(I'm meeting...)や I'm always losing my keys。状態動詞(know/like/want)は通常進行形にしない。",
       "note": "状態動詞(know, like, believe, want)は進行形にしない（×I am knowing）。",
@@ -545,6 +755,25 @@
       "id": "g-tense-past-and-past-progressive",
       "type": "grammar",
       "front": "過去形／過去進行形",
+      "tip": "『〜していた時に〜した』= was/were -ing（背景）+ when + 過去形（出来事）。",
+      "drill": [
+        {
+          "jp": "地震が起きた時、リサは夕食を作っていた。",
+          "en": "Lisa was cooking dinner when the earthquake occurred.",
+          "point": "過去進行形+過去形"
+        },
+        {
+          "jp": "私は先週ハワイに行った。",
+          "en": "I went to Hawaii last week.",
+          "point": "過去形・不規則 go-went",
+          "ng": "×I goed"
+        },
+        {
+          "jp": "母はいつも私に見知らぬ人と話すなと注意した。",
+          "en": "My mother always warned me not to talk to strangers.",
+          "point": "過去の習慣"
+        }
+      ],
       "meaning": "過去形=過去の状態・動作(liked, went)、過去の習慣(always warned)。過去進行形 was/were -ing=過去のある時点で進行中だった動作。『〜していた時に〜した』は was -ing + when + 過去形。",
       "ielts": "Speaking Part2(物語・経験談)で軸になる。While I was studying, I realized... Listeningの過去の出来事描写にも。不規則動詞の過去形を正確に。",
       "note": "過去進行形(背景) + when + 過去形(出来事)。go-went-gone など不規則変化に注意。",
@@ -596,6 +825,24 @@
       "id": "g-tense-future",
       "type": "grammar",
       "front": "未来形：will / be going to",
+      "tip": "その場の予測・意志=will、前から決めていた予定・根拠ある予測=be going to。",
+      "drill": [
+        {
+          "jp": "ニュースによれば、明日は曇りだ。",
+          "en": "According to the news, tomorrow will be cloudy.",
+          "point": "予測=will"
+        },
+        {
+          "jp": "このレポートは明日までに仕上がりそうにない。",
+          "en": "The report is not going to be completed by tomorrow.",
+          "point": "根拠ある予測=be going to"
+        },
+        {
+          "jp": "この傾向が続けば、海面は著しく上昇するだろう。",
+          "en": "If this trend continues, sea levels will rise significantly.",
+          "point": "Task2の結論"
+        }
+      ],
       "meaning": "will=その場の判断・予測・意志。be going to=前から決めていた予定・根拠ある予測。According to..., ...will be...（予測）。",
       "ielts": "Task2の結論・提言(Governments will need to...)、Speakingの予定・予測で必須。be going to と will の使い分けで自然さが増す。",
       "note": "根拠ある予測・既定の予定は be going to、その場の意志・単純予測は will。",
@@ -647,6 +894,19 @@
       "id": "g-tense-future-progressive",
       "type": "grammar",
       "front": "未来進行形：will be -ing",
+      "tip": "未来のその時点で進行中＝will be -ing。",
+      "drill": [
+        {
+          "jp": "今夜は電話しないで。その時は大事な仕事をしているから。",
+          "en": "Don't call me tonight. I'll be doing important work then.",
+          "point": "未来進行形"
+        },
+        {
+          "jp": "来週の今頃は、オーストラリアに向けて飛んでいるだろう。",
+          "en": "This time next week, I'll be flying to Australia.",
+          "point": "未来の時点で進行中"
+        }
+      ],
       "meaning": "未来のある時点で進行中の動作・出来事(I'll be doing... then)、または近い未来に自然にそうなること(The shop will be closing soon)を表す。",
       "ielts": "Speakingで予定をやわらかく述べる(I'll be working late tonight)。丁寧・控えめなニュアンス。",
       "note": "『その時〜しているだろう』= will be -ing。単純未来 will do との違いを意識。",
@@ -689,6 +949,24 @@
       "id": "g-tense-present-perfect",
       "type": "grammar",
       "front": "現在完了形：完了・結果／経験・継続",
+      "tip": "過去〜現在をつなぐ（完了/経験/継続）。for+期間, since+起点。",
+      "drill": [
+        {
+          "jp": "多くの研究が、運動は健康を改善すると示してきた。",
+          "en": "Many studies have shown that exercise improves health.",
+          "point": "研究の蓄積=現在完了"
+        },
+        {
+          "jp": "私は3年間ここに住んでいる。",
+          "en": "I have lived here for three years.",
+          "point": "継続 for+期間"
+        },
+        {
+          "jp": "私たちのサイトを見たことはありますか。",
+          "en": "Have you ever visited our website?",
+          "point": "経験"
+        }
+      ],
       "meaning": "have/has + 過去分詞。①完了・結果(has left=出てしまって今いない)②経験(Have you ever visited...?)③継続(has existed for...)。過去と現在をつなぐ。",
       "ielts": "Writingで研究の蓄積(Studies have shown that...)が定番。Speakingで経験(I've been to..., I've never tried...)。for/since と継続をセットで。",
       "note": "for+期間 / since+起点。現在まで続く・今に影響する点が過去形との違い。",
@@ -740,6 +1018,26 @@
       "id": "g-tense-present-perfect-misuse",
       "type": "grammar",
       "front": "現在完了形が使えない場合",
+      "tip": "yesterday / last〜 / in＋年 / When疑問文 では現在完了は使えない→過去形。",
+      "drill": [
+        {
+          "jp": "ピーターは昨日出社しなかった。",
+          "en": "Peter didn't go to work yesterday.",
+          "point": "yesterday=過去形",
+          "ng": "×hasn't gone yesterday"
+        },
+        {
+          "jp": "あなたはいつそのレポートを書き終えましたか。",
+          "en": "When did you finish the report?",
+          "point": "When疑問文=過去形",
+          "ng": "×When have you finished"
+        },
+        {
+          "jp": "売上は2015年に上昇した。",
+          "en": "Sales rose in 2015.",
+          "point": "in＋年=過去形"
+        }
+      ],
       "meaning": "①明確に過去を表す語句(yesterday, last week, in 2010, ago)があるときは過去形(×has gone yesterday→○didn't go yesterday)。②When〜?の疑問文は過去形(×When have you finished?→○When did you finish?)。",
       "ielts": "WritingでデータのSpeaking年(in 2015 sales rose)は過去形。現在完了との混同は文法減点。明確な過去時点＝過去形と固定。",
       "note": "Leeが注意すべき点。yesterday/ago/last〜/in+年 や When疑問文では現在完了不可→過去形。",
@@ -787,6 +1085,25 @@
       "id": "g-tense-past-perfect-2",
       "type": "grammar",
       "front": "過去完了形：had + 過去分詞（大過去含む）",
+      "tip": "過去のある時点より『前』＝had + 過去分詞。物語の前後関係を整理する。",
+      "drill": [
+        {
+          "jp": "私が着いた時、彼はもう帰ってしまっていた。",
+          "en": "When I arrived, he had already left.",
+          "point": "過去完了 had+過去分詞",
+          "ng": "×had went"
+        },
+        {
+          "jp": "飛行機に乗ったことがなかったので、不安だった。",
+          "en": "I was nervous because I had not flown before.",
+          "point": "had+過去分詞(経験)"
+        },
+        {
+          "jp": "政策が変わった頃には、被害はすでに出ていた。",
+          "en": "By the time the policy changed, the damage had already been done.",
+          "point": "大過去"
+        }
+      ],
       "meaning": "過去のある時点を基準に、それ『より前』の完了・結果・経験・継続(had left, had not flown, had waited since)を表す。物語で時間の前後を整理する大過去(had known before...)。",
       "ielts": "Speaking Part2の経験談で出来事の順序を明確にする(By the time I arrived, the meeting had already started)。Reading物語文の理解にも。",
       "note": "Leeの弱点(had の後は have+過去分詞ではなく過去分詞)。had + 過去分詞。×had went→○had gone。",
@@ -838,6 +1155,24 @@
       "id": "g-tense-future-perfect",
       "type": "grammar",
       "front": "未来完了形：will have + 過去分詞",
+      "tip": "未来の時点までに〜してしまう＝will have + 過去分詞。by + 時点 を添える。",
+      "drill": [
+        {
+          "jp": "2040年までに、多くの伝統的な職業は消えているだろう。",
+          "en": "By 2040, many traditional jobs will have disappeared.",
+          "point": "未来完了"
+        },
+        {
+          "jp": "来年で、東京に3年間住んだことになる。",
+          "en": "I will have lived in Tokyo for three years next year.",
+          "point": "未来における継続"
+        },
+        {
+          "jp": "彼女が着く頃には、アキコは寝てしまっているだろう。",
+          "en": "When she arrives, Akiko will have gone to bed.",
+          "point": "by then の完了"
+        }
+      ],
       "meaning": "未来のある時点までに完了・結果(will have gone to bed by then)、または未来のその時点での経験・継続(will have lived for three years)を表す。by + 未来の時点とよく使う。",
       "ielts": "Speakingの予測(By 2050, technology will have changed...)、Writingの将来見通しで知的に響く。by then / by next year を添える。",
       "note": "『未来の時点までに〜してしまっているだろう』= will have + 過去分詞。",
@@ -889,6 +1224,24 @@
       "id": "g-tense-perfect-progressive",
       "type": "grammar",
       "front": "完了進行形：現在完了進行形／過去完了進行形",
+      "tip": "動作の継続を強調＝have/had been -ing。since+起点 / for+期間。",
+      "drill": [
+        {
+          "jp": "先週の金曜から、雪が激しく降り続いている。",
+          "en": "It has been snowing hard since last Friday.",
+          "point": "現在完了進行形"
+        },
+        {
+          "jp": "失業率は過去10年間、上がり続けている。",
+          "en": "The unemployment rate has been rising over the past decade.",
+          "point": "Task1の継続トレンド"
+        },
+        {
+          "jp": "机を片づけ続けていなかったので、上司は怒った。",
+          "en": "My boss got angry because I hadn't been keeping my desk clean.",
+          "point": "過去完了進行形"
+        }
+      ],
       "meaning": "have been -ing=過去から現在まで継続中の動作(has been snowing since...)。had been -ing=過去のある時点まで継続していた動作(hadn't been keeping)。継続中・進行の含みを強調。",
       "ielts": "Speakingで I've been studying English for years が自然。Task1のトレンドで has been rising steadily。動作動詞で継続を強調する時に使う。",
       "note": "継続中の『動作』を強調=完了進行形。状態は単純完了(has lived)。since+起点 / for+期間。",

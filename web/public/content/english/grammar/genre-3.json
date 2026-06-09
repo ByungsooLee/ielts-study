@@ -10,6 +10,25 @@
       "id": "g-tense-present-simple",
       "type": "grammar",
       "front": "現在形：状態・習慣・不変の真理",
+      "tip": "一般的事実・真理・習慣は現在形。主語が三人称単数なら動詞に -s。",
+      "drill": [
+        {
+          "jp": "植物は二酸化炭素を吸い、酸素を出す。",
+          "en": "Plants breathe in carbon dioxide and breathe out oxygen.",
+          "point": "不変の真理=現在形"
+        },
+        {
+          "jp": "教育は経済発展に重要な役割を果たす。",
+          "en": "Education plays a vital role in economic development.",
+          "point": "一般論・三単現 plays",
+          "ng": "×Education play"
+        },
+        {
+          "jp": "私は時々風邪をひく。",
+          "en": "I sometimes catch a cold.",
+          "point": "習慣=現在形"
+        }
+      ],
       "meaning": "現在の状態(is/like)、習慣的動作(often get)、一般的事実・科学的真理(Plants breathe...)を表す。do/does を加えると動詞を強調(I do catch a cold)。",
       "ielts": "Writing Task2の一般論・序論で必須(People believe..., Pollution affects...)。図表の一般的傾向や定義にも。三単現の -s 落としに注意。",
       "note": "一般論・真理は現在形。三単現 -s を忘れない（×A plant breathe）。",
@@ -61,6 +80,26 @@
       "id": "g-tense-present-for-future",
       "type": "grammar",
       "front": "時・条件の副詞節中では未来も現在形",
+      "tip": "when / if などの副詞節の中は、未来のことでも現在形。willは主節だけ。",
+      "drill": [
+        {
+          "jp": "彼は帰宅したら、あなたに会えて喜ぶだろう。",
+          "en": "He will be glad to see you when he comes home.",
+          "point": "when節は現在形(comes)",
+          "ng": "×when he will come"
+        },
+        {
+          "jp": "政府が今行動しなければ、問題は悪化するだろう。",
+          "en": "If the government does not act now, the problem will get worse.",
+          "point": "if節は現在形・三単現",
+          "ng": "×if the government will not act"
+        },
+        {
+          "jp": "雨がやんだら出かけます。",
+          "en": "I will go out when the rain stops.",
+          "point": "when節=stops"
+        }
+      ],
       "meaning": "when/before/after/until/as soon as（時）や if/unless（条件）で始まる副詞節の中では、未来のことでも will を使わず現在形にする。主節は will。",
       "ielts": "Writing/Speakingで頻出かつ誤りやすい。If the government invests..., the economy will improve. when節中の will 付けは典型ミス。",
       "note": "Leeの弱点。×when he will come home → ○when he comes home。副詞節は現在形、主節に will。",
@@ -112,6 +151,24 @@
       "id": "g-tense-present-progressive",
       "type": "grammar",
       "front": "現在進行形：進行中の動作／計画した未来",
+      "tip": "今進行中・変化の途中・確定した予定は be + -ing。状態動詞(know/like)は不可。",
+      "drill": [
+        {
+          "jp": "事業はずっと好転してきている。",
+          "en": "Business is getting better all the time.",
+          "point": "変化の進行"
+        },
+        {
+          "jp": "シンディーは来週ロンドンに引っ越す。",
+          "en": "Cindy is moving to London next week.",
+          "point": "確定した予定=現在進行形"
+        },
+        {
+          "jp": "失業率は今上昇している。",
+          "en": "The unemployment rate is rising.",
+          "point": "Task1の進行中トレンド"
+        }
+      ],
       "meaning": "be + -ing。今進行中の動作(am talking)、変化の進行(is getting better)、always と共に『いつも〜してばかり』の非難。確定した未来の予定(is moving next week)も表す。",
       "ielts": "Task1の変化描写(is rising, is declining)で必須。Speakingで予定(I'm meeting...)や I'm always losing my keys。状態動詞(know/like/want)は通常進行形にしない。",
       "note": "状態動詞(know, like, believe, want)は進行形にしない（×I am knowing）。",
@@ -163,6 +220,25 @@
       "id": "g-tense-past-and-past-progressive",
       "type": "grammar",
       "front": "過去形／過去進行形",
+      "tip": "『〜していた時に〜した』= was/were -ing（背景）+ when + 過去形（出来事）。",
+      "drill": [
+        {
+          "jp": "地震が起きた時、リサは夕食を作っていた。",
+          "en": "Lisa was cooking dinner when the earthquake occurred.",
+          "point": "過去進行形+過去形"
+        },
+        {
+          "jp": "私は先週ハワイに行った。",
+          "en": "I went to Hawaii last week.",
+          "point": "過去形・不規則 go-went",
+          "ng": "×I goed"
+        },
+        {
+          "jp": "母はいつも私に見知らぬ人と話すなと注意した。",
+          "en": "My mother always warned me not to talk to strangers.",
+          "point": "過去の習慣"
+        }
+      ],
       "meaning": "過去形=過去の状態・動作(liked, went)、過去の習慣(always warned)。過去進行形 was/were -ing=過去のある時点で進行中だった動作。『〜していた時に〜した』は was -ing + when + 過去形。",
       "ielts": "Speaking Part2(物語・経験談)で軸になる。While I was studying, I realized... Listeningの過去の出来事描写にも。不規則動詞の過去形を正確に。",
       "note": "過去進行形(背景) + when + 過去形(出来事)。go-went-gone など不規則変化に注意。",
@@ -214,6 +290,24 @@
       "id": "g-tense-future",
       "type": "grammar",
       "front": "未来形：will / be going to",
+      "tip": "その場の予測・意志=will、前から決めていた予定・根拠ある予測=be going to。",
+      "drill": [
+        {
+          "jp": "ニュースによれば、明日は曇りだ。",
+          "en": "According to the news, tomorrow will be cloudy.",
+          "point": "予測=will"
+        },
+        {
+          "jp": "このレポートは明日までに仕上がりそうにない。",
+          "en": "The report is not going to be completed by tomorrow.",
+          "point": "根拠ある予測=be going to"
+        },
+        {
+          "jp": "この傾向が続けば、海面は著しく上昇するだろう。",
+          "en": "If this trend continues, sea levels will rise significantly.",
+          "point": "Task2の結論"
+        }
+      ],
       "meaning": "will=その場の判断・予測・意志。be going to=前から決めていた予定・根拠ある予測。According to..., ...will be...（予測）。",
       "ielts": "Task2の結論・提言(Governments will need to...)、Speakingの予定・予測で必須。be going to と will の使い分けで自然さが増す。",
       "note": "根拠ある予測・既定の予定は be going to、その場の意志・単純予測は will。",
@@ -265,6 +359,19 @@
       "id": "g-tense-future-progressive",
       "type": "grammar",
       "front": "未来進行形：will be -ing",
+      "tip": "未来のその時点で進行中＝will be -ing。",
+      "drill": [
+        {
+          "jp": "今夜は電話しないで。その時は大事な仕事をしているから。",
+          "en": "Don't call me tonight. I'll be doing important work then.",
+          "point": "未来進行形"
+        },
+        {
+          "jp": "来週の今頃は、オーストラリアに向けて飛んでいるだろう。",
+          "en": "This time next week, I'll be flying to Australia.",
+          "point": "未来の時点で進行中"
+        }
+      ],
       "meaning": "未来のある時点で進行中の動作・出来事(I'll be doing... then)、または近い未来に自然にそうなること(The shop will be closing soon)を表す。",
       "ielts": "Speakingで予定をやわらかく述べる(I'll be working late tonight)。丁寧・控えめなニュアンス。",
       "note": "『その時〜しているだろう』= will be -ing。単純未来 will do との違いを意識。",
@@ -307,6 +414,24 @@
       "id": "g-tense-present-perfect",
       "type": "grammar",
       "front": "現在完了形：完了・結果／経験・継続",
+      "tip": "過去〜現在をつなぐ（完了/経験/継続）。for+期間, since+起点。",
+      "drill": [
+        {
+          "jp": "多くの研究が、運動は健康を改善すると示してきた。",
+          "en": "Many studies have shown that exercise improves health.",
+          "point": "研究の蓄積=現在完了"
+        },
+        {
+          "jp": "私は3年間ここに住んでいる。",
+          "en": "I have lived here for three years.",
+          "point": "継続 for+期間"
+        },
+        {
+          "jp": "私たちのサイトを見たことはありますか。",
+          "en": "Have you ever visited our website?",
+          "point": "経験"
+        }
+      ],
       "meaning": "have/has + 過去分詞。①完了・結果(has left=出てしまって今いない)②経験(Have you ever visited...?)③継続(has existed for...)。過去と現在をつなぐ。",
       "ielts": "Writingで研究の蓄積(Studies have shown that...)が定番。Speakingで経験(I've been to..., I've never tried...)。for/since と継続をセットで。",
       "note": "for+期間 / since+起点。現在まで続く・今に影響する点が過去形との違い。",
@@ -358,6 +483,26 @@
       "id": "g-tense-present-perfect-misuse",
       "type": "grammar",
       "front": "現在完了形が使えない場合",
+      "tip": "yesterday / last〜 / in＋年 / When疑問文 では現在完了は使えない→過去形。",
+      "drill": [
+        {
+          "jp": "ピーターは昨日出社しなかった。",
+          "en": "Peter didn't go to work yesterday.",
+          "point": "yesterday=過去形",
+          "ng": "×hasn't gone yesterday"
+        },
+        {
+          "jp": "あなたはいつそのレポートを書き終えましたか。",
+          "en": "When did you finish the report?",
+          "point": "When疑問文=過去形",
+          "ng": "×When have you finished"
+        },
+        {
+          "jp": "売上は2015年に上昇した。",
+          "en": "Sales rose in 2015.",
+          "point": "in＋年=過去形"
+        }
+      ],
       "meaning": "①明確に過去を表す語句(yesterday, last week, in 2010, ago)があるときは過去形(×has gone yesterday→○didn't go yesterday)。②When〜?の疑問文は過去形(×When have you finished?→○When did you finish?)。",
       "ielts": "WritingでデータのSpeaking年(in 2015 sales rose)は過去形。現在完了との混同は文法減点。明確な過去時点＝過去形と固定。",
       "note": "Leeが注意すべき点。yesterday/ago/last〜/in+年 や When疑問文では現在完了不可→過去形。",
@@ -405,6 +550,25 @@
       "id": "g-tense-past-perfect-2",
       "type": "grammar",
       "front": "過去完了形：had + 過去分詞（大過去含む）",
+      "tip": "過去のある時点より『前』＝had + 過去分詞。物語の前後関係を整理する。",
+      "drill": [
+        {
+          "jp": "私が着いた時、彼はもう帰ってしまっていた。",
+          "en": "When I arrived, he had already left.",
+          "point": "過去完了 had+過去分詞",
+          "ng": "×had went"
+        },
+        {
+          "jp": "飛行機に乗ったことがなかったので、不安だった。",
+          "en": "I was nervous because I had not flown before.",
+          "point": "had+過去分詞(経験)"
+        },
+        {
+          "jp": "政策が変わった頃には、被害はすでに出ていた。",
+          "en": "By the time the policy changed, the damage had already been done.",
+          "point": "大過去"
+        }
+      ],
       "meaning": "過去のある時点を基準に、それ『より前』の完了・結果・経験・継続(had left, had not flown, had waited since)を表す。物語で時間の前後を整理する大過去(had known before...)。",
       "ielts": "Speaking Part2の経験談で出来事の順序を明確にする(By the time I arrived, the meeting had already started)。Reading物語文の理解にも。",
       "note": "Leeの弱点(had の後は have+過去分詞ではなく過去分詞)。had + 過去分詞。×had went→○had gone。",
@@ -456,6 +620,24 @@
       "id": "g-tense-future-perfect",
       "type": "grammar",
       "front": "未来完了形：will have + 過去分詞",
+      "tip": "未来の時点までに〜してしまう＝will have + 過去分詞。by + 時点 を添える。",
+      "drill": [
+        {
+          "jp": "2040年までに、多くの伝統的な職業は消えているだろう。",
+          "en": "By 2040, many traditional jobs will have disappeared.",
+          "point": "未来完了"
+        },
+        {
+          "jp": "来年で、東京に3年間住んだことになる。",
+          "en": "I will have lived in Tokyo for three years next year.",
+          "point": "未来における継続"
+        },
+        {
+          "jp": "彼女が着く頃には、アキコは寝てしまっているだろう。",
+          "en": "When she arrives, Akiko will have gone to bed.",
+          "point": "by then の完了"
+        }
+      ],
       "meaning": "未来のある時点までに完了・結果(will have gone to bed by then)、または未来のその時点での経験・継続(will have lived for three years)を表す。by + 未来の時点とよく使う。",
       "ielts": "Speakingの予測(By 2050, technology will have changed...)、Writingの将来見通しで知的に響く。by then / by next year を添える。",
       "note": "『未来の時点までに〜してしまっているだろう』= will have + 過去分詞。",
@@ -507,6 +689,24 @@
       "id": "g-tense-perfect-progressive",
       "type": "grammar",
       "front": "完了進行形：現在完了進行形／過去完了進行形",
+      "tip": "動作の継続を強調＝have/had been -ing。since+起点 / for+期間。",
+      "drill": [
+        {
+          "jp": "先週の金曜から、雪が激しく降り続いている。",
+          "en": "It has been snowing hard since last Friday.",
+          "point": "現在完了進行形"
+        },
+        {
+          "jp": "失業率は過去10年間、上がり続けている。",
+          "en": "The unemployment rate has been rising over the past decade.",
+          "point": "Task1の継続トレンド"
+        },
+        {
+          "jp": "机を片づけ続けていなかったので、上司は怒った。",
+          "en": "My boss got angry because I hadn't been keeping my desk clean.",
+          "point": "過去完了進行形"
+        }
+      ],
       "meaning": "have been -ing=過去から現在まで継続中の動作(has been snowing since...)。had been -ing=過去のある時点まで継続していた動作(hadn't been keeping)。継続中・進行の含みを強調。",
       "ielts": "Speakingで I've been studying English for years が自然。Task1のトレンドで has been rising steadily。動作動詞で継続を強調する時に使う。",
       "note": "継続中の『動作』を強調=完了進行形。状態は単純完了(has lived)。since+起点 / for+期間。",
@@ -554,5 +754,5 @@
       }
     }
   ],
-  "version": "38b3f5b8"
+  "version": "d4661d3b"
 }

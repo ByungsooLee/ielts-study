@@ -27,6 +27,13 @@ export interface GrammarCloze {
   hint?: string;
 }
 
+export interface GrammarDrill {
+  jp: string;
+  en: string;
+  point: string;
+  ng?: string;
+}
+
 export interface PassageTarget {
   id: string;
   text: string;
@@ -56,6 +63,10 @@ export interface StudyItem {
   front: string;
   ipa?: string;
   meaning: string;
+  /** 文法専用：一言コツ */
+  tip?: string;
+  /** 文法専用：瞬間英作文ドリル */
+  drill?: GrammarDrill[];
   /** 文法専用：IELTS 4技能での使いどころ */
   ielts?: string;
   detail_ja?: string;
