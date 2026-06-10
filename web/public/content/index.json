@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "buildId": "6c9f099",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
-  "version": "c0d010d3",
+  "buildId": "5bb8248",
+  "generatedAt": "2026-06-10T04:56:31.758Z",
+  "version": "54ab52cd",
   "collections": [
     {
       "id": "ielts-vocab",
@@ -191,6 +191,35 @@
           "count": 9,
           "file": "engineering/ai-data-platform/theme-1.json",
           "version": "c5bd5ab8"
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "domain": "english",
+      "name": "文法",
+      "kind": "grammar",
+      "themes": [
+        {
+          "theme": 1,
+          "themeName": "動詞",
+          "count": 4,
+          "file": "english/grammar/genre-1.json",
+          "version": "fad4bef4"
+        },
+        {
+          "theme": 2,
+          "themeName": "句動詞",
+          "count": 4,
+          "file": "english/grammar/genre-2.json",
+          "version": "1a615c82"
+        },
+        {
+          "theme": 3,
+          "themeName": "時制",
+          "count": 11,
+          "file": "english/grammar/genre-3.json",
+          "version": "011add44"
         }
       ]
     }
