@@ -77,31 +77,36 @@ async function fetchTts(
   });
   if (!res.ok) {
     let detail = "";
+    // 使用量はヘッダ（X-TTS-*）から優先的に取得（429 でも付与される）
+    const headerUsage = parseTtsUsageHeaders(res.headers);
+    if (headerUsage) useTtsUsageStore.getState().setUsage(headerUsage);
     try {
       const contentType = res.headers.get("content-type") ?? "";
       if (contentType.includes("json")) {
+        // 新形式: { error: { code, message, details } } / 旧形式: { error: string }
         const data = (await res.json()) as {
-          error?: string;
+          error?: string | { code?: string; message?: string; details?: unknown };
           detail?: string;
-          charsUsed?: number;
-          monthlyLimit?: number;
-          warning?: boolean;
-          blocked?: boolean;
-          percentUsed?: number;
-          month?: string;
-          warningThreshold?: number;
         };
-        detail = data.error ?? data.detail ?? "";
-        if (data.monthlyLimit != null && data.charsUsed != null) {
-          useTtsUsageStore.getState().setUsage({
-            month: data.month ?? new Date().toISOString().slice(0, 7),
-            charsUsed: data.charsUsed,
-            monthlyLimit: data.monthlyLimit,
-            warningThreshold: data.warningThreshold ?? Math.floor(data.monthlyLimit * 0.8),
-            warning: data.warning ?? false,
-            blocked: data.blocked ?? res.status === 429,
-            percentUsed: data.percentUsed ?? Math.round((data.charsUsed / data.monthlyLimit) * 1000) / 10,
-          });
+        if (typeof data.error === "string") {
+          detail = data.error;
+        } else if (data.error && typeof data.error === "object") {
+          detail = data.error.message ?? "";
+          const d = data.error.details as Partial<import("../types").TtsUsageStatus> | undefined;
+          if (!headerUsage && d && d.monthlyLimit != null && d.charsUsed != null) {
+            useTtsUsageStore.getState().setUsage({
+              month: d.month ?? new Date().toISOString().slice(0, 7),
+              charsUsed: d.charsUsed,
+              monthlyLimit: d.monthlyLimit,
+              warningThreshold: d.warningThreshold ?? Math.floor(d.monthlyLimit * 0.8),
+              warning: d.warning ?? false,
+              blocked: d.blocked ?? res.status === 429,
+              percentUsed:
+                d.percentUsed ?? Math.round((d.charsUsed / d.monthlyLimit) * 1000) / 10,
+            });
+          }
+        } else {
+          detail = data.detail ?? "";
         }
       } else {
         detail = await res.text();

@@ -1,77 +1,87 @@
+import { STORAGE_KEYS, readString, removeRaw, writeString } from "./storage";
+
 /** 本番 Worker（個人用・固定） */
 export const PRODUCTION_WORKER_URL = "https://ielts-study-worker.byung4050.workers.dev";
 
 /** ローカル `npm run dev:worker` 用 */
 export const LOCAL_WORKER_URL = "http://127.0.0.1:8787";
 
-const SYNC_TOKEN_CACHE_KEY = "ielts-sync-token";
-
 let runtimeSyncToken: string | null = null;
 
 /**
- * Worker URL は設定画面では変更しない。
- * - 本番ビルド: 本番 Worker 固定
- * - ローカル dev: ローカル Worker（dev:worker 起動時）
- * - VITE_DEFAULT_WORKER_URL があれば最優先（上書き用）
+ * Worker URL の解決順:
+ *   1. 設定画面で保存した手動 URL（localStorage）
+ *   2. VITE_DEFAULT_WORKER_URL（ビルド時）
+ *   3. dev=ローカル / 本番=固定URL
  */
 export function resolveWorkerUrl(): string {
+  const manual = readString(STORAGE_KEYS.workerUrl).trim();
+  if (manual) return manual.replace(/\/$/, "");
   const fromEnv = import.meta.env.VITE_DEFAULT_WORKER_URL?.trim();
   if (fromEnv) return fromEnv.replace(/\/$/, "");
   return (import.meta.env.DEV ? LOCAL_WORKER_URL : PRODUCTION_WORKER_URL).replace(/\/$/, "");
 }
 
-function readCachedSyncToken(): string {
+export function setWorkerUrl(url: string): void {
+  const trimmed = url.trim().replace(/\/$/, "");
+  if (trimmed) writeString(STORAGE_KEYS.workerUrl, trimmed);
+  else removeRaw(STORAGE_KEYS.workerUrl);
+}
+
+/**
+ * 合言葉の解決順:
+ *   1. VITE_DEFAULT_SYNC_TOKEN（ビルド時埋め込み）
+ *   2. 設定画面で手動入力した端末キャッシュ（localStorage）
+ *
+ * ※ Worker からの自動取得は廃止（/app-bootstrap は秘密情報を返さない）。
+ */
+export function resolveSyncToken(): string {
+  const fromEnv = (import.meta.env.VITE_DEFAULT_SYNC_TOKEN ?? "").trim();
+  if (fromEnv) return fromEnv;
   if (runtimeSyncToken) return runtimeSyncToken;
-  try {
-    const stored = localStorage.getItem(SYNC_TOKEN_CACHE_KEY);
-    if (stored) {
-      runtimeSyncToken = stored;
-      return stored;
-    }
-  } catch {
-    /* private mode 等 */
+  const stored = readString(STORAGE_KEYS.syncToken);
+  if (stored) {
+    runtimeSyncToken = stored;
+    return stored;
   }
   return "";
 }
 
-function cacheSyncToken(token: string): void {
-  runtimeSyncToken = token;
-  try {
-    localStorage.setItem(SYNC_TOKEN_CACHE_KEY, token);
-  } catch {
-    /* ignore */
-  }
+/** 設定画面から手動でトークンを保存。 */
+export function setSyncToken(token: string): void {
+  const trimmed = token.trim();
+  runtimeSyncToken = trimmed || null;
+  if (trimmed) writeString(STORAGE_KEYS.syncToken, trimmed);
+  else removeRaw(STORAGE_KEYS.syncToken);
 }
 
-/** ビルド時埋め込み → 端末キャッシュ → Worker 自動取得の順 */
-export function resolveSyncToken(): string {
-  const fromEnv = (import.meta.env.VITE_DEFAULT_SYNC_TOKEN ?? "").trim();
-  if (fromEnv) return fromEnv;
-  return readCachedSyncToken();
+export function clearSyncToken(): void {
+  setSyncToken("");
 }
 
 export function isSyncConfigured(): boolean {
   return resolveSyncToken().length > 0;
 }
 
-/**
- * 合言葉を Worker から自動取得（端末登録不要）。
- * 本番 Pages でビルド時トークンが無くても、初回起動で取得して以降はキャッシュ。
- */
-export async function bootstrapSyncToken(workerUrl = resolveWorkerUrl()): Promise<string> {
-  const existing = resolveSyncToken();
-  if (existing) return existing;
+export interface BootstrapInfo {
+  apiVersion: string;
+  authMode: string;
+  requiresToken: boolean;
+  features: { progressSync: boolean; tts: boolean; legacyContentKv: boolean };
+}
 
+/**
+ * 公開情報のみを取得（認証不要・秘密情報なし）。
+ * 機能フラグや requiresToken の確認に使う。失敗しても致命ではない。
+ */
+export async function fetchBootstrapInfo(workerUrl = resolveWorkerUrl()): Promise<BootstrapInfo | null> {
   const base = workerUrl.replace(/\/$/, "");
   try {
     const res = await fetch(`${base}/app-bootstrap`, { method: "GET" });
-    if (!res.ok) return "";
-    const data = (await res.json()) as { syncToken?: string };
-    const token = data.syncToken?.trim() ?? "";
-    if (token) cacheSyncToken(token);
-    return token;
+    if (!res.ok) return null;
+    return (await res.json()) as BootstrapInfo;
   } catch {
-    return "";
+    return null;
   }
 }
 
@@ -84,9 +94,5 @@ export function workerUrlLabel(url: string): string {
 /** @internal vitest 用 */
 export function resetSyncTokenCacheForTests(): void {
   runtimeSyncToken = null;
-  try {
-    localStorage.removeItem(SYNC_TOKEN_CACHE_KEY);
-  } catch {
-    /* ignore */
-  }
+  removeRaw(STORAGE_KEYS.syncToken);
 }

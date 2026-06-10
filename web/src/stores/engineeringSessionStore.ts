@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import type { EngineeringSelection } from "../lib/staticContent";
 
 export type EngineeringStudyMode = "study" | "review";
 
@@ -12,6 +13,7 @@ interface EngineeringSessionState {
   deckKey: number;
   setCollection: (id: string | null) => void;
   setTheme: (theme: number | null) => void;
+  setThemeSelection: (selection: EngineeringSelection) => void;
   setStudyMode: (mode: EngineeringStudyMode) => void;
   setTagFilter: (tag: string) => void;
   reveal: () => void;
@@ -33,6 +35,14 @@ export const useEngineeringSessionStore = create<EngineeringSessionState>((set, 
   setCollection: (collectionId) =>
     set({ collectionId, theme: null, index: 0, revealed: false, deckKey: get().deckKey + 1 }),
   setTheme: (theme) => set({ theme, index: 0, revealed: false, deckKey: get().deckKey + 1 }),
+  setThemeSelection: (selection) =>
+    set({
+      collectionId: selection?.collectionId ?? null,
+      theme: selection?.theme ?? null,
+      index: 0,
+      revealed: false,
+      deckKey: get().deckKey + 1,
+    }),
   setStudyMode: (studyMode) =>
     set({ studyMode, index: 0, revealed: false, deckKey: get().deckKey + 1 }),
   setTagFilter: (tagFilter) =>

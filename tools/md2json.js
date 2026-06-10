@@ -11,6 +11,33 @@ const ROOT = path.join(__dirname, "..");
 const MD = fs.readFileSync(path.join(ROOT, "content-src", "単語マスターリスト.md"), "utf8");
 const today = new Date().toISOString().slice(0, 10);
 
+/* ---- ビルドメタ（schemaVersion / buildId / generatedAt） ----
+   version は内容ハッシュなので中身が変わらなければ不変。
+   generatedAt/buildId は「version が変わった時だけ更新」して git 差分ゼロを保つ。 */
+const CONTENT_SCHEMA_VERSION = 1;
+const nowIso = new Date().toISOString();
+function ymdhms(d) {
+  const p = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}${p(d.getMonth() + 1)}${p(d.getDate())}${p(d.getHours())}${p(d.getMinutes())}${p(d.getSeconds())}`;
+}
+function tryGitSha() {
+  try {
+    return require("child_process")
+      .execSync("git rev-parse --short HEAD", { cwd: ROOT, stdio: ["ignore", "pipe", "ignore"] })
+      .toString()
+      .trim();
+  } catch (e) {
+    return null;
+  }
+}
+function readJsonIfExists(p) {
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch (e) {
+    return null;
+  }
+}
+
 const THEME_TAG = {1:"polynesia",2:"plastic",3:"titanic",4:"beaver",5:"dance",
   6:"ai-art",7:"gifted-school",8:"hyperloop",9:"montessori",10:"lying"};
 
@@ -223,11 +250,16 @@ function emitCollection(col){
   const entries = (col.themes||[]).slice().sort((a,b)=>a.theme-b.theme).map(t=>{
     const cleanItems = clean(t.items);
     const passage = t.passage || null;
-    const version = hash(JSON.stringify({items:cleanItems, passage}));
+    const version = hash(JSON.stringify({items:cleanItems, passage})); // 内容ハッシュ（メタは含めない）
     const file = `${col.domain}/${col.collection}/theme-${t.theme}.json`;
-    const body = { domain:col.domain, collection:col.collection, collectionName:col.collectionName,
-                   theme:t.theme, themeName:t.themeName, version, items:cleanItems, ...(passage?{passage}:{}) };
-    fs.writeFileSync(path.join(CONTENT,file), JSON.stringify(body,null,2)+"\n");
+    const abs = path.join(CONTENT,file);
+    const prev = readJsonIfExists(abs);
+    const generatedAt = (prev && prev.version===version && prev.generatedAt) ? prev.generatedAt : nowIso;
+    const body = { schemaVersion: CONTENT_SCHEMA_VERSION,
+                   domain:col.domain, collection:col.collection, collectionId:col.collection, collectionName:col.collectionName,
+                   theme:t.theme, themeId:`theme-${t.theme}`, themeName:t.themeName,
+                   version, generatedAt, items:cleanItems, ...(passage?{passage}:{}) };
+    fs.writeFileSync(abs, JSON.stringify(body,null,2)+"\n");
     return { theme:t.theme, themeName:t.themeName, count:cleanItems.length, file, version };
   });
   const cversion = hash(entries.map(e=>e.theme+":"+e.version).join("|"));
@@ -258,11 +290,20 @@ for(const f of prebuiltFiles){
 fs.writeFileSync(LEDGER, JSON.stringify(ledger,null,2)+"\n"); // 事前ビルド分の n も台帳へ反映
 
 // 目次（最初にこれだけ取得。collection/theme の version で差分判定）
+const indexVersion = hash(collectionsOut.map(c=>c.id+":"+c.version).join("|"));
+const indexAbs = path.join(CONTENT,"index.json");
+const prevIndex = readJsonIfExists(indexAbs);
+const indexUnchanged = prevIndex && prevIndex.version === indexVersion;
+const indexGeneratedAt = (indexUnchanged && prevIndex.generatedAt) ? prevIndex.generatedAt : nowIso;
+const buildId = (indexUnchanged && prevIndex.buildId) ? prevIndex.buildId : (tryGitSha() || ymdhms(new Date()));
 const index = {
-  version: hash(collectionsOut.map(c=>c.id+":"+c.version).join("|")),
+  schemaVersion: CONTENT_SCHEMA_VERSION,
+  buildId,
+  generatedAt: indexGeneratedAt,
+  version: indexVersion,
   collections: collectionsOut.map(({version, ...rest})=>rest)
 };
-fs.writeFileSync(path.join(CONTENT,"index.json"), JSON.stringify(index,null,2)+"\n");
+fs.writeFileSync(indexAbs, JSON.stringify(index,null,2)+"\n");
 
 // 日付ごとの追記分（新しいバッチだけアップロードしたい時用）
 const IMPORTS=path.join(ROOT,"sample","imports");

@@ -11,6 +11,10 @@
     "deploy:web": "npm run deploy --prefix web",
     "content:push": "node tools/push-content.mjs",
     "content:import": "node tools/import-content.mjs",
-    "content:build": "node tools/md2json.js"
+    "content:build": "node tools/md2json.js",
+    "test": "npm run test --prefix web && npm run test --prefix worker",
+    "test:web": "npm run test --prefix web",
+    "test:worker": "npm run test --prefix worker",
+    "typecheck": "npm run typecheck --prefix web && npm run typecheck --prefix worker"
   }
 }

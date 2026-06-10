@@ -19,3 +19,7 @@ export function filterEnglishRecords(records: ContentRecord[]): ContentRecord[] 
 export function filterEngineeringRecords(records: ContentRecord[]): ContentRecord[] {
   return records.filter(isEngineeringRecord);
 }
+
+export function hasEngineeringDiagram(item: StudyItem): boolean {
+  return Boolean(item.diagram?.mermaid?.trim());
+}

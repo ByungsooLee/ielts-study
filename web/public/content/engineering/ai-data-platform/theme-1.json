@@ -1,10 +1,14 @@
 {
+  "schemaVersion": 1,
   "domain": "engineering",
   "collection": "ai-data-platform",
+  "collectionId": "ai-data-platform",
   "collectionName": "AI-ready データ基盤",
   "theme": 1,
+  "themeId": "theme-1",
   "themeName": "AI-ready データ基盤のベストプラクティス",
   "version": "c5bd5ab8",
+  "generatedAt": "2026-06-10T04:29:42.750Z",
   "items": [
     {
       "n": 207,

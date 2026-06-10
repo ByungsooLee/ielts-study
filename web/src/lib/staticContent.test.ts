@@ -1,5 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { themeVocabStatsFromIndex, type CollectionIndexEntry } from "./staticContent";
+import {
+  engineeringThemeChipsFromIndex,
+  themeVocabStatsFromIndex,
+  type CollectionIndexEntry,
+} from "./staticContent";
 
 describe("themeVocabStatsFromIndex", () => {
   const collection: CollectionIndexEntry = {
@@ -18,6 +22,59 @@ describe("themeVocabStatsFromIndex", () => {
     expect(themeVocabStatsFromIndex(collection)).toEqual([
       { num: 1, name: "テーマ1", count: 20 },
       { num: 2, name: "テーマ2", count: 22 },
+    ]);
+  });
+});
+
+describe("engineeringThemeChipsFromIndex", () => {
+  it("flattens themes across engineering collections", () => {
+    const collections: CollectionIndexEntry[] = [
+      {
+        id: "system-design",
+        domain: "engineering",
+        name: "システム設計",
+        kind: "concept",
+        themes: [
+          {
+            theme: 1,
+            themeName: "基礎",
+            count: 7,
+            file: "engineering/system-design/theme-1.json",
+            version: "abc",
+          },
+        ],
+      },
+      {
+        id: "de-sql",
+        domain: "engineering",
+        name: "SQL",
+        kind: "concept",
+        themes: [
+          {
+            theme: 1,
+            themeName: "最適化",
+            count: 6,
+            file: "engineering/sql-optimization/theme-1.json",
+            version: "def",
+          },
+        ],
+      },
+    ];
+    expect(engineeringThemeChipsFromIndex(collections)).toEqual([
+      {
+        collectionId: "system-design",
+        collectionName: "システム設計",
+        theme: 1,
+        themeName: "基礎",
+        count: 7,
+      },
+      {
+        collectionId: "de-sql",
+        collectionName: "SQL",
+        theme: 1,
+        themeName: "最適化",
+        count: 6,
+      },
     ]);
   });
 });

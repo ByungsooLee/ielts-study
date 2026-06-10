@@ -1,16 +1,22 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { ConceptExplainCard } from "../../components/engineering/ConceptExplainCard";
+import { DiagramConceptCard } from "../../components/engineering/DiagramConceptCard";
+import { EngineeringThemeNav } from "../../components/engineering/EngineeringThemeNav";
 import {
   buildEngineeringReviewDeck,
   buildEngineeringStudyDeck,
   filterEngineeringPool,
 } from "../../lib/engineeringDeck";
-import { filterEngineeringRecords } from "../../lib/domain";
+import { filterEngineeringRecords, hasEngineeringDiagram } from "../../lib/domain";
 import { getOrCreateSched } from "../../lib/srs";
 import {
   collectionsForDomain,
+  ensureCollectionTheme,
+  engineeringThemeChipsFromIndex,
   fetchContentIndex,
-  type CollectionIndexEntry,
+  prefetchEngineeringThemes,
+  type EngineeringSelection,
+  type EngineeringThemeChip,
 } from "../../lib/staticContent";
 import { useContentStore } from "../../stores/contentStore";
 import { useEngineeringSessionStore } from "../../stores/engineeringSessionStore";
@@ -28,35 +34,75 @@ export function EngineeringStudyPage() {
   const dailyNewLimit = useSettingsStore((s) => s.settings.dailyNewLimit);
 
   const session = useEngineeringSessionStore();
-  const [collections, setCollections] = useState<CollectionIndexEntry[]>([]);
+  const [themeChips, setThemeChips] = useState<EngineeringThemeChip[]>([]);
+  const [shardLoading, setShardLoading] = useState(false);
   const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
   const [step, setStep] = useState<EngineeringStep>("understand");
 
+  const themeSelection: EngineeringSelection = useMemo(() => {
+    if (session.collectionId != null && session.theme != null) {
+      return { collectionId: session.collectionId, theme: session.theme };
+    }
+    return null;
+  }, [session.collectionId, session.theme]);
+
   useEffect(() => {
     void load();
+    void fetchContentIndex()
+      .then((index) => {
+        const cols = collectionsForDomain(index, "engineering");
+        setThemeChips(engineeringThemeChipsFromIndex(cols));
+        const s = useEngineeringSessionStore.getState();
+        if (s.collectionId == null && s.theme == null && cols[0]?.themes[0]) {
+          s.setThemeSelection({
+            collectionId: cols[0].id,
+            theme: cols[0].themes[0].theme,
+          });
+        }
+      })
+      .catch(() => {});
   }, [load]);
 
   useEffect(() => {
-    void fetchContentIndex().then((index) => {
-      const cols = collectionsForDomain(index, "engineering");
-      setCollections(cols);
-      const s = useEngineeringSessionStore.getState();
-      if (!s.collectionId && cols[0]) s.setCollection(cols[0].id);
-      if (s.theme == null && cols[0]?.themes[0]) s.setTheme(cols[0].themes[0].theme);
-    });
-  }, []);
+    let cancelled = false;
+    setShardLoading(true);
 
-  const activeCollection = collections.find((c) => c.id === session.collectionId) ?? collections[0];
-  const themes = activeCollection?.themes ?? [];
+    void (async () => {
+      try {
+        if (themeSelection) {
+          await ensureCollectionTheme(themeSelection.collectionId, themeSelection.theme);
+          if (!cancelled) void prefetchEngineeringThemes();
+        } else {
+          const index = await fetchContentIndex();
+          const cols = collectionsForDomain(index, "engineering");
+          await Promise.all(
+            cols.flatMap((col) =>
+              col.themes.map((t) =>
+                ensureCollectionTheme(col.id, t.theme).catch(() => null),
+              ),
+            ),
+          );
+          if (!cancelled) void prefetchEngineeringThemes();
+        }
+        if (!cancelled) await load();
+      } finally {
+        if (!cancelled) setShardLoading(false);
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [themeSelection, session.studyMode, load]);
 
   const pool = useMemo(
     () =>
       filterEngineeringPool(engineeringItems, {
         collectionId: session.collectionId,
         theme: session.theme,
-        tagFilter: session.tagFilter,
+        tagFilter: "",
       }),
-    [engineeringItems, session.collectionId, session.theme, session.tagFilter, session.deckKey],
+    [engineeringItems, session.collectionId, session.theme, session.deckKey],
   );
 
   const deck = useMemo(() => {
@@ -80,6 +126,7 @@ export function EngineeringStudyPage() {
   const sched = current
     ? progress.srs[current.item.id] ?? getOrCreateSched(progress, current.item.id)
     : undefined;
+  const isDiagramCard = current ? hasEngineeringDiagram(current.item) : false;
 
   useEffect(() => {
     setStep("understand");
@@ -93,11 +140,6 @@ export function EngineeringStudyPage() {
       session.next();
     },
     [current, gradeItem, recordStudyDay, session],
-  );
-
-  const allTags = useMemo(
-    () => [...new Set(engineeringItems.flatMap((r) => r.item.tags ?? []))].sort(),
-    [engineeringItems],
   );
 
   return (
@@ -126,64 +168,41 @@ export function EngineeringStudyPage() {
         </button>
       </div>
 
-      <div className="grid gap-3 rounded-xl bg-white p-4 shadow-sm dark:bg-slate-900 md:grid-cols-3">
-        <label className="text-sm">
-          <span className="font-medium">コレクション</span>
-          <select
-            className="mt-1 w-full rounded border border-slate-300 bg-white px-2 py-1.5 dark:border-slate-600 dark:bg-slate-800"
-            value={session.collectionId ?? ""}
-            onChange={(e) => session.setCollection(e.target.value || null)}
-          >
-            {collections.map((c) => (
-              <option key={c.id} value={c.id}>
-                {c.name}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="text-sm">
-          <span className="font-medium">テーマ</span>
-          <select
-            className="mt-1 w-full rounded border border-slate-300 bg-white px-2 py-1.5 dark:border-slate-600 dark:bg-slate-800"
-            value={session.theme ?? ""}
-            onChange={(e) => session.setTheme(e.target.value ? Number(e.target.value) : null)}
-          >
-            {themes.map((t) => (
-              <option key={t.theme} value={t.theme}>
-                {t.theme}: {t.themeName} ({t.count})
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="text-sm">
-          <span className="font-medium">タグ</span>
-          <select
-            className="mt-1 w-full rounded border border-slate-300 bg-white px-2 py-1.5 dark:border-slate-600 dark:bg-slate-800"
-            value={session.tagFilter}
-            onChange={(e) => session.setTagFilter(e.target.value)}
-          >
-            <option value="">すべて</option>
-            {allTags.map((t) => (
-              <option key={t} value={t}>
-                {t}
-              </option>
-            ))}
-          </select>
-        </label>
-      </div>
+      <EngineeringThemeNav
+        chips={themeChips}
+        selected={themeSelection}
+        onSelect={(selection) => session.setThemeSelection(selection)}
+      />
+
+      {shardLoading && (
+        <p className="text-sm text-slate-500 dark:text-slate-400">教材を読み込み中…</p>
+      )}
 
       <p className="text-sm text-slate-600 dark:text-slate-400">
         {session.index + 1} / {deck.length} 件
         {session.studyMode === "review" && "（Engineering のみ）"}
       </p>
 
-      {deck.length === 0 && (
+      {deck.length === 0 && !shardLoading && (
         <div className="rounded-xl bg-white p-8 text-center text-slate-500 shadow-sm dark:bg-slate-900">
-          該当する概念がありません。コレクションやテーマを変更してください。
+          該当する概念がありません。ジャンルを変更するか、教材の同期を確認してください。
         </div>
       )}
 
-      {current && (
+      {current && isDiagramCard && (
+        <DiagramConceptCard
+          record={current}
+          playbackRate={playbackRate}
+          onPlaybackRate={setPlaybackRate}
+          onGrade={handleGrade}
+          onPrev={session.prev}
+          onNext={session.next}
+          canPrev={session.index > 0}
+          sched={sched}
+        />
+      )}
+
+      {current && !isDiagramCard && (
         <ConceptExplainCard
           record={current}
           step={step}

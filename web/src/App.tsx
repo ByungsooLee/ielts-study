@@ -20,7 +20,7 @@ import { useContentStore } from "./stores/contentStore";
 import { useProgressStore } from "./stores/progressStore";
 import { useSettingsStore } from "./stores/settingsStore";
 import { useTtsUsageStore } from "./stores/ttsUsageStore";
-import { bootstrapSyncToken, isSyncConfigured } from "./lib/workerConfig";
+import { isSyncConfigured } from "./lib/workerConfig";
 
 export default function App() {
   const loadContent = useContentStore((s) => s.load);
@@ -41,10 +41,8 @@ export default function App() {
         /* オフライン時は IndexedDB キャッシュのみ */
       }
 
-      if (!isSyncConfigured()) {
-        await bootstrapSyncToken(settings.workerUrl);
-        refreshConnection();
-      }
+      // 合言葉は手動設定（env / 設定画面）。最新値を settings に取り込む。
+      refreshConnection();
 
       const localRecords = await getAllContent();
       await loadContent();
