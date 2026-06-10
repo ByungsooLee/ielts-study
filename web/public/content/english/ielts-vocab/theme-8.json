@@ -1,10 +1,14 @@
 {
+  "schemaVersion": 1,
   "domain": "english",
   "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
   "collectionName": "IELTS単語帳",
   "theme": 8,
+  "themeId": "theme-8",
   "themeName": "ハイパーループ",
   "version": "45ba80dd",
+  "generatedAt": "2026-06-10T04:29:42.750Z",
   "items": [
     {
       "n": 143,

@@ -1,9 +1,14 @@
 {
+  "schemaVersion": 1,
   "domain": "english",
   "collection": "grammar",
+  "collectionId": "grammar",
   "collectionName": "文法",
   "theme": 1,
+  "themeId": "genre-1",
   "themeName": "動詞",
+  "version": "fad4bef4",
+  "generatedAt": "2026-06-10T04:56:31.758Z",
   "items": [
     {
       "n": 207,
@@ -280,6 +285,5 @@
         "added": "2026-06-08"
       }
     }
-  ],
-  "version": "38d2c6df"
+  ]
 }

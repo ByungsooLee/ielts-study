@@ -1,25 +1,19 @@
 import type { ProgressData } from "../types";
 import { mergeProgress } from "./merge";
 import { normalizeProgress } from "./progress";
+import { STORAGE_KEYS, readJson, writeJson } from "./storage";
 
-const PROGRESS_KEY = "progress";
 const DEBOUNCE_MS = 1200;
 
 let debounceTimer: ReturnType<typeof setTimeout> | null = null;
 
 export function loadLocalProgress(): ProgressData {
-  try {
-    const raw = localStorage.getItem(PROGRESS_KEY);
-    if (!raw) return normalizeProgress({});
-    const parsed = JSON.parse(raw) as Partial<ProgressData>;
-    return normalizeProgress(parsed);
-  } catch {
-    return normalizeProgress({});
-  }
+  const parsed = readJson<Partial<ProgressData> | null>(STORAGE_KEYS.progress, null);
+  return normalizeProgress(parsed ?? {});
 }
 
 export function saveLocalProgress(progress: ProgressData): void {
-  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+  writeJson(STORAGE_KEYS.progress, progress);
 }
 
 async function workerFetch(

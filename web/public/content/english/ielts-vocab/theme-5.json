@@ -1,10 +1,14 @@
 {
+  "schemaVersion": 1,
   "domain": "english",
   "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
   "collectionName": "IELTS単語帳",
   "theme": 5,
+  "themeId": "theme-5",
   "themeName": "ダンス",
   "version": "abe49464",
+  "generatedAt": "2026-06-10T04:29:42.750Z",
   "items": [
     {
       "n": 86,

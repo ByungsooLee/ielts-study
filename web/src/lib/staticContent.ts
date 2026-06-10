@@ -24,17 +24,25 @@ export interface CollectionIndexEntry {
 }
 
 export interface ContentIndex {
+  /** 教材スキーマ世代。変わると全テーマを再取得する。 */
+  schemaVersion?: number;
+  buildId?: string;
+  generatedAt?: string;
   version: string;
   collections: CollectionIndexEntry[];
 }
 
 export interface ThemeShardData {
+  schemaVersion?: number;
   domain: Domain;
   collection: string;
+  collectionId?: string;
   collectionName?: string;
   theme: number;
+  themeId?: string;
   themeName: string;
   version: string;
+  generatedAt?: string;
   items: StudyItem[];
   passage?: Passage;
 }
@@ -46,6 +54,11 @@ const INDEX_PATH = "/content/index.json";
 let cachedIndex: ContentIndex | null = null;
 const shardDataCache = new Map<string, ThemeShardData>();
 const inflight = new Map<string, Promise<ThemeShardData | null>>();
+
+/** 現在ロード済み index の教材スキーマ世代（未取得時は 1）。 */
+function currentSchemaVersion(): number {
+  return cachedIndex?.schemaVersion ?? 1;
+}
 
 function cacheKey(collectionId: string, theme: number): string {
   return shardMetaKey(collectionId, theme);
@@ -99,6 +112,31 @@ export function findCollection(index: ContentIndex, collectionId: string): Colle
   return index.collections.find((c) => c.id === collectionId);
 }
 
+export type EngineeringSelection = { collectionId: string; theme: number } | null;
+
+/** Engineering：全コレクションの themes をフラット化（ジャンルチップ用） */
+export interface EngineeringThemeChip {
+  collectionId: string;
+  collectionName: string;
+  theme: number;
+  themeName: string;
+  count: number;
+}
+
+export function engineeringThemeChipsFromIndex(
+  collections: CollectionIndexEntry[],
+): EngineeringThemeChip[] {
+  return collections.flatMap((collection) =>
+    collection.themes.map((theme) => ({
+      collectionId: collection.id,
+      collectionName: collection.name,
+      theme: theme.theme,
+      themeName: theme.themeName,
+      count: theme.count,
+    })),
+  );
+}
+
 /** index.json からテーマ/ジャンルの件数一覧（未ロードでも表示可能） */
 export function themeStatsFromIndex(
   collection: CollectionIndexEntry,
@@ -124,9 +162,12 @@ export async function ensureThemeShard(
   themeEntry: ThemeIndexEntry,
 ): Promise<ThemeShardData | null> {
   const key = cacheKey(collection.id, themeEntry.theme);
+  const schemaVersion = currentSchemaVersion();
   const cached = shardDataCache.get(key);
   const meta = await getShardMeta(collection.id, themeEntry.theme);
-  if (cached && meta?.version === themeEntry.version) {
+  // 再取得判定は file+version+schemaVersion を見る
+  const metaFresh = meta?.version === themeEntry.version && (meta?.schemaVersion ?? 1) === schemaVersion;
+  if (cached && metaFresh) {
     return cached;
   }
 
@@ -134,7 +175,7 @@ export async function ensureThemeShard(
   if (existing) return existing;
 
   const task = (async () => {
-    if (meta?.version === themeEntry.version) {
+    if (metaFresh) {
       const local = shardDataCache.get(key);
       if (local) return local;
     }
@@ -150,6 +191,7 @@ export async function ensureThemeShard(
       theme: themeEntry.theme,
       file: themeEntry.file,
       version: themeEntry.version,
+      schemaVersion,
       syncedAt: Date.now(),
     };
     await setShardMeta(nextMeta);

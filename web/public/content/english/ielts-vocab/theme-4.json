@@ -1,10 +1,14 @@
 {
+  "schemaVersion": 1,
   "domain": "english",
   "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
   "collectionName": "IELTS単語帳",
   "theme": 4,
+  "themeId": "theme-4",
   "themeName": "アイダホのビーバー",
   "version": "14a26d92",
+  "generatedAt": "2026-06-10T04:29:42.750Z",
   "items": [
     {
       "n": 65,

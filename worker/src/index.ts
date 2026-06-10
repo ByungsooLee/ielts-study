@@ -1,18 +1,38 @@
+import type { Env } from "./env";
 import {
-  TTS_MONTHLY_FREE_LIMIT,
+  ERROR_CODES,
+  HttpError,
+  corsHeaders,
+  errorJson,
+  handleOptions,
+  json,
+  readJson,
+  requireAuth,
+  type Cors,
+} from "./http";
+import {
+  DEFAULT_USER_ID,
+  LEGACY_CONTENT_KEY,
+  LEGACY_PROGRESS_KEY,
+  contentLegacyKey,
+  progressKey,
+} from "./keys";
+import {
+  MAX_TTS_CACHE_BYTES,
+  TTS_CACHE_TTL_SECONDS,
+  shouldCache,
+  ttsHash,
+} from "./ttsCache";
+import { ttsCacheKey } from "./keys";
+import {
   addTtsUsage,
   buildTtsUsageStatus,
   countChars,
   getTtsUsage,
+  resolveMonthlyLimit,
   ttsUsageHeaders,
+  wouldExceedLimit,
 } from "./ttsUsage";
-
-export interface Env {
-  IELTS_KV: KVNamespace;
-  SYNC_TOKEN: string;
-  GOOGLE_TTS_KEY: string;
-  ALLOWED_ORIGIN?: string;
-}
 
 const VOICE_MAP: Record<string, { languageCode: string; name: string }> = {
   "en-GB": { languageCode: "en-GB", name: "en-GB-Neural2-A" },
@@ -20,125 +40,130 @@ const VOICE_MAP: Record<string, { languageCode: string; name: string }> = {
   "en-AU": { languageCode: "en-AU", name: "en-AU-Neural2-B" },
 };
 
-function isLocalDevOrigin(origin: string): boolean {
-  return /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin);
-}
+const ALLOWED_AUDIO_ENCODINGS = new Set(["MP3", "OGG_OPUS", "LINEAR16"]);
 
-function getAllowedOrigins(env: Env): string[] {
-  const raw = env.ALLOWED_ORIGIN || "*";
-  if (raw === "*") return ["*"];
-  return raw.split(",").map((s) => s.trim()).filter(Boolean);
-}
-
-function resolveAllowOrigin(origin: string | null, env: Env): string {
-  const allowedList = getAllowedOrigins(env);
-  if (allowedList.includes("*")) return origin ?? "*";
-  if (!origin) return allowedList[0] ?? "*";
-  if (allowedList.includes(origin)) return origin;
-  // localhost と 127.0.0.1 のポート違いも許可（Vite 開発用）
-  if (isLocalDevOrigin(origin) && allowedList.some(isLocalDevOrigin)) return origin;
-  return allowedList[0];
-}
-
-function corsHeaders(origin: string | null, env: Env): HeadersInit {
+/** 公開情報のみ。秘密情報（SYNC_TOKEN）は絶対に返さない。 */
+function bootstrapInfo(env: Env) {
   return {
-    "Access-Control-Allow-Origin": resolveAllowOrigin(origin, env),
-    "Access-Control-Allow-Methods": "GET,PUT,POST,OPTIONS",
-    "Access-Control-Allow-Headers": "Authorization, Content-Type",
-    "Access-Control-Expose-Headers":
-      "X-TTS-Chars-Used, X-TTS-Monthly-Limit, X-TTS-Warning, X-TTS-Blocked",
+    apiVersion: "v1",
+    authMode: "manual-token" as const,
+    requiresToken: true,
+    features: {
+      progressSync: true,
+      tts: Boolean(env.GOOGLE_TTS_KEY),
+      legacyContentKv: true,
+    },
   };
 }
 
-function unauthorized(origin: string | null, env: Env) {
-  return new Response(JSON.stringify({ error: "Unauthorized" }), {
-    status: 401,
-    headers: { "Content-Type": "application/json", ...corsHeaders(origin, env) },
-  });
-}
-
-function json(data: unknown, origin: string | null, env: Env, status = 200) {
-  return new Response(JSON.stringify(data), {
-    status,
-    headers: { "Content-Type": "application/json", ...corsHeaders(origin, env) },
-  });
-}
-
-function isAuthorized(request: Request, env: Env): boolean {
-  const header = request.headers.get("Authorization") ?? "";
-  const token = header.startsWith("Bearer ") ? header.slice(7) : "";
-  return token.length > 0 && token === env.SYNC_TOKEN;
-}
-
-async function handleContent(request: Request, env: Env, origin: string | null) {
+async function handleContent(request: Request, env: Env, cors: Cors): Promise<Response> {
   if (request.method === "GET") {
-    const raw = await env.IELTS_KV.get("content");
-    if (!raw) return json({ records: [], updatedAt: 0 }, origin, env);
-    return new Response(raw, {
-      headers: { "Content-Type": "application/json", ...corsHeaders(origin, env) },
-    });
+    const raw = (await env.IELTS_KV.get(contentLegacyKey())) ?? (await env.IELTS_KV.get(LEGACY_CONTENT_KEY));
+    if (!raw) return json({ records: [], updatedAt: 0 }, 200, cors);
+    return json(JSON.parse(raw), 200, cors);
   }
   if (request.method === "PUT") {
-    const body = await request.text();
-    await env.IELTS_KV.put("content", body);
-    return json({ ok: true }, origin, env);
+    // 妥当な JSON のみ受理（不正は readJson が 400）。content はレガシー扱い。
+    const body = await readJson<unknown>(request);
+    await env.IELTS_KV.put(contentLegacyKey(), JSON.stringify(body));
+    return json({ ok: true }, 200, cors);
   }
-  return json({ error: "Method not allowed" }, origin, env, 405);
+  throw new HttpError(ERROR_CODES.METHOD_NOT_ALLOWED, "Method Not Allowed", 405);
 }
 
-async function handleProgress(request: Request, env: Env, origin: string | null) {
+async function handleProgress(request: Request, env: Env, cors: Cors): Promise<Response> {
   if (request.method === "GET") {
-    const raw = await env.IELTS_KV.get("progress");
-    if (!raw) return json({}, origin, env);
-    return new Response(raw, {
-      headers: { "Content-Type": "application/json", ...corsHeaders(origin, env) },
-    });
+    const raw =
+      (await env.IELTS_KV.get(progressKey(DEFAULT_USER_ID))) ??
+      (await env.IELTS_KV.get(LEGACY_PROGRESS_KEY));
+    if (!raw) return json({}, 200, cors);
+    return json(JSON.parse(raw), 200, cors);
   }
   if (request.method === "PUT") {
-    const body = await request.text();
-    await env.IELTS_KV.put("progress", body);
-    return json({ ok: true }, origin, env);
+    const body = await readJson<Record<string, unknown>>(request);
+    if (typeof body !== "object" || body === null || Array.isArray(body)) {
+      throw new HttpError(ERROR_CODES.BAD_REQUEST, "progress はオブジェクトである必要があります", 400);
+    }
+    await env.IELTS_KV.put(progressKey(DEFAULT_USER_ID), JSON.stringify(body));
+    return json({ ok: true }, 200, cors);
   }
-  return json({ error: "Method not allowed" }, origin, env, 405);
+  throw new HttpError(ERROR_CODES.METHOD_NOT_ALLOWED, "Method Not Allowed", 405);
 }
 
-async function handleTtsUsage(env: Env, origin: string | null) {
+async function handleTtsUsage(env: Env, cors: Cors): Promise<Response> {
+  const limit = resolveMonthlyLimit(env.TTS_MONTHLY_LIMIT);
   const usage = await getTtsUsage(env.IELTS_KV);
-  return json(buildTtsUsageStatus(usage), origin, env);
+  return json(buildTtsUsageStatus(usage, limit), 200, cors);
 }
 
-async function handleTts(request: Request, env: Env, origin: string | null) {
+async function handleTts(request: Request, env: Env, cors: Cors): Promise<Response> {
+  const body = await readJson<{
+    text?: string;
+    voice?: string;
+    speakingRate?: number;
+    audioEncoding?: string;
+  }>(request);
+
+  const text = body.text?.trim();
+  if (!text) {
+    throw new HttpError(ERROR_CODES.BAD_REQUEST, "text is required", 400);
+  }
+
+  const voiceKey = body.voice ?? "en-GB";
+  const voice = VOICE_MAP[voiceKey] ?? VOICE_MAP["en-GB"];
+  const speakingRate =
+    typeof body.speakingRate === "number" && body.speakingRate >= 0.25 && body.speakingRate <= 4
+      ? body.speakingRate
+      : 1;
+  const audioEncoding =
+    body.audioEncoding && ALLOWED_AUDIO_ENCODINGS.has(body.audioEncoding) ? body.audioEncoding : "MP3";
+  const contentType = audioEncoding === "MP3" ? "audio/mpeg" : "application/octet-stream";
+
+  const hash = await ttsHash({
+    text,
+    languageCode: voice.languageCode,
+    voiceName: voice.name,
+    speakingRate,
+    audioEncoding,
+  });
+  const cacheKey = ttsCacheKey(hash);
+  const limit = resolveMonthlyLimit(env.TTS_MONTHLY_LIMIT);
+
+  // 1) キャッシュヒット: 再生成しない・使用量は加算しない（合言葉さえ合えばキー無しでも返せる）
+  const cached = await env.IELTS_KV.get(cacheKey, "arrayBuffer");
+  if (cached) {
+    const usage = await getTtsUsage(env.IELTS_KV);
+    const status = buildTtsUsageStatus(usage, limit);
+    return new Response(cached, {
+      headers: { "Content-Type": contentType, ...cors, ...ttsUsageHeaders(status), "X-TTS-Cache": "hit" },
+    });
+  }
+
+  // 2) 生成にはキーが必要
   if (!env.GOOGLE_TTS_KEY) {
-    return json(
-      { error: "GOOGLE_TTS_KEY が Worker に設定されていません。wrangler secret put GOOGLE_TTS_KEY を実行してください。" },
-      origin,
-      env,
+    throw new HttpError(
+      ERROR_CODES.TTS_NOT_CONFIGURED,
+      "GOOGLE_TTS_KEY が Worker に設定されていません。wrangler secret put GOOGLE_TTS_KEY を実行してください。",
       503,
     );
   }
 
-  const body = (await request.json()) as { text?: string; voice?: string };
-  const text = body.text?.trim();
-  const voiceKey = body.voice ?? "en-GB";
-  const voice = VOICE_MAP[voiceKey] ?? VOICE_MAP["en-GB"];
-
-  if (!text) return json({ error: "text is required" }, origin, env, 400);
-
+  // 3) 月次上限チェック（超えるなら 429）
   const charCount = countChars(text);
-  const currentUsage = await getTtsUsage(env.IELTS_KV);
-  if (currentUsage.charsUsed + charCount > TTS_MONTHLY_FREE_LIMIT) {
-    const status = buildTtsUsageStatus(currentUsage);
-    return json(
-      {
-        error: `今月の TTS 無料枠（${TTS_MONTHLY_FREE_LIMIT.toLocaleString()} 文字）を超えるため生成を停止しました。キャッシュ済みの音声は引き続き再生できます。`,
-        ...status,
-      },
-      origin,
-      env,
+  const beforeUsage = await getTtsUsage(env.IELTS_KV);
+  if (wouldExceedLimit(beforeUsage.charsUsed, charCount, limit)) {
+    const status = buildTtsUsageStatus(beforeUsage, limit);
+    return errorJson(
+      ERROR_CODES.RATE_LIMITED,
+      `今月の TTS 上限（${limit.toLocaleString()} 文字）を超えるため生成を停止しました。キャッシュ済みの音声は引き続き再生できます。`,
       429,
+      cors,
+      status,
+      ttsUsageHeaders(status),
     );
   }
 
+  // 4) Google TTS 呼び出し
   const res = await fetch(
     `https://texttospeech.googleapis.com/v1/text:synthesize?key=${env.GOOGLE_TTS_KEY}`,
     {
@@ -147,27 +172,44 @@ async function handleTts(request: Request, env: Env, origin: string | null) {
       body: JSON.stringify({
         input: { text },
         voice: { languageCode: voice.languageCode, name: voice.name },
-        audioConfig: { audioEncoding: "MP3" },
+        audioConfig: { audioEncoding, speakingRate },
       }),
     },
   );
 
   if (!res.ok) {
-    const err = await res.text();
-    return json({ error: "TTS failed", detail: err }, origin, env, 502);
+    const detail = await res.text();
+    console.error("Google TTS error", res.status, detail);
+    throw new HttpError(ERROR_CODES.UPSTREAM_ERROR, "TTS の生成に失敗しました", 502);
   }
 
   const data = (await res.json()) as { audioContent?: string };
-  if (!data.audioContent) return json({ error: "No audio returned" }, origin, env, 502);
+  if (!data.audioContent) {
+    console.error("Google TTS returned no audioContent");
+    throw new HttpError(ERROR_CODES.UPSTREAM_ERROR, "音声が返されませんでした", 502);
+  }
 
-  const updatedUsage = await addTtsUsage(env.IELTS_KV, charCount);
-  const status = buildTtsUsageStatus(updatedUsage);
   const binary = Uint8Array.from(atob(data.audioContent), (c) => c.charCodeAt(0));
+
+  // 使用量を加算（生成時のみ）
+  const updatedUsage = await addTtsUsage(env.IELTS_KV, charCount);
+  const status = buildTtsUsageStatus(updatedUsage, limit);
+
+  // サイズが小さければキャッシュ（容量暴発防止のため上限超は保存しない）
+  if (shouldCache(binary.byteLength)) {
+    try {
+      await env.IELTS_KV.put(cacheKey, binary, { expirationTtl: TTS_CACHE_TTL_SECONDS });
+    } catch (e) {
+      console.error("TTS cache put failed", e);
+    }
+  }
+
   return new Response(binary, {
     headers: {
-      "Content-Type": "audio/mpeg",
-      ...corsHeaders(origin, env),
+      "Content-Type": contentType,
+      ...cors,
       ...ttsUsageHeaders(status),
+      "X-TTS-Cache": binary.byteLength <= MAX_TTS_CACHE_BYTES ? "miss" : "skip",
     },
   });
 }
@@ -175,26 +217,40 @@ async function handleTts(request: Request, env: Env, origin: string | null) {
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const origin = request.headers.get("Origin");
-    if (request.method === "OPTIONS") {
-      return new Response(null, { headers: corsHeaders(origin, env) });
-    }
+    const cors = corsHeaders(origin, env);
 
-    const url = new URL(request.url);
+    if (request.method === "OPTIONS") return handleOptions(cors);
 
-    /** 個人用：端末ごとの登録なし。アプリ起動時に合言葉を自動取得（CORS 許可オリジンのみ） */
-    if (url.pathname === "/app-bootstrap" && request.method === "GET") {
-      if (!env.SYNC_TOKEN) {
-        return json({ error: "SYNC_TOKEN not configured on Worker" }, origin, env, 503);
+    try {
+      const url = new URL(request.url);
+
+      // 公開エンドポイント（認証不要・秘密情報なし）
+      if (url.pathname === "/app-bootstrap" && request.method === "GET") {
+        return json(bootstrapInfo(env), 200, cors);
       }
-      return json({ syncToken: env.SYNC_TOKEN }, origin, env);
+
+      // 以降は Bearer 認証必須
+      if (!requireAuth(request, env)) {
+        return errorJson(ERROR_CODES.UNAUTHORIZED, "Unauthorized", 401, cors);
+      }
+
+      if (url.pathname === "/content") return await handleContent(request, env, cors);
+      if (url.pathname === "/progress") return await handleProgress(request, env, cors);
+      if (url.pathname === "/tts-usage" && request.method === "GET") {
+        return await handleTtsUsage(env, cors);
+      }
+      if (url.pathname === "/tts" && request.method === "POST") {
+        return await handleTts(request, env, cors);
+      }
+
+      return errorJson(ERROR_CODES.NOT_FOUND, "Not Found", 404, cors);
+    } catch (e) {
+      if (e instanceof HttpError) {
+        return errorJson(e.code, e.message, e.status, cors, e.details);
+      }
+      // 例外をそのままレスポンスに出さない（ログには残す）
+      console.error("Unhandled worker error", e);
+      return errorJson(ERROR_CODES.INTERNAL, "Internal Server Error", 500, cors);
     }
-
-    if (!isAuthorized(request, env)) return unauthorized(origin, env);
-    if (url.pathname === "/content") return handleContent(request, env, origin);
-    if (url.pathname === "/progress") return handleProgress(request, env, origin);
-    if (url.pathname === "/tts-usage" && request.method === "GET") return handleTtsUsage(env, origin);
-    if (url.pathname === "/tts" && request.method === "POST") return handleTts(request, env, origin);
-
-    return json({ error: "Not found" }, origin, env, 404);
   },
 };

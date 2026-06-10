@@ -14,6 +14,8 @@ export interface ShardMeta {
   theme: number;
   file: string;
   version: string;
+  /** 教材スキーマ世代。index の schemaVersion が変わると再取得する。 */
+  schemaVersion?: number;
   syncedAt: number;
 }
 

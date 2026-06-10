@@ -1,9 +1,14 @@
 {
+  "schemaVersion": 1,
   "domain": "english",
   "collection": "grammar",
+  "collectionId": "grammar",
   "collectionName": "文法",
   "theme": 3,
+  "themeId": "genre-3",
   "themeName": "時制",
+  "version": "011add44",
+  "generatedAt": "2026-06-10T04:56:31.758Z",
   "items": [
     {
       "n": 215,
@@ -753,6 +758,5 @@
         "added": "2026-06-08"
       }
     }
-  ],
-  "version": "d4661d3b"
+  ]
 }

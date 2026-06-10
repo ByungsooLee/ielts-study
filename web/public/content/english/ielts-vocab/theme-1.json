@@ -1,10 +1,14 @@
 {
+  "schemaVersion": 1,
   "domain": "english",
   "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
   "collectionName": "IELTS単語帳",
   "theme": 1,
+  "themeId": "theme-1",
   "themeName": "ポリネシアの入植",
   "version": "6fff5b4f",
+  "generatedAt": "2026-06-10T04:29:42.750Z",
   "items": [
     {
       "n": 1,

@@ -3,5 +3,10 @@
 #
 # wrangler dev が自動読み込み。本番へは: npm run secrets:push（リポジトリルート）
 
+# Bearer 認証の共有合言葉。Worker 環境変数としてのみ保持し、クライアントへは絶対に返さない。
+# （/app-bootstrap は公開情報のみを返し、SYNC_TOKEN は返却しない）
 SYNC_TOKEN=
+# Google Cloud TTS API キー。未設定だと /tts は 503。
 GOOGLE_TTS_KEY=
+# 任意: TTS 月次上限（文字数）。未設定なら無料枠デフォルト（1,000,000）。
+# TTS_MONTHLY_LIMIT=1000000

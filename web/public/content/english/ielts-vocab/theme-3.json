@@ -1,10 +1,14 @@
 {
+  "schemaVersion": 1,
   "domain": "english",
   "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
   "collectionName": "IELTS単語帳",
   "theme": 3,
+  "themeId": "theme-3",
   "themeName": "タイタニック",
   "version": "107bdf0c",
+  "generatedAt": "2026-06-10T04:29:42.750Z",
   "items": [
     {
       "n": 43,

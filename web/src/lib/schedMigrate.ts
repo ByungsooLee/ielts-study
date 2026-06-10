@@ -1,8 +1,15 @@
 import type { LegacySrsRecord, ProgressData, Sched } from "../types";
 import { SM2 } from "./sm2";
 import { INTERVALS } from "./srs";
+import { getDeviceId } from "./device";
+import { DEFAULT_USER_ID } from "./progressConstants";
 
-const SCHEMA_VERSION = 2;
+/**
+ * 1: 旧 box 方式
+ * 2: SM-2（ef/reps/interval/due/status）
+ * 3: 端末間同期向け（item 単位 updatedAt/sourceDeviceId、userId/deviceId、streak.longest）
+ */
+export const SCHEMA_VERSION = 3;
 
 export function isLegacySrsRecord(value: unknown): value is LegacySrsRecord {
   return (
@@ -44,12 +51,29 @@ export function migrateProgressSrs(srs: ProgressData["srs"]): Record<string, Sch
   return migrated;
 }
 
+/** v3: streak に longest を補完（破壊的に短くしない） */
+function ensureStreak(streak: ProgressData["streak"]): ProgressData["streak"] {
+  if (!streak) return streak;
+  const longest = Math.max(streak.longest ?? 0, streak.count ?? 0);
+  return { ...streak, longest };
+}
+
 export function ensureSchemaVersion(progress: ProgressData): ProgressData {
-  if (progress.schemaVersion === SCHEMA_VERSION) return progress;
+  if (progress.schemaVersion === SCHEMA_VERSION) {
+    // 既に最新でも、欠けがちな envelope を冪等に補完
+    return {
+      ...progress,
+      userId: progress.userId ?? DEFAULT_USER_ID,
+      deviceId: progress.deviceId ?? getDeviceId(),
+    };
+  }
   return {
     ...progress,
     srs: migrateProgressSrs(progress.srs),
+    streak: ensureStreak(progress.streak),
     schemaVersion: SCHEMA_VERSION,
     dailyMeta: progress.dailyMeta,
+    userId: progress.userId ?? DEFAULT_USER_ID,
+    deviceId: progress.deviceId ?? getDeviceId(),
   };
 }

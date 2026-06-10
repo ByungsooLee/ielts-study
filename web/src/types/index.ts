@@ -2,12 +2,33 @@ export type Domain = "english" | "engineering";
 
 export type ItemType = "word" | "phrase" | "grammar" | "conversation" | "concept";
 
+export interface ExplainTarget {
+  term: string;
+  ja: string;
+  collocation?: string;
+}
+
+export interface ProcessPhrase {
+  func: string;
+  en: string;
+  ja: string;
+}
+
+export type DiagramType = "flowchart" | "sequence" | "architecture" | "er";
+
+export interface EngineeringDiagram {
+  type: DiagramType;
+  mermaid: string;
+}
+
 export interface ConceptExplain {
   prompt_ja: string;
   points_ja?: string[];
   key_phrases?: string[];
   model_en: string;
   model_en_long?: string;
+  /** 図解カード：この図を説明するのに使う語彙 */
+  targets?: ExplainTarget[];
 }
 
 /** Engineering 概念カードの学習ステップ */
@@ -70,6 +91,12 @@ export interface StudyItem {
   /** 文法専用：IELTS 4技能での使いどころ */
   ielts?: string;
   detail_ja?: string;
+  /** Engineering 図解：日本語の要点（もっと知る） */
+  ja?: string;
+  /** Engineering 図解：Mermaid 図 */
+  diagram?: EngineeringDiagram;
+  /** Engineering 図解：プロセス記述の定型表現 */
+  phrases?: ProcessPhrase[];
   cloze?: GrammarCloze[];
   synonyms?: string[];
   collocation?: string;
@@ -129,6 +156,10 @@ export interface Sched {
   maybeCount: number;
   last: number;
   status: SchedStatus;
+  /** 最終更新時刻（ms）。端末間マージで item 単位の新しさ判定に使う。 */
+  updatedAt?: number;
+  /** この変更を行った端末 ID（由来追跡） */
+  sourceDeviceId?: string;
 }
 
 /** 移行用：旧 box 方式 */
@@ -154,6 +185,10 @@ export interface UserSentence {
 export interface StreakData {
   count: number;
   lastDay: number;
+  /** これまでの最長連続日数（破壊的に短くしない） */
+  longest?: number;
+  /** 最終学習日（YYYY-MM-DD・表示/将来同期用） */
+  lastStudiedDate?: string;
 }
 
 export interface ProgressData {
@@ -164,6 +199,10 @@ export interface ProgressData {
   dailyMeta?: DailyMeta;
   schemaVersion?: number;
   updatedAt: number;
+  /** 所有ユーザー（個人用は "default"） */
+  userId?: string;
+  /** 最後に書き込んだ端末 ID */
+  deviceId?: string;
 }
 
 export interface Recording {

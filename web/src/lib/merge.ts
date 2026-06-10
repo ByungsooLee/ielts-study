@@ -1,10 +1,16 @@
 import type { ProgressData, Sched, UserSentence } from "../types";
 
+/** item の新しさ。updatedAt があれば優先、無ければ last（最終レビュー）で代替。 */
+function schedStamp(s: Sched): number {
+  return s.updatedAt ?? s.last ?? 0;
+}
+
+/** item 単位で updatedAt が新しいものを採用（端末間同期に強い）。 */
 function mergeSched(local: Record<string, Sched>, remote: Record<string, Sched>) {
   const merged: Record<string, Sched> = { ...local };
   for (const [id, remoteRecord] of Object.entries(remote)) {
     const localRecord = merged[id];
-    if (!localRecord || remoteRecord.last > localRecord.last) {
+    if (!localRecord || schedStamp(remoteRecord) > schedStamp(localRecord)) {
       merged[id] = remoteRecord;
     }
   }
@@ -66,7 +72,14 @@ function mergeStreak(local: ProgressData["streak"], remote: ProgressData["streak
   if (!local && !remote) return undefined;
   if (!local) return remote;
   if (!remote) return local;
-  return local.lastDay >= remote.lastDay ? local : remote;
+  // current/lastDay は新しい方を採用。longest は両者の最大を保持（破壊的に短くしない）。
+  const base = local.lastDay >= remote.lastDay ? local : remote;
+  const longest = Math.max(
+    local.longest ?? local.count ?? 0,
+    remote.longest ?? remote.count ?? 0,
+    base.count ?? 0,
+  );
+  return { ...base, longest };
 }
 
 export function mergeProgress(local: ProgressData, remote: ProgressData): ProgressData {
@@ -78,8 +91,11 @@ export function mergeProgress(local: ProgressData, remote: ProgressData): Progre
     userSentences: mergeSentences(local.userSentences ?? {}, remote.userSentences ?? {}),
     streak: mergeStreak(local.streak, remote.streak),
     dailyMeta: mergeDailyMeta(local.dailyMeta, remote.dailyMeta),
-    schemaVersion: Math.max(local.schemaVersion ?? 1, remote.schemaVersion ?? 1, 2),
+    schemaVersion: Math.max(local.schemaVersion ?? 1, remote.schemaVersion ?? 1, 3),
     updatedAt: Math.max(localUpdatedAt, remoteUpdatedAt, Date.now()),
+    // envelope は最新更新側を引き継ぐ（無ければローカル）
+    userId: local.userId ?? remote.userId,
+    deviceId: localUpdatedAt >= remoteUpdatedAt ? local.deviceId ?? remote.deviceId : remote.deviceId ?? local.deviceId,
   };
 }
 

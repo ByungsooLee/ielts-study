@@ -2,10 +2,9 @@ import { create } from "zustand";
 import type { Accent, AppSettings, ColorMode, DailyNewLimit, SyncStatus } from "../types";
 import { SM2 } from "../lib/sm2";
 import { resolveSyncToken, resolveWorkerUrl } from "../lib/workerConfig";
+import { STORAGE_KEYS, readJson, writeJson } from "../lib/storage";
 
-const SETTINGS_KEY = "settings";
-
-/** localStorage に保存する項目（Worker URL・合言葉は毎回自動決定） */
+/** localStorage に保存する項目（Worker URL・合言葉は別管理） */
 interface StoredSettings {
   accent?: Accent;
   colorMode?: ColorMode;
@@ -38,18 +37,15 @@ function normalizeDailyNewLimit(value: unknown): DailyNewLimit {
 }
 
 function loadStoredSettings(): StoredSettings {
-  try {
-    const raw = localStorage.getItem(SETTINGS_KEY);
-    if (!raw) return {};
-    const parsed = JSON.parse(raw) as StoredSettings & { syncToken?: string; workerUrl?: string };
-    return {
-      accent: parsed.accent,
-      colorMode: parsed.colorMode,
-      dailyNewLimit: parsed.dailyNewLimit,
-    };
-  } catch {
-    return {};
-  }
+  const parsed = readJson<StoredSettings & { syncToken?: string; workerUrl?: string }>(
+    STORAGE_KEYS.settings,
+    {},
+  );
+  return {
+    accent: parsed.accent,
+    colorMode: parsed.colorMode,
+    dailyNewLimit: parsed.dailyNewLimit,
+  };
 }
 
 function loadSettings(): AppSettings {
@@ -77,7 +73,7 @@ function persist(settings: AppSettings) {
     colorMode: settings.colorMode,
     dailyNewLimit: settings.dailyNewLimit,
   };
-  localStorage.setItem(SETTINGS_KEY, JSON.stringify(stored));
+  writeJson(STORAGE_KEYS.settings, stored);
 }
 
 export const useSettingsStore = create<SettingsState>((set, get) => ({

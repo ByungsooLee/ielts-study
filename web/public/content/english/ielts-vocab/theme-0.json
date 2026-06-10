@@ -1,10 +1,14 @@
 {
+  "schemaVersion": 1,
   "domain": "english",
   "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
   "collectionName": "IELTS単語帳",
   "theme": 0,
+  "themeId": "theme-0",
   "themeName": "汎用（文法など）",
   "version": "b21d5528",
+  "generatedAt": "2026-06-10T04:29:42.750Z",
   "items": [
     {
       "n": 204,
