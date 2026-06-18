@@ -7,11 +7,11 @@
   "theme": 1,
   "themeId": "theme-1",
   "themeName": "パイプラインとオーケストレーション（面接頻出）",
-  "version": "d523e110",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "27df5ff0",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
   "items": [
     {
-      "n": 246,
+      "n": 425,
       "id": "de-pipe-orchestration",
       "type": "concept",
       "front": "Orchestration & DAGs (Airflow)",
@@ -54,7 +54,7 @@
       "themeName": "パイプラインとオーケストレーション（面接頻出）"
     },
     {
-      "n": 247,
+      "n": 426,
       "id": "de-pipe-scheduling-deps",
       "type": "concept",
       "front": "Scheduling, dependencies & sensors",
@@ -97,7 +97,7 @@
       "themeName": "パイプラインとオーケストレーション（面接頻出）"
     },
     {
-      "n": 248,
+      "n": 427,
       "id": "de-pipe-incremental-cdc",
       "type": "concept",
       "front": "Incremental loads & CDC",
@@ -141,7 +141,7 @@
       "themeName": "パイプラインとオーケストレーション（面接頻出）"
     },
     {
-      "n": 249,
+      "n": 428,
       "id": "de-pipe-backfill",
       "type": "concept",
       "front": "Backfill & reprocessing",
@@ -184,7 +184,7 @@
       "themeName": "パイプラインとオーケストレーション（面接頻出）"
     },
     {
-      "n": 250,
+      "n": 429,
       "id": "de-pipe-data-quality",
       "type": "concept",
       "front": "Data quality checks & circuit breaker",
@@ -227,7 +227,7 @@
       "themeName": "パイプラインとオーケストレーション（面接頻出）"
     },
     {
-      "n": 251,
+      "n": 430,
       "id": "de-pipe-retries-sla",
       "type": "concept",
       "front": "Retries, alerting & SLAs (observability)",

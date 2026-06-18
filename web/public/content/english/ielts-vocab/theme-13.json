@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 13,
+  "themeId": "theme-13",
+  "themeName": "ロボカップ",
+  "version": "e58c2cf1",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 250,
+      "id": "w-formidable",
+      "type": "word",
+      "front": "formidable",
+      "meaning": "手ごわい・大変な",
+      "synonyms": [
+        "challenging",
+        "daunting"
+      ],
+      "collocation": "a formidable goal, a formidable task",
+      "examples": [
+        {
+          "en": "Organisers have set a formidable goal: by 2050, a robot team that can beat human champions."
+        }
+      ],
+      "pron": {
+        "lookup": "formidable",
+        "tts": "formidable"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 251,
+      "id": "w-demanding",
+      "type": "word",
+      "front": "demanding",
+      "meaning": "きつい・要求の厳しい",
+      "synonyms": [
+        "exacting"
+      ],
+      "collocation": "a demanding task, physically demanding",
+      "examples": [
+        {
+          "en": "Football is far more demanding than chess because it is dynamic: players must react in real time and position themselves around many variables."
+        }
+      ],
+      "pron": {
+        "lookup": "demanding",
+        "tts": "demanding"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 252,
+      "id": "w-dynamic",
+      "type": "word",
+      "front": "dynamic",
+      "meaning": "動的な・活動的な",
+      "synonyms": [
+        "ever-changing"
+      ],
+      "collocation": "a dynamic system, a dynamic environment",
+      "examples": [
+        {
+          "en": "Football is far more demanding than chess because it is dynamic: players must react in real time and position themselves around many variables."
+        }
+      ],
+      "pron": {
+        "lookup": "dynamic",
+        "tts": "dynamic"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 253,
+      "id": "w-react",
+      "type": "word",
+      "front": "react",
+      "meaning": "反応する",
+      "synonyms": [
+        "respond"
+      ],
+      "collocation": "react in real time, react quickly",
+      "examples": [
+        {
+          "en": "Football is far more demanding than chess because it is dynamic: players must react in real time and position themselves around many variables."
+        }
+      ],
+      "pron": {
+        "lookup": "react",
+        "tts": "react"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 254,
+      "id": "w-viable",
+      "type": "word",
+      "front": "viable",
+      "meaning": "実現可能な",
+      "synonyms": [
+        "feasible"
+      ],
+      "collocation": "a viable option, commercially viable",
+      "examples": [
+        {
+          "en": "Current robots are not yet adept at this and look awkward on the pitch, so a truly viable robot team is still some way off."
+        }
+      ],
+      "pron": {
+        "lookup": "viable",
+        "tts": "viable"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 255,
+      "id": "w-breakthrough",
+      "type": "word",
+      "front": "breakthrough",
+      "meaning": "飛躍的な進歩・突破口",
+      "synonyms": [
+        "quantum leap"
+      ],
+      "collocation": "a scientific breakthrough, a major breakthrough",
+      "examples": [
+        {
+          "en": "If they succeed it would be a scientific breakthrough, with promising applications in elderly care and rescue."
+        }
+      ],
+      "pron": {
+        "lookup": "breakthrough",
+        "tts": "breakthrough"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 256,
+      "id": "w-application",
+      "type": "word",
+      "front": "application",
+      "meaning": "応用・利用",
+      "synonyms": [
+        "use",
+        "utilisation"
+      ],
+      "collocation": "practical applications, a useful application",
+      "examples": [
+        {
+          "en": "If they succeed it would be a scientific breakthrough, with promising applications in elderly care and rescue."
+        }
+      ],
+      "pron": {
+        "lookup": "application",
+        "tts": "application"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 257,
+      "id": "w-showcase",
+      "type": "word",
+      "front": "showcase",
+      "meaning": "紹介する・見せる",
+      "synonyms": [
+        "exhibit",
+        "display"
+      ],
+      "collocation": "showcase the latest technology",
+      "examples": [
+        {
+          "en": "The annual RoboCup showcases state-of-the-art robotics through a football tournament."
+        }
+      ],
+      "pron": {
+        "lookup": "showcase",
+        "tts": "showcase"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 258,
+      "id": "w-state-of-the-art",
+      "type": "word",
+      "front": "state-of-the-art",
+      "meaning": "最新式の",
+      "synonyms": [
+        "cutting-edge"
+      ],
+      "collocation": "state-of-the-art equipment",
+      "examples": [
+        {
+          "en": "The annual RoboCup showcases state-of-the-art robotics through a football tournament."
+        }
+      ],
+      "pron": {
+        "lookup": "state-of-the-art",
+        "tts": "state-of-the-art"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 259,
+      "id": "w-position",
+      "type": "word",
+      "front": "position",
+      "meaning": "配置する",
+      "synonyms": [
+        "place"
+      ],
+      "collocation": "position oneself, well positioned",
+      "examples": [
+        {
+          "en": "Football is far more demanding than chess because it is dynamic: players must react in real time and position themselves around many variables."
+        }
+      ],
+      "pron": {
+        "lookup": "position",
+        "tts": "position"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 260,
+      "id": "p-adept-at",
+      "type": "phrase",
+      "front": "adept at",
+      "meaning": "〜が上手で",
+      "synonyms": [
+        "proficient at",
+        "deft at"
+      ],
+      "collocation": "adept at dealing with sth",
+      "examples": [
+        {
+          "en": "Current robots are not yet adept at this and look awkward on the pitch, so a truly viable robot team is still some way off."
+        }
+      ],
+      "pron": {
+        "tts": "adept at"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 261,
+      "id": "w-variable",
+      "type": "word",
+      "front": "variable",
+      "meaning": "変化するもの・要因",
+      "synonyms": [
+        "factor"
+      ],
+      "collocation": "many variables, a key variable",
+      "examples": [
+        {
+          "en": "Football is far more demanding than chess because it is dynamic: players must react in real time and position themselves around many variables."
+        }
+      ],
+      "pron": {
+        "lookup": "variable",
+        "tts": "variable"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 262,
+      "id": "w-promising",
+      "type": "word",
+      "front": "promising",
+      "meaning": "見込みのある・期待できる",
+      "synonyms": [
+        "potentially exciting"
+      ],
+      "collocation": "a promising application, a promising start",
+      "examples": [
+        {
+          "en": "If they succeed it would be a scientific breakthrough, with promising applications in elderly care and rescue."
+        }
+      ],
+      "pron": {
+        "lookup": "promising",
+        "tts": "promising"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 263,
+      "id": "w-awkward",
+      "type": "word",
+      "front": "awkward",
+      "meaning": "ぎこちない・不器用な",
+      "synonyms": [
+        "clumsy"
+      ],
+      "collocation": "look awkward, an awkward movement",
+      "examples": [
+        {
+          "en": "Current robots are not yet adept at this and look awkward on the pitch, so a truly viable robot team is still some way off."
+        }
+      ],
+      "pron": {
+        "lookup": "awkward",
+        "tts": "awkward"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 264,
+      "id": "p-little-known-outside-certain-circles",
+      "type": "phrase",
+      "front": "little-known outside certain circles",
+      "meaning": "ほとんど知られていない",
+      "synonyms": [
+        "practically unknown",
+        "fairly obscure"
+      ],
+      "pron": {
+        "tts": "little-known outside certain circles"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 265,
+      "id": "w-balloon",
+      "type": "word",
+      "front": "balloon",
+      "meaning": "膨れ上がる・急増する",
+      "synonyms": [
+        "explode",
+        "surge"
+      ],
+      "pron": {
+        "lookup": "balloon",
+        "tts": "balloon"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 266,
+      "id": "p-put-together",
+      "type": "phrase",
+      "front": "put together",
+      "meaning": "組み立てる",
+      "synonyms": [
+        "assemble"
+      ],
+      "pron": {
+        "tts": "put together"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 267,
+      "id": "w-outplay",
+      "type": "word",
+      "front": "outplay",
+      "meaning": "打ち負かす",
+      "synonyms": [
+        "outperform"
+      ],
+      "pron": {
+        "lookup": "outplay",
+        "tts": "outplay"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 268,
+      "id": "w-static",
+      "type": "word",
+      "front": "static",
+      "meaning": "静的な",
+      "synonyms": [
+        "stationary"
+      ],
+      "pron": {
+        "lookup": "static",
+        "tts": "static"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 269,
+      "id": "p-long-way-off",
+      "type": "phrase",
+      "front": "long way off",
+      "meaning": "遠く離れている",
+      "synonyms": [
+        "distant prospect"
+      ],
+      "pron": {
+        "tts": "long way off"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 270,
+      "id": "p-go-back-to-the-drawing-board",
+      "type": "phrase",
+      "front": "go back to the drawing board",
+      "meaning": "振り出しに戻る",
+      "synonyms": [
+        "go back to square one"
+      ],
+      "pron": {
+        "tts": "go back to the drawing board"
+      },
+      "tags": [],
+      "theme": 13,
+      "themeName": "ロボカップ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t13",
+    "theme": 13,
+    "themeName": "ロボカップ",
+    "jp": "毎年開かれるロボカップは、サッカーのトーナメントを通して最新式のロボット工学を披露する。主催者は手ごわい目標を掲げている——2050年までに人間の王者を打ち負かせるロボットチームを作ることだ。サッカーはチェスよりはるかに過酷だ。動的で、選手は即座に反応し、多くの変化する要因に合わせて自らを配置しなければならない。現在のロボットはまだこれが上手でなく、ピッチ上でぎこちなく見えるので、本当に実現可能なロボットチームはまだ先だ。もし成功すれば科学的な突破口となり、老人介護や救助に見込みのある応用が広がるだろう。",
+    "sentences": [
+      {
+        "en": "The annual RoboCup showcases state-of-the-art robotics through a football tournament.",
+        "targets": [
+          {
+            "id": "w-showcase",
+            "text": "showcases"
+          },
+          {
+            "id": "w-state-of-the-art",
+            "text": "state-of-the-art"
+          }
+        ]
+      },
+      {
+        "en": "Organisers have set a formidable goal: by 2050, a robot team that can beat human champions.",
+        "targets": [
+          {
+            "id": "w-formidable",
+            "text": "formidable"
+          }
+        ]
+      },
+      {
+        "en": "Football is far more demanding than chess because it is dynamic: players must react in real time and position themselves around many variables.",
+        "targets": [
+          {
+            "id": "w-demanding",
+            "text": "demanding"
+          },
+          {
+            "id": "w-dynamic",
+            "text": "dynamic"
+          },
+          {
+            "id": "w-react",
+            "text": "react"
+          },
+          {
+            "id": "w-position",
+            "text": "position"
+          },
+          {
+            "id": "w-variable",
+            "text": "variables"
+          }
+        ]
+      },
+      {
+        "en": "Current robots are not yet adept at this and look awkward on the pitch, so a truly viable robot team is still some way off.",
+        "targets": [
+          {
+            "id": "p-adept-at",
+            "text": "adept at"
+          },
+          {
+            "id": "w-awkward",
+            "text": "awkward"
+          },
+          {
+            "id": "w-viable",
+            "text": "viable"
+          }
+        ]
+      },
+      {
+        "en": "If they succeed it would be a scientific breakthrough, with promising applications in elderly care and rescue.",
+        "targets": [
+          {
+            "id": "w-breakthrough",
+            "text": "breakthrough"
+          },
+          {
+            "id": "w-promising",
+            "text": "promising"
+          },
+          {
+            "id": "w-application",
+            "text": "applications"
+          }
+        ]
+      }
+    ]
+  }
+}

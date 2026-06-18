@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 20,
+  "themeId": "theme-20",
+  "themeName": "普遍文法",
+  "version": "c310d64e",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 393,
+      "id": "w-competing",
+      "type": "word",
+      "front": "competing",
+      "meaning": "相反する・競合する",
+      "synonyms": [
+        "differing",
+        "clashing",
+        "conflicting"
+      ],
+      "collocation": "competing theories, competing interests",
+      "examples": [
+        {
+          "en": "There are two competing theories of language acquisition: either language is learned, or it is a natural ability."
+        }
+      ],
+      "pron": {
+        "lookup": "competing",
+        "tts": "competing"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 394,
+      "id": "w-ability",
+      "type": "word",
+      "front": "ability",
+      "meaning": "能力",
+      "synonyms": [
+        "capability",
+        "competence"
+      ],
+      "collocation": "the ability to do, language ability",
+      "examples": [
+        {
+          "en": "There are two competing theories of language acquisition: either language is learned, or it is a natural ability."
+        }
+      ],
+      "pron": {
+        "lookup": "ability",
+        "tts": "ability"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 395,
+      "id": "w-approach",
+      "type": "word",
+      "front": "approach",
+      "meaning": "方法",
+      "synonyms": [
+        "method"
+      ],
+      "collocation": "a new approach, an approach to learning",
+      "examples": [
+        {
+          "en": "B.F. Skinner argued that all language is learned through repetition, an approach that had a profound impact for years."
+        }
+      ],
+      "pron": {
+        "lookup": "approach",
+        "tts": "approach"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 396,
+      "id": "w-profound",
+      "type": "word",
+      "front": "profound",
+      "meaning": "大規模な・深い",
+      "synonyms": [
+        "deep"
+      ],
+      "collocation": "a profound impact, a profound effect",
+      "examples": [
+        {
+          "en": "B.F. Skinner argued that all language is learned through repetition, an approach that had a profound impact for years."
+        }
+      ],
+      "pron": {
+        "lookup": "profound",
+        "tts": "profound"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 397,
+      "id": "w-systematic",
+      "type": "word",
+      "front": "systematic",
+      "meaning": "体系的な・規則正しい",
+      "synonyms": [
+        "methodical",
+        "standardised"
+      ],
+      "collocation": "a systematic order, a systematic approach",
+      "examples": [
+        {
+          "en": "Yet deaf children babble in a systematic order, and new creole languages emerge with a common grammar."
+        }
+      ],
+      "pron": {
+        "lookup": "systematic",
+        "tts": "systematic"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 398,
+      "id": "w-emerge",
+      "type": "word",
+      "front": "emerge",
+      "meaning": "出現する・生まれる",
+      "synonyms": [
+        "arise",
+        "appear"
+      ],
+      "collocation": "a new language emerges, problems emerge",
+      "examples": [
+        {
+          "en": "Yet deaf children babble in a systematic order, and new creole languages emerge with a common grammar."
+        }
+      ],
+      "pron": {
+        "lookup": "emerge",
+        "tts": "emerge"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 399,
+      "id": "w-fundamental",
+      "type": "word",
+      "front": "fundamental",
+      "meaning": "基本・基礎",
+      "synonyms": [
+        "foundation",
+        "basics"
+      ],
+      "collocation": "the fundamentals of…, a fundamental principle",
+      "examples": [
+        {
+          "en": "Noam Chomsky, the renowned linguist, proposed 'universal grammar', believing the fundamentals are innate — such as the ability to differentiate between a verb and a noun."
+        }
+      ],
+      "pron": {
+        "lookup": "fundamental",
+        "tts": "fundamental"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 400,
+      "id": "w-develop",
+      "type": "word",
+      "front": "develop",
+      "meaning": "発達する",
+      "synonyms": [
+        "evolve",
+        "materialise"
+      ],
+      "collocation": "language develops, develop naturally",
+      "examples": [
+        {
+          "en": "Drawing on these ideas, his contemporary Steven Pinker speculated that an isolated group would naturally develop a full language."
+        }
+      ],
+      "pron": {
+        "lookup": "develop",
+        "tts": "develop"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 401,
+      "id": "w-repetition",
+      "type": "word",
+      "front": "repetition",
+      "meaning": "反復・繰り返し",
+      "synonyms": [
+        "reiteration"
+      ],
+      "collocation": "learn through repetition, constant repetition",
+      "examples": [
+        {
+          "en": "B.F. Skinner argued that all language is learned through repetition, an approach that had a profound impact for years."
+        }
+      ],
+      "pron": {
+        "lookup": "repetition",
+        "tts": "repetition"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 402,
+      "id": "w-common",
+      "type": "word",
+      "front": "common",
+      "meaning": "一般的な・普通の",
+      "synonyms": [
+        "shared",
+        "universal"
+      ],
+      "collocation": "a common grammar, common features",
+      "examples": [
+        {
+          "en": "Yet deaf children babble in a systematic order, and new creole languages emerge with a common grammar."
+        }
+      ],
+      "pron": {
+        "lookup": "common",
+        "tts": "common"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 403,
+      "id": "w-renowned",
+      "type": "word",
+      "front": "renowned",
+      "meaning": "著名な",
+      "synonyms": [
+        "acclaimed",
+        "esteemed",
+        "well-respected"
+      ],
+      "collocation": "a renowned linguist, renowned for",
+      "examples": [
+        {
+          "en": "Noam Chomsky, the renowned linguist, proposed 'universal grammar', believing the fundamentals are innate — such as the ability to differentiate between a verb and a noun."
+        }
+      ],
+      "pron": {
+        "lookup": "renowned",
+        "tts": "renowned"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 404,
+      "id": "p-differentiate-between",
+      "type": "phrase",
+      "front": "differentiate between",
+      "meaning": "〜を区別する",
+      "synonyms": [
+        "distinguish between"
+      ],
+      "collocation": "differentiate between a verb and a noun",
+      "examples": [
+        {
+          "en": "Noam Chomsky, the renowned linguist, proposed 'universal grammar', believing the fundamentals are innate — such as the ability to differentiate between a verb and a noun."
+        }
+      ],
+      "pron": {
+        "tts": "differentiate between"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 405,
+      "id": "p-draw-on",
+      "type": "phrase",
+      "front": "draw on",
+      "meaning": "〜を利用する",
+      "synonyms": [
+        "tap into",
+        "employ"
+      ],
+      "collocation": "draw on ideas, draw on experience",
+      "examples": [
+        {
+          "en": "Drawing on these ideas, his contemporary Steven Pinker speculated that an isolated group would naturally develop a full language."
+        }
+      ],
+      "pron": {
+        "tts": "draw on"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 406,
+      "id": "w-speculate",
+      "type": "word",
+      "front": "speculate",
+      "meaning": "推測する",
+      "synonyms": [
+        "hypothesise",
+        "surmise"
+      ],
+      "collocation": "speculate that…, speculate about",
+      "examples": [
+        {
+          "en": "Drawing on these ideas, his contemporary Steven Pinker speculated that an isolated group would naturally develop a full language."
+        }
+      ],
+      "pron": {
+        "lookup": "speculate",
+        "tts": "speculate"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 407,
+      "id": "w-contemporary",
+      "type": "word",
+      "front": "contemporary",
+      "meaning": "同時代の人",
+      "synonyms": [
+        "peer"
+      ],
+      "collocation": "his contemporaries, a contemporary of",
+      "examples": [
+        {
+          "en": "Drawing on these ideas, his contemporary Steven Pinker speculated that an isolated group would naturally develop a full language."
+        }
+      ],
+      "pron": {
+        "lookup": "contemporary",
+        "tts": "contemporary"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 408,
+      "id": "w-propound",
+      "type": "word",
+      "front": "propound",
+      "meaning": "提唱する",
+      "synonyms": [
+        "propose",
+        "put forward"
+      ],
+      "pron": {
+        "lookup": "propound",
+        "tts": "propound"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 409,
+      "id": "p-put-paid-to",
+      "type": "phrase",
+      "front": "put paid to",
+      "meaning": "異議を唱える・否定する",
+      "synonyms": [
+        "refute",
+        "disprove",
+        "repudiate"
+      ],
+      "pron": {
+        "tts": "put paid to"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 410,
+      "id": "w-opine",
+      "type": "word",
+      "front": "opine",
+      "meaning": "見解を持つ",
+      "synonyms": [
+        "theorise"
+      ],
+      "pron": {
+        "lookup": "opine",
+        "tts": "opine"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 411,
+      "id": "w-civilisation",
+      "type": "word",
+      "front": "civilisation",
+      "meaning": "文明",
+      "synonyms": [
+        "society"
+      ],
+      "pron": {
+        "lookup": "civilisation",
+        "tts": "civilisation"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 412,
+      "id": "w-usage",
+      "type": "word",
+      "front": "usage",
+      "meaning": "用法",
+      "synonyms": [
+        "convention"
+      ],
+      "pron": {
+        "lookup": "usage",
+        "tts": "usage"
+      },
+      "tags": [],
+      "theme": 20,
+      "themeName": "普遍文法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t20",
+    "theme": 20,
+    "themeName": "普遍文法",
+    "jp": "言語習得には2つの相反する理論がある。言語は学ぶものか、生まれ持った能力かというものだ。B.F.スキナーは、すべての言語は反復によって習得されると主張し、その方法は長年大きな影響を与えた。しかし聴覚障害のある子どもは規則正しい順序でしゃべり、新しいクレオール語は共通の文法をもって生まれてくる。著名な言語学者ノーム・チョムスキーは「普遍文法」を提唱し、動詞と名詞を区別する能力のような基本は生まれつきのものだと信じた。これらの考えを利用し、同時代のスティーブン・ピンカーは、隔離された集団は自然に完全な言語を発達させると推測した。",
+    "sentences": [
+      {
+        "en": "There are two competing theories of language acquisition: either language is learned, or it is a natural ability.",
+        "targets": [
+          {
+            "id": "w-competing",
+            "text": "competing"
+          },
+          {
+            "id": "w-ability",
+            "text": "ability"
+          }
+        ]
+      },
+      {
+        "en": "B.F. Skinner argued that all language is learned through repetition, an approach that had a profound impact for years.",
+        "targets": [
+          {
+            "id": "w-repetition",
+            "text": "repetition"
+          },
+          {
+            "id": "w-approach",
+            "text": "approach"
+          },
+          {
+            "id": "w-profound",
+            "text": "profound"
+          }
+        ]
+      },
+      {
+        "en": "Yet deaf children babble in a systematic order, and new creole languages emerge with a common grammar.",
+        "targets": [
+          {
+            "id": "w-systematic",
+            "text": "systematic"
+          },
+          {
+            "id": "w-emerge",
+            "text": "emerge"
+          },
+          {
+            "id": "w-common",
+            "text": "common"
+          }
+        ]
+      },
+      {
+        "en": "Noam Chomsky, the renowned linguist, proposed 'universal grammar', believing the fundamentals are innate — such as the ability to differentiate between a verb and a noun.",
+        "targets": [
+          {
+            "id": "w-renowned",
+            "text": "renowned"
+          },
+          {
+            "id": "w-fundamental",
+            "text": "fundamentals"
+          },
+          {
+            "id": "p-differentiate-between",
+            "text": "differentiate between"
+          }
+        ]
+      },
+      {
+        "en": "Drawing on these ideas, his contemporary Steven Pinker speculated that an isolated group would naturally develop a full language.",
+        "targets": [
+          {
+            "id": "p-draw-on",
+            "text": "Drawing on"
+          },
+          {
+            "id": "w-contemporary",
+            "text": "contemporary"
+          },
+          {
+            "id": "w-speculate",
+            "text": "speculated"
+          },
+          {
+            "id": "w-develop",
+            "text": "develop"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -7,11 +7,11 @@
   "theme": 1,
   "themeId": "genre-1",
   "themeName": "動詞",
-  "version": "fad4bef4",
-  "generatedAt": "2026-06-10T04:56:31.758Z",
+  "version": "057b484b",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
   "items": [
     {
-      "n": 207,
+      "n": 458,
       "id": "g-svc-second-pattern",
       "type": "grammar",
       "front": "第2文型 S+V+C（become/remain/turn など）",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "n": 208,
+      "n": 459,
       "id": "g-svoo-svoc-pattern",
       "type": "grammar",
       "front": "第4文型 S+V+O+O / 第5文型 S+V+O+C",
@@ -151,7 +151,7 @@
       }
     },
     {
-      "n": 209,
+      "n": 460,
       "id": "g-vi-mistaken-as-vt",
       "type": "grammar",
       "front": "他動詞と間違えやすい自動詞（前置詞が要る）",
@@ -218,7 +218,7 @@
       }
     },
     {
-      "n": 210,
+      "n": 461,
       "id": "g-vt-mistaken-as-vi",
       "type": "grammar",
       "front": "自動詞と間違えやすい他動詞（前置詞は不要）",

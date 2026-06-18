@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 12,
+  "themeId": "theme-12",
+  "themeName": "オリーブの栽培",
+  "version": "6f9cefb9",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 229,
+      "id": "w-reduce",
+      "type": "word",
+      "front": "reduce",
+      "meaning": "減らす",
+      "synonyms": [
+        "cut down on",
+        "decrease"
+      ],
+      "collocation": "reduce the time, reduce costs",
+      "examples": [
+        {
+          "en": "The Romans supplemented the saltwater with lye, which reduced the time needed to cure the fruit."
+        }
+      ],
+      "pron": {
+        "lookup": "reduce",
+        "tts": "reduce"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 230,
+      "id": "w-extract",
+      "type": "word",
+      "front": "extract",
+      "meaning": "抽出する・取り出す",
+      "synonyms": [
+        "obtain",
+        "draw out"
+      ],
+      "collocation": "extract oil, extract information",
+      "examples": [
+        {
+          "en": "After curing, they pressed the olives to extract the oil, then sealed them in airtight jars so they would not spoil."
+        }
+      ],
+      "pron": {
+        "lookup": "extract",
+        "tts": "extract"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 231,
+      "id": "w-thrive",
+      "type": "word",
+      "front": "thrive",
+      "meaning": "健康に育つ・繁栄する",
+      "synonyms": [
+        "flourish"
+      ],
+      "collocation": "thrive in a climate, the economy thrives",
+      "examples": [
+        {
+          "en": "Today most olives come from Spain's arable regions, where the trees thrive thanks to a warm climate and moisture in the air."
+        }
+      ],
+      "pron": {
+        "lookup": "thrive",
+        "tts": "thrive"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 232,
+      "id": "w-harvest",
+      "type": "word",
+      "front": "harvest",
+      "meaning": "収穫する",
+      "synonyms": [
+        "reap"
+      ],
+      "collocation": "harvest a crop, harvest in autumn",
+      "examples": [
+        {
+          "en": "Depending on the region, the harvest takes place between autumn and early winter."
+        }
+      ],
+      "pron": {
+        "lookup": "harvest",
+        "tts": "harvest"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 233,
+      "id": "w-seek",
+      "type": "word",
+      "front": "seek",
+      "meaning": "求める・〜しようとする",
+      "synonyms": [
+        "pursue",
+        "look for"
+      ],
+      "collocation": "seek a solution, seek to do",
+      "examples": [
+        {
+          "en": "Fresh olives are bitter and almost inedible, so for centuries farmers sought ways to make them palatable."
+        }
+      ],
+      "pron": {
+        "lookup": "seek",
+        "tts": "seek"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 234,
+      "id": "w-supplement",
+      "type": "word",
+      "front": "supplement",
+      "meaning": "補う・加える",
+      "synonyms": [
+        "augment"
+      ],
+      "collocation": "supplement the diet, supplement income",
+      "examples": [
+        {
+          "en": "The Romans supplemented the saltwater with lye, which reduced the time needed to cure the fruit."
+        }
+      ],
+      "pron": {
+        "lookup": "supplement",
+        "tts": "supplement"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 235,
+      "id": "w-protracted",
+      "type": "word",
+      "front": "protracted",
+      "meaning": "長く続く・長引く",
+      "synonyms": [
+        "drawn-out",
+        "time-consuming"
+      ],
+      "collocation": "a protracted process, a protracted dispute",
+      "examples": [
+        {
+          "en": "Removing the bitterness was once a protracted and painstaking task."
+        }
+      ],
+      "pron": {
+        "lookup": "protracted",
+        "tts": "protracted"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 236,
+      "id": "w-painstaking",
+      "type": "word",
+      "front": "painstaking",
+      "meaning": "骨の折れる・大変な",
+      "synonyms": [
+        "meticulous",
+        "thorough"
+      ],
+      "collocation": "a painstaking process, painstaking work",
+      "examples": [
+        {
+          "en": "Removing the bitterness was once a protracted and painstaking task."
+        }
+      ],
+      "pron": {
+        "lookup": "painstaking",
+        "tts": "painstaking"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 237,
+      "id": "w-press",
+      "type": "word",
+      "front": "press",
+      "meaning": "圧搾する・押しつぶす",
+      "synonyms": [
+        "squash",
+        "crush"
+      ],
+      "collocation": "press the olives, press fruit",
+      "examples": [
+        {
+          "en": "After curing, they pressed the olives to extract the oil, then sealed them in airtight jars so they would not spoil."
+        }
+      ],
+      "pron": {
+        "lookup": "press",
+        "tts": "press"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 238,
+      "id": "w-airtight",
+      "type": "word",
+      "front": "airtight",
+      "meaning": "密閉した",
+      "synonyms": [
+        "watertight",
+        "sealed"
+      ],
+      "collocation": "an airtight container, airtight seal",
+      "examples": [
+        {
+          "en": "After curing, they pressed the olives to extract the oil, then sealed them in airtight jars so they would not spoil."
+        }
+      ],
+      "pron": {
+        "lookup": "airtight",
+        "tts": "airtight"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 239,
+      "id": "w-spoil",
+      "type": "word",
+      "front": "spoil",
+      "meaning": "腐る・だめになる",
+      "synonyms": [
+        "rot",
+        "decay",
+        "turn bad"
+      ],
+      "collocation": "the food spoils, spoil quickly",
+      "examples": [
+        {
+          "en": "After curing, they pressed the olives to extract the oil, then sealed them in airtight jars so they would not spoil."
+        }
+      ],
+      "pron": {
+        "lookup": "spoil",
+        "tts": "spoil"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 240,
+      "id": "w-inedible",
+      "type": "word",
+      "front": "inedible",
+      "meaning": "食べられない",
+      "synonyms": [
+        "inconsumable"
+      ],
+      "collocation": "inedible in its raw state",
+      "examples": [
+        {
+          "en": "Fresh olives are bitter and almost inedible, so for centuries farmers sought ways to make them palatable."
+        }
+      ],
+      "pron": {
+        "lookup": "inedible",
+        "tts": "inedible"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 241,
+      "id": "w-moisture",
+      "type": "word",
+      "front": "moisture",
+      "meaning": "湿度・湿気",
+      "synonyms": [
+        "dampness"
+      ],
+      "collocation": "moisture in the air, retain moisture",
+      "examples": [
+        {
+          "en": "Today most olives come from Spain's arable regions, where the trees thrive thanks to a warm climate and moisture in the air."
+        }
+      ],
+      "pron": {
+        "lookup": "moisture",
+        "tts": "moisture"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 242,
+      "id": "w-arable",
+      "type": "word",
+      "front": "arable",
+      "meaning": "耕作に適した",
+      "synonyms": [
+        "food-producing"
+      ],
+      "collocation": "arable land, an arable region",
+      "examples": [
+        {
+          "en": "Today most olives come from Spain's arable regions, where the trees thrive thanks to a warm climate and moisture in the air."
+        }
+      ],
+      "pron": {
+        "lookup": "arable",
+        "tts": "arable"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 243,
+      "id": "p-defense-mechanism",
+      "type": "phrase",
+      "front": "defense mechanism",
+      "meaning": "防御機構",
+      "synonyms": [
+        "protection",
+        "guard"
+      ],
+      "pron": {
+        "tts": "defense mechanism"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 244,
+      "id": "p-in-the-wild",
+      "type": "phrase",
+      "front": "in the wild",
+      "meaning": "野生で",
+      "synonyms": [
+        "in nature"
+      ],
+      "pron": {
+        "tts": "in the wild"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 245,
+      "id": "p-the-dawn-of",
+      "type": "phrase",
+      "front": "the dawn of",
+      "meaning": "〜の幕開け",
+      "synonyms": [
+        "the birth of"
+      ],
+      "pron": {
+        "tts": "the dawn of"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 246,
+      "id": "w-verdant",
+      "type": "word",
+      "front": "verdant",
+      "meaning": "生い茂った",
+      "synonyms": [
+        "lush",
+        "green"
+      ],
+      "pron": {
+        "lookup": "verdant",
+        "tts": "verdant"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 247,
+      "id": "w-soak",
+      "type": "word",
+      "front": "soak",
+      "meaning": "浸す",
+      "synonyms": [
+        "immerse",
+        "submerge"
+      ],
+      "pron": {
+        "lookup": "soak",
+        "tts": "soak"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 248,
+      "id": "p-the-lion-s-share-of",
+      "type": "phrase",
+      "front": "the lion's share of",
+      "meaning": "大半",
+      "synonyms": [
+        "the bulk of",
+        "the majority of"
+      ],
+      "pron": {
+        "tts": "the lion's share of"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 249,
+      "id": "w-crop",
+      "type": "word",
+      "front": "crop",
+      "meaning": "作物",
+      "pron": {
+        "lookup": "crop",
+        "tts": "crop"
+      },
+      "tags": [],
+      "theme": 12,
+      "themeName": "オリーブの栽培",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t12",
+    "theme": 12,
+    "themeName": "オリーブの栽培",
+    "jp": "採れたてのオリーブは苦くてほとんど食べられないため、農民は何世紀にもわたって食べやすくする方法を求めてきた。苦味を取り除く作業はかつて長く続く骨の折れる仕事だった。ローマ人は塩水にアルカリ液を加え、これが実を処理する時間を短縮した。処理後、彼らはオリーブを圧搾して油を抽出し、腐らないよう密閉した容器に入れた。地域によって収穫は秋から初冬の間に行われる。今日ほとんどのオリーブはスペインの耕作に適した地域から来ており、そこでは温暖な気候と空気中の湿度のおかげで樹がよく育つ。",
+    "sentences": [
+      {
+        "en": "Fresh olives are bitter and almost inedible, so for centuries farmers sought ways to make them palatable.",
+        "targets": [
+          {
+            "id": "w-inedible",
+            "text": "inedible"
+          },
+          {
+            "id": "w-seek",
+            "text": "sought"
+          }
+        ]
+      },
+      {
+        "en": "Removing the bitterness was once a protracted and painstaking task.",
+        "targets": [
+          {
+            "id": "w-protracted",
+            "text": "protracted"
+          },
+          {
+            "id": "w-painstaking",
+            "text": "painstaking"
+          }
+        ]
+      },
+      {
+        "en": "The Romans supplemented the saltwater with lye, which reduced the time needed to cure the fruit.",
+        "targets": [
+          {
+            "id": "w-supplement",
+            "text": "supplemented"
+          },
+          {
+            "id": "w-reduce",
+            "text": "reduced"
+          }
+        ]
+      },
+      {
+        "en": "After curing, they pressed the olives to extract the oil, then sealed them in airtight jars so they would not spoil.",
+        "targets": [
+          {
+            "id": "w-press",
+            "text": "pressed"
+          },
+          {
+            "id": "w-extract",
+            "text": "extract"
+          },
+          {
+            "id": "w-airtight",
+            "text": "airtight"
+          },
+          {
+            "id": "w-spoil",
+            "text": "spoil"
+          }
+        ]
+      },
+      {
+        "en": "Depending on the region, the harvest takes place between autumn and early winter.",
+        "targets": [
+          {
+            "id": "w-harvest",
+            "text": "harvest"
+          }
+        ]
+      },
+      {
+        "en": "Today most olives come from Spain's arable regions, where the trees thrive thanks to a warm climate and moisture in the air.",
+        "targets": [
+          {
+            "id": "w-arable",
+            "text": "arable"
+          },
+          {
+            "id": "w-thrive",
+            "text": "thrive"
+          },
+          {
+            "id": "w-moisture",
+            "text": "moisture"
+          }
+        ]
+      }
+    ]
+  }
+}

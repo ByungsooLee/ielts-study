@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 15,
+  "themeId": "theme-15",
+  "themeName": "ある思考実験（トロッコ問題）",
+  "version": "2b4815ce",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 292,
+      "id": "w-ethical",
+      "type": "word",
+      "front": "ethical",
+      "meaning": "倫理的な",
+      "synonyms": [
+        "moral",
+        "principled"
+      ],
+      "collocation": "an ethical choice, ethical concerns",
+      "examples": [
+        {
+          "en": "Which is the most ethical choice? A utilitarian sees a clear moral obligation to save five, though most people are reluctant to act."
+        }
+      ],
+      "pron": {
+        "lookup": "ethical",
+        "tts": "ethical"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 293,
+      "id": "w-obligation",
+      "type": "word",
+      "front": "obligation",
+      "meaning": "義務",
+      "synonyms": [
+        "duty",
+        "responsibility"
+      ],
+      "collocation": "a moral obligation, have an obligation to",
+      "examples": [
+        {
+          "en": "Which is the most ethical choice? A utilitarian sees a clear moral obligation to save five, though most people are reluctant to act."
+        }
+      ],
+      "pron": {
+        "lookup": "obligation",
+        "tts": "obligation"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 294,
+      "id": "w-dilemma",
+      "type": "word",
+      "front": "dilemma",
+      "meaning": "葛藤・ジレンマ",
+      "synonyms": [
+        "predicament"
+      ],
+      "collocation": "face a dilemma, a moral dilemma",
+      "examples": [
+        {
+          "en": "This dilemma is no longer abstract: self-driving cars raise real ramifications."
+        }
+      ],
+      "pron": {
+        "lookup": "dilemma",
+        "tts": "dilemma"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 295,
+      "id": "w-survive",
+      "type": "word",
+      "front": "survive",
+      "meaning": "生き残る・生き延びる",
+      "synonyms": [
+        "stay alive"
+      ],
+      "collocation": "survive a crisis, the instinct to survive",
+      "examples": [
+        {
+          "en": "If a car must endanger its passenger to avoid pedestrians, our instinct to survive conflicts with the choice to mitigate overall harm, and someone must be accountable."
+        }
+      ],
+      "pron": {
+        "lookup": "survive",
+        "tts": "survive"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 296,
+      "id": "w-mitigate",
+      "type": "word",
+      "front": "mitigate",
+      "meaning": "軽減する",
+      "synonyms": [
+        "lessen",
+        "allay",
+        "check"
+      ],
+      "collocation": "mitigate the risk, mitigate the threat",
+      "examples": [
+        {
+          "en": "If a car must endanger its passenger to avoid pedestrians, our instinct to survive conflicts with the choice to mitigate overall harm, and someone must be accountable."
+        }
+      ],
+      "pron": {
+        "lookup": "mitigate",
+        "tts": "mitigate"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 297,
+      "id": "w-accountable",
+      "type": "word",
+      "front": "accountable",
+      "meaning": "責任がある",
+      "synonyms": [
+        "responsible",
+        "answerable"
+      ],
+      "collocation": "be accountable for, hold sb accountable",
+      "examples": [
+        {
+          "en": "If a car must endanger its passenger to avoid pedestrians, our instinct to survive conflicts with the choice to mitigate overall harm, and someone must be accountable."
+        }
+      ],
+      "pron": {
+        "lookup": "accountable",
+        "tts": "accountable"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 298,
+      "id": "w-divert",
+      "type": "word",
+      "front": "divert",
+      "meaning": "〜を…に逸らす",
+      "synonyms": [
+        "redirect",
+        "switch"
+      ],
+      "collocation": "divert the trolley onto another track",
+      "examples": [
+        {
+          "en": "You can pull a lever to divert it onto another track, where it would kill one person — two hard options."
+        }
+      ],
+      "pron": {
+        "lookup": "divert",
+        "tts": "divert"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 299,
+      "id": "w-reluctant",
+      "type": "word",
+      "front": "reluctant",
+      "meaning": "したがらない",
+      "synonyms": [
+        "hesitant"
+      ],
+      "collocation": "be reluctant to do, reluctant to decide",
+      "examples": [
+        {
+          "en": "Which is the most ethical choice? A utilitarian sees a clear moral obligation to save five, though most people are reluctant to act."
+        }
+      ],
+      "pron": {
+        "lookup": "reluctant",
+        "tts": "reluctant"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 300,
+      "id": "w-option",
+      "type": "word",
+      "front": "option",
+      "meaning": "選択肢",
+      "synonyms": [
+        "alternative",
+        "choice"
+      ],
+      "collocation": "two options, a viable option",
+      "examples": [
+        {
+          "en": "You can pull a lever to divert it onto another track, where it would kill one person — two hard options."
+        }
+      ],
+      "pron": {
+        "lookup": "option",
+        "tts": "option"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 301,
+      "id": "w-ramification",
+      "type": "word",
+      "front": "ramification",
+      "meaning": "予期しない結果・影響",
+      "synonyms": [
+        "complication",
+        "consequence"
+      ],
+      "collocation": "serious ramifications, consider the ramifications",
+      "examples": [
+        {
+          "en": "This dilemma is no longer abstract: self-driving cars raise real ramifications."
+        }
+      ],
+      "pron": {
+        "lookup": "ramification",
+        "tts": "ramification"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 302,
+      "id": "w-endanger",
+      "type": "word",
+      "front": "endanger",
+      "meaning": "危険にさらす",
+      "synonyms": [
+        "imperil",
+        "put in jeopardy"
+      ],
+      "collocation": "endanger lives, endanger oneself",
+      "examples": [
+        {
+          "en": "If a car must endanger its passenger to avoid pedestrians, our instinct to survive conflicts with the choice to mitigate overall harm, and someone must be accountable."
+        }
+      ],
+      "pron": {
+        "lookup": "endanger",
+        "tts": "endanger"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 303,
+      "id": "w-unable",
+      "type": "word",
+      "front": "unable",
+      "meaning": "〜できない",
+      "synonyms": [
+        "powerless"
+      ],
+      "collocation": "unable to move, unable to decide",
+      "examples": [
+        {
+          "en": "A runaway trolley is heading towards five people who are unable to move."
+        }
+      ],
+      "pron": {
+        "lookup": "unable",
+        "tts": "unable"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 304,
+      "id": "w-runaway",
+      "type": "word",
+      "front": "runaway",
+      "meaning": "暴走した",
+      "synonyms": [
+        "out-of-control"
+      ],
+      "pron": {
+        "lookup": "runaway",
+        "tts": "runaway"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 305,
+      "id": "p-barrel-towards",
+      "type": "phrase",
+      "front": "barrel towards",
+      "meaning": "突進する",
+      "synonyms": [
+        "speed towards",
+        "fly towards"
+      ],
+      "pron": {
+        "tts": "barrel towards"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 306,
+      "id": "p-flight-of-fancy",
+      "type": "phrase",
+      "front": "flight of fancy",
+      "meaning": "空想に浸ること",
+      "synonyms": [
+        "stretch of the imagination"
+      ],
+      "pron": {
+        "tts": "flight of fancy"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 307,
+      "id": "w-freely",
+      "type": "word",
+      "front": "freely",
+      "meaning": "自由に",
+      "synonyms": [
+        "at will"
+      ],
+      "pron": {
+        "lookup": "freely",
+        "tts": "freely"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 308,
+      "id": "p-hard-wired-into",
+      "type": "phrase",
+      "front": "hard-wired into",
+      "meaning": "生まれつき備わって",
+      "synonyms": [
+        "embedded in",
+        "ingrained in"
+      ],
+      "pron": {
+        "tts": "hard-wired into"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 309,
+      "id": "p-in-conflict-with",
+      "type": "phrase",
+      "front": "in conflict with",
+      "meaning": "対立して",
+      "synonyms": [
+        "at odds with"
+      ],
+      "pron": {
+        "tts": "in conflict with"
+      },
+      "tags": [],
+      "theme": 15,
+      "themeName": "ある思考実験（トロッコ問題）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t15",
+    "theme": 15,
+    "themeName": "ある思考実験",
+    "jp": "暴走したトロッコが、動くことのできない5人に向かって突進している。レバーを引けば別の軌道に逸らせるが、そこには1人がいて死んでしまう——2つのつらい選択肢だ。どちらが最も倫理的な選択か。功利主義者は5人を救う明確な道徳的義務を見るが、多くの人はそうした決断をしたがらない。このジレンマはもはや抽象的ではない。自動運転車は現実の予期しない結果を生む。歩行者を避けるために車が乗客を危険にさらさねばならないとき、生き残ろうとする本能は全体の害を軽減する選択と対立し、誰かが責任を負わねばならない。",
+    "sentences": [
+      {
+        "en": "A runaway trolley is heading towards five people who are unable to move.",
+        "targets": [
+          {
+            "id": "w-unable",
+            "text": "unable"
+          }
+        ]
+      },
+      {
+        "en": "You can pull a lever to divert it onto another track, where it would kill one person — two hard options.",
+        "targets": [
+          {
+            "id": "w-divert",
+            "text": "divert"
+          },
+          {
+            "id": "w-option",
+            "text": "options"
+          }
+        ]
+      },
+      {
+        "en": "Which is the most ethical choice? A utilitarian sees a clear moral obligation to save five, though most people are reluctant to act.",
+        "targets": [
+          {
+            "id": "w-ethical",
+            "text": "ethical"
+          },
+          {
+            "id": "w-obligation",
+            "text": "obligation"
+          },
+          {
+            "id": "w-reluctant",
+            "text": "reluctant"
+          }
+        ]
+      },
+      {
+        "en": "This dilemma is no longer abstract: self-driving cars raise real ramifications.",
+        "targets": [
+          {
+            "id": "w-dilemma",
+            "text": "dilemma"
+          },
+          {
+            "id": "w-ramification",
+            "text": "ramifications"
+          }
+        ]
+      },
+      {
+        "en": "If a car must endanger its passenger to avoid pedestrians, our instinct to survive conflicts with the choice to mitigate overall harm, and someone must be accountable.",
+        "targets": [
+          {
+            "id": "w-endanger",
+            "text": "endanger"
+          },
+          {
+            "id": "w-survive",
+            "text": "survive"
+          },
+          {
+            "id": "w-mitigate",
+            "text": "mitigate"
+          },
+          {
+            "id": "w-accountable",
+            "text": "accountable"
+          }
+        ]
+      }
+    ]
+  }
+}

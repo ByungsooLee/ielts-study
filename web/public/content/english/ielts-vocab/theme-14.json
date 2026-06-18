@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 14,
+  "themeId": "theme-14",
+  "themeName": "ニコラ・テスラと「電流戦争」",
+  "version": "e1dacee7",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 271,
+      "id": "w-prove",
+      "type": "word",
+      "front": "prove",
+      "meaning": "証明する",
+      "synonyms": [
+        "demonstrate"
+      ],
+      "collocation": "prove that…, prove a point",
+      "examples": [
+        {
+          "en": "Edison tried to prove AC was dangerous, but its merits eventually won out."
+        }
+      ],
+      "pron": {
+        "lookup": "prove",
+        "tts": "prove"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 272,
+      "id": "w-merit",
+      "type": "word",
+      "front": "merit",
+      "meaning": "利点",
+      "synonyms": [
+        "benefit",
+        "advantage"
+      ],
+      "collocation": "the merits of…, on its merits",
+      "examples": [
+        {
+          "en": "Edison tried to prove AC was dangerous, but its merits eventually won out."
+        }
+      ],
+      "pron": {
+        "lookup": "merit",
+        "tts": "merit"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 273,
+      "id": "w-establish",
+      "type": "word",
+      "front": "establish",
+      "meaning": "設立する",
+      "synonyms": [
+        "found",
+        "set up"
+      ],
+      "collocation": "establish a laboratory, establish a company",
+      "examples": [
+        {
+          "en": "He established a new laboratory but could not raise the capital he needed, and died penniless."
+        }
+      ],
+      "pron": {
+        "lookup": "establish",
+        "tts": "establish"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 274,
+      "id": "w-reconsider",
+      "type": "word",
+      "front": "reconsider",
+      "meaning": "考え直す・見直す",
+      "synonyms": [
+        "reevaluate",
+        "reassess"
+      ],
+      "collocation": "reconsider a decision, reconsider his legacy",
+      "examples": [
+        {
+          "en": "Once dismissed as the archetype of the 'mad scientist', his accomplishments are now being reconsidered."
+        }
+      ],
+      "pron": {
+        "lookup": "reconsider",
+        "tts": "reconsider"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 275,
+      "id": "w-accomplishment",
+      "type": "word",
+      "front": "accomplishment",
+      "meaning": "業績・成果",
+      "synonyms": [
+        "achievement"
+      ],
+      "collocation": "a great accomplishment, proud of one's accomplishments",
+      "examples": [
+        {
+          "en": "Once dismissed as the archetype of the 'mad scientist', his accomplishments are now being reconsidered."
+        }
+      ],
+      "pron": {
+        "lookup": "accomplishment",
+        "tts": "accomplishment"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 276,
+      "id": "w-revamp",
+      "type": "word",
+      "front": "revamp",
+      "meaning": "改良する・見直す",
+      "synonyms": [
+        "overhaul"
+      ],
+      "collocation": "revamp a system, revamp the design",
+      "examples": [
+        {
+          "en": "Nikola Tesla set out to revamp Edison's electrical system with alternating current."
+        }
+      ],
+      "pron": {
+        "lookup": "revamp",
+        "tts": "revamp"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 277,
+      "id": "w-despise",
+      "type": "word",
+      "front": "despise",
+      "meaning": "軽蔑する",
+      "synonyms": [
+        "loathe",
+        "detest"
+      ],
+      "collocation": "despise sb, despise an idea",
+      "examples": [
+        {
+          "en": "The two men became bitter rivals and grew to despise each other in the 'War of the Currents'."
+        }
+      ],
+      "pron": {
+        "lookup": "despise",
+        "tts": "despise"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 278,
+      "id": "w-rival",
+      "type": "word",
+      "front": "rival",
+      "meaning": "ライバル・敵対者",
+      "synonyms": [
+        "antagonist",
+        "adversary"
+      ],
+      "collocation": "a bitter rival, business rivals",
+      "examples": [
+        {
+          "en": "The two men became bitter rivals and grew to despise each other in the 'War of the Currents'."
+        }
+      ],
+      "pron": {
+        "lookup": "rival",
+        "tts": "rival"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 279,
+      "id": "w-outline",
+      "type": "word",
+      "front": "outline",
+      "meaning": "概要を作る・起草する",
+      "synonyms": [
+        "draft"
+      ],
+      "collocation": "outline a plan, outline proposals",
+      "examples": [
+        {
+          "en": "Tesla outlined plans for free wireless electricity, and people were dumbfounded by inventions such as the X-ray."
+        }
+      ],
+      "pron": {
+        "lookup": "outline",
+        "tts": "outline"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 280,
+      "id": "w-dumbfounded",
+      "type": "word",
+      "front": "dumbfounded",
+      "meaning": "とても驚いて",
+      "synonyms": [
+        "astonished",
+        "shocked"
+      ],
+      "collocation": "be dumbfounded by sth",
+      "examples": [
+        {
+          "en": "Tesla outlined plans for free wireless electricity, and people were dumbfounded by inventions such as the X-ray."
+        }
+      ],
+      "pron": {
+        "lookup": "dumbfounded",
+        "tts": "dumbfounded"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 281,
+      "id": "w-capital",
+      "type": "word",
+      "front": "capital",
+      "meaning": "資本・資金",
+      "synonyms": [
+        "funding",
+        "financing"
+      ],
+      "collocation": "raise capital, seek capital",
+      "examples": [
+        {
+          "en": "He established a new laboratory but could not raise the capital he needed, and died penniless."
+        }
+      ],
+      "pron": {
+        "lookup": "capital",
+        "tts": "capital"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 282,
+      "id": "w-penniless",
+      "type": "word",
+      "front": "penniless",
+      "meaning": "一文無しの",
+      "synonyms": [
+        "destitute",
+        "broke",
+        "impoverished"
+      ],
+      "collocation": "die penniless",
+      "examples": [
+        {
+          "en": "He established a new laboratory but could not raise the capital he needed, and died penniless."
+        }
+      ],
+      "pron": {
+        "lookup": "penniless",
+        "tts": "penniless"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 283,
+      "id": "w-archetype",
+      "type": "word",
+      "front": "archetype",
+      "meaning": "典型",
+      "synonyms": [
+        "epitome"
+      ],
+      "collocation": "the archetype of…, an archetype of",
+      "examples": [
+        {
+          "en": "Once dismissed as the archetype of the 'mad scientist', his accomplishments are now being reconsidered."
+        }
+      ],
+      "pron": {
+        "lookup": "archetype",
+        "tts": "archetype"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 284,
+      "id": "p-set-one-s-sights-on",
+      "type": "phrase",
+      "front": "set one's sights on",
+      "meaning": "狙いを定める",
+      "synonyms": [
+        "aim for",
+        "strive for"
+      ],
+      "pron": {
+        "tts": "set one's sights on"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 285,
+      "id": "p-cool-towards",
+      "type": "phrase",
+      "front": "cool towards",
+      "meaning": "冷たい・乗り気でない",
+      "synonyms": [
+        "aloof towards",
+        "lukewarm towards"
+      ],
+      "pron": {
+        "tts": "cool towards"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 286,
+      "id": "w-glow",
+      "type": "word",
+      "front": "glow",
+      "meaning": "光",
+      "synonyms": [
+        "illumination",
+        "radiance"
+      ],
+      "pron": {
+        "lookup": "glow",
+        "tts": "glow"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 287,
+      "id": "w-upstage",
+      "type": "word",
+      "front": "upstage",
+      "meaning": "人気を奪う・出し抜く",
+      "synonyms": [
+        "outdo"
+      ],
+      "pron": {
+        "lookup": "upstage",
+        "tts": "upstage"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 288,
+      "id": "w-outrageous",
+      "type": "word",
+      "front": "outrageous",
+      "meaning": "非道な・恥ずべき",
+      "synonyms": [
+        "scandalous"
+      ],
+      "pron": {
+        "lookup": "outrageous",
+        "tts": "outrageous"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 289,
+      "id": "p-win-the-day",
+      "type": "phrase",
+      "front": "win the day",
+      "meaning": "勝利を収める",
+      "synonyms": [
+        "triumph",
+        "be victorious"
+      ],
+      "pron": {
+        "tts": "win the day"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 290,
+      "id": "w-harness",
+      "type": "word",
+      "front": "harness",
+      "meaning": "利用する",
+      "synonyms": [
+        "exploit"
+      ],
+      "pron": {
+        "lookup": "harness",
+        "tts": "harness"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 291,
+      "id": "p-come-to-nothing",
+      "type": "phrase",
+      "front": "come to nothing",
+      "meaning": "無駄になる",
+      "synonyms": [
+        "fail",
+        "come to naught"
+      ],
+      "pron": {
+        "tts": "come to nothing"
+      },
+      "tags": [],
+      "theme": 14,
+      "themeName": "ニコラ・テスラと「電流戦争」",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t14",
+    "theme": 14,
+    "themeName": "ニコラ・テスラと電流戦争",
+    "jp": "ニコラ・テスラは交流電流でエジソンの電気システムを改良しようとした。2人は激しいライバルとなり、「電流戦争」の中で互いを軽蔑するようになった。エジソンは交流が危険だと証明しようとしたが、結局その利点が勝った。テスラは無料の無線電気の計画概要を作り、X線などの発明に人々はとても驚いた。彼は新しい研究所を設立したが必要な資本を集められず、一文無しで亡くなった。かつては「マッドサイエンティスト」の典型と片付けられた彼の業績は、今や見直されている。",
+    "sentences": [
+      {
+        "en": "Nikola Tesla set out to revamp Edison's electrical system with alternating current.",
+        "targets": [
+          {
+            "id": "w-revamp",
+            "text": "revamp"
+          }
+        ]
+      },
+      {
+        "en": "The two men became bitter rivals and grew to despise each other in the 'War of the Currents'.",
+        "targets": [
+          {
+            "id": "w-rival",
+            "text": "rivals"
+          },
+          {
+            "id": "w-despise",
+            "text": "despise"
+          }
+        ]
+      },
+      {
+        "en": "Edison tried to prove AC was dangerous, but its merits eventually won out.",
+        "targets": [
+          {
+            "id": "w-prove",
+            "text": "prove"
+          },
+          {
+            "id": "w-merit",
+            "text": "merits"
+          }
+        ]
+      },
+      {
+        "en": "Tesla outlined plans for free wireless electricity, and people were dumbfounded by inventions such as the X-ray.",
+        "targets": [
+          {
+            "id": "w-outline",
+            "text": "outlined"
+          },
+          {
+            "id": "w-dumbfounded",
+            "text": "dumbfounded"
+          }
+        ]
+      },
+      {
+        "en": "He established a new laboratory but could not raise the capital he needed, and died penniless.",
+        "targets": [
+          {
+            "id": "w-establish",
+            "text": "established"
+          },
+          {
+            "id": "w-capital",
+            "text": "capital"
+          },
+          {
+            "id": "w-penniless",
+            "text": "penniless"
+          }
+        ]
+      },
+      {
+        "en": "Once dismissed as the archetype of the 'mad scientist', his accomplishments are now being reconsidered.",
+        "targets": [
+          {
+            "id": "w-archetype",
+            "text": "archetype"
+          },
+          {
+            "id": "w-accomplishment",
+            "text": "accomplishments"
+          },
+          {
+            "id": "w-reconsider",
+            "text": "reconsidered"
+          }
+        ]
+      }
+    ]
+  }
+}

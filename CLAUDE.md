@@ -37,6 +37,12 @@
 - `npm run dev` / `npm run dev:worker` … ローカル開発
 - `npm run build` / `npm run deploy:web` / `npm run deploy:worker`
 
+## 一発反映（リリース）
+- `/release`（または `bash tools/release.sh`）で **教材ビルド → 本番KV push → git push (CIデプロイ)** までを一気に実行。
+- 教材は即時KV反映、コードは GitHub Actions の CI で Pages/Worker にデプロイ。
+- `SKIP_GIT=1 bash tools/release.sh` … 教材のみ（コミット/プッシュなし）。
+- `SKIP_PUSH=1 bash tools/release.sh` … ローカル commit まで（プッシュなし）。
+
 ## 秘密情報
 - `worker/.dev.vars`（`SYNC_TOKEN` など）、`web/.env.local`（`VITE_DEFAULT_WORKER_URL` 等）。**コミット禁止**（.gitignore 済み）。
 - 本番 secret は Cloudflare 側＋GitHub Actions secret。GitHub の `SYNC_TOKEN` は Worker の `SYNC_TOKEN` と同値にすること。

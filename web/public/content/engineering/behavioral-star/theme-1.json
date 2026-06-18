@@ -7,11 +7,11 @@
   "theme": 1,
   "themeId": "theme-1",
   "themeName": "STARで答える行動面接（英語）",
-  "version": "cbeacfc0",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "8d6df155",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
   "items": [
     {
-      "n": 228,
+      "n": 413,
       "id": "de-star-method",
       "type": "concept",
       "front": "The STAR method",
@@ -48,7 +48,7 @@
       "themeName": "STARで答える行動面接（英語）"
     },
     {
-      "n": 229,
+      "n": 414,
       "id": "de-star-project",
       "type": "concept",
       "front": "Describe a project you're proud of",
@@ -86,7 +86,7 @@
       "themeName": "STARで答える行動面接（英語）"
     },
     {
-      "n": 230,
+      "n": 415,
       "id": "de-star-challenge",
       "type": "concept",
       "front": "A difficult problem you solved",
@@ -124,7 +124,7 @@
       "themeName": "STARで答える行動面接（英語）"
     },
     {
-      "n": 231,
+      "n": 416,
       "id": "de-star-tradeoff",
       "type": "concept",
       "front": "A technical trade-off / decision",
@@ -162,7 +162,7 @@
       "themeName": "STARで答える行動面接（英語）"
     },
     {
-      "n": 232,
+      "n": 417,
       "id": "de-star-failure",
       "type": "concept",
       "front": "A failure & what you learned",
@@ -200,7 +200,7 @@
       "themeName": "STARで答える行動面接（英語）"
     },
     {
-      "n": 233,
+      "n": 418,
       "id": "de-star-why-australia",
       "type": "concept",
       "front": "Why this role / moving to Australia",

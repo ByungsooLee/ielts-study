@@ -7,11 +7,11 @@
   "theme": 2,
   "themeId": "genre-2",
   "themeName": "句動詞",
-  "version": "1a615c82",
-  "generatedAt": "2026-06-10T04:56:31.758Z",
+  "version": "11903526",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
   "items": [
     {
-      "n": 211,
+      "n": 462,
       "id": "g-phrasal-vi",
       "type": "grammar",
       "front": "自動詞の働きをする「動詞＋副詞」型句動詞",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "n": 212,
+      "n": 463,
       "id": "g-phrasal-vt-separable",
       "type": "grammar",
       "front": "他動詞の働きをする「動詞＋副詞」型句動詞（分離可）",
@@ -141,7 +141,7 @@
       }
     },
     {
-      "n": 213,
+      "n": 464,
       "id": "g-phrasal-three-word",
       "type": "grammar",
       "front": "「動詞＋副詞＋前置詞」型の3語句動詞",
@@ -207,7 +207,7 @@
       }
     },
     {
-      "n": 214,
+      "n": 465,
       "id": "g-verb-noun-prep",
       "type": "grammar",
       "front": "「動詞＋名詞＋前置詞」型の句動詞",

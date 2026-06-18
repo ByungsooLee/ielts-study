@@ -7,11 +7,11 @@
   "theme": 1,
   "themeId": "theme-1",
   "themeName": "システム設計の基礎（面接頻出）",
-  "version": "12df98a5",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "c0400f71",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
   "items": [
     {
-      "n": 240,
+      "n": 443,
       "id": "de-sd-scalability",
       "type": "concept",
       "front": "Vertical vs horizontal scaling",
@@ -54,7 +54,7 @@
       "themeName": "システム設計の基礎（面接頻出）"
     },
     {
-      "n": 241,
+      "n": 444,
       "id": "de-sd-cap",
       "type": "concept",
       "front": "CAP theorem",
@@ -97,7 +97,7 @@
       "themeName": "システム設計の基礎（面接頻出）"
     },
     {
-      "n": 242,
+      "n": 445,
       "id": "de-sd-partition-shard",
       "type": "concept",
       "front": "Partitioning / sharding",
@@ -140,7 +140,7 @@
       "themeName": "システム設計の基礎（面接頻出）"
     },
     {
-      "n": 243,
+      "n": 446,
       "id": "de-sd-caching",
       "type": "concept",
       "front": "Caching strategies",
@@ -183,7 +183,7 @@
       "themeName": "システム設計の基礎（面接頻出）"
     },
     {
-      "n": 244,
+      "n": 447,
       "id": "de-sd-idempotency",
       "type": "concept",
       "front": "Idempotency & exactly-once",
@@ -226,7 +226,7 @@
       "themeName": "システム設計の基礎（面接頻出）"
     },
     {
-      "n": 245,
+      "n": 448,
       "id": "de-sd-batch-stream",
       "type": "concept",
       "front": "Batch vs streaming (Lambda / Kappa)",

@@ -1,0 +1,613 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 16,
+  "themeId": "theme-16",
+  "themeName": "火星で暮らす",
+  "version": "eebc1923",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 310,
+      "id": "w-ensure",
+      "type": "word",
+      "front": "ensure",
+      "meaning": "保証する・確保する",
+      "synonyms": [
+        "guarantee",
+        "make sure"
+      ],
+      "collocation": "ensure survival, ensure safety",
+      "examples": [
+        {
+          "en": "Many leading scientists call for the colonisation of Mars to ensure humanity's long-term survival."
+        }
+      ],
+      "pron": {
+        "lookup": "ensure",
+        "tts": "ensure"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 311,
+      "id": "w-catastrophe",
+      "type": "word",
+      "front": "catastrophe",
+      "meaning": "災害・大惨事",
+      "synonyms": [
+        "calamity",
+        "disaster"
+      ],
+      "collocation": "an environmental catastrophe, avert a catastrophe",
+      "examples": [
+        {
+          "en": "An environmental catastrophe or an unforeseen event could push us towards extinction, so they urge us to become a multi-planet species."
+        }
+      ],
+      "pron": {
+        "lookup": "catastrophe",
+        "tts": "catastrophe"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 312,
+      "id": "w-isolation",
+      "type": "word",
+      "front": "isolation",
+      "meaning": "隔離",
+      "synonyms": [
+        "remoteness"
+      ],
+      "collocation": "in isolation, a sense of isolation",
+      "examples": [
+        {
+          "en": "In isolation on another planet, new traits could arise."
+        }
+      ],
+      "pron": {
+        "lookup": "isolation",
+        "tts": "isolation"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 313,
+      "id": "w-arise",
+      "type": "word",
+      "front": "arise",
+      "meaning": "生まれる・生じる",
+      "synonyms": [
+        "emerge"
+      ],
+      "collocation": "problems arise, a question arises",
+      "examples": [
+        {
+          "en": "In isolation on another planet, new traits could arise."
+        }
+      ],
+      "pron": {
+        "lookup": "arise",
+        "tts": "arise"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 314,
+      "id": "w-urge",
+      "type": "word",
+      "front": "urge",
+      "meaning": "強く促す・勧める",
+      "synonyms": [
+        "press",
+        "implore"
+      ],
+      "collocation": "urge sb to do, strongly urge",
+      "examples": [
+        {
+          "en": "An environmental catastrophe or an unforeseen event could push us towards extinction, so they urge us to become a multi-planet species."
+        }
+      ],
+      "pron": {
+        "lookup": "urge",
+        "tts": "urge"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 315,
+      "id": "w-leading",
+      "type": "word",
+      "front": "leading",
+      "meaning": "一流の・有名な",
+      "synonyms": [
+        "prominent",
+        "noted"
+      ],
+      "collocation": "a leading scientist, a leading expert",
+      "examples": [
+        {
+          "en": "Many leading scientists call for the colonisation of Mars to ensure humanity's long-term survival."
+        }
+      ],
+      "pron": {
+        "lookup": "leading",
+        "tts": "leading"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 316,
+      "id": "p-call-for",
+      "type": "phrase",
+      "front": "call for",
+      "meaning": "〜を求める",
+      "synonyms": [
+        "push for"
+      ],
+      "collocation": "call for action, call for reform",
+      "examples": [
+        {
+          "en": "Many leading scientists call for the colonisation of Mars to ensure humanity's long-term survival."
+        }
+      ],
+      "pron": {
+        "tts": "call for"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 317,
+      "id": "w-unforeseen",
+      "type": "word",
+      "front": "unforeseen",
+      "meaning": "予想できない・不測の",
+      "synonyms": [
+        "unanticipated"
+      ],
+      "collocation": "unforeseen consequences, an unforeseen event",
+      "examples": [
+        {
+          "en": "An environmental catastrophe or an unforeseen event could push us towards extinction, so they urge us to become a multi-planet species."
+        }
+      ],
+      "pron": {
+        "lookup": "unforeseen",
+        "tts": "unforeseen"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 318,
+      "id": "w-extinction",
+      "type": "word",
+      "front": "extinction",
+      "meaning": "絶滅",
+      "synonyms": [
+        "annihilation",
+        "dying out"
+      ],
+      "collocation": "face extinction, avoid extinction",
+      "examples": [
+        {
+          "en": "An environmental catastrophe or an unforeseen event could push us towards extinction, so they urge us to become a multi-planet species."
+        }
+      ],
+      "pron": {
+        "lookup": "extinction",
+        "tts": "extinction"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 319,
+      "id": "w-feature",
+      "type": "word",
+      "front": "feature",
+      "meaning": "特徴",
+      "synonyms": [
+        "trait",
+        "characteristic"
+      ],
+      "collocation": "a key feature, a distinctive feature",
+      "examples": [
+        {
+          "en": "One feature that would stand out is thicker bones, giving Martians a robust appearance."
+        }
+      ],
+      "pron": {
+        "lookup": "feature",
+        "tts": "feature"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 320,
+      "id": "p-stand-out",
+      "type": "phrase",
+      "front": "stand out",
+      "meaning": "目立つ",
+      "synonyms": [
+        "be prominent",
+        "attract attention"
+      ],
+      "collocation": "stand out from the crowd",
+      "examples": [
+        {
+          "en": "One feature that would stand out is thicker bones, giving Martians a robust appearance."
+        }
+      ],
+      "pron": {
+        "tts": "stand out"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 321,
+      "id": "w-robust",
+      "type": "word",
+      "front": "robust",
+      "meaning": "がっしりした・たくましい",
+      "synonyms": [
+        "sturdy"
+      ],
+      "collocation": "a robust appearance, a robust system",
+      "examples": [
+        {
+          "en": "One feature that would stand out is thicker bones, giving Martians a robust appearance."
+        }
+      ],
+      "pron": {
+        "lookup": "robust",
+        "tts": "robust"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 322,
+      "id": "p-considerable-debate-over",
+      "type": "phrase",
+      "front": "considerable debate over",
+      "meaning": "相当な議論",
+      "synonyms": [
+        "some dispute over"
+      ],
+      "collocation": "considerable debate over the issue",
+      "examples": [
+        {
+          "en": "There is considerable debate over their skin colour, which would likely darken to counter the radiation."
+        }
+      ],
+      "pron": {
+        "tts": "considerable debate over"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 323,
+      "id": "w-counter",
+      "type": "word",
+      "front": "counter",
+      "meaning": "対抗する・反撃する",
+      "synonyms": [
+        "counteract"
+      ],
+      "collocation": "counter the radiation, counter a threat",
+      "examples": [
+        {
+          "en": "There is considerable debate over their skin colour, which would likely darken to counter the radiation."
+        }
+      ],
+      "pron": {
+        "lookup": "counter",
+        "tts": "counter"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 324,
+      "id": "p-long-term-existence",
+      "type": "phrase",
+      "front": "long-term existence",
+      "meaning": "長期の生存",
+      "synonyms": [
+        "survival"
+      ],
+      "pron": {
+        "tts": "long-term existence"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 325,
+      "id": "p-render-uninhabitable",
+      "type": "phrase",
+      "front": "render uninhabitable",
+      "meaning": "居住不可能にする",
+      "synonyms": [
+        "make unfit for"
+      ],
+      "pron": {
+        "tts": "render uninhabitable"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 326,
+      "id": "w-limb",
+      "type": "word",
+      "front": "limb",
+      "meaning": "手足",
+      "synonyms": [
+        "appendage",
+        "extremity"
+      ],
+      "pron": {
+        "lookup": "limb",
+        "tts": "limb"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 327,
+      "id": "w-counterbalance",
+      "type": "word",
+      "front": "counterbalance",
+      "meaning": "相殺する",
+      "synonyms": [
+        "offset",
+        "compensate for"
+      ],
+      "pron": {
+        "lookup": "counterbalance",
+        "tts": "counterbalance"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 328,
+      "id": "w-elongate",
+      "type": "word",
+      "front": "elongate",
+      "meaning": "長くなる",
+      "synonyms": [
+        "lengthen"
+      ],
+      "pron": {
+        "lookup": "elongate",
+        "tts": "elongate"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 329,
+      "id": "w-shade",
+      "type": "word",
+      "front": "shade",
+      "meaning": "色合い",
+      "synonyms": [
+        "hue",
+        "tint"
+      ],
+      "pron": {
+        "lookup": "shade",
+        "tts": "shade"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 330,
+      "id": "w-vision",
+      "type": "word",
+      "front": "vision",
+      "meaning": "視力",
+      "synonyms": [
+        "sight",
+        "eyesight"
+      ],
+      "pron": {
+        "lookup": "vision",
+        "tts": "vision"
+      },
+      "tags": [],
+      "theme": 16,
+      "themeName": "火星で暮らす",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t16",
+    "theme": 16,
+    "themeName": "火星で暮らす",
+    "jp": "多くの一流の科学者は、人類の長期的な生存を確保するために火星の植民地化を求めている。環境的な大惨事や不測の事象が私たちを絶滅へ追いやりかねないので、彼らは多惑星種になるよう強く促す。別の惑星での隔離の中で、新しい特徴が生じうる。際立つであろう特徴の一つは、より厚い骨で、火星人にがっしりとした外見を与える。彼らの肌の色については相当な議論があり、放射線に対抗するためおそらく暗くなるだろう。",
+    "sentences": [
+      {
+        "en": "Many leading scientists call for the colonisation of Mars to ensure humanity's long-term survival.",
+        "targets": [
+          {
+            "id": "w-leading",
+            "text": "leading"
+          },
+          {
+            "id": "p-call-for",
+            "text": "call for"
+          },
+          {
+            "id": "w-ensure",
+            "text": "ensure"
+          }
+        ]
+      },
+      {
+        "en": "An environmental catastrophe or an unforeseen event could push us towards extinction, so they urge us to become a multi-planet species.",
+        "targets": [
+          {
+            "id": "w-catastrophe",
+            "text": "catastrophe"
+          },
+          {
+            "id": "w-unforeseen",
+            "text": "unforeseen"
+          },
+          {
+            "id": "w-extinction",
+            "text": "extinction"
+          },
+          {
+            "id": "w-urge",
+            "text": "urge"
+          }
+        ]
+      },
+      {
+        "en": "In isolation on another planet, new traits could arise.",
+        "targets": [
+          {
+            "id": "w-isolation",
+            "text": "isolation"
+          },
+          {
+            "id": "w-arise",
+            "text": "arise"
+          }
+        ]
+      },
+      {
+        "en": "One feature that would stand out is thicker bones, giving Martians a robust appearance.",
+        "targets": [
+          {
+            "id": "w-feature",
+            "text": "feature"
+          },
+          {
+            "id": "p-stand-out",
+            "text": "stand out"
+          },
+          {
+            "id": "w-robust",
+            "text": "robust"
+          }
+        ]
+      },
+      {
+        "en": "There is considerable debate over their skin colour, which would likely darken to counter the radiation.",
+        "targets": [
+          {
+            "id": "p-considerable-debate-over",
+            "text": "considerable debate over"
+          },
+          {
+            "id": "w-counter",
+            "text": "counter"
+          }
+        ]
+      }
+    ]
+  }
+}

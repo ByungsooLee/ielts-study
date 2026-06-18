@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "buildId": "5bb8248",
-  "generatedAt": "2026-06-10T04:56:31.758Z",
-  "version": "54ab52cd",
+  "buildId": "678e537",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "34647aec",
   "collections": [
     {
       "id": "ielts-vocab",
@@ -86,6 +86,76 @@
           "count": 19,
           "file": "english/ielts-vocab/theme-10.json",
           "version": "89ccb28a"
+        },
+        {
+          "theme": 11,
+          "themeName": "マウンテンゴリラ",
+          "count": 22,
+          "file": "english/ielts-vocab/theme-11.json",
+          "version": "4d902bcd"
+        },
+        {
+          "theme": 12,
+          "themeName": "オリーブの栽培",
+          "count": 21,
+          "file": "english/ielts-vocab/theme-12.json",
+          "version": "6f9cefb9"
+        },
+        {
+          "theme": 13,
+          "themeName": "ロボカップ",
+          "count": 21,
+          "file": "english/ielts-vocab/theme-13.json",
+          "version": "e58c2cf1"
+        },
+        {
+          "theme": 14,
+          "themeName": "ニコラ・テスラと「電流戦争」",
+          "count": 21,
+          "file": "english/ielts-vocab/theme-14.json",
+          "version": "e1dacee7"
+        },
+        {
+          "theme": 15,
+          "themeName": "ある思考実験（トロッコ問題）",
+          "count": 18,
+          "file": "english/ielts-vocab/theme-15.json",
+          "version": "2b4815ce"
+        },
+        {
+          "theme": 16,
+          "themeName": "火星で暮らす",
+          "count": 21,
+          "file": "english/ielts-vocab/theme-16.json",
+          "version": "eebc1923"
+        },
+        {
+          "theme": 17,
+          "themeName": "小惑星の衝突",
+          "count": 20,
+          "file": "english/ielts-vocab/theme-17.json",
+          "version": "abdcaf1a"
+        },
+        {
+          "theme": 18,
+          "themeName": "暗号通貨",
+          "count": 21,
+          "file": "english/ielts-vocab/theme-18.json",
+          "version": "38893799"
+        },
+        {
+          "theme": 19,
+          "themeName": "ポンジスキーム",
+          "count": 21,
+          "file": "english/ielts-vocab/theme-19.json",
+          "version": "79253dab"
+        },
+        {
+          "theme": 20,
+          "themeName": "普遍文法",
+          "count": 20,
+          "file": "english/ielts-vocab/theme-20.json",
+          "version": "c310d64e"
         }
       ]
     },
@@ -100,7 +170,7 @@
           "themeName": "STARで答える行動面接（英語）",
           "count": 6,
           "file": "engineering/behavioral-star/theme-1.json",
-          "version": "cbeacfc0"
+          "version": "8d6df155"
         }
       ]
     },
@@ -115,7 +185,7 @@
           "themeName": "ディメンショナルモデリング（面接頻出）",
           "count": 6,
           "file": "engineering/data-modeling/theme-1.json",
-          "version": "485be0ef"
+          "version": "e2a275d6"
         }
       ]
     },
@@ -130,7 +200,7 @@
           "themeName": "パイプラインとオーケストレーション（面接頻出）",
           "count": 6,
           "file": "engineering/data-pipelines/theme-1.json",
-          "version": "d523e110"
+          "version": "27df5ff0"
         }
       ]
     },
@@ -145,7 +215,7 @@
           "themeName": "分散処理とSpark（面接頻出）",
           "count": 6,
           "file": "engineering/distributed-spark/theme-1.json",
-          "version": "2b715125"
+          "version": "a0369e83"
         }
       ]
     },
@@ -160,7 +230,7 @@
           "themeName": "SQL最適化（面接頻出）",
           "count": 6,
           "file": "engineering/sql-optimization/theme-1.json",
-          "version": "93bcbbed"
+          "version": "28403f8e"
         }
       ]
     },
@@ -175,7 +245,7 @@
           "themeName": "システム設計の基礎（面接頻出）",
           "count": 6,
           "file": "engineering/system-design/theme-1.json",
-          "version": "12df98a5"
+          "version": "c0400f71"
         }
       ]
     },
@@ -190,7 +260,7 @@
           "themeName": "AI-ready データ基盤のベストプラクティス",
           "count": 9,
           "file": "engineering/ai-data-platform/theme-1.json",
-          "version": "c5bd5ab8"
+          "version": "388b4f5a"
         }
       ]
     },
@@ -205,21 +275,21 @@
           "themeName": "動詞",
           "count": 4,
           "file": "english/grammar/genre-1.json",
-          "version": "fad4bef4"
+          "version": "057b484b"
         },
         {
           "theme": 2,
           "themeName": "句動詞",
           "count": 4,
           "file": "english/grammar/genre-2.json",
-          "version": "1a615c82"
+          "version": "11903526"
         },
         {
           "theme": 3,
           "themeName": "時制",
           "count": 11,
           "file": "english/grammar/genre-3.json",
-          "version": "011add44"
+          "version": "5c6b00b3"
         }
       ]
     }

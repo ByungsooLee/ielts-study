@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 11,
+  "themeId": "theme-11",
+  "themeName": "マウンテンゴリラ",
+  "version": "4d902bcd",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 207,
+      "id": "w-monitor",
+      "type": "word",
+      "front": "monitor",
+      "meaning": "観察・監視する",
+      "synonyms": [
+        "observe",
+        "track"
+      ],
+      "collocation": "monitor closely, monitor progress",
+      "examples": [
+        {
+          "en": "The mountain gorilla is in serious peril, so researchers scramble to monitor the few that remain in the wild."
+        }
+      ],
+      "pron": {
+        "lookup": "monitor",
+        "tts": "monitor"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 208,
+      "id": "w-rigid",
+      "type": "word",
+      "front": "rigid",
+      "meaning": "厳格な",
+      "synonyms": [
+        "strict",
+        "fixed"
+      ],
+      "collocation": "a rigid structure, rigid rules",
+      "examples": [
+        {
+          "en": "Each troop has a rigid social structure, with one dominant male at the top."
+        }
+      ],
+      "pron": {
+        "lookup": "rigid",
+        "tts": "rigid"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 209,
+      "id": "w-structure",
+      "type": "word",
+      "front": "structure",
+      "meaning": "構造・体制",
+      "synonyms": [
+        "framework",
+        "hierarchy"
+      ],
+      "collocation": "social structure, a rigid structure",
+      "examples": [
+        {
+          "en": "Each troop has a rigid social structure, with one dominant male at the top."
+        }
+      ],
+      "pron": {
+        "lookup": "structure",
+        "tts": "structure"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 210,
+      "id": "w-dominance",
+      "type": "word",
+      "front": "dominance",
+      "meaning": "支配",
+      "synonyms": [
+        "supremacy"
+      ],
+      "collocation": "fight for dominance, establish dominance",
+      "examples": [
+        {
+          "en": "As a male matures, a distinctive silver back appears, and he may fight the leader for dominance."
+        }
+      ],
+      "pron": {
+        "lookup": "dominance",
+        "tts": "dominance"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 211,
+      "id": "w-distinctive",
+      "type": "word",
+      "front": "distinctive",
+      "meaning": "特徴的な・際立った",
+      "synonyms": [
+        "unique",
+        "characteristic"
+      ],
+      "collocation": "a distinctive feature, a distinctive appearance",
+      "examples": [
+        {
+          "en": "As a male matures, a distinctive silver back appears, and he may fight the leader for dominance."
+        }
+      ],
+      "pron": {
+        "lookup": "distinctive",
+        "tts": "distinctive"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 212,
+      "id": "w-peril",
+      "type": "word",
+      "front": "peril",
+      "meaning": "危険・危機",
+      "synonyms": [
+        "jeopardy",
+        "danger"
+      ],
+      "collocation": "be in peril, in serious peril",
+      "examples": [
+        {
+          "en": "The mountain gorilla is in serious peril, so researchers scramble to monitor the few that remain in the wild."
+        }
+      ],
+      "pron": {
+        "lookup": "peril",
+        "tts": "peril"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 213,
+      "id": "w-scramble",
+      "type": "word",
+      "front": "scramble",
+      "meaning": "急いで〜する",
+      "synonyms": [
+        "rush"
+      ],
+      "collocation": "scramble to do sth",
+      "examples": [
+        {
+          "en": "The mountain gorilla is in serious peril, so researchers scramble to monitor the few that remain in the wild."
+        }
+      ],
+      "pron": {
+        "lookup": "scramble",
+        "tts": "scramble"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 214,
+      "id": "w-successive",
+      "type": "word",
+      "front": "successive",
+      "meaning": "連続する",
+      "synonyms": [
+        "consecutive",
+        "back-to-back"
+      ],
+      "collocation": "on successive days, successive attempts",
+      "examples": [
+        {
+          "en": "A gorilla's day is segmented into resting, roaming and feeding, and they rarely sleep in the same place on successive nights."
+        }
+      ],
+      "pron": {
+        "lookup": "successive",
+        "tts": "successive"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 215,
+      "id": "p-tend-to",
+      "type": "phrase",
+      "front": "tend to",
+      "meaning": "〜の世話をする",
+      "synonyms": [
+        "attend to",
+        "nurture"
+      ],
+      "collocation": "tend to the young, attend to needs",
+      "examples": [
+        {
+          "en": "Younger, immature males are subordinate to him, while the females tend to the young."
+        }
+      ],
+      "pron": {
+        "tts": "tend to"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 216,
+      "id": "w-immature",
+      "type": "word",
+      "front": "immature",
+      "meaning": "未熟な",
+      "synonyms": [
+        "adolescent"
+      ],
+      "collocation": "immature males, emotionally immature",
+      "examples": [
+        {
+          "en": "Younger, immature males are subordinate to him, while the females tend to the young."
+        }
+      ],
+      "pron": {
+        "lookup": "immature",
+        "tts": "immature"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 217,
+      "id": "w-shun",
+      "type": "word",
+      "front": "shun",
+      "meaning": "避ける",
+      "synonyms": [
+        "avoid",
+        "eschew"
+      ],
+      "collocation": "shun violence, shun publicity",
+      "examples": [
+        {
+          "en": "They largely shun meat, and scientists now consider them among the most intelligent animals."
+        }
+      ],
+      "pron": {
+        "lookup": "shun",
+        "tts": "shun"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 218,
+      "id": "p-consider-as",
+      "type": "phrase",
+      "front": "consider as",
+      "meaning": "〜を…と見なす",
+      "synonyms": [
+        "regard as",
+        "view as"
+      ],
+      "collocation": "consider sth as a threat",
+      "examples": [
+        {
+          "en": "They largely shun meat, and scientists now consider them among the most intelligent animals."
+        }
+      ],
+      "pron": {
+        "tts": "consider as"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 219,
+      "id": "p-segment-into",
+      "type": "phrase",
+      "front": "segment into",
+      "meaning": "〜に分ける",
+      "synonyms": [
+        "divide into",
+        "split into"
+      ],
+      "collocation": "segment into parts",
+      "examples": [
+        {
+          "en": "A gorilla's day is segmented into resting, roaming and feeding, and they rarely sleep in the same place on successive nights."
+        }
+      ],
+      "pron": {
+        "tts": "segment into"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 220,
+      "id": "w-trek",
+      "type": "word",
+      "front": "trek",
+      "meaning": "移動する・歩き回る",
+      "synonyms": [
+        "range",
+        "roam"
+      ],
+      "pron": {
+        "lookup": "trek",
+        "tts": "trek"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 221,
+      "id": "p-natural-habitat",
+      "type": "phrase",
+      "front": "natural habitat",
+      "meaning": "自然生息地",
+      "synonyms": [
+        "natural surroundings"
+      ],
+      "pron": {
+        "tts": "natural habitat"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 222,
+      "id": "w-direction",
+      "type": "word",
+      "front": "direction",
+      "meaning": "指図・命令",
+      "synonyms": [
+        "command",
+        "leadership"
+      ],
+      "pron": {
+        "lookup": "direction",
+        "tts": "direction"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 223,
+      "id": "p-guard-from-harm",
+      "type": "phrase",
+      "front": "guard from harm",
+      "meaning": "危険から守る",
+      "synonyms": [
+        "shield from harm",
+        "defend"
+      ],
+      "pron": {
+        "tts": "guard from harm"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 224,
+      "id": "p-have-young",
+      "type": "phrase",
+      "front": "have young",
+      "meaning": "子を持つ",
+      "synonyms": [
+        "produce offspring"
+      ],
+      "pron": {
+        "tts": "have young"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 225,
+      "id": "p-subordinate-to",
+      "type": "phrase",
+      "front": "subordinate to",
+      "meaning": "〜の下位の",
+      "synonyms": [
+        "subservient to"
+      ],
+      "examples": [
+        {
+          "en": "Younger, immature males are subordinate to him, while the females tend to the young."
+        }
+      ],
+      "pron": {
+        "tts": "subordinate to"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 226,
+      "id": "w-foliage",
+      "type": "word",
+      "front": "foliage",
+      "meaning": "葉・植物",
+      "synonyms": [
+        "vegetation"
+      ],
+      "pron": {
+        "lookup": "foliage",
+        "tts": "foliage"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 227,
+      "id": "w-hierarchy",
+      "type": "word",
+      "front": "hierarchy",
+      "meaning": "階級",
+      "synonyms": [
+        "order"
+      ],
+      "pron": {
+        "lookup": "hierarchy",
+        "tts": "hierarchy"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 228,
+      "id": "p-face-a-choice",
+      "type": "phrase",
+      "front": "face a choice",
+      "meaning": "選択を迫られる",
+      "synonyms": [
+        "need to make up one's mind"
+      ],
+      "pron": {
+        "tts": "face a choice"
+      },
+      "tags": [],
+      "theme": 11,
+      "themeName": "マウンテンゴリラ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t11",
+    "theme": 11,
+    "themeName": "マウンテンゴリラ",
+    "jp": "マウンテンゴリラは深刻な危機に瀕しており、研究者は野生に残るわずかな個体を観察しようと急いでいる。各群れは厳格な社会構造を持ち、頂点に1頭の支配的な雄がいる。より若い未熟な雄は彼の下位にあり、雌は子の世話をする。雄が成熟するとはっきりした特徴のある銀色の背が現れ、リーダーに支配権を求めて挑むこともある。ゴリラの一日は休息・放浪・採食に分けられ、連続する夜に同じ場所で眠ることはめったにない。彼らは概して肉を避け、科学者は今や彼らを最も知能の高い動物の一つと見なしている。",
+    "sentences": [
+      {
+        "en": "The mountain gorilla is in serious peril, so researchers scramble to monitor the few that remain in the wild.",
+        "targets": [
+          {
+            "id": "w-peril",
+            "text": "peril"
+          },
+          {
+            "id": "w-scramble",
+            "text": "scramble"
+          },
+          {
+            "id": "w-monitor",
+            "text": "monitor"
+          }
+        ]
+      },
+      {
+        "en": "Each troop has a rigid social structure, with one dominant male at the top.",
+        "targets": [
+          {
+            "id": "w-rigid",
+            "text": "rigid"
+          },
+          {
+            "id": "w-structure",
+            "text": "structure"
+          }
+        ]
+      },
+      {
+        "en": "Younger, immature males are subordinate to him, while the females tend to the young.",
+        "targets": [
+          {
+            "id": "w-immature",
+            "text": "immature"
+          },
+          {
+            "id": "p-subordinate-to",
+            "text": "subordinate"
+          },
+          {
+            "id": "p-tend-to",
+            "text": "tend to"
+          }
+        ]
+      },
+      {
+        "en": "As a male matures, a distinctive silver back appears, and he may fight the leader for dominance.",
+        "targets": [
+          {
+            "id": "w-distinctive",
+            "text": "distinctive"
+          },
+          {
+            "id": "w-dominance",
+            "text": "dominance"
+          }
+        ]
+      },
+      {
+        "en": "A gorilla's day is segmented into resting, roaming and feeding, and they rarely sleep in the same place on successive nights.",
+        "targets": [
+          {
+            "id": "p-segment-into",
+            "text": "segmented into"
+          },
+          {
+            "id": "w-successive",
+            "text": "successive"
+          }
+        ]
+      },
+      {
+        "en": "They largely shun meat, and scientists now consider them among the most intelligent animals.",
+        "targets": [
+          {
+            "id": "w-shun",
+            "text": "shun"
+          },
+          {
+            "id": "p-consider-as",
+            "text": "consider"
+          }
+        ]
+      }
+    ]
+  }
+}

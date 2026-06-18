@@ -7,11 +7,11 @@
   "theme": 1,
   "themeId": "theme-1",
   "themeName": "分散処理とSpark（面接頻出）",
-  "version": "2b715125",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "a0369e83",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
   "items": [
     {
-      "n": 216,
+      "n": 431,
       "id": "de-spark-lazy",
       "type": "concept",
       "front": "Lazy evaluation (transformations vs actions)",
@@ -54,7 +54,7 @@
       "themeName": "分散処理とSpark（面接頻出）"
     },
     {
-      "n": 217,
+      "n": 432,
       "id": "de-spark-shuffle",
       "type": "concept",
       "front": "Shuffle (narrow vs wide transformations)",
@@ -97,7 +97,7 @@
       "themeName": "分散処理とSpark（面接頻出）"
     },
     {
-      "n": 218,
+      "n": 433,
       "id": "de-spark-skew",
       "type": "concept",
       "front": "Data skew",
@@ -140,7 +140,7 @@
       "themeName": "分散処理とSpark（面接頻出）"
     },
     {
-      "n": 219,
+      "n": 434,
       "id": "de-spark-partitioning",
       "type": "concept",
       "front": "Partitioning & parallelism",
@@ -183,7 +183,7 @@
       "themeName": "分散処理とSpark（面接頻出）"
     },
     {
-      "n": 220,
+      "n": 435,
       "id": "de-spark-caching",
       "type": "concept",
       "front": "Caching / persistence",
@@ -226,7 +226,7 @@
       "themeName": "分散処理とSpark（面接頻出）"
     },
     {
-      "n": 221,
+      "n": 436,
       "id": "de-spark-broadcast-join",
       "type": "concept",
       "front": "Broadcast join",

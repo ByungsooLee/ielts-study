@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 19,
+  "themeId": "theme-19",
+  "themeName": "ポンジスキーム",
+  "version": "79253dab",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 372,
+      "id": "w-legitimate",
+      "type": "word",
+      "front": "legitimate",
+      "meaning": "合法的な・まっとうな",
+      "synonyms": [
+        "legal",
+        "authentic",
+        "genuine"
+      ],
+      "collocation": "a legitimate business, legitimate dealings",
+      "examples": [
+        {
+          "en": "A Ponzi scheme is a scam in which early investors are paid dividends from newcomers' money rather than from legitimate business."
+        }
+      ],
+      "pron": {
+        "lookup": "legitimate",
+        "tts": "legitimate"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 373,
+      "id": "w-collapse",
+      "type": "word",
+      "front": "collapse",
+      "meaning": "崩壊する・破綻する",
+      "synonyms": [
+        "fall apart",
+        "turn sour"
+      ],
+      "collocation": "the scheme collapses, the economy collapsed",
+      "examples": [
+        {
+          "en": "They calculated it was inconceivable to earn so much so fast, the police launched an inquiry, and the scheme collapsed."
+        }
+      ],
+      "pron": {
+        "lookup": "collapse",
+        "tts": "collapse"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 374,
+      "id": "w-assure",
+      "type": "word",
+      "front": "assure",
+      "meaning": "保証する・確信させる",
+      "synonyms": [
+        "convince",
+        "reassure"
+      ],
+      "collocation": "assure sb that…, assure the public",
+      "examples": [
+        {
+          "en": "Charles Ponzi assured his community they could double their money, and enthusiasm swept the city as he raked in great wealth."
+        }
+      ],
+      "pron": {
+        "lookup": "assure",
+        "tts": "assure"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 375,
+      "id": "w-community",
+      "type": "word",
+      "front": "community",
+      "meaning": "地域社会",
+      "synonyms": [
+        "neighbourhood"
+      ],
+      "collocation": "the local community, a close-knit community",
+      "examples": [
+        {
+          "en": "Charles Ponzi assured his community they could double their money, and enthusiasm swept the city as he raked in great wealth."
+        }
+      ],
+      "pron": {
+        "lookup": "community",
+        "tts": "community"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 376,
+      "id": "w-scam",
+      "type": "word",
+      "front": "scam",
+      "meaning": "詐欺",
+      "synonyms": [
+        "swindle",
+        "con",
+        "fraud"
+      ],
+      "collocation": "a financial scam, fall for a scam",
+      "examples": [
+        {
+          "en": "A Ponzi scheme is a scam in which early investors are paid dividends from newcomers' money rather than from legitimate business."
+        }
+      ],
+      "pron": {
+        "lookup": "scam",
+        "tts": "scam"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 377,
+      "id": "w-suspicion",
+      "type": "word",
+      "front": "suspicion",
+      "meaning": "疑念",
+      "synonyms": [
+        "scepticism"
+      ],
+      "collocation": "arouse suspicion, under suspicion",
+      "examples": [
+        {
+          "en": "But local newspapers grew suspicious because of his inaccurate bookkeeping, which aroused suspicion."
+        }
+      ],
+      "pron": {
+        "lookup": "suspicion",
+        "tts": "suspicion"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 378,
+      "id": "w-inaccurate",
+      "type": "word",
+      "front": "inaccurate",
+      "meaning": "不正確な",
+      "synonyms": [
+        "erroneous"
+      ],
+      "collocation": "inaccurate figures, inaccurate records",
+      "examples": [
+        {
+          "en": "But local newspapers grew suspicious because of his inaccurate bookkeeping, which aroused suspicion."
+        }
+      ],
+      "pron": {
+        "lookup": "inaccurate",
+        "tts": "inaccurate"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 379,
+      "id": "w-calculate",
+      "type": "word",
+      "front": "calculate",
+      "meaning": "判断する・確定する",
+      "synonyms": [
+        "determine",
+        "ascertain"
+      ],
+      "collocation": "calculate that…, calculate the risk",
+      "examples": [
+        {
+          "en": "They calculated it was inconceivable to earn so much so fast, the police launched an inquiry, and the scheme collapsed."
+        }
+      ],
+      "pron": {
+        "lookup": "calculate",
+        "tts": "calculate"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 380,
+      "id": "w-inconceivable",
+      "type": "word",
+      "front": "inconceivable",
+      "meaning": "あり得ない",
+      "synonyms": [
+        "beyond belief",
+        "beyond reason"
+      ],
+      "collocation": "it is inconceivable that…",
+      "examples": [
+        {
+          "en": "They calculated it was inconceivable to earn so much so fast, the police launched an inquiry, and the scheme collapsed."
+        }
+      ],
+      "pron": {
+        "lookup": "inconceivable",
+        "tts": "inconceivable"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 381,
+      "id": "w-inquiry",
+      "type": "word",
+      "front": "inquiry",
+      "meaning": "捜査・取り調べ",
+      "synonyms": [
+        "probe",
+        "investigation"
+      ],
+      "collocation": "launch an inquiry, a police inquiry",
+      "examples": [
+        {
+          "en": "They calculated it was inconceivable to earn so much so fast, the police launched an inquiry, and the scheme collapsed."
+        }
+      ],
+      "pron": {
+        "lookup": "inquiry",
+        "tts": "inquiry"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 382,
+      "id": "w-endure",
+      "type": "word",
+      "front": "endure",
+      "meaning": "生き長らえる・耐える",
+      "synonyms": [
+        "live on",
+        "continue to exist"
+      ],
+      "collocation": "endure for centuries, the legacy endures",
+      "examples": [
+        {
+          "en": "Such frauds endure today: Bernie Madoff seemed trustworthy but ran the most infamous Ponzi scheme in history."
+        }
+      ],
+      "pron": {
+        "lookup": "endure",
+        "tts": "endure"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 383,
+      "id": "w-trustworthy",
+      "type": "word",
+      "front": "trustworthy",
+      "meaning": "信頼できる",
+      "synonyms": [
+        "credible",
+        "honest",
+        "reliable"
+      ],
+      "collocation": "a trustworthy partner, appear trustworthy",
+      "examples": [
+        {
+          "en": "Such frauds endure today: Bernie Madoff seemed trustworthy but ran the most infamous Ponzi scheme in history."
+        }
+      ],
+      "pron": {
+        "lookup": "trustworthy",
+        "tts": "trustworthy"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 384,
+      "id": "w-infamous",
+      "type": "word",
+      "front": "infamous",
+      "meaning": "悪名高い",
+      "synonyms": [
+        "notorious",
+        "scandalous"
+      ],
+      "collocation": "the most infamous case, an infamous fraud",
+      "examples": [
+        {
+          "en": "Such frauds endure today: Bernie Madoff seemed trustworthy but ran the most infamous Ponzi scheme in history."
+        }
+      ],
+      "pron": {
+        "lookup": "infamous",
+        "tts": "infamous"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 385,
+      "id": "w-wealth",
+      "type": "word",
+      "front": "wealth",
+      "meaning": "財産・富",
+      "synonyms": [
+        "affluence",
+        "prosperity"
+      ],
+      "collocation": "accumulate wealth, newfound wealth",
+      "examples": [
+        {
+          "en": "Charles Ponzi assured his community they could double their money, and enthusiasm swept the city as he raked in great wealth."
+        }
+      ],
+      "pron": {
+        "lookup": "wealth",
+        "tts": "wealth"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 386,
+      "id": "w-enthusiasm",
+      "type": "word",
+      "front": "enthusiasm",
+      "meaning": "熱中・熱狂",
+      "synonyms": [
+        "fervour",
+        "zeal"
+      ],
+      "collocation": "enthusiasm for…, with great enthusiasm",
+      "examples": [
+        {
+          "en": "Charles Ponzi assured his community they could double their money, and enthusiasm swept the city as he raked in great wealth."
+        }
+      ],
+      "pron": {
+        "lookup": "enthusiasm",
+        "tts": "enthusiasm"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 387,
+      "id": "w-dividend",
+      "type": "word",
+      "front": "dividend",
+      "meaning": "配当（金）",
+      "synonyms": [
+        "return"
+      ],
+      "collocation": "pay dividends, high returns",
+      "examples": [
+        {
+          "en": "A Ponzi scheme is a scam in which early investors are paid dividends from newcomers' money rather than from legitimate business."
+        }
+      ],
+      "pron": {
+        "lookup": "dividend",
+        "tts": "dividend"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 388,
+      "id": "p-be-associated-with",
+      "type": "phrase",
+      "front": "be associated with",
+      "meaning": "関連している",
+      "synonyms": [
+        "be connected with",
+        "be affiliated with"
+      ],
+      "pron": {
+        "tts": "be associated with"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 389,
+      "id": "p-sweep-through",
+      "type": "phrase",
+      "front": "sweep through",
+      "meaning": "大人気となる・広まる",
+      "synonyms": [
+        "spread through",
+        "fan out across"
+      ],
+      "pron": {
+        "tts": "sweep through"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 390,
+      "id": "p-get-left-behind",
+      "type": "phrase",
+      "front": "get left behind",
+      "meaning": "取り残される",
+      "synonyms": [
+        "miss out"
+      ],
+      "pron": {
+        "tts": "get left behind"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 391,
+      "id": "p-rake-in",
+      "type": "phrase",
+      "front": "rake in",
+      "meaning": "荒稼ぎする",
+      "synonyms": [
+        "earn",
+        "bring in"
+      ],
+      "pron": {
+        "tts": "rake in"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 392,
+      "id": "p-in-the-latest-fashion",
+      "type": "phrase",
+      "front": "in the latest fashion",
+      "meaning": "最新の流行で",
+      "synonyms": [
+        "fashionably",
+        "stylishly"
+      ],
+      "pron": {
+        "tts": "in the latest fashion"
+      },
+      "tags": [],
+      "theme": 19,
+      "themeName": "ポンジスキーム",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t19",
+    "theme": 19,
+    "themeName": "ポンジスキーム",
+    "jp": "ポンジスキームとは、合法的な商取引からではなく新規の投資家の資金で前の投資家に配当を払う詐欺だ。チャールズ・ポンジは地域の人々に資金を2倍にできると保証し、彼が巨額の富を荒稼ぎする中で熱狂が市内を席巻した。だが彼の不正確な帳簿のため地元紙は疑念を抱いた。彼らはこんなに短期間でこれほど稼ぐのはあり得ないと判断し、警察が捜査に乗り出し、スキームは破綻した。こうした詐欺は今日も生き長らえている——バーナード・マドフは信頼できるように見えたが、歴史上最も悪名高いポンジスキームを運営した。",
+    "sentences": [
+      {
+        "en": "A Ponzi scheme is a scam in which early investors are paid dividends from newcomers' money rather than from legitimate business.",
+        "targets": [
+          {
+            "id": "w-scam",
+            "text": "scam"
+          },
+          {
+            "id": "w-dividend",
+            "text": "dividends"
+          },
+          {
+            "id": "w-legitimate",
+            "text": "legitimate"
+          }
+        ]
+      },
+      {
+        "en": "Charles Ponzi assured his community they could double their money, and enthusiasm swept the city as he raked in great wealth.",
+        "targets": [
+          {
+            "id": "w-assure",
+            "text": "assured"
+          },
+          {
+            "id": "w-community",
+            "text": "community"
+          },
+          {
+            "id": "w-enthusiasm",
+            "text": "enthusiasm"
+          },
+          {
+            "id": "w-wealth",
+            "text": "wealth"
+          }
+        ]
+      },
+      {
+        "en": "But local newspapers grew suspicious because of his inaccurate bookkeeping, which aroused suspicion.",
+        "targets": [
+          {
+            "id": "w-inaccurate",
+            "text": "inaccurate"
+          },
+          {
+            "id": "w-suspicion",
+            "text": "suspicion"
+          }
+        ]
+      },
+      {
+        "en": "They calculated it was inconceivable to earn so much so fast, the police launched an inquiry, and the scheme collapsed.",
+        "targets": [
+          {
+            "id": "w-calculate",
+            "text": "calculated"
+          },
+          {
+            "id": "w-inconceivable",
+            "text": "inconceivable"
+          },
+          {
+            "id": "w-inquiry",
+            "text": "inquiry"
+          },
+          {
+            "id": "w-collapse",
+            "text": "collapsed"
+          }
+        ]
+      },
+      {
+        "en": "Such frauds endure today: Bernie Madoff seemed trustworthy but ran the most infamous Ponzi scheme in history.",
+        "targets": [
+          {
+            "id": "w-endure",
+            "text": "endure"
+          },
+          {
+            "id": "w-trustworthy",
+            "text": "trustworthy"
+          },
+          {
+            "id": "w-infamous",
+            "text": "infamous"
+          }
+        ]
+      }
+    ]
+  }
+}

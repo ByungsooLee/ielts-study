@@ -7,11 +7,11 @@
   "theme": 3,
   "themeId": "genre-3",
   "themeName": "時制",
-  "version": "011add44",
-  "generatedAt": "2026-06-10T04:56:31.758Z",
+  "version": "5c6b00b3",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
   "items": [
     {
-      "n": 215,
+      "n": 466,
       "id": "g-tense-present-simple",
       "type": "grammar",
       "front": "現在形：状態・習慣・不変の真理",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "n": 216,
+      "n": 467,
       "id": "g-tense-present-for-future",
       "type": "grammar",
       "front": "時・条件の副詞節中では未来も現在形",
@@ -152,7 +152,7 @@
       }
     },
     {
-      "n": 217,
+      "n": 468,
       "id": "g-tense-present-progressive",
       "type": "grammar",
       "front": "現在進行形：進行中の動作／計画した未来",
@@ -221,7 +221,7 @@
       }
     },
     {
-      "n": 218,
+      "n": 469,
       "id": "g-tense-past-and-past-progressive",
       "type": "grammar",
       "front": "過去形／過去進行形",
@@ -291,7 +291,7 @@
       }
     },
     {
-      "n": 219,
+      "n": 470,
       "id": "g-tense-future",
       "type": "grammar",
       "front": "未来形：will / be going to",
@@ -360,7 +360,7 @@
       }
     },
     {
-      "n": 220,
+      "n": 471,
       "id": "g-tense-future-progressive",
       "type": "grammar",
       "front": "未来進行形：will be -ing",
@@ -415,7 +415,7 @@
       }
     },
     {
-      "n": 221,
+      "n": 472,
       "id": "g-tense-present-perfect",
       "type": "grammar",
       "front": "現在完了形：完了・結果／経験・継続",
@@ -484,7 +484,7 @@
       }
     },
     {
-      "n": 222,
+      "n": 473,
       "id": "g-tense-present-perfect-misuse",
       "type": "grammar",
       "front": "現在完了形が使えない場合",
@@ -551,7 +551,7 @@
       }
     },
     {
-      "n": 223,
+      "n": 474,
       "id": "g-tense-past-perfect-2",
       "type": "grammar",
       "front": "過去完了形：had + 過去分詞（大過去含む）",
@@ -621,7 +621,7 @@
       }
     },
     {
-      "n": 224,
+      "n": 475,
       "id": "g-tense-future-perfect",
       "type": "grammar",
       "front": "未来完了形：will have + 過去分詞",
@@ -690,7 +690,7 @@
       }
     },
     {
-      "n": 225,
+      "n": 476,
       "id": "g-tense-perfect-progressive",
       "type": "grammar",
       "front": "完了進行形：現在完了進行形／過去完了進行形",

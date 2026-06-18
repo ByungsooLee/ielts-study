@@ -1,0 +1,651 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 18,
+  "themeId": "theme-18",
+  "themeName": "暗号通貨",
+  "version": "38893799",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 351,
+      "id": "w-exchange",
+      "type": "word",
+      "front": "exchange",
+      "meaning": "交換する・取引する",
+      "synonyms": [
+        "trade",
+        "deal in"
+      ],
+      "collocation": "exchange money, exchange ideas",
+      "examples": [
+        {
+          "en": "Cryptocurrencies first appeared in 2009 as a novel way to exchange money, possibly created by Satoshi Nakamoto."
+        }
+      ],
+      "pron": {
+        "lookup": "exchange",
+        "tts": "exchange"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 352,
+      "id": "w-benefit",
+      "type": "word",
+      "front": "benefit",
+      "meaning": "利点",
+      "synonyms": [
+        "advantage",
+        "upside"
+      ],
+      "collocation": "the benefits of…, a key benefit",
+      "examples": [
+        {
+          "en": "A key benefit is cutting out the middleman, so people can transmit money cheaply."
+        }
+      ],
+      "pron": {
+        "lookup": "benefit",
+        "tts": "benefit"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 353,
+      "id": "w-transaction",
+      "type": "word",
+      "front": "transaction",
+      "meaning": "取引",
+      "synonyms": [
+        "dealing"
+      ],
+      "collocation": "a financial transaction, record a transaction",
+      "examples": [
+        {
+          "en": "Each transaction is recorded on a decentralised ledger, which makes the currency nearly invulnerable."
+        }
+      ],
+      "pron": {
+        "lookup": "transaction",
+        "tts": "transaction"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 354,
+      "id": "w-cautious",
+      "type": "word",
+      "front": "cautious",
+      "meaning": "注意深い・用心深い",
+      "synonyms": [
+        "prudent",
+        "wary"
+      ],
+      "collocation": "be cautious about, a cautious approach",
+      "examples": [
+        {
+          "en": "But the price can fluctuate widely, so newcomers should be cautious."
+        }
+      ],
+      "pron": {
+        "lookup": "cautious",
+        "tts": "cautious"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 355,
+      "id": "w-appear",
+      "type": "word",
+      "front": "appear",
+      "meaning": "登場する・現れる",
+      "synonyms": [
+        "emerge",
+        "come onto the scene"
+      ],
+      "collocation": "first appeared in…, appear suddenly",
+      "examples": [
+        {
+          "en": "Cryptocurrencies first appeared in 2009 as a novel way to exchange money, possibly created by Satoshi Nakamoto."
+        }
+      ],
+      "pron": {
+        "lookup": "appear",
+        "tts": "appear"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 356,
+      "id": "w-novel",
+      "type": "word",
+      "front": "novel",
+      "meaning": "まったく新しい",
+      "synonyms": [
+        "original",
+        "brand-new"
+      ],
+      "collocation": "a novel way, a novel approach",
+      "examples": [
+        {
+          "en": "Cryptocurrencies first appeared in 2009 as a novel way to exchange money, possibly created by Satoshi Nakamoto."
+        }
+      ],
+      "pron": {
+        "lookup": "novel",
+        "tts": "novel"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 357,
+      "id": "w-create",
+      "type": "word",
+      "front": "create",
+      "meaning": "作り出す",
+      "synonyms": [
+        "conceive",
+        "design"
+      ],
+      "collocation": "create a system, create value",
+      "examples": [
+        {
+          "en": "Cryptocurrencies first appeared in 2009 as a novel way to exchange money, possibly created by Satoshi Nakamoto."
+        }
+      ],
+      "pron": {
+        "lookup": "create",
+        "tts": "create"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 358,
+      "id": "w-record",
+      "type": "word",
+      "front": "record",
+      "meaning": "記録する",
+      "synonyms": [
+        "document"
+      ],
+      "collocation": "record a transaction, record data",
+      "examples": [
+        {
+          "en": "Each transaction is recorded on a decentralised ledger, which makes the currency nearly invulnerable."
+        }
+      ],
+      "pron": {
+        "lookup": "record",
+        "tts": "record"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 359,
+      "id": "w-invulnerable",
+      "type": "word",
+      "front": "invulnerable",
+      "meaning": "傷つけられない",
+      "synonyms": [
+        "impenetrable"
+      ],
+      "collocation": "invulnerable to hacking",
+      "examples": [
+        {
+          "en": "Each transaction is recorded on a decentralised ledger, which makes the currency nearly invulnerable."
+        }
+      ],
+      "pron": {
+        "lookup": "invulnerable",
+        "tts": "invulnerable"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 360,
+      "id": "w-middleman",
+      "type": "word",
+      "front": "middleman",
+      "meaning": "仲介者",
+      "synonyms": [
+        "intermediary",
+        "go-between"
+      ],
+      "collocation": "cut out the middleman",
+      "examples": [
+        {
+          "en": "A key benefit is cutting out the middleman, so people can transmit money cheaply."
+        }
+      ],
+      "pron": {
+        "lookup": "middleman",
+        "tts": "middleman"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 361,
+      "id": "w-transmit",
+      "type": "word",
+      "front": "transmit",
+      "meaning": "送る・送金する",
+      "synonyms": [
+        "send",
+        "transfer"
+      ],
+      "collocation": "transmit money, transmit data",
+      "examples": [
+        {
+          "en": "A key benefit is cutting out the middleman, so people can transmit money cheaply."
+        }
+      ],
+      "pron": {
+        "lookup": "transmit",
+        "tts": "transmit"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 362,
+      "id": "w-fluctuate",
+      "type": "word",
+      "front": "fluctuate",
+      "meaning": "大幅に変動する",
+      "synonyms": [
+        "vacillate",
+        "seesaw"
+      ],
+      "collocation": "fluctuate widely, prices fluctuate",
+      "examples": [
+        {
+          "en": "But the price can fluctuate widely, so newcomers should be cautious."
+        }
+      ],
+      "pron": {
+        "lookup": "fluctuate",
+        "tts": "fluctuate"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 363,
+      "id": "w-anonymity",
+      "type": "word",
+      "front": "anonymity",
+      "meaning": "匿名性",
+      "synonyms": [
+        "obscurity"
+      ],
+      "collocation": "preserve anonymity, the anonymity of",
+      "examples": [
+        {
+          "en": "Because of its anonymity, the currency attracts criminals, and money has sometimes disappeared from an unregulated marketplace, leading critics to label these schemes as frauds."
+        }
+      ],
+      "pron": {
+        "lookup": "anonymity",
+        "tts": "anonymity"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 364,
+      "id": "w-marketplace",
+      "type": "word",
+      "front": "marketplace",
+      "meaning": "市場",
+      "synonyms": [
+        "market"
+      ],
+      "collocation": "a global marketplace, the marketplace is unregulated",
+      "examples": [
+        {
+          "en": "Because of its anonymity, the currency attracts criminals, and money has sometimes disappeared from an unregulated marketplace, leading critics to label these schemes as frauds."
+        }
+      ],
+      "pron": {
+        "lookup": "marketplace",
+        "tts": "marketplace"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 365,
+      "id": "w-disappear",
+      "type": "word",
+      "front": "disappear",
+      "meaning": "消失する・消える",
+      "synonyms": [
+        "vanish",
+        "go missing"
+      ],
+      "collocation": "money disappears, disappear without trace",
+      "examples": [
+        {
+          "en": "Because of its anonymity, the currency attracts criminals, and money has sometimes disappeared from an unregulated marketplace, leading critics to label these schemes as frauds."
+        }
+      ],
+      "pron": {
+        "lookup": "disappear",
+        "tts": "disappear"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 366,
+      "id": "w-label",
+      "type": "word",
+      "front": "label",
+      "meaning": "レッテルを貼る",
+      "synonyms": [
+        "characterise",
+        "brand"
+      ],
+      "collocation": "label sth as…, be labelled a fraud",
+      "examples": [
+        {
+          "en": "Because of its anonymity, the currency attracts criminals, and money has sometimes disappeared from an unregulated marketplace, leading critics to label these schemes as frauds."
+        }
+      ],
+      "pron": {
+        "lookup": "label",
+        "tts": "label"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 367,
+      "id": "w-newcomer",
+      "type": "word",
+      "front": "newcomer",
+      "meaning": "新規参入者",
+      "synonyms": [
+        "beginner",
+        "novice"
+      ],
+      "collocation": "a newcomer to…, attract newcomers",
+      "examples": [
+        {
+          "en": "But the price can fluctuate widely, so newcomers should be cautious."
+        }
+      ],
+      "pron": {
+        "lookup": "newcomer",
+        "tts": "newcomer"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 368,
+      "id": "p-far-from-certain",
+      "type": "phrase",
+      "front": "far from certain",
+      "meaning": "確実でない",
+      "synonyms": [
+        "unclear",
+        "ambiguous"
+      ],
+      "pron": {
+        "tts": "far from certain"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 369,
+      "id": "w-acclaim",
+      "type": "word",
+      "front": "acclaim",
+      "meaning": "絶賛・名声",
+      "synonyms": [
+        "fame",
+        "the spotlight"
+      ],
+      "pron": {
+        "lookup": "acclaim",
+        "tts": "acclaim"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 370,
+      "id": "w-exist",
+      "type": "word",
+      "front": "exist",
+      "meaning": "存在する",
+      "synonyms": [
+        "be not made up"
+      ],
+      "pron": {
+        "lookup": "exist",
+        "tts": "exist"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 371,
+      "id": "p-cut-out",
+      "type": "phrase",
+      "front": "cut out",
+      "meaning": "取り除く",
+      "synonyms": [
+        "take out",
+        "remove",
+        "eliminate"
+      ],
+      "pron": {
+        "tts": "cut out"
+      },
+      "tags": [],
+      "theme": 18,
+      "themeName": "暗号通貨",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t18",
+    "theme": 18,
+    "themeName": "暗号通貨",
+    "jp": "暗号通貨は、コンピュータで資金を交換するまったく新しい方法として2009年に初めて登場し、おそらくサトシ・ナカモトによって作られた。各取引は分散型の台帳に記録され、これにより通貨はほぼ傷つけられないものになる。大きな利点は仲介者を取り除くことで、人々は安く送金できる。だが価格は大幅に変動しうるので、新規参入者は注意深くあるべきだ。匿名性のため犯罪者を引きつけ、規制されていない市場から資金が消失することもあり、批評家はこうした仕組みを詐欺だとレッテルを貼る。",
+    "sentences": [
+      {
+        "en": "Cryptocurrencies first appeared in 2009 as a novel way to exchange money, possibly created by Satoshi Nakamoto.",
+        "targets": [
+          {
+            "id": "w-appear",
+            "text": "appeared"
+          },
+          {
+            "id": "w-novel",
+            "text": "novel"
+          },
+          {
+            "id": "w-exchange",
+            "text": "exchange"
+          },
+          {
+            "id": "w-create",
+            "text": "created"
+          }
+        ]
+      },
+      {
+        "en": "Each transaction is recorded on a decentralised ledger, which makes the currency nearly invulnerable.",
+        "targets": [
+          {
+            "id": "w-transaction",
+            "text": "transaction"
+          },
+          {
+            "id": "w-record",
+            "text": "recorded"
+          },
+          {
+            "id": "w-invulnerable",
+            "text": "invulnerable"
+          }
+        ]
+      },
+      {
+        "en": "A key benefit is cutting out the middleman, so people can transmit money cheaply.",
+        "targets": [
+          {
+            "id": "w-benefit",
+            "text": "benefit"
+          },
+          {
+            "id": "w-middleman",
+            "text": "middleman"
+          },
+          {
+            "id": "w-transmit",
+            "text": "transmit"
+          }
+        ]
+      },
+      {
+        "en": "But the price can fluctuate widely, so newcomers should be cautious.",
+        "targets": [
+          {
+            "id": "w-fluctuate",
+            "text": "fluctuate"
+          },
+          {
+            "id": "w-newcomer",
+            "text": "newcomers"
+          },
+          {
+            "id": "w-cautious",
+            "text": "cautious"
+          }
+        ]
+      },
+      {
+        "en": "Because of its anonymity, the currency attracts criminals, and money has sometimes disappeared from an unregulated marketplace, leading critics to label these schemes as frauds.",
+        "targets": [
+          {
+            "id": "w-anonymity",
+            "text": "anonymity"
+          },
+          {
+            "id": "w-disappear",
+            "text": "disappeared"
+          },
+          {
+            "id": "w-marketplace",
+            "text": "marketplace"
+          },
+          {
+            "id": "w-label",
+            "text": "label"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -7,11 +7,11 @@
   "theme": 1,
   "themeId": "theme-1",
   "themeName": "AI-ready データ基盤のベストプラクティス",
-  "version": "c5bd5ab8",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "388b4f5a",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
   "items": [
     {
-      "n": 207,
+      "n": 449,
       "id": "de-unified-access",
       "type": "concept",
       "front": "Break down silos / unified access",
@@ -53,7 +53,7 @@
       "themeName": "AI-ready データ基盤のベストプラクティス"
     },
     {
-      "n": 208,
+      "n": 450,
       "id": "de-data-quality",
       "type": "concept",
       "front": "Data quality & data contracts",
@@ -95,7 +95,7 @@
       "themeName": "AI-ready データ基盤のベストプラクティス"
     },
     {
-      "n": 209,
+      "n": 451,
       "id": "de-governance-lineage",
       "type": "concept",
       "front": "Governance, lineage & security",
@@ -139,7 +139,7 @@
       "themeName": "AI-ready データ基盤のベストプラクティス"
     },
     {
-      "n": 210,
+      "n": 452,
       "id": "de-metadata-catalog",
       "type": "concept",
       "front": "Metadata, catalog & semantic layer",
@@ -182,7 +182,7 @@
       "themeName": "AI-ready データ基盤のベストプラクティス"
     },
     {
-      "n": 211,
+      "n": 453,
       "id": "de-lakehouse",
       "type": "concept",
       "front": "Lakehouse + open table formats (ELT)",
@@ -226,7 +226,7 @@
       "themeName": "AI-ready データ基盤のベストプラクティス"
     },
     {
-      "n": 212,
+      "n": 454,
       "id": "de-streaming-realtime",
       "type": "concept",
       "front": "Streaming & real-time pipelines",
@@ -269,7 +269,7 @@
       "themeName": "AI-ready データ基盤のベストプラクティス"
     },
     {
-      "n": 213,
+      "n": 455,
       "id": "de-versioning-reproducibility",
       "type": "concept",
       "front": "Data versioning & reproducibility",
@@ -312,7 +312,7 @@
       "themeName": "AI-ready データ基盤のベストプラクティス"
     },
     {
-      "n": 214,
+      "n": 456,
       "id": "de-dataops-mlops",
       "type": "concept",
       "front": "Unified DataOps / MLOps + feature store",
@@ -355,7 +355,7 @@
       "themeName": "AI-ready データ基盤のベストプラクティス"
     },
     {
-      "n": 215,
+      "n": 457,
       "id": "de-vectors-rag",
       "type": "concept",
       "front": "Embeddings & vector store (for RAG)",

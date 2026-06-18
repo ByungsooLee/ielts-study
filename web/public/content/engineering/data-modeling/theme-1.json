@@ -7,11 +7,11 @@
   "theme": 1,
   "themeId": "theme-1",
   "themeName": "ディメンショナルモデリング（面接頻出）",
-  "version": "485be0ef",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "e2a275d6",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
   "items": [
     {
-      "n": 234,
+      "n": 419,
       "id": "de-dm-star-schema",
       "type": "concept",
       "front": "Star schema (facts & dimensions)",
@@ -54,7 +54,7 @@
       "themeName": "ディメンショナルモデリング（面接頻出）"
     },
     {
-      "n": 235,
+      "n": 420,
       "id": "de-dm-normalization",
       "type": "concept",
       "front": "Normalization vs denormalization (OLTP/OLAP)",
@@ -97,7 +97,7 @@
       "themeName": "ディメンショナルモデリング（面接頻出）"
     },
     {
-      "n": 236,
+      "n": 421,
       "id": "de-dm-grain",
       "type": "concept",
       "front": "The grain of a fact table",
@@ -140,7 +140,7 @@
       "themeName": "ディメンショナルモデリング（面接頻出）"
     },
     {
-      "n": 237,
+      "n": 422,
       "id": "de-dm-scd",
       "type": "concept",
       "front": "Slowly Changing Dimensions (SCD)",
@@ -183,7 +183,7 @@
       "themeName": "ディメンショナルモデリング（面接頻出）"
     },
     {
-      "n": 238,
+      "n": 423,
       "id": "de-dm-elt-dbt",
       "type": "concept",
       "front": "ELT & dbt (staging → marts)",
@@ -227,7 +227,7 @@
       "themeName": "ディメンショナルモデリング（面接頻出）"
     },
     {
-      "n": 239,
+      "n": 424,
       "id": "de-dm-idempotent-merge",
       "type": "concept",
       "front": "Idempotent loads (MERGE / upsert)",

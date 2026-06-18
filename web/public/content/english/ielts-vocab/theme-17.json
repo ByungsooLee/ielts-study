@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 17,
+  "themeId": "theme-17",
+  "themeName": "小惑星の衝突",
+  "version": "abdcaf1a",
+  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "items": [
+    {
+      "n": 331,
+      "id": "w-inevitable",
+      "type": "word",
+      "front": "inevitable",
+      "meaning": "避けられない",
+      "synonyms": [
+        "inescapable",
+        "unavoidable"
+      ],
+      "collocation": "an inevitable outcome, war seems inevitable",
+      "examples": [
+        {
+          "en": "Another asteroid strike is inevitable; rocks routinely come close to Earth."
+        }
+      ],
+      "pron": {
+        "lookup": "inevitable",
+        "tts": "inevitable"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 332,
+      "id": "p-deal-with",
+      "type": "phrase",
+      "front": "deal with",
+      "meaning": "〜に対処する",
+      "synonyms": [
+        "tackle",
+        "handle"
+      ],
+      "collocation": "deal with a problem, deal with a threat",
+      "examples": [
+        {
+          "en": "Only recently have we begun to track their movements, raising the question of how to deal with an enormous asteroid once we pin down its trajectory."
+        }
+      ],
+      "pron": {
+        "tts": "deal with"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 333,
+      "id": "w-crisis",
+      "type": "word",
+      "front": "crisis",
+      "meaning": "危機",
+      "synonyms": [
+        "emergency"
+      ],
+      "collocation": "a crisis situation, avert a crisis",
+      "examples": [
+        {
+          "en": "NASA has two possible solutions. If we detect an incoming asteroid early, we can nudge it away — but the long timescale makes this impractical in a crisis."
+        }
+      ],
+      "pron": {
+        "lookup": "crisis",
+        "tts": "crisis"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 334,
+      "id": "w-drawback",
+      "type": "word",
+      "front": "drawback",
+      "meaning": "欠点",
+      "synonyms": [
+        "disadvantage",
+        "pitfall"
+      ],
+      "collocation": "a major drawback, the main drawback",
+      "examples": [
+        {
+          "en": "The other option is more spectacular: blowing it up with nuclear weapons, though the drawback is that it could break apart into pieces that still hit Earth."
+        }
+      ],
+      "pron": {
+        "lookup": "drawback",
+        "tts": "drawback"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 335,
+      "id": "w-enormous",
+      "type": "word",
+      "front": "enormous",
+      "meaning": "巨大な",
+      "synonyms": [
+        "gigantic",
+        "immense",
+        "massive"
+      ],
+      "collocation": "an enormous size, enormous pressure",
+      "examples": [
+        {
+          "en": "Only recently have we begun to track their movements, raising the question of how to deal with an enormous asteroid once we pin down its trajectory."
+        }
+      ],
+      "pron": {
+        "lookup": "enormous",
+        "tts": "enormous"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 336,
+      "id": "w-track",
+      "type": "word",
+      "front": "track",
+      "meaning": "追跡する・監視する",
+      "synonyms": [
+        "monitor"
+      ],
+      "collocation": "track the movement, track sb down",
+      "examples": [
+        {
+          "en": "Only recently have we begun to track their movements, raising the question of how to deal with an enormous asteroid once we pin down its trajectory."
+        }
+      ],
+      "pron": {
+        "lookup": "track",
+        "tts": "track"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 337,
+      "id": "w-trajectory",
+      "type": "word",
+      "front": "trajectory",
+      "meaning": "軌道・進路",
+      "synonyms": [
+        "path",
+        "course"
+      ],
+      "collocation": "the trajectory of…, on a collision course",
+      "examples": [
+        {
+          "en": "Only recently have we begun to track their movements, raising the question of how to deal with an enormous asteroid once we pin down its trajectory."
+        }
+      ],
+      "pron": {
+        "lookup": "trajectory",
+        "tts": "trajectory"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 338,
+      "id": "w-solution",
+      "type": "word",
+      "front": "solution",
+      "meaning": "解決策",
+      "synonyms": [
+        "answer"
+      ],
+      "collocation": "find a solution, a possible solution",
+      "examples": [
+        {
+          "en": "NASA has two possible solutions. If we detect an incoming asteroid early, we can nudge it away — but the long timescale makes this impractical in a crisis."
+        }
+      ],
+      "pron": {
+        "lookup": "solution",
+        "tts": "solution"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 339,
+      "id": "w-impractical",
+      "type": "word",
+      "front": "impractical",
+      "meaning": "現実的でない・実行困難な",
+      "synonyms": [
+        "unrealistic",
+        "unworkable"
+      ],
+      "collocation": "an impractical idea, prove impractical",
+      "examples": [
+        {
+          "en": "NASA has two possible solutions. If we detect an incoming asteroid early, we can nudge it away — but the long timescale makes this impractical in a crisis."
+        }
+      ],
+      "pron": {
+        "lookup": "impractical",
+        "tts": "impractical"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 340,
+      "id": "w-routinely",
+      "type": "word",
+      "front": "routinely",
+      "meaning": "定期的に・いつも決まって",
+      "synonyms": [
+        "constantly"
+      ],
+      "collocation": "routinely come close, routinely checked",
+      "examples": [
+        {
+          "en": "Another asteroid strike is inevitable; rocks routinely come close to Earth."
+        }
+      ],
+      "pron": {
+        "lookup": "routinely",
+        "tts": "routinely"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 341,
+      "id": "w-incoming",
+      "type": "word",
+      "front": "incoming",
+      "meaning": "入ってくる・到着する",
+      "synonyms": [
+        "approaching"
+      ],
+      "collocation": "an incoming asteroid, incoming data",
+      "examples": [
+        {
+          "en": "NASA has two possible solutions. If we detect an incoming asteroid early, we can nudge it away — but the long timescale makes this impractical in a crisis."
+        }
+      ],
+      "pron": {
+        "lookup": "incoming",
+        "tts": "incoming"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 342,
+      "id": "p-wipe-out",
+      "type": "phrase",
+      "front": "wipe out",
+      "meaning": "絶滅させる",
+      "synonyms": [
+        "decimate",
+        "annihilate",
+        "devastate"
+      ],
+      "pron": {
+        "tts": "wipe out"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 343,
+      "id": "p-hurtle-towards",
+      "type": "phrase",
+      "front": "hurtle towards",
+      "meaning": "突進する",
+      "synonyms": [
+        "rush towards"
+      ],
+      "pron": {
+        "tts": "hurtle towards"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 344,
+      "id": "p-pull-in",
+      "type": "phrase",
+      "front": "pull in",
+      "meaning": "引き寄せる",
+      "synonyms": [
+        "draw in",
+        "attract"
+      ],
+      "pron": {
+        "tts": "pull in"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 345,
+      "id": "w-plummet",
+      "type": "word",
+      "front": "plummet",
+      "meaning": "落ちる",
+      "synonyms": [
+        "plunge"
+      ],
+      "pron": {
+        "lookup": "plummet",
+        "tts": "plummet"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 346,
+      "id": "p-pin-down",
+      "type": "phrase",
+      "front": "pin down",
+      "meaning": "突き止める",
+      "synonyms": [
+        "get a fix on",
+        "pinpoint"
+      ],
+      "examples": [
+        {
+          "en": "Only recently have we begun to track their movements, raising the question of how to deal with an enormous asteroid once we pin down its trajectory."
+        }
+      ],
+      "pron": {
+        "tts": "pin down"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 347,
+      "id": "p-head-towards",
+      "type": "phrase",
+      "front": "head towards",
+      "meaning": "向かって進む",
+      "synonyms": [
+        "be bound for"
+      ],
+      "pron": {
+        "tts": "head towards"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 348,
+      "id": "p-nudge-away",
+      "type": "phrase",
+      "front": "nudge away",
+      "meaning": "押しやる",
+      "synonyms": [
+        "push away"
+      ],
+      "pron": {
+        "tts": "nudge away"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 349,
+      "id": "p-ahead-of-time",
+      "type": "phrase",
+      "front": "ahead of time",
+      "meaning": "事前に",
+      "synonyms": [
+        "beforehand",
+        "in advance"
+      ],
+      "pron": {
+        "tts": "ahead of time"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 350,
+      "id": "p-break-apart",
+      "type": "phrase",
+      "front": "break apart",
+      "meaning": "分裂する",
+      "synonyms": [
+        "come apart",
+        "fragment"
+      ],
+      "pron": {
+        "tts": "break apart"
+      },
+      "tags": [],
+      "theme": 17,
+      "themeName": "小惑星の衝突",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t17",
+    "theme": 17,
+    "themeName": "小惑星の衝突",
+    "jp": "別の小惑星の衝突は避けられない。岩は定期的に地球に接近する。私たちはつい最近その動きを追跡し始めたばかりで、ひとたび軌道を突き止めたら巨大な小惑星にどう対処するかという疑問が生じる。NASAには2つの解決策がある。入ってくる小惑星を早期に検知できれば押しやれるが、長い所要時間のため危機においてこの案は現実的でない。もう一つの選択肢はより目を見張るもので、核兵器で吹き飛ばすことだ。ただし欠点は、なお地球に衝突する破片に分裂しうることだ。",
+    "sentences": [
+      {
+        "en": "Another asteroid strike is inevitable; rocks routinely come close to Earth.",
+        "targets": [
+          {
+            "id": "w-inevitable",
+            "text": "inevitable"
+          },
+          {
+            "id": "w-routinely",
+            "text": "routinely"
+          }
+        ]
+      },
+      {
+        "en": "Only recently have we begun to track their movements, raising the question of how to deal with an enormous asteroid once we pin down its trajectory.",
+        "targets": [
+          {
+            "id": "w-track",
+            "text": "track"
+          },
+          {
+            "id": "p-deal-with",
+            "text": "deal with"
+          },
+          {
+            "id": "w-enormous",
+            "text": "enormous"
+          },
+          {
+            "id": "p-pin-down",
+            "text": "pin down"
+          },
+          {
+            "id": "w-trajectory",
+            "text": "trajectory"
+          }
+        ]
+      },
+      {
+        "en": "NASA has two possible solutions. If we detect an incoming asteroid early, we can nudge it away — but the long timescale makes this impractical in a crisis.",
+        "targets": [
+          {
+            "id": "w-solution",
+            "text": "solutions"
+          },
+          {
+            "id": "w-incoming",
+            "text": "incoming"
+          },
+          {
+            "id": "w-impractical",
+            "text": "impractical"
+          },
+          {
+            "id": "w-crisis",
+            "text": "crisis"
+          }
+        ]
+      },
+      {
+        "en": "The other option is more spectacular: blowing it up with nuclear weapons, though the drawback is that it could break apart into pieces that still hit Earth.",
+        "targets": [
+          {
+            "id": "w-spectacular",
+            "text": "spectacular"
+          },
+          {
+            "id": "w-drawback",
+            "text": "drawback"
+          }
+        ]
+      }
+    ]
+  }
+}
