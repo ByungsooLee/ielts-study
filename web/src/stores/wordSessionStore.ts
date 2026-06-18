@@ -87,7 +87,7 @@ export const useWordSessionStore = create<WordSessionState>((set, get) => ({
     savePrefs(get());
   },
   setThemeFilter: (themeFilter) => {
-    set({ themeFilter, themeRangeMin: null, revealed: false, index: 0, deckKey: String(Date.now()) });
+    set({ themeFilter, revealed: false, index: 0, deckKey: String(Date.now()) });
     savePrefs(get());
   },
   setThemeRange: (range) => {
