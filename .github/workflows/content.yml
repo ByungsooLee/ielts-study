@@ -1,9 +1,6 @@
 name: Push content
 
 on:
-  push:
-    branches: [main]
-    paths: ["sample/ielts-import.json"]
   workflow_dispatch:
 
 concurrency:
