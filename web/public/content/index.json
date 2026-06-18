@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "buildId": "678e537",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
-  "version": "34647aec",
+  "buildId": "1066ae4",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
+  "version": "fe896a41",
   "collections": [
     {
       "id": "ielts-vocab",
@@ -15,147 +15,147 @@
           "themeName": "汎用（文法など）",
           "count": 3,
           "file": "english/ielts-vocab/theme-0.json",
-          "version": "b21d5528"
+          "version": "db0a11ea"
         },
         {
           "theme": 1,
           "themeName": "ポリネシアの入植",
           "count": 20,
           "file": "english/ielts-vocab/theme-1.json",
-          "version": "6fff5b4f"
+          "version": "b05313a6"
         },
         {
           "theme": 2,
           "themeName": "プラスチック",
           "count": 22,
           "file": "english/ielts-vocab/theme-2.json",
-          "version": "384e9320"
+          "version": "9079c257"
         },
         {
           "theme": 3,
           "themeName": "タイタニック",
           "count": 22,
           "file": "english/ielts-vocab/theme-3.json",
-          "version": "107bdf0c"
+          "version": "d855043e"
         },
         {
           "theme": 4,
           "themeName": "アイダホのビーバー",
           "count": 21,
           "file": "english/ielts-vocab/theme-4.json",
-          "version": "14a26d92"
+          "version": "cee3d2df"
         },
         {
           "theme": 5,
           "themeName": "ダンス",
           "count": 19,
           "file": "english/ielts-vocab/theme-5.json",
-          "version": "abe49464"
+          "version": "aa9b0dfc"
         },
         {
           "theme": 6,
           "themeName": "AIによる芸術",
           "count": 19,
           "file": "english/ielts-vocab/theme-6.json",
-          "version": "0ba7a3c2"
+          "version": "b9f6cc4c"
         },
         {
           "theme": 7,
           "themeName": "才能ある子どもの学校",
           "count": 19,
           "file": "english/ielts-vocab/theme-7.json",
-          "version": "421d075f"
+          "version": "bd7dcfd7"
         },
         {
           "theme": 8,
           "themeName": "ハイパーループ",
           "count": 21,
           "file": "english/ielts-vocab/theme-8.json",
-          "version": "45ba80dd"
+          "version": "a1b4d55d"
         },
         {
           "theme": 9,
           "themeName": "マリア・モンテッソーリ",
           "count": 21,
           "file": "english/ielts-vocab/theme-9.json",
-          "version": "1c3ee2a7"
+          "version": "3aa7418e"
         },
         {
           "theme": 10,
           "themeName": "なぜ人はウソをつくのか",
           "count": 19,
           "file": "english/ielts-vocab/theme-10.json",
-          "version": "89ccb28a"
+          "version": "e6d083c8"
         },
         {
           "theme": 11,
           "themeName": "マウンテンゴリラ",
           "count": 22,
           "file": "english/ielts-vocab/theme-11.json",
-          "version": "4d902bcd"
+          "version": "80a20672"
         },
         {
           "theme": 12,
           "themeName": "オリーブの栽培",
           "count": 21,
           "file": "english/ielts-vocab/theme-12.json",
-          "version": "6f9cefb9"
+          "version": "5ca0c803"
         },
         {
           "theme": 13,
           "themeName": "ロボカップ",
           "count": 21,
           "file": "english/ielts-vocab/theme-13.json",
-          "version": "e58c2cf1"
+          "version": "b389479f"
         },
         {
           "theme": 14,
           "themeName": "ニコラ・テスラと「電流戦争」",
           "count": 21,
           "file": "english/ielts-vocab/theme-14.json",
-          "version": "e1dacee7"
+          "version": "60a6fae1"
         },
         {
           "theme": 15,
           "themeName": "ある思考実験（トロッコ問題）",
           "count": 18,
           "file": "english/ielts-vocab/theme-15.json",
-          "version": "2b4815ce"
+          "version": "18a26372"
         },
         {
           "theme": 16,
           "themeName": "火星で暮らす",
           "count": 21,
           "file": "english/ielts-vocab/theme-16.json",
-          "version": "eebc1923"
+          "version": "ea9e217b"
         },
         {
           "theme": 17,
           "themeName": "小惑星の衝突",
           "count": 20,
           "file": "english/ielts-vocab/theme-17.json",
-          "version": "abdcaf1a"
+          "version": "365323b5"
         },
         {
           "theme": 18,
           "themeName": "暗号通貨",
           "count": 21,
           "file": "english/ielts-vocab/theme-18.json",
-          "version": "38893799"
+          "version": "b247d079"
         },
         {
           "theme": 19,
           "themeName": "ポンジスキーム",
           "count": 21,
           "file": "english/ielts-vocab/theme-19.json",
-          "version": "79253dab"
+          "version": "fa3f1acc"
         },
         {
           "theme": 20,
           "themeName": "普遍文法",
           "count": 20,
           "file": "english/ielts-vocab/theme-20.json",
-          "version": "c310d64e"
+          "version": "131d529f"
         }
       ]
     },

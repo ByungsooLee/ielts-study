@@ -7,8 +7,8 @@
   "theme": 7,
   "themeId": "theme-7",
   "themeName": "才能ある子どもの学校",
-  "version": "421d075f",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "bd7dcfd7",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 124,
@@ -37,6 +37,7 @@
         "lookup": "gifted",
         "tts": "gifted"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -73,6 +74,7 @@
         "lookup": "blueprint",
         "tts": "blueprint"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -109,6 +111,7 @@
         "lookup": "progress",
         "tts": "progress"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -145,6 +148,7 @@
         "lookup": "foster",
         "tts": "foster"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -181,6 +185,7 @@
         "lookup": "self-reliance",
         "tts": "self-reliance"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -215,6 +220,7 @@
       "pron": {
         "tts": "compensate for"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -242,6 +248,7 @@
       "pron": {
         "tts": "trial and error"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -271,6 +278,7 @@
         "lookup": "inventiveness",
         "tts": "inventiveness"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -298,6 +306,7 @@
       "pron": {
         "tts": "channel into"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -327,6 +336,7 @@
         "lookup": "grant",
         "tts": "grant"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -354,6 +364,7 @@
       "pron": {
         "tts": "socially disadvantaged"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -382,6 +393,7 @@
       "pron": {
         "tts": "confidence in"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -410,6 +422,7 @@
       "pron": {
         "tts": "rely on"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -437,6 +450,7 @@
       "pron": {
         "tts": "get accustomed to"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -465,6 +479,7 @@
         "lookup": "coddle",
         "tts": "coddle"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],
@@ -491,6 +506,7 @@
       "pron": {
         "tts": "immediate family"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],
@@ -518,6 +534,7 @@
         "lookup": "know-how",
         "tts": "know-how"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],
@@ -545,6 +562,7 @@
         "lookup": "spur",
         "tts": "spur"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],
@@ -571,6 +589,7 @@
       "pron": {
         "tts": "in one's care"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],

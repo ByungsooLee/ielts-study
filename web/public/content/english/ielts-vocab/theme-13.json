@@ -7,8 +7,8 @@
   "theme": 13,
   "themeId": "theme-13",
   "themeName": "ロボカップ",
-  "version": "e58c2cf1",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "b389479f",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 250,
@@ -30,7 +30,10 @@
         "lookup": "formidable",
         "tts": "formidable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -56,7 +59,10 @@
         "lookup": "demanding",
         "tts": "demanding"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -82,7 +88,10 @@
         "lookup": "dynamic",
         "tts": "dynamic"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -108,7 +117,10 @@
         "lookup": "react",
         "tts": "react"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -134,7 +146,10 @@
         "lookup": "viable",
         "tts": "viable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -160,7 +175,10 @@
         "lookup": "breakthrough",
         "tts": "breakthrough"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -187,7 +205,10 @@
         "lookup": "application",
         "tts": "application"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -214,7 +235,10 @@
         "lookup": "showcase",
         "tts": "showcase"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -240,7 +264,10 @@
         "lookup": "state-of-the-art",
         "tts": "state-of-the-art"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -266,7 +293,10 @@
         "lookup": "position",
         "tts": "position"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -292,7 +322,10 @@
       "pron": {
         "tts": "adept at"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -318,7 +351,10 @@
         "lookup": "variable",
         "tts": "variable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -344,7 +380,10 @@
         "lookup": "promising",
         "tts": "promising"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -370,7 +409,10 @@
         "lookup": "awkward",
         "tts": "awkward"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -390,7 +432,10 @@
       "pron": {
         "tts": "little-known outside certain circles"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -411,7 +456,10 @@
         "lookup": "balloon",
         "tts": "balloon"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -430,7 +478,10 @@
       "pron": {
         "tts": "put together"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -450,7 +501,10 @@
         "lookup": "outplay",
         "tts": "outplay"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -470,7 +524,10 @@
         "lookup": "static",
         "tts": "static"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -489,7 +546,10 @@
       "pron": {
         "tts": "long way off"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -508,7 +568,10 @@
       "pron": {
         "tts": "go back to the drawing board"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",

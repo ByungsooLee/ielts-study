@@ -13,6 +13,7 @@ import { MaybePage } from "./pages/MaybePage";
 import { SettingsPage } from "./pages/SettingsPage";
 import { SynonymQuizPage } from "./pages/SynonymQuizPage";
 import { GrammarPage } from "./pages/english/GrammarPage";
+import { PassivePage } from "./pages/english/PassivePage";
 import { WordsPage } from "./pages/english/WordsPage";
 import { EngineeringListPage } from "./pages/engineering/EngineeringListPage";
 import { EngineeringStudyPage } from "./pages/engineering/EngineeringStudyPage";
@@ -81,6 +82,7 @@ export default function App() {
         <Route index element={<Navigate to="words" replace />} />
         <Route path="words" element={<WordsPage />} />
         <Route path="grammar" element={<GrammarPage />} />
+        <Route path="passive" element={<PassivePage />} />
         <Route path="phrases" element={<Navigate to="/english/words" replace />} />
         <Route path="maybe" element={<MaybePage />} />
         <Route path="synonym" element={<SynonymQuizPage />} />

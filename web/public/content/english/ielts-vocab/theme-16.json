@@ -7,8 +7,8 @@
   "theme": 16,
   "themeId": "theme-16",
   "themeName": "火星で暮らす",
-  "version": "eebc1923",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "ea9e217b",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 310,
@@ -30,7 +30,10 @@
         "lookup": "ensure",
         "tts": "ensure"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "S",
@@ -57,7 +60,10 @@
         "lookup": "catastrophe",
         "tts": "catastrophe"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "S",
@@ -83,7 +89,10 @@
         "lookup": "isolation",
         "tts": "isolation"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "S",
@@ -109,7 +118,10 @@
         "lookup": "arise",
         "tts": "arise"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "S",
@@ -136,7 +148,10 @@
         "lookup": "urge",
         "tts": "urge"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -163,7 +178,10 @@
         "lookup": "leading",
         "tts": "leading"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -188,7 +206,10 @@
       "pron": {
         "tts": "call for"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -214,7 +235,10 @@
         "lookup": "unforeseen",
         "tts": "unforeseen"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -241,7 +265,10 @@
         "lookup": "extinction",
         "tts": "extinction"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -268,7 +295,10 @@
         "lookup": "feature",
         "tts": "feature"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -294,7 +324,10 @@
       "pron": {
         "tts": "stand out"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -320,7 +353,10 @@
         "lookup": "robust",
         "tts": "robust"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -345,7 +381,10 @@
       "pron": {
         "tts": "considerable debate over"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -371,7 +410,10 @@
         "lookup": "counter",
         "tts": "counter"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -390,7 +432,10 @@
       "pron": {
         "tts": "long-term existence"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -409,7 +454,10 @@
       "pron": {
         "tts": "render uninhabitable"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -430,7 +478,10 @@
         "lookup": "limb",
         "tts": "limb"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -451,7 +502,10 @@
         "lookup": "counterbalance",
         "tts": "counterbalance"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -471,7 +525,10 @@
         "lookup": "elongate",
         "tts": "elongate"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -492,7 +549,10 @@
         "lookup": "shade",
         "tts": "shade"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -513,7 +573,10 @@
         "lookup": "vision",
         "tts": "vision"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",

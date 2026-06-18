@@ -7,8 +7,8 @@
   "theme": 12,
   "themeId": "theme-12",
   "themeName": "オリーブの栽培",
-  "version": "6f9cefb9",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "5ca0c803",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 229,
@@ -30,7 +30,10 @@
         "lookup": "reduce",
         "tts": "reduce"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "S",
@@ -57,7 +60,10 @@
         "lookup": "extract",
         "tts": "extract"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "S",
@@ -83,7 +89,10 @@
         "lookup": "thrive",
         "tts": "thrive"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "S",
@@ -109,7 +118,10 @@
         "lookup": "harvest",
         "tts": "harvest"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "S",
@@ -136,7 +148,10 @@
         "lookup": "seek",
         "tts": "seek"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -162,7 +177,10 @@
         "lookup": "supplement",
         "tts": "supplement"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -189,7 +207,10 @@
         "lookup": "protracted",
         "tts": "protracted"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -216,7 +237,10 @@
         "lookup": "painstaking",
         "tts": "painstaking"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -243,7 +267,10 @@
         "lookup": "press",
         "tts": "press"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -270,7 +297,10 @@
         "lookup": "airtight",
         "tts": "airtight"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -298,7 +328,10 @@
         "lookup": "spoil",
         "tts": "spoil"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -324,7 +357,10 @@
         "lookup": "inedible",
         "tts": "inedible"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -350,7 +386,10 @@
         "lookup": "moisture",
         "tts": "moisture"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -376,7 +415,10 @@
         "lookup": "arable",
         "tts": "arable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -396,7 +438,10 @@
       "pron": {
         "tts": "defense mechanism"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -415,7 +460,10 @@
       "pron": {
         "tts": "in the wild"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "B",
@@ -434,7 +482,10 @@
       "pron": {
         "tts": "the dawn of"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "B",
@@ -455,7 +506,10 @@
         "lookup": "verdant",
         "tts": "verdant"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -476,7 +530,10 @@
         "lookup": "soak",
         "tts": "soak"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -496,7 +553,10 @@
       "pron": {
         "tts": "the lion's share of"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "B",
@@ -513,7 +573,10 @@
         "lookup": "crop",
         "tts": "crop"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "B",

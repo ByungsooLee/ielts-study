@@ -32,6 +32,7 @@
         "lookup": "depart",
         "tts": "depart"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -68,6 +69,7 @@
         "lookup": "lack",
         "tts": "lack"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -103,6 +105,7 @@
         "lookup": "doubt",
         "tts": "doubt"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -138,6 +141,7 @@
         "lookup": "initially",
         "tts": "initially"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -174,6 +178,7 @@
         "lookup": "deteriorate",
         "tts": "deteriorate"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -209,6 +214,7 @@
         "lookup": "discovery",
         "tts": "discovery"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -243,6 +249,7 @@
       "pron": {
         "tts": "in collaboration with"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -277,6 +284,7 @@
       "pron": {
         "tts": "previous attempt"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -304,6 +312,7 @@
       "pron": {
         "tts": "in hindsight"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -331,6 +340,7 @@
       "pron": {
         "tts": "accounts vary"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -358,6 +368,7 @@
         "lookup": "recover",
         "tts": "recover"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -384,6 +395,7 @@
       "pron": {
         "tts": "the ocean floor"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -411,6 +423,7 @@
         "lookup": "watertight",
         "tts": "watertight"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -437,6 +450,7 @@
       "pron": {
         "tts": "tight timetable"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -464,6 +478,7 @@
         "lookup": "sink",
         "tts": "sink"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -492,6 +507,7 @@
         "lookup": "remains",
         "tts": "remains"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -519,6 +535,7 @@
         "lookup": "site",
         "tts": "site"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -546,6 +563,7 @@
         "lookup": "intact",
         "tts": "intact"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -572,6 +590,7 @@
       "pron": {
         "tts": "split in half"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -595,6 +614,7 @@
       "pron": {
         "tts": "leave exposed"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -622,6 +642,7 @@
         "lookup": "corrode",
         "tts": "corrode"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -648,6 +669,7 @@
       "pron": {
         "tts": "treasure trove"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -683,6 +705,7 @@
         "lookup": "nuisance",
         "tts": "nuisance"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -718,6 +741,7 @@
         "lookup": "construction",
         "tts": "construction"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -754,6 +778,7 @@
         "lookup": "alter",
         "tts": "alter"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -789,6 +814,7 @@
         "lookup": "ideal",
         "tts": "ideal"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -824,6 +850,7 @@
         "lookup": "abundance",
         "tts": "abundance"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -851,6 +878,7 @@
       "pron": {
         "tts": "prove impossible"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -886,6 +914,7 @@
         "lookup": "unique",
         "tts": "unique"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -921,6 +950,7 @@
         "lookup": "surplus",
         "tts": "surplus"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -955,6 +985,7 @@
       "pron": {
         "tts": "encroach on"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -990,6 +1021,7 @@
         "lookup": "instinct",
         "tts": "instinct"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -1017,6 +1049,7 @@
         "lookup": "overpopulated",
         "tts": "overpopulated"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1044,6 +1077,7 @@
         "lookup": "inhabit",
         "tts": "inhabit"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1072,6 +1106,7 @@
         "lookup": "domicile",
         "tts": "domicile"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1099,6 +1134,7 @@
         "lookup": "route",
         "tts": "route"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1125,6 +1161,7 @@
       "pron": {
         "tts": "grow agitated"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1153,8 +1190,10 @@
         "lookup": "strike",
         "tts": "strike"
       },
+      "register": "passive",
       "tags": [
-        "beaver"
+        "beaver",
+        "trolley"
       ],
       "theme": 4,
       "themeName": "アイダホのビーバー",
@@ -1179,6 +1218,7 @@
       "pron": {
         "tts": "trial run"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1206,6 +1246,7 @@
         "lookup": "relocate",
         "tts": "relocate"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1233,6 +1274,7 @@
         "lookup": "predator",
         "tts": "predator"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1260,6 +1302,7 @@
         "lookup": "landscape",
         "tts": "landscape"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1283,6 +1326,7 @@
       "pron": {
         "tts": "make a beeline for"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -1319,6 +1363,7 @@
         "lookup": "stimulate",
         "tts": "stimulate"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1354,6 +1399,7 @@
         "lookup": "uncertainty",
         "tts": "uncertainty"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1389,6 +1435,7 @@
         "lookup": "theory",
         "tts": "theory"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1424,6 +1471,7 @@
         "lookup": "factor",
         "tts": "factor"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1452,6 +1500,7 @@
         "lookup": "straightforward",
         "tts": "straightforward"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1487,6 +1536,7 @@
         "lookup": "generate",
         "tts": "generate"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1522,6 +1572,7 @@
         "lookup": "obvious",
         "tts": "obvious"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1558,6 +1609,7 @@
         "lookup": "predict",
         "tts": "predict"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1586,6 +1638,7 @@
         "lookup": "complicated",
         "tts": "complicated"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1621,6 +1674,7 @@
         "lookup": "intense",
         "tts": "intense"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -1649,8 +1703,10 @@
         "lookup": "spectacular",
         "tts": "spectacular"
       },
+      "register": "active",
       "tags": [
-        "dance"
+        "dance",
+        "asteroid"
       ],
       "theme": 5,
       "themeName": "ダンス",
@@ -1676,6 +1732,7 @@
         "lookup": "coordination",
         "tts": "coordination"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -1704,6 +1761,7 @@
         "lookup": "puzzle",
         "tts": "puzzle"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -1727,6 +1785,7 @@
       "pron": {
         "tts": "mounting evidence"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -1754,6 +1813,7 @@
         "lookup": "pattern",
         "tts": "pattern"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -1781,6 +1841,7 @@
         "lookup": "mirror",
         "tts": "mirror"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -1808,6 +1869,7 @@
         "lookup": "professional",
         "tts": "professional"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -1835,6 +1897,7 @@
         "lookup": "surge",
         "tts": "surge"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -1862,6 +1925,7 @@
         "lookup": "anxious",
         "tts": "anxious"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -1898,6 +1962,7 @@
         "lookup": "perspective",
         "tts": "perspective"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -1933,6 +1998,7 @@
         "lookup": "interpret",
         "tts": "interpret"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -1969,6 +2035,7 @@
         "lookup": "notion",
         "tts": "notion"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2004,6 +2071,7 @@
         "lookup": "scepticism",
         "tts": "scepticism"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2039,6 +2107,7 @@
         "lookup": "credible",
         "tts": "credible"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2075,6 +2144,7 @@
         "lookup": "innovative",
         "tts": "innovative"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2110,6 +2180,7 @@
         "lookup": "value",
         "tts": "value"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2138,6 +2209,7 @@
         "lookup": "priceless",
         "tts": "priceless"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2174,6 +2246,7 @@
         "lookup": "disparity",
         "tts": "disparity"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2209,6 +2282,7 @@
         "lookup": "scarcity",
         "tts": "scarcity"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2237,6 +2311,7 @@
       "pron": {
         "tts": "be made redundant"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2272,6 +2347,7 @@
         "lookup": "automation",
         "tts": "automation"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2299,6 +2375,7 @@
       "pron": {
         "tts": "area of expertise"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2326,6 +2403,7 @@
       "pron": {
         "tts": "pose a problem"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -2352,6 +2430,7 @@
       "pron": {
         "tts": "from scratch"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],
@@ -2380,6 +2459,7 @@
         "lookup": "fool",
         "tts": "fool"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],
@@ -2406,6 +2486,7 @@
       "pron": {
         "tts": "lay person"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],
@@ -2433,6 +2514,7 @@
         "lookup": "haphazard",
         "tts": "haphazard"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],
@@ -2460,6 +2542,7 @@
         "lookup": "refuge",
         "tts": "refuge"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],
@@ -2496,6 +2579,7 @@
         "lookup": "gifted",
         "tts": "gifted"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2532,6 +2616,7 @@
         "lookup": "blueprint",
         "tts": "blueprint"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2568,6 +2653,7 @@
         "lookup": "progress",
         "tts": "progress"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2604,6 +2690,7 @@
         "lookup": "foster",
         "tts": "foster"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2640,6 +2727,7 @@
         "lookup": "self-reliance",
         "tts": "self-reliance"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2674,6 +2762,7 @@
       "pron": {
         "tts": "compensate for"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2701,6 +2790,7 @@
       "pron": {
         "tts": "trial and error"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2730,6 +2820,7 @@
         "lookup": "inventiveness",
         "tts": "inventiveness"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2757,6 +2848,7 @@
       "pron": {
         "tts": "channel into"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2786,6 +2878,7 @@
         "lookup": "grant",
         "tts": "grant"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2813,6 +2906,7 @@
       "pron": {
         "tts": "socially disadvantaged"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2841,6 +2935,7 @@
       "pron": {
         "tts": "confidence in"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2869,6 +2964,7 @@
       "pron": {
         "tts": "rely on"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2896,6 +2992,7 @@
       "pron": {
         "tts": "get accustomed to"
       },
+      "register": "active",
       "tags": [
         "gifted-school"
       ],
@@ -2924,6 +3021,7 @@
         "lookup": "coddle",
         "tts": "coddle"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],
@@ -2950,6 +3048,7 @@
       "pron": {
         "tts": "immediate family"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],
@@ -2977,6 +3076,7 @@
         "lookup": "know-how",
         "tts": "know-how"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],
@@ -3004,6 +3104,7 @@
         "lookup": "spur",
         "tts": "spur"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],
@@ -3030,6 +3131,7 @@
       "pron": {
         "tts": "in one's care"
       },
+      "register": "passive",
       "tags": [
         "gifted-school"
       ],
@@ -3064,6 +3166,7 @@
       "pron": {
         "tts": "overnight success"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3099,6 +3202,7 @@
       "pron": {
         "tts": "invest in"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3128,6 +3232,7 @@
         "lookup": "top-notch",
         "tts": "top-notch"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3163,6 +3268,7 @@
         "lookup": "metropolitan",
         "tts": "metropolitan"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3199,6 +3305,7 @@
         "lookup": "groundbreaking",
         "tts": "groundbreaking"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3227,6 +3334,7 @@
       "pron": {
         "tts": "stumbling block"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3254,6 +3362,7 @@
       "pron": {
         "tts": "cut expenditure"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3282,6 +3391,7 @@
       "pron": {
         "tts": "appetite for"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3317,6 +3427,7 @@
         "lookup": "exorbitant",
         "tts": "exorbitant"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3352,6 +3463,7 @@
         "lookup": "afford",
         "tts": "afford"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3379,6 +3491,7 @@
       "pron": {
         "tts": "the whole picture"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3408,6 +3521,7 @@
       "pron": {
         "tts": "set down"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3436,6 +3550,7 @@
         "lookup": "decelerate",
         "tts": "decelerate"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3463,6 +3578,7 @@
       "pron": {
         "tts": "lengthy delay"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3492,6 +3608,7 @@
         "lookup": "sway",
         "tts": "sway"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3528,6 +3645,7 @@
         "lookup": "authorise",
         "tts": "authorise"
       },
+      "register": "active",
       "tags": [
         "hyperloop"
       ],
@@ -3555,6 +3673,7 @@
       "pron": {
         "tts": "like something from the pages of a novel"
       },
+      "register": "passive",
       "tags": [
         "hyperloop"
       ],
@@ -3579,6 +3698,7 @@
         "lookup": "bankroll",
         "tts": "bankroll"
       },
+      "register": "passive",
       "tags": [
         "hyperloop"
       ],
@@ -3606,6 +3726,7 @@
         "lookup": "zip",
         "tts": "zip"
       },
+      "register": "passive",
       "tags": [
         "hyperloop"
       ],
@@ -3629,6 +3750,7 @@
       "pron": {
         "tts": "place sb in harm's way"
       },
+      "register": "passive",
       "tags": [
         "hyperloop"
       ],
@@ -3655,6 +3777,7 @@
       "pron": {
         "tts": "take a spin"
       },
+      "register": "passive",
       "tags": [
         "hyperloop"
       ],
@@ -3691,6 +3814,7 @@
         "lookup": "struggle",
         "tts": "struggle"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -3727,6 +3851,7 @@
         "lookup": "esteemed",
         "tts": "esteemed"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -3756,6 +3881,7 @@
         "lookup": "approval",
         "tts": "approval"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -3785,6 +3911,7 @@
         "lookup": "sole",
         "tts": "sole"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -3820,6 +3947,7 @@
         "lookup": "persevere",
         "tts": "persevere"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -3849,6 +3977,7 @@
         "lookup": "tenacity",
         "tts": "tenacity"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -3883,6 +4012,7 @@
       "pron": {
         "tts": "come up with"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -3919,6 +4049,7 @@
         "lookup": "innate",
         "tts": "innate"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -3946,6 +4077,7 @@
       "pron": {
         "tts": "radical change"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -3974,6 +4106,7 @@
         "lookup": "force",
         "tts": "force"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -4010,6 +4143,7 @@
         "lookup": "emphasise",
         "tts": "emphasise"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -4046,6 +4180,7 @@
         "lookup": "adopt",
         "tts": "adopt"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -4080,6 +4215,7 @@
       "pron": {
         "tts": "advocate of"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -4116,6 +4252,7 @@
         "lookup": "subsequent",
         "tts": "subsequent"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -4144,6 +4281,7 @@
         "lookup": "icon",
         "tts": "icon"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -4170,6 +4308,7 @@
       "pron": {
         "tts": "challenge convention"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -4197,6 +4336,7 @@
         "lookup": "backlash",
         "tts": "backlash"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -4225,6 +4365,7 @@
         "lookup": "prodigious",
         "tts": "prodigious"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -4252,6 +4393,7 @@
         "lookup": "replicate",
         "tts": "replicate"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -4278,6 +4420,7 @@
       "pron": {
         "tts": "receive recognition"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -4301,6 +4444,7 @@
       "pron": {
         "tts": "far and wide"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -4337,6 +4481,7 @@
         "lookup": "troubling",
         "tts": "troubling"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4373,6 +4518,7 @@
         "lookup": "indication",
         "tts": "indication"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4409,6 +4555,7 @@
         "lookup": "sophisticated",
         "tts": "sophisticated"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4438,6 +4585,7 @@
         "lookup": "deceitful",
         "tts": "deceitful"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4466,6 +4614,7 @@
         "lookup": "linguistic",
         "tts": "linguistic"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4502,6 +4651,7 @@
         "lookup": "manipulate",
         "tts": "manipulate"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4537,6 +4687,7 @@
         "lookup": "trait",
         "tts": "trait"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4565,6 +4716,7 @@
         "lookup": "inflate",
         "tts": "inflate"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4594,6 +4746,7 @@
         "lookup": "standing",
         "tts": "standing"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4623,6 +4776,7 @@
         "lookup": "appease",
         "tts": "appease"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4659,6 +4813,7 @@
         "lookup": "tension",
         "tts": "tension"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4695,6 +4850,7 @@
         "lookup": "milestone",
         "tts": "milestone"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4723,6 +4879,7 @@
       "pron": {
         "tts": "delve into"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4753,6 +4910,7 @@
         "lookup": "mask",
         "tts": "mask"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4788,6 +4946,7 @@
         "lookup": "maturity",
         "tts": "maturity"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -4815,6 +4974,7 @@
         "lookup": "cognition",
         "tts": "cognition"
       },
+      "register": "passive",
       "tags": [
         "lying"
       ],
@@ -4841,6 +5001,7 @@
       "pron": {
         "tts": "on track"
       },
+      "register": "passive",
       "tags": [
         "lying"
       ],
@@ -4868,6 +5029,7 @@
         "lookup": "revealing",
         "tts": "revealing"
       },
+      "register": "passive",
       "tags": [
         "lying"
       ],
@@ -4894,6 +5056,7 @@
       "pron": {
         "tts": "sudden leap"
       },
+      "register": "passive",
       "tags": [
         "lying"
       ],
@@ -4921,6 +5084,7 @@
       "tags": [
         "grammar"
       ],
+      "register": "active",
       "domain": "english",
       "collection": "ielts-vocab"
     },
@@ -4942,6 +5106,7 @@
       "tags": [
         "grammar"
       ],
+      "register": "active",
       "domain": "english",
       "collection": "ielts-vocab"
     },
@@ -4963,6 +5128,7 @@
       "tags": [
         "grammar"
       ],
+      "register": "active",
       "domain": "english",
       "collection": "ielts-vocab"
     }

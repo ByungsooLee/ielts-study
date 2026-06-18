@@ -7,8 +7,8 @@
   "theme": 1,
   "themeId": "theme-1",
   "themeName": "ポリネシアの入植",
-  "version": "6fff5b4f",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "b05313a6",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 1,
@@ -37,6 +37,7 @@
         "lookup": "concern",
         "tts": "concern"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -72,6 +73,7 @@
         "lookup": "settle",
         "tts": "settle"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -107,6 +109,7 @@
         "lookup": "available",
         "tts": "available"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -142,6 +145,7 @@
         "lookup": "construct",
         "tts": "construct"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -177,6 +181,7 @@
         "lookup": "favourable",
         "tts": "favourable"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -205,6 +210,7 @@
         "lookup": "resolve",
         "tts": "resolve"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -240,6 +246,7 @@
         "lookup": "source",
         "tts": "source"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -275,6 +282,7 @@
         "lookup": "navigate",
         "tts": "navigate"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -310,6 +318,7 @@
         "lookup": "discover",
         "tts": "discover"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -345,6 +354,7 @@
         "lookup": "primitive",
         "tts": "primitive"
       },
+      "register": "active",
       "tags": [
         "polynesia"
       ],
@@ -369,6 +379,7 @@
         "lookup": "dog",
         "tts": "dog"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],
@@ -400,6 +411,7 @@
         "lookup": "pioneer",
         "tts": "pioneer"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],
@@ -435,6 +447,7 @@
         "lookup": "seafarer",
         "tts": "seafarer"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],
@@ -469,6 +482,7 @@
         "lookup": "ancient",
         "tts": "ancient"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],
@@ -503,6 +517,7 @@
         "lookup": "voyage",
         "tts": "voyage"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],
@@ -537,6 +552,7 @@
         "lookup": "dub",
         "tts": "dub"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],
@@ -561,6 +577,7 @@
         "lookup": "auspicious",
         "tts": "auspicious"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],
@@ -591,6 +608,7 @@
       "pron": {
         "tts": "find one's bearings"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],
@@ -614,6 +632,7 @@
       "pron": {
         "tts": "follow in one's footsteps"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],
@@ -637,6 +656,7 @@
       "pron": {
         "tts": "on hand"
       },
+      "register": "passive",
       "tags": [
         "polynesia"
       ],

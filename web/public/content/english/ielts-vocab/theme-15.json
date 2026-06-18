@@ -7,8 +7,8 @@
   "theme": 15,
   "themeId": "theme-15",
   "themeName": "ある思考実験（トロッコ問題）",
-  "version": "2b4815ce",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "18a26372",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 292,
@@ -30,7 +30,10 @@
         "lookup": "ethical",
         "tts": "ethical"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -57,7 +60,10 @@
         "lookup": "obligation",
         "tts": "obligation"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -83,7 +89,10 @@
         "lookup": "dilemma",
         "tts": "dilemma"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -109,7 +118,10 @@
         "lookup": "survive",
         "tts": "survive"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -137,7 +149,10 @@
         "lookup": "mitigate",
         "tts": "mitigate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -164,7 +179,10 @@
         "lookup": "accountable",
         "tts": "accountable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -191,7 +209,10 @@
         "lookup": "divert",
         "tts": "divert"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -217,7 +238,10 @@
         "lookup": "reluctant",
         "tts": "reluctant"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -244,7 +268,10 @@
         "lookup": "option",
         "tts": "option"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -271,7 +298,10 @@
         "lookup": "ramification",
         "tts": "ramification"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -298,7 +328,10 @@
         "lookup": "endanger",
         "tts": "endanger"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -324,7 +357,10 @@
         "lookup": "unable",
         "tts": "unable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -344,7 +380,10 @@
         "lookup": "runaway",
         "tts": "runaway"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -364,7 +403,10 @@
       "pron": {
         "tts": "barrel towards"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",
@@ -383,7 +425,10 @@
       "pron": {
         "tts": "flight of fancy"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",
@@ -403,7 +448,10 @@
         "lookup": "freely",
         "tts": "freely"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",
@@ -423,7 +471,10 @@
       "pron": {
         "tts": "hard-wired into"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",
@@ -442,7 +493,10 @@
       "pron": {
         "tts": "in conflict with"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",

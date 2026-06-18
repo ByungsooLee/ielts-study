@@ -7,8 +7,8 @@
   "theme": 14,
   "themeId": "theme-14",
   "themeName": "ニコラ・テスラと「電流戦争」",
-  "version": "e1dacee7",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "60a6fae1",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 271,
@@ -29,7 +29,10 @@
         "lookup": "prove",
         "tts": "prove"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -56,7 +59,10 @@
         "lookup": "merit",
         "tts": "merit"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -83,7 +89,10 @@
         "lookup": "establish",
         "tts": "establish"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -110,7 +119,10 @@
         "lookup": "reconsider",
         "tts": "reconsider"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -136,7 +148,10 @@
         "lookup": "accomplishment",
         "tts": "accomplishment"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -162,7 +177,10 @@
         "lookup": "revamp",
         "tts": "revamp"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -189,7 +207,10 @@
         "lookup": "despise",
         "tts": "despise"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -216,7 +237,10 @@
         "lookup": "rival",
         "tts": "rival"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -242,7 +266,10 @@
         "lookup": "outline",
         "tts": "outline"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -269,7 +296,10 @@
         "lookup": "dumbfounded",
         "tts": "dumbfounded"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -296,7 +326,10 @@
         "lookup": "capital",
         "tts": "capital"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -324,7 +357,10 @@
         "lookup": "penniless",
         "tts": "penniless"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -350,7 +386,10 @@
         "lookup": "archetype",
         "tts": "archetype"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -370,7 +409,10 @@
       "pron": {
         "tts": "set one's sights on"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -390,7 +432,10 @@
       "pron": {
         "tts": "cool towards"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -411,7 +456,10 @@
         "lookup": "glow",
         "tts": "glow"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -431,7 +479,10 @@
         "lookup": "upstage",
         "tts": "upstage"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -451,7 +502,10 @@
         "lookup": "outrageous",
         "tts": "outrageous"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -471,7 +525,10 @@
       "pron": {
         "tts": "win the day"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -491,7 +548,10 @@
         "lookup": "harness",
         "tts": "harness"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -511,7 +571,10 @@
       "pron": {
         "tts": "come to nothing"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",

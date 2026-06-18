@@ -7,8 +7,8 @@
   "theme": 10,
   "themeId": "theme-10",
   "themeName": "なぜ人はウソをつくのか",
-  "version": "89ccb28a",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "e6d083c8",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 185,
@@ -37,6 +37,7 @@
         "lookup": "troubling",
         "tts": "troubling"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -73,6 +74,7 @@
         "lookup": "indication",
         "tts": "indication"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -109,6 +111,7 @@
         "lookup": "sophisticated",
         "tts": "sophisticated"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -138,6 +141,7 @@
         "lookup": "deceitful",
         "tts": "deceitful"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -166,6 +170,7 @@
         "lookup": "linguistic",
         "tts": "linguistic"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -202,6 +207,7 @@
         "lookup": "manipulate",
         "tts": "manipulate"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -237,6 +243,7 @@
         "lookup": "trait",
         "tts": "trait"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -265,6 +272,7 @@
         "lookup": "inflate",
         "tts": "inflate"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -294,6 +302,7 @@
         "lookup": "standing",
         "tts": "standing"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -323,6 +332,7 @@
         "lookup": "appease",
         "tts": "appease"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -359,6 +369,7 @@
         "lookup": "tension",
         "tts": "tension"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -395,6 +406,7 @@
         "lookup": "milestone",
         "tts": "milestone"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -423,6 +435,7 @@
       "pron": {
         "tts": "delve into"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -453,6 +466,7 @@
         "lookup": "mask",
         "tts": "mask"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -488,6 +502,7 @@
         "lookup": "maturity",
         "tts": "maturity"
       },
+      "register": "active",
       "tags": [
         "lying"
       ],
@@ -515,6 +530,7 @@
         "lookup": "cognition",
         "tts": "cognition"
       },
+      "register": "passive",
       "tags": [
         "lying"
       ],
@@ -541,6 +557,7 @@
       "pron": {
         "tts": "on track"
       },
+      "register": "passive",
       "tags": [
         "lying"
       ],
@@ -568,6 +585,7 @@
         "lookup": "revealing",
         "tts": "revealing"
       },
+      "register": "passive",
       "tags": [
         "lying"
       ],
@@ -594,6 +612,7 @@
       "pron": {
         "tts": "sudden leap"
       },
+      "register": "passive",
       "tags": [
         "lying"
       ],

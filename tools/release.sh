@@ -15,7 +15,27 @@
 set -euo pipefail
 
 APP="/Users/lee/Documents/ielts-study"
+IELTS="${IELTS_SRC:-/Users/lee/Claude/Projects/IELTS}"
 cd "$APP"
+
+# 0) IELTS（Cowork 編集フォルダ）から最新教材を content-src に取り込み。
+#    フォルダが存在し各ファイルが新しければ上書きコピー。
+#    number-ledger.json は repo 側に grammar/engineering の n が追記されているため、
+#    そのまま上書きするとそれらの番号が消える。md2json.js が自動で追記する設計なので
+#    repo 側のレッジを優先し、ここではコピーしない。
+echo "▶ 0) IELTS フォルダから content-src へ最新教材を取り込み"
+if [ -d "$IELTS" ]; then
+  for f in "単語マスターリスト.md" "ielts-vocab-data.js"; do
+    if [ -f "$IELTS/$f" ]; then
+      cp "$IELTS/$f" "$APP/content-src/$f"
+      echo "   ✓ $f"
+    else
+      echo "   ⚠ $IELTS/$f が見つかりません（スキップ）"
+    fi
+  done
+else
+  echo "   ⚠ IELTS フォルダが見つかりません: $IELTS（スキップ）"
+fi
 
 echo "▶ 1) 教材JSONを再生成（content-src → web/public/content + sample + index）"
 npm run content:build

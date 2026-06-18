@@ -25,7 +25,10 @@
         "lookup": "monitor",
         "tts": "monitor"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -52,7 +55,10 @@
         "lookup": "rigid",
         "tts": "rigid"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -79,7 +85,10 @@
         "lookup": "structure",
         "tts": "structure"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -105,7 +114,10 @@
         "lookup": "dominance",
         "tts": "dominance"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -132,7 +144,10 @@
         "lookup": "distinctive",
         "tts": "distinctive"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -159,7 +174,10 @@
         "lookup": "peril",
         "tts": "peril"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -185,7 +203,10 @@
         "lookup": "scramble",
         "tts": "scramble"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -212,7 +233,10 @@
         "lookup": "successive",
         "tts": "successive"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -238,7 +262,10 @@
       "pron": {
         "tts": "tend to"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -264,7 +291,10 @@
         "lookup": "immature",
         "tts": "immature"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -291,7 +321,10 @@
         "lookup": "shun",
         "tts": "shun"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -317,7 +350,10 @@
       "pron": {
         "tts": "consider as"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -343,7 +379,10 @@
       "pron": {
         "tts": "segment into"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -364,7 +403,10 @@
         "lookup": "trek",
         "tts": "trek"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -383,7 +425,10 @@
       "pron": {
         "tts": "natural habitat"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -404,7 +449,10 @@
         "lookup": "direction",
         "tts": "direction"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -424,7 +472,10 @@
       "pron": {
         "tts": "guard from harm"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -443,7 +494,10 @@
       "pron": {
         "tts": "have young"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -467,7 +521,10 @@
       "pron": {
         "tts": "subordinate to"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -487,7 +544,10 @@
         "lookup": "foliage",
         "tts": "foliage"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -507,7 +567,10 @@
         "lookup": "hierarchy",
         "tts": "hierarchy"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -526,7 +589,10 @@
       "pron": {
         "tts": "face a choice"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -553,7 +619,10 @@
         "lookup": "reduce",
         "tts": "reduce"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "S",
@@ -580,7 +649,10 @@
         "lookup": "extract",
         "tts": "extract"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "S",
@@ -606,7 +678,10 @@
         "lookup": "thrive",
         "tts": "thrive"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "S",
@@ -632,7 +707,10 @@
         "lookup": "harvest",
         "tts": "harvest"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "S",
@@ -659,7 +737,10 @@
         "lookup": "seek",
         "tts": "seek"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -685,7 +766,10 @@
         "lookup": "supplement",
         "tts": "supplement"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -712,7 +796,10 @@
         "lookup": "protracted",
         "tts": "protracted"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -739,7 +826,10 @@
         "lookup": "painstaking",
         "tts": "painstaking"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -766,7 +856,10 @@
         "lookup": "press",
         "tts": "press"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -793,7 +886,10 @@
         "lookup": "airtight",
         "tts": "airtight"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -821,7 +917,10 @@
         "lookup": "spoil",
         "tts": "spoil"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -847,7 +946,10 @@
         "lookup": "inedible",
         "tts": "inedible"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -873,7 +975,10 @@
         "lookup": "moisture",
         "tts": "moisture"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -899,7 +1004,10 @@
         "lookup": "arable",
         "tts": "arable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -919,7 +1027,10 @@
       "pron": {
         "tts": "defense mechanism"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -938,7 +1049,10 @@
       "pron": {
         "tts": "in the wild"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "B",
@@ -957,7 +1071,10 @@
       "pron": {
         "tts": "the dawn of"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "B",
@@ -978,7 +1095,10 @@
         "lookup": "verdant",
         "tts": "verdant"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -999,7 +1119,10 @@
         "lookup": "soak",
         "tts": "soak"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "A",
@@ -1019,7 +1142,10 @@
       "pron": {
         "tts": "the lion's share of"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "B",
@@ -1036,7 +1162,10 @@
         "lookup": "crop",
         "tts": "crop"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "olive"
+      ],
       "theme": 12,
       "themeName": "オリーブの栽培",
       "priority": "B",
@@ -1063,7 +1192,10 @@
         "lookup": "formidable",
         "tts": "formidable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -1089,7 +1221,10 @@
         "lookup": "demanding",
         "tts": "demanding"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -1115,7 +1250,10 @@
         "lookup": "dynamic",
         "tts": "dynamic"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -1141,7 +1279,10 @@
         "lookup": "react",
         "tts": "react"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -1167,7 +1308,10 @@
         "lookup": "viable",
         "tts": "viable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -1193,7 +1337,10 @@
         "lookup": "breakthrough",
         "tts": "breakthrough"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -1220,7 +1367,10 @@
         "lookup": "application",
         "tts": "application"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "S",
@@ -1247,7 +1397,10 @@
         "lookup": "showcase",
         "tts": "showcase"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -1273,7 +1426,10 @@
         "lookup": "state-of-the-art",
         "tts": "state-of-the-art"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -1299,7 +1455,10 @@
         "lookup": "position",
         "tts": "position"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -1325,7 +1484,10 @@
       "pron": {
         "tts": "adept at"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -1351,7 +1513,10 @@
         "lookup": "variable",
         "tts": "variable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -1377,7 +1542,10 @@
         "lookup": "promising",
         "tts": "promising"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -1403,7 +1571,10 @@
         "lookup": "awkward",
         "tts": "awkward"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "A",
@@ -1423,7 +1594,10 @@
       "pron": {
         "tts": "little-known outside certain circles"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -1444,7 +1618,10 @@
         "lookup": "balloon",
         "tts": "balloon"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -1463,7 +1640,10 @@
       "pron": {
         "tts": "put together"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -1483,7 +1663,10 @@
         "lookup": "outplay",
         "tts": "outplay"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -1503,7 +1686,10 @@
         "lookup": "static",
         "tts": "static"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -1522,7 +1708,10 @@
       "pron": {
         "tts": "long way off"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -1541,7 +1730,10 @@
       "pron": {
         "tts": "go back to the drawing board"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "robocup"
+      ],
       "theme": 13,
       "themeName": "ロボカップ",
       "priority": "B",
@@ -1567,7 +1759,10 @@
         "lookup": "prove",
         "tts": "prove"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -1594,7 +1789,10 @@
         "lookup": "merit",
         "tts": "merit"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -1621,7 +1819,10 @@
         "lookup": "establish",
         "tts": "establish"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -1648,7 +1849,10 @@
         "lookup": "reconsider",
         "tts": "reconsider"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -1674,7 +1878,10 @@
         "lookup": "accomplishment",
         "tts": "accomplishment"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "S",
@@ -1700,7 +1907,10 @@
         "lookup": "revamp",
         "tts": "revamp"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -1727,7 +1937,10 @@
         "lookup": "despise",
         "tts": "despise"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -1754,7 +1967,10 @@
         "lookup": "rival",
         "tts": "rival"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -1780,7 +1996,10 @@
         "lookup": "outline",
         "tts": "outline"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -1807,7 +2026,10 @@
         "lookup": "dumbfounded",
         "tts": "dumbfounded"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -1834,7 +2056,10 @@
         "lookup": "capital",
         "tts": "capital"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -1862,7 +2087,10 @@
         "lookup": "penniless",
         "tts": "penniless"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -1888,7 +2116,10 @@
         "lookup": "archetype",
         "tts": "archetype"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "A",
@@ -1908,7 +2139,10 @@
       "pron": {
         "tts": "set one's sights on"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -1928,7 +2162,10 @@
       "pron": {
         "tts": "cool towards"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -1949,7 +2186,10 @@
         "lookup": "glow",
         "tts": "glow"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -1969,7 +2209,10 @@
         "lookup": "upstage",
         "tts": "upstage"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -1989,7 +2232,10 @@
         "lookup": "outrageous",
         "tts": "outrageous"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -2009,7 +2255,10 @@
       "pron": {
         "tts": "win the day"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -2029,7 +2278,10 @@
         "lookup": "harness",
         "tts": "harness"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -2049,7 +2301,10 @@
       "pron": {
         "tts": "come to nothing"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "tesla"
+      ],
       "theme": 14,
       "themeName": "ニコラ・テスラと「電流戦争」",
       "priority": "B",
@@ -2076,7 +2331,10 @@
         "lookup": "ethical",
         "tts": "ethical"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -2103,7 +2361,10 @@
         "lookup": "obligation",
         "tts": "obligation"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -2129,7 +2390,10 @@
         "lookup": "dilemma",
         "tts": "dilemma"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -2155,7 +2419,10 @@
         "lookup": "survive",
         "tts": "survive"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -2183,7 +2450,10 @@
         "lookup": "mitigate",
         "tts": "mitigate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "S",
@@ -2210,7 +2480,10 @@
         "lookup": "accountable",
         "tts": "accountable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -2237,7 +2510,10 @@
         "lookup": "divert",
         "tts": "divert"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -2263,7 +2539,10 @@
         "lookup": "reluctant",
         "tts": "reluctant"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -2290,7 +2569,10 @@
         "lookup": "option",
         "tts": "option"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -2317,7 +2599,10 @@
         "lookup": "ramification",
         "tts": "ramification"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -2344,7 +2629,10 @@
         "lookup": "endanger",
         "tts": "endanger"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -2370,7 +2658,10 @@
         "lookup": "unable",
         "tts": "unable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -2390,7 +2681,10 @@
         "lookup": "runaway",
         "tts": "runaway"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "A",
@@ -2410,7 +2704,10 @@
       "pron": {
         "tts": "barrel towards"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",
@@ -2429,7 +2726,10 @@
       "pron": {
         "tts": "flight of fancy"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",
@@ -2449,7 +2749,10 @@
         "lookup": "freely",
         "tts": "freely"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",
@@ -2469,7 +2772,10 @@
       "pron": {
         "tts": "hard-wired into"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",
@@ -2488,7 +2794,10 @@
       "pron": {
         "tts": "in conflict with"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "trolley"
+      ],
       "theme": 15,
       "themeName": "ある思考実験（トロッコ問題）",
       "priority": "B",
@@ -2515,7 +2824,10 @@
         "lookup": "ensure",
         "tts": "ensure"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "S",
@@ -2542,7 +2854,10 @@
         "lookup": "catastrophe",
         "tts": "catastrophe"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "S",
@@ -2568,7 +2883,10 @@
         "lookup": "isolation",
         "tts": "isolation"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "S",
@@ -2594,7 +2912,10 @@
         "lookup": "arise",
         "tts": "arise"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "S",
@@ -2621,7 +2942,10 @@
         "lookup": "urge",
         "tts": "urge"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2648,7 +2972,10 @@
         "lookup": "leading",
         "tts": "leading"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2673,7 +3000,10 @@
       "pron": {
         "tts": "call for"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2699,7 +3029,10 @@
         "lookup": "unforeseen",
         "tts": "unforeseen"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2726,7 +3059,10 @@
         "lookup": "extinction",
         "tts": "extinction"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2753,7 +3089,10 @@
         "lookup": "feature",
         "tts": "feature"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2779,7 +3118,10 @@
       "pron": {
         "tts": "stand out"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2805,7 +3147,10 @@
         "lookup": "robust",
         "tts": "robust"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2830,7 +3175,10 @@
       "pron": {
         "tts": "considerable debate over"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2856,7 +3204,10 @@
         "lookup": "counter",
         "tts": "counter"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2875,7 +3226,10 @@
       "pron": {
         "tts": "long-term existence"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -2894,7 +3248,10 @@
       "pron": {
         "tts": "render uninhabitable"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -2915,7 +3272,10 @@
         "lookup": "limb",
         "tts": "limb"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -2936,7 +3296,10 @@
         "lookup": "counterbalance",
         "tts": "counterbalance"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -2956,7 +3319,10 @@
         "lookup": "elongate",
         "tts": "elongate"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -2977,7 +3343,10 @@
         "lookup": "shade",
         "tts": "shade"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "B",
@@ -2998,7 +3367,10 @@
         "lookup": "vision",
         "tts": "vision"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "mars"
+      ],
       "theme": 16,
       "themeName": "火星で暮らす",
       "priority": "A",
@@ -3025,7 +3397,10 @@
         "lookup": "inevitable",
         "tts": "inevitable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "S",
@@ -3051,7 +3426,10 @@
       "pron": {
         "tts": "deal with"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "S",
@@ -3077,7 +3455,10 @@
         "lookup": "crisis",
         "tts": "crisis"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "S",
@@ -3104,7 +3485,10 @@
         "lookup": "drawback",
         "tts": "drawback"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "S",
@@ -3132,7 +3516,10 @@
         "lookup": "enormous",
         "tts": "enormous"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3158,7 +3545,10 @@
         "lookup": "track",
         "tts": "track"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3185,7 +3575,10 @@
         "lookup": "trajectory",
         "tts": "trajectory"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3211,7 +3604,10 @@
         "lookup": "solution",
         "tts": "solution"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3238,7 +3634,10 @@
         "lookup": "impractical",
         "tts": "impractical"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3264,7 +3663,10 @@
         "lookup": "routinely",
         "tts": "routinely"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3290,7 +3692,10 @@
         "lookup": "incoming",
         "tts": "incoming"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3311,7 +3716,10 @@
       "pron": {
         "tts": "wipe out"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3330,7 +3738,10 @@
       "pron": {
         "tts": "hurtle towards"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3350,7 +3761,10 @@
       "pron": {
         "tts": "pull in"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",
@@ -3370,7 +3784,10 @@
         "lookup": "plummet",
         "tts": "plummet"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3395,7 +3812,10 @@
       "pron": {
         "tts": "pin down"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",
@@ -3414,7 +3834,10 @@
       "pron": {
         "tts": "head towards"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",
@@ -3433,7 +3856,10 @@
       "pron": {
         "tts": "nudge away"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -3453,7 +3879,10 @@
       "pron": {
         "tts": "ahead of time"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",
@@ -3473,7 +3902,10 @@
       "pron": {
         "tts": "break apart"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",
@@ -3500,7 +3932,10 @@
         "lookup": "exchange",
         "tts": "exchange"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "S",
@@ -3527,7 +3962,10 @@
         "lookup": "benefit",
         "tts": "benefit"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "S",
@@ -3553,7 +3991,10 @@
         "lookup": "transaction",
         "tts": "transaction"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "S",
@@ -3580,7 +4021,10 @@
         "lookup": "cautious",
         "tts": "cautious"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "S",
@@ -3607,7 +4051,10 @@
         "lookup": "appear",
         "tts": "appear"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3634,7 +4081,10 @@
         "lookup": "novel",
         "tts": "novel"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3661,7 +4111,10 @@
         "lookup": "create",
         "tts": "create"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3687,7 +4140,10 @@
         "lookup": "record",
         "tts": "record"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3713,7 +4169,10 @@
         "lookup": "invulnerable",
         "tts": "invulnerable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3740,7 +4199,10 @@
         "lookup": "middleman",
         "tts": "middleman"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3767,7 +4229,10 @@
         "lookup": "transmit",
         "tts": "transmit"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3794,7 +4259,10 @@
         "lookup": "fluctuate",
         "tts": "fluctuate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3820,7 +4288,10 @@
         "lookup": "anonymity",
         "tts": "anonymity"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3846,7 +4317,10 @@
         "lookup": "marketplace",
         "tts": "marketplace"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3873,7 +4347,10 @@
         "lookup": "disappear",
         "tts": "disappear"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3900,7 +4377,10 @@
         "lookup": "label",
         "tts": "label"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3927,7 +4407,10 @@
         "lookup": "newcomer",
         "tts": "newcomer"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -3947,7 +4430,10 @@
       "pron": {
         "tts": "far from certain"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "B",
@@ -3968,7 +4454,10 @@
         "lookup": "acclaim",
         "tts": "acclaim"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "B",
@@ -3988,7 +4477,10 @@
         "lookup": "exist",
         "tts": "exist"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "B",
@@ -4009,7 +4501,10 @@
       "pron": {
         "tts": "cut out"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "B",
@@ -4037,7 +4532,10 @@
         "lookup": "legitimate",
         "tts": "legitimate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -4064,7 +4562,10 @@
         "lookup": "collapse",
         "tts": "collapse"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -4091,7 +4592,10 @@
         "lookup": "assure",
         "tts": "assure"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4117,7 +4621,10 @@
         "lookup": "community",
         "tts": "community"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4145,7 +4652,10 @@
         "lookup": "scam",
         "tts": "scam"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4171,7 +4681,10 @@
         "lookup": "suspicion",
         "tts": "suspicion"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -4197,7 +4710,10 @@
         "lookup": "inaccurate",
         "tts": "inaccurate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -4224,7 +4740,10 @@
         "lookup": "calculate",
         "tts": "calculate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4251,7 +4770,10 @@
         "lookup": "inconceivable",
         "tts": "inconceivable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4278,7 +4800,10 @@
         "lookup": "inquiry",
         "tts": "inquiry"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4305,7 +4830,10 @@
         "lookup": "endure",
         "tts": "endure"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -4333,7 +4861,10 @@
         "lookup": "trustworthy",
         "tts": "trustworthy"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -4360,7 +4891,10 @@
         "lookup": "infamous",
         "tts": "infamous"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4387,7 +4921,10 @@
         "lookup": "wealth",
         "tts": "wealth"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4414,7 +4951,10 @@
         "lookup": "enthusiasm",
         "tts": "enthusiasm"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4440,7 +4980,10 @@
         "lookup": "dividend",
         "tts": "dividend"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -4460,7 +5003,10 @@
       "pron": {
         "tts": "be associated with"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",
@@ -4480,7 +5026,10 @@
       "pron": {
         "tts": "sweep through"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",
@@ -4499,7 +5048,10 @@
       "pron": {
         "tts": "get left behind"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",
@@ -4519,7 +5071,10 @@
       "pron": {
         "tts": "rake in"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",
@@ -4539,7 +5094,10 @@
       "pron": {
         "tts": "in the latest fashion"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",
@@ -4567,7 +5125,10 @@
         "lookup": "competing",
         "tts": "competing"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -4594,7 +5155,10 @@
         "lookup": "ability",
         "tts": "ability"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -4620,7 +5184,10 @@
         "lookup": "approach",
         "tts": "approach"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -4646,7 +5213,10 @@
         "lookup": "profound",
         "tts": "profound"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -4673,7 +5243,10 @@
         "lookup": "systematic",
         "tts": "systematic"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -4700,7 +5273,10 @@
         "lookup": "emerge",
         "tts": "emerge"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -4727,7 +5303,10 @@
         "lookup": "fundamental",
         "tts": "fundamental"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -4754,7 +5333,10 @@
         "lookup": "develop",
         "tts": "develop"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -4780,7 +5362,10 @@
         "lookup": "repetition",
         "tts": "repetition"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -4807,7 +5392,10 @@
         "lookup": "common",
         "tts": "common"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -4835,7 +5423,10 @@
         "lookup": "renowned",
         "tts": "renowned"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -4860,7 +5451,10 @@
       "pron": {
         "tts": "differentiate between"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -4886,7 +5480,10 @@
       "pron": {
         "tts": "draw on"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -4913,7 +5510,10 @@
         "lookup": "speculate",
         "tts": "speculate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -4939,7 +5539,10 @@
         "lookup": "contemporary",
         "tts": "contemporary"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -4960,7 +5563,10 @@
         "lookup": "propound",
         "tts": "propound"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "B",
@@ -4981,7 +5587,10 @@
       "pron": {
         "tts": "put paid to"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "B",
@@ -5001,7 +5610,10 @@
         "lookup": "opine",
         "tts": "opine"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "B",
@@ -5021,7 +5633,10 @@
         "lookup": "civilisation",
         "tts": "civilisation"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -5041,7 +5656,10 @@
         "lookup": "usage",
         "tts": "usage"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",

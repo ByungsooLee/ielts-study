@@ -115,6 +115,8 @@ export interface StudyItem {
   theme?: number;
   themeName?: string;
   priority?: "S" | "A" | "B";
+  /** 認識用(passive)か産出用(active)か。Passive一覧の対象判定に使う。 */
+  register?: "active" | "passive";
   links?: string[];
   note?: string;
   explain?: ConceptExplain;

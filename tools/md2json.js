@@ -39,7 +39,9 @@ function readJsonIfExists(p) {
 }
 
 const THEME_TAG = {1:"polynesia",2:"plastic",3:"titanic",4:"beaver",5:"dance",
-  6:"ai-art",7:"gifted-school",8:"hyperloop",9:"montessori",10:"lying"};
+  6:"ai-art",7:"gifted-school",8:"hyperloop",9:"montessori",10:"lying",
+  11:"gorilla",12:"olive",13:"robocup",14:"tesla",15:"trolley",
+  16:"mars",17:"asteroid",18:"crypto",19:"ponzi",20:"grammar-theory"};
 
 /* ---- 発音コーチ・データ ---- */
 let COACH = {};
@@ -101,7 +103,7 @@ const tier = {};
 const items=[];
 const seen=new Set();
 let currentDate=today; // 直近の "## YYYY-MM-DD" 見出しから設定
-function addItem({front,meaning,syn,collo,themeNum,themeName,defaultTier}){
+function addItem({front,meaning,syn,collo,themeNum,themeName,defaultTier,register}){
   front=stripParen(front).trim();
   if(!front||!meaning) return;
   const type=isPhrase(front)?"phrase":"word";
@@ -126,6 +128,7 @@ function addItem({front,meaning,syn,collo,themeNum,themeName,defaultTier}){
     ...(collo?{collocation:collo.trim()}:{}),
     ...(example?{examples:[example]}:{}),
     pron: type==="word" ? {lookup:front, tts:front} : {tts:front},
+    ...(register?{register}:{}),
     tags: THEME_TAG[themeNum]?[THEME_TAG[themeNum]]:[],
     ...(themeNum?{theme:themeNum}:{}),
     ...(themeName?{themeName}:{}),
@@ -157,7 +160,7 @@ function addItem({front,meaning,syn,collo,themeNum,themeName,defaultTier}){
       const repParts=splitSyn(rep);
       const front=repParts[0];
       const synonyms=[...repParts.slice(1), ...(syn?splitSyn(syn):[])];
-      addItem({front,meaning,syn:synonyms,collo,themeNum,themeName,defaultTier:"A"});
+      addItem({front,meaning,syn:synonyms,collo,themeNum,themeName,defaultTier:"A",register:"active"});
     }
     if(sub==="passive" && ln && !ln.startsWith("#")){
       ln.split(",").forEach(entry=>{
@@ -167,7 +170,7 @@ function addItem({front,meaning,syn,collo,themeNum,themeName,defaultTier}){
         else {words=entry; jp="";}
         const parts=splitSyn(words);
         if(!parts.length||!jp) return;
-        addItem({front:parts[0],meaning:jp,syn:parts.slice(1),collo:"",themeNum,themeName,defaultTier:"B"});
+        addItem({front:parts[0],meaning:jp,syn:parts.slice(1),collo:"",themeNum,themeName,defaultTier:"B",register:"passive"});
       });
       sub=null; // Passiveは1行で終わり
     }
@@ -189,7 +192,7 @@ const grammar=[
    examples:[{en:"I go to work by train.",jp:"電車で通勤します。（×I move to work by train）"}],
    pron:{tts:"I go to work by train."},tags:["grammar"]}
 ];
-grammar.forEach(g=>items.push({...g,_date:"2026-06-07"}));
+grammar.forEach(g=>items.push({...g,register:"active",_date:"2026-06-07"}));
 
 /* ---- 通し番号 n を付与（id→番号を台帳で固定。新規はmax+1。再生成してもズレない） ---- */
 const LEDGER=path.join(ROOT,"content-src","number-ledger.json");

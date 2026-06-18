@@ -7,8 +7,8 @@
   "theme": 9,
   "themeId": "theme-9",
   "themeName": "マリア・モンテッソーリ",
-  "version": "1c3ee2a7",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "3aa7418e",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 164,
@@ -37,6 +37,7 @@
         "lookup": "struggle",
         "tts": "struggle"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -73,6 +74,7 @@
         "lookup": "esteemed",
         "tts": "esteemed"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -102,6 +104,7 @@
         "lookup": "approval",
         "tts": "approval"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -131,6 +134,7 @@
         "lookup": "sole",
         "tts": "sole"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -166,6 +170,7 @@
         "lookup": "persevere",
         "tts": "persevere"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -195,6 +200,7 @@
         "lookup": "tenacity",
         "tts": "tenacity"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -229,6 +235,7 @@
       "pron": {
         "tts": "come up with"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -265,6 +272,7 @@
         "lookup": "innate",
         "tts": "innate"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -292,6 +300,7 @@
       "pron": {
         "tts": "radical change"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -320,6 +329,7 @@
         "lookup": "force",
         "tts": "force"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -356,6 +366,7 @@
         "lookup": "emphasise",
         "tts": "emphasise"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -392,6 +403,7 @@
         "lookup": "adopt",
         "tts": "adopt"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -426,6 +438,7 @@
       "pron": {
         "tts": "advocate of"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -462,6 +475,7 @@
         "lookup": "subsequent",
         "tts": "subsequent"
       },
+      "register": "active",
       "tags": [
         "montessori"
       ],
@@ -490,6 +504,7 @@
         "lookup": "icon",
         "tts": "icon"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -516,6 +531,7 @@
       "pron": {
         "tts": "challenge convention"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -543,6 +559,7 @@
         "lookup": "backlash",
         "tts": "backlash"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -571,6 +588,7 @@
         "lookup": "prodigious",
         "tts": "prodigious"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -598,6 +616,7 @@
         "lookup": "replicate",
         "tts": "replicate"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -624,6 +643,7 @@
       "pron": {
         "tts": "receive recognition"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],
@@ -647,6 +667,7 @@
       "pron": {
         "tts": "far and wide"
       },
+      "register": "passive",
       "tags": [
         "montessori"
       ],

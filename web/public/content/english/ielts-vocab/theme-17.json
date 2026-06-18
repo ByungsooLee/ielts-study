@@ -7,8 +7,8 @@
   "theme": 17,
   "themeId": "theme-17",
   "themeName": "小惑星の衝突",
-  "version": "abdcaf1a",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "365323b5",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 331,
@@ -30,7 +30,10 @@
         "lookup": "inevitable",
         "tts": "inevitable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "S",
@@ -56,7 +59,10 @@
       "pron": {
         "tts": "deal with"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "S",
@@ -82,7 +88,10 @@
         "lookup": "crisis",
         "tts": "crisis"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "S",
@@ -109,7 +118,10 @@
         "lookup": "drawback",
         "tts": "drawback"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "S",
@@ -137,7 +149,10 @@
         "lookup": "enormous",
         "tts": "enormous"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -163,7 +178,10 @@
         "lookup": "track",
         "tts": "track"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -190,7 +208,10 @@
         "lookup": "trajectory",
         "tts": "trajectory"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -216,7 +237,10 @@
         "lookup": "solution",
         "tts": "solution"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -243,7 +267,10 @@
         "lookup": "impractical",
         "tts": "impractical"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -269,7 +296,10 @@
         "lookup": "routinely",
         "tts": "routinely"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -295,7 +325,10 @@
         "lookup": "incoming",
         "tts": "incoming"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -316,7 +349,10 @@
       "pron": {
         "tts": "wipe out"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -335,7 +371,10 @@
       "pron": {
         "tts": "hurtle towards"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -355,7 +394,10 @@
       "pron": {
         "tts": "pull in"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",
@@ -375,7 +417,10 @@
         "lookup": "plummet",
         "tts": "plummet"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -400,7 +445,10 @@
       "pron": {
         "tts": "pin down"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",
@@ -419,7 +467,10 @@
       "pron": {
         "tts": "head towards"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",
@@ -438,7 +489,10 @@
       "pron": {
         "tts": "nudge away"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "A",
@@ -458,7 +512,10 @@
       "pron": {
         "tts": "ahead of time"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",
@@ -478,7 +535,10 @@
       "pron": {
         "tts": "break apart"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "asteroid"
+      ],
       "theme": 17,
       "themeName": "小惑星の衝突",
       "priority": "B",

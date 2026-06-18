@@ -7,8 +7,8 @@
   "theme": 11,
   "themeId": "theme-11",
   "themeName": "マウンテンゴリラ",
-  "version": "4d902bcd",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "80a20672",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 207,
@@ -30,7 +30,10 @@
         "lookup": "monitor",
         "tts": "monitor"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -57,7 +60,10 @@
         "lookup": "rigid",
         "tts": "rigid"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -84,7 +90,10 @@
         "lookup": "structure",
         "tts": "structure"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -110,7 +119,10 @@
         "lookup": "dominance",
         "tts": "dominance"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -137,7 +149,10 @@
         "lookup": "distinctive",
         "tts": "distinctive"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "S",
@@ -164,7 +179,10 @@
         "lookup": "peril",
         "tts": "peril"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -190,7 +208,10 @@
         "lookup": "scramble",
         "tts": "scramble"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -217,7 +238,10 @@
         "lookup": "successive",
         "tts": "successive"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -243,7 +267,10 @@
       "pron": {
         "tts": "tend to"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -269,7 +296,10 @@
         "lookup": "immature",
         "tts": "immature"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -296,7 +326,10 @@
         "lookup": "shun",
         "tts": "shun"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -322,7 +355,10 @@
       "pron": {
         "tts": "consider as"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -348,7 +384,10 @@
       "pron": {
         "tts": "segment into"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "A",
@@ -369,7 +408,10 @@
         "lookup": "trek",
         "tts": "trek"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -388,7 +430,10 @@
       "pron": {
         "tts": "natural habitat"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -409,7 +454,10 @@
         "lookup": "direction",
         "tts": "direction"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -429,7 +477,10 @@
       "pron": {
         "tts": "guard from harm"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -448,7 +499,10 @@
       "pron": {
         "tts": "have young"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -472,7 +526,10 @@
       "pron": {
         "tts": "subordinate to"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -492,7 +549,10 @@
         "lookup": "foliage",
         "tts": "foliage"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -512,7 +572,10 @@
         "lookup": "hierarchy",
         "tts": "hierarchy"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",
@@ -531,7 +594,10 @@
       "pron": {
         "tts": "face a choice"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "gorilla"
+      ],
       "theme": 11,
       "themeName": "マウンテンゴリラ",
       "priority": "B",

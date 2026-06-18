@@ -7,8 +7,8 @@
   "theme": 20,
   "themeId": "theme-20",
   "themeName": "普遍文法",
-  "version": "c310d64e",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "131d529f",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 393,
@@ -31,7 +31,10 @@
         "lookup": "competing",
         "tts": "competing"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -58,7 +61,10 @@
         "lookup": "ability",
         "tts": "ability"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -84,7 +90,10 @@
         "lookup": "approach",
         "tts": "approach"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -110,7 +119,10 @@
         "lookup": "profound",
         "tts": "profound"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -137,7 +149,10 @@
         "lookup": "systematic",
         "tts": "systematic"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -164,7 +179,10 @@
         "lookup": "emerge",
         "tts": "emerge"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -191,7 +209,10 @@
         "lookup": "fundamental",
         "tts": "fundamental"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -218,7 +239,10 @@
         "lookup": "develop",
         "tts": "develop"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -244,7 +268,10 @@
         "lookup": "repetition",
         "tts": "repetition"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -271,7 +298,10 @@
         "lookup": "common",
         "tts": "common"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -299,7 +329,10 @@
         "lookup": "renowned",
         "tts": "renowned"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "S",
@@ -324,7 +357,10 @@
       "pron": {
         "tts": "differentiate between"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -350,7 +386,10 @@
       "pron": {
         "tts": "draw on"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -377,7 +416,10 @@
         "lookup": "speculate",
         "tts": "speculate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -403,7 +445,10 @@
         "lookup": "contemporary",
         "tts": "contemporary"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -424,7 +469,10 @@
         "lookup": "propound",
         "tts": "propound"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "B",
@@ -445,7 +493,10 @@
       "pron": {
         "tts": "put paid to"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "B",
@@ -465,7 +516,10 @@
         "lookup": "opine",
         "tts": "opine"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "B",
@@ -485,7 +539,10 @@
         "lookup": "civilisation",
         "tts": "civilisation"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",
@@ -505,7 +562,10 @@
         "lookup": "usage",
         "tts": "usage"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "grammar-theory"
+      ],
       "theme": 20,
       "themeName": "普遍文法",
       "priority": "A",

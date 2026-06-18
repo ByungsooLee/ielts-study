@@ -7,8 +7,8 @@
   "theme": 2,
   "themeId": "theme-2",
   "themeName": "プラスチック",
-  "version": "384e9320",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "9079c257",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 21,
@@ -36,6 +36,7 @@
         "lookup": "arguably",
         "tts": "arguably"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -64,6 +65,7 @@
         "lookup": "flexible",
         "tts": "flexible"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -100,6 +102,7 @@
         "lookup": "form",
         "tts": "form"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -134,6 +137,7 @@
       "pron": {
         "tts": "a variety of"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -169,6 +173,7 @@
         "lookup": "waterproof",
         "tts": "waterproof"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -205,6 +210,7 @@
         "lookup": "originate",
         "tts": "originate"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -240,6 +246,7 @@
         "lookup": "mankind",
         "tts": "mankind"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -274,6 +281,7 @@
       "pron": {
         "tts": "the medieval period"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -308,6 +316,7 @@
       "pron": {
         "tts": "turning point"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -342,6 +351,7 @@
       "pron": {
         "tts": "go bankrupt"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -378,6 +388,7 @@
         "lookup": "synthetic",
         "tts": "synthetic"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -405,6 +416,7 @@
       "pron": {
         "tts": "be made from"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -441,6 +453,7 @@
         "lookup": "inexpensive",
         "tts": "inexpensive"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -477,6 +490,7 @@
         "lookup": "impact",
         "tts": "impact"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -511,6 +525,7 @@
       "pron": {
         "tts": "a growing concern"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -546,6 +561,7 @@
         "lookup": "launch",
         "tts": "launch"
       },
+      "register": "active",
       "tags": [
         "plastic"
       ],
@@ -580,6 +596,7 @@
         "lookup": "coating",
         "tts": "coating"
       },
+      "register": "passive",
       "tags": [
         "plastic"
       ],
@@ -607,6 +624,7 @@
         "lookup": "shatterproof",
         "tts": "shatterproof"
       },
+      "register": "passive",
       "tags": [
         "plastic"
       ],
@@ -634,6 +652,7 @@
         "lookup": "see-through",
         "tts": "see-through"
       },
+      "register": "passive",
       "tags": [
         "plastic"
       ],
@@ -660,6 +679,7 @@
       "pron": {
         "tts": "earliest origins"
       },
+      "register": "passive",
       "tags": [
         "plastic"
       ],
@@ -683,6 +703,7 @@
       "pron": {
         "tts": "be derived from"
       },
+      "register": "passive",
       "tags": [
         "plastic"
       ],
@@ -710,6 +731,7 @@
       "pron": {
         "tts": "host of"
       },
+      "register": "passive",
       "tags": [
         "plastic"
       ],

@@ -7,8 +7,8 @@
   "theme": 0,
   "themeId": "theme-0",
   "themeName": "汎用（文法など）",
-  "version": "b21d5528",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "db0a11ea",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 204,
@@ -28,6 +28,7 @@
       "tags": [
         "grammar"
       ],
+      "register": "active",
       "domain": "english",
       "collection": "ielts-vocab"
     },
@@ -49,6 +50,7 @@
       "tags": [
         "grammar"
       ],
+      "register": "active",
       "domain": "english",
       "collection": "ielts-vocab"
     },
@@ -70,6 +72,7 @@
       "tags": [
         "grammar"
       ],
+      "register": "active",
       "domain": "english",
       "collection": "ielts-vocab"
     }

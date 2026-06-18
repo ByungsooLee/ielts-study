@@ -7,8 +7,8 @@
   "theme": 19,
   "themeId": "theme-19",
   "themeName": "ポンジスキーム",
-  "version": "79253dab",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "fa3f1acc",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 372,
@@ -31,7 +31,10 @@
         "lookup": "legitimate",
         "tts": "legitimate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -58,7 +61,10 @@
         "lookup": "collapse",
         "tts": "collapse"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -85,7 +91,10 @@
         "lookup": "assure",
         "tts": "assure"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -111,7 +120,10 @@
         "lookup": "community",
         "tts": "community"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -139,7 +151,10 @@
         "lookup": "scam",
         "tts": "scam"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -165,7 +180,10 @@
         "lookup": "suspicion",
         "tts": "suspicion"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -191,7 +209,10 @@
         "lookup": "inaccurate",
         "tts": "inaccurate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -218,7 +239,10 @@
         "lookup": "calculate",
         "tts": "calculate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -245,7 +269,10 @@
         "lookup": "inconceivable",
         "tts": "inconceivable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -272,7 +299,10 @@
         "lookup": "inquiry",
         "tts": "inquiry"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -299,7 +329,10 @@
         "lookup": "endure",
         "tts": "endure"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -327,7 +360,10 @@
         "lookup": "trustworthy",
         "tts": "trustworthy"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "S",
@@ -354,7 +390,10 @@
         "lookup": "infamous",
         "tts": "infamous"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -381,7 +420,10 @@
         "lookup": "wealth",
         "tts": "wealth"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -408,7 +450,10 @@
         "lookup": "enthusiasm",
         "tts": "enthusiasm"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -434,7 +479,10 @@
         "lookup": "dividend",
         "tts": "dividend"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "A",
@@ -454,7 +502,10 @@
       "pron": {
         "tts": "be associated with"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",
@@ -474,7 +525,10 @@
       "pron": {
         "tts": "sweep through"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",
@@ -493,7 +547,10 @@
       "pron": {
         "tts": "get left behind"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",
@@ -513,7 +570,10 @@
       "pron": {
         "tts": "rake in"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",
@@ -533,7 +593,10 @@
       "pron": {
         "tts": "in the latest fashion"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "ponzi"
+      ],
       "theme": 19,
       "themeName": "ポンジスキーム",
       "priority": "B",

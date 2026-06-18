@@ -7,8 +7,8 @@
   "theme": 18,
   "themeId": "theme-18",
   "themeName": "暗号通貨",
-  "version": "38893799",
-  "generatedAt": "2026-06-18T08:48:24.308Z",
+  "version": "b247d079",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 351,
@@ -30,7 +30,10 @@
         "lookup": "exchange",
         "tts": "exchange"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "S",
@@ -57,7 +60,10 @@
         "lookup": "benefit",
         "tts": "benefit"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "S",
@@ -83,7 +89,10 @@
         "lookup": "transaction",
         "tts": "transaction"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "S",
@@ -110,7 +119,10 @@
         "lookup": "cautious",
         "tts": "cautious"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "S",
@@ -137,7 +149,10 @@
         "lookup": "appear",
         "tts": "appear"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -164,7 +179,10 @@
         "lookup": "novel",
         "tts": "novel"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -191,7 +209,10 @@
         "lookup": "create",
         "tts": "create"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -217,7 +238,10 @@
         "lookup": "record",
         "tts": "record"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -243,7 +267,10 @@
         "lookup": "invulnerable",
         "tts": "invulnerable"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -270,7 +297,10 @@
         "lookup": "middleman",
         "tts": "middleman"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -297,7 +327,10 @@
         "lookup": "transmit",
         "tts": "transmit"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -324,7 +357,10 @@
         "lookup": "fluctuate",
         "tts": "fluctuate"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -350,7 +386,10 @@
         "lookup": "anonymity",
         "tts": "anonymity"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -376,7 +415,10 @@
         "lookup": "marketplace",
         "tts": "marketplace"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -403,7 +445,10 @@
         "lookup": "disappear",
         "tts": "disappear"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -430,7 +475,10 @@
         "lookup": "label",
         "tts": "label"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -457,7 +505,10 @@
         "lookup": "newcomer",
         "tts": "newcomer"
       },
-      "tags": [],
+      "register": "active",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "A",
@@ -477,7 +528,10 @@
       "pron": {
         "tts": "far from certain"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "B",
@@ -498,7 +552,10 @@
         "lookup": "acclaim",
         "tts": "acclaim"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "B",
@@ -518,7 +575,10 @@
         "lookup": "exist",
         "tts": "exist"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "B",
@@ -539,7 +599,10 @@
       "pron": {
         "tts": "cut out"
       },
-      "tags": [],
+      "register": "passive",
+      "tags": [
+        "crypto"
+      ],
       "theme": 18,
       "themeName": "暗号通貨",
       "priority": "B",

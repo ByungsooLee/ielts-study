@@ -7,8 +7,8 @@
   "theme": 6,
   "themeId": "theme-6",
   "themeName": "AIによる芸術",
-  "version": "0ba7a3c2",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "b9f6cc4c",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 105,
@@ -37,6 +37,7 @@
         "lookup": "perspective",
         "tts": "perspective"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -72,6 +73,7 @@
         "lookup": "interpret",
         "tts": "interpret"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -108,6 +110,7 @@
         "lookup": "notion",
         "tts": "notion"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -143,6 +146,7 @@
         "lookup": "scepticism",
         "tts": "scepticism"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -178,6 +182,7 @@
         "lookup": "credible",
         "tts": "credible"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -214,6 +219,7 @@
         "lookup": "innovative",
         "tts": "innovative"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -249,6 +255,7 @@
         "lookup": "value",
         "tts": "value"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -277,6 +284,7 @@
         "lookup": "priceless",
         "tts": "priceless"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -313,6 +321,7 @@
         "lookup": "disparity",
         "tts": "disparity"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -348,6 +357,7 @@
         "lookup": "scarcity",
         "tts": "scarcity"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -376,6 +386,7 @@
       "pron": {
         "tts": "be made redundant"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -411,6 +422,7 @@
         "lookup": "automation",
         "tts": "automation"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -438,6 +450,7 @@
       "pron": {
         "tts": "area of expertise"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -465,6 +478,7 @@
       "pron": {
         "tts": "pose a problem"
       },
+      "register": "active",
       "tags": [
         "ai-art"
       ],
@@ -491,6 +505,7 @@
       "pron": {
         "tts": "from scratch"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],
@@ -519,6 +534,7 @@
         "lookup": "fool",
         "tts": "fool"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],
@@ -545,6 +561,7 @@
       "pron": {
         "tts": "lay person"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],
@@ -572,6 +589,7 @@
         "lookup": "haphazard",
         "tts": "haphazard"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],
@@ -599,6 +617,7 @@
         "lookup": "refuge",
         "tts": "refuge"
       },
+      "register": "passive",
       "tags": [
         "ai-art"
       ],

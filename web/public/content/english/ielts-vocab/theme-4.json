@@ -7,8 +7,8 @@
   "theme": 4,
   "themeId": "theme-4",
   "themeName": "アイダホのビーバー",
-  "version": "14a26d92",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "cee3d2df",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 65,
@@ -36,6 +36,7 @@
         "lookup": "nuisance",
         "tts": "nuisance"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -71,6 +72,7 @@
         "lookup": "construction",
         "tts": "construction"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -107,6 +109,7 @@
         "lookup": "alter",
         "tts": "alter"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -142,6 +145,7 @@
         "lookup": "ideal",
         "tts": "ideal"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -177,6 +181,7 @@
         "lookup": "abundance",
         "tts": "abundance"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -204,6 +209,7 @@
       "pron": {
         "tts": "prove impossible"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -239,6 +245,7 @@
         "lookup": "unique",
         "tts": "unique"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -274,6 +281,7 @@
         "lookup": "surplus",
         "tts": "surplus"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -308,6 +316,7 @@
       "pron": {
         "tts": "encroach on"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -343,6 +352,7 @@
         "lookup": "instinct",
         "tts": "instinct"
       },
+      "register": "active",
       "tags": [
         "beaver"
       ],
@@ -370,6 +380,7 @@
         "lookup": "overpopulated",
         "tts": "overpopulated"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -397,6 +408,7 @@
         "lookup": "inhabit",
         "tts": "inhabit"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -425,6 +437,7 @@
         "lookup": "domicile",
         "tts": "domicile"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -452,6 +465,7 @@
         "lookup": "route",
         "tts": "route"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -478,6 +492,7 @@
       "pron": {
         "tts": "grow agitated"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -506,8 +521,10 @@
         "lookup": "strike",
         "tts": "strike"
       },
+      "register": "passive",
       "tags": [
-        "beaver"
+        "beaver",
+        "trolley"
       ],
       "theme": 4,
       "themeName": "アイダホのビーバー",
@@ -532,6 +549,7 @@
       "pron": {
         "tts": "trial run"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -559,6 +577,7 @@
         "lookup": "relocate",
         "tts": "relocate"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -586,6 +605,7 @@
         "lookup": "predator",
         "tts": "predator"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -613,6 +633,7 @@
         "lookup": "landscape",
         "tts": "landscape"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],
@@ -636,6 +657,7 @@
       "pron": {
         "tts": "make a beeline for"
       },
+      "register": "passive",
       "tags": [
         "beaver"
       ],

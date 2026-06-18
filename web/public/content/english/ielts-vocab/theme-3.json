@@ -7,8 +7,8 @@
   "theme": 3,
   "themeId": "theme-3",
   "themeName": "タイタニック",
-  "version": "107bdf0c",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "d855043e",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 43,
@@ -37,6 +37,7 @@
         "lookup": "depart",
         "tts": "depart"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -73,6 +74,7 @@
         "lookup": "lack",
         "tts": "lack"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -108,6 +110,7 @@
         "lookup": "doubt",
         "tts": "doubt"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -143,6 +146,7 @@
         "lookup": "initially",
         "tts": "initially"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -179,6 +183,7 @@
         "lookup": "deteriorate",
         "tts": "deteriorate"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -214,6 +219,7 @@
         "lookup": "discovery",
         "tts": "discovery"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -248,6 +254,7 @@
       "pron": {
         "tts": "in collaboration with"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -282,6 +289,7 @@
       "pron": {
         "tts": "previous attempt"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -309,6 +317,7 @@
       "pron": {
         "tts": "in hindsight"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -336,6 +345,7 @@
       "pron": {
         "tts": "accounts vary"
       },
+      "register": "active",
       "tags": [
         "titanic"
       ],
@@ -363,6 +373,7 @@
         "lookup": "recover",
         "tts": "recover"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -389,6 +400,7 @@
       "pron": {
         "tts": "the ocean floor"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -416,6 +428,7 @@
         "lookup": "watertight",
         "tts": "watertight"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -442,6 +455,7 @@
       "pron": {
         "tts": "tight timetable"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -469,6 +483,7 @@
         "lookup": "sink",
         "tts": "sink"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -497,6 +512,7 @@
         "lookup": "remains",
         "tts": "remains"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -524,6 +540,7 @@
         "lookup": "site",
         "tts": "site"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -551,6 +568,7 @@
         "lookup": "intact",
         "tts": "intact"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -577,6 +595,7 @@
       "pron": {
         "tts": "split in half"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -600,6 +619,7 @@
       "pron": {
         "tts": "leave exposed"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -627,6 +647,7 @@
         "lookup": "corrode",
         "tts": "corrode"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],
@@ -653,6 +674,7 @@
       "pron": {
         "tts": "treasure trove"
       },
+      "register": "passive",
       "tags": [
         "titanic"
       ],

@@ -53,6 +53,9 @@ export function EnglishLayout() {
             <NavLink to="/english/grammar" className={navClass}>
               文法
             </NavLink>
+            <NavLink to="/english/passive" className={navClass}>
+              Passive一覧
+            </NavLink>
             <NavLink to="/english/maybe" className={navClass}>
               あいまい一覧
             </NavLink>

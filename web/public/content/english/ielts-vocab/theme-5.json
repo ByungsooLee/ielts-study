@@ -7,8 +7,8 @@
   "theme": 5,
   "themeId": "theme-5",
   "themeName": "ダンス",
-  "version": "abe49464",
-  "generatedAt": "2026-06-10T04:29:42.750Z",
+  "version": "aa9b0dfc",
+  "generatedAt": "2026-06-18T10:32:03.495Z",
   "items": [
     {
       "n": 86,
@@ -37,6 +37,7 @@
         "lookup": "stimulate",
         "tts": "stimulate"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -72,6 +73,7 @@
         "lookup": "uncertainty",
         "tts": "uncertainty"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -107,6 +109,7 @@
         "lookup": "theory",
         "tts": "theory"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -142,6 +145,7 @@
         "lookup": "factor",
         "tts": "factor"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -170,6 +174,7 @@
         "lookup": "straightforward",
         "tts": "straightforward"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -205,6 +210,7 @@
         "lookup": "generate",
         "tts": "generate"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -240,6 +246,7 @@
         "lookup": "obvious",
         "tts": "obvious"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -276,6 +283,7 @@
         "lookup": "predict",
         "tts": "predict"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -304,6 +312,7 @@
         "lookup": "complicated",
         "tts": "complicated"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -339,6 +348,7 @@
         "lookup": "intense",
         "tts": "intense"
       },
+      "register": "active",
       "tags": [
         "dance"
       ],
@@ -367,8 +377,10 @@
         "lookup": "spectacular",
         "tts": "spectacular"
       },
+      "register": "active",
       "tags": [
-        "dance"
+        "dance",
+        "asteroid"
       ],
       "theme": 5,
       "themeName": "ダンス",
@@ -394,6 +406,7 @@
         "lookup": "coordination",
         "tts": "coordination"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -422,6 +435,7 @@
         "lookup": "puzzle",
         "tts": "puzzle"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -445,6 +459,7 @@
       "pron": {
         "tts": "mounting evidence"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -472,6 +487,7 @@
         "lookup": "pattern",
         "tts": "pattern"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -499,6 +515,7 @@
         "lookup": "mirror",
         "tts": "mirror"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -526,6 +543,7 @@
         "lookup": "professional",
         "tts": "professional"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -553,6 +571,7 @@
         "lookup": "surge",
         "tts": "surge"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
@@ -580,6 +599,7 @@
         "lookup": "anxious",
         "tts": "anxious"
       },
+      "register": "passive",
       "tags": [
         "dance"
       ],
