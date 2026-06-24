@@ -50,7 +50,10 @@ export function EngineeringStudyPage() {
     void load();
     void fetchContentIndex()
       .then((index) => {
-        const cols = collectionsForDomain(index, "engineering");
+        // 面接(interview)は専用モード（/engineering/interview）。概念学習のチップからは除外
+        const cols = collectionsForDomain(index, "engineering").filter(
+          (c) => c.kind !== "interview",
+        );
         setThemeChips(engineeringThemeChipsFromIndex(cols));
         const s = useEngineeringSessionStore.getState();
         if (s.collectionId == null && s.theme == null && cols[0]?.themes[0]) {

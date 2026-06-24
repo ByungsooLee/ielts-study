@@ -33,6 +33,21 @@ if [ -d "$IELTS" ]; then
       echo "   ⚠ $IELTS/$f が見つかりません（スキップ）"
     fi
   done
+  # 面接(interview)コレクション: ジャンル別シャードを content-src/interview/ へ同期。
+  # grammar 同様、md2json.js がここを読んでシャード＋index へ反映する。
+  # genre-2.json 等のデモ仮データは取り込まない（実データのみ。命名規則 genre-N.json）。
+  IV_SRC="$IELTS/content/engineering/interview"
+  if [ -d "$IV_SRC" ]; then
+    mkdir -p "$APP/content-src/interview"
+    iv_copied=0
+    for src in "$IV_SRC"/genre-*.json; do
+      [ -f "$src" ] || continue
+      cp "$src" "$APP/content-src/interview/"
+      echo "   ✓ interview/$(basename "$src")"
+      iv_copied=$((iv_copied+1))
+    done
+    [ "$iv_copied" = 0 ] && echo "   ⚠ interview シャードが見つかりません（スキップ）"
+  fi
 else
   echo "   ⚠ IELTS フォルダが見つかりません: $IELTS（スキップ）"
 fi

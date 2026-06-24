@@ -65,6 +65,9 @@ export function EngineeringLayout() {
             <NavLink to="/engineering/study" className={navClass}>
               学習
             </NavLink>
+            <NavLink to="/engineering/interview" className={navClass}>
+              面接
+            </NavLink>
             <NavLink to="/engineering/list" className={navClass}>
               一覧
             </NavLink>

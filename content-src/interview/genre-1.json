@@ -1,0 +1,277 @@
+{
+  "domain": "engineering",
+  "collection": "interview",
+  "themeName": "自己紹介・経歴",
+  "version": "e06d9f3d",
+  "items": [
+    {
+      "id": "iv-background-data-eng",
+      "n": 413,
+      "domain": "engineering",
+      "collection": "interview",
+      "type": "interview",
+      "theme": 1,
+      "themeName": "自己紹介・経歴",
+      "register": "active",
+      "question": {
+        "en": "Can you walk me through your background, and tell me what kind of data engineering and web/API development work you've been doing recently?",
+        "jp": "これまでの経歴と、最近どのようなデータエンジニアリング・Web/API開発業務を担当しているか説明してください。",
+        "tts": "Can you walk me through your background, and tell me what kind of data engineering and web/API development work you've been doing recently?"
+      },
+      "answer": {
+        "jp": "Web開発約3年・データエンジニアリング約2年半。フロント→API/テーブル設計/不具合切り分けで縦の流れ全体を見られるのが強み。現在はSnowflake/DatabricksをTerraformでコード管理、dbtでデータマート設計、trocco/APIで取り込み。PandasからPolarsへの移行で150万行を56分→約20秒に短縮（計測でボトルネック特定→処理方式から再設計）。この『アプリからBIまでを理解し、信頼性と性能を両立する設計力』を活かして貢献したい。",
+        "sentences": [
+          {
+            "en": "I have around three years of experience in web application development and about two and a half years in data engineering.",
+            "jp": "Webアプリ開発を約3年、データエンジニアリングを約2年半経験してきました。",
+            "linking": "I‿have‿around three years‿of‿experience",
+            "syntax": "現在完了 I have ... experience（過去から今までの積み重ね）。and が2つの経験を並列。",
+            "grammar": [
+              "経歴は現在完了 have + experience で『今に続く積み重ね』を表す"
+            ],
+            "tips": [
+              "around / about = 約（数値をぼかす）"
+            ],
+            "terms": [
+              {
+                "en": "experience",
+                "jp": "経験",
+                "pos": "n"
+              },
+              {
+                "en": "data engineering",
+                "jp": "データエンジニアリング",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "I started out doing frontend work with React and Next.js, building SPAs and internal business apps.",
+            "jp": "キャリアの最初はReactとNext.jsでのフロントエンド開発で、SPAや業務アプリを担当しました。",
+            "linking": "I started‿out doing frontend work",
+            "syntax": "start out doing ...（〜から始めた）。building...は付帯状況を表す分詞構文。",
+            "grammar": [
+              "start out + doing（〜することから始める）",
+              "分詞構文 building...（=and built...）"
+            ],
+            "tips": [
+              "『最初は〜から始めた』の自然な語り出し定番"
+            ],
+            "terms": [
+              {
+                "en": "start out",
+                "jp": "（〜から）始める",
+                "pos": "v"
+              },
+              {
+                "en": "internal business apps",
+                "jp": "社内業務アプリ",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "Alongside that, I worked on API integration, table design, and debugging — so I got pretty good at figuring out whether an issue on the screen came from the frontend, the API, or the data itself.",
+            "jp": "同時にAPI連携・テーブル設計・不具合調査も行い、画面上の問題がフロント・API・データのどこに起因するかを切り分ける力を身につけました。",
+            "linking": "I got‿pretty good‿at figuring‿out",
+            "syntax": "前置きの Alongside that。get good at + 動名詞。figure out whether S V（間接疑問）＋ from A, B, or C の三択。",
+            "grammar": [
+              "get good at + -ing（〜が得意になる）",
+              "間接疑問 whether ... came from ..."
+            ],
+            "tips": [
+              "断定しすぎず実務的に聞こえる言い回し"
+            ],
+            "terms": [
+              {
+                "en": "alongside that",
+                "jp": "それと並行して",
+                "pos": "adv"
+              },
+              {
+                "en": "figure out",
+                "jp": "見極める／突き止める",
+                "pos": "v"
+              },
+              {
+                "en": "debugging",
+                "jp": "不具合調査",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "That ability to see the whole stack top to bottom is something I think sets me apart from a lot of data engineers.",
+            "jp": "この『縦の流れ全体を見られる』点が、他のデータエンジニアと違う私の強みだと考えています。",
+            "linking": "see the whole stack‿top to bottom",
+            "syntax": "主語 That ability ... is something（補語）。something (that) I think sets me apart = 連鎖関係詞節（I think は挿入）。",
+            "grammar": [
+              "連鎖関係詞節 something I think sets me apart",
+              "ability to do（〜する能力）"
+            ],
+            "tips": [
+              "set ~ apart = 差別化する。謙虚かつ自信を見せる定番"
+            ],
+            "terms": [
+              {
+                "en": "the whole stack top to bottom",
+                "jp": "縦の流れ全体",
+                "pos": "n"
+              },
+              {
+                "en": "set apart",
+                "jp": "際立たせる／差別化する",
+                "pos": "v"
+              }
+            ]
+          },
+          {
+            "en": "These days I mainly work with Snowflake and Databricks, managing the infrastructure as code with Terraform.",
+            "jp": "現在はSnowflakeとDatabricksを中心に、Terraformでインフラをコード管理しながら運用しています。",
+            "linking": "These days‿I mainly work",
+            "syntax": "現在の習慣なので現在形 work。managing...は付帯状況の分詞構文。infrastructure as code（IaC）。",
+            "grammar": [
+              "今やっていることは現在形",
+              "分詞構文 managing...（=and manage...）"
+            ],
+            "tips": [
+              "These days = 最近は（現在の状況の語り出し）"
+            ],
+            "terms": [
+              {
+                "en": "infrastructure as code",
+                "jp": "インフラのコード管理（IaC）",
+                "pos": "n"
+              },
+              {
+                "en": "mainly",
+                "jp": "主に",
+                "pos": "adv"
+              }
+            ]
+          },
+          {
+            "en": "I design data marts with dbt and ingest data through tools like trocco and various APIs.",
+            "jp": "dbtでデータマートを設計し、troccoやAPI経由でデータを取り込んでいます。",
+            "linking": "ingest data‿through tools",
+            "syntax": "等位接続 design ... and ingest ...（現在形2動詞）。through = 〜経由で。",
+            "grammar": [
+              "like = 例えば（such as の口語）"
+            ],
+            "tips": [
+              "ingest はデータ取り込みの定番動詞"
+            ],
+            "terms": [
+              {
+                "en": "data mart",
+                "jp": "データマート",
+                "pos": "n"
+              },
+              {
+                "en": "ingest",
+                "jp": "取り込む",
+                "pos": "v"
+              }
+            ]
+          },
+          {
+            "en": "One project I'm particularly proud of was migrating a pipeline from Pandas to Polars.",
+            "jp": "直近で特に印象的だったのは、パイプラインをPandasからPolarsへ移行したことです。",
+            "linking": "One project‿I'm particularly proud‿of",
+            "syntax": "One project (that) I'm proud of = 関係詞節。be proud of の of が文末に残る。補語が動名詞 migrating。",
+            "grammar": [
+              "前置詞 of の目的語が関係詞で前に出る形",
+              "補語の動名詞 was migrating ..."
+            ],
+            "tips": [
+              "成果を語る最強の導入。面接で多用できる"
+            ],
+            "terms": [
+              {
+                "en": "be proud of",
+                "jp": "〜を誇りに思う",
+                "pos": "v"
+              },
+              {
+                "en": "migrate",
+                "jp": "移行する",
+                "pos": "v"
+              },
+              {
+                "en": "pipeline",
+                "jp": "パイプライン",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "I brought the processing time for 1.5 million rows down from 56 minutes to about 20 seconds — I profiled it to find the bottleneck and then rethought the whole approach.",
+            "jp": "150万行の処理時間を56分から約20秒まで短縮しました。計測でボトルネックを特定し、処理方式から見直した結果です。",
+            "linking": "brought‿the processing time down",
+            "syntax": "句動詞 bring ... down（分離型、目的語が長く間に入る）。from A to B。過去形（具体的実績）。to find ...は目的の不定詞。",
+            "grammar": [
+              "具体的な過去の実績は過去形（brought / profiled / rethought）",
+              "bring down + from ~ to ~"
+            ],
+            "tips": [
+              "profile / bottleneck はエンジニア必須語彙"
+            ],
+            "terms": [
+              {
+                "en": "bring down",
+                "jp": "（数値を）下げる／短縮する",
+                "pos": "v"
+              },
+              {
+                "en": "profile",
+                "jp": "（性能を）計測・分析する",
+                "pos": "v"
+              },
+              {
+                "en": "bottleneck",
+                "jp": "ボトルネック",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "So in Australia, I'd love to bring that combination — understanding the full flow from the app down to BI, while balancing reliability and performance — to building solid data platforms.",
+            "jp": "オーストラリアでも、この『アプリからBIまでの一連の流れを理解した上で信頼性と性能を両立させる設計力』を、堅牢なデータ基盤づくりに活かして貢献したいです。",
+            "linking": "I'd love‿to bring that combination",
+            "syntax": "I'd love to bring A to B の骨格。ダッシュ内は A の説明（動名詞句）。while balancing ...は『〜しながら』の分詞構文。",
+            "grammar": [
+              "would love to do（〜したい・丁寧）",
+              "while + -ing（〜しながら）"
+            ],
+            "tips": [
+              "締めの意欲表明。強みを再提示して終える"
+            ],
+            "terms": [
+              {
+                "en": "reliability",
+                "jp": "信頼性",
+                "pos": "n"
+              },
+              {
+                "en": "solid",
+                "jp": "堅牢な",
+                "pos": "adj"
+              },
+              {
+                "en": "BI",
+                "jp": "ビジネスインテリジェンス",
+                "pos": "n"
+              }
+            ]
+          }
+        ]
+      },
+      "pron": {
+        "tts": true
+      },
+      "source": {
+        "added": "2026-06-23"
+      }
+    }
+  ]
+}

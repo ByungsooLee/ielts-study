@@ -314,6 +314,39 @@ try {
   }
 } catch(e){ /* grammar-items.json が無ければスキップ */ }
 
+// 4) 面接コレクション(interview): content-src/interview/genre-*.json（ジャンル別シャード）を
+//    集約 → theme(ジャンル)でグループ化して emit。シャード名は genre-N.json（grammar と同形）。
+//    item は question/answer/sentences 構造（front/meaning を持たない）。clean() は id/type のみ
+//    必須なのでそのまま通る。n は統一台帳で固定採番。
+try {
+  const IVDIR = path.join(ROOT,"content-src","interview");
+  let ivFiles = [];
+  try { ivFiles = fs.readdirSync(IVDIR).filter(f=>/^genre-\d+\.json$/.test(f)).sort(); } catch(e){ ivFiles=[]; }
+  const ivItems = [];
+  let ivDomain="engineering", ivCollection="interview", ivCollectionName="面接";
+  for(const f of ivFiles){
+    const g = JSON.parse(fs.readFileSync(path.join(IVDIR,f),"utf8"));
+    ivDomain = g.domain || ivDomain;
+    ivCollection = g.collection || ivCollection;
+    if(g.collectionName) ivCollectionName = g.collectionName;
+    (g.items||[]).forEach(it=>{
+      it.domain = ivDomain; it.collection = ivCollection;
+      if(!it.type) it.type = "interview";
+      if(ledger[it.id]==null) ledger[it.id]=++maxN; it.n=ledger[it.id]; // 通し番号も統一台帳で固定
+      ivItems.push(it);
+    });
+  }
+  if(ivItems.length){
+    const byGenre={};
+    ivItems.forEach(it=>{ const th=it.theme||1; (byGenre[th]=byGenre[th]||[]).push(it); });
+    const ithemes = Object.keys(byGenre).map(Number).sort((a,b)=>a-b).map(th=>({
+      theme:th, themeName: (byGenre[th][0].themeName || `ジャンル${th}`), items: byGenre[th]
+    }));
+    collectionsOut.push(emitCollection({domain:ivDomain, collection:ivCollection,
+      collectionName:ivCollectionName, kind:"interview", themes:ithemes, filePrefix:"genre"}));
+  }
+} catch(e){ /* interview シャードが無ければスキップ */ }
+
 fs.writeFileSync(LEDGER, JSON.stringify(ledger,null,2)+"\n"); // 事前ビルド分の n も台帳へ反映
 
 // 目次（最初にこれだけ取得。collection/theme の version で差分判定）

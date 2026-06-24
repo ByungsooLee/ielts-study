@@ -17,6 +17,7 @@ import { PassivePage } from "./pages/english/PassivePage";
 import { WordsPage } from "./pages/english/WordsPage";
 import { EngineeringListPage } from "./pages/engineering/EngineeringListPage";
 import { EngineeringStudyPage } from "./pages/engineering/EngineeringStudyPage";
+import { InterviewPage } from "./pages/engineering/InterviewPage";
 import { useContentStore } from "./stores/contentStore";
 import { useProgressStore } from "./stores/progressStore";
 import { useSettingsStore } from "./stores/settingsStore";
@@ -94,6 +95,7 @@ export default function App() {
       <Route path="/engineering" element={<EngineeringLayout />}>
         <Route index element={<Navigate to="study" replace />} />
         <Route path="study" element={<EngineeringStudyPage />} />
+        <Route path="interview" element={<InterviewPage />} />
         <Route path="list" element={<EngineeringListPage />} />
         <Route path="settings" element={<SettingsPage />} />
       </Route>

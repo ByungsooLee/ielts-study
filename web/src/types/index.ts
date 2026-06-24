@@ -1,6 +1,6 @@
 export type Domain = "english" | "engineering";
 
-export type ItemType = "word" | "phrase" | "grammar" | "conversation" | "concept";
+export type ItemType = "word" | "phrase" | "grammar" | "conversation" | "concept" | "interview";
 
 export interface ExplainTarget {
   term: string;
@@ -120,6 +120,50 @@ export interface StudyItem {
   links?: string[];
   note?: string;
   explain?: ConceptExplain;
+}
+
+/** 面接Q&A：回答を覚えやすい1文チャンクに分割した1文分 */
+export interface InterviewTerm {
+  en: string;
+  jp: string;
+  pos?: string;
+}
+
+export interface InterviewSentence {
+  en: string;
+  jp?: string;
+  /** 連結(‿)・弱形（pron-coach 由来。任意） */
+  linking?: string;
+  /** 構文・文法解説（文タップで表示） */
+  syntax?: string;
+  /** 文法ポイントの箇条書き */
+  grammar?: string[];
+  tips?: string[];
+  /** この文の重要語（インライン定義。vocab に依存しない） */
+  terms?: InterviewTerm[];
+}
+
+/** 面接Q&A item（1件＝1 Q&A）。StudyItem とは別系統（front/meaning を持たない） */
+export interface InterviewItem {
+  id: string;
+  n?: number;
+  type: "interview";
+  domain?: Domain;
+  collection?: string;
+  theme?: number;
+  themeName?: string;
+  register?: "active" | "passive";
+  question: {
+    en: string;
+    jp: string;
+    tts?: string;
+  };
+  answer: {
+    jp: string;
+    sentences: InterviewSentence[];
+  };
+  pron?: { tts?: boolean };
+  source?: { added?: string };
 }
 
 export interface ImportSource {

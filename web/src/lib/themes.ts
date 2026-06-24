@@ -9,6 +9,7 @@ export const CATEGORY_LABELS: Record<ItemType, string> = {
   grammar: "文法",
   conversation: "会話",
   concept: "概念",
+  interview: "面接",
 };
 
 export const CATEGORY_STYLES: Record<
@@ -44,6 +45,12 @@ export const CATEGORY_STYLES: Record<
     inactive: "bg-teal-50 text-teal-800 hover:bg-teal-100 dark:bg-teal-950 dark:text-teal-200 dark:hover:bg-teal-900",
     ring: "ring-2 ring-teal-400",
     badge: "bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-200",
+  },
+  interview: {
+    active: "bg-rose-600 text-white",
+    inactive: "bg-rose-50 text-rose-800 hover:bg-rose-100 dark:bg-rose-950 dark:text-rose-200 dark:hover:bg-rose-900",
+    ring: "ring-2 ring-rose-400",
+    badge: "bg-rose-100 text-rose-800 dark:bg-rose-900 dark:text-rose-200",
   },
 };
 
