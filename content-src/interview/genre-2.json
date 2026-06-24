@@ -1,0 +1,432 @@
+{
+  "domain": "engineering",
+  "collection": "interview",
+  "themeName": "技術質問",
+  "version": "47ec3671",
+  "items": [
+    {
+      "id": "iv-snowflake-databricks-roles",
+      "n": 414,
+      "domain": "engineering",
+      "collection": "interview",
+      "type": "interview",
+      "theme": 2,
+      "themeName": "技術質問",
+      "register": "active",
+      "question": {
+        "en": "If you were designing a data platform with Snowflake and Databricks, how would you use each of them? And what roles would Terraform and dbt play in that design?",
+        "jp": "SnowflakeとDatabricksを使ってデータ基盤を設計するとしたら、それぞれをどのように使い分けますか？また、Terraformやdbtはその設計の中でどのような役割を持ちますか？",
+        "tts": "If you were designing a data platform with Snowflake and Databricks, how would you use each of them, and what roles would Terraform and dbt play?"
+      },
+      "answer": {
+        "jp": "ワークロードで使い分ける。Snowflake=DWH/BI/SQL分析の提供レイヤー（構造化データ、RBAC・auto suspend等でガバナンス/コスト管理）。Databricks=大規模処理・Spark/Python・ML・非構造化・AI/RAG（Notebook/Git、Unity Catalogで統合ガバナンス）。dbtは変換ロジック・層分け(raw/staging/intermediate/mart)・テスト・ドキュメント・リネージをCI/CDで品質担保。Terraformはロール・権限・カタログ等のIaC（ただし粒度はチーム成熟度と変更頻度で判断）。全体: Snowflake=分析提供、Databricks=大規模処理/ML、dbt=変換と品質、Terraform=再現性とガバナンス。Web/API接続時はリアルタイム提供かDWH分析かを分け、信頼性・コスト・セキュリティを両立。",
+        "sentences": [
+          {
+            "en": "I would use Snowflake and Databricks based on the workload, rather than treating them as exactly the same type of platform.",
+            "jp": "SnowflakeとDatabricksは、まったく同種のプラットフォームとして扱うのではなく、ワークロードに応じて使い分けます。",
+            "linking": "I would‿use Snowflake‿and Databricks",
+            "syntax": "仮定法的な would（もし設計するなら〜する）。rather than + 動名詞 treating（〜よりむしろ）。",
+            "grammar": [
+              "設計方針を述べる would（仮定・控えめな主張）",
+              "rather than + -ing（〜ではなく）"
+            ],
+            "tips": [
+              "質問が If you were designing... なので回答全体を would で受けるのが自然"
+            ],
+            "terms": [
+              {
+                "en": "workload",
+                "jp": "処理負荷／作業の種類",
+                "pos": "n"
+              },
+              {
+                "en": "rather than",
+                "jp": "〜よりむしろ",
+                "pos": "phr"
+              }
+            ]
+          },
+          {
+            "en": "I would typically use Snowflake as the main data warehouse and analytics serving layer.",
+            "jp": "Snowflakeは主にDWH（データウェアハウス）と分析の提供レイヤーとして使います。",
+            "linking": "use Snowflake‿as the main data warehouse",
+            "syntax": "use A as B（AをBとして使う）。typically で『たいてい』と幅を持たせる。",
+            "grammar": [
+              "use A as B（AをBとして使う）"
+            ],
+            "tips": [
+              "serving layer＝利用者にデータを提供する層"
+            ],
+            "terms": [
+              {
+                "en": "data warehouse",
+                "jp": "データウェアハウス（DWH）",
+                "pos": "n"
+              },
+              {
+                "en": "serving layer",
+                "jp": "提供レイヤー",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "It is a good fit for structured data, BI reporting, data marts, and SQL-based analytics.",
+            "jp": "構造化データ、BIレポート、データマート、SQLベースの分析に向いています。",
+            "linking": "a good fit‿for structured data",
+            "syntax": "be a good fit for ...（〜に適している）。for の目的語を and で4つ並列。",
+            "grammar": [
+              "be a good fit for（〜に適している）"
+            ],
+            "tips": [
+              "a good fit は『相性が良い』の定番"
+            ],
+            "terms": [
+              {
+                "en": "a good fit for",
+                "jp": "〜に適している",
+                "pos": "phr"
+              },
+              {
+                "en": "structured data",
+                "jp": "構造化データ",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "For example, analysts and business users can consume curated data from Snowflake through tools like Tableau.",
+            "jp": "例えばアナリストや業務ユーザーが、TableauのようなツールからSnowflakeの整備済みデータを利用できます。",
+            "linking": "consume curated data‿from Snowflake",
+            "syntax": "For example で具体例。can + 動詞原形（可能）。through = 〜を通じて。",
+            "grammar": [
+              "For example,（具体例の導入）"
+            ],
+            "tips": [
+              "consume data＝データを利用する／curated＝整備された"
+            ],
+            "terms": [
+              {
+                "en": "consume",
+                "jp": "（データを）利用する",
+                "pos": "v"
+              },
+              {
+                "en": "curated data",
+                "jp": "整備済みデータ",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "Snowflake also provides strong access control, warehouse separation, and cost management features such as auto-suspend, so it is a good choice when we need a reliable and governed analytics platform.",
+            "jp": "Snowflakeは強力なアクセス制御、ウェアハウス分離、auto-suspendなどのコスト管理機能も備え、信頼性が高くガバナンスの効いた分析基盤が必要なときに良い選択です。",
+            "linking": "such as‿auto-suspend",
+            "syntax": "主節 provides A, B, and C。such as で例示。結果の so it is ...。when 節で条件提示。",
+            "grammar": [
+              "列挙 A, B, and C + such as 例示",
+              "結果を導く so"
+            ],
+            "tips": [
+              "governed＝ガバナンスが効いた（管理された）"
+            ],
+            "terms": [
+              {
+                "en": "access control",
+                "jp": "アクセス制御（権限管理）",
+                "pos": "n"
+              },
+              {
+                "en": "governed",
+                "jp": "ガバナンスの効いた",
+                "pos": "adj"
+              }
+            ]
+          },
+          {
+            "en": "On the other hand, I would use Databricks for large-scale data processing, complex transformations with Python or Spark, machine learning, unstructured data, and AI or RAG-related workloads.",
+            "jp": "一方Databricksは、大規模データ処理、PythonやSparkでの複雑な変換、機械学習、非構造化データ、AI/RAG系のワークロードに使います。",
+            "linking": "On the other hand‿I would use",
+            "syntax": "対比の On the other hand。use A for B（BのためにAを使う）。for の目的語を多数並列。",
+            "grammar": [
+              "対比表現 On the other hand",
+              "use A for B"
+            ],
+            "tips": [
+              "unstructured data＝非構造化データ。RAG＝検索拡張生成"
+            ],
+            "terms": [
+              {
+                "en": "large-scale",
+                "jp": "大規模な",
+                "pos": "adj"
+              },
+              {
+                "en": "unstructured data",
+                "jp": "非構造化データ",
+                "pos": "n"
+              },
+              {
+                "en": "transformation",
+                "jp": "変換",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "It is also useful when data scientists or ML engineers need to experiment using notebooks, Git integration, and production pipelines.",
+            "jp": "データサイエンティストやMLエンジニアが、Notebook・Git連携・本番パイプラインを使って実験する場面でも有用です。",
+            "linking": "useful when‿data scientists",
+            "syntax": "It is useful when S V。need to do（〜する必要がある）。using ...は手段の分詞。",
+            "grammar": [
+              "when 節（〜のとき）",
+              "using + 名詞（〜を使って）"
+            ],
+            "tips": [
+              "experiment は動詞『実験する』"
+            ],
+            "terms": [
+              {
+                "en": "experiment",
+                "jp": "実験する",
+                "pos": "v"
+              },
+              {
+                "en": "production pipeline",
+                "jp": "本番パイプライン",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "With Unity Catalog, Databricks can also provide centralized governance for data and AI assets.",
+            "jp": "Unity Catalogを使えば、DatabricksはデータとAI資産に対して統合的なガバナンスも提供できます。",
+            "linking": "centralized governance‿for data",
+            "syntax": "With + 名詞（〜を使えば／〜があれば）の付帯。can provide（可能）。",
+            "grammar": [
+              "With + 名詞（手段・条件の前置き）"
+            ],
+            "tips": [
+              "centralized governance＝一元化された統制"
+            ],
+            "terms": [
+              {
+                "en": "centralized governance",
+                "jp": "統合（一元化）ガバナンス",
+                "pos": "n"
+              },
+              {
+                "en": "AI assets",
+                "jp": "AI資産",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "In this architecture, dbt would be responsible for transformation logic, data mart design, testing, documentation, and lineage.",
+            "jp": "この構成ではdbtが、変換ロジック・データマート設計・テスト・ドキュメント・リネージを担います。",
+            "linking": "dbt would‿be responsible‿for",
+            "syntax": "be responsible for ...（〜を担当する）。for の目的語を並列。",
+            "grammar": [
+              "be responsible for（〜の役割を担う）"
+            ],
+            "tips": [
+              "lineage＝データの来歴（どこから来たか）"
+            ],
+            "terms": [
+              {
+                "en": "be responsible for",
+                "jp": "〜を担当する",
+                "pos": "phr"
+              },
+              {
+                "en": "lineage",
+                "jp": "データリネージ（来歴）",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "I would usually separate models into layers such as raw, staging, intermediate, and marts.",
+            "jp": "モデルはraw・staging・intermediate・martのような層に分けるのが通常です。",
+            "linking": "separate models‿into layers",
+            "syntax": "separate A into B（AをBに分ける）。such as で層の例示。",
+            "grammar": [
+              "separate A into B（AをBに分割する）"
+            ],
+            "tips": [
+              "層分け（layering）はdbt設計の基本"
+            ],
+            "terms": [
+              {
+                "en": "separate into",
+                "jp": "〜に分ける",
+                "pos": "v"
+              },
+              {
+                "en": "layer",
+                "jp": "層",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "Then I would add tests such as not null, unique, accepted values, and relationship tests, and run them as part of CI/CD to maintain data quality.",
+            "jp": "そのうえでnot null・unique・accepted values・relationshipsなどのテストを加え、CI/CDの一部として実行してデータ品質を維持します。",
+            "linking": "run them‿as part‿of CI/CD",
+            "syntax": "add A and run B の等位。as part of ...（〜の一部として）。to maintain ...は目的の不定詞。",
+            "grammar": [
+              "目的の不定詞 to maintain（〜するために）",
+              "as part of（〜の一環として）"
+            ],
+            "tips": [
+              "data quality を maintain（維持する）"
+            ],
+            "terms": [
+              {
+                "en": "data quality",
+                "jp": "データ品質",
+                "pos": "n"
+              },
+              {
+                "en": "maintain",
+                "jp": "維持する",
+                "pos": "v"
+              }
+            ]
+          },
+          {
+            "en": "Terraform would be used to manage infrastructure and governance-related resources as code, such as roles, grants, catalogs, schemas, warehouses, service principals, and workspace settings.",
+            "jp": "Terraformは、ロール・grant・カタログ・スキーマ・ウェアハウス・サービスプリンシパル・ワークスペース設定などのインフラとガバナンス関連リソースをコードで管理するために使います。",
+            "linking": "manage infrastructure‿and governance",
+            "syntax": "受動態 would be used to do（〜するために使われる）。manage A as code。such as で列挙。",
+            "grammar": [
+              "受動態 be used to do（〜するのに使われる）",
+              "as code（コードとして＝IaC）"
+            ],
+            "tips": [
+              "governance-related＝ガバナンス関連の（複合形容詞）"
+            ],
+            "terms": [
+              {
+                "en": "as code",
+                "jp": "コードとして（IaC）",
+                "pos": "phr"
+              },
+              {
+                "en": "service principal",
+                "jp": "サービスプリンシパル（システム用アカウント）",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "However, I would be careful not to manage everything too granularly in Terraform, because that can increase operational overhead.",
+            "jp": "ただし、すべてを細かくTerraform管理しすぎないよう注意します。運用コストが増えるためです。",
+            "linking": "careful not‿to manage everything",
+            "syntax": "逆接 However。be careful not to do（〜しないよう気をつける）。理由の because 節。",
+            "grammar": [
+              "be careful not to do（〜しないよう注意する）",
+              "否定の不定詞 not to do"
+            ],
+            "tips": [
+              "too granularly＝細かすぎるほど。overhead＝余分な負荷/コスト"
+            ],
+            "terms": [
+              {
+                "en": "granularly",
+                "jp": "細かい粒度で",
+                "pos": "adv"
+              },
+              {
+                "en": "operational overhead",
+                "jp": "運用上のコスト/負荷",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "I would decide the right level of IaC based on change frequency, risk, and team maturity.",
+            "jp": "どこまでIaC化するかは、変更頻度・リスク・チームの成熟度に応じて判断します。",
+            "linking": "based on‿change frequency",
+            "syntax": "decide the right level of ...（適切な度合いを判断）。based on A, B, and C（〜に基づいて）。",
+            "grammar": [
+              "based on（〜に基づいて）"
+            ],
+            "tips": [
+              "team maturity＝チームの習熟度。判断軸を3つ示すと説得力が出る"
+            ],
+            "terms": [
+              {
+                "en": "change frequency",
+                "jp": "変更頻度",
+                "pos": "n"
+              },
+              {
+                "en": "team maturity",
+                "jp": "チームの成熟度",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "Overall, I would position Snowflake as the analytics and serving layer, Databricks as the large-scale processing and ML/AI layer, dbt as the transformation and quality layer, and Terraform as the foundation for reproducibility and governance.",
+            "jp": "全体として、Snowflakeを分析・提供レイヤー、Databricksを大規模処理・ML/AIレイヤー、dbtを変換と品質のレイヤー、Terraformを再現性とガバナンスの基盤と位置づけます。",
+            "linking": "position Snowflake‿as the analytics",
+            "syntax": "まとめの Overall。position A as B を4回反復（A as B, A as B, ...）で全体像を整理。",
+            "grammar": [
+              "position A as B（AをBと位置づける）",
+              "対句の反復でまとめる"
+            ],
+            "tips": [
+              "締めで各ツールの役割を一文で再整理する型"
+            ],
+            "terms": [
+              {
+                "en": "position A as B",
+                "jp": "AをBと位置づける",
+                "pos": "phr"
+              },
+              {
+                "en": "reproducibility",
+                "jp": "再現性",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "If we need to connect this platform to web applications or APIs, I would also consider which data needs to be served in real time and which data should be prepared in the warehouse for analytics, while balancing reliability, cost, and security.",
+            "jp": "WebアプリやAPIと接続する場合は、どのデータをリアルタイム提供し、どのデータをDWHで分析用に整えるかを分け、信頼性・コスト・セキュリティのバランスを取って設計します。",
+            "linking": "served‿in real time",
+            "syntax": "条件の If 節。consider + 間接疑問 which data ...（2つを and で並列）。while balancing ...の分詞構文。",
+            "grammar": [
+              "間接疑問 which data needs to ...",
+              "while + -ing（〜しながら）"
+            ],
+            "tips": [
+              "served in real time＝リアルタイム提供。締めでビジネス観点（信頼性/コスト/セキュリティ）を示す"
+            ],
+            "terms": [
+              {
+                "en": "in real time",
+                "jp": "リアルタイムで",
+                "pos": "phr"
+              },
+              {
+                "en": "reliability",
+                "jp": "信頼性",
+                "pos": "n"
+              }
+            ]
+          }
+        ]
+      },
+      "pron": {
+        "tts": true
+      },
+      "source": {
+        "added": "2026-06-23"
+      }
+    }
+  ]
+}

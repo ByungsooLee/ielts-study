@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "buildId": "fd61d42",
-  "generatedAt": "2026-06-23T14:09:50.121Z",
-  "version": "cbe9a558",
+  "buildId": "75e427c",
+  "generatedAt": "2026-06-24T03:11:06.180Z",
+  "version": "0b654747",
   "collections": [
     {
       "id": "ielts-vocab",
@@ -305,6 +305,13 @@
           "count": 1,
           "file": "engineering/interview/genre-1.json",
           "version": "cf0e5166"
+        },
+        {
+          "theme": 2,
+          "themeName": "技術質問",
+          "count": 1,
+          "file": "engineering/interview/genre-2.json",
+          "version": "c586bae9"
         }
       ]
     }

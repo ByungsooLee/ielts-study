@@ -475,5 +475,6 @@
   "g-tense-past-perfect-2": 474,
   "g-tense-future-perfect": 475,
   "g-tense-perfect-progressive": 476,
-  "iv-background-data-eng": 477
+  "iv-background-data-eng": 477,
+  "iv-snowflake-databricks-roles": 478
 }
