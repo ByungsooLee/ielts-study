@@ -35,7 +35,7 @@ import {
 } from "./ttsUsage";
 
 const VOICE_MAP: Record<string, { languageCode: string; name: string }> = {
-  "en-GB": { languageCode: "en-GB", name: "en-GB-Neural2-A" },
+  "en-GB": { languageCode: "en-GB", name: "en-GB-Neural2-B" },
   "en-US": { languageCode: "en-US", name: "en-US-Neural2-D" },
   "en-AU": { languageCode: "en-AU", name: "en-AU-Neural2-B" },
 };

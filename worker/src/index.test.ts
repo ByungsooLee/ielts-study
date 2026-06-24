@@ -124,7 +124,7 @@ describe("/tts", () => {
     const hash = await ttsHash({
       text: "cached",
       languageCode: "en-GB",
-      voiceName: "en-GB-Neural2-A",
+      voiceName: "en-GB-Neural2-B",
       speakingRate: 1,
       audioEncoding: "MP3",
     });
@@ -161,7 +161,7 @@ describe("/tts", () => {
     const hash = await ttsHash({
       text: "hello",
       languageCode: "en-GB",
-      voiceName: "en-GB-Neural2-A",
+      voiceName: "en-GB-Neural2-B",
       speakingRate: 1,
       audioEncoding: "MP3",
     });
