@@ -67,7 +67,8 @@ function labelForFunc(kind: DrillKind, f: string): string {
 }
 
 export function WordModeView({ items, kind, focusFunc }: Props) {
-  const [showMeaning, setShowMeaning] = useState(true);
+  // 既定は「隠す」。単語だけを見て思い出せるか試し、タップで意味シート／トグルで一括表示。
+  const [showMeaning, setShowMeaning] = useState(false);
   const openPopover = useWordPopoverStore((s) => s.open);
   const srs = useProgressStore((s) => s.progress.srs);
   const accent = useSettingsStore((s) => s.settings.accent);
