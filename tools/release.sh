@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
 # ============================================================
-# ワンショット反映: 教材ビルド → 本番KVへpush → git push（CIでデプロイ）
-# Claude Code から実行する想定（Leeのgit/Cloudflare認証を使用）。
-#
-# 前提（1回だけ設定）:
-#   - SYNC_TOKEN を web/.env.local か worker/.dev.vars に保存、または環境変数で渡す
-#   - git push 認証（SSH鍵/GitHub）が通ること
+# ワンショット反映: 教材ビルド → git push（CIでデプロイ）
+# 教材配信は Pages 静的シャード(/content/**) に一本化されているため、
+# Worker KV への content:push は行わない（教材は git push → Pages CI で反映）。
+# 進捗の同期は Worker /progress で継続（クライアント側で自動同期）。
 #
 # 使い方:
 #   bash tools/release.sh                 # 教材+コードを一気に反映
-#   SKIP_GIT=1 bash tools/release.sh       # 教材(content:push)だけ反映
+#   SKIP_GIT=1 bash tools/release.sh       # 教材ビルドのみ（コミット/プッシュなし）
 #   SKIP_PUSH=1 bash tools/release.sh      # commitまで（pushしない）
 # ============================================================
 set -euo pipefail
@@ -50,7 +48,7 @@ if [ -d "$IELTS" ]; then
   fi
 
   # ドリル系(task1/writing/speaking): Cowork の content-src 直下のセクション別JSONを同期。
-  # 命名規則 section-N.json。task1build.js / opinionbuild.js が読んでシャード＋index を生成。
+  # 命名規則 section-N.json。task1build.js / opinionbuild.js が読んでシャードを生成。
   for sub in task1 writing speaking; do
     DR_SRC="$IELTS/content-src/$sub"
     if [ -d "$DR_SRC" ]; then
@@ -71,22 +69,16 @@ else
   echo "   ⚠ IELTS フォルダが見つかりません: $IELTS（スキップ）"
 fi
 
-echo "▶ 1) 教材JSONを再生成（content-src → web/public/content + sample + index）"
+echo "▶ 1) 教材JSONを再生成（content-src → web/public/content/**）"
 npm run content:build
-
-echo "▶ 2) 本番KVへ教材をpush（content:push）"
-# SYNC_TOKEN は web/.env.local / worker/.dev.vars から自動読込される想定。
-# 無ければ環境変数 SYNC_TOKEN=... を付けて実行。
-npm run content:push
-echo "   → KV /content 更新。dev・本番アプリは次回取得で反映。"
 
 if [ "${SKIP_GIT:-0}" = "1" ]; then
   echo "⏭ SKIP_GIT=1: gitコミット/プッシュをスキップ。"
-  echo "✅ 教材のみ反映 完了"
+  echo "✅ 教材ビルドのみ 完了"
   exit 0
 fi
 
-echo "▶ 3) gitへコミット"
+echo "▶ 2) gitへコミット"
 git add -A
 git commit -m "content: update $(date +%F)" || { echo "   （変更なし）"; }
 
@@ -95,6 +87,6 @@ if [ "${SKIP_PUSH:-0}" = "1" ]; then
   exit 0
 fi
 
-echo "▶ 4) git push origin main（GitHub Actions が Pages/Worker をデプロイ）"
+echo "▶ 3) git push origin main（GitHub Actions が Pages/Worker をデプロイ）"
 git push origin main
-echo "✅ 一気に反映 完了（教材=即時KV / コード=CIデプロイ後に反映）"
+echo "✅ 反映完了（教材＝Pages, コード＝CIデプロイ後に反映）"

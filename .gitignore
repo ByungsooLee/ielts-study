@@ -19,6 +19,10 @@ credentials.json
 .vscode/
 *.swp
 
-# 教材のローカルバックアップ（コミットしない）
+# 教材の生成物・ローカルバックアップ（コミットしない）
+# ソースは content-src/、配信は web/public/content/**。
+# sample 配下は md2json.js が生成する累積JSON / 日次バッチのローカル副産物。
 sample/*.prev.json
+sample/ielts-import.json
+sample/imports/
 .ielts-index-headers.txt

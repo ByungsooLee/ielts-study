@@ -22,7 +22,7 @@ describe("/app-bootstrap", () => {
       apiVersion: "v1",
       authMode: "manual-token",
       requiresToken: true,
-      features: { progressSync: true, tts: true, legacyContentKv: true },
+      features: { progressSync: true, tts: true, legacyContentKv: false },
     });
     expect(JSON.stringify(body)).not.toContain("top-secret");
   });

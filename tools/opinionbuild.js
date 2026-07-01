@@ -1,8 +1,10 @@
 /* Part3 意見(Writing Task2 / Speaking) ビルダー
-   content-src/writing/section-*.json  → web/public/content/english/ielts-writing/section-N.json ＋ 目次
-   content-src/speaking/section-*.json → web/public/content/english/ielts-speaking/section-N.json ＋ 目次
+   content-src/writing/section-*.json  → web/public/content/english/ielts-writing/section-N.json
+   content-src/speaking/section-*.json → web/public/content/english/ielts-speaking/section-N.json
    使い方: node tools/opinionbuild.js
-   ※ version は中身のmd5(8桁)。接続表現など複数ファイル共有のitem idはそのまま（SRSはid単位）。 */
+   ※ version は中身のmd5(8桁)。接続表現など複数ファイル共有のitem idはそのまま（SRSはid単位）。
+   ※ standalone index は生成しない。md2json.js が上記シャード dir を直接走査して
+      主 index.json の collections[] に反映する。 */
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
@@ -25,7 +27,6 @@ function build(kind, collId, collName, srcSub) {
   const files = fs.existsSync(SRC)
     ? fs.readdirSync(SRC).filter(f => /^section-\d+\.json$/.test(f)).sort()
     : [];
-  const sections = [];
   let totalItems = 0, totalDrills = 0;
 
   for (const f of files) {
@@ -78,36 +79,11 @@ function build(kind, collId, collName, srcSub) {
     };
     fs.writeFileSync(outPath, JSON.stringify(body, null, 2) + "\n");
 
-    sections.push({
-      section: d.section,
-      title: d.title,
-      file: `english/${collId}/${outName}`,
-      version,
-      itemCount: items.length,
-      drillCount: drills.length,
-    });
     totalItems += items.length;
     totalDrills += drills.length;
   }
 
-  sections.sort((a, b) => a.section - b.section);
-  const indexVersion = hash(sections.map(s => s.section + ":" + s.version).join("|"));
-  const indexPath = path.join(CONTENT, collId + "-index.json");
-  const prevIndex = readJsonIfExists(indexPath);
-  const indexGeneratedAt = (prevIndex && prevIndex.version === indexVersion && prevIndex.generatedAt) ? prevIndex.generatedAt : nowIso;
-  const index = {
-    schemaVersion: CONTENT_SCHEMA_VERSION,
-    id: collId,
-    domain: "english",
-    name: collName,
-    kind,
-    version: indexVersion,
-    generatedAt: indexGeneratedAt,
-    sections,
-  };
-  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2) + "\n");
-
-  console.error(`${kind}: sections ${sections.length} | items ${totalItems} | drills ${totalDrills}`);
+  console.error(`${kind}: sections ${files.length} | items ${totalItems} | drills ${totalDrills}`);
 }
 
 build("writing", "ielts-writing", "IELTS意見エッセイ(Writing Task2)", "writing");

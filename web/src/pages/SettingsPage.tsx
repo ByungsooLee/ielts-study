@@ -1,12 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { getAllContent, upsertContent } from "../db";
-import { mergeContent, recordsToContentData } from "../lib/contentMerge";
-import { fetchRemoteContent, putRemoteContent } from "../lib/contentSync";
 import { mergeProgress } from "../lib/merge";
 import { normalizeProgress } from "../lib/progress";
 import { fetchRemoteProgress, putRemoteProgress, saveLocalProgress } from "../lib/sync";
 import { getDeviceId } from "../lib/device";
-import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { formatCharCount } from "../lib/ttsUsage";
 import { isSyncConfigured, setSyncToken, setWorkerUrl, workerUrlLabel } from "../lib/workerConfig";
@@ -39,7 +35,6 @@ export function SettingsPage() {
   } = useSettingsStore();
   const progress = useProgressStore((s) => s.progress);
   const updateProgress = useProgressStore((s) => s.updateProgress);
-  const loadContent = useContentStore((s) => s.load);
   const ttsUsage = useTtsUsageStore((s) => s.usage);
   const ttsLoadError = useTtsUsageStore((s) => s.loadError);
   const refreshTtsUsage = useTtsUsageStore((s) => s.refresh);
@@ -118,15 +113,7 @@ export function SettingsPage() {
     const { settings: s } = useSettingsStore.getState();
     setSyncStatus("syncing");
     try {
-      const localRecords = await getAllContent();
-      const remoteContent = await fetchRemoteContent(s.workerUrl, s.syncToken);
-      const mergedContent = mergeContent(recordsToContentData(localRecords), remoteContent);
-      if (mergedContent.records.length > 0) {
-        await upsertContent(mergedContent.records);
-        await loadContent();
-      }
-      await putRemoteContent(s.workerUrl, s.syncToken, mergedContent);
-
+      // 教材は Pages 静的シャードから常に配信されるので、同期対象は進捗のみ。
       const remote = await fetchRemoteProgress(s.workerUrl, s.syncToken);
       const merged = mergeProgress(progress, remote);
       updateProgress(merged);

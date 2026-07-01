@@ -348,32 +348,41 @@ try {
 } catch(e){ /* interview シャードが無ければスキップ */ }
 
 // 5) ドリル系コレクション（task1/writing/speaking）: task1build/opinionbuild が事前に生成した
-//    standalone index (`<collId>-index.json`) を読み、主 index の collections[] に追記する。
-//    ドリル系シャードは既に web/public/content/english/<collId>/section-N.json に出力済み。
-//    ここでは主目次への統合のみを行う（idempotent: version は各ビルダーが content hash で算出）。
+//    シャード dir を直接走査して主 index の collections[] を組み立てる。
+//    standalone index (`<collId>-index.json`) は廃止済み。
 const DRILL_COLLECTIONS = [
-  { indexFile: "task1-index.json" },
-  { indexFile: "ielts-writing-index.json" },
-  { indexFile: "ielts-speaking-index.json" },
+  { id: "ielts-task1", name: "IELTS図解描写(Task1)", kind: "task1" },
+  { id: "ielts-writing", name: "IELTS意見エッセイ(Writing Task2)", kind: "writing" },
+  { id: "ielts-speaking", name: "IELTS口頭回答(Speaking)", kind: "speaking" },
 ];
 for (const d of DRILL_COLLECTIONS) {
-  const p = path.join(CONTENT, d.indexFile);
-  const idx = readJsonIfExists(p);
-  if (!idx || !Array.isArray(idx.sections)) continue;
-  const themes = idx.sections.map(s => ({
-    theme: s.section,
-    themeName: s.title,
-    count: s.itemCount ?? 0,
-    file: s.file,
-    version: s.version,
-    ...(typeof s.drillCount === "number" ? { drillCount: s.drillCount } : {}),
-  }));
+  const dir = path.join(CONTENT, "english", d.id);
+  let shardFiles = [];
+  try {
+    shardFiles = fs.readdirSync(dir).filter(f => /^section-\d+\.json$/.test(f));
+  } catch (e) {
+    continue; // シャードdirが未生成ならスキップ
+  }
+  const themes = shardFiles.map(f => {
+    const shard = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+    const drillCount = Array.isArray(shard.drills) ? shard.drills.length : undefined;
+    return {
+      theme: shard.section ?? shard.theme,
+      themeName: shard.title ?? shard.themeName,
+      count: Array.isArray(shard.items) ? shard.items.length : 0,
+      file: `english/${d.id}/${f}`,
+      version: shard.version,
+      ...(typeof drillCount === "number" ? { drillCount } : {}),
+    };
+  }).sort((a, b) => a.theme - b.theme);
+  if (themes.length === 0) continue;
+  const collVersion = hash(themes.map(t => t.theme + ":" + t.version).join("|"));
   collectionsOut.push({
-    id: idx.id,
-    domain: idx.domain,
-    name: idx.name,
-    kind: idx.kind,
-    version: idx.version,
+    id: d.id,
+    domain: "english",
+    name: d.name,
+    kind: d.kind,
+    version: collVersion,
     themes,
   });
 }

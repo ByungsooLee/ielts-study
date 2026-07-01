@@ -12,9 +12,7 @@ import {
 } from "./http";
 import {
   DEFAULT_USER_ID,
-  LEGACY_CONTENT_KEY,
   LEGACY_PROGRESS_KEY,
-  contentLegacyKey,
   progressKey,
 } from "./keys";
 import {
@@ -51,24 +49,9 @@ function bootstrapInfo(env: Env) {
     features: {
       progressSync: true,
       tts: Boolean(env.GOOGLE_TTS_KEY),
-      legacyContentKv: true,
+      legacyContentKv: false,
     },
   };
-}
-
-async function handleContent(request: Request, env: Env, cors: Cors): Promise<Response> {
-  if (request.method === "GET") {
-    const raw = (await env.IELTS_KV.get(contentLegacyKey())) ?? (await env.IELTS_KV.get(LEGACY_CONTENT_KEY));
-    if (!raw) return json({ records: [], updatedAt: 0 }, 200, cors);
-    return json(JSON.parse(raw), 200, cors);
-  }
-  if (request.method === "PUT") {
-    // 妥当な JSON のみ受理（不正は readJson が 400）。content はレガシー扱い。
-    const body = await readJson<unknown>(request);
-    await env.IELTS_KV.put(contentLegacyKey(), JSON.stringify(body));
-    return json({ ok: true }, 200, cors);
-  }
-  throw new HttpError(ERROR_CODES.METHOD_NOT_ALLOWED, "Method Not Allowed", 405);
 }
 
 async function handleProgress(request: Request, env: Env, cors: Cors): Promise<Response> {
@@ -234,7 +217,11 @@ export default {
         return errorJson(ERROR_CODES.UNAUTHORIZED, "Unauthorized", 401, cors);
       }
 
-      if (url.pathname === "/content") return await handleContent(request, env, cors);
+      // /content は廃止済み。教材配信は Pages 静的シャード(/content/**)を使う。
+      // 古いクライアントが叩いた場合は 410 Gone で明示的に廃止を通知。
+      if (url.pathname === "/content") {
+        return errorJson(ERROR_CODES.NOT_FOUND, "Gone: /content is retired; use Pages /content/index.json", 410, cors);
+      }
       if (url.pathname === "/progress") return await handleProgress(request, env, cors);
       if (url.pathname === "/tts-usage" && request.method === "GET") {
         return await handleTtsUsage(env, cors);

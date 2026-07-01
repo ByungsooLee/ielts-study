@@ -1,9 +1,7 @@
 import { useEffect } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { syncContentOnStartup } from "./lib/contentSync";
 import { syncOnStartup } from "./lib/sync";
 import { fetchContentIndex } from "./lib/staticContent";
-import { getAllContent } from "./db";
 import { startVersionCheck } from "./lib/versionCheck";
 import { EnglishLayout } from "./layouts/EnglishLayout";
 import { EngineeringLayout } from "./layouts/EngineeringLayout";
@@ -48,14 +46,13 @@ export default function App() {
       // 合言葉は手動設定（env / 設定画面）。最新値を settings に取り込む。
       refreshConnection();
 
-      const localRecords = await getAllContent();
+      // 教材は Pages 静的シャード（/content/**）から遅延取得。IndexedDB は起動時に一度読む。
       await loadContent();
       const local = useProgressStore.getState().progress;
       const syncSettings = useSettingsStore.getState().settings;
       if (isSyncConfigured()) {
         setSyncStatus("syncing");
-        await syncContentOnStartup(syncSettings.workerUrl, syncSettings.syncToken, localRecords);
-        await loadContent();
+        // 進捗のみ Worker /progress で端末間同期。
         const merged = await syncOnStartup(syncSettings.workerUrl, syncSettings.syncToken, local);
         hydrate(merged);
         setSyncStatus("ok");

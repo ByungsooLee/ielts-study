@@ -1,8 +1,6 @@
 import { create } from "zustand";
 import { getAllContent, upsertContent } from "../db";
-import { scheduleContentSyncPut } from "../lib/contentSync";
 import { buildContentRecords, parseImportJson } from "../lib/import";
-import { useSettingsStore } from "./settingsStore";
 import type { ContentRecord, ImportResult, ItemType } from "../types";
 
 export interface ContentFilters {
@@ -38,13 +36,6 @@ interface ContentState {
   getById: (id: string) => ContentRecord | undefined;
 }
 
-function pushContentToCloud(records: ContentRecord[]) {
-  const { settings, setSyncStatus } = useSettingsStore.getState();
-  scheduleContentSyncPut(settings.workerUrl, settings.syncToken, records, (status) => {
-    if (status === "error") setSyncStatus("error", "教材の同期に失敗しました");
-  });
-}
-
 export const useContentStore = create<ContentState>((set, get) => ({
   items: [],
   loading: false,
@@ -60,10 +51,8 @@ export const useContentStore = create<ContentState>((set, get) => ({
     const existingIds = new Set(get().items.map((i) => i.id));
     const { records, result } = buildContentRecords(file, existingIds);
     await upsertContent(records);
-    const allRecords = await getAllContent();
     await get().load();
     set({ lastImportResult: result });
-    pushContentToCloud(allRecords);
     return result;
   },
   setFilters: (patch) => set({ filters: { ...get().filters, ...patch } }),

@@ -1,8 +1,10 @@
 /* Part2 図解描写(Task1) ビルダー
-   content-src/task1/section-*.json → web/public/content/english/ielts-task1/section-N.json ＋ 目次
+   content-src/task1/section-*.json → web/public/content/english/ielts-task1/section-N.json
    使い方: node tools/task1build.js  （content:build から呼ばれる）
    ※ version は中身のmd5(8桁)＝idempotent（内容が変わった時だけ更新）。
-      generatedAt は version 変化時のみ更新して git 差分を最小化。 */
+      generatedAt は version 変化時のみ更新して git 差分を最小化。
+   ※ standalone index は生成しない。md2json.js が web/public/content/english/ielts-task1/
+      配下のシャードを直接走査して主 index.json の collections[] に反映する。 */
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
@@ -25,7 +27,6 @@ const files = fs.existsSync(SRC)
   ? fs.readdirSync(SRC).filter(f => /^section-\d+\.json$/.test(f)).sort()
   : [];
 
-const sections = [];
 let totalItems = 0, totalDrills = 0;
 
 for (const f of files) {
@@ -72,34 +73,8 @@ for (const f of files) {
   };
   fs.writeFileSync(outPath, JSON.stringify(body, null, 2) + "\n");
 
-  sections.push({
-    section: d.section,
-    title: d.title,
-    chartType: d.chart && d.chart.type,
-    file: `english/ielts-task1/${outName}`,
-    version,
-    itemCount: items.length,
-    drillCount: (d.drills || []).length,
-  });
   totalItems += items.length;
   totalDrills += (d.drills || []).length;
 }
 
-sections.sort((a, b) => a.section - b.section);
-const indexVersion = hash(sections.map(s => s.section + ":" + s.version).join("|"));
-const indexPath = path.join(CONTENT, "task1-index.json");
-const prevIndex = readJsonIfExists(indexPath);
-const indexGeneratedAt = (prevIndex && prevIndex.version === indexVersion && prevIndex.generatedAt) ? prevIndex.generatedAt : nowIso;
-const index = {
-  schemaVersion: CONTENT_SCHEMA_VERSION,
-  id: "ielts-task1",
-  domain: "english",
-  name: "IELTS図解描写(Task1)",
-  kind: "task1",
-  version: indexVersion,
-  generatedAt: indexGeneratedAt,
-  sections,
-};
-fs.writeFileSync(indexPath, JSON.stringify(index, null, 2) + "\n");
-
-console.error(`task1: sections ${sections.length} | items ${totalItems} | drills ${totalDrills}`);
+console.error(`task1: sections ${files.length} | items ${totalItems} | drills ${totalDrills}`);
