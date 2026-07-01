@@ -13,6 +13,7 @@ export const STORAGE_KEYS = {
   deviceId: `${PREFIX}device-id`,
   syncToken: `${PREFIX}sync-token`,
   workerUrl: `${PREFIX}worker-url`,
+  wordMarks: `${PREFIX}word-marks-v1`,
 } as const;
 
 /** 旧キー（移行のための読み取り専用フォールバック） */

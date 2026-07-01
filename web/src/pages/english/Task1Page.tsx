@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { DrillRunner } from "../../components/english/DrillRunner";
 import { DrillSectionPicker } from "../../components/english/DrillSectionPicker";
+import { PartBanner } from "../../components/english/PartBanner";
 import {
   computeDrillDueCounts,
   DRILL_COLLECTION_IDS,
@@ -131,6 +132,13 @@ export function Task1Page() {
 
   return (
     <div className="space-y-4">
+      <PartBanner
+        color="sky"
+        part="Part 2"
+        title="図解描写 (Task1)"
+        subtitle="図の動きを英語で描く"
+        sectionRange="58–65"
+      />
       <DrillSectionPicker
         title="IELTS 図解描写 (Task1)"
         description="図の動きを英語で描く"

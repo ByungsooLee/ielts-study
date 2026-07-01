@@ -17,6 +17,7 @@ import { PassivePage } from "./pages/english/PassivePage";
 import { WordsPage } from "./pages/english/WordsPage";
 import { Task1Page } from "./pages/english/Task1Page";
 import { SpeakingPage, WritingPage } from "./pages/english/OpinionPage";
+import { MarkReviewPage } from "./pages/english/MarkReviewPage";
 import { EngineeringListPage } from "./pages/engineering/EngineeringListPage";
 import { EngineeringStudyPage } from "./pages/engineering/EngineeringStudyPage";
 import { InterviewPage } from "./pages/engineering/InterviewPage";
@@ -88,6 +89,7 @@ export default function App() {
         <Route path="task1" element={<Task1Page />} />
         <Route path="writing" element={<WritingPage />} />
         <Route path="speaking" element={<SpeakingPage />} />
+        <Route path="marks" element={<MarkReviewPage />} />
         <Route path="passive" element={<PassivePage />} />
         <Route path="phrases" element={<Navigate to="/english/words" replace />} />
         <Route path="maybe" element={<MaybePage />} />

@@ -3,6 +3,7 @@ import { playPronunciation } from "../../lib/pronunciation";
 import { resolveTargets } from "../../lib/drillContent";
 import { useProgressStore } from "../../stores/progressStore";
 import { useSettingsStore } from "../../stores/settingsStore";
+import { MarkableWordChip } from "./MarkableWordChip";
 import { RecordingPanel } from "../RecordingPanel";
 import type { DrillDef, DrillKind, Grade, StudyItem } from "../../types";
 
@@ -152,18 +153,18 @@ export function DrillRunner({ kind, drills, items, aboveInput, onFinish }: Props
         <p className="mt-1 text-lg leading-relaxed text-slate-900 dark:text-slate-50">{current.jp}</p>
 
         {targets.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-2">
-            <span className="text-xs text-slate-500 dark:text-slate-400">ヒント:</span>
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <span className="text-xs text-slate-500 dark:text-slate-400">
+              ヒント（タップで青→黄→オレンジ）:
+            </span>
             {targets.map((t) => (
-              <button
+              <MarkableWordChip
                 key={t.id}
-                type="button"
-                className="rounded-full border border-slate-300 px-2.5 py-0.5 text-xs text-slate-700 hover:bg-slate-100 dark:border-slate-600 dark:text-slate-200 dark:hover:bg-slate-800"
-                onClick={() => void playWord(t.front)}
-                title={t.meaning}
-              >
-                🔊 {t.front}
-              </button>
+                itemId={t.id}
+                label={t.front}
+                meaning={t.meaning}
+                onSpeak={() => void playWord(t.front)}
+              />
             ))}
           </div>
         )}

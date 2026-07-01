@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { DrillRunner } from "../../components/english/DrillRunner";
 import { DrillSectionPicker } from "../../components/english/DrillSectionPicker";
+import { MarkableWordChip } from "../../components/english/MarkableWordChip";
+import { PartBanner, type PartColor } from "../../components/english/PartBanner";
 import {
   computeDrillDueCounts,
   DRILL_COLLECTION_IDS,
@@ -43,6 +45,10 @@ interface Props {
   kind: DrillKind;
   description: string;
   pickerTitle: string;
+  partLabel: "Part 3" | "Part 4";
+  partColor: PartColor;
+  partTitle: string;
+  sectionRange: string;
 }
 
 function TypeLibrary({
@@ -84,14 +90,14 @@ function TypeLibrary({
             <p className="mb-1 text-xs font-semibold text-slate-500 dark:text-slate-400">
               {labels[f] ?? f}
             </p>
-            <div className="flex flex-wrap gap-x-3 gap-y-1">
+            <div className="flex flex-wrap items-center gap-1.5">
               {list.map((it) => (
-                <button
+                <MarkableWordChip
                   key={it.id}
-                  type="button"
-                  className="text-sm text-slate-800 hover:text-blue-700 dark:text-slate-100 dark:hover:text-blue-300"
-                  title={it.meaning}
-                  onClick={() =>
+                  itemId={it.id}
+                  label={it.front}
+                  meaning={it.meaning}
+                  onSpeak={() =>
                     void playPronunciation({
                       text: it.front,
                       source: "word",
@@ -100,10 +106,7 @@ function TypeLibrary({
                       syncToken,
                     }).catch(() => {})
                   }
-                >
-                  🔊 <span className="font-medium">{it.front}</span>
-                  <span className="text-xs text-slate-500 dark:text-slate-400"> — {it.meaning}</span>
-                </button>
+                />
               ))}
             </div>
           </div>
@@ -113,7 +116,15 @@ function TypeLibrary({
   );
 }
 
-export function OpinionPage({ kind, description, pickerTitle }: Props) {
+export function OpinionPage({
+  kind,
+  description,
+  pickerTitle,
+  partLabel,
+  partColor,
+  partTitle,
+  sectionRange,
+}: Props) {
   const [collection, setCollection] = useState<DrillCollectionMeta | null>(null);
   const [activeSection, setActiveSection] = useState<number | null>(null);
   const [section, setSection] = useState<DrillSection | null>(null);
@@ -174,6 +185,13 @@ export function OpinionPage({ kind, description, pickerTitle }: Props) {
 
   return (
     <div className="space-y-4">
+      <PartBanner
+        color={partColor}
+        part={partLabel}
+        title={partTitle}
+        subtitle={description}
+        sectionRange={sectionRange}
+      />
       <DrillSectionPicker
         title={pickerTitle}
         description={description}
@@ -310,6 +328,10 @@ export function WritingPage() {
       kind="writing"
       description="Task2 意見エッセイ"
       pickerTitle="IELTS 意見エッセイ (Writing Task2)"
+      partLabel="Part 3"
+      partColor="amber"
+      partTitle="意見(Writing)"
+      sectionRange="66–77"
     />
   );
 }
@@ -320,6 +342,10 @@ export function SpeakingPage() {
       kind="speaking"
       description="Speaking 一人称回答"
       pickerTitle="IELTS 口頭回答 (Speaking)"
+      partLabel="Part 4"
+      partColor="orange"
+      partTitle="意見(Speaking)"
+      sectionRange="78–97"
     />
   );
 }
