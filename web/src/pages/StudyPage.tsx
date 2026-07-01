@@ -16,7 +16,7 @@ import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
 import { useStudySessionStore } from "../stores/studySessionStore";
-import type { ContentRecord, ItemType, PlaybackRate } from "../types";
+import type { ContentRecord, ItemType } from "../types";
 
 const ALL_CATEGORIES: ItemType[] = ["word", "phrase", "grammar", "conversation"];
 
@@ -65,7 +65,8 @@ export function StudyPage() {
     })),
   );
 
-  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
   const [requeueTail, setRequeueTail] = useState<ContentRecord[]>([]);
   const [reviewSnapshot, setReviewSnapshot] = useState<DailyQueueResult | null>(null);
   const requeueCounts = useRef(new Map<string, number>());

@@ -4,7 +4,7 @@ import { playPronunciation } from "../lib/pronunciation";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
 import { PronunciationNotes } from "./PronunciationNotes";
-import type { ContentRecord, PlaybackRate } from "../types";
+import type { ContentRecord } from "../types";
 
 interface Props {
   record: ContentRecord;
@@ -15,8 +15,9 @@ export function ReviewCard({ record, onDone }: Props) {
   const { item } = record;
   const gradeItem = useProgressStore((s) => s.gradeItem);
   const settings = useSettingsStore((s) => s.settings);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
   const [step, setStep] = useState(0);
-  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
 
   const prompt =
     item.type === "conversation"

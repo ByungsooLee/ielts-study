@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo } from "react";
 import { useShallow } from "zustand/react/shallow";
 import { ErrorBoundary } from "../components/ErrorBoundary";
 import { SynonymQuizCard } from "../components/SynonymQuizCard";
@@ -25,7 +25,6 @@ import {
   getSynonymThemeRangeFromPrefs,
   useSynonymSessionStore,
 } from "../stores/synonymSessionStore";
-import type { PlaybackRate } from "../types";
 
 export function SynonymQuizPage() {
   const allItems = useContentStore((s) => s.items);
@@ -54,7 +53,7 @@ export function SynonymQuizPage() {
     })),
   );
 
-  const [playbackRate] = useState<PlaybackRate>(1);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
 
   useEffect(() => {
     void load();

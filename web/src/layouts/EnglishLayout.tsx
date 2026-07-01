@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { DomainSwitch } from "../components/DomainSwitch";
+import { PlaybackSpeedPicker } from "../components/PlaybackSpeedPicker";
 import { useDomainStore } from "../stores/domainStore";
+import { useSettingsStore } from "../stores/settingsStore";
 import { TtsUsageBanner } from "../components/TtsUsageBanner";
 import { prefetchAllDrillCollectionsAndReload } from "../lib/drillContent";
 import { useContentStore } from "../stores/contentStore";
@@ -67,6 +69,8 @@ function PartBadge({ label, color, active }: { label: string; color: PartColor; 
 export function EnglishLayout() {
   const setDomain = useDomainStore((s) => s.setDomain);
   const loadContent = useContentStore((s) => s.load);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -85,8 +89,17 @@ export function EnglishLayout() {
               <h1 className="text-xl font-bold text-blue-900 dark:text-blue-100">English</h1>
               <p className="text-sm text-slate-500 dark:text-slate-400">IELTS 語彙・文法</p>
             </div>
-            <div className="hidden md:block">
-              <DomainSwitch />
+            <div className="ml-auto flex items-center gap-2">
+              <label className="hidden items-center gap-1 text-xs text-slate-500 sm:inline-flex dark:text-slate-400">
+                速度
+                <PlaybackSpeedPicker value={playbackRate} onChange={setPlaybackRate} />
+              </label>
+              <div className="sm:hidden">
+                <PlaybackSpeedPicker value={playbackRate} onChange={setPlaybackRate} />
+              </div>
+              <div className="hidden md:block">
+                <DomainSwitch />
+              </div>
             </div>
             <button
               type="button"

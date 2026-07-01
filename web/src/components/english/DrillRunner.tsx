@@ -28,6 +28,7 @@ export function DrillRunner({ kind, drills, items, onFinish }: Props) {
   const accent = useSettingsStore((s) => s.settings.accent);
   const workerUrl = useSettingsStore((s) => s.settings.workerUrl);
   const syncToken = useSettingsStore((s) => s.settings.syncToken);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
 
   const [drillIndex, setDrillIndex] = useState(0);
   const [input, setInput] = useState("");
@@ -56,6 +57,7 @@ export function DrillRunner({ kind, drills, items, onFinish }: Props) {
         accent,
         workerUrl,
         syncToken,
+        playbackRate,
       });
     } catch (e) {
       console.warn("model_en TTS failed", e);

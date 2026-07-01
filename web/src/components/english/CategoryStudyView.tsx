@@ -20,7 +20,7 @@ import {
 import { useProgressStore } from "../../stores/progressStore";
 import { useSettingsStore } from "../../stores/settingsStore";
 import { getThemeRangeFromPrefs, useStudySessionStore } from "../../stores/studySessionStore";
-import type { ContentRecord, ItemType, PlaybackRate } from "../../types";
+import type { ContentRecord, ItemType } from "../../types";
 
 interface Props {
   category: ItemType;
@@ -69,7 +69,8 @@ export function CategoryStudyView({ category, items, showThemeNav = false, gramm
     })),
   );
 
-  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
   const [requeueTail, setRequeueTail] = useState<ContentRecord[]>([]);
   const [reviewSnapshot, setReviewSnapshot] = useState<DailyQueueResult | null>(null);
   const requeueCounts = useRef(new Map<string, number>());

@@ -48,6 +48,7 @@ export function Task1Page() {
   const accent = useSettingsStore((s) => s.settings.accent);
   const workerUrl = useSettingsStore((s) => s.settings.workerUrl);
   const syncToken = useSettingsStore((s) => s.settings.syncToken);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
   const dueCounts = useMemo(
     () => computeDrillDueCounts(allRecords, srs, DRILL_COLLECTION_IDS.task1, todayDay()),
     [allRecords, srs],
@@ -167,6 +168,7 @@ export function Task1Page() {
                       accent,
                       workerUrl,
                       syncToken,
+                      playbackRate,
                     }).catch(() => {})
                   }
                 >

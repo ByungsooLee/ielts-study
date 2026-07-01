@@ -10,7 +10,8 @@ import {
   type EngineeringSelection,
   type EngineeringThemeChip,
 } from "../../lib/staticContent";
-import type { InterviewItem, PlaybackRate } from "../../types";
+import { useSettingsStore } from "../../stores/settingsStore";
+import type { InterviewItem } from "../../types";
 
 /** index から面接コレクション（kind:"interview"）だけ抽出 */
 function interviewCollections(
@@ -25,7 +26,8 @@ export function InterviewPage() {
   const [items, setItems] = useState<InterviewItem[]>([]);
   const [loading, setLoading] = useState(false);
   const [index, setIndex] = useState(0);
-  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
 
   // ジャンルチップを index から自動生成（ハードコードなし）
   useEffect(() => {

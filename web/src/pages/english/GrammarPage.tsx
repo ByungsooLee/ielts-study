@@ -26,7 +26,7 @@ import { useContentStore } from "../../stores/contentStore";
 import { useGrammarSessionStore } from "../../stores/grammarSessionStore";
 import { useProgressStore } from "../../stores/progressStore";
 import { useSettingsStore } from "../../stores/settingsStore";
-import type { PlaybackRate, ThemeStat } from "../../types";
+import type { ThemeStat } from "../../types";
 
 const GRAMMAR_COLLECTION = "grammar";
 
@@ -85,7 +85,8 @@ export function GrammarPage() {
     })),
   );
 
-  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
   const [shardLoading, setShardLoading] = useState(false);
   const [indexGenreStats, setIndexGenreStats] = useState<ThemeStat[]>([]);
   const introducedRef = useRef<string | null>(null);

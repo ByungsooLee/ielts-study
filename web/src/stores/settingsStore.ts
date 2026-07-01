@@ -1,5 +1,6 @@
 import { create } from "zustand";
-import type { Accent, AppSettings, ColorMode, DailyNewLimit, SyncStatus } from "../types";
+import type { Accent, AppSettings, ColorMode, DailyNewLimit, PlaybackRate, SyncStatus } from "../types";
+import { PLAYBACK_RATES } from "../lib/audioPlayer";
 import { SM2 } from "../lib/sm2";
 import { resolveSyncToken, resolveWorkerUrl } from "../lib/workerConfig";
 import { STORAGE_KEYS, readJson, writeJson } from "../lib/storage";
@@ -9,6 +10,7 @@ interface StoredSettings {
   accent?: Accent;
   colorMode?: ColorMode;
   dailyNewLimit?: DailyNewLimit;
+  playbackRate?: number;
 }
 
 function buildSettings(stored: StoredSettings = {}): AppSettings {
@@ -18,7 +20,16 @@ function buildSettings(stored: StoredSettings = {}): AppSettings {
     accent: stored.accent ?? "en-GB",
     colorMode: stored.colorMode ?? "system",
     dailyNewLimit: normalizeDailyNewLimit(stored.dailyNewLimit),
+    playbackRate: normalizePlaybackRate(stored.playbackRate),
   };
+}
+
+function normalizePlaybackRate(value: unknown): PlaybackRate {
+  const allowed = PLAYBACK_RATES.map((r) => r.value);
+  if (typeof value === "number" && allowed.includes(value as PlaybackRate)) {
+    return value as PlaybackRate;
+  }
+  return 1;
 }
 
 function applyColorMode(mode: ColorMode) {
@@ -45,6 +56,7 @@ function loadStoredSettings(): StoredSettings {
     accent: parsed.accent,
     colorMode: parsed.colorMode,
     dailyNewLimit: parsed.dailyNewLimit,
+    playbackRate: parsed.playbackRate,
   };
 }
 
@@ -63,6 +75,7 @@ interface SettingsState {
   setAccent: (accent: Accent) => void;
   setColorMode: (mode: ColorMode) => void;
   setDailyNewLimit: (limit: DailyNewLimit) => void;
+  setPlaybackRate: (rate: PlaybackRate) => void;
   setSyncStatus: (status: SyncStatus, error?: string | null) => void;
   setLastSyncedAt: (ts: number) => void;
 }
@@ -72,6 +85,7 @@ function persist(settings: AppSettings) {
     accent: settings.accent,
     colorMode: settings.colorMode,
     dailyNewLimit: settings.dailyNewLimit,
+    playbackRate: settings.playbackRate,
   };
   writeJson(STORAGE_KEYS.settings, stored);
 }
@@ -97,6 +111,11 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
   },
   setDailyNewLimit: (dailyNewLimit) => {
     const settings = { ...get().settings, dailyNewLimit };
+    persist(settings);
+    set({ settings });
+  },
+  setPlaybackRate: (playbackRate) => {
+    const settings = { ...get().settings, playbackRate };
     persist(settings);
     set({ settings });
   },

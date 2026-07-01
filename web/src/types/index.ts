@@ -335,7 +335,7 @@ export interface AudioCacheEntry {
 }
 
 export type Accent = "en-GB" | "en-US" | "en-AU";
-export type PlaybackRate = 0.75 | 1 | 1.25 | 1.5;
+export type PlaybackRate = 0.5 | 0.7 | 1 | 1.2 | 1.5 | 2;
 export type ColorMode = "light" | "dark" | "system";
 export type DailyNewLimit = 5 | 10 | 20 | 50 | 100;
 
@@ -351,6 +351,8 @@ export interface AppSettings {
   accent: Accent;
   colorMode: ColorMode;
   dailyNewLimit: DailyNewLimit;
+  /** 全ての音声再生に適用されるグローバル速度。ヘッダのピッカーで変更。 */
+  playbackRate: PlaybackRate;
 }
 
 export type SyncStatus = "idle" | "syncing" | "ok" | "error" | "offline";

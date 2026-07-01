@@ -12,7 +12,6 @@ import { isHard } from "../lib/srs";
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
-import type { PlaybackRate } from "../types";
 
 type FilterMode = "all" | "maybe" | "hard" | "unlearned";
 
@@ -40,7 +39,8 @@ export function MaybePage() {
   );
   const [studyId, setStudyId] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
-  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
 
   useEffect(() => {
     void load();

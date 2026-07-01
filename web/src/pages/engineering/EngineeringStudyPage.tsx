@@ -22,7 +22,7 @@ import { useContentStore } from "../../stores/contentStore";
 import { useEngineeringSessionStore } from "../../stores/engineeringSessionStore";
 import { useProgressStore } from "../../stores/progressStore";
 import { useSettingsStore } from "../../stores/settingsStore";
-import type { EngineeringStep, PlaybackRate } from "../../types";
+import type { EngineeringStep } from "../../types";
 
 export function EngineeringStudyPage() {
   const allItems = useContentStore((s) => s.items);
@@ -36,7 +36,8 @@ export function EngineeringStudyPage() {
   const session = useEngineeringSessionStore();
   const [themeChips, setThemeChips] = useState<EngineeringThemeChip[]>([]);
   const [shardLoading, setShardLoading] = useState(false);
-  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
   const [step, setStep] = useState<EngineeringStep>("understand");
 
   const themeSelection: EngineeringSelection = useMemo(() => {

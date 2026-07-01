@@ -35,6 +35,7 @@ export function WordDetailSheet() {
   const accent = useSettingsStore((s) => s.settings.accent);
   const workerUrl = useSettingsStore((s) => s.settings.workerUrl);
   const syncToken = useSettingsStore((s) => s.settings.syncToken);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
 
   // ESC で閉じる
   useEffect(() => {
@@ -70,6 +71,7 @@ export function WordDetailSheet() {
       accent,
       workerUrl,
       syncToken,
+      playbackRate,
     }).catch(() => {});
   }
 
@@ -81,6 +83,7 @@ export function WordDetailSheet() {
       accent,
       workerUrl,
       syncToken,
+      playbackRate,
     }).catch(() => {});
   }
 

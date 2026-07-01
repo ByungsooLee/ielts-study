@@ -26,8 +26,9 @@ import {
 } from "../../lib/themes";
 import { useContentStore } from "../../stores/contentStore";
 import { useProgressStore } from "../../stores/progressStore";
+import { useSettingsStore } from "../../stores/settingsStore";
 import { isThemeSelected, useWordSessionStore } from "../../stores/wordSessionStore";
-import type { ContentRecord, Passage, PlaybackRate, ThemeStat } from "../../types";
+import type { ContentRecord, Passage, ThemeStat } from "../../types";
 
 const ENGLISH_VOCAB = "ielts-vocab";
 
@@ -68,7 +69,8 @@ export function WordsPage() {
     })),
   );
 
-  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
   const [passageLoading, setPassageLoading] = useState(false);
   const [indexThemeStats, setIndexThemeStats] = useState<ThemeStat[]>([]);
 

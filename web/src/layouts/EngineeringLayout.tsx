@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { DomainSwitch } from "../components/DomainSwitch";
+import { PlaybackSpeedPicker } from "../components/PlaybackSpeedPicker";
 import { prefetchEngineeringThemes } from "../lib/staticContent";
 import { useContentStore } from "../stores/contentStore";
 import { useDomainStore } from "../stores/domainStore";
+import { useSettingsStore } from "../stores/settingsStore";
 import { TtsUsageBanner } from "../components/TtsUsageBanner";
 
 const navClass = ({ isActive }: { isActive: boolean }) =>
@@ -16,6 +18,8 @@ const navClass = ({ isActive }: { isActive: boolean }) =>
 export function EngineeringLayout() {
   const setDomain = useDomainStore((s) => s.setDomain);
   const [menuOpen, setMenuOpen] = useState(false);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
 
   const loadContent = useContentStore((s) => s.load);
 
@@ -43,8 +47,17 @@ export function EngineeringLayout() {
               <h1 className="text-xl font-bold text-emerald-900 dark:text-emerald-100">Engineering</h1>
               <p className="text-sm text-slate-500 dark:text-slate-400">技術を英語で説明する</p>
             </div>
-            <div className="hidden md:block">
-              <DomainSwitch />
+            <div className="ml-auto flex items-center gap-2">
+              <label className="hidden items-center gap-1 text-xs text-slate-500 sm:inline-flex dark:text-slate-400">
+                速度
+                <PlaybackSpeedPicker value={playbackRate} onChange={setPlaybackRate} />
+              </label>
+              <div className="sm:hidden">
+                <PlaybackSpeedPicker value={playbackRate} onChange={setPlaybackRate} />
+              </div>
+              <div className="hidden md:block">
+                <DomainSwitch />
+              </div>
             </div>
             <button
               type="button"

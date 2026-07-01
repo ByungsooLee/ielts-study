@@ -74,6 +74,7 @@ export function WordModeView({ items, kind, focusFunc }: Props) {
   const accent = useSettingsStore((s) => s.settings.accent);
   const workerUrl = useSettingsStore((s) => s.settings.workerUrl);
   const syncToken = useSettingsStore((s) => s.settings.syncToken);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
 
   const groups = useMemo(() => {
     const map = new Map<string, StudyItem[]>();
@@ -106,6 +107,7 @@ export function WordModeView({ items, kind, focusFunc }: Props) {
       accent,
       workerUrl,
       syncToken,
+      playbackRate,
     }).catch(() => {});
   }
 

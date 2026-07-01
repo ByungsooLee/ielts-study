@@ -1,11 +1,10 @@
 import { playPronunciation } from "../lib/pronunciation";
 import { isHard } from "../lib/srs";
-import { useState } from "react";
 import { PlaybackSpeedPicker } from "./PlaybackSpeedPicker";
 import { useContentStore } from "../stores/contentStore";
 import { useProgressStore } from "../stores/progressStore";
 import { useSettingsStore } from "../stores/settingsStore";
-import type { ContentRecord, PlaybackRate } from "../types";
+import type { ContentRecord } from "../types";
 import { PronunciationNotes } from "./PronunciationNotes";
 import { RecordingPanel } from "./RecordingPanel";
 
@@ -21,7 +20,8 @@ export function ItemCard({ record, onNavigate }: Props) {
   const unsuspendItem = useProgressStore((s) => s.unsuspendItem);
   const getById = useContentStore((s) => s.getById);
   const settings = useSettingsStore((s) => s.settings);
-  const [playbackRate, setPlaybackRate] = useState<PlaybackRate>(1);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
+  const setPlaybackRate = useSettingsStore((s) => s.setPlaybackRate);
   const hard = isHard(item.id, progress);
   const suspended = progress.srs[item.id]?.status === "suspended";
 

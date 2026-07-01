@@ -56,6 +56,7 @@ export function OpinionPage({
   const accent = useSettingsStore((s) => s.settings.accent);
   const workerUrl = useSettingsStore((s) => s.settings.workerUrl);
   const syncToken = useSettingsStore((s) => s.settings.syncToken);
+  const playbackRate = useSettingsStore((s) => s.settings.playbackRate);
 
   useEffect(() => {
     let alive = true;
@@ -157,6 +158,7 @@ export function OpinionPage({
                       accent,
                       workerUrl,
                       syncToken,
+                      playbackRate,
                     }).catch(() => {})
                   }
                 >
@@ -210,6 +212,7 @@ export function OpinionPage({
                       accent,
                       workerUrl,
                       syncToken,
+                      playbackRate,
                     }).catch(() => {})
                   }
                 >
