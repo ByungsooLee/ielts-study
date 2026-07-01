@@ -695,5 +695,93 @@ window.IELTS_DATA = [
      "Albeit still in the [rudimentary|rudimentary|初歩の|basic / elementary|rudimentary knowledge] stages, it could be an important [step forward|step forward|前進|advancement / improvement|a step forward]."
    ],
    jp:"2018年4月、硫黄山は250年休眠した後に噴火が起こり、火山灰が一帯を覆った。日本は特殊なケースではない。都市の近くに不安定な火山の集団があり、地震の危険も伴う。噴火を予測することは重要だが、時期は捉えにくく、火山学者は火山に直接行かねばならない。活火山からデータを取るには大きな勇気が要る。噴火の間隔の継続時間はまちまちで、訪問のたびに危ない状況になるが、解決策は目前かもしれない。科学者は衛星を使ってドームの密度の変化を安全に処理し、リアルタイムで評価を得る。こうした変化は肉眼では見分けにくいので、科学者はこのデータを過去の噴火と統合する。まだ初歩の段階だが、重要な前進になりうる。"
+ },
+{
+   id:58, title:"若者のニュース入手方法", emoji:"📈",
+   story:[
+     "The line graph shows how young people in the UK obtained their news from 1980 to the present day.",
+     "Overall, television was dominant, while the internet [rose|rise|上昇する|climb|rise from nothing] from almost nothing to become the leading source.",
+     "The figure [shot up|shoot up|急上昇する|skyrocket / catapult|the number shot up] after 2000, [overtaking|overtake|追い越す・上回る|surpass|overtake newspapers] newspapers around 2010.",
+     "Television [topped the table|top the table|首位を占める|be dominant / be predominant|top the table throughout] throughout the period, [peaking|peak|頂点に達する|reach a high|peak at 9 million] at nine million before a slow [decline|decline|減少・下降|descent / downswing|a steady decline].",
+     "Newspapers saw a steady [fall|fall|減少する|drop / slip|fall from 7 to 2 million], [slumping|slump|急落する|plunge|slump to 2 million] from seven million to two million [over the years|during the time in question|当該期間中に|over the years|over the years]."
+   ],
+   jp:"この折れ線グラフは、英国の若者が1980年から現在までどのようにニュースを入手したかを示す。全体として、テレビが主流だった一方、インターネットはほぼ無から最も人気のある情報源へと上昇した。利用者数は2000年以降に急増し、2010年ごろ新聞を追い越した。テレビは期間を通じて首位を占め、900万人で頂点に達した後、ゆるやかに減少した。新聞は着実に減少し、当該期間中に700万から200万へと落ち込んだ。"
+ },
+ {
+   id:59, title:"英国のエネルギー使用量", emoji:"⚡",
+   story:[
+     "The line graph shows energy consumption by fuel type in the UK from 1950, with projections to 2050.",
+     "Petrol began at 60 units and [doubled|double|倍増する|increase twofold|double from 60 to 130] to 130 by 2000.",
+     "It is [projected|be projected to|〜すると予測される|be estimated to / be predicted to|be projected to remain steady] to [remain steady|remain steady|一定に保たれる|stay constant / remain static / hover|remain steady until 2050] until 2050.",
+     "Coal and gas saw a brief [uptick|uptick|上昇・急増|hike / boost / upsurge|a brief uptick] to 100 units in 1975, but then [plunged|plunge|急落する|plummet / nose-dive / tumble|plunge to 50 units] to 50 by 2000.",
+     "Today only 25 units are used, and this fuel is estimated to [fluctuate slightly|fluctuate slightly|わずかに変動する|waver|fluctuate slightly between 20 and 25] between 20 and 25, while solar is expected to [reach|reach|（値に）達する|hit|reach 100 units] higher levels."
+   ],
+   jp:"この折れ線グラフは、1950年からの英国の燃料別エネルギー消費を2050年までの予測とともに示す。石油は60単位から始まり、2000年までに130へ倍増した。石油は2050年まで一定に保たれると予測されている。石炭とガスは1975年に100単位への一時的な急増を見せたが、その後2000年までに50へ急落した。現在は25単位しか使われず、この燃料は今後20から25の間でわずかに変動すると見積もられ、一方で太陽エネルギーはより高い水準に達すると見込まれる。"
+ },
+ {
+   id:60, title:"ビニール袋と紙袋の原料", emoji:"🛒",
+   story:[
+     "The pictures [depict|depict|描写する・示す|represent / illustrate / show|the pictures depict] the [resources|resource|資源|raw material / natural resource|consume resources] needed to make paper and plastic bags.",
+     "Overall, paper bags [consume|consume|消費する|use up / expend|consume resources] far more materials than plastic ones.",
+     "The [manufacture|manufacture|製造（する）|production / creation|the manufacture of bags] of a paper bag needs [treble|treble|3倍の|triple / threefold|treble the quantity] the wood of a plastic one.",
+     "More oil is used to [transport|transport|輸送する|ship / transit / transfer|transport bags] paper bags than plastic ones.",
+     "[Looking at the data from a general perspective|looking at the data from a general perspective|全体的な視点から見ると|overall / generally|looking at the data from a general perspective], paper bags are more resource-intensive."
+   ],
+   jp:"この絵は、紙袋とビニール袋を作るのに必要な資源を描いている。全体として、紙袋はビニール袋よりはるかに多くの材料を消費する。紙袋の製造にはビニール袋の3倍の木材が必要だ。紙袋の輸送にはビニール袋より多くの石油が使われる。全体的な視点から見ると、紙袋の方が資源集約的である。"
+ },
+ {
+   id:61, title:"水の濾過装置", emoji:"💧",
+   story:[
+     "The pictures show two simple water filters.",
+     "In both, [unsanitary|unsanitary|不衛生な|unhygienic / contaminated / impure|unsanitary water] water is poured onto a layer of [gravel|gravel|砂利|pebble|a layer of gravel].",
+     "It then reaches a layer that [consists of|consist of|〜から成る|be made up of|consist of ground rocks] [ground|ground|すり砕いた|crushed / pulverised|ground rocks] rocks or [coarse|coarse|粗い|rough / granular / gritty|coarse sand] sand.",
+     "The two filters use charcoal and fine sand in a different order, and one uses cloth while the other uses cotton balls.",
+     "[In short|in short|要するに|to sum up / in summary / all in all|in short, both filters], both filters clean water in [practically|practically|実質的に・ほぼ|essentially / basically / virtually|practically the same] the same way."
+   ],
+   jp:"この絵は2つの簡単な水の濾過装置を示す。どちらも不衛生な水が砂利の層に注がれる。次に水はすり砕いた岩や粗い砂から成る層に達する。2つの装置は木炭と細かい砂を使う順序が異なり、一方は布を、他方は綿球を使う。要するに、両方の装置はほぼ同じ方法で水をきれいにする。"
+ },
+ {
+   id:62, title:"音楽学校の改修案", emoji:"🎼",
+   story:[
+     "The plans show a music school now and a proposed refurbishment.",
+     "The stairs at the front [entrance|entrance|入り口|doorway / entry / entranceway|the front entrance] will be [taken out|take out|取り除く|remove|the stairs will be taken out] and replaced with a ramp.",
+     "The supply cupboard will be [converted into|convert into|〜に改造する|change into|be converted into toilets] toilets.",
+     "The stairs at the end of the [hallway|hallway|廊下|corridor / hall|the end of the hallway] will [remain|remain|そのまま残る|be kept|the stairs will remain], but a new lift will be installed.",
+     "Outside, the trees will be [cut down|cut down|切り倒す|chop down|trees will be cut down] to [make room for|make room for|〜のための場所をあける|allow room for / provide space for / accommodate|make room for a ramp] a ramp."
+   ],
+   jp:"この平面図は、音楽学校の現状と改修案を示す。正面入口の階段は取り除かれ、スロープに置き換えられる。備品室はトイレに改造される。廊下の端の階段はそのまま残るが、新しいエレベーターが設置される。外では、スロープのための場所をあけるため木が切り倒される。"
+ },
+ {
+   id:63, title:"再開発ビフォー・アフター", emoji:"🗺️",
+   story:[
+     "The two maps show a town before and after reconstruction.",
+     "[Prior to|prior to|〜より前に|preceding / previous to|prior to the changes] the changes, there was a [harbour|harbour|港|port|a harbour in the south] in the south of this [industrial|industrial|工業の|manufacturing|an industrial area] area.",
+     "A road headed north until it reached a [crossing|crossing|交差点|crossroad / intersection|reach a crossing], where it [forked|fork|分岐する|split / divide|the road forks into two] into two.",
+     "The right fork led to houses, while the left went towards a [rural area|rural area|農村地域|agricultural area / the countryside|towards a rural area].",
+     "[Following|following|〜の後に|subsequent to|following the reconstruction] the reconstruction, the factories were replaced by a museum and shops."
+   ],
+   jp:"この2枚の地図は、町の再開発前後を示す。変更前は、この工業地域の南に港があった。道路は北へ向かい交差点に達し、そこで二つに分岐した。右の道は住宅へ、左の道は農村地域へと続いた。再開発の後、工場は博物館と店に置き換えられた。"
+ },
+ {
+   id:64, title:"北アメリカのセミのライフサイクル", emoji:"🦗",
+   story:[
+     "The diagram shows the life cycle of the North American cicada.",
+     "After mating, the female cuts a [groove|groove|溝|slit / gouge|cut a groove into the bark] into the bark and lays her eggs.",
+     "The larva [burrows|burrow|穴を掘る|tunnel down|burrow down to the roots] down to the roots, where it feeds for years.",
+     "It goes through four [stages|stage|段階|phase|four stages of development] of development.",
+     "The adults [shed|shed|脱ぎ捨てる|cast off / moult / discard|shed the exoskeleton] their exoskeleton, and the males look for a [partner|partner|相手・配偶者|mate|look for a partner] with an [incessant|incessant|絶え間ない|never-ending / persistent / ceaseless|an incessant call] call, so the cycle [is renewed|be renewed|再び始まる|start over / begin again|the cycle is renewed]."
+   ],
+   jp:"この図は北アメリカのセミのライフサイクルを示す。交尾の後、メスは樹皮に溝を作り卵を産む。幼虫は根まで穴を掘り、そこで何年も餌を食べる。幼虫は4つの発達段階を経る。成虫は外骨格を脱ぎ捨て、オスは絶え間ない鳴き声で相手を探し、こうしてサイクルは再び始まる。"
+ },
+ {
+   id:65, title:"ペットボトルのリサイクル", emoji:"♻️",
+   story:[
+     "The [diagram|diagram|図・図表|representation / flowchart|the diagram depicts] shows how PET bottles are recycled in six [steps|step|段階・手順|stage|a process with six steps].",
+     "First, bottles are collected from the [consumer|consumer|消費者|customer / purchaser|from the consumer] and transported to warehouses.",
+     "Next, they are [sorted|sort|分類する|organise / categorise / group|sorted by size and colour] by size and colour.",
+     "The bottles are then [sent on|send on|先へ送る|forward|be sent on for processing] and [chopped up|chop up|切り刻む|shred|chopped up into pieces] into small pieces.",
+     "Finally, the flakes are [packed|pack|詰める・積む|load|packed into boxes] into boxes and made into new products."
+   ],
+   jp:"この図は、ペットボトルが6つの段階でどうリサイクルされるかを示す。まず、ボトルは消費者から回収され倉庫へ運ばれる。次に、大きさと色で分類される。その後ボトルは次工程へ送られ、小さく切り刻まれる。最後に、フレークは箱に詰められ、新しい製品になる。"
  }
 ];

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 81,
+  "themeId": "section-81",
+  "themeName": "映画館にどのくらい行きますか？",
+  "version": "90e9e19b",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 81,
+  "title": "映画館にどのくらい行きますか？",
+  "prompt": "How often do you go to the cinema?",
+  "prompt_jp": "映画館にどのくらい行きますか？",
+  "model_answer": [
+    "Actually, I go to my local cinema all the time to catch the latest movie.",
+    "I know it's a bit steep, especially if it's a 3D film, but I like to treat myself now and then.",
+    "To be honest, I'm crazy about trashy Hollywood blockbusters — I even enjoy the trailers!",
+    "Watching a film is my way to unwind, so I can't wait for the next one."
+  ],
+  "items": [
+    {
+      "id": "sp-actually",
+      "type": "speaking-word",
+      "front": "actually",
+      "func": "sp-filler",
+      "meaning": "実は・実のところ",
+      "synonyms": [
+        "in fact",
+        "to tell the truth"
+      ],
+      "collocation": "actually, I …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？"
+    },
+    {
+      "id": "sp-be-a-bit-steep",
+      "type": "speaking-word",
+      "front": "be a bit steep",
+      "func": "topic",
+      "meaning": "少し高くつく",
+      "synonyms": [
+        "be a bit pricey",
+        "be a bit dear"
+      ],
+      "collocation": "tickets are a bit steep",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？"
+    },
+    {
+      "id": "sp-treat-oneself",
+      "type": "speaking-word",
+      "front": "treat oneself",
+      "func": "topic",
+      "meaning": "自分にご褒美をあげる",
+      "synonyms": [
+        "indulge oneself"
+      ],
+      "collocation": "treat myself to a film",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？"
+    },
+    {
+      "id": "sp-be-crazy-about",
+      "type": "speaking-word",
+      "front": "be crazy about",
+      "func": "sp-preference",
+      "meaning": "〜に夢中である",
+      "synonyms": [
+        "be mad about",
+        "be nuts about"
+      ],
+      "collocation": "crazy about blockbusters",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？"
+    },
+    {
+      "id": "sp-trashy",
+      "type": "speaking-word",
+      "front": "trashy",
+      "func": "topic",
+      "meaning": "くだらない・低俗な",
+      "synonyms": [
+        "cheesy"
+      ],
+      "collocation": "trashy blockbusters",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？"
+    },
+    {
+      "id": "sp-unwind",
+      "type": "speaking-word",
+      "front": "unwind",
+      "func": "topic",
+      "meaning": "くつろぐ・リラックスする",
+      "synonyms": [
+        "chill out",
+        "relax"
+      ],
+      "collocation": "a way to unwind",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？"
+    },
+    {
+      "id": "sp-cant-wait",
+      "type": "speaking-word",
+      "front": "can't wait",
+      "func": "sp-emphasis",
+      "meaning": "待ちきれない",
+      "synonyms": [
+        "be really looking forward to"
+      ],
+      "collocation": "can't wait for the next one",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-81-d1",
+      "focus_func": "sp-filler",
+      "jp": "実は、最新の映画を観にしょっちゅう地元の映画館に行くんだ。",
+      "target_ids": [
+        "sp-actually"
+      ],
+      "model_en": "Actually, I go to my local cinema all the time to catch the latest movie.",
+      "acceptable": [
+        "in fact"
+      ]
+    },
+    {
+      "id": "sp-81-d2",
+      "focus_func": "sp-preference",
+      "jp": "正直、くだらないハリウッド大作に夢中なんだ。",
+      "target_ids": [
+        "sp-be-crazy-about",
+        "sp-trashy"
+      ],
+      "model_en": "To be honest, I'm crazy about trashy Hollywood blockbusters.",
+      "acceptable": [
+        "mad about",
+        "cheesy"
+      ]
+    },
+    {
+      "id": "sp-81-d3",
+      "focus_func": "sp-emphasis",
+      "jp": "映画はくつろぐ方法だから、次回作が待ちきれない。",
+      "target_ids": [
+        "sp-unwind",
+        "sp-cant-wait"
+      ],
+      "model_en": "Watching films is how I unwind, so I can't wait for the next one.",
+      "acceptable": [
+        "chill out",
+        "really looking forward to"
+      ]
+    }
+  ]
+}

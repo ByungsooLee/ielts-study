@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 70,
+  "themeId": "theme-70",
+  "themeName": "ギャップイヤー①（利点）",
+  "version": "f45b9b75",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1524,
+      "id": "w-clarify",
+      "type": "word",
+      "front": "clarify",
+      "meaning": "明らかにする",
+      "synonyms": [
+        "make clear"
+      ],
+      "collocation": "clarify one's goals",
+      "pron": {
+        "lookup": "clarify",
+        "tts": "clarify"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1525,
+      "id": "p-put-money-aside",
+      "type": "phrase",
+      "front": "put money aside",
+      "meaning": "お金を貯める",
+      "synonyms": [
+        "save up",
+        "lay aside money",
+        "economise"
+      ],
+      "collocation": "put money aside for a trip",
+      "pron": {
+        "tts": "put money aside"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1526,
+      "id": "p-stick-to",
+      "type": "phrase",
+      "front": "stick to",
+      "meaning": "〜を守る・固執する",
+      "synonyms": [
+        "adhere to",
+        "follow"
+      ],
+      "collocation": "stick to a budget",
+      "pron": {
+        "tts": "stick to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1527,
+      "id": "p-splash-out-on",
+      "type": "phrase",
+      "front": "splash out on",
+      "meaning": "〜に散財する",
+      "synonyms": [
+        "splurge on",
+        "spend lavishly on"
+      ],
+      "collocation": "splash out on luggage",
+      "pron": {
+        "tts": "splash out on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1528,
+      "id": "w-accommodation",
+      "type": "word",
+      "front": "accommodation",
+      "meaning": "宿泊施設",
+      "synonyms": [
+        "housing",
+        "lodging",
+        "residence"
+      ],
+      "collocation": "pay for accommodation",
+      "pron": {
+        "lookup": "accommodation",
+        "tts": "accommodation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1529,
+      "id": "p-rush-into",
+      "type": "phrase",
+      "front": "rush into",
+      "meaning": "〜に性急に飛び込む",
+      "synonyms": [
+        "rush headlong into",
+        "plunge into"
+      ],
+      "collocation": "rush into a decision",
+      "pron": {
+        "tts": "rush into"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1530,
+      "id": "w-suit",
+      "type": "word",
+      "front": "suit",
+      "meaning": "〜に合う",
+      "synonyms": [
+        "be appropriate for",
+        "fit"
+      ],
+      "collocation": "the subject suits them",
+      "pron": {
+        "lookup": "suit",
+        "tts": "suit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 64,
+  "themeId": "theme-64",
+  "themeName": "北アメリカのセミのライフサイクル",
+  "version": "a2665d73",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1470,
+      "id": "w-groove",
+      "type": "word",
+      "front": "groove",
+      "meaning": "溝",
+      "synonyms": [
+        "slit",
+        "gouge"
+      ],
+      "collocation": "cut a groove into the bark",
+      "examples": [
+        {
+          "en": "After mating, the female cuts a groove into the bark and lays her eggs."
+        }
+      ],
+      "pron": {
+        "lookup": "groove",
+        "tts": "groove"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1471,
+      "id": "w-burrow",
+      "type": "word",
+      "front": "burrow",
+      "meaning": "穴を掘る",
+      "synonyms": [
+        "tunnel down"
+      ],
+      "collocation": "burrow down to the roots",
+      "examples": [
+        {
+          "en": "The larva burrows down to the roots, where it feeds for years."
+        }
+      ],
+      "pron": {
+        "lookup": "burrow",
+        "tts": "burrow"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1472,
+      "id": "w-stage",
+      "type": "word",
+      "front": "stage",
+      "meaning": "段階",
+      "synonyms": [
+        "phase"
+      ],
+      "collocation": "four stages of development",
+      "examples": [
+        {
+          "en": "It goes through four stages of development."
+        }
+      ],
+      "pron": {
+        "lookup": "stage",
+        "tts": "stage"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1473,
+      "id": "w-shed",
+      "type": "word",
+      "front": "shed",
+      "meaning": "脱ぎ捨てる",
+      "synonyms": [
+        "cast off",
+        "moult",
+        "discard"
+      ],
+      "collocation": "shed the exoskeleton",
+      "examples": [
+        {
+          "en": "The adults shed their exoskeleton, and the males look for a partner with an incessant call, so the cycle is renewed."
+        }
+      ],
+      "pron": {
+        "lookup": "shed",
+        "tts": "shed"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1474,
+      "id": "w-partner",
+      "type": "word",
+      "front": "partner",
+      "meaning": "相手・配偶者",
+      "synonyms": [
+        "mate"
+      ],
+      "collocation": "look for a partner",
+      "examples": [
+        {
+          "en": "The adults shed their exoskeleton, and the males look for a partner with an incessant call, so the cycle is renewed."
+        }
+      ],
+      "pron": {
+        "lookup": "partner",
+        "tts": "partner"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1475,
+      "id": "w-incessant",
+      "type": "word",
+      "front": "incessant",
+      "meaning": "絶え間ない",
+      "synonyms": [
+        "never-ending",
+        "persistent",
+        "ceaseless"
+      ],
+      "collocation": "an incessant call",
+      "examples": [
+        {
+          "en": "The adults shed their exoskeleton, and the males look for a partner with an incessant call, so the cycle is renewed."
+        }
+      ],
+      "pron": {
+        "lookup": "incessant",
+        "tts": "incessant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1476,
+      "id": "p-be-renewed",
+      "type": "phrase",
+      "front": "be renewed",
+      "meaning": "再び始まる",
+      "synonyms": [
+        "start over",
+        "begin again"
+      ],
+      "collocation": "the cycle is renewed",
+      "examples": [
+        {
+          "en": "The adults shed their exoskeleton, and the males look for a partner with an incessant call, so the cycle is renewed."
+        }
+      ],
+      "pron": {
+        "tts": "be renewed"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1477,
+      "id": "w-nymph",
+      "type": "word",
+      "front": "nymph",
+      "meaning": "幼虫",
+      "pron": {
+        "lookup": "nymph",
+        "tts": "nymph"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1478,
+      "id": "w-hatch",
+      "type": "word",
+      "front": "hatch",
+      "meaning": "孵化する",
+      "pron": {
+        "lookup": "hatch",
+        "tts": "hatch"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1479,
+      "id": "w-exoskeleton",
+      "type": "word",
+      "front": "exoskeleton",
+      "meaning": "外骨格",
+      "pron": {
+        "lookup": "exoskeleton",
+        "tts": "exoskeleton"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t64",
+    "theme": 64,
+    "themeName": "北アメリカのセミのライフサイクル",
+    "jp": "この図は北アメリカのセミのライフサイクルを示す。交尾の後、メスは樹皮に溝を作り卵を産む。幼虫は根まで穴を掘り、そこで何年も餌を食べる。幼虫は4つの発達段階を経る。成虫は外骨格を脱ぎ捨て、オスは絶え間ない鳴き声で相手を探し、こうしてサイクルは再び始まる。",
+    "sentences": [
+      {
+        "en": "The diagram shows the life cycle of the North American cicada."
+      },
+      {
+        "en": "After mating, the female cuts a groove into the bark and lays her eggs.",
+        "targets": [
+          {
+            "id": "w-groove",
+            "text": "groove"
+          }
+        ]
+      },
+      {
+        "en": "The larva burrows down to the roots, where it feeds for years.",
+        "targets": [
+          {
+            "id": "w-burrow",
+            "text": "burrows"
+          }
+        ]
+      },
+      {
+        "en": "It goes through four stages of development.",
+        "targets": [
+          {
+            "id": "w-stage",
+            "text": "stages"
+          }
+        ]
+      },
+      {
+        "en": "The adults shed their exoskeleton, and the males look for a partner with an incessant call, so the cycle is renewed.",
+        "targets": [
+          {
+            "id": "w-shed",
+            "text": "shed"
+          },
+          {
+            "id": "w-partner",
+            "text": "partner"
+          },
+          {
+            "id": "w-incessant",
+            "text": "incessant"
+          },
+          {
+            "id": "p-be-renewed",
+            "text": "is renewed"
+          }
+        ]
+      }
+    ]
+  }
+}

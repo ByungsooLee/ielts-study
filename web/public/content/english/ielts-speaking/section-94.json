@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 94,
+  "themeId": "section-94",
+  "themeName": "政府と環境保護①",
+  "version": "2ce7f5b3",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 94,
+  "title": "政府と環境保護①",
+  "prompt": "Do you think the government should do more to protect natural areas of beauty in your country?",
+  "prompt_jp": "政府は自国の自然の景勝地をもっと保護すべきだと思いますか？",
+  "model_answer": [
+    "I get the reason people want to protect these places, but I'm not sure that's the best solution.",
+    "If the government gets involved, it could mean a lot more red tape.",
+    "I think it could be a big waste of time, as the rules would be almost impossible to enforce.",
+    "At the end of the day, each person should pitch in to clean the environment instead."
+  ],
+  "items": [
+    {
+      "id": "sp-get-comprehend",
+      "type": "speaking-word",
+      "front": "get",
+      "func": "topic",
+      "meaning": "理解する",
+      "synonyms": [
+        "comprehend",
+        "appreciate"
+      ],
+      "collocation": "I get the reason",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 94,
+      "themeName": "政府と環境保護①"
+    },
+    {
+      "id": "sp-red-tape",
+      "type": "speaking-word",
+      "front": "red tape",
+      "func": "topic",
+      "meaning": "お役所仕事・官僚主義の手続き",
+      "synonyms": [
+        "excessive bureaucracy",
+        "burdensome regulations"
+      ],
+      "collocation": "a lot of red tape",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 94,
+      "themeName": "政府と環境保護①"
+    },
+    {
+      "id": "sp-hand-out",
+      "type": "speaking-word",
+      "front": "hand out",
+      "func": "topic",
+      "meaning": "配る",
+      "synonyms": [
+        "dispense",
+        "provide"
+      ],
+      "collocation": "hand out rubbish bags",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 94,
+      "themeName": "政府と環境保護①"
+    },
+    {
+      "id": "sp-waste-of-time",
+      "type": "speaking-word",
+      "front": "waste of time",
+      "func": "topic",
+      "meaning": "時間の無駄",
+      "synonyms": [
+        "exercise in futility",
+        "pointless exercise"
+      ],
+      "collocation": "a big waste of time",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 94,
+      "themeName": "政府と環境保護①"
+    },
+    {
+      "id": "sp-utterly",
+      "type": "speaking-word",
+      "front": "utterly",
+      "func": "sp-emphasis",
+      "meaning": "完全に・全く",
+      "synonyms": [
+        "completely",
+        "totally",
+        "wholly"
+      ],
+      "collocation": "utterly pointless",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 94,
+      "themeName": "政府と環境保護①"
+    },
+    {
+      "id": "sp-at-the-end-of-the-day",
+      "type": "speaking-word",
+      "front": "at the end of the day",
+      "func": "sp-idiom",
+      "meaning": "結局のところ",
+      "synonyms": [
+        "when all's said and done",
+        "all things considered"
+      ],
+      "collocation": "at the end of the day, …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 94,
+      "themeName": "政府と環境保護①"
+    },
+    {
+      "id": "sp-pitch-in",
+      "type": "speaking-word",
+      "front": "pitch in",
+      "func": "topic",
+      "meaning": "協力する・力を貸す",
+      "synonyms": [
+        "help out",
+        "do one's bit",
+        "do one's part"
+      ],
+      "collocation": "everyone should pitch in",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 94,
+      "themeName": "政府と環境保護①"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-94-d1",
+      "focus_func": "topic",
+      "jp": "守りたい気持ちは理解できるが、それが最善策とは思わない。",
+      "target_ids": [
+        "sp-get-comprehend"
+      ],
+      "model_en": "I get why people want to protect them, but I'm not sure it's the best solution.",
+      "acceptable": [
+        "comprehend",
+        "appreciate"
+      ]
+    },
+    {
+      "id": "sp-94-d2",
+      "focus_func": "topic",
+      "jp": "政府が関与すると、お役所仕事が増えるかもしれない。",
+      "target_ids": [
+        "sp-red-tape"
+      ],
+      "model_en": "If the government gets involved, it could mean more red tape.",
+      "acceptable": [
+        "excessive bureaucracy"
+      ]
+    },
+    {
+      "id": "sp-94-d3",
+      "focus_func": "sp-idiom",
+      "jp": "結局のところ、代わりに一人ひとりが協力して環境を清掃すべきだ。",
+      "target_ids": [
+        "sp-at-the-end-of-the-day",
+        "sp-pitch-in"
+      ],
+      "model_en": "At the end of the day, each person should pitch in to clean the environment.",
+      "acceptable": [
+        "when all's said and done",
+        "do one's bit"
+      ]
+    }
+  ]
+}

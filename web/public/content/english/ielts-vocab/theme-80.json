@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 80,
+  "themeId": "theme-80",
+  "themeName": "友達とどのくらい会えますか？",
+  "version": "17e2f0a1",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1592,
+      "id": "p-from-time-to-time",
+      "type": "phrase",
+      "front": "from time to time",
+      "meaning": "時々",
+      "synonyms": [
+        "now and again",
+        "every now and then"
+      ],
+      "collocation": "see them from time to time",
+      "pron": {
+        "tts": "from time to time"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1593,
+      "id": "p-be-snowed-under-with",
+      "type": "phrase",
+      "front": "be snowed under with",
+      "meaning": "〜で多忙である",
+      "synonyms": [
+        "be swamped with",
+        "be overwhelmed with"
+      ],
+      "collocation": "snowed under with work",
+      "pron": {
+        "tts": "be snowed under with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1594,
+      "id": "p-two-peas-in-a-pod",
+      "type": "phrase",
+      "front": "two peas in a pod",
+      "meaning": "うりふたつ・仲がそっくり",
+      "synonyms": [
+        "be the spitting image of"
+      ],
+      "collocation": "like two peas in a pod",
+      "pron": {
+        "tts": "two peas in a pod"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1595,
+      "id": "p-get-hold-of",
+      "type": "phrase",
+      "front": "get hold of",
+      "meaning": "〜と連絡を取る",
+      "synonyms": [
+        "get in touch with",
+        "contact"
+      ],
+      "collocation": "get hold of a friend",
+      "pron": {
+        "tts": "get hold of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1596,
+      "id": "p-touch-base",
+      "type": "phrase",
+      "front": "touch base",
+      "meaning": "連絡を取る",
+      "synonyms": [
+        "get in touch"
+      ],
+      "collocation": "touch base with sb",
+      "pron": {
+        "tts": "touch base"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1597,
+      "id": "p-hang-out",
+      "type": "phrase",
+      "front": "hang out",
+      "meaning": "ブラブラして時を過ごす",
+      "synonyms": [
+        "spend time together"
+      ],
+      "collocation": "hang out with friends",
+      "pron": {
+        "tts": "hang out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1598,
+      "id": "p-catch-up",
+      "type": "phrase",
+      "front": "catch up",
+      "meaning": "近況を報告し合う",
+      "synonyms": [
+        "get together"
+      ],
+      "collocation": "catch up with friends",
+      "pron": {
+        "tts": "catch up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

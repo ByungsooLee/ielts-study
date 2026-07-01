@@ -1,0 +1,30 @@
+{
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "section": 86,
+  "title": "食を語る①（好きな飲食店）",
+  "question": "Describe a restaurant or café you enjoy going to.",
+  "question_jp": "よく行くお気に入りのレストランやカフェについて話してください。",
+  "model_answer": [
+    "Usually I prefer home-cooked food, but when I want to eat out, I go to a little place I know near my work.",
+    "By the time I get there I'm dying of hunger and want to pig out on a slap-up meal.",
+    "The food is to die for and I love every bite!",
+    "I have to be careful, though, because I fill myself up too easily and need to watch my weight."
+  ],
+  "items": [
+    {"id": "sp-eat-out", "type": "speaking-word", "front": "eat out", "func": "topic", "meaning": "外食する", "synonyms": ["go out for a meal"], "collocation": "eat out at a café", "priority": "S"},
+    {"id": "sp-die-of-hunger", "type": "speaking-word", "front": "die of hunger", "func": "sp-idiom", "meaning": "腹ぺこである", "synonyms": ["starve"], "collocation": "dying of hunger", "priority": "A"},
+    {"id": "sp-to-die-for", "type": "speaking-word", "front": "to die for", "func": "sp-idiom", "meaning": "非常に素晴らしい", "synonyms": ["ace", "brilliant"], "collocation": "the food is to die for", "priority": "A"},
+    {"id": "sp-bite", "type": "speaking-word", "front": "bite", "func": "topic", "meaning": "一口・軽い食事", "synonyms": ["mouthful", "morsel"], "collocation": "love every bite", "priority": "A"},
+    {"id": "sp-fill-oneself-up", "type": "speaking-word", "front": "fill oneself up", "func": "topic", "meaning": "満腹になる", "synonyms": ["stuff oneself"], "collocation": "fill myself up", "priority": "A"},
+    {"id": "sp-spoil", "type": "speaking-word", "front": "spoil", "func": "topic", "meaning": "（食欲を）だめにする", "synonyms": ["ruin"], "collocation": "spoil my appetite", "priority": "A"},
+    {"id": "sp-watch-ones-weight", "type": "speaking-word", "front": "watch one's weight", "func": "topic", "meaning": "体重に気を使う", "synonyms": ["stick to a diet", "watch what one eats"], "collocation": "watch my weight", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "sp-86-d1", "focus_func": "topic", "jp": "外食したいときは、職場近くの小さな店に行く。", "target_ids": ["sp-eat-out"], "model_en": "When I want to eat out, I go to a little place near my work.", "acceptable": ["go out for a meal"]},
+    {"id": "sp-86-d2", "focus_func": "sp-idiom", "jp": "着く頃には腹ぺこで、その料理は本当に絶品だ。", "target_ids": ["sp-die-of-hunger", "sp-to-die-for"], "model_en": "By the time I arrive I'm dying of hunger, and the food is to die for.", "acceptable": ["starving", "ace"]},
+    {"id": "sp-86-d3", "focus_func": "topic", "jp": "すぐ満腹になるので、体重に気を使わないといけない。", "target_ids": ["sp-fill-oneself-up", "sp-watch-ones-weight"], "model_en": "I fill myself up easily, so I need to watch my weight.", "acceptable": ["stuff myself", "stick to a diet"]}
+  ]
+}

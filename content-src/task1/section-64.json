@@ -1,0 +1,40 @@
+{
+  "domain": "english",
+  "collection": "ielts-task1",
+  "collectionName": "IELTS図解描写(Task1)",
+  "kind": "task1",
+  "section": 64,
+  "title": "北アメリカのセミのライフサイクル",
+  "chart": {
+    "type": "process",
+    "caption": "The diagram shows the life cycle of the North American cicada.",
+    "svg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='図：セミのライフサイクル'><title>Cicada life cycle</title><circle cx='160' cy='100' r='70' fill='none' stroke='#c96442' stroke-width='2' stroke-dasharray='6 6'/><g font-size='9' fill='#555' text-anchor='middle'><text x='160' y='34'>1. eggs in groove</text><text x='245' y='103'>2. nymph burrows</text><text x='160' y='178'>3. feeds on roots</text><text x='72' y='103'>4. sheds &amp; mates</text></g><path d='M225,70 L235,60 L232,73 Z' fill='#c96442'/></svg>",
+    "series": [
+      {"name": "Life cycle", "func": ["describe"]}
+    ]
+  },
+  "model_paragraph": "The diagram shows the life cycle of the North American cicada, which passes through several stages. After mating, the female saws a groove into the bark of a tree and lays her eggs. About eight weeks later, the larva, called a nymph, hatches and burrows down to the roots, where it feeds for 13 to 17 years. During this period it goes through four stages of development. On reaching adulthood, the cicadas emerge together, shed their exoskeleton, and the males look for a partner by making an incessant mating call. In this way, the cycle is renewed.",
+  "items": [
+    {"id": "t1-groove", "type": "task1-word", "front": "groove", "func": "describe", "meaning": "溝", "synonyms": ["slit", "gouge"], "collocation": "cut a groove into the bark", "register": "active", "priority": "A"},
+    {"id": "t1-slit", "type": "task1-word", "front": "slit", "func": "describe", "meaning": "細長い切れ込み", "synonyms": ["groove", "gouge"], "collocation": "a slit in the bark", "register": "active", "priority": "A"},
+    {"id": "t1-burrow", "type": "task1-word", "front": "burrow", "func": "describe", "meaning": "穴を掘る", "synonyms": ["tunnel down"], "collocation": "burrow down to the roots", "register": "active", "priority": "A"},
+    {"id": "t1-tunnel-down", "type": "task1-word", "front": "tunnel down", "func": "describe", "meaning": "掘り下げる", "synonyms": ["burrow"], "collocation": "tunnel down 2.5 metres", "register": "active", "priority": "A"},
+    {"id": "t1-stage", "type": "task1-word", "front": "stage", "func": "describe", "meaning": "段階", "synonyms": ["phase"], "collocation": "four stages of development", "register": "active", "priority": "S"},
+    {"id": "t1-phase", "type": "task1-word", "front": "phase", "func": "describe", "meaning": "局面・段階", "synonyms": ["stage"], "collocation": "six phases of a life cycle", "register": "active", "priority": "S"},
+    {"id": "t1-shed", "type": "task1-word", "front": "shed", "func": "describe", "meaning": "脱ぎ捨てる", "synonyms": ["cast off", "moult", "discard"], "collocation": "shed the exoskeleton", "register": "active", "priority": "A"},
+    {"id": "t1-cast-off", "type": "task1-word", "front": "cast off", "func": "describe", "meaning": "脱ぎ捨てる", "synonyms": ["shed", "moult"], "collocation": "cast off the shell", "register": "active", "priority": "A"},
+    {"id": "t1-partner", "type": "task1-word", "front": "partner", "func": "describe", "meaning": "相手・配偶者", "synonyms": ["mate"], "collocation": "look for a partner", "register": "active", "priority": "A"},
+    {"id": "t1-mate", "type": "task1-word", "front": "mate", "func": "describe", "meaning": "つがいの相手", "synonyms": ["partner"], "collocation": "find a mate", "register": "active", "priority": "A"},
+    {"id": "t1-incessant", "type": "task1-word", "front": "incessant", "func": "describe", "meaning": "絶え間ない", "synonyms": ["never-ending", "persistent", "ceaseless"], "collocation": "an incessant call", "register": "active", "priority": "A"},
+    {"id": "t1-persistent", "type": "task1-word", "front": "persistent", "func": "describe", "meaning": "しつこい・持続する", "synonyms": ["incessant", "ceaseless"], "collocation": "a persistent noise", "register": "active", "priority": "S"},
+    {"id": "t1-be-renewed", "type": "task1-word", "front": "be renewed", "func": "describe", "meaning": "再び始まる・繰り返される", "synonyms": ["start over", "begin again"], "collocation": "the cycle is renewed", "register": "active", "priority": "A"},
+    {"id": "t1-begin-again", "type": "task1-word", "front": "begin again", "func": "describe", "meaning": "再び始まる", "synonyms": ["start over", "be renewed"], "collocation": "the cycle begins again", "register": "active", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "t1-64-d1", "focus_func": "describe", "highlight": {"note": "段階の数"}, "jp": "セミのライフサイクルには複数の段階がある。", "target_ids": ["t1-stage"], "model_en": "The cicada's life cycle has several stages.", "acceptable": ["phases"]},
+    {"id": "t1-64-d2", "focus_func": "describe", "highlight": {"note": "穴を掘る"}, "jp": "幼虫は根に届くまで穴を掘る。", "target_ids": ["t1-burrow"], "model_en": "The larva burrows down to reach the roots.", "acceptable": ["tunnels down"]},
+    {"id": "t1-64-d3", "focus_func": "describe", "highlight": {"note": "産卵"}, "jp": "メスは木の樹皮に溝を作り、卵を産む。", "target_ids": ["t1-groove"], "model_en": "The female cuts a groove into the bark and lays her eggs.", "acceptable": ["slit"]},
+    {"id": "t1-64-d4", "focus_func": "describe", "highlight": {"note": "脱皮"}, "jp": "成虫は外骨格を脱ぎ捨てる。", "target_ids": ["t1-shed"], "model_en": "The adults shed their exoskeleton.", "acceptable": ["cast off", "moult"]},
+    {"id": "t1-64-d5", "focus_func": "describe", "highlight": {"note": "サイクルの反復"}, "jp": "オスは絶え間ない鳴き声で相手を探し、こうしてサイクルは再び始まる。", "target_ids": ["t1-incessant", "t1-be-renewed"], "model_en": "The males look for a partner with an incessant call, and in this way the cycle is renewed.", "acceptable": ["persistent", "begins again"]}
+  ]
+}

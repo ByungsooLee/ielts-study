@@ -1,6 +1,15 @@
 export type Domain = "english" | "engineering";
 
-export type ItemType = "word" | "phrase" | "grammar" | "conversation" | "concept" | "interview";
+export type ItemType =
+  | "word"
+  | "phrase"
+  | "grammar"
+  | "conversation"
+  | "concept"
+  | "interview"
+  | "task1-word"
+  | "writing-word"
+  | "speaking-word";
 
 export interface ExplainTarget {
   term: string;
@@ -120,6 +129,56 @@ export interface StudyItem {
   links?: string[];
   note?: string;
   explain?: ConceptExplain;
+  /** ドリル系(task1/writing/speaking) 用の型分類。up-sharp / opinion / sp-filler など。 */
+  func?: string;
+}
+
+export type DrillKind = "task1" | "writing" | "speaking";
+
+export interface DrillChartSeries {
+  name: string;
+  points?: [number, number][];
+  func?: string[];
+}
+
+export interface DrillChart {
+  type: "line" | "bar" | "pie" | "table" | "process" | "map" | "picture";
+  caption: string;
+  svg: string;
+  series?: DrillChartSeries[];
+}
+
+export interface DrillDef {
+  id: string;
+  focus_func?: string;
+  jp: string;
+  target_ids: string[];
+  model_en: string;
+  acceptable?: string[];
+  highlight?: {
+    series?: string;
+    from?: number;
+    to?: number;
+    note?: string;
+  };
+}
+
+export interface DrillSection {
+  kind: DrillKind;
+  collection: string;
+  section: number;
+  title: string;
+  version: string;
+  items: StudyItem[];
+  drills: DrillDef[];
+  /** task1 のみ */
+  chart?: DrillChart;
+  model_paragraph?: string;
+  /** writing/speaking のみ */
+  prompt?: string;
+  prompt_jp?: string;
+  outline_jp?: string[];
+  model_answer?: string[];
 }
 
 /** 面接Q&A：回答を覚えやすい1文チャンクに分割した1文分 */

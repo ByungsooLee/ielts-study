@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 86,
+  "themeId": "theme-86",
+  "themeName": "食を語る①（好きな飲食店）",
+  "version": "b98e34dc",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1633,
+      "id": "p-eat-out",
+      "type": "phrase",
+      "front": "eat out",
+      "meaning": "外食する",
+      "synonyms": [
+        "go out for a meal"
+      ],
+      "collocation": "eat out at a café",
+      "pron": {
+        "tts": "eat out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1634,
+      "id": "p-die-of-hunger",
+      "type": "phrase",
+      "front": "die of hunger",
+      "meaning": "腹ぺこである",
+      "synonyms": [
+        "starve"
+      ],
+      "collocation": "dying of hunger",
+      "pron": {
+        "tts": "die of hunger"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1635,
+      "id": "p-to-die-for",
+      "type": "phrase",
+      "front": "to die for",
+      "meaning": "非常に素晴らしい",
+      "synonyms": [
+        "ace",
+        "brilliant"
+      ],
+      "collocation": "the food is to die for",
+      "pron": {
+        "tts": "to die for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1636,
+      "id": "w-bite",
+      "type": "word",
+      "front": "bite",
+      "meaning": "一口・軽い食事",
+      "synonyms": [
+        "mouthful",
+        "morsel"
+      ],
+      "collocation": "love every bite",
+      "pron": {
+        "lookup": "bite",
+        "tts": "bite"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1637,
+      "id": "p-fill-oneself-up",
+      "type": "phrase",
+      "front": "fill oneself up",
+      "meaning": "満腹になる",
+      "synonyms": [
+        "stuff oneself"
+      ],
+      "collocation": "fill myself up",
+      "pron": {
+        "tts": "fill oneself up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1638,
+      "id": "p-watch-one-s-weight",
+      "type": "phrase",
+      "front": "watch one's weight",
+      "meaning": "体重に気を使う",
+      "synonyms": [
+        "stick to a diet",
+        "watch what one eats"
+      ],
+      "collocation": "watch my weight",
+      "pron": {
+        "tts": "watch one's weight"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

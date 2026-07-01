@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 87,
+  "themeId": "section-87",
+  "themeName": "今を語る②（好きな活動）",
+  "version": "93f2e562",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 87,
+  "title": "今を語る②（好きな活動）",
+  "prompt": "Describe an activity you like to do.",
+  "prompt_jp": "好きな活動について話してください。",
+  "model_answer": [
+    "I got into squash at uni, and it really helps me keep fit.",
+    "I'm constantly running after the ball, so it's a great way to work out.",
+    "Sometimes the games are so full-on that I almost pass out.",
+    "By the end I'm totally knackered, and my body aches from head to toe."
+  ],
+  "items": [
+    {
+      "id": "sp-keep-fit",
+      "type": "speaking-word",
+      "front": "keep fit",
+      "func": "topic",
+      "meaning": "健康を維持する",
+      "synonyms": [
+        "stay healthy"
+      ],
+      "collocation": "keep fit by exercising",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）"
+    },
+    {
+      "id": "sp-run-after",
+      "type": "speaking-word",
+      "front": "run after",
+      "func": "topic",
+      "meaning": "〜を追いかける",
+      "synonyms": [
+        "chase"
+      ],
+      "collocation": "run after the ball",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）"
+    },
+    {
+      "id": "sp-work-out",
+      "type": "speaking-word",
+      "front": "work out",
+      "func": "topic",
+      "meaning": "運動する",
+      "synonyms": [
+        "exercise"
+      ],
+      "collocation": "a way to work out",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）"
+    },
+    {
+      "id": "sp-full-on",
+      "type": "speaking-word",
+      "front": "full-on",
+      "func": "sp-emphasis",
+      "meaning": "全力の・徹底的な",
+      "synonyms": [
+        "extreme",
+        "all-out"
+      ],
+      "collocation": "so full-on",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）"
+    },
+    {
+      "id": "sp-pass-out",
+      "type": "speaking-word",
+      "front": "pass out",
+      "func": "topic",
+      "meaning": "倒れる・卒倒する",
+      "synonyms": [
+        "lose consciousness",
+        "faint"
+      ],
+      "collocation": "almost pass out",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）"
+    },
+    {
+      "id": "sp-knackered",
+      "type": "speaking-word",
+      "front": "knackered",
+      "func": "sp-idiom",
+      "meaning": "へとへとに疲れた",
+      "synonyms": [
+        "done in",
+        "exhausted",
+        "wiped out"
+      ],
+      "collocation": "totally knackered",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）"
+    },
+    {
+      "id": "sp-from-head-to-toe",
+      "type": "speaking-word",
+      "front": "from head to toe",
+      "func": "sp-idiom",
+      "meaning": "頭のてっぺんから足の先まで・全身",
+      "synonyms": [
+        "all over one's whole body"
+      ],
+      "collocation": "ache from head to toe",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-87-d1",
+      "focus_func": "topic",
+      "jp": "大学でスカッシュを始めて、健康維持にとても役立っている。",
+      "target_ids": [
+        "sp-keep-fit",
+        "sp-work-out"
+      ],
+      "model_en": "I got into squash at uni, and it helps me keep fit and work out.",
+      "acceptable": [
+        "stay healthy",
+        "exercise"
+      ]
+    },
+    {
+      "id": "sp-87-d2",
+      "focus_func": "sp-emphasis",
+      "jp": "試合があまりに全力なので、ほとんど卒倒しそうになる。",
+      "target_ids": [
+        "sp-full-on",
+        "sp-pass-out"
+      ],
+      "model_en": "The games are so full-on that I almost pass out.",
+      "acceptable": [
+        "all-out",
+        "faint"
+      ]
+    },
+    {
+      "id": "sp-87-d3",
+      "focus_func": "sp-idiom",
+      "jp": "終わる頃にはへとへとで、全身が痛む。",
+      "target_ids": [
+        "sp-knackered",
+        "sp-from-head-to-toe"
+      ],
+      "model_en": "By the end I'm totally knackered, aching from head to toe.",
+      "acceptable": [
+        "exhausted",
+        "wiped out"
+      ]
+    }
+  ]
+}

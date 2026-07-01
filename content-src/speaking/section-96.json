@@ -1,0 +1,30 @@
+{
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "section": 96,
+  "title": "社会変化と家族①",
+  "question": "What have been some of the biggest changes in your society over the past few decades?",
+  "question_jp": "この数十年で社会に起きた最も大きな変化は何ですか？",
+  "model_answer": [
+    "Fifty years ago, the father was usually the sole breadwinner and the mother ran the household.",
+    "These days, more women are entering the workforce to make ends meet.",
+    "As a result, fathers bear more of the burden of raising the children.",
+    "For example, they do the washing up and bond with their kids, so I think it's great that both parents get involved."
+  ],
+  "items": [
+    {"id": "sp-breadwinner", "type": "speaking-word", "front": "breadwinner", "func": "topic", "meaning": "一家の稼ぎ手", "synonyms": ["main wage earner", "main provider", "head of the household"], "collocation": "the sole breadwinner", "priority": "A"},
+    {"id": "sp-household", "type": "speaking-word", "front": "household", "func": "topic", "meaning": "家庭・世帯", "synonyms": ["domestic"], "collocation": "run the household", "priority": "S"},
+    {"id": "sp-workforce", "type": "speaking-word", "front": "workforce", "func": "topic", "meaning": "労働人口・労働力", "synonyms": ["labour market", "job market"], "collocation": "enter the workforce", "priority": "S"},
+    {"id": "sp-raise-bring-up", "type": "speaking-word", "front": "raise", "func": "topic", "meaning": "育てる", "synonyms": ["bring up"], "collocation": "raise children", "priority": "S"},
+    {"id": "sp-do-the-washing-up", "type": "speaking-word", "front": "do the washing up", "func": "topic", "meaning": "食器洗いをする", "synonyms": ["do the dishes", "wash the dishes"], "collocation": "do the washing up", "priority": "A"},
+    {"id": "sp-bond-with", "type": "speaking-word", "front": "bond with", "func": "topic", "meaning": "〜と絆を深める", "synonyms": ["develop a close connection with", "build a relationship with"], "collocation": "bond with one's kids", "priority": "A"},
+    {"id": "sp-get-involved-in", "type": "speaking-word", "front": "get involved in", "func": "topic", "meaning": "〜に関与する・参加する", "synonyms": ["take an interest in"], "collocation": "both parents get involved", "priority": "S"}
+  ],
+  "drills": [
+    {"id": "sp-96-d1", "focus_func": "topic", "jp": "50年前、父親が唯一の稼ぎ手で、母親が家庭を切り盛りしていた。", "target_ids": ["sp-breadwinner", "sp-household"], "model_en": "Fifty years ago, the father was the sole breadwinner and the mother ran the household.", "acceptable": ["main wage earner"]},
+    {"id": "sp-96-d2", "focus_func": "topic", "jp": "近頃は、生計を立てるためより多くの女性が労働力に加わっている。", "target_ids": ["sp-workforce"], "model_en": "These days, more women are entering the workforce to make ends meet.", "acceptable": ["labour market"]},
+    {"id": "sp-96-d3", "focus_func": "topic", "jp": "父親は食器洗いをし子供と絆を深めるなど、両親とも育児に関わる。", "target_ids": ["sp-do-the-washing-up", "sp-bond-with", "sp-get-involved-in"], "model_en": "Fathers do the washing up and bond with their kids, so both parents get involved.", "acceptable": ["do the dishes", "take an interest in"]}
+  ]
+}

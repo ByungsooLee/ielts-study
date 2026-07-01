@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionId": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "theme": 66,
+  "themeId": "section-66",
+  "themeName": "スポーツのスポンサーシップ①（利点）",
+  "version": "4d86e202",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 66,
+  "title": "スポーツのスポンサーシップ①（利点）",
+  "prompt": "Some companies use sports sponsorship as a way to advertise themselves. Why do companies do this? Is this a benefit or a risk to the company?",
+  "prompt_jp": "一部の企業は宣伝手段としてスポーツのスポンサーになる。なぜそうするのか。企業にとって利益かリスクか。",
+  "outline_jp": [
+    "意見: 長期的には双方に利益",
+    "理由: 効果的な宣伝で注目を集める",
+    "例: 観客の目がロゴに釘付けになる",
+    "結論: 勝つ選手は歩く広告＝win-win"
+  ],
+  "model_answer": [
+    "Many companies sponsor individual athletes and teams as a way to advertise themselves.",
+    "In my view, this is a highly effective form of advertising that benefits both sides in the long run.",
+    "This is largely because backing a team is one of the best ways to garner attention.",
+    "For example, fans watching a match have their eyes glued to the logo on the players' kit, so the brand is always visible.",
+    "Providing players with equipment works even better, as supporters flock to stores that carry the same gear.",
+    "Overall, a winning athlete acts as a walking advertisement, making sponsorship a win-win situation for the company."
+  ],
+  "items": [
+    {
+      "id": "w2-in-my-view",
+      "type": "writing-word",
+      "front": "in my view",
+      "func": "opinion",
+      "meaning": "私の考えでは",
+      "synonyms": [
+        "it is my firm belief that",
+        "as I see it"
+      ],
+      "collocation": "in my view, sponsorship is effective",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-this-is-largely-because",
+      "type": "writing-word",
+      "front": "this is largely because",
+      "func": "reason",
+      "meaning": "これは主に〜だからだ",
+      "synonyms": [
+        "owing to",
+        "due to the fact that"
+      ],
+      "collocation": "this is largely because …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-for-example",
+      "type": "writing-word",
+      "front": "for example",
+      "func": "example",
+      "meaning": "例えば",
+      "synonyms": [
+        "for instance",
+        "a case in point is"
+      ],
+      "collocation": "for example, fans …",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-overall",
+      "type": "writing-word",
+      "front": "overall",
+      "func": "conclusion",
+      "meaning": "全体として",
+      "synonyms": [
+        "on the whole",
+        "all in all"
+      ],
+      "collocation": "overall, it is a win-win",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-sponsor",
+      "type": "writing-word",
+      "front": "sponsor",
+      "func": "topic",
+      "meaning": "出資する",
+      "synonyms": [
+        "bankroll"
+      ],
+      "collocation": "sponsor a team",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-athlete",
+      "type": "writing-word",
+      "front": "athlete",
+      "func": "topic",
+      "meaning": "アスリート・運動選手",
+      "synonyms": [
+        "sportsperson",
+        "player"
+      ],
+      "collocation": "sponsor an athlete",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-affiliation",
+      "type": "writing-word",
+      "front": "affiliation",
+      "func": "topic",
+      "meaning": "提携・つながり",
+      "synonyms": [
+        "association",
+        "connection"
+      ],
+      "collocation": "a strong affiliation",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-in-the-long-run",
+      "type": "writing-word",
+      "front": "in the long run",
+      "func": "topic",
+      "meaning": "長い目で見れば",
+      "synonyms": [
+        "in the fullness of time"
+      ],
+      "collocation": "benefit in the long run",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-logo",
+      "type": "writing-word",
+      "front": "logo",
+      "func": "topic",
+      "meaning": "シンボルマーク・ロゴ",
+      "synonyms": [
+        "corporate symbol",
+        "trademark"
+      ],
+      "collocation": "the logo on the kit",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-visible",
+      "type": "writing-word",
+      "front": "visible",
+      "func": "topic",
+      "meaning": "目に見える・目立つ",
+      "synonyms": [
+        "discernible",
+        "unmistakable"
+      ],
+      "collocation": "clearly visible",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    },
+    {
+      "id": "w2-carry",
+      "type": "writing-word",
+      "front": "carry",
+      "func": "topic",
+      "meaning": "（商品を）店に置く・扱う",
+      "synonyms": [
+        "stock",
+        "keep in stock"
+      ],
+      "collocation": "stores that carry the gear",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "w2-66-d1",
+      "focus_func": "opinion",
+      "jp": "私の考えでは、企業の出資は長期的には双方に利益をもたらす。",
+      "target_ids": [
+        "w2-in-my-view",
+        "w2-in-the-long-run"
+      ],
+      "model_en": "In my view, corporate sponsorship benefits both sides in the long run.",
+      "acceptable": [
+        "it is my firm belief that"
+      ]
+    },
+    {
+      "id": "w2-66-d2",
+      "focus_func": "reason",
+      "jp": "これは主に、チームへの出資が注目を集める最良の方法の一つだからだ。",
+      "target_ids": [
+        "w2-this-is-largely-because",
+        "w2-sponsor"
+      ],
+      "model_en": "This is largely because sponsoring a team is one of the best ways to attract attention.",
+      "acceptable": [
+        "owing to"
+      ]
+    },
+    {
+      "id": "w2-66-d3",
+      "focus_func": "example",
+      "jp": "例えば、観客の目は選手のユニフォームのロゴに釘付けになる。",
+      "target_ids": [
+        "w2-for-example",
+        "w2-logo"
+      ],
+      "model_en": "For example, fans have their eyes glued to the logo on the players' kit.",
+      "acceptable": [
+        "for instance"
+      ]
+    },
+    {
+      "id": "w2-66-d4",
+      "focus_func": "conclusion",
+      "jp": "全体として、勝つ選手は歩く広告であり、出資は双方に得だ。",
+      "target_ids": [
+        "w2-overall"
+      ],
+      "model_en": "Overall, a winning athlete acts as a walking advertisement, so sponsorship is a win-win.",
+      "acceptable": [
+        "on the whole"
+      ]
+    }
+  ]
+}

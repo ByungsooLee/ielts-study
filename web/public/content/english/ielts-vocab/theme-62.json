@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 62,
+  "themeId": "theme-62",
+  "themeName": "音楽学校の改修案",
+  "version": "d2069979",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1451,
+      "id": "w-entrance",
+      "type": "word",
+      "front": "entrance",
+      "meaning": "入り口",
+      "synonyms": [
+        "doorway",
+        "entry",
+        "entranceway"
+      ],
+      "collocation": "the front entrance",
+      "examples": [
+        {
+          "en": "The stairs at the front entrance will be taken out and replaced with a ramp."
+        }
+      ],
+      "pron": {
+        "lookup": "entrance",
+        "tts": "entrance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1452,
+      "id": "p-take-out",
+      "type": "phrase",
+      "front": "take out",
+      "meaning": "取り除く",
+      "synonyms": [
+        "remove"
+      ],
+      "collocation": "the stairs will be taken out",
+      "examples": [
+        {
+          "en": "The stairs at the front entrance will be taken out and replaced with a ramp."
+        }
+      ],
+      "pron": {
+        "tts": "take out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1453,
+      "id": "p-convert-into",
+      "type": "phrase",
+      "front": "convert into",
+      "meaning": "〜に改造する",
+      "synonyms": [
+        "change into"
+      ],
+      "collocation": "be converted into toilets",
+      "examples": [
+        {
+          "en": "The supply cupboard will be converted into toilets."
+        }
+      ],
+      "pron": {
+        "tts": "convert into"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1454,
+      "id": "w-hallway",
+      "type": "word",
+      "front": "hallway",
+      "meaning": "廊下",
+      "synonyms": [
+        "corridor",
+        "hall"
+      ],
+      "collocation": "the end of the hallway",
+      "examples": [
+        {
+          "en": "The stairs at the end of the hallway will remain, but a new lift will be installed."
+        }
+      ],
+      "pron": {
+        "lookup": "hallway",
+        "tts": "hallway"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1455,
+      "id": "w-remain",
+      "type": "word",
+      "front": "remain",
+      "meaning": "そのまま残る",
+      "synonyms": [
+        "be kept"
+      ],
+      "collocation": "the stairs will remain",
+      "examples": [
+        {
+          "en": "The stairs at the end of the hallway will remain, but a new lift will be installed."
+        }
+      ],
+      "pron": {
+        "lookup": "remain",
+        "tts": "remain"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1456,
+      "id": "p-cut-down",
+      "type": "phrase",
+      "front": "cut down",
+      "meaning": "切り倒す",
+      "synonyms": [
+        "chop down"
+      ],
+      "collocation": "trees will be cut down",
+      "examples": [
+        {
+          "en": "Outside, the trees will be cut down to make room for a ramp."
+        }
+      ],
+      "pron": {
+        "tts": "cut down"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1457,
+      "id": "p-make-room-for",
+      "type": "phrase",
+      "front": "make room for",
+      "meaning": "〜のための場所をあける",
+      "synonyms": [
+        "allow room for",
+        "provide space for",
+        "accommodate"
+      ],
+      "collocation": "make room for a ramp",
+      "examples": [
+        {
+          "en": "Outside, the trees will be cut down to make room for a ramp."
+        }
+      ],
+      "pron": {
+        "tts": "make room for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1458,
+      "id": "w-refurbishment",
+      "type": "word",
+      "front": "refurbishment",
+      "meaning": "改修",
+      "pron": {
+        "lookup": "refurbishment",
+        "tts": "refurbishment"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1459,
+      "id": "p-wheelchair-ramp",
+      "type": "phrase",
+      "front": "wheelchair ramp",
+      "meaning": "車いす用スロープ",
+      "pron": {
+        "tts": "wheelchair ramp"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t62",
+    "theme": 62,
+    "themeName": "音楽学校の改修案",
+    "jp": "この平面図は、音楽学校の現状と改修案を示す。正面入口の階段は取り除かれ、スロープに置き換えられる。備品室はトイレに改造される。廊下の端の階段はそのまま残るが、新しいエレベーターが設置される。外では、スロープのための場所をあけるため木が切り倒される。",
+    "sentences": [
+      {
+        "en": "The plans show a music school now and a proposed refurbishment."
+      },
+      {
+        "en": "The stairs at the front entrance will be taken out and replaced with a ramp.",
+        "targets": [
+          {
+            "id": "w-entrance",
+            "text": "entrance"
+          },
+          {
+            "id": "p-take-out",
+            "text": "taken out"
+          }
+        ]
+      },
+      {
+        "en": "The supply cupboard will be converted into toilets.",
+        "targets": [
+          {
+            "id": "p-convert-into",
+            "text": "converted into"
+          }
+        ]
+      },
+      {
+        "en": "The stairs at the end of the hallway will remain, but a new lift will be installed.",
+        "targets": [
+          {
+            "id": "w-hallway",
+            "text": "hallway"
+          },
+          {
+            "id": "w-remain",
+            "text": "remain"
+          }
+        ]
+      },
+      {
+        "en": "Outside, the trees will be cut down to make room for a ramp.",
+        "targets": [
+          {
+            "id": "p-cut-down",
+            "text": "cut down"
+          },
+          {
+            "id": "p-make-room-for",
+            "text": "make room for"
+          }
+        ]
+      }
+    ]
+  }
+}

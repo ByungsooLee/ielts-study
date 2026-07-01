@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 79,
+  "themeId": "theme-79",
+  "themeName": "あなたの地域は住みやすい場所ですか？",
+  "version": "315c1f5d",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1586,
+      "id": "w-leafy",
+      "type": "word",
+      "front": "leafy",
+      "meaning": "緑の多い・緑豊かな",
+      "synonyms": [
+        "tree-lined"
+      ],
+      "collocation": "leafy streets",
+      "pron": {
+        "lookup": "leafy",
+        "tts": "leafy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1587,
+      "id": "p-high-rise-building",
+      "type": "phrase",
+      "front": "high-rise building",
+      "meaning": "高層ビル",
+      "synonyms": [
+        "skyscraper",
+        "high-rise"
+      ],
+      "collocation": "no high-rise buildings",
+      "pron": {
+        "tts": "high-rise building"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1588,
+      "id": "w-nightlife",
+      "type": "word",
+      "front": "nightlife",
+      "meaning": "夜の娯楽",
+      "synonyms": [
+        "night-time entertainment"
+      ],
+      "collocation": "not much nightlife",
+      "pron": {
+        "lookup": "nightlife",
+        "tts": "nightlife"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1589,
+      "id": "p-peace-and-quiet",
+      "type": "phrase",
+      "front": "peace and quiet",
+      "meaning": "安らぎ・平穏",
+      "synonyms": [
+        "tranquillity",
+        "peacefulness"
+      ],
+      "collocation": "prefer the peace and quiet",
+      "pron": {
+        "tts": "peace and quiet"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1590,
+      "id": "p-put-on",
+      "type": "phrase",
+      "front": "put on",
+      "meaning": "（催しを）催す",
+      "synonyms": [
+        "organise"
+      ],
+      "collocation": "put on a festival",
+      "pron": {
+        "tts": "put on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1591,
+      "id": "p-can-t-stand",
+      "type": "phrase",
+      "front": "can't stand",
+      "meaning": "我慢できない・大嫌い",
+      "synonyms": [
+        "loathe",
+        "despise",
+        "detest"
+      ],
+      "collocation": "can't stand overpriced places",
+      "pron": {
+        "tts": "can't stand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

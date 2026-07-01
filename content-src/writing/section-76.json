@@ -1,0 +1,35 @@
+{
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "section": 76,
+  "title": "低開発国と観光業①（肯定）",
+  "prompt": "More and more people travel to undeveloped countries for holidays. Is this a positive or negative development for the host country?",
+  "prompt_jp": "休暇で低開発国を訪れる人が増えている。これは受入国にとって肯定的か否定的な変化か。",
+  "outline_jp": ["肯定的に捉える", "理由: 基本設備で遅れを取っている", "例: 自然美は無比で観光客を惹きつける", "意見: 貧困から抜け出す助けになる"],
+  "model_answer": [
+    "More and more people travel to undeveloped, pristine countries for new experiences.",
+    "This can be seen in a positive light, as tourism is a golden opportunity to modernise their economies.",
+    "This is largely because many of these countries are lagging behind in basic facilities.",
+    "For example, their natural beauty is second to none, which attracts many visitors.",
+    "In my view, tourism can provide well-paying jobs for those in need and help families escape poverty."
+  ],
+  "items": [
+    {"id": "w2-this-is-largely-because", "type": "writing-word", "front": "this is largely because", "func": "reason", "meaning": "これは主に〜だからだ", "synonyms": ["owing to"], "collocation": "this is largely because …", "priority": "S"},
+    {"id": "w2-for-example", "type": "writing-word", "front": "for example", "func": "example", "meaning": "例えば", "synonyms": ["for instance"], "collocation": "for example, …", "priority": "A"},
+    {"id": "w2-in-my-view", "type": "writing-word", "front": "in my view", "func": "opinion", "meaning": "私の考えでは", "synonyms": ["it is my firm belief that"], "collocation": "in my view, …", "priority": "S"},
+    {"id": "w2-pristine", "type": "writing-word", "front": "pristine", "func": "topic", "meaning": "原始状態の・自然のままの", "synonyms": ["untouched", "unspoiled"], "collocation": "pristine countries", "priority": "A"},
+    {"id": "w2-see-in-a-positive-light", "type": "writing-word", "front": "see in a positive light", "func": "opinion", "meaning": "肯定的に捉える", "synonyms": ["view positively"], "collocation": "be seen in a positive light", "priority": "A"},
+    {"id": "w2-lag-behind", "type": "writing-word", "front": "lag behind", "func": "topic", "meaning": "遅れを取る", "synonyms": ["trail behind", "fall behind"], "collocation": "lag behind in facilities", "priority": "S"},
+    {"id": "w2-second-to-none", "type": "writing-word", "front": "second to none", "func": "topic", "meaning": "何ものにも劣らない", "synonyms": ["incomparable", "unequalled", "beyond compare"], "collocation": "beauty second to none", "priority": "A"},
+    {"id": "w2-those-in-need", "type": "writing-word", "front": "those in need", "func": "topic", "meaning": "援助を必要とする人々", "synonyms": ["the poor", "the impoverished", "the disadvantaged"], "collocation": "jobs for those in need", "priority": "A"},
+    {"id": "w2-poverty", "type": "writing-word", "front": "poverty", "func": "topic", "meaning": "貧困", "synonyms": ["economic hardship", "destitution"], "collocation": "escape poverty", "priority": "S"},
+    {"id": "w2-take-a-turn-for-the-worse", "type": "writing-word", "front": "take a turn for the worse", "func": "topic", "meaning": "悪化する", "synonyms": ["go downhill", "worsen"], "collocation": "conditions take a turn for the worse", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "w2-76-d1", "focus_func": "opinion", "jp": "これは肯定的に捉えられる。観光は経済を近代化する絶好の機会だからだ。", "target_ids": ["w2-see-in-a-positive-light"], "model_en": "This can be seen in a positive light, as tourism is a golden opportunity to modernise the economy.", "acceptable": ["viewed positively"]},
+    {"id": "w2-76-d2", "focus_func": "reason", "jp": "これは主に、これらの国が基本設備で遅れを取っているからだ。", "target_ids": ["w2-this-is-largely-because", "w2-lag-behind"], "model_en": "This is largely because these countries are lagging behind in basic facilities.", "acceptable": ["trailing behind"]},
+    {"id": "w2-76-d3", "focus_func": "opinion", "jp": "私の考えでは、観光は貧しい人々に職を与え、貧困から抜け出す助けになる。", "target_ids": ["w2-in-my-view", "w2-those-in-need", "w2-poverty"], "model_en": "In my view, tourism gives jobs to those in need and helps families escape poverty.", "acceptable": ["the poor", "destitution"]}
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 84,
+  "themeId": "section-84",
+  "themeName": "過去を語る①（もらった贈り物）",
+  "version": "3ac5d0b7",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 84,
+  "title": "過去を語る①（もらった贈り物）",
+  "prompt": "Describe the best present you have ever received.",
+  "prompt_jp": "今までにもらった一番良い贈り物について話してください。",
+  "model_answer": [
+    "The best gift I have ever received was a brand-new bike I got when I turned ten.",
+    "I was completely floored — I had never seen such an awesome bike, as black as coal and as clean as a whistle.",
+    "I was over the moon and wanted to ride it straightaway.",
+    "My dad told me to wait until he had pumped up the tyres, but once that was done, I rode straight to my friend's house."
+  ],
+  "items": [
+    {
+      "id": "sp-floored",
+      "type": "speaking-word",
+      "front": "floored",
+      "func": "sp-emphasis",
+      "meaning": "驚いて言葉も出ない",
+      "synonyms": [
+        "speechless",
+        "stunned",
+        "overwhelmed"
+      ],
+      "collocation": "I was completely floored",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）"
+    },
+    {
+      "id": "sp-awesome",
+      "type": "speaking-word",
+      "front": "awesome",
+      "func": "sp-emphasis",
+      "meaning": "素晴らしい",
+      "synonyms": [
+        "fantastic",
+        "superb",
+        "amazing"
+      ],
+      "collocation": "an awesome bike",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）"
+    },
+    {
+      "id": "sp-as-black-as-coal",
+      "type": "speaking-word",
+      "front": "as black as coal",
+      "func": "sp-idiom",
+      "meaning": "真っ黒の",
+      "synonyms": [
+        "pitch-black",
+        "jet-black"
+      ],
+      "collocation": "as black as coal",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）"
+    },
+    {
+      "id": "sp-as-clean-as-a-whistle",
+      "type": "speaking-word",
+      "front": "as clean as a whistle",
+      "func": "sp-idiom",
+      "meaning": "ぴかぴかの・全くきれいで",
+      "synonyms": [
+        "spotless"
+      ],
+      "collocation": "as clean as a whistle",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）"
+    },
+    {
+      "id": "sp-over-the-moon",
+      "type": "speaking-word",
+      "front": "over the moon",
+      "func": "sp-idiom",
+      "meaning": "大喜びで",
+      "synonyms": [
+        "thrilled to bits",
+        "chuffed to bits",
+        "as pleased as Punch"
+      ],
+      "collocation": "I was over the moon",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）"
+    },
+    {
+      "id": "sp-straightaway",
+      "type": "speaking-word",
+      "front": "straightaway",
+      "func": "topic",
+      "meaning": "すぐに",
+      "synonyms": [
+        "right away",
+        "immediately",
+        "right off the bat"
+      ],
+      "collocation": "ride it straightaway",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）"
+    },
+    {
+      "id": "sp-pump-up",
+      "type": "speaking-word",
+      "front": "pump up",
+      "func": "topic",
+      "meaning": "〜に空気を入れる",
+      "synonyms": [
+        "inflate",
+        "blow up",
+        "put air in"
+      ],
+      "collocation": "pump up the tyres",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-84-d1",
+      "focus_func": "sp-emphasis",
+      "jp": "こんなに素晴らしい自転車は見たことがなくて、完全に驚いた。",
+      "target_ids": [
+        "sp-floored",
+        "sp-awesome"
+      ],
+      "model_en": "I was completely floored; I had never seen such an awesome bike.",
+      "acceptable": [
+        "stunned",
+        "fantastic"
+      ]
+    },
+    {
+      "id": "sp-84-d2",
+      "focus_func": "sp-idiom",
+      "jp": "私は大喜びで、すぐに乗りたかった。",
+      "target_ids": [
+        "sp-over-the-moon",
+        "sp-straightaway"
+      ],
+      "model_en": "I was over the moon and wanted to ride it straightaway.",
+      "acceptable": [
+        "thrilled to bits",
+        "right away"
+      ]
+    },
+    {
+      "id": "sp-84-d3",
+      "focus_func": "topic",
+      "jp": "父がタイヤに空気を入れるまで待つ必要があった。",
+      "target_ids": [
+        "sp-pump-up"
+      ],
+      "model_en": "I had to wait until my dad pumped up the tyres.",
+      "acceptable": [
+        "inflated",
+        "blew up"
+      ]
+    }
+  ]
+}

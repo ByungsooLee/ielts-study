@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 82,
+  "themeId": "theme-82",
+  "themeName": "どちらが好きですか？①（靴）",
+  "version": "9de91b98",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1605,
+      "id": "w-comfy",
+      "type": "word",
+      "front": "comfy",
+      "meaning": "快適な",
+      "synonyms": [
+        "comfortable"
+      ],
+      "collocation": "comfy shoes",
+      "pron": {
+        "lookup": "comfy",
+        "tts": "comfy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1606,
+      "id": "w-wear",
+      "type": "word",
+      "front": "wear",
+      "meaning": "身に着けている",
+      "synonyms": [
+        "have on",
+        "be dressed in"
+      ],
+      "collocation": "wear go-to shoes",
+      "pron": {
+        "lookup": "wear",
+        "tts": "wear"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1607,
+      "id": "p-go-with",
+      "type": "phrase",
+      "front": "go with",
+      "meaning": "〜に合う",
+      "synonyms": [
+        "complement",
+        "not clash with"
+      ],
+      "collocation": "shoes that go with an outfit",
+      "pron": {
+        "tts": "go with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1608,
+      "id": "p-have-a-night-out",
+      "type": "phrase",
+      "front": "have a night out",
+      "meaning": "夜に外出する",
+      "synonyms": [
+        "hit the town",
+        "go out"
+      ],
+      "collocation": "have a night out",
+      "pron": {
+        "tts": "have a night out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1609,
+      "id": "p-dress-up",
+      "type": "phrase",
+      "front": "dress up",
+      "meaning": "おしゃれをする・着飾る",
+      "synonyms": [
+        "dress smartly",
+        "be dressed up to the nines"
+      ],
+      "collocation": "dress up for a party",
+      "pron": {
+        "tts": "dress up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1610,
+      "id": "p-throw-on",
+      "type": "phrase",
+      "front": "throw on",
+      "meaning": "（衣服を）さっと身につける",
+      "synonyms": [
+        "put on quickly"
+      ],
+      "collocation": "throw on a jacket",
+      "pron": {
+        "tts": "throw on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1611,
+      "id": "p-kick-off",
+      "type": "phrase",
+      "front": "kick off",
+      "meaning": "（靴を）脱ぎ捨てる",
+      "synonyms": [
+        "take off"
+      ],
+      "collocation": "kick off my shoes",
+      "pron": {
+        "tts": "kick off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

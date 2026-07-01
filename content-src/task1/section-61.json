@@ -1,0 +1,40 @@
+{
+  "domain": "english",
+  "collection": "ielts-task1",
+  "collectionName": "IELTS図解描写(Task1)",
+  "kind": "task1",
+  "section": 61,
+  "title": "水の濾過装置",
+  "chart": {
+    "type": "process",
+    "caption": "The pictures show two simple home-made water filters.",
+    "svg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='図：2種類の水の濾過装置'><title>Two water filters</title><g font-size='8' fill='#555'><rect x='55' y='30' width='60' height='130' fill='none' stroke='#9aa0a6' stroke-width='2'/><line x1='55' y1='55' x2='115' y2='55' stroke='#c96442'/><line x1='55' y1='80' x2='115' y2='80' stroke='#c96442'/><line x1='55' y1='108' x2='115' y2='108' stroke='#c96442'/><line x1='55' y1='134' x2='115' y2='134' stroke='#c96442'/><text x='60' y='45'>gravel</text><text x='60' y='72'>coarse sand</text><text x='60' y='98'>charcoal</text><text x='60' y='124'>fine sand</text><text x='60' y='150'>cloth</text><text x='60' y='178' font-size='9' fill='#333'>Filter 1</text><rect x='205' y='30' width='60' height='130' fill='none' stroke='#7c9cc4' stroke-width='2'/><line x1='205' y1='55' x2='265' y2='55' stroke='#7c9cc4'/><line x1='205' y1='80' x2='265' y2='80' stroke='#7c9cc4'/><line x1='205' y1='108' x2='265' y2='108' stroke='#7c9cc4'/><line x1='205' y1='134' x2='265' y2='134' stroke='#7c9cc4'/><text x='210' y='45'>gravel</text><text x='210' y='72'>coarse sand</text><text x='210' y='98'>fine sand</text><text x='210' y='124'>charcoal</text><text x='210' y='150'>cotton ball</text><text x='210' y='178' font-size='9' fill='#333'>Filter 2</text></g></svg>",
+    "series": [
+      {"name": "Filter 1", "func": ["compare", "describe"]},
+      {"name": "Filter 2", "func": ["compare", "describe"]}
+    ]
+  },
+  "model_paragraph": "The pictures show two simple home-made water filters. In both, unsanitary water is poured into two-litre bottles onto a layer of gravel, which filters out large pieces of dirt. The water then seeps down to a layer that consists of ground rocks or coarse sand. However, in the first filter the water passes through charcoal before a final layer of fine sand, whereas the order is reversed in the second. A further difference is that the first uses cloth while the second uses cotton balls at the base. In short, both filters clean water in practically the same way, with only slightly different final stages.",
+  "items": [
+    {"id": "t1-unsanitary", "type": "task1-word", "front": "unsanitary", "func": "describe", "meaning": "不衛生な", "synonyms": ["unhygienic", "contaminated", "impure"], "collocation": "unsanitary water", "register": "active", "priority": "A"},
+    {"id": "t1-contaminated", "type": "task1-word", "front": "contaminated", "func": "describe", "meaning": "汚染された", "synonyms": ["impure", "unhygienic"], "collocation": "contaminated water", "register": "active", "priority": "S"},
+    {"id": "t1-gravel", "type": "task1-word", "front": "gravel", "func": "describe", "meaning": "砂利", "synonyms": ["pebble"], "collocation": "a layer of gravel", "register": "active", "priority": "A"},
+    {"id": "t1-consist-of", "type": "task1-word", "front": "consist of", "func": "compare", "meaning": "〜から成る", "synonyms": ["be made up of"], "collocation": "consist of ground rocks", "register": "active", "priority": "S"},
+    {"id": "t1-be-made-up-of", "type": "task1-word", "front": "be made up of", "func": "compare", "meaning": "〜で構成されている", "synonyms": ["consist of"], "collocation": "be made up of pebbles", "register": "active", "priority": "S"},
+    {"id": "t1-ground", "type": "task1-word", "front": "ground", "func": "describe", "meaning": "すり砕いた", "synonyms": ["crushed", "pulverised"], "collocation": "ground rocks", "register": "active", "priority": "A"},
+    {"id": "t1-crushed", "type": "task1-word", "front": "crushed", "func": "describe", "meaning": "砕かれた", "synonyms": ["ground", "pulverised"], "collocation": "crushed rocks", "register": "active", "priority": "A"},
+    {"id": "t1-coarse", "type": "task1-word", "front": "coarse", "func": "describe", "meaning": "粗い", "synonyms": ["rough", "granular", "gritty"], "collocation": "coarse sand", "register": "active", "priority": "S"},
+    {"id": "t1-rough", "type": "task1-word", "front": "rough", "func": "describe", "meaning": "ざらざらした・粗い", "synonyms": ["coarse", "gritty"], "collocation": "the rough sand", "register": "active", "priority": "A"},
+    {"id": "t1-in-short", "type": "task1-word", "front": "in short", "func": "describe", "meaning": "要するに", "synonyms": ["to sum up", "in summary", "all in all"], "collocation": "in short, both filters", "register": "active", "priority": "S"},
+    {"id": "t1-to-sum-up", "type": "task1-word", "front": "to sum up", "func": "describe", "meaning": "要約すると", "synonyms": ["in short", "in summary"], "collocation": "to sum up", "register": "active", "priority": "A"},
+    {"id": "t1-practically", "type": "task1-word", "front": "practically", "func": "describe", "meaning": "実質的に・ほぼ", "synonyms": ["essentially", "basically", "virtually"], "collocation": "practically the same", "register": "active", "priority": "S"},
+    {"id": "t1-virtually", "type": "task1-word", "front": "virtually", "func": "describe", "meaning": "実質上・ほぼ", "synonyms": ["practically", "essentially"], "collocation": "virtually identical", "register": "active", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "t1-61-d1", "focus_func": "compare", "highlight": {"note": "上層の構成"}, "jp": "上の層は小石で構成されている。", "target_ids": ["t1-consist-of", "t1-gravel"], "model_en": "The top layer consists of pebbles and gravel.", "acceptable": ["is made up of"]},
+    {"id": "t1-61-d2", "focus_func": "describe", "highlight": {"note": "水の状態"}, "jp": "不衛生な水がボトルに注がれる。", "target_ids": ["t1-unsanitary"], "model_en": "Unsanitary water is poured into the bottle.", "acceptable": ["contaminated", "impure"]},
+    {"id": "t1-61-d3", "focus_func": "describe", "highlight": {"note": "まとめ"}, "jp": "要するに、両方のろ過装置はほぼ同じ方法で水をきれいにする。", "target_ids": ["t1-in-short", "t1-practically"], "model_en": "In short, both filters clean water in practically the same way.", "acceptable": ["to sum up", "virtually"]},
+    {"id": "t1-61-d4", "focus_func": "describe", "highlight": {"note": "砂の質感"}, "jp": "水は粗い砂の層をゆっくり通り抜ける。", "target_ids": ["t1-coarse"], "model_en": "The water slowly seeps through the coarse sand.", "acceptable": ["rough", "gritty"]},
+    {"id": "t1-61-d5", "focus_func": "compare", "highlight": {"note": "全体の構成"}, "jp": "各フィルターは複数の層から成る。", "target_ids": ["t1-be-made-up-of"], "model_en": "Each filter is made up of several layers.", "acceptable": ["consists of"]}
+  ]
+}

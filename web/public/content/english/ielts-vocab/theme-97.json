@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 97,
+  "themeId": "theme-97",
+  "themeName": "社会変化と家族②",
+  "version": "eae27f0d",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1706,
+      "id": "p-that-s-a-tough-one",
+      "type": "phrase",
+      "front": "that's a tough one",
+      "meaning": "それは難しい質問だね（考える時間を稼ぐ）",
+      "synonyms": [
+        "that's a hard one",
+        "it's a difficult question"
+      ],
+      "collocation": "That's a tough one…",
+      "pron": {
+        "tts": "that's a tough one"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1707,
+      "id": "p-let-s-see",
+      "type": "phrase",
+      "front": "let's see",
+      "meaning": "ええと・そうだな",
+      "synonyms": [
+        "um",
+        "you know"
+      ],
+      "collocation": "Let's see…",
+      "pron": {
+        "tts": "let's see"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1708,
+      "id": "p-grow-apart",
+      "type": "phrase",
+      "front": "grow apart",
+      "meaning": "疎遠になる・心が離れる",
+      "synonyms": [
+        "grow distant"
+      ],
+      "collocation": "couples grow apart",
+      "pron": {
+        "tts": "grow apart"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1709,
+      "id": "p-have-a-row",
+      "type": "phrase",
+      "front": "have a row",
+      "meaning": "口論する",
+      "synonyms": [
+        "have an argument",
+        "have a fight"
+      ],
+      "collocation": "have a row",
+      "pron": {
+        "tts": "have a row"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1710,
+      "id": "p-make-up",
+      "type": "phrase",
+      "front": "make up",
+      "meaning": "仲直りする",
+      "synonyms": [
+        "bury the hatchet",
+        "forgive and forget"
+      ],
+      "collocation": "make up after a fight",
+      "pron": {
+        "tts": "make up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1711,
+      "id": "p-split-up",
+      "type": "phrase",
+      "front": "split up",
+      "meaning": "別れる・離婚する",
+      "synonyms": [
+        "break up",
+        "separate"
+      ],
+      "collocation": "couples split up",
+      "pron": {
+        "tts": "split up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1712,
+      "id": "p-pocket-money",
+      "type": "phrase",
+      "front": "pocket money",
+      "meaning": "小遣い",
+      "synonyms": [
+        "allowance"
+      ],
+      "collocation": "give kids pocket money",
+      "pron": {
+        "tts": "pocket money"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

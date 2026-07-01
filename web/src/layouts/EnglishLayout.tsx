@@ -3,6 +3,8 @@ import { NavLink, Outlet } from "react-router-dom";
 import { DomainSwitch } from "../components/DomainSwitch";
 import { useDomainStore } from "../stores/domainStore";
 import { TtsUsageBanner } from "../components/TtsUsageBanner";
+import { prefetchAllDrillCollectionsAndReload } from "../lib/drillContent";
+import { useContentStore } from "../stores/contentStore";
 
 const navClass = ({ isActive }: { isActive: boolean }) =>
   `rounded-lg px-3 py-2 text-sm ${
@@ -13,11 +15,15 @@ const navClass = ({ isActive }: { isActive: boolean }) =>
 
 export function EnglishLayout() {
   const setDomain = useDomainStore((s) => s.setDomain);
+  const loadContent = useContentStore((s) => s.load);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     setDomain("english");
-  }, [setDomain]);
+    // Task1/Writing/Speaking の item を IndexedDB に取り込み、完了後に contentStore を
+    // 再ロードして「今日の復習」キューに t1-/w2-/sp- item を載せる。
+    void prefetchAllDrillCollectionsAndReload(loadContent);
+  }, [setDomain, loadContent]);
 
   return (
     <div className="min-h-screen bg-slate-100 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
@@ -52,6 +58,15 @@ export function EnglishLayout() {
             </NavLink>
             <NavLink to="/english/grammar" className={navClass}>
               文法
+            </NavLink>
+            <NavLink to="/english/task1" className={navClass}>
+              Task1描写
+            </NavLink>
+            <NavLink to="/english/writing" className={navClass}>
+              意見(Writing)
+            </NavLink>
+            <NavLink to="/english/speaking" className={navClass}>
+              意見(Speaking)
             </NavLink>
             <NavLink to="/english/passive" className={navClass}>
               Passive一覧

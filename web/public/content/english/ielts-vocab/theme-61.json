@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 61,
+  "themeId": "theme-61",
+  "themeName": "水の濾過装置",
+  "version": "23db261e",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1441,
+      "id": "w-unsanitary",
+      "type": "word",
+      "front": "unsanitary",
+      "meaning": "不衛生な",
+      "synonyms": [
+        "unhygienic",
+        "contaminated",
+        "impure"
+      ],
+      "collocation": "unsanitary water",
+      "examples": [
+        {
+          "en": "In both, unsanitary water is poured onto a layer of gravel."
+        }
+      ],
+      "pron": {
+        "lookup": "unsanitary",
+        "tts": "unsanitary"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1442,
+      "id": "p-consist-of",
+      "type": "phrase",
+      "front": "consist of",
+      "meaning": "〜から成る",
+      "synonyms": [
+        "be made up of"
+      ],
+      "collocation": "consist of ground rocks",
+      "examples": [
+        {
+          "en": "It then reaches a layer that consists of ground rocks or coarse sand."
+        }
+      ],
+      "pron": {
+        "tts": "consist of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1443,
+      "id": "w-ground",
+      "type": "word",
+      "front": "ground",
+      "meaning": "すり砕いた",
+      "synonyms": [
+        "crushed",
+        "pulverised"
+      ],
+      "collocation": "ground rocks",
+      "examples": [
+        {
+          "en": "It then reaches a layer that consists of ground rocks or coarse sand."
+        }
+      ],
+      "pron": {
+        "lookup": "ground",
+        "tts": "ground"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1444,
+      "id": "w-coarse",
+      "type": "word",
+      "front": "coarse",
+      "meaning": "粗い",
+      "synonyms": [
+        "rough",
+        "granular",
+        "gritty"
+      ],
+      "collocation": "coarse sand",
+      "examples": [
+        {
+          "en": "It then reaches a layer that consists of ground rocks or coarse sand."
+        }
+      ],
+      "pron": {
+        "lookup": "coarse",
+        "tts": "coarse"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1445,
+      "id": "p-in-short",
+      "type": "phrase",
+      "front": "in short",
+      "meaning": "要するに",
+      "synonyms": [
+        "to sum up",
+        "in summary",
+        "all in all"
+      ],
+      "collocation": "in short, both filters",
+      "examples": [
+        {
+          "en": "In short, both filters clean water in practically the same way."
+        }
+      ],
+      "pron": {
+        "tts": "in short"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1446,
+      "id": "w-practically",
+      "type": "word",
+      "front": "practically",
+      "meaning": "実質的に・ほぼ",
+      "synonyms": [
+        "essentially",
+        "basically",
+        "virtually"
+      ],
+      "collocation": "practically the same",
+      "examples": [
+        {
+          "en": "In short, both filters clean water in practically the same way."
+        }
+      ],
+      "pron": {
+        "lookup": "practically",
+        "tts": "practically"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1447,
+      "id": "w-gravel",
+      "type": "word",
+      "front": "gravel",
+      "meaning": "砂利",
+      "synonyms": [
+        "pebble"
+      ],
+      "collocation": "a layer of gravel",
+      "examples": [
+        {
+          "en": "In both, unsanitary water is poured onto a layer of gravel."
+        }
+      ],
+      "pron": {
+        "lookup": "gravel",
+        "tts": "gravel"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1448,
+      "id": "w-seep",
+      "type": "word",
+      "front": "seep",
+      "meaning": "染み出る",
+      "pron": {
+        "lookup": "seep",
+        "tts": "seep"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1449,
+      "id": "p-filter-out",
+      "type": "phrase",
+      "front": "filter out",
+      "meaning": "濾し取る",
+      "pron": {
+        "tts": "filter out"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1450,
+      "id": "w-charcoal",
+      "type": "word",
+      "front": "charcoal",
+      "meaning": "木炭",
+      "pron": {
+        "lookup": "charcoal",
+        "tts": "charcoal"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t61",
+    "theme": 61,
+    "themeName": "水の濾過装置",
+    "jp": "この絵は2つの簡単な水の濾過装置を示す。どちらも不衛生な水が砂利の層に注がれる。次に水はすり砕いた岩や粗い砂から成る層に達する。2つの装置は木炭と細かい砂を使う順序が異なり、一方は布を、他方は綿球を使う。要するに、両方の装置はほぼ同じ方法で水をきれいにする。",
+    "sentences": [
+      {
+        "en": "The pictures show two simple water filters."
+      },
+      {
+        "en": "In both, unsanitary water is poured onto a layer of gravel.",
+        "targets": [
+          {
+            "id": "w-unsanitary",
+            "text": "unsanitary"
+          },
+          {
+            "id": "w-gravel",
+            "text": "gravel"
+          }
+        ]
+      },
+      {
+        "en": "It then reaches a layer that consists of ground rocks or coarse sand.",
+        "targets": [
+          {
+            "id": "p-consist-of",
+            "text": "consists of"
+          },
+          {
+            "id": "w-ground",
+            "text": "ground"
+          },
+          {
+            "id": "w-coarse",
+            "text": "coarse"
+          }
+        ]
+      },
+      {
+        "en": "The two filters use charcoal and fine sand in a different order, and one uses cloth while the other uses cotton balls."
+      },
+      {
+        "en": "In short, both filters clean water in practically the same way.",
+        "targets": [
+          {
+            "id": "p-in-short",
+            "text": "In short"
+          },
+          {
+            "id": "w-practically",
+            "text": "practically"
+          }
+        ]
+      }
+    ]
+  }
+}

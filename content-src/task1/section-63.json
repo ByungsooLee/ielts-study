@@ -1,0 +1,41 @@
+{
+  "domain": "english",
+  "collection": "ielts-task1",
+  "collectionName": "IELTS図解描写(Task1)",
+  "kind": "task1",
+  "section": 63,
+  "title": "再開発ビフォー・アフター",
+  "chart": {
+    "type": "map",
+    "caption": "The two maps show a town before and after reconstruction.",
+    "svg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='地図：町の再開発前後'><title>Town before and after</title><g font-size='8' fill='#555'><text x='40' y='22' font-size='10' fill='#333'>Before</text><rect x='40' y='28' width='110' height='90' fill='none' stroke='#9aa0a6' stroke-width='1.5'/><path d='M95,118 L95,60 M95,60 L70,40 M95,60 L120,40' stroke='#c96442' fill='none'/><text x='45' y='55'>Factory</text><text x='120' y='55'>houses</text><text x='70' y='114'>Harbour</text><text x='180' y='22' font-size='10' fill='#333'>After</text><rect x='180' y='28' width='110' height='90' fill='none' stroke='#7c9cc4' stroke-width='1.5'/><path d='M235,118 L235,60 M235,60 L210,40 M235,60 L260,40' stroke='#7c9cc4' fill='none'/><text x='185' y='55'>Museum</text><text x='258' y='55'>shops</text><text x='205' y='114'>Harbour</text><text x='250' y='40'>tunnel</text></g></svg>",
+    "series": [
+      {"name": "Before", "func": ["describe"]},
+      {"name": "After", "func": ["compare", "describe"]}
+    ]
+  },
+  "model_paragraph": "The two maps show a town before and after reconstruction. Overall, this industrial area has undergone gentrification, and the town centre has been pedestrianised. Prior to the changes, there was a harbour in the south and two factories facing the water. A road headed north until it reached a crossing, where it forked into two: the right fork led to a residential area of one-storey houses, while the left went towards a rural area. Following the reconstruction, the factories were replaced by a museum, shops and a restaurant, and a tunnel was added under the city.",
+  "items": [
+    {"id": "t1-prior-to", "type": "task1-word", "front": "prior to", "func": "time", "meaning": "〜より前に", "synonyms": ["preceding", "previous to"], "collocation": "prior to the changes", "register": "active", "priority": "S"},
+    {"id": "t1-preceding", "type": "task1-word", "front": "preceding", "func": "time", "meaning": "〜の前の", "synonyms": ["prior to", "previous to"], "collocation": "preceding the changes", "register": "active", "priority": "A"},
+    {"id": "t1-following", "type": "task1-word", "front": "following", "func": "time", "meaning": "〜の後に", "synonyms": ["subsequent to"], "collocation": "following the reconstruction", "register": "active", "priority": "S"},
+    {"id": "t1-subsequent-to", "type": "task1-word", "front": "subsequent to", "func": "time", "meaning": "〜の後に", "synonyms": ["following"], "collocation": "subsequent to the changes", "register": "active", "priority": "A"},
+    {"id": "t1-industrial", "type": "task1-word", "front": "industrial", "func": "describe", "meaning": "工業の", "synonyms": ["manufacturing"], "collocation": "an industrial area", "register": "active", "priority": "S"},
+    {"id": "t1-manufacturing", "type": "task1-word", "front": "manufacturing", "func": "describe", "meaning": "製造（業）の", "synonyms": ["industrial"], "collocation": "the manufacturing area", "register": "active", "priority": "A"},
+    {"id": "t1-harbour", "type": "task1-word", "front": "harbour", "func": "describe", "meaning": "港", "synonyms": ["port"], "collocation": "a harbour in the south", "register": "active", "priority": "A"},
+    {"id": "t1-port", "type": "task1-word", "front": "port", "func": "describe", "meaning": "港", "synonyms": ["harbour"], "collocation": "no changes to the port", "register": "active", "priority": "A"},
+    {"id": "t1-crossing", "type": "task1-word", "front": "crossing", "func": "describe", "meaning": "交差点", "synonyms": ["crossroad", "intersection"], "collocation": "reach a crossing", "register": "active", "priority": "A"},
+    {"id": "t1-intersection", "type": "task1-word", "front": "intersection", "func": "describe", "meaning": "交差点", "synonyms": ["crossing", "crossroad"], "collocation": "at the intersection", "register": "active", "priority": "A"},
+    {"id": "t1-fork", "type": "task1-word", "front": "fork", "func": "describe", "meaning": "分岐する", "synonyms": ["split", "divide"], "collocation": "the road forks into two", "register": "active", "priority": "A"},
+    {"id": "t1-divide", "type": "task1-word", "front": "divide", "func": "describe", "meaning": "分かれる", "synonyms": ["split", "fork"], "collocation": "the road divides", "register": "active", "priority": "A"},
+    {"id": "t1-rural-area", "type": "task1-word", "front": "rural area", "func": "describe", "meaning": "農村地域", "synonyms": ["agricultural area", "the countryside", "the country"], "collocation": "towards a rural area", "register": "active", "priority": "S"},
+    {"id": "t1-the-countryside", "type": "task1-word", "front": "the countryside", "func": "describe", "meaning": "田舎・郊外", "synonyms": ["rural area", "the country"], "collocation": "in the countryside", "register": "active", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "t1-63-d1", "focus_func": "time", "highlight": {"series": "Before", "note": "変更前"}, "jp": "変更前は、町の南に港があった。", "target_ids": ["t1-prior-to", "t1-harbour"], "model_en": "Prior to the changes, there was a harbour in the south of the town.", "acceptable": ["preceding", "port"]},
+    {"id": "t1-63-d2", "focus_func": "describe", "highlight": {"note": "地域の性格"}, "jp": "この工業地域はすっかり変わった。", "target_ids": ["t1-industrial"], "model_en": "This industrial area has been completely transformed.", "acceptable": ["manufacturing"]},
+    {"id": "t1-63-d3", "focus_func": "describe", "highlight": {"note": "道の分岐"}, "jp": "道路は交差点で二つに分かれる。", "target_ids": ["t1-fork", "t1-crossing"], "model_en": "The road forks into two at the crossing.", "acceptable": ["divides", "intersection"]},
+    {"id": "t1-63-d4", "focus_func": "time", "highlight": {"series": "After", "note": "変更後"}, "jp": "再開発の後、工場は博物館に置き換えられた。", "target_ids": ["t1-following"], "model_en": "Following the reconstruction, the factories were replaced by a museum.", "acceptable": ["subsequent to"]},
+    {"id": "t1-63-d5", "focus_func": "describe", "highlight": {"note": "地域区分"}, "jp": "左の道は農村地域へと続く。", "target_ids": ["t1-rural-area"], "model_en": "The left road leads towards a rural area.", "acceptable": ["the countryside"]}
+  ]
+}

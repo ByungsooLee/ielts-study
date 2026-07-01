@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 73,
+  "themeId": "theme-73",
+  "themeName": "小学生の外国語学習②（臨界期）",
+  "version": "8b9c8fff",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1544,
+      "id": "p-window-of-opportunity",
+      "type": "phrase",
+      "front": "window of opportunity",
+      "meaning": "絶好の機会",
+      "synonyms": [
+        "critical period",
+        "critical window"
+      ],
+      "collocation": "a window of opportunity",
+      "pron": {
+        "tts": "window of opportunity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1545,
+      "id": "w-preadolescence",
+      "type": "word",
+      "front": "preadolescence",
+      "meaning": "思春期直前期",
+      "synonyms": [
+        "preteen years"
+      ],
+      "collocation": "in preadolescence",
+      "pron": {
+        "lookup": "preadolescence",
+        "tts": "preadolescence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1546,
+      "id": "p-pick-up",
+      "type": "phrase",
+      "front": "pick up",
+      "meaning": "身につける・覚える",
+      "synonyms": [
+        "informally learn"
+      ],
+      "collocation": "pick up vocabulary",
+      "pron": {
+        "tts": "pick up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1547,
+      "id": "w-undaunted",
+      "type": "word",
+      "front": "undaunted",
+      "meaning": "ひるまない・恐れない",
+      "synonyms": [
+        "fearless",
+        "unafraid"
+      ],
+      "collocation": "undaunted by mistakes",
+      "pron": {
+        "lookup": "undaunted",
+        "tts": "undaunted"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1548,
+      "id": "w-reticence",
+      "type": "word",
+      "front": "reticence",
+      "meaning": "遠慮・気後れ",
+      "synonyms": [
+        "inhibition",
+        "hang-up",
+        "reluctance"
+      ],
+      "collocation": "a lack of reticence",
+      "pron": {
+        "lookup": "reticence",
+        "tts": "reticence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1549,
+      "id": "w-puberty",
+      "type": "word",
+      "front": "puberty",
+      "meaning": "思春期",
+      "synonyms": [
+        "adolescence"
+      ],
+      "collocation": "before puberty",
+      "pron": {
+        "lookup": "puberty",
+        "tts": "puberty"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 88,
+  "themeId": "theme-88",
+  "themeName": "未来を語る①（住んでみたい国）",
+  "version": "a804f672",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1646,
+      "id": "w-globetrotter",
+      "type": "word",
+      "front": "globetrotter",
+      "meaning": "世界を旅する人",
+      "synonyms": [
+        "world traveller"
+      ],
+      "collocation": "not much of a globetrotter",
+      "pron": {
+        "lookup": "globetrotter",
+        "tts": "globetrotter"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1647,
+      "id": "p-cross-off",
+      "type": "phrase",
+      "front": "cross off",
+      "meaning": "（リストから）消す・済ませる",
+      "synonyms": [
+        "tick off"
+      ],
+      "collocation": "cross off my bucket list",
+      "pron": {
+        "tts": "cross off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1648,
+      "id": "p-in-terms-of",
+      "type": "phrase",
+      "front": "in terms of",
+      "meaning": "〜に関しては",
+      "synonyms": [
+        "as for"
+      ],
+      "collocation": "in terms of what I'd do",
+      "pron": {
+        "tts": "in terms of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1649,
+      "id": "p-sign-up-for",
+      "type": "phrase",
+      "front": "sign up for",
+      "meaning": "〜に申し込む・参加する",
+      "synonyms": [
+        "register for"
+      ],
+      "collocation": "sign up for a class",
+      "pron": {
+        "tts": "sign up for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1650,
+      "id": "w-guidance",
+      "type": "word",
+      "front": "guidance",
+      "meaning": "助言・案内",
+      "synonyms": [
+        "recommendation",
+        "tip",
+        "advice"
+      ],
+      "collocation": "get some guidance",
+      "pron": {
+        "lookup": "guidance",
+        "tts": "guidance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1651,
+      "id": "p-brush-up-on",
+      "type": "phrase",
+      "front": "brush up on",
+      "meaning": "〜の能力を磨き直す",
+      "synonyms": [
+        "get back up to speed on"
+      ],
+      "collocation": "brush up on my French",
+      "pron": {
+        "tts": "brush up on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1652,
+      "id": "p-wishful-thinking",
+      "type": "phrase",
+      "front": "wishful thinking",
+      "meaning": "願望的思考・希望的観測",
+      "synonyms": [
+        "pipe dream",
+        "fantasy"
+      ],
+      "collocation": "a bit of wishful thinking",
+      "pron": {
+        "tts": "wishful thinking"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

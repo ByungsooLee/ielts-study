@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 63,
+  "themeId": "theme-63",
+  "themeName": "再開発ビフォー・アフター",
+  "version": "3f4bb398",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1460,
+      "id": "p-prior-to",
+      "type": "phrase",
+      "front": "prior to",
+      "meaning": "〜より前に",
+      "synonyms": [
+        "preceding",
+        "previous to"
+      ],
+      "collocation": "prior to the changes",
+      "examples": [
+        {
+          "en": "Prior to the changes, there was a harbour in the south of this industrial area."
+        }
+      ],
+      "pron": {
+        "tts": "prior to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1461,
+      "id": "w-following",
+      "type": "word",
+      "front": "following",
+      "meaning": "〜の後に",
+      "synonyms": [
+        "subsequent to"
+      ],
+      "collocation": "following the reconstruction",
+      "examples": [
+        {
+          "en": "Following the reconstruction, the factories were replaced by a museum and shops."
+        }
+      ],
+      "pron": {
+        "lookup": "following",
+        "tts": "following"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1462,
+      "id": "w-industrial",
+      "type": "word",
+      "front": "industrial",
+      "meaning": "工業の",
+      "synonyms": [
+        "manufacturing"
+      ],
+      "collocation": "an industrial area",
+      "examples": [
+        {
+          "en": "Prior to the changes, there was a harbour in the south of this industrial area."
+        }
+      ],
+      "pron": {
+        "lookup": "industrial",
+        "tts": "industrial"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1463,
+      "id": "w-harbour",
+      "type": "word",
+      "front": "harbour",
+      "meaning": "港",
+      "synonyms": [
+        "port"
+      ],
+      "collocation": "a harbour in the south",
+      "examples": [
+        {
+          "en": "Prior to the changes, there was a harbour in the south of this industrial area."
+        }
+      ],
+      "pron": {
+        "lookup": "harbour",
+        "tts": "harbour"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1464,
+      "id": "w-crossing",
+      "type": "word",
+      "front": "crossing",
+      "meaning": "交差点",
+      "synonyms": [
+        "crossroad",
+        "intersection"
+      ],
+      "collocation": "reach a crossing",
+      "examples": [
+        {
+          "en": "A road headed north until it reached a crossing, where it forked into two."
+        }
+      ],
+      "pron": {
+        "lookup": "crossing",
+        "tts": "crossing"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1465,
+      "id": "w-fork",
+      "type": "word",
+      "front": "fork",
+      "meaning": "分岐する",
+      "synonyms": [
+        "split",
+        "divide"
+      ],
+      "collocation": "the road forks into two",
+      "examples": [
+        {
+          "en": "A road headed north until it reached a crossing, where it forked into two."
+        }
+      ],
+      "pron": {
+        "lookup": "fork",
+        "tts": "fork"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1466,
+      "id": "p-rural-area",
+      "type": "phrase",
+      "front": "rural area",
+      "meaning": "農村地域",
+      "synonyms": [
+        "agricultural area",
+        "the countryside"
+      ],
+      "collocation": "towards a rural area",
+      "examples": [
+        {
+          "en": "The right fork led to houses, while the left went towards a rural area."
+        }
+      ],
+      "pron": {
+        "tts": "rural area"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1467,
+      "id": "w-gentrification",
+      "type": "word",
+      "front": "gentrification",
+      "meaning": "高級化",
+      "pron": {
+        "lookup": "gentrification",
+        "tts": "gentrification"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1468,
+      "id": "w-pedestrianise",
+      "type": "word",
+      "front": "pedestrianise",
+      "meaning": "歩行者専用にする",
+      "pron": {
+        "lookup": "pedestrianise",
+        "tts": "pedestrianise"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1469,
+      "id": "w-one-storey",
+      "type": "word",
+      "front": "one-storey",
+      "meaning": "1階建ての",
+      "pron": {
+        "lookup": "one-storey",
+        "tts": "one-storey"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t63",
+    "theme": 63,
+    "themeName": "再開発ビフォー・アフター",
+    "jp": "この2枚の地図は、町の再開発前後を示す。変更前は、この工業地域の南に港があった。道路は北へ向かい交差点に達し、そこで二つに分岐した。右の道は住宅へ、左の道は農村地域へと続いた。再開発の後、工場は博物館と店に置き換えられた。",
+    "sentences": [
+      {
+        "en": "The two maps show a town before and after reconstruction."
+      },
+      {
+        "en": "Prior to the changes, there was a harbour in the south of this industrial area.",
+        "targets": [
+          {
+            "id": "p-prior-to",
+            "text": "Prior to"
+          },
+          {
+            "id": "w-harbour",
+            "text": "harbour"
+          },
+          {
+            "id": "w-industrial",
+            "text": "industrial"
+          }
+        ]
+      },
+      {
+        "en": "A road headed north until it reached a crossing, where it forked into two.",
+        "targets": [
+          {
+            "id": "w-crossing",
+            "text": "crossing"
+          },
+          {
+            "id": "w-fork",
+            "text": "forked"
+          }
+        ]
+      },
+      {
+        "en": "The right fork led to houses, while the left went towards a rural area.",
+        "targets": [
+          {
+            "id": "p-rural-area",
+            "text": "rural area"
+          }
+        ]
+      },
+      {
+        "en": "Following the reconstruction, the factories were replaced by a museum and shops.",
+        "targets": [
+          {
+            "id": "w-following",
+            "text": "Following"
+          }
+        ]
+      }
+    ]
+  }
+}

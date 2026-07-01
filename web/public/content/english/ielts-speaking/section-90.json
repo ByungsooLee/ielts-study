@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 90,
+  "themeId": "section-90",
+  "themeName": "子供たちと伝統文化①（意見）",
+  "version": "209b05ca",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 90,
+  "title": "子供たちと伝統文化①（意見）",
+  "prompt": "Should children be made to learn about their country's traditional culture?",
+  "prompt_jp": "子供は自国の伝統文化を学ばされるべきだと思いますか？",
+  "model_answer": [
+    "I don't think so, because some children just aren't really into traditional culture.",
+    "For example, I grew out of festivals when I was a teenager, though the memories still stick in my memory.",
+    "Forcing them can hold them back from ever enjoying it, in my opinion.",
+    "Instead, I reckon it's better to enlighten kids about other cultures so they become well-rounded."
+  ],
+  "items": [
+    {
+      "id": "sp-be-really-into",
+      "type": "speaking-word",
+      "front": "be really into",
+      "func": "sp-preference",
+      "meaning": "〜に夢中である・大ファンである",
+      "synonyms": [
+        "be a massive fan of"
+      ],
+      "collocation": "be really into culture",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）"
+    },
+    {
+      "id": "sp-grow-out-of",
+      "type": "speaking-word",
+      "front": "grow out of",
+      "func": "topic",
+      "meaning": "成長して〜から卒業する",
+      "synonyms": [
+        "outgrow"
+      ],
+      "collocation": "grow out of festivals",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）"
+    },
+    {
+      "id": "sp-give-up",
+      "type": "speaking-word",
+      "front": "give up",
+      "func": "topic",
+      "meaning": "諦める・やめる",
+      "synonyms": [
+        "quit",
+        "call it quits"
+      ],
+      "collocation": "give up a hobby",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）"
+    },
+    {
+      "id": "sp-stick-in-ones-memory",
+      "type": "speaking-word",
+      "front": "stick in one's memory",
+      "func": "sp-idiom",
+      "meaning": "記憶に焼きつく",
+      "synonyms": [
+        "be very memorable",
+        "leave a lasting impression"
+      ],
+      "collocation": "stick in my memory",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）"
+    },
+    {
+      "id": "sp-hold-back-from",
+      "type": "speaking-word",
+      "front": "hold back from",
+      "func": "topic",
+      "meaning": "〜から〜を遠ざける・妨げる",
+      "synonyms": [
+        "stop from",
+        "keep from"
+      ],
+      "collocation": "hold them back from enjoying it",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）"
+    },
+    {
+      "id": "sp-enlighten",
+      "type": "speaking-word",
+      "front": "enlighten",
+      "func": "topic",
+      "meaning": "〜に教える・啓発する",
+      "synonyms": [
+        "teach about",
+        "make aware of"
+      ],
+      "collocation": "enlighten kids about",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）"
+    },
+    {
+      "id": "sp-well-rounded",
+      "type": "speaking-word",
+      "front": "well-rounded",
+      "func": "topic",
+      "meaning": "多才な・幅広い教養のある",
+      "synonyms": [
+        "informed",
+        "knowledgeable"
+      ],
+      "collocation": "become well-rounded",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-90-d1",
+      "focus_func": "sp-preference",
+      "jp": "一部の子供はそもそも伝統文化に夢中ではないと思う。",
+      "target_ids": [
+        "sp-be-really-into"
+      ],
+      "model_en": "Some children just aren't really into traditional culture.",
+      "acceptable": [
+        "a massive fan of"
+      ]
+    },
+    {
+      "id": "sp-90-d2",
+      "focus_func": "topic",
+      "jp": "10代で祭りから卒業したが、思い出は今も記憶に焼きついている。",
+      "target_ids": [
+        "sp-grow-out-of",
+        "sp-stick-in-ones-memory"
+      ],
+      "model_en": "I grew out of festivals as a teenager, but they still stick in my memory.",
+      "acceptable": [
+        "outgrew",
+        "left a lasting impression"
+      ]
+    },
+    {
+      "id": "sp-90-d3",
+      "focus_func": "topic",
+      "jp": "その代わり、子供に他の文化を教えて多才にする方が良いと思う。",
+      "target_ids": [
+        "sp-enlighten",
+        "sp-well-rounded"
+      ],
+      "model_en": "Instead, it's better to enlighten kids so they become well-rounded.",
+      "acceptable": [
+        "teach",
+        "knowledgeable"
+      ]
+    }
+  ]
+}

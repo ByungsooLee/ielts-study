@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-task1",
+  "collectionId": "ielts-task1",
+  "collectionName": "IELTS図解描写(Task1)",
+  "kind": "task1",
+  "theme": 59,
+  "themeId": "section-59",
+  "themeName": "英国のエネルギー使用量",
+  "version": "4550bebb",
+  "generatedAt": "2026-07-01T10:27:35.111Z",
+  "section": 59,
+  "title": "英国のエネルギー使用量",
+  "chart": {
+    "type": "line",
+    "caption": "The line graph shows the consumption of energy by fuel type in the UK since 1950, with projections until 2050 (quadrillion units, qu).",
+    "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='折れ線グラフ：燃料別エネルギー消費'><title>Energy use by fuel 1950-2050</title><line x1='40' y1='160' x2='305' y2='160' stroke='#b9b9b4'/><line x1='40' y1='20' x2='40' y2='160' stroke='#b9b9b4'/><line x1='200' y1='20' x2='200' y2='160' stroke='#ddd' stroke-dasharray='3 3'/><text x='16' y='30' font-size='9' fill='#888'>130</text><text x='20' y='163' font-size='9' fill='#888'>0</text><text x='34' y='176' font-size='9' fill='#888'>1950</text><text x='188' y='176' font-size='9' fill='#888'>2000</text><text x='285' y='176' font-size='9' fill='#888'>2050</text><polyline fill='none' stroke='#c96442' stroke-width='2.6' points='44,90 120,60 200,30 300,30'/><polyline fill='none' stroke='#9aa0a6' stroke-width='2.2' points='44,110 90,70 200,120 300,135'/><polyline fill='none' stroke='#7c9cc4' stroke-width='2.2' points='44,158 200,150 300,110'/><text x='250' y='24' font-size='9' fill='#c96442'>Petrol</text><text x='120' y='58' font-size='9' fill='#9aa0a6'>Coal &amp; Gas</text><text x='250' y='104' font-size='9' fill='#7c9cc4'>Solar</text><text x='150' y='16' font-size='8' fill='#aaa'>← 実績 | 予測 →</text></svg>",
+    "series": [
+      {
+        "name": "Petrol",
+        "func": [
+          "quantity",
+          "flat"
+        ]
+      },
+      {
+        "name": "Coal and Gas",
+        "func": [
+          "up-sharp",
+          "down-sharp"
+        ]
+      },
+      {
+        "name": "Solar",
+        "func": [
+          "up-gradual",
+          "quantity"
+        ]
+      }
+    ]
+  },
+  "model_paragraph": "The line graph shows the consumption of energy by fuel type in the UK from 1950, with projections until 2050, measured in quadrillion units. Overall, petrol has been the dominant fuel and is projected to remain the highest, whereas coal and gas have fallen sharply since the 1970s. Petrol began at 60 units in 1950 and doubled to 130 by 2000; it is projected to remain steady until 2050. Coal and gas saw a brief uptick to 100 units in 1975 but then plunged to 50 by 2000, and are estimated to fluctuate slightly between 20 and 25 units. Meanwhile, solar energy is predicted to increase twofold by 2030.",
+  "items": [
+    {
+      "id": "t1-double",
+      "type": "task1-word",
+      "front": "double",
+      "func": "quantity",
+      "meaning": "倍増する",
+      "synonyms": [
+        "increase twofold"
+      ],
+      "collocation": "double from 60 to 130",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-increase-twofold",
+      "type": "task1-word",
+      "front": "increase twofold",
+      "func": "quantity",
+      "meaning": "2倍になる",
+      "synonyms": [
+        "double"
+      ],
+      "collocation": "increase twofold by 2030",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-reach",
+      "type": "task1-word",
+      "front": "reach",
+      "func": "up-gradual",
+      "meaning": "（ある値に）達する",
+      "synonyms": [
+        "hit"
+      ],
+      "collocation": "reach 100 units",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-be-projected",
+      "type": "task1-word",
+      "front": "be projected to",
+      "func": "describe",
+      "meaning": "〜すると予測される",
+      "synonyms": [
+        "be estimated to",
+        "be predicted to"
+      ],
+      "collocation": "be projected to remain steady",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-be-estimated",
+      "type": "task1-word",
+      "front": "be estimated to",
+      "func": "describe",
+      "meaning": "〜すると見積もられる",
+      "synonyms": [
+        "be projected to",
+        "be approximated"
+      ],
+      "collocation": "be estimated to fluctuate",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-remain-steady",
+      "type": "task1-word",
+      "front": "remain steady",
+      "func": "flat",
+      "meaning": "一定に保たれる",
+      "synonyms": [
+        "stay constant",
+        "remain static",
+        "hover"
+      ],
+      "collocation": "remain steady until 2050",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-stay-constant",
+      "type": "task1-word",
+      "front": "stay constant",
+      "func": "flat",
+      "meaning": "一定である",
+      "synonyms": [
+        "remain steady",
+        "remain static"
+      ],
+      "collocation": "stay constant",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-hover",
+      "type": "task1-word",
+      "front": "hover",
+      "func": "flat",
+      "meaning": "（ある値の周りで）推移する",
+      "synonyms": [
+        "remain steady"
+      ],
+      "collocation": "hover around 25 units",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-uptick",
+      "type": "task1-word",
+      "front": "uptick",
+      "func": "up-sharp",
+      "meaning": "上昇・増加",
+      "synonyms": [
+        "hike",
+        "boost",
+        "upsurge"
+      ],
+      "collocation": "a brief uptick",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-hike",
+      "type": "task1-word",
+      "front": "hike",
+      "func": "up-sharp",
+      "meaning": "急増・引き上げ",
+      "synonyms": [
+        "uptick",
+        "boost"
+      ],
+      "collocation": "a hike in prices",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-plunge",
+      "type": "task1-word",
+      "front": "plunge",
+      "func": "down-sharp",
+      "meaning": "急落する",
+      "synonyms": [
+        "nose-dive",
+        "plummet",
+        "tumble"
+      ],
+      "collocation": "plunge to 50 units",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-plummet",
+      "type": "task1-word",
+      "front": "plummet",
+      "func": "down-sharp",
+      "meaning": "急落する",
+      "synonyms": [
+        "plunge",
+        "nose-dive",
+        "dive"
+      ],
+      "collocation": "prices plummet",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-tumble",
+      "type": "task1-word",
+      "front": "tumble",
+      "func": "down-sharp",
+      "meaning": "急落する",
+      "synonyms": [
+        "plunge",
+        "plummet"
+      ],
+      "collocation": "tumble sharply",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-fluctuate-slightly",
+      "type": "task1-word",
+      "front": "fluctuate slightly",
+      "func": "fluctuate",
+      "meaning": "わずかに変動する",
+      "synonyms": [
+        "waver"
+      ],
+      "collocation": "fluctuate slightly between 20 and 25",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    },
+    {
+      "id": "t1-waver",
+      "type": "task1-word",
+      "front": "waver",
+      "func": "fluctuate",
+      "meaning": "変動する・揺れ動く",
+      "synonyms": [
+        "fluctuate"
+      ],
+      "collocation": "figures wavered",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量"
+    }
+  ],
+  "drills": [
+    {
+      "id": "t1-59-d1",
+      "focus_func": "quantity",
+      "highlight": {
+        "series": "Petrol",
+        "note": "60→130 倍増"
+      },
+      "jp": "石油の消費量は1950年の60から2000年までに倍増して130になった。",
+      "target_ids": [
+        "t1-double"
+      ],
+      "model_en": "Petrol consumption doubled from 60 units in 1950 to 130 by 2000.",
+      "acceptable": [
+        "increased twofold"
+      ]
+    },
+    {
+      "id": "t1-59-d2",
+      "focus_func": "flat",
+      "highlight": {
+        "series": "Petrol",
+        "note": "予測・横ばい"
+      },
+      "jp": "石油は2050年まで一定に保たれると予測されている。",
+      "target_ids": [
+        "t1-remain-steady",
+        "t1-be-projected"
+      ],
+      "model_en": "Petrol is projected to remain steady until 2050.",
+      "acceptable": [
+        "stay constant",
+        "is estimated to"
+      ]
+    },
+    {
+      "id": "t1-59-d3",
+      "focus_func": "down-sharp",
+      "highlight": {
+        "series": "Coal and Gas",
+        "note": "2000までに急落"
+      },
+      "jp": "石炭とガスは2000年までに50へ急落した。",
+      "target_ids": [
+        "t1-plunge"
+      ],
+      "model_en": "Coal and gas plunged to 50 units by 2000.",
+      "acceptable": [
+        "plummeted",
+        "tumbled"
+      ]
+    },
+    {
+      "id": "t1-59-d4",
+      "focus_func": "fluctuate",
+      "highlight": {
+        "series": "Coal and Gas",
+        "note": "20〜25で変動"
+      },
+      "jp": "この燃料は今後20から25の間でわずかに変動すると見積もられている。",
+      "target_ids": [
+        "t1-fluctuate-slightly",
+        "t1-be-estimated"
+      ],
+      "model_en": "This fuel is estimated to fluctuate slightly between 20 and 25 units.",
+      "acceptable": [
+        "waver",
+        "is projected to"
+      ]
+    },
+    {
+      "id": "t1-59-d5",
+      "focus_func": "up-sharp",
+      "highlight": {
+        "series": "Coal and Gas",
+        "note": "1975の一時的増加"
+      },
+      "jp": "石炭とガスは1975年に100への一時的な急増を見せた。",
+      "target_ids": [
+        "t1-uptick"
+      ],
+      "model_en": "Coal and gas saw a brief uptick to 100 units in 1975.",
+      "acceptable": [
+        "hike",
+        "upsurge"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionId": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "theme": 73,
+  "themeId": "section-73",
+  "themeName": "小学生の外国語学習②（臨界期）",
+  "version": "a0b7beed",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 73,
+  "title": "小学生の外国語学習②（臨界期）",
+  "prompt": "Some experts believe that it is better for children to begin learning a foreign language at primary school. To what extent do you agree?",
+  "prompt_jp": "小学校での外国語学習について、臨界期の観点から論じよ。",
+  "outline_jp": [
+    "前提: 言語習得には好機（臨界期）がある",
+    "理由: 子どもは失敗を恐れず学べる",
+    "例: 気後れがないため習得を楽しめる",
+    "結論: 思春期前に始めるべき"
+  ],
+  "model_answer": [
+    "Most people believe there is a small window of opportunity, a 'critical period', to learn a language like a native.",
+    "During this time, in preadolescence, children can easily pick up new vocabulary and grammar.",
+    "This is largely because children are undaunted and not afraid to make errors, which is essential for learning.",
+    "For instance, their lack of reticence lets them enjoy acquiring the skill.",
+    "In conclusion, it is clear that children should begin learning a language before puberty."
+  ],
+  "items": [
+    {
+      "id": "w2-this-is-largely-because",
+      "type": "writing-word",
+      "front": "this is largely because",
+      "func": "reason",
+      "meaning": "これは主に〜だからだ",
+      "synonyms": [
+        "owing to",
+        "due to the fact that"
+      ],
+      "collocation": "this is largely because …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）"
+    },
+    {
+      "id": "w2-for-example",
+      "type": "writing-word",
+      "front": "for example",
+      "func": "example",
+      "meaning": "例えば",
+      "synonyms": [
+        "for instance",
+        "a case in point is"
+      ],
+      "collocation": "for instance, …",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）"
+    },
+    {
+      "id": "w2-in-conclusion",
+      "type": "writing-word",
+      "front": "in conclusion",
+      "func": "conclusion",
+      "meaning": "結論として",
+      "synonyms": [
+        "to conclude",
+        "in summary"
+      ],
+      "collocation": "in conclusion, …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）"
+    },
+    {
+      "id": "w2-window-of-opportunity",
+      "type": "writing-word",
+      "front": "window of opportunity",
+      "func": "topic",
+      "meaning": "絶好の機会",
+      "synonyms": [
+        "critical period",
+        "critical window"
+      ],
+      "collocation": "a window of opportunity",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）"
+    },
+    {
+      "id": "w2-preadolescence",
+      "type": "writing-word",
+      "front": "preadolescence",
+      "func": "topic",
+      "meaning": "思春期直前期",
+      "synonyms": [
+        "preteen years"
+      ],
+      "collocation": "in preadolescence",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）"
+    },
+    {
+      "id": "w2-pick-up",
+      "type": "writing-word",
+      "front": "pick up",
+      "func": "topic",
+      "meaning": "身につける・覚える",
+      "synonyms": [
+        "informally learn"
+      ],
+      "collocation": "pick up vocabulary",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）"
+    },
+    {
+      "id": "w2-undaunted",
+      "type": "writing-word",
+      "front": "undaunted",
+      "func": "topic",
+      "meaning": "ひるまない・恐れない",
+      "synonyms": [
+        "fearless",
+        "unafraid"
+      ],
+      "collocation": "undaunted by mistakes",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）"
+    },
+    {
+      "id": "w2-reticence",
+      "type": "writing-word",
+      "front": "reticence",
+      "func": "topic",
+      "meaning": "遠慮・気後れ",
+      "synonyms": [
+        "inhibition",
+        "hang-up",
+        "reluctance"
+      ],
+      "collocation": "a lack of reticence",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）"
+    },
+    {
+      "id": "w2-puberty",
+      "type": "writing-word",
+      "front": "puberty",
+      "func": "topic",
+      "meaning": "思春期",
+      "synonyms": [
+        "adolescence"
+      ],
+      "collocation": "before puberty",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "w2-73-d1",
+      "focus_func": "topic",
+      "jp": "この時期、子どもは新しい語彙や文法を簡単に身につけられる。",
+      "target_ids": [
+        "w2-pick-up",
+        "w2-preadolescence"
+      ],
+      "model_en": "During preadolescence, children can easily pick up new vocabulary and grammar.",
+      "acceptable": [
+        "informally learn"
+      ]
+    },
+    {
+      "id": "w2-73-d2",
+      "focus_func": "reason",
+      "jp": "これは主に、子どもがひるまず失敗を恐れないからだ。",
+      "target_ids": [
+        "w2-this-is-largely-because",
+        "w2-undaunted"
+      ],
+      "model_en": "This is largely because children are undaunted and not afraid of mistakes.",
+      "acceptable": [
+        "owing to",
+        "fearless"
+      ]
+    },
+    {
+      "id": "w2-73-d3",
+      "focus_func": "conclusion",
+      "jp": "結論として、子どもは思春期前に言語学習を始めるべきだ。",
+      "target_ids": [
+        "w2-in-conclusion",
+        "w2-puberty"
+      ],
+      "model_en": "In conclusion, children should begin learning a language before puberty.",
+      "acceptable": [
+        "to conclude"
+      ]
+    }
+  ]
+}

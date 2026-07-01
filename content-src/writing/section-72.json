@@ -1,0 +1,35 @@
+{
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "section": 72,
+  "title": "小学生の外国語学習①（賛成）",
+  "prompt": "Some experts believe that it is better for children to begin learning a foreign language at primary school. To what extent do you agree?",
+  "prompt_jp": "小学校で外国語学習を始める方が良いという専門家の意見に、どの程度賛成か。",
+  "outline_jp": ["意見: 早期学習は理にかなう", "理由: 将来の求人市場で不可欠", "例: 翻訳アプリでも人間の流暢さは廃れない", "譲歩: 母語習得が先"],
+  "model_answer": [
+    "Some experts believe it is best for children to learn a second language as early as possible.",
+    "In my view, this makes sense, largely because ability in a foreign language may be essential in the future job market.",
+    "This is largely because employers are always on the lookout for people who can conduct business internationally.",
+    "For example, translation apps may make some skills less desired, but human fluency will not become obsolete.",
+    "I must concede, however, that proficiency in one's mother tongue should come first."
+  ],
+  "items": [
+    {"id": "w2-in-my-view", "type": "writing-word", "front": "in my view", "func": "opinion", "meaning": "私の考えでは", "synonyms": ["it is my firm belief that", "as I see it"], "collocation": "in my view, …", "priority": "S"},
+    {"id": "w2-this-is-largely-because", "type": "writing-word", "front": "this is largely because", "func": "reason", "meaning": "これは主に〜だからだ", "synonyms": ["owing to", "due to the fact that"], "collocation": "this is largely because …", "priority": "S"},
+    {"id": "w2-for-example", "type": "writing-word", "front": "for example", "func": "example", "meaning": "例えば", "synonyms": ["for instance", "a case in point is"], "collocation": "for example, …", "priority": "A"},
+    {"id": "w2-concede", "type": "writing-word", "front": "concede", "func": "concession", "meaning": "（しぶしぶ）認める", "synonyms": ["admit"], "collocation": "I must concede that …", "priority": "S"},
+    {"id": "w2-make-sense", "type": "writing-word", "front": "make sense", "func": "opinion", "meaning": "理にかなう", "synonyms": ["be justifiable", "be understandable"], "collocation": "it makes sense to …", "priority": "S"},
+    {"id": "w2-hypothesis", "type": "writing-word", "front": "hypothesis", "func": "topic", "meaning": "仮説", "synonyms": ["assumption", "theory", "belief"], "collocation": "a controversial hypothesis", "priority": "A"},
+    {"id": "w2-job-market", "type": "writing-word", "front": "job market", "func": "topic", "meaning": "求人市場", "synonyms": ["labour market"], "collocation": "the future job market", "priority": "A"},
+    {"id": "w2-be-on-the-lookout-for", "type": "writing-word", "front": "be on the lookout for", "func": "topic", "meaning": "〜を注意して探している", "synonyms": ["keep an eye out for"], "collocation": "employers are on the lookout for", "priority": "A"},
+    {"id": "w2-be-desired", "type": "writing-word", "front": "be desired", "func": "topic", "meaning": "求められている", "synonyms": ["be coveted"], "collocation": "skills that are desired", "priority": "A"},
+    {"id": "w2-obsolete", "type": "writing-word", "front": "obsolete", "func": "topic", "meaning": "廃れた・時代遅れの", "synonyms": ["out-of-date", "antiquated"], "collocation": "become obsolete", "priority": "S"}
+  ],
+  "drills": [
+    {"id": "w2-72-d1", "focus_func": "opinion", "jp": "私の考えでは、早期学習は理にかなう。将来の求人市場で不可欠になりうるからだ。", "target_ids": ["w2-in-my-view", "w2-make-sense", "w2-job-market"], "model_en": "In my view, it makes sense to start early, as it may be essential in the future job market.", "acceptable": ["it is my firm belief that"]},
+    {"id": "w2-72-d2", "focus_func": "reason", "jp": "これは主に、雇用主が国際的に働ける人を常に探しているからだ。", "target_ids": ["w2-this-is-largely-because", "w2-be-on-the-lookout-for"], "model_en": "This is largely because employers are always on the lookout for people who can work internationally.", "acceptable": ["owing to"]},
+    {"id": "w2-72-d3", "focus_func": "concession", "jp": "しかし、母語の習得が先であることは認めなければならない。", "target_ids": ["w2-concede"], "model_en": "However, I must concede that mastery of one's mother tongue should come first.", "acceptable": ["admit"]}
+  ]
+}

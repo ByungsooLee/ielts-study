@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionId": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "theme": 70,
+  "themeId": "section-70",
+  "themeName": "ギャップイヤー①（利点）",
+  "version": "6fefa24f",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 70,
+  "title": "ギャップイヤー①（利点）",
+  "prompt": "In some countries, young people are encouraged to work or travel for a year between finishing high school and starting university. Discuss the advantages and disadvantages.",
+  "prompt_jp": "高校卒業後、大学入学までの1年間、働いたり旅行したりすることが勧められる国がある。利点と欠点を論じよ。",
+  "outline_jp": [
+    "欠点: お金の問題（貯蓄と予算）",
+    "利点: 進路を明確にできる",
+    "例: 専攻を焦って決めると合わないことも",
+    "利点: 多様な仕事を試せる"
+  ],
+  "model_answer": [
+    "In some countries, young people take a gap year to work, travel or volunteer before university.",
+    "The clearest drawback is money: you need to put money aside and stick to your budget.",
+    "On the other hand, the most significant advantage is that a gap year helps people clarify their best course of action.",
+    "For example, those who rush into choosing a major may find that it does not suit them.",
+    "A gap year also gives a chance to try a range of jobs and see if they would suit working abroad."
+  ],
+  "items": [
+    {
+      "id": "w2-on-the-other-hand",
+      "type": "writing-word",
+      "front": "on the other hand",
+      "func": "contrast",
+      "meaning": "他方で",
+      "synonyms": [
+        "conversely",
+        "by contrast"
+      ],
+      "collocation": "on the other hand, …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）"
+    },
+    {
+      "id": "w2-for-example",
+      "type": "writing-word",
+      "front": "for example",
+      "func": "example",
+      "meaning": "例えば",
+      "synonyms": [
+        "for instance",
+        "a case in point is"
+      ],
+      "collocation": "for example, …",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）"
+    },
+    {
+      "id": "w2-clarify",
+      "type": "writing-word",
+      "front": "clarify",
+      "func": "topic",
+      "meaning": "明らかにする",
+      "synonyms": [
+        "make clear"
+      ],
+      "collocation": "clarify one's goals",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）"
+    },
+    {
+      "id": "w2-put-money-aside",
+      "type": "writing-word",
+      "front": "put money aside",
+      "func": "topic",
+      "meaning": "お金を貯める",
+      "synonyms": [
+        "save up",
+        "lay aside money",
+        "economise"
+      ],
+      "collocation": "put money aside for a trip",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）"
+    },
+    {
+      "id": "w2-stick-to",
+      "type": "writing-word",
+      "front": "stick to",
+      "func": "topic",
+      "meaning": "〜を守る・固執する",
+      "synonyms": [
+        "adhere to",
+        "follow"
+      ],
+      "collocation": "stick to a budget",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）"
+    },
+    {
+      "id": "w2-splash-out-on",
+      "type": "writing-word",
+      "front": "splash out on",
+      "func": "topic",
+      "meaning": "〜に散財する",
+      "synonyms": [
+        "splurge on",
+        "spend lavishly on"
+      ],
+      "collocation": "splash out on luggage",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）"
+    },
+    {
+      "id": "w2-accommodation",
+      "type": "writing-word",
+      "front": "accommodation",
+      "func": "topic",
+      "meaning": "宿泊施設",
+      "synonyms": [
+        "housing",
+        "lodging",
+        "residence"
+      ],
+      "collocation": "pay for accommodation",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）"
+    },
+    {
+      "id": "w2-rush-into",
+      "type": "writing-word",
+      "front": "rush into",
+      "func": "topic",
+      "meaning": "〜に性急に飛び込む",
+      "synonyms": [
+        "rush headlong into",
+        "plunge into"
+      ],
+      "collocation": "rush into a decision",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）"
+    },
+    {
+      "id": "w2-suit",
+      "type": "writing-word",
+      "front": "suit",
+      "func": "topic",
+      "meaning": "〜に合う",
+      "synonyms": [
+        "be appropriate for",
+        "fit"
+      ],
+      "collocation": "the subject suits them",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "w2-70-d1",
+      "focus_func": "topic",
+      "jp": "最も明白な欠点はお金で、貯蓄し予算を守る必要がある。",
+      "target_ids": [
+        "w2-put-money-aside",
+        "w2-stick-to"
+      ],
+      "model_en": "The clearest drawback is money: you need to put money aside and stick to your budget.",
+      "acceptable": [
+        "save up",
+        "adhere to"
+      ]
+    },
+    {
+      "id": "w2-70-d2",
+      "focus_func": "contrast",
+      "jp": "他方で、最大の利点は進路を明確にできることだ。",
+      "target_ids": [
+        "w2-on-the-other-hand",
+        "w2-clarify"
+      ],
+      "model_en": "On the other hand, the biggest advantage is that it helps you clarify your best course of action.",
+      "acceptable": [
+        "conversely",
+        "make clear"
+      ]
+    },
+    {
+      "id": "w2-70-d3",
+      "focus_func": "example",
+      "jp": "例えば、専攻を焦って決める人は、それが自分に合わないと気づくことがある。",
+      "target_ids": [
+        "w2-for-example",
+        "w2-rush-into",
+        "w2-suit"
+      ],
+      "model_en": "For example, those who rush into choosing a major may find it does not suit them.",
+      "acceptable": [
+        "for instance",
+        "plunge into"
+      ]
+    }
+  ]
+}

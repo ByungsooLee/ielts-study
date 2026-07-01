@@ -1,0 +1,34 @@
+{
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "section": 68,
+  "title": "少年犯罪①（成人と同様に扱う立場）",
+  "prompt": "Some people believe that juveniles who commit crimes should be treated the same way as adults, while others feel there are better alternatives. Discuss both views and give your opinion.",
+  "prompt_jp": "罪を犯した少年を成人と同様に扱うべきという意見と、より良い代替策があるという意見がある。両方を論じ意見を述べよ。",
+  "outline_jp": ["意見: 成人同様の厳罰に賛成の立場", "理由: 投獄の恐れが犯罪を抑止", "例: 厳罰が重大犯罪の抑止に有効との調査", "譲歩: 同調圧力の影響もある"],
+  "model_answer": [
+    "Some people are in favour of treating minors as adults when they commit a crime, feeling that harsh punishment can act as a deterrent.",
+    "This is largely because the fear of going to prison may stop young people from breaking the law.",
+    "For example, a survey by a leading newspaper found that strict punishment was effective in stopping serious crimes.",
+    "Admittedly, young people's actions can be influenced by others, as they are quite susceptible to peer pressure.",
+    "If this is the case, some argue they should be let off with a lighter punishment."
+  ],
+  "items": [
+    {"id": "w2-be-in-favour-of", "type": "writing-word", "front": "be in favour of", "func": "opinion", "meaning": "〜に賛成である", "synonyms": ["advocate", "support"], "collocation": "be in favour of harsh punishment", "priority": "S"},
+    {"id": "w2-this-is-largely-because", "type": "writing-word", "front": "this is largely because", "func": "reason", "meaning": "これは主に〜だからだ", "synonyms": ["owing to", "due to the fact that"], "collocation": "this is largely because …", "priority": "S"},
+    {"id": "w2-for-example", "type": "writing-word", "front": "for example", "func": "example", "meaning": "例えば", "synonyms": ["for instance", "a case in point is"], "collocation": "for example, …", "priority": "A"},
+    {"id": "w2-admittedly", "type": "writing-word", "front": "admittedly", "func": "concession", "meaning": "確かに（〜だが）", "synonyms": ["it is true that", "granted"], "collocation": "admittedly, …", "priority": "S"},
+    {"id": "w2-harsh-punishment", "type": "writing-word", "front": "harsh punishment", "func": "topic", "meaning": "厳罰", "synonyms": ["severe punishment", "strict punishment"], "collocation": "harsh punishment acts as a deterrent", "priority": "A"},
+    {"id": "w2-actions", "type": "writing-word", "front": "actions", "func": "topic", "meaning": "行為・振る舞い", "synonyms": ["behaviour", "conduct"], "collocation": "responsible for one's actions", "priority": "A"},
+    {"id": "w2-under-pressure", "type": "writing-word", "front": "under pressure", "func": "topic", "meaning": "プレッシャーをかけられて", "synonyms": ["pressured", "pushed"], "collocation": "under peer pressure", "priority": "A"},
+    {"id": "w2-lenient", "type": "writing-word", "front": "lenient", "func": "topic", "meaning": "寛大な・甘い", "synonyms": ["forgiving"], "collocation": "lenient towards offenders", "priority": "A"},
+    {"id": "w2-let-off", "type": "writing-word", "front": "let off", "func": "topic", "meaning": "（人を）許す・放免する", "synonyms": ["escape punishment", "allow to walk free"], "collocation": "be let off", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "w2-68-d1", "focus_func": "opinion", "jp": "一部の人は、罪を犯した少年を成人同様に扱うことに賛成だ。", "target_ids": ["w2-be-in-favour-of"], "model_en": "Some people are in favour of treating minors as adults when they commit a crime.", "acceptable": ["advocate", "support"]},
+    {"id": "w2-68-d2", "focus_func": "reason", "jp": "これは主に、投獄の恐れが若者の犯罪を止めうるからだ。", "target_ids": ["w2-this-is-largely-because", "w2-harsh-punishment"], "model_en": "This is largely because the fear of prison, and harsh punishment, may stop young people offending.", "acceptable": ["owing to"]},
+    {"id": "w2-68-d3", "focus_func": "concession", "jp": "確かに、若者の行動は同調圧力に影響されやすい。", "target_ids": ["w2-admittedly", "w2-under-pressure"], "model_en": "Admittedly, young people's actions are easily influenced by peer pressure.", "acceptable": ["it is true that"]}
+  ]
+}

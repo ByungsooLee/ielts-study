@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-task1",
+  "collectionId": "ielts-task1",
+  "collectionName": "IELTS図解描写(Task1)",
+  "kind": "task1",
+  "theme": 60,
+  "themeId": "section-60",
+  "themeName": "ビニール袋と紙袋の原料",
+  "version": "9725103c",
+  "generatedAt": "2026-07-01T10:27:35.111Z",
+  "section": 60,
+  "title": "ビニール袋と紙袋の原料",
+  "chart": {
+    "type": "picture",
+    "caption": "The pictures compare the materials needed to produce a paper bag and a plastic bag.",
+    "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='絵：紙袋とビニール袋の原料比較'><title>Materials for paper vs plastic bags</title><rect x='40' y='55' width='70' height='90' fill='none' stroke='#9aa0a6' stroke-width='2'/><path d='M40,55 L60,40 L130,40 L110,55' fill='none' stroke='#9aa0a6' stroke-width='2'/><text x='55' y='160' font-size='10' fill='#555'>Paper bag</text><text x='30' y='30' font-size='9' fill='#c96442'>wood 30g · oil 400ml</text><text x='30' y='176' font-size='9' fill='#7c9cc4'>water 600ml</text><rect x='210' y='55' width='70' height='90' fill='none' stroke='#7c9cc4' stroke-width='2'/><path d='M210,55 L225,42 L245,55' fill='none' stroke='#7c9cc4' stroke-width='2'/><path d='M280,55 L265,42 L245,55' fill='none' stroke='#7c9cc4' stroke-width='2'/><text x='222' y='160' font-size='10' fill='#555'>Plastic bag</text><text x='198' y='30' font-size='9' fill='#c96442'>wood 10g · oil 200ml</text><text x='200' y='176' font-size='9' fill='#7c9cc4'>water 800ml</text></svg>",
+    "series": [
+      {
+        "name": "Paper bag",
+        "func": [
+          "quantity",
+          "compare"
+        ]
+      },
+      {
+        "name": "Plastic bag",
+        "func": [
+          "quantity",
+          "compare"
+        ]
+      }
+    ]
+  },
+  "model_paragraph": "The pictures compare the materials needed to produce a paper bag and a plastic bag. Overall, producing a paper bag consumes far more raw materials than a plastic one. Making a paper bag uses up 400ml of oil for transport, treble the amount needed for a plastic bag, and it also requires three times as much wood (30g against 10g). However, slightly more water is needed to create a plastic bag (800ml) than a paper bag (600ml), which is the only exception. Looking at the data from a general perspective, the manufacture of paper bags is more resource-intensive.",
+  "items": [
+    {
+      "id": "t1-depict",
+      "type": "task1-word",
+      "front": "depict",
+      "func": "describe",
+      "meaning": "描写する・示す",
+      "synonyms": [
+        "represent",
+        "illustrate",
+        "show"
+      ],
+      "collocation": "the pictures depict",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-represent",
+      "type": "task1-word",
+      "front": "represent",
+      "func": "describe",
+      "meaning": "表す",
+      "synonyms": [
+        "depict",
+        "illustrate"
+      ],
+      "collocation": "the data represents",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-illustrate",
+      "type": "task1-word",
+      "front": "illustrate",
+      "func": "describe",
+      "meaning": "説明する・図示する",
+      "synonyms": [
+        "depict",
+        "show"
+      ],
+      "collocation": "the chart illustrates",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-resource",
+      "type": "task1-word",
+      "front": "resource",
+      "func": "quantity",
+      "meaning": "資源",
+      "synonyms": [
+        "raw material",
+        "natural resource"
+      ],
+      "collocation": "consume resources",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-raw-material",
+      "type": "task1-word",
+      "front": "raw material",
+      "func": "quantity",
+      "meaning": "原材料",
+      "synonyms": [
+        "basic material",
+        "resource"
+      ],
+      "collocation": "use raw materials",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-consume",
+      "type": "task1-word",
+      "front": "consume",
+      "func": "quantity",
+      "meaning": "消費する",
+      "synonyms": [
+        "use up",
+        "expend"
+      ],
+      "collocation": "consume resources",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-use-up",
+      "type": "task1-word",
+      "front": "use up",
+      "func": "quantity",
+      "meaning": "使い切る",
+      "synonyms": [
+        "consume",
+        "expend"
+      ],
+      "collocation": "use up 400ml of oil",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-manufacture",
+      "type": "task1-word",
+      "front": "manufacture",
+      "func": "describe",
+      "meaning": "製造（する）",
+      "synonyms": [
+        "creation",
+        "production"
+      ],
+      "collocation": "the manufacture of bags",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-production",
+      "type": "task1-word",
+      "front": "production",
+      "func": "describe",
+      "meaning": "生産",
+      "synonyms": [
+        "manufacture",
+        "creation"
+      ],
+      "collocation": "the production of bags",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-transport",
+      "type": "task1-word",
+      "front": "transport",
+      "func": "describe",
+      "meaning": "輸送する",
+      "synonyms": [
+        "ship",
+        "transit",
+        "transfer"
+      ],
+      "collocation": "transport paper bags",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-treble",
+      "type": "task1-word",
+      "front": "treble",
+      "func": "quantity",
+      "meaning": "3倍の",
+      "synonyms": [
+        "triple",
+        "threefold"
+      ],
+      "collocation": "treble the quantity",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-threefold",
+      "type": "task1-word",
+      "front": "threefold",
+      "func": "quantity",
+      "meaning": "3倍の",
+      "synonyms": [
+        "treble",
+        "triple"
+      ],
+      "collocation": "a threefold increase",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-looking-from-a-general-perspective",
+      "type": "task1-word",
+      "front": "looking at the data from a general perspective",
+      "func": "describe",
+      "meaning": "全体的な視点から見ると",
+      "synonyms": [
+        "overall",
+        "generally"
+      ],
+      "collocation": "looking at the data from a general perspective",
+      "register": "active",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    },
+    {
+      "id": "t1-overall",
+      "type": "task1-word",
+      "front": "overall",
+      "func": "describe",
+      "meaning": "全体として",
+      "synonyms": [
+        "generally",
+        "in general"
+      ],
+      "collocation": "overall, paper uses more",
+      "register": "active",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-task1",
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料"
+    }
+  ],
+  "drills": [
+    {
+      "id": "t1-60-d1",
+      "focus_func": "describe",
+      "highlight": {
+        "note": "図の提示"
+      },
+      "jp": "この2枚の絵は、紙袋とビニール袋を作るのに必要な資源を示している。",
+      "target_ids": [
+        "t1-depict",
+        "t1-resource"
+      ],
+      "model_en": "The pictures depict the resources needed to make paper and plastic bags.",
+      "acceptable": [
+        "illustrate",
+        "represent"
+      ]
+    },
+    {
+      "id": "t1-60-d2",
+      "focus_func": "quantity",
+      "highlight": {
+        "series": "Paper bag",
+        "note": "消費量"
+      },
+      "jp": "紙袋はビニール袋よりはるかに多くの原材料を消費する。",
+      "target_ids": [
+        "t1-consume",
+        "t1-raw-material"
+      ],
+      "model_en": "Paper bags consume far more raw materials than plastic ones.",
+      "acceptable": [
+        "use up"
+      ]
+    },
+    {
+      "id": "t1-60-d3",
+      "focus_func": "quantity",
+      "highlight": {
+        "note": "木材3倍"
+      },
+      "jp": "紙袋はビニール袋の3倍の木材を必要とする。",
+      "target_ids": [
+        "t1-treble"
+      ],
+      "model_en": "Paper bags need treble the amount of wood used for plastic ones.",
+      "acceptable": [
+        "three times",
+        "threefold"
+      ]
+    },
+    {
+      "id": "t1-60-d4",
+      "focus_func": "describe",
+      "highlight": {
+        "note": "概観"
+      },
+      "jp": "全体的な視点から見ると、紙袋の製造の方が多くの資源を使う。",
+      "target_ids": [
+        "t1-looking-from-a-general-perspective",
+        "t1-overall"
+      ],
+      "model_en": "Looking at the data from a general perspective, making paper bags uses more resources.",
+      "acceptable": [
+        "overall",
+        "generally"
+      ]
+    },
+    {
+      "id": "t1-60-d5",
+      "focus_func": "describe",
+      "highlight": {
+        "note": "輸送"
+      },
+      "jp": "紙袋の輸送には3.3リットルの石油が使われる。",
+      "target_ids": [
+        "t1-transport",
+        "t1-use-up"
+      ],
+      "model_en": "Transporting paper bags uses up 3.3 litres of oil.",
+      "acceptable": [
+        "shipping",
+        "consumes"
+      ]
+    }
+  ]
+}

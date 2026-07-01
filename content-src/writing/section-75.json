@@ -1,0 +1,34 @@
+{
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "section": 75,
+  "title": "オープンプランオフィス②（欠点・結論）",
+  "prompt": "Nowadays, a lot of offices are being built with an open-plan design. Do the advantages of this trend outweigh the disadvantages?",
+  "prompt_jp": "オープンプランオフィスの欠点と結論を述べよ。",
+  "outline_jp": ["欠点: 個人スペースの喪失", "帰結: 仕事に誇りを持てない", "程度: ある程度は分離型より効果的", "結論: 長所と短所があり最適を選ぶべき"],
+  "model_answer": [
+    "One issue is that people miss the lack of personal space, as they cannot personalise their area with mementos.",
+    "As a result, they may not take pride in their working area.",
+    "To some extent, open-plan offices are more effective than separate ones.",
+    "On the other hand, separate offices let colleagues work in private and use meeting rooms freely.",
+    "In conclusion, there are pluses and minuses, and owners should opt for the layout that best suits their needs."
+  ],
+  "items": [
+    {"id": "w2-on-the-other-hand", "type": "writing-word", "front": "on the other hand", "func": "contrast", "meaning": "他方で", "synonyms": ["conversely"], "collocation": "on the other hand, …", "priority": "S"},
+    {"id": "w2-in-conclusion", "type": "writing-word", "front": "in conclusion", "func": "conclusion", "meaning": "結論として", "synonyms": ["to conclude", "in summary"], "collocation": "in conclusion, …", "priority": "S"},
+    {"id": "w2-memento", "type": "writing-word", "front": "memento", "func": "topic", "meaning": "思い出の品", "synonyms": ["keepsake"], "collocation": "personal mementos", "priority": "A"},
+    {"id": "w2-take-pride-in", "type": "writing-word", "front": "take pride in", "func": "topic", "meaning": "〜を誇りに思う", "synonyms": ["take satisfaction in"], "collocation": "take pride in one's work", "priority": "S"},
+    {"id": "w2-to-some-extent", "type": "writing-word", "front": "to some extent", "func": "concession", "meaning": "ある程度は", "synonyms": ["to a certain degree"], "collocation": "to some extent, …", "priority": "S"},
+    {"id": "w2-colleague", "type": "writing-word", "front": "colleague", "func": "topic", "meaning": "同僚", "synonyms": ["co-worker", "workmate"], "collocation": "colleagues work together", "priority": "A"},
+    {"id": "w2-in-private", "type": "writing-word", "front": "in private", "func": "topic", "meaning": "内密に・こっそりと", "synonyms": ["behind closed doors"], "collocation": "discuss in private", "priority": "A"},
+    {"id": "w2-pluses-and-minuses", "type": "writing-word", "front": "pluses and minuses", "func": "topic", "meaning": "長所と短所", "synonyms": ["advantages and disadvantages", "pros and cons", "benefits and drawbacks"], "collocation": "there are pluses and minuses", "priority": "A"},
+    {"id": "w2-opt-for", "type": "writing-word", "front": "opt for", "func": "topic", "meaning": "〜を選ぶ", "synonyms": ["select", "go for"], "collocation": "opt for the layout", "priority": "S"}
+  ],
+  "drills": [
+    {"id": "w2-75-d1", "focus_func": "topic", "jp": "個人スペースがなく、思い出の品で自分の場所を飾れないと従業員は不満に思う。", "target_ids": ["w2-memento", "w2-take-pride-in"], "model_en": "Without personal space to add mementos, workers may not take pride in their area.", "acceptable": ["keepsakes", "take satisfaction in"]},
+    {"id": "w2-75-d2", "focus_func": "concession", "jp": "ある程度は、オープンプランは分離型のオフィスより効果的だ。", "target_ids": ["w2-to-some-extent"], "model_en": "To some extent, open-plan offices are more effective than separate ones.", "acceptable": ["to a certain degree"]},
+    {"id": "w2-75-d3", "focus_func": "conclusion", "jp": "結論として、長所と短所があり、最適なレイアウトを選ぶべきだ。", "target_ids": ["w2-in-conclusion", "w2-pluses-and-minuses", "w2-opt-for"], "model_en": "In conclusion, there are pluses and minuses, so owners should opt for the best layout.", "acceptable": ["pros and cons", "select"]}
+  ]
+}

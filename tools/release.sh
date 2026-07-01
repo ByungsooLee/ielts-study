@@ -48,6 +48,25 @@ if [ -d "$IELTS" ]; then
     done
     [ "$iv_copied" = 0 ] && echo "   ⚠ interview シャードが見つかりません（スキップ）"
   fi
+
+  # ドリル系(task1/writing/speaking): Cowork の content-src 直下のセクション別JSONを同期。
+  # 命名規則 section-N.json。task1build.js / opinionbuild.js が読んでシャード＋index を生成。
+  for sub in task1 writing speaking; do
+    DR_SRC="$IELTS/content-src/$sub"
+    if [ -d "$DR_SRC" ]; then
+      mkdir -p "$APP/content-src/$sub"
+      dr_copied=0
+      for src in "$DR_SRC"/section-*.json; do
+        [ -f "$src" ] || continue
+        cp "$src" "$APP/content-src/$sub/"
+        echo "   ✓ $sub/$(basename "$src")"
+        dr_copied=$((dr_copied+1))
+      done
+      [ "$dr_copied" = 0 ] && echo "   ⚠ $sub セクションが見つかりません（スキップ）"
+    else
+      echo "   ⚠ $DR_SRC が見つかりません（スキップ）"
+    fi
+  done
 else
   echo "   ⚠ IELTS フォルダが見つかりません: $IELTS（スキップ）"
 fi

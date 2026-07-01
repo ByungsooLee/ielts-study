@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 78,
+  "themeId": "section-78",
+  "themeName": "なぜ今の仕事を選んだのですか？",
+  "version": "ef25885e",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 78,
+  "title": "なぜ今の仕事を選んだのですか？",
+  "prompt": "Why did you choose the job that you do now?",
+  "prompt_jp": "なぜ今の仕事を選んだのですか？",
+  "model_answer": [
+    "To be honest, I detested my last job because my boss was a bit of a slave driver.",
+    "He pored over everything I did, so I could never get ahead or climb the career ladder.",
+    "It was a real nightmare, and in the end I just couldn't put up with it, so I quit.",
+    "My workplace now is much more laid-back, and my boss lets me get on with my work.",
+    "I decided to run my own business as a trader, and now I can make a living doing what I enjoy."
+  ],
+  "items": [
+    {
+      "id": "sp-to-be-honest",
+      "type": "speaking-word",
+      "front": "to be honest",
+      "func": "sp-filler",
+      "meaning": "正直に言うと",
+      "synonyms": [
+        "honestly",
+        "to tell you the truth"
+      ],
+      "collocation": "to be honest, I …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？"
+    },
+    {
+      "id": "sp-slave-driver",
+      "type": "speaking-word",
+      "front": "slave driver",
+      "func": "topic",
+      "meaning": "人使いの荒い人",
+      "synonyms": [
+        "tyrant",
+        "taskmaster"
+      ],
+      "collocation": "my boss is a slave driver",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？"
+    },
+    {
+      "id": "sp-pore-over",
+      "type": "speaking-word",
+      "front": "pore over",
+      "func": "topic",
+      "meaning": "〜を熟読する・細かく調べる",
+      "synonyms": [
+        "go over carefully",
+        "scrutinise"
+      ],
+      "collocation": "pore over everything",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？"
+    },
+    {
+      "id": "sp-get-ahead",
+      "type": "speaking-word",
+      "front": "get ahead",
+      "func": "topic",
+      "meaning": "出世する・成功する",
+      "synonyms": [
+        "advance",
+        "climb the career ladder",
+        "get promoted"
+      ],
+      "collocation": "get ahead at work",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？"
+    },
+    {
+      "id": "sp-laid-back",
+      "type": "speaking-word",
+      "front": "laid-back",
+      "func": "topic",
+      "meaning": "のんびりした・くつろいだ",
+      "synonyms": [
+        "low-pressure",
+        "mellow",
+        "easy-going"
+      ],
+      "collocation": "a laid-back workplace",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？"
+    },
+    {
+      "id": "sp-get-on-with",
+      "type": "speaking-word",
+      "front": "get on with",
+      "func": "topic",
+      "meaning": "〜を進める",
+      "synonyms": [
+        "make progress with",
+        "continue with"
+      ],
+      "collocation": "get on with my work",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？"
+    },
+    {
+      "id": "sp-run-ones-business",
+      "type": "speaking-word",
+      "front": "run one's business",
+      "func": "topic",
+      "meaning": "事業を営む",
+      "synonyms": [
+        "head one's company"
+      ],
+      "collocation": "run my own business",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？"
+    },
+    {
+      "id": "sp-make-a-living",
+      "type": "speaking-word",
+      "front": "make a living",
+      "func": "topic",
+      "meaning": "生計を立てる",
+      "synonyms": [
+        "earn money",
+        "make ends meet"
+      ],
+      "collocation": "make a living as a trader",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-78-d1",
+      "focus_func": "sp-filler",
+      "jp": "正直に言うと、上司が人使いが荒くて前の仕事が大嫌いだった。",
+      "target_ids": [
+        "sp-to-be-honest",
+        "sp-slave-driver"
+      ],
+      "model_en": "To be honest, I detested my last job because my boss was a slave driver.",
+      "acceptable": [
+        "honestly",
+        "tyrant"
+      ]
+    },
+    {
+      "id": "sp-78-d2",
+      "focus_func": "topic",
+      "jp": "私は出世することも昇進することもできなかった。",
+      "target_ids": [
+        "sp-get-ahead"
+      ],
+      "model_en": "I could never get ahead or climb the career ladder.",
+      "acceptable": [
+        "advance",
+        "get promoted"
+      ]
+    },
+    {
+      "id": "sp-78-d3",
+      "focus_func": "topic",
+      "jp": "今の職場はもっとのんびりしていて、好きなことで生計を立てられる。",
+      "target_ids": [
+        "sp-laid-back",
+        "sp-make-a-living"
+      ],
+      "model_en": "My job now is much more laid-back, and I can make a living doing what I enjoy.",
+      "acceptable": [
+        "easy-going",
+        "earn money"
+      ]
+    }
+  ]
+}

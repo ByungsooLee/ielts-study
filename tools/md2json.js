@@ -347,6 +347,37 @@ try {
   }
 } catch(e){ /* interview シャードが無ければスキップ */ }
 
+// 5) ドリル系コレクション（task1/writing/speaking）: task1build/opinionbuild が事前に生成した
+//    standalone index (`<collId>-index.json`) を読み、主 index の collections[] に追記する。
+//    ドリル系シャードは既に web/public/content/english/<collId>/section-N.json に出力済み。
+//    ここでは主目次への統合のみを行う（idempotent: version は各ビルダーが content hash で算出）。
+const DRILL_COLLECTIONS = [
+  { indexFile: "task1-index.json" },
+  { indexFile: "ielts-writing-index.json" },
+  { indexFile: "ielts-speaking-index.json" },
+];
+for (const d of DRILL_COLLECTIONS) {
+  const p = path.join(CONTENT, d.indexFile);
+  const idx = readJsonIfExists(p);
+  if (!idx || !Array.isArray(idx.sections)) continue;
+  const themes = idx.sections.map(s => ({
+    theme: s.section,
+    themeName: s.title,
+    count: s.itemCount ?? 0,
+    file: s.file,
+    version: s.version,
+    ...(typeof s.drillCount === "number" ? { drillCount: s.drillCount } : {}),
+  }));
+  collectionsOut.push({
+    id: idx.id,
+    domain: idx.domain,
+    name: idx.name,
+    kind: idx.kind,
+    version: idx.version,
+    themes,
+  });
+}
+
 fs.writeFileSync(LEDGER, JSON.stringify(ledger,null,2)+"\n"); // 事前ビルド分の n も台帳へ反映
 
 // 目次（最初にこれだけ取得。collection/theme の version で差分判定）

@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 58,
+  "themeId": "theme-58",
+  "themeName": "若者のニュース入手方法",
+  "version": "488d3173",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1410,
+      "id": "p-during-the-time-in-question",
+      "type": "phrase",
+      "front": "during the time in question",
+      "meaning": "当該期間中に",
+      "synonyms": [
+        "over the years",
+        "throughout this time period"
+      ],
+      "collocation": "steady during the time in question",
+      "examples": [
+        {
+          "en": "Newspapers saw a steady fall, slumping from seven million to two million over the years."
+        }
+      ],
+      "pron": {
+        "tts": "during the time in question"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1411,
+      "id": "w-rise",
+      "type": "word",
+      "front": "rise",
+      "meaning": "上昇する",
+      "synonyms": [
+        "climb"
+      ],
+      "collocation": "rise from nothing to",
+      "examples": [
+        {
+          "en": "Overall, television was dominant, while the internet rose from almost nothing to become the leading source."
+        }
+      ],
+      "pron": {
+        "lookup": "rise",
+        "tts": "rise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1412,
+      "id": "p-shoot-up",
+      "type": "phrase",
+      "front": "shoot up",
+      "meaning": "急上昇する",
+      "synonyms": [
+        "skyrocket",
+        "catapult"
+      ],
+      "collocation": "the number shot up after 2000",
+      "examples": [
+        {
+          "en": "The figure shot up after 2000, overtaking newspapers around 2010."
+        }
+      ],
+      "pron": {
+        "tts": "shoot up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1413,
+      "id": "w-overtake",
+      "type": "word",
+      "front": "overtake",
+      "meaning": "追い越す・上回る",
+      "synonyms": [
+        "surpass",
+        "catch up with and pass"
+      ],
+      "collocation": "overtake newspapers",
+      "examples": [
+        {
+          "en": "The figure shot up after 2000, overtaking newspapers around 2010."
+        }
+      ],
+      "pron": {
+        "lookup": "overtake",
+        "tts": "overtake"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1414,
+      "id": "p-top-the-table",
+      "type": "phrase",
+      "front": "top the table",
+      "meaning": "首位を占める",
+      "synonyms": [
+        "be dominant",
+        "be predominant"
+      ],
+      "collocation": "top the table throughout",
+      "examples": [
+        {
+          "en": "Television topped the table throughout the period, peaking at nine million before a slow decline."
+        }
+      ],
+      "pron": {
+        "tts": "top the table"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1415,
+      "id": "w-peak",
+      "type": "word",
+      "front": "peak",
+      "meaning": "頂点に達する",
+      "synonyms": [
+        "reach a high"
+      ],
+      "collocation": "peak at 9 million",
+      "examples": [
+        {
+          "en": "Television topped the table throughout the period, peaking at nine million before a slow decline."
+        }
+      ],
+      "pron": {
+        "lookup": "peak",
+        "tts": "peak"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1416,
+      "id": "w-decline",
+      "type": "word",
+      "front": "decline",
+      "meaning": "減少・下降",
+      "synonyms": [
+        "descent",
+        "downswing"
+      ],
+      "collocation": "a steady decline",
+      "examples": [
+        {
+          "en": "Television topped the table throughout the period, peaking at nine million before a slow decline."
+        }
+      ],
+      "pron": {
+        "lookup": "decline",
+        "tts": "decline"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1417,
+      "id": "w-fall",
+      "type": "word",
+      "front": "fall",
+      "meaning": "減少する",
+      "synonyms": [
+        "drop",
+        "slip"
+      ],
+      "collocation": "fall from 7 to 2 million",
+      "examples": [
+        {
+          "en": "Newspapers saw a steady fall, slumping from seven million to two million over the years."
+        }
+      ],
+      "pron": {
+        "lookup": "fall",
+        "tts": "fall"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1418,
+      "id": "w-slump",
+      "type": "word",
+      "front": "slump",
+      "meaning": "急落する",
+      "synonyms": [
+        "plunge"
+      ],
+      "collocation": "slump to 2 million",
+      "examples": [
+        {
+          "en": "Newspapers saw a steady fall, slumping from seven million to two million over the years."
+        }
+      ],
+      "pron": {
+        "lookup": "slump",
+        "tts": "slump"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1419,
+      "id": "p-news-source",
+      "type": "phrase",
+      "front": "news source",
+      "meaning": "情報源",
+      "pron": {
+        "tts": "news source"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1420,
+      "id": "w-readership",
+      "type": "word",
+      "front": "readership",
+      "meaning": "読者数",
+      "pron": {
+        "lookup": "readership",
+        "tts": "readership"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1421,
+      "id": "w-catapult",
+      "type": "word",
+      "front": "catapult",
+      "meaning": "急増させる",
+      "pron": {
+        "lookup": "catapult",
+        "tts": "catapult"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t58",
+    "theme": 58,
+    "themeName": "若者のニュース入手方法",
+    "jp": "この折れ線グラフは、英国の若者が1980年から現在までどのようにニュースを入手したかを示す。全体として、テレビが主流だった一方、インターネットはほぼ無から最も人気のある情報源へと上昇した。利用者数は2000年以降に急増し、2010年ごろ新聞を追い越した。テレビは期間を通じて首位を占め、900万人で頂点に達した後、ゆるやかに減少した。新聞は着実に減少し、当該期間中に700万から200万へと落ち込んだ。",
+    "sentences": [
+      {
+        "en": "The line graph shows how young people in the UK obtained their news from 1980 to the present day."
+      },
+      {
+        "en": "Overall, television was dominant, while the internet rose from almost nothing to become the leading source.",
+        "targets": [
+          {
+            "id": "w-rise",
+            "text": "rose"
+          }
+        ]
+      },
+      {
+        "en": "The figure shot up after 2000, overtaking newspapers around 2010.",
+        "targets": [
+          {
+            "id": "p-shoot-up",
+            "text": "shot up"
+          },
+          {
+            "id": "w-overtake",
+            "text": "overtaking"
+          }
+        ]
+      },
+      {
+        "en": "Television topped the table throughout the period, peaking at nine million before a slow decline.",
+        "targets": [
+          {
+            "id": "p-top-the-table",
+            "text": "topped the table"
+          },
+          {
+            "id": "w-peak",
+            "text": "peaking"
+          },
+          {
+            "id": "w-decline",
+            "text": "decline"
+          }
+        ]
+      },
+      {
+        "en": "Newspapers saw a steady fall, slumping from seven million to two million over the years.",
+        "targets": [
+          {
+            "id": "w-fall",
+            "text": "fall"
+          },
+          {
+            "id": "w-slump",
+            "text": "slumping"
+          },
+          {
+            "id": "p-during-the-time-in-question",
+            "text": "over the years"
+          }
+        ]
+      }
+    ]
+  }
+}

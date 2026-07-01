@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "buildId": "69b5718",
-  "generatedAt": "2026-07-01T08:51:47.907Z",
-  "version": "ba6d647e",
+  "buildId": "403d802",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "version": "1258b793",
   "collections": [
     {
       "id": "ielts-vocab",
@@ -415,6 +415,286 @@
           "count": 23,
           "file": "english/ielts-vocab/theme-57.json",
           "version": "2fc9a6ca"
+        },
+        {
+          "theme": 58,
+          "themeName": "若者のニュース入手方法",
+          "count": 12,
+          "file": "english/ielts-vocab/theme-58.json",
+          "version": "488d3173"
+        },
+        {
+          "theme": 59,
+          "themeName": "英国のエネルギー使用量",
+          "count": 10,
+          "file": "english/ielts-vocab/theme-59.json",
+          "version": "684691f8"
+        },
+        {
+          "theme": 60,
+          "themeName": "ビニール袋と紙袋の原料",
+          "count": 9,
+          "file": "english/ielts-vocab/theme-60.json",
+          "version": "d9c3fa23"
+        },
+        {
+          "theme": 61,
+          "themeName": "水の濾過装置",
+          "count": 10,
+          "file": "english/ielts-vocab/theme-61.json",
+          "version": "23db261e"
+        },
+        {
+          "theme": 62,
+          "themeName": "音楽学校の改修案",
+          "count": 9,
+          "file": "english/ielts-vocab/theme-62.json",
+          "version": "d2069979"
+        },
+        {
+          "theme": 63,
+          "themeName": "再開発ビフォー・アフター",
+          "count": 10,
+          "file": "english/ielts-vocab/theme-63.json",
+          "version": "3f4bb398"
+        },
+        {
+          "theme": 64,
+          "themeName": "北アメリカのセミのライフサイクル",
+          "count": 10,
+          "file": "english/ielts-vocab/theme-64.json",
+          "version": "a2665d73"
+        },
+        {
+          "theme": 65,
+          "themeName": "ペットボトルのリサイクル",
+          "count": 10,
+          "file": "english/ielts-vocab/theme-65.json",
+          "version": "214ae9c1"
+        },
+        {
+          "theme": 66,
+          "themeName": "スポーツのスポンサーシップ①（利点）",
+          "count": 11,
+          "file": "english/ielts-vocab/theme-66.json",
+          "version": "0f47d5ca"
+        },
+        {
+          "theme": 67,
+          "themeName": "スポーツのスポンサーシップ②（リスク）",
+          "count": 10,
+          "file": "english/ielts-vocab/theme-67.json",
+          "version": "7f6c8a8b"
+        },
+        {
+          "theme": 68,
+          "themeName": "少年犯罪①（成人と同様に扱う立場）",
+          "count": 6,
+          "file": "english/ielts-vocab/theme-68.json",
+          "version": "5ba6fc98"
+        },
+        {
+          "theme": 69,
+          "themeName": "少年犯罪②（更生を重視する立場）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-69.json",
+          "version": "ccc4a9b3"
+        },
+        {
+          "theme": 70,
+          "themeName": "ギャップイヤー①（利点）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-70.json",
+          "version": "f45b9b75"
+        },
+        {
+          "theme": 71,
+          "themeName": "ギャップイヤー②（欠点・自分の意見）",
+          "count": 6,
+          "file": "english/ielts-vocab/theme-71.json",
+          "version": "1dbb87ea"
+        },
+        {
+          "theme": 72,
+          "themeName": "小学生の外国語学習①（賛成）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-72.json",
+          "version": "3157ad3f"
+        },
+        {
+          "theme": 73,
+          "themeName": "小学生の外国語学習②（臨界期）",
+          "count": 6,
+          "file": "english/ielts-vocab/theme-73.json",
+          "version": "8b9c8fff"
+        },
+        {
+          "theme": 74,
+          "themeName": "オープンプランオフィス①（利点）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-74.json",
+          "version": "4cb0e22d"
+        },
+        {
+          "theme": 75,
+          "themeName": "オープンプランオフィス②（欠点・結論）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-75.json",
+          "version": "305c97ba"
+        },
+        {
+          "theme": 76,
+          "themeName": "低開発国と観光業①（肯定）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-76.json",
+          "version": "14fc5d89"
+        },
+        {
+          "theme": 77,
+          "themeName": "低開発国と観光業②（否定・結論）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-77.json",
+          "version": "e42fda84"
+        },
+        {
+          "theme": 78,
+          "themeName": "なぜ今の仕事を選んだのですか？",
+          "count": 8,
+          "file": "english/ielts-vocab/theme-78.json",
+          "version": "02f6bccc"
+        },
+        {
+          "theme": 79,
+          "themeName": "あなたの地域は住みやすい場所ですか？",
+          "count": 6,
+          "file": "english/ielts-vocab/theme-79.json",
+          "version": "315c1f5d"
+        },
+        {
+          "theme": 80,
+          "themeName": "友達とどのくらい会えますか？",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-80.json",
+          "version": "17e2f0a1"
+        },
+        {
+          "theme": 81,
+          "themeName": "映画館にどのくらい行きますか？",
+          "count": 6,
+          "file": "english/ielts-vocab/theme-81.json",
+          "version": "de047790"
+        },
+        {
+          "theme": 82,
+          "themeName": "どちらが好きですか？①（靴）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-82.json",
+          "version": "9de91b98"
+        },
+        {
+          "theme": 83,
+          "themeName": "どちらが好きですか？②（地図）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-83.json",
+          "version": "59d23913"
+        },
+        {
+          "theme": 84,
+          "themeName": "過去を語る①（もらった贈り物）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-84.json",
+          "version": "028d7631"
+        },
+        {
+          "theme": 85,
+          "themeName": "過去を語る②（印象的な授業）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-85.json",
+          "version": "50cfef87"
+        },
+        {
+          "theme": 86,
+          "themeName": "食を語る①（好きな飲食店）",
+          "count": 6,
+          "file": "english/ielts-vocab/theme-86.json",
+          "version": "b98e34dc"
+        },
+        {
+          "theme": 87,
+          "themeName": "今を語る②（好きな活動）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-87.json",
+          "version": "bccc220b"
+        },
+        {
+          "theme": 88,
+          "themeName": "未来を語る①（住んでみたい国）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-88.json",
+          "version": "a804f672"
+        },
+        {
+          "theme": 89,
+          "themeName": "人を語る（見習いたい習慣）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-89.json",
+          "version": "a309c0c6"
+        },
+        {
+          "theme": 90,
+          "themeName": "子供たちと伝統文化①（意見）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-90.json",
+          "version": "9c22e1d3"
+        },
+        {
+          "theme": 91,
+          "themeName": "子供たちと伝統文化②（意見）",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-91.json",
+          "version": "4b14671a"
+        },
+        {
+          "theme": 92,
+          "themeName": "テクノロジーと働き方①",
+          "count": 6,
+          "file": "english/ielts-vocab/theme-92.json",
+          "version": "09807859"
+        },
+        {
+          "theme": 93,
+          "themeName": "テクノロジーと働き方②",
+          "count": 6,
+          "file": "english/ielts-vocab/theme-93.json",
+          "version": "e6dd076c"
+        },
+        {
+          "theme": 94,
+          "themeName": "政府と環境保護①",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-94.json",
+          "version": "3a8b5418"
+        },
+        {
+          "theme": 95,
+          "themeName": "政府と環境保護②",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-95.json",
+          "version": "50215bd9"
+        },
+        {
+          "theme": 96,
+          "themeName": "社会変化と家族①",
+          "count": 6,
+          "file": "english/ielts-vocab/theme-96.json",
+          "version": "f85cd567"
+        },
+        {
+          "theme": 97,
+          "themeName": "社会変化と家族②",
+          "count": 7,
+          "file": "english/ielts-vocab/theme-97.json",
+          "version": "eae27f0d"
         }
       ]
     },
@@ -571,6 +851,350 @@
           "count": 2,
           "file": "engineering/interview/genre-2.json",
           "version": "649d9ea6"
+        }
+      ]
+    },
+    {
+      "id": "ielts-task1",
+      "domain": "english",
+      "name": "IELTS図解描写(Task1)",
+      "kind": "task1",
+      "themes": [
+        {
+          "theme": 58,
+          "themeName": "若者のニュース入手方法",
+          "count": 14,
+          "file": "english/ielts-task1/section-58.json",
+          "version": "d8c36d9e",
+          "drillCount": 5
+        },
+        {
+          "theme": 59,
+          "themeName": "英国のエネルギー使用量",
+          "count": 15,
+          "file": "english/ielts-task1/section-59.json",
+          "version": "4550bebb",
+          "drillCount": 5
+        },
+        {
+          "theme": 60,
+          "themeName": "ビニール袋と紙袋の原料",
+          "count": 14,
+          "file": "english/ielts-task1/section-60.json",
+          "version": "9725103c",
+          "drillCount": 5
+        },
+        {
+          "theme": 61,
+          "themeName": "水の濾過装置",
+          "count": 13,
+          "file": "english/ielts-task1/section-61.json",
+          "version": "ca317bf7",
+          "drillCount": 5
+        },
+        {
+          "theme": 62,
+          "themeName": "音楽学校の改修案",
+          "count": 14,
+          "file": "english/ielts-task1/section-62.json",
+          "version": "5bb61d56",
+          "drillCount": 5
+        },
+        {
+          "theme": 63,
+          "themeName": "再開発ビフォー・アフター",
+          "count": 14,
+          "file": "english/ielts-task1/section-63.json",
+          "version": "10417b45",
+          "drillCount": 5
+        },
+        {
+          "theme": 64,
+          "themeName": "北アメリカのセミのライフサイクル",
+          "count": 14,
+          "file": "english/ielts-task1/section-64.json",
+          "version": "0de0ef3c",
+          "drillCount": 5
+        },
+        {
+          "theme": 65,
+          "themeName": "ペットボトルのリサイクル",
+          "count": 13,
+          "file": "english/ielts-task1/section-65.json",
+          "version": "70c2b7d1",
+          "drillCount": 5
+        }
+      ]
+    },
+    {
+      "id": "ielts-writing",
+      "domain": "english",
+      "name": "IELTS意見エッセイ(Writing Task2)",
+      "kind": "writing",
+      "themes": [
+        {
+          "theme": 66,
+          "themeName": "スポーツのスポンサーシップ①（利点）",
+          "count": 11,
+          "file": "english/ielts-writing/section-66.json",
+          "version": "4d86e202",
+          "drillCount": 4
+        },
+        {
+          "theme": 67,
+          "themeName": "スポーツのスポンサーシップ②（リスク）",
+          "count": 10,
+          "file": "english/ielts-writing/section-67.json",
+          "version": "6a5299b9",
+          "drillCount": 4
+        },
+        {
+          "theme": 68,
+          "themeName": "少年犯罪①（成人と同様に扱う立場）",
+          "count": 9,
+          "file": "english/ielts-writing/section-68.json",
+          "version": "6a2738e6",
+          "drillCount": 3
+        },
+        {
+          "theme": 69,
+          "themeName": "少年犯罪②（更生を重視する立場）",
+          "count": 9,
+          "file": "english/ielts-writing/section-69.json",
+          "version": "d6b5ccf7",
+          "drillCount": 3
+        },
+        {
+          "theme": 70,
+          "themeName": "ギャップイヤー①（利点）",
+          "count": 9,
+          "file": "english/ielts-writing/section-70.json",
+          "version": "6fefa24f",
+          "drillCount": 3
+        },
+        {
+          "theme": 71,
+          "themeName": "ギャップイヤー②（欠点・自分の意見）",
+          "count": 9,
+          "file": "english/ielts-writing/section-71.json",
+          "version": "d2d64923",
+          "drillCount": 3
+        },
+        {
+          "theme": 72,
+          "themeName": "小学生の外国語学習①（賛成）",
+          "count": 10,
+          "file": "english/ielts-writing/section-72.json",
+          "version": "b1b93a2f",
+          "drillCount": 3
+        },
+        {
+          "theme": 73,
+          "themeName": "小学生の外国語学習②（臨界期）",
+          "count": 9,
+          "file": "english/ielts-writing/section-73.json",
+          "version": "a0b7beed",
+          "drillCount": 3
+        },
+        {
+          "theme": 74,
+          "themeName": "オープンプランオフィス①（利点）",
+          "count": 10,
+          "file": "english/ielts-writing/section-74.json",
+          "version": "ba9adf5a",
+          "drillCount": 3
+        },
+        {
+          "theme": 75,
+          "themeName": "オープンプランオフィス②（欠点・結論）",
+          "count": 9,
+          "file": "english/ielts-writing/section-75.json",
+          "version": "4e690541",
+          "drillCount": 3
+        },
+        {
+          "theme": 76,
+          "themeName": "低開発国と観光業①（肯定）",
+          "count": 10,
+          "file": "english/ielts-writing/section-76.json",
+          "version": "00313677",
+          "drillCount": 3
+        },
+        {
+          "theme": 77,
+          "themeName": "低開発国と観光業②（否定・結論）",
+          "count": 10,
+          "file": "english/ielts-writing/section-77.json",
+          "version": "3aee33fb",
+          "drillCount": 3
+        }
+      ]
+    },
+    {
+      "id": "ielts-speaking",
+      "domain": "english",
+      "name": "IELTS口頭回答(Speaking)",
+      "kind": "speaking",
+      "themes": [
+        {
+          "theme": 78,
+          "themeName": "なぜ今の仕事を選んだのですか？",
+          "count": 8,
+          "file": "english/ielts-speaking/section-78.json",
+          "version": "ef25885e",
+          "drillCount": 3
+        },
+        {
+          "theme": 79,
+          "themeName": "あなたの地域は住みやすい場所ですか？",
+          "count": 7,
+          "file": "english/ielts-speaking/section-79.json",
+          "version": "7e6b7037",
+          "drillCount": 3
+        },
+        {
+          "theme": 80,
+          "themeName": "友達とどのくらい会えますか？",
+          "count": 7,
+          "file": "english/ielts-speaking/section-80.json",
+          "version": "6f62e04f",
+          "drillCount": 3
+        },
+        {
+          "theme": 81,
+          "themeName": "映画館にどのくらい行きますか？",
+          "count": 7,
+          "file": "english/ielts-speaking/section-81.json",
+          "version": "90e9e19b",
+          "drillCount": 3
+        },
+        {
+          "theme": 82,
+          "themeName": "どちらが好きですか？①（靴）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-82.json",
+          "version": "315ba16c",
+          "drillCount": 3
+        },
+        {
+          "theme": 83,
+          "themeName": "どちらが好きですか？②（地図）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-83.json",
+          "version": "4acbf0e0",
+          "drillCount": 3
+        },
+        {
+          "theme": 84,
+          "themeName": "過去を語る①（もらった贈り物）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-84.json",
+          "version": "3ac5d0b7",
+          "drillCount": 3
+        },
+        {
+          "theme": 85,
+          "themeName": "過去を語る②（印象的な授業）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-85.json",
+          "version": "45abb483",
+          "drillCount": 3
+        },
+        {
+          "theme": 86,
+          "themeName": "食を語る①（好きな飲食店）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-86.json",
+          "version": "eb0e05e0",
+          "drillCount": 3
+        },
+        {
+          "theme": 87,
+          "themeName": "今を語る②（好きな活動）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-87.json",
+          "version": "93f2e562",
+          "drillCount": 3
+        },
+        {
+          "theme": 88,
+          "themeName": "未来を語る①（住んでみたい国）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-88.json",
+          "version": "4be133a3",
+          "drillCount": 3
+        },
+        {
+          "theme": 89,
+          "themeName": "人を語る（見習いたい習慣）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-89.json",
+          "version": "1cad9b1c",
+          "drillCount": 3
+        },
+        {
+          "theme": 90,
+          "themeName": "子供たちと伝統文化①（意見）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-90.json",
+          "version": "209b05ca",
+          "drillCount": 3
+        },
+        {
+          "theme": 91,
+          "themeName": "子供たちと伝統文化②（意見）",
+          "count": 7,
+          "file": "english/ielts-speaking/section-91.json",
+          "version": "04a02610",
+          "drillCount": 3
+        },
+        {
+          "theme": 92,
+          "themeName": "テクノロジーと働き方①",
+          "count": 7,
+          "file": "english/ielts-speaking/section-92.json",
+          "version": "999305a2",
+          "drillCount": 3
+        },
+        {
+          "theme": 93,
+          "themeName": "テクノロジーと働き方②",
+          "count": 7,
+          "file": "english/ielts-speaking/section-93.json",
+          "version": "ae9bd549",
+          "drillCount": 3
+        },
+        {
+          "theme": 94,
+          "themeName": "政府と環境保護①",
+          "count": 7,
+          "file": "english/ielts-speaking/section-94.json",
+          "version": "2ce7f5b3",
+          "drillCount": 3
+        },
+        {
+          "theme": 95,
+          "themeName": "政府と環境保護②",
+          "count": 7,
+          "file": "english/ielts-speaking/section-95.json",
+          "version": "bfbe2969",
+          "drillCount": 3
+        },
+        {
+          "theme": 96,
+          "themeName": "社会変化と家族①",
+          "count": 7,
+          "file": "english/ielts-speaking/section-96.json",
+          "version": "adde5f97",
+          "drillCount": 3
+        },
+        {
+          "theme": 97,
+          "themeName": "社会変化と家族②",
+          "count": 7,
+          "file": "english/ielts-speaking/section-97.json",
+          "version": "9ab7fc41",
+          "drillCount": 3
         }
       ]
     }

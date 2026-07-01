@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 93,
+  "themeId": "section-93",
+  "themeName": "テクノロジーと働き方②",
+  "version": "ae9bd549",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 93,
+  "title": "テクノロジーと働き方②",
+  "prompt": "How has technology changed the way we work? Has it been a good or bad development?",
+  "prompt_jp": "テクノロジーと働き方について、否定的な側面を述べてください。",
+  "model_answer": [
+    "Although there are a lot of pros and cons, mostly I'd say it has been a negative development.",
+    "The biggest drawback is the intrusion on our personal time.",
+    "For example, if we don't reply promptly to an email, our boss thinks we'll get in trouble.",
+    "This is completely unpaid overtime, which blurs the lines between work and private life."
+  ],
+  "items": [
+    {
+      "id": "sp-pros-and-cons",
+      "type": "speaking-word",
+      "front": "pros and cons",
+      "func": "topic",
+      "meaning": "賛否両論・長所と短所",
+      "synonyms": [
+        "advantages and disadvantages",
+        "good and bad points"
+      ],
+      "collocation": "a lot of pros and cons",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②"
+    },
+    {
+      "id": "sp-development",
+      "type": "speaking-word",
+      "front": "development",
+      "func": "topic",
+      "meaning": "進展・展開",
+      "synonyms": [
+        "turn of events"
+      ],
+      "collocation": "a negative development",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②"
+    },
+    {
+      "id": "sp-intrusion",
+      "type": "speaking-word",
+      "front": "intrusion",
+      "func": "topic",
+      "meaning": "侵害・侵入",
+      "synonyms": [
+        "encroachment",
+        "imposition"
+      ],
+      "collocation": "an intrusion on our time",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②"
+    },
+    {
+      "id": "sp-bombard",
+      "type": "speaking-word",
+      "front": "bombard",
+      "func": "topic",
+      "meaning": "浴びせる・攻めたてる",
+      "synonyms": [
+        "besiege",
+        "barrage"
+      ],
+      "collocation": "be bombarded with emails",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②"
+    },
+    {
+      "id": "sp-promptly",
+      "type": "speaking-word",
+      "front": "promptly",
+      "func": "topic",
+      "meaning": "即座に・すぐに",
+      "synonyms": [
+        "A.S.A.P.",
+        "at once",
+        "on the double"
+      ],
+      "collocation": "reply promptly",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②"
+    },
+    {
+      "id": "sp-get-in-trouble",
+      "type": "speaking-word",
+      "front": "get in trouble",
+      "func": "topic",
+      "meaning": "トラブルに巻き込まれる",
+      "synonyms": [
+        "run into difficulty",
+        "get into a mess"
+      ],
+      "collocation": "get in trouble at work",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②"
+    },
+    {
+      "id": "sp-unpaid",
+      "type": "speaking-word",
+      "front": "unpaid",
+      "func": "topic",
+      "meaning": "無給の",
+      "synonyms": [
+        "uncompensated"
+      ],
+      "collocation": "unpaid overtime",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-93-d1",
+      "focus_func": "topic",
+      "jp": "賛否両論あるが、概して悪い変化だと思う。",
+      "target_ids": [
+        "sp-pros-and-cons",
+        "sp-development"
+      ],
+      "model_en": "Although there are pros and cons, I'd mostly say it's a negative development.",
+      "acceptable": [
+        "advantages and disadvantages"
+      ]
+    },
+    {
+      "id": "sp-93-d2",
+      "focus_func": "topic",
+      "jp": "最大の欠点は個人の時間への侵害だ。",
+      "target_ids": [
+        "sp-intrusion"
+      ],
+      "model_en": "The biggest drawback is the intrusion on our personal time.",
+      "acceptable": [
+        "encroachment",
+        "imposition"
+      ]
+    },
+    {
+      "id": "sp-93-d3",
+      "focus_func": "topic",
+      "jp": "メールにすぐ返信しないと、トラブルになると上司は考える。",
+      "target_ids": [
+        "sp-promptly",
+        "sp-get-in-trouble"
+      ],
+      "model_en": "If we don't reply promptly, the boss thinks we'll get in trouble.",
+      "acceptable": [
+        "A.S.A.P.",
+        "run into difficulty"
+      ]
+    }
+  ]
+}

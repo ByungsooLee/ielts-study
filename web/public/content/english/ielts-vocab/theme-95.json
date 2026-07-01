@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 95,
+  "themeId": "theme-95",
+  "themeName": "政府と環境保護②",
+  "version": "50215bd9",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1693,
+      "id": "w-absolutely",
+      "type": "word",
+      "front": "absolutely",
+      "meaning": "その通り・もちろん",
+      "synonyms": [
+        "definitely",
+        "certainly",
+        "unquestionably"
+      ],
+      "collocation": "Oh, absolutely!",
+      "pron": {
+        "lookup": "absolutely",
+        "tts": "absolutely"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1694,
+      "id": "p-go-up",
+      "type": "phrase",
+      "front": "go up",
+      "meaning": "〜を登る",
+      "synonyms": [
+        "climb up",
+        "hike up"
+      ],
+      "collocation": "go up Mt. Fuji",
+      "pron": {
+        "tts": "go up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1695,
+      "id": "w-rubbish",
+      "type": "word",
+      "front": "rubbish",
+      "meaning": "ごみ",
+      "synonyms": [
+        "trash",
+        "garbage"
+      ],
+      "collocation": "covered in rubbish",
+      "pron": {
+        "lookup": "rubbish",
+        "tts": "rubbish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1696,
+      "id": "w-litter",
+      "type": "word",
+      "front": "litter",
+      "meaning": "（散らかった）ごみ・ごみを捨てる",
+      "synonyms": [
+        "toss on the ground"
+      ],
+      "collocation": "drop litter",
+      "pron": {
+        "lookup": "litter",
+        "tts": "litter"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1697,
+      "id": "p-throw-away",
+      "type": "phrase",
+      "front": "throw away",
+      "meaning": "〜を捨てる",
+      "synonyms": [
+        "throw out",
+        "dispose of"
+      ],
+      "collocation": "throw away rubbish",
+      "pron": {
+        "tts": "throw away"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1698,
+      "id": "w-ban",
+      "type": "word",
+      "front": "ban",
+      "meaning": "〜を禁止する",
+      "synonyms": [
+        "prohibit",
+        "officially forbid"
+      ],
+      "collocation": "ban plastic bottles",
+      "pron": {
+        "lookup": "ban",
+        "tts": "ban"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1699,
+      "id": "p-phase-out",
+      "type": "phrase",
+      "front": "phase out",
+      "meaning": "〜を段階的に廃止する",
+      "synonyms": [
+        "slowly get rid of"
+      ],
+      "collocation": "phase out plastic bottles",
+      "pron": {
+        "tts": "phase out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

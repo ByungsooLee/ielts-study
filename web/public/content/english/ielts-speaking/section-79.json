@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 79,
+  "themeId": "section-79",
+  "themeName": "あなたの地域は住みやすい場所ですか？",
+  "version": "7e6b7037",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 79,
+  "title": "あなたの地域は住みやすい場所ですか？",
+  "prompt": "Is your area a good place to live?",
+  "prompt_jp": "あなたの地域は住みやすい場所ですか？",
+  "model_answer": [
+    "I love my neighbourhood — there are leafy streets and a nice park a stone's throw from my house.",
+    "It doesn't have any high-rise buildings and there isn't much nightlife, but I prefer the peace and quiet.",
+    "In summer, the locals put on a small festival, which is really lovely.",
+    "I get on with all my neighbours, and honestly I can't stand overpriced restaurants, so the cheap local places suit me perfectly."
+  ],
+  "items": [
+    {
+      "id": "sp-leafy",
+      "type": "speaking-word",
+      "front": "leafy",
+      "func": "topic",
+      "meaning": "緑の多い・緑豊かな",
+      "synonyms": [
+        "tree-lined"
+      ],
+      "collocation": "leafy streets",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？"
+    },
+    {
+      "id": "sp-high-rise-building",
+      "type": "speaking-word",
+      "front": "high-rise building",
+      "func": "topic",
+      "meaning": "高層ビル",
+      "synonyms": [
+        "skyscraper",
+        "high-rise"
+      ],
+      "collocation": "no high-rise buildings",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？"
+    },
+    {
+      "id": "sp-nightlife",
+      "type": "speaking-word",
+      "front": "nightlife",
+      "func": "topic",
+      "meaning": "夜の娯楽",
+      "synonyms": [
+        "night-time entertainment"
+      ],
+      "collocation": "not much nightlife",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？"
+    },
+    {
+      "id": "sp-peace-and-quiet",
+      "type": "speaking-word",
+      "front": "peace and quiet",
+      "func": "topic",
+      "meaning": "安らぎ・平穏",
+      "synonyms": [
+        "tranquillity",
+        "peacefulness"
+      ],
+      "collocation": "prefer the peace and quiet",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？"
+    },
+    {
+      "id": "sp-put-on-an-event",
+      "type": "speaking-word",
+      "front": "put on (an event)",
+      "func": "topic",
+      "meaning": "（催しを）催す",
+      "synonyms": [
+        "organise (an event)"
+      ],
+      "collocation": "put on a festival",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？"
+    },
+    {
+      "id": "sp-get-on-with-sb",
+      "type": "speaking-word",
+      "front": "get on with",
+      "func": "sp-idiom",
+      "meaning": "〜と仲良くする",
+      "synonyms": [
+        "be on friendly terms with",
+        "hit it off with"
+      ],
+      "collocation": "get on with my neighbours",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？"
+    },
+    {
+      "id": "sp-cant-stand",
+      "type": "speaking-word",
+      "front": "can't stand",
+      "func": "sp-preference",
+      "meaning": "我慢できない・大嫌い",
+      "synonyms": [
+        "loathe",
+        "despise",
+        "detest"
+      ],
+      "collocation": "can't stand overpriced places",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-79-d1",
+      "focus_func": "topic",
+      "jp": "うちの近所は緑豊かな通りがあって、夜の娯楽は少ないけど平穏さの方が好き。",
+      "target_ids": [
+        "sp-leafy",
+        "sp-peace-and-quiet"
+      ],
+      "model_en": "My area has leafy streets, and I prefer the peace and quiet to a lot of nightlife.",
+      "acceptable": [
+        "tree-lined",
+        "tranquillity"
+      ]
+    },
+    {
+      "id": "sp-79-d2",
+      "focus_func": "sp-idiom",
+      "jp": "私は近所の人みんなと仲良くしている。",
+      "target_ids": [
+        "sp-get-on-with-sb"
+      ],
+      "model_en": "I get on with all my neighbours.",
+      "acceptable": [
+        "am on friendly terms with",
+        "hit it off with"
+      ]
+    },
+    {
+      "id": "sp-79-d3",
+      "focus_func": "sp-preference",
+      "jp": "正直、高すぎるレストランは大嫌いなんだ。",
+      "target_ids": [
+        "sp-cant-stand"
+      ],
+      "model_en": "Honestly, I can't stand overpriced restaurants.",
+      "acceptable": [
+        "loathe",
+        "detest"
+      ]
+    }
+  ]
+}

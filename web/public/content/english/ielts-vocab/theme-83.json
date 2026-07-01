@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 83,
+  "themeId": "theme-83",
+  "themeName": "どちらが好きですか？②（地図）",
+  "version": "59d23913",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1612,
+      "id": "w-handy",
+      "type": "word",
+      "front": "handy",
+      "meaning": "便利な",
+      "synonyms": [
+        "convenient"
+      ],
+      "collocation": "so handy",
+      "pron": {
+        "lookup": "handy",
+        "tts": "handy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1613,
+      "id": "p-take-in",
+      "type": "phrase",
+      "front": "take in",
+      "meaning": "（景色などを）眺める・吸収する",
+      "synonyms": [
+        "absorb",
+        "soak up"
+      ],
+      "collocation": "take in a new place",
+      "pron": {
+        "tts": "take in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1614,
+      "id": "p-get-lost",
+      "type": "phrase",
+      "front": "get lost",
+      "meaning": "道に迷う",
+      "synonyms": [
+        "lose one's way"
+      ],
+      "collocation": "if I get lost",
+      "pron": {
+        "tts": "get lost"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1615,
+      "id": "w-explore",
+      "type": "word",
+      "front": "explore",
+      "meaning": "探検する・見て回る",
+      "synonyms": [
+        "have a look round"
+      ],
+      "collocation": "explore the area",
+      "pron": {
+        "lookup": "explore",
+        "tts": "explore"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1616,
+      "id": "p-whip-out",
+      "type": "phrase",
+      "front": "whip out",
+      "meaning": "〜をさっと取り出す",
+      "synonyms": [
+        "take out quickly",
+        "get out quickly"
+      ],
+      "collocation": "whip out a map",
+      "pron": {
+        "tts": "whip out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1617,
+      "id": "p-at-a-pinch",
+      "type": "phrase",
+      "front": "at a pinch",
+      "meaning": "緊急の場合に・いざとなれば",
+      "synonyms": [
+        "if need be",
+        "if push comes to shove"
+      ],
+      "collocation": "works at a pinch",
+      "pron": {
+        "tts": "at a pinch"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1618,
+      "id": "p-some-time-off",
+      "type": "phrase",
+      "front": "some time off",
+      "meaning": "休暇・休み",
+      "synonyms": [
+        "holiday"
+      ],
+      "collocation": "take some time off",
+      "pron": {
+        "tts": "some time off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

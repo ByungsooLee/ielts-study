@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 71,
+  "themeId": "theme-71",
+  "themeName": "ギャップイヤー②（欠点・自分の意見）",
+  "version": "1dbb87ea",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1531,
+      "id": "p-get-a-taste-of",
+      "type": "phrase",
+      "front": "get a taste of",
+      "meaning": "〜を少し経験する",
+      "synonyms": [
+        "briefly experience"
+      ],
+      "collocation": "get a taste of adult life",
+      "pron": {
+        "tts": "get a taste of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1532,
+      "id": "p-arrive-on-time",
+      "type": "phrase",
+      "front": "arrive on time",
+      "meaning": "時間通りに到着する",
+      "synonyms": [
+        "be punctual"
+      ],
+      "collocation": "arrive on time for work",
+      "pron": {
+        "tts": "arrive on time"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1533,
+      "id": "p-get-homesick",
+      "type": "phrase",
+      "front": "get homesick",
+      "meaning": "ホームシックになる",
+      "synonyms": [
+        "miss home"
+      ],
+      "collocation": "get homesick abroad",
+      "pron": {
+        "tts": "get homesick"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1534,
+      "id": "p-get-back-into-the-habit-of",
+      "type": "phrase",
+      "front": "get back into the habit of",
+      "meaning": "〜の習慣に戻る",
+      "synonyms": [
+        "return to the practice of",
+        "get used to again"
+      ],
+      "collocation": "get back into the habit of studying",
+      "pron": {
+        "tts": "get back into the habit of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1535,
+      "id": "p-set-off",
+      "type": "phrase",
+      "front": "set off",
+      "meaning": "出発する・始める",
+      "synonyms": [
+        "take off"
+      ],
+      "collocation": "before setting off",
+      "pron": {
+        "tts": "set off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1536,
+      "id": "w-impactful",
+      "type": "word",
+      "front": "impactful",
+      "meaning": "影響力の強い",
+      "synonyms": [
+        "moving",
+        "life-changing",
+        "meaningful"
+      ],
+      "collocation": "a life-changing experience",
+      "pron": {
+        "lookup": "impactful",
+        "tts": "impactful"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

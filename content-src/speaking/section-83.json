@@ -1,0 +1,30 @@
+{
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "section": 83,
+  "title": "どちらが好きですか？②（地図）",
+  "question": "Do you prefer using an electronic or a paper map?",
+  "question_jp": "電子地図と紙の地図、どちらを使うのが好きですか？",
+  "model_answer": [
+    "Definitely an electronic map — I use the navigation app on my phone, especially when I'm on holiday. It's so handy!",
+    "It also helps me take in a new place, showing the best spots to grab a quick bite or soak up some culture.",
+    "That said, if my phone died it would be a disaster, so I always print out a paper map, which works at a pinch.",
+    "If I ever get lost, I can whip out the paper map straight away."
+  ],
+  "items": [
+    {"id": "sp-handy", "type": "speaking-word", "front": "handy", "func": "topic", "meaning": "便利な", "synonyms": ["convenient"], "collocation": "so handy", "priority": "S"},
+    {"id": "sp-take-in", "type": "speaking-word", "front": "take in", "func": "topic", "meaning": "（景色などを）眺める・吸収する", "synonyms": ["absorb", "soak up"], "collocation": "take in a new place", "priority": "A"},
+    {"id": "sp-get-lost", "type": "speaking-word", "front": "get lost", "func": "topic", "meaning": "道に迷う", "synonyms": ["lose one's way"], "collocation": "if I get lost", "priority": "S"},
+    {"id": "sp-explore", "type": "speaking-word", "front": "explore", "func": "topic", "meaning": "探検する・見て回る", "synonyms": ["have a look round"], "collocation": "explore the area", "priority": "A"},
+    {"id": "sp-whip-out", "type": "speaking-word", "front": "whip out", "func": "topic", "meaning": "〜をさっと取り出す", "synonyms": ["take out quickly", "get out quickly"], "collocation": "whip out a map", "priority": "A"},
+    {"id": "sp-at-a-pinch", "type": "speaking-word", "front": "at a pinch", "func": "sp-idiom", "meaning": "緊急の場合に・いざとなれば", "synonyms": ["if need be", "if push comes to shove"], "collocation": "works at a pinch", "priority": "A"},
+    {"id": "sp-some-time-off", "type": "speaking-word", "front": "some time off", "func": "topic", "meaning": "休暇・休み", "synonyms": ["holiday"], "collocation": "take some time off", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "sp-83-d1", "focus_func": "topic", "jp": "断然電子地図。特に休暇のときスマホのナビを使う。すごく便利！", "target_ids": ["sp-handy"], "model_en": "Definitely an electronic map; I use my phone's navigation on holiday, and it's so handy.", "acceptable": ["convenient"]},
+    {"id": "sp-83-d2", "focus_func": "topic", "jp": "新しい場所を眺めたり、その土地の文化を吸収するのにも役立つ。", "target_ids": ["sp-take-in"], "model_en": "It also helps me take in a new place and soak up the local culture.", "acceptable": ["absorb", "soak up"]},
+    {"id": "sp-83-d3", "focus_func": "sp-idiom", "jp": "道に迷っても、いざとなれば紙の地図をさっと取り出せる。", "target_ids": ["sp-get-lost", "sp-whip-out", "sp-at-a-pinch"], "model_en": "If I get lost, at a pinch I can whip out the paper map.", "acceptable": ["lose my way", "if need be"]}
+  ]
+}

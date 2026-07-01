@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 96,
+  "themeId": "theme-96",
+  "themeName": "社会変化と家族①",
+  "version": "f85cd567",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1700,
+      "id": "w-breadwinner",
+      "type": "word",
+      "front": "breadwinner",
+      "meaning": "一家の稼ぎ手",
+      "synonyms": [
+        "main wage earner",
+        "main provider",
+        "head of the household"
+      ],
+      "collocation": "the sole breadwinner",
+      "pron": {
+        "lookup": "breadwinner",
+        "tts": "breadwinner"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1701,
+      "id": "w-workforce",
+      "type": "word",
+      "front": "workforce",
+      "meaning": "労働人口・労働力",
+      "synonyms": [
+        "labour market",
+        "job market"
+      ],
+      "collocation": "enter the workforce",
+      "pron": {
+        "lookup": "workforce",
+        "tts": "workforce"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1702,
+      "id": "w-raise",
+      "type": "word",
+      "front": "raise",
+      "meaning": "育てる",
+      "synonyms": [
+        "bring up"
+      ],
+      "collocation": "raise children",
+      "pron": {
+        "lookup": "raise",
+        "tts": "raise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1703,
+      "id": "p-do-the-washing-up",
+      "type": "phrase",
+      "front": "do the washing up",
+      "meaning": "食器洗いをする",
+      "synonyms": [
+        "do the dishes",
+        "wash the dishes"
+      ],
+      "collocation": "do the washing up",
+      "pron": {
+        "tts": "do the washing up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1704,
+      "id": "p-bond-with",
+      "type": "phrase",
+      "front": "bond with",
+      "meaning": "〜と絆を深める",
+      "synonyms": [
+        "develop a close connection with",
+        "build a relationship with"
+      ],
+      "collocation": "bond with one's kids",
+      "pron": {
+        "tts": "bond with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1705,
+      "id": "p-get-involved-in",
+      "type": "phrase",
+      "front": "get involved in",
+      "meaning": "〜に関与する・参加する",
+      "synonyms": [
+        "take an interest in"
+      ],
+      "collocation": "both parents get involved",
+      "pron": {
+        "tts": "get involved in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

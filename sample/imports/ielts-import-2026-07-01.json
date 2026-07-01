@@ -23849,6 +23849,6952 @@
       "priority": "B",
       "domain": "english",
       "collection": "ielts-vocab"
+    },
+    {
+      "n": 1410,
+      "id": "p-during-the-time-in-question",
+      "type": "phrase",
+      "front": "during the time in question",
+      "meaning": "当該期間中に",
+      "synonyms": [
+        "over the years",
+        "throughout this time period"
+      ],
+      "collocation": "steady during the time in question",
+      "examples": [
+        {
+          "en": "Newspapers saw a steady fall, slumping from seven million to two million over the years."
+        }
+      ],
+      "pron": {
+        "tts": "during the time in question"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1411,
+      "id": "w-rise",
+      "type": "word",
+      "front": "rise",
+      "meaning": "上昇する",
+      "synonyms": [
+        "climb"
+      ],
+      "collocation": "rise from nothing to",
+      "examples": [
+        {
+          "en": "Overall, television was dominant, while the internet rose from almost nothing to become the leading source."
+        }
+      ],
+      "pron": {
+        "lookup": "rise",
+        "tts": "rise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1412,
+      "id": "p-shoot-up",
+      "type": "phrase",
+      "front": "shoot up",
+      "meaning": "急上昇する",
+      "synonyms": [
+        "skyrocket",
+        "catapult"
+      ],
+      "collocation": "the number shot up after 2000",
+      "examples": [
+        {
+          "en": "The figure shot up after 2000, overtaking newspapers around 2010."
+        }
+      ],
+      "pron": {
+        "tts": "shoot up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1413,
+      "id": "w-overtake",
+      "type": "word",
+      "front": "overtake",
+      "meaning": "追い越す・上回る",
+      "synonyms": [
+        "surpass",
+        "catch up with and pass"
+      ],
+      "collocation": "overtake newspapers",
+      "examples": [
+        {
+          "en": "The figure shot up after 2000, overtaking newspapers around 2010."
+        }
+      ],
+      "pron": {
+        "lookup": "overtake",
+        "tts": "overtake"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1414,
+      "id": "p-top-the-table",
+      "type": "phrase",
+      "front": "top the table",
+      "meaning": "首位を占める",
+      "synonyms": [
+        "be dominant",
+        "be predominant"
+      ],
+      "collocation": "top the table throughout",
+      "examples": [
+        {
+          "en": "Television topped the table throughout the period, peaking at nine million before a slow decline."
+        }
+      ],
+      "pron": {
+        "tts": "top the table"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1415,
+      "id": "w-peak",
+      "type": "word",
+      "front": "peak",
+      "meaning": "頂点に達する",
+      "synonyms": [
+        "reach a high"
+      ],
+      "collocation": "peak at 9 million",
+      "examples": [
+        {
+          "en": "Television topped the table throughout the period, peaking at nine million before a slow decline."
+        }
+      ],
+      "pron": {
+        "lookup": "peak",
+        "tts": "peak"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1416,
+      "id": "w-decline",
+      "type": "word",
+      "front": "decline",
+      "meaning": "減少・下降",
+      "synonyms": [
+        "descent",
+        "downswing"
+      ],
+      "collocation": "a steady decline",
+      "examples": [
+        {
+          "en": "Television topped the table throughout the period, peaking at nine million before a slow decline."
+        }
+      ],
+      "pron": {
+        "lookup": "decline",
+        "tts": "decline"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1417,
+      "id": "w-fall",
+      "type": "word",
+      "front": "fall",
+      "meaning": "減少する",
+      "synonyms": [
+        "drop",
+        "slip"
+      ],
+      "collocation": "fall from 7 to 2 million",
+      "examples": [
+        {
+          "en": "Newspapers saw a steady fall, slumping from seven million to two million over the years."
+        }
+      ],
+      "pron": {
+        "lookup": "fall",
+        "tts": "fall"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1418,
+      "id": "w-slump",
+      "type": "word",
+      "front": "slump",
+      "meaning": "急落する",
+      "synonyms": [
+        "plunge"
+      ],
+      "collocation": "slump to 2 million",
+      "examples": [
+        {
+          "en": "Newspapers saw a steady fall, slumping from seven million to two million over the years."
+        }
+      ],
+      "pron": {
+        "lookup": "slump",
+        "tts": "slump"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1419,
+      "id": "p-news-source",
+      "type": "phrase",
+      "front": "news source",
+      "meaning": "情報源",
+      "pron": {
+        "tts": "news source"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1420,
+      "id": "w-readership",
+      "type": "word",
+      "front": "readership",
+      "meaning": "読者数",
+      "pron": {
+        "lookup": "readership",
+        "tts": "readership"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1421,
+      "id": "w-catapult",
+      "type": "word",
+      "front": "catapult",
+      "meaning": "急増させる",
+      "pron": {
+        "lookup": "catapult",
+        "tts": "catapult"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 58,
+      "themeName": "若者のニュース入手方法",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1422,
+      "id": "w-double",
+      "type": "word",
+      "front": "double",
+      "meaning": "倍増する",
+      "synonyms": [
+        "increase twofold"
+      ],
+      "collocation": "double from 60 to 130",
+      "examples": [
+        {
+          "en": "Petrol began at 60 units and doubled to 130 by 2000."
+        }
+      ],
+      "pron": {
+        "lookup": "double",
+        "tts": "double"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1423,
+      "id": "w-reach",
+      "type": "word",
+      "front": "reach",
+      "meaning": "（値に）達する",
+      "synonyms": [
+        "hit"
+      ],
+      "collocation": "reach 100 units",
+      "examples": [
+        {
+          "en": "Today only 25 units are used, and this fuel is estimated to fluctuate slightly between 20 and 25, while solar is expected to reach higher levels."
+        }
+      ],
+      "pron": {
+        "lookup": "reach",
+        "tts": "reach"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1424,
+      "id": "p-be-projected-to",
+      "type": "phrase",
+      "front": "be projected to",
+      "meaning": "〜すると予測される",
+      "synonyms": [
+        "be estimated to",
+        "be predicted to"
+      ],
+      "collocation": "be projected to remain steady",
+      "examples": [
+        {
+          "en": "It is projected to remain steady until 2050."
+        }
+      ],
+      "pron": {
+        "tts": "be projected to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1425,
+      "id": "p-remain-steady",
+      "type": "phrase",
+      "front": "remain steady",
+      "meaning": "一定に保たれる",
+      "synonyms": [
+        "stay constant",
+        "remain static",
+        "hover"
+      ],
+      "collocation": "remain steady until 2050",
+      "examples": [
+        {
+          "en": "It is projected to remain steady until 2050."
+        }
+      ],
+      "pron": {
+        "tts": "remain steady"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1426,
+      "id": "w-uptick",
+      "type": "word",
+      "front": "uptick",
+      "meaning": "上昇・急増",
+      "synonyms": [
+        "hike",
+        "boost",
+        "upsurge"
+      ],
+      "collocation": "a brief uptick",
+      "examples": [
+        {
+          "en": "Coal and gas saw a brief uptick to 100 units in 1975, but then plunged to 50 by 2000."
+        }
+      ],
+      "pron": {
+        "lookup": "uptick",
+        "tts": "uptick"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1427,
+      "id": "w-plunge",
+      "type": "word",
+      "front": "plunge",
+      "meaning": "急落する",
+      "synonyms": [
+        "plummet",
+        "nose-dive",
+        "tumble"
+      ],
+      "collocation": "plunge to 50 units",
+      "examples": [
+        {
+          "en": "Coal and gas saw a brief uptick to 100 units in 1975, but then plunged to 50 by 2000."
+        }
+      ],
+      "pron": {
+        "lookup": "plunge",
+        "tts": "plunge"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1428,
+      "id": "p-fluctuate-slightly",
+      "type": "phrase",
+      "front": "fluctuate slightly",
+      "meaning": "わずかに変動する",
+      "synonyms": [
+        "waver"
+      ],
+      "collocation": "fluctuate slightly between 20 and 25",
+      "examples": [
+        {
+          "en": "Today only 25 units are used, and this fuel is estimated to fluctuate slightly between 20 and 25, while solar is expected to reach higher levels."
+        }
+      ],
+      "pron": {
+        "tts": "fluctuate slightly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1429,
+      "id": "p-quadrillion-units",
+      "type": "phrase",
+      "front": "quadrillion units",
+      "meaning": "4京単位",
+      "pron": {
+        "tts": "quadrillion units"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1430,
+      "id": "p-fuel-type",
+      "type": "phrase",
+      "front": "fuel type",
+      "meaning": "燃料の種類",
+      "pron": {
+        "tts": "fuel type"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1431,
+      "id": "w-projection",
+      "type": "word",
+      "front": "projection",
+      "meaning": "予測",
+      "pron": {
+        "lookup": "projection",
+        "tts": "projection"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1432,
+      "id": "w-depict",
+      "type": "word",
+      "front": "depict",
+      "meaning": "描写する・示す",
+      "synonyms": [
+        "represent",
+        "illustrate",
+        "show"
+      ],
+      "collocation": "the pictures depict",
+      "examples": [
+        {
+          "en": "The pictures depict the resources needed to make paper and plastic bags."
+        }
+      ],
+      "pron": {
+        "lookup": "depict",
+        "tts": "depict"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1433,
+      "id": "w-resource",
+      "type": "word",
+      "front": "resource",
+      "meaning": "資源",
+      "synonyms": [
+        "raw material",
+        "natural resource"
+      ],
+      "collocation": "consume resources",
+      "examples": [
+        {
+          "en": "The pictures depict the resources needed to make paper and plastic bags."
+        }
+      ],
+      "pron": {
+        "lookup": "resource",
+        "tts": "resource"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1434,
+      "id": "w-consume",
+      "type": "word",
+      "front": "consume",
+      "meaning": "消費する",
+      "synonyms": [
+        "use up",
+        "expend"
+      ],
+      "collocation": "consume resources",
+      "examples": [
+        {
+          "en": "Overall, paper bags consume far more materials than plastic ones."
+        }
+      ],
+      "pron": {
+        "lookup": "consume",
+        "tts": "consume"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1435,
+      "id": "w-manufacture",
+      "type": "word",
+      "front": "manufacture",
+      "meaning": "製造（する）",
+      "synonyms": [
+        "production",
+        "creation"
+      ],
+      "collocation": "the manufacture of bags",
+      "examples": [
+        {
+          "en": "The manufacture of a paper bag needs treble the wood of a plastic one."
+        }
+      ],
+      "pron": {
+        "lookup": "manufacture",
+        "tts": "manufacture"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1436,
+      "id": "w-transport",
+      "type": "word",
+      "front": "transport",
+      "meaning": "輸送する",
+      "synonyms": [
+        "ship",
+        "transit",
+        "transfer"
+      ],
+      "collocation": "transport bags",
+      "examples": [
+        {
+          "en": "More oil is used to transport paper bags than plastic ones."
+        }
+      ],
+      "pron": {
+        "lookup": "transport",
+        "tts": "transport"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1437,
+      "id": "w-treble",
+      "type": "word",
+      "front": "treble",
+      "meaning": "3倍の",
+      "synonyms": [
+        "triple",
+        "threefold"
+      ],
+      "collocation": "treble the quantity",
+      "examples": [
+        {
+          "en": "The manufacture of a paper bag needs treble the wood of a plastic one."
+        }
+      ],
+      "pron": {
+        "lookup": "treble",
+        "tts": "treble"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1438,
+      "id": "p-looking-at-the-data-from-a-general-perspective",
+      "type": "phrase",
+      "front": "looking at the data from a general perspective",
+      "meaning": "全体的な視点から見ると",
+      "synonyms": [
+        "overall",
+        "generally"
+      ],
+      "collocation": "looking at the data from a general perspective",
+      "examples": [
+        {
+          "en": "Looking at the data from a general perspective, paper bags are more resource-intensive."
+        }
+      ],
+      "pron": {
+        "tts": "looking at the data from a general perspective"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1439,
+      "id": "w-respectively",
+      "type": "word",
+      "front": "respectively",
+      "meaning": "それぞれ",
+      "pron": {
+        "lookup": "respectively",
+        "tts": "respectively"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1440,
+      "id": "w-resource-intensive",
+      "type": "word",
+      "front": "resource-intensive",
+      "meaning": "資源集約的な",
+      "pron": {
+        "lookup": "resource-intensive",
+        "tts": "resource-intensive"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1441,
+      "id": "w-unsanitary",
+      "type": "word",
+      "front": "unsanitary",
+      "meaning": "不衛生な",
+      "synonyms": [
+        "unhygienic",
+        "contaminated",
+        "impure"
+      ],
+      "collocation": "unsanitary water",
+      "examples": [
+        {
+          "en": "In both, unsanitary water is poured onto a layer of gravel."
+        }
+      ],
+      "pron": {
+        "lookup": "unsanitary",
+        "tts": "unsanitary"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1442,
+      "id": "p-consist-of",
+      "type": "phrase",
+      "front": "consist of",
+      "meaning": "〜から成る",
+      "synonyms": [
+        "be made up of"
+      ],
+      "collocation": "consist of ground rocks",
+      "examples": [
+        {
+          "en": "It then reaches a layer that consists of ground rocks or coarse sand."
+        }
+      ],
+      "pron": {
+        "tts": "consist of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1443,
+      "id": "w-ground",
+      "type": "word",
+      "front": "ground",
+      "meaning": "すり砕いた",
+      "synonyms": [
+        "crushed",
+        "pulverised"
+      ],
+      "collocation": "ground rocks",
+      "examples": [
+        {
+          "en": "It then reaches a layer that consists of ground rocks or coarse sand."
+        }
+      ],
+      "pron": {
+        "lookup": "ground",
+        "tts": "ground"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1444,
+      "id": "w-coarse",
+      "type": "word",
+      "front": "coarse",
+      "meaning": "粗い",
+      "synonyms": [
+        "rough",
+        "granular",
+        "gritty"
+      ],
+      "collocation": "coarse sand",
+      "examples": [
+        {
+          "en": "It then reaches a layer that consists of ground rocks or coarse sand."
+        }
+      ],
+      "pron": {
+        "lookup": "coarse",
+        "tts": "coarse"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1445,
+      "id": "p-in-short",
+      "type": "phrase",
+      "front": "in short",
+      "meaning": "要するに",
+      "synonyms": [
+        "to sum up",
+        "in summary",
+        "all in all"
+      ],
+      "collocation": "in short, both filters",
+      "examples": [
+        {
+          "en": "In short, both filters clean water in practically the same way."
+        }
+      ],
+      "pron": {
+        "tts": "in short"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1446,
+      "id": "w-practically",
+      "type": "word",
+      "front": "practically",
+      "meaning": "実質的に・ほぼ",
+      "synonyms": [
+        "essentially",
+        "basically",
+        "virtually"
+      ],
+      "collocation": "practically the same",
+      "examples": [
+        {
+          "en": "In short, both filters clean water in practically the same way."
+        }
+      ],
+      "pron": {
+        "lookup": "practically",
+        "tts": "practically"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1447,
+      "id": "w-gravel",
+      "type": "word",
+      "front": "gravel",
+      "meaning": "砂利",
+      "synonyms": [
+        "pebble"
+      ],
+      "collocation": "a layer of gravel",
+      "examples": [
+        {
+          "en": "In both, unsanitary water is poured onto a layer of gravel."
+        }
+      ],
+      "pron": {
+        "lookup": "gravel",
+        "tts": "gravel"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1448,
+      "id": "w-seep",
+      "type": "word",
+      "front": "seep",
+      "meaning": "染み出る",
+      "pron": {
+        "lookup": "seep",
+        "tts": "seep"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1449,
+      "id": "p-filter-out",
+      "type": "phrase",
+      "front": "filter out",
+      "meaning": "濾し取る",
+      "pron": {
+        "tts": "filter out"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1450,
+      "id": "w-charcoal",
+      "type": "word",
+      "front": "charcoal",
+      "meaning": "木炭",
+      "pron": {
+        "lookup": "charcoal",
+        "tts": "charcoal"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 61,
+      "themeName": "水の濾過装置",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1451,
+      "id": "w-entrance",
+      "type": "word",
+      "front": "entrance",
+      "meaning": "入り口",
+      "synonyms": [
+        "doorway",
+        "entry",
+        "entranceway"
+      ],
+      "collocation": "the front entrance",
+      "examples": [
+        {
+          "en": "The stairs at the front entrance will be taken out and replaced with a ramp."
+        }
+      ],
+      "pron": {
+        "lookup": "entrance",
+        "tts": "entrance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1452,
+      "id": "p-take-out",
+      "type": "phrase",
+      "front": "take out",
+      "meaning": "取り除く",
+      "synonyms": [
+        "remove"
+      ],
+      "collocation": "the stairs will be taken out",
+      "examples": [
+        {
+          "en": "The stairs at the front entrance will be taken out and replaced with a ramp."
+        }
+      ],
+      "pron": {
+        "tts": "take out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1453,
+      "id": "p-convert-into",
+      "type": "phrase",
+      "front": "convert into",
+      "meaning": "〜に改造する",
+      "synonyms": [
+        "change into"
+      ],
+      "collocation": "be converted into toilets",
+      "examples": [
+        {
+          "en": "The supply cupboard will be converted into toilets."
+        }
+      ],
+      "pron": {
+        "tts": "convert into"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1454,
+      "id": "w-hallway",
+      "type": "word",
+      "front": "hallway",
+      "meaning": "廊下",
+      "synonyms": [
+        "corridor",
+        "hall"
+      ],
+      "collocation": "the end of the hallway",
+      "examples": [
+        {
+          "en": "The stairs at the end of the hallway will remain, but a new lift will be installed."
+        }
+      ],
+      "pron": {
+        "lookup": "hallway",
+        "tts": "hallway"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1455,
+      "id": "w-remain",
+      "type": "word",
+      "front": "remain",
+      "meaning": "そのまま残る",
+      "synonyms": [
+        "be kept"
+      ],
+      "collocation": "the stairs will remain",
+      "examples": [
+        {
+          "en": "The stairs at the end of the hallway will remain, but a new lift will be installed."
+        }
+      ],
+      "pron": {
+        "lookup": "remain",
+        "tts": "remain"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1456,
+      "id": "p-cut-down",
+      "type": "phrase",
+      "front": "cut down",
+      "meaning": "切り倒す",
+      "synonyms": [
+        "chop down"
+      ],
+      "collocation": "trees will be cut down",
+      "examples": [
+        {
+          "en": "Outside, the trees will be cut down to make room for a ramp."
+        }
+      ],
+      "pron": {
+        "tts": "cut down"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1457,
+      "id": "p-make-room-for",
+      "type": "phrase",
+      "front": "make room for",
+      "meaning": "〜のための場所をあける",
+      "synonyms": [
+        "allow room for",
+        "provide space for",
+        "accommodate"
+      ],
+      "collocation": "make room for a ramp",
+      "examples": [
+        {
+          "en": "Outside, the trees will be cut down to make room for a ramp."
+        }
+      ],
+      "pron": {
+        "tts": "make room for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1458,
+      "id": "w-refurbishment",
+      "type": "word",
+      "front": "refurbishment",
+      "meaning": "改修",
+      "pron": {
+        "lookup": "refurbishment",
+        "tts": "refurbishment"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1459,
+      "id": "p-wheelchair-ramp",
+      "type": "phrase",
+      "front": "wheelchair ramp",
+      "meaning": "車いす用スロープ",
+      "pron": {
+        "tts": "wheelchair ramp"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 62,
+      "themeName": "音楽学校の改修案",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1460,
+      "id": "p-prior-to",
+      "type": "phrase",
+      "front": "prior to",
+      "meaning": "〜より前に",
+      "synonyms": [
+        "preceding",
+        "previous to"
+      ],
+      "collocation": "prior to the changes",
+      "examples": [
+        {
+          "en": "Prior to the changes, there was a harbour in the south of this industrial area."
+        }
+      ],
+      "pron": {
+        "tts": "prior to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1461,
+      "id": "w-following",
+      "type": "word",
+      "front": "following",
+      "meaning": "〜の後に",
+      "synonyms": [
+        "subsequent to"
+      ],
+      "collocation": "following the reconstruction",
+      "examples": [
+        {
+          "en": "Following the reconstruction, the factories were replaced by a museum and shops."
+        }
+      ],
+      "pron": {
+        "lookup": "following",
+        "tts": "following"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1462,
+      "id": "w-industrial",
+      "type": "word",
+      "front": "industrial",
+      "meaning": "工業の",
+      "synonyms": [
+        "manufacturing"
+      ],
+      "collocation": "an industrial area",
+      "examples": [
+        {
+          "en": "Prior to the changes, there was a harbour in the south of this industrial area."
+        }
+      ],
+      "pron": {
+        "lookup": "industrial",
+        "tts": "industrial"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1463,
+      "id": "w-harbour",
+      "type": "word",
+      "front": "harbour",
+      "meaning": "港",
+      "synonyms": [
+        "port"
+      ],
+      "collocation": "a harbour in the south",
+      "examples": [
+        {
+          "en": "Prior to the changes, there was a harbour in the south of this industrial area."
+        }
+      ],
+      "pron": {
+        "lookup": "harbour",
+        "tts": "harbour"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1464,
+      "id": "w-crossing",
+      "type": "word",
+      "front": "crossing",
+      "meaning": "交差点",
+      "synonyms": [
+        "crossroad",
+        "intersection"
+      ],
+      "collocation": "reach a crossing",
+      "examples": [
+        {
+          "en": "A road headed north until it reached a crossing, where it forked into two."
+        }
+      ],
+      "pron": {
+        "lookup": "crossing",
+        "tts": "crossing"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1465,
+      "id": "w-fork",
+      "type": "word",
+      "front": "fork",
+      "meaning": "分岐する",
+      "synonyms": [
+        "split",
+        "divide"
+      ],
+      "collocation": "the road forks into two",
+      "examples": [
+        {
+          "en": "A road headed north until it reached a crossing, where it forked into two."
+        }
+      ],
+      "pron": {
+        "lookup": "fork",
+        "tts": "fork"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1466,
+      "id": "p-rural-area",
+      "type": "phrase",
+      "front": "rural area",
+      "meaning": "農村地域",
+      "synonyms": [
+        "agricultural area",
+        "the countryside"
+      ],
+      "collocation": "towards a rural area",
+      "examples": [
+        {
+          "en": "The right fork led to houses, while the left went towards a rural area."
+        }
+      ],
+      "pron": {
+        "tts": "rural area"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1467,
+      "id": "w-gentrification",
+      "type": "word",
+      "front": "gentrification",
+      "meaning": "高級化",
+      "pron": {
+        "lookup": "gentrification",
+        "tts": "gentrification"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1468,
+      "id": "w-pedestrianise",
+      "type": "word",
+      "front": "pedestrianise",
+      "meaning": "歩行者専用にする",
+      "pron": {
+        "lookup": "pedestrianise",
+        "tts": "pedestrianise"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1469,
+      "id": "w-one-storey",
+      "type": "word",
+      "front": "one-storey",
+      "meaning": "1階建ての",
+      "pron": {
+        "lookup": "one-storey",
+        "tts": "one-storey"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 63,
+      "themeName": "再開発ビフォー・アフター",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1470,
+      "id": "w-groove",
+      "type": "word",
+      "front": "groove",
+      "meaning": "溝",
+      "synonyms": [
+        "slit",
+        "gouge"
+      ],
+      "collocation": "cut a groove into the bark",
+      "examples": [
+        {
+          "en": "After mating, the female cuts a groove into the bark and lays her eggs."
+        }
+      ],
+      "pron": {
+        "lookup": "groove",
+        "tts": "groove"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1471,
+      "id": "w-burrow",
+      "type": "word",
+      "front": "burrow",
+      "meaning": "穴を掘る",
+      "synonyms": [
+        "tunnel down"
+      ],
+      "collocation": "burrow down to the roots",
+      "examples": [
+        {
+          "en": "The larva burrows down to the roots, where it feeds for years."
+        }
+      ],
+      "pron": {
+        "lookup": "burrow",
+        "tts": "burrow"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1472,
+      "id": "w-stage",
+      "type": "word",
+      "front": "stage",
+      "meaning": "段階",
+      "synonyms": [
+        "phase"
+      ],
+      "collocation": "four stages of development",
+      "examples": [
+        {
+          "en": "It goes through four stages of development."
+        }
+      ],
+      "pron": {
+        "lookup": "stage",
+        "tts": "stage"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1473,
+      "id": "w-shed",
+      "type": "word",
+      "front": "shed",
+      "meaning": "脱ぎ捨てる",
+      "synonyms": [
+        "cast off",
+        "moult",
+        "discard"
+      ],
+      "collocation": "shed the exoskeleton",
+      "examples": [
+        {
+          "en": "The adults shed their exoskeleton, and the males look for a partner with an incessant call, so the cycle is renewed."
+        }
+      ],
+      "pron": {
+        "lookup": "shed",
+        "tts": "shed"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1474,
+      "id": "w-partner",
+      "type": "word",
+      "front": "partner",
+      "meaning": "相手・配偶者",
+      "synonyms": [
+        "mate"
+      ],
+      "collocation": "look for a partner",
+      "examples": [
+        {
+          "en": "The adults shed their exoskeleton, and the males look for a partner with an incessant call, so the cycle is renewed."
+        }
+      ],
+      "pron": {
+        "lookup": "partner",
+        "tts": "partner"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1475,
+      "id": "w-incessant",
+      "type": "word",
+      "front": "incessant",
+      "meaning": "絶え間ない",
+      "synonyms": [
+        "never-ending",
+        "persistent",
+        "ceaseless"
+      ],
+      "collocation": "an incessant call",
+      "examples": [
+        {
+          "en": "The adults shed their exoskeleton, and the males look for a partner with an incessant call, so the cycle is renewed."
+        }
+      ],
+      "pron": {
+        "lookup": "incessant",
+        "tts": "incessant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1476,
+      "id": "p-be-renewed",
+      "type": "phrase",
+      "front": "be renewed",
+      "meaning": "再び始まる",
+      "synonyms": [
+        "start over",
+        "begin again"
+      ],
+      "collocation": "the cycle is renewed",
+      "examples": [
+        {
+          "en": "The adults shed their exoskeleton, and the males look for a partner with an incessant call, so the cycle is renewed."
+        }
+      ],
+      "pron": {
+        "tts": "be renewed"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1477,
+      "id": "w-nymph",
+      "type": "word",
+      "front": "nymph",
+      "meaning": "幼虫",
+      "pron": {
+        "lookup": "nymph",
+        "tts": "nymph"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1478,
+      "id": "w-hatch",
+      "type": "word",
+      "front": "hatch",
+      "meaning": "孵化する",
+      "pron": {
+        "lookup": "hatch",
+        "tts": "hatch"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1479,
+      "id": "w-exoskeleton",
+      "type": "word",
+      "front": "exoskeleton",
+      "meaning": "外骨格",
+      "pron": {
+        "lookup": "exoskeleton",
+        "tts": "exoskeleton"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 64,
+      "themeName": "北アメリカのセミのライフサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1480,
+      "id": "w-diagram",
+      "type": "word",
+      "front": "diagram",
+      "meaning": "図・図表",
+      "synonyms": [
+        "representation",
+        "flowchart"
+      ],
+      "collocation": "the diagram depicts",
+      "examples": [
+        {
+          "en": "The diagram shows how PET bottles are recycled in six steps."
+        }
+      ],
+      "pron": {
+        "lookup": "diagram",
+        "tts": "diagram"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1481,
+      "id": "w-step",
+      "type": "word",
+      "front": "step",
+      "meaning": "段階・手順",
+      "synonyms": [
+        "stage"
+      ],
+      "collocation": "a process with six steps",
+      "examples": [
+        {
+          "en": "The diagram shows how PET bottles are recycled in six steps."
+        }
+      ],
+      "pron": {
+        "lookup": "step",
+        "tts": "step"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1482,
+      "id": "w-consumer",
+      "type": "word",
+      "front": "consumer",
+      "meaning": "消費者",
+      "synonyms": [
+        "customer",
+        "purchaser"
+      ],
+      "collocation": "from the consumer",
+      "examples": [
+        {
+          "en": "First, bottles are collected from the consumer and transported to warehouses."
+        }
+      ],
+      "pron": {
+        "lookup": "consumer",
+        "tts": "consumer"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1483,
+      "id": "w-sort",
+      "type": "word",
+      "front": "sort",
+      "meaning": "分類する",
+      "synonyms": [
+        "organise",
+        "categorise",
+        "group"
+      ],
+      "collocation": "sorted by size and colour",
+      "examples": [
+        {
+          "en": "Next, they are sorted by size and colour."
+        }
+      ],
+      "pron": {
+        "lookup": "sort",
+        "tts": "sort"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1484,
+      "id": "p-send-on",
+      "type": "phrase",
+      "front": "send on",
+      "meaning": "先へ送る",
+      "synonyms": [
+        "forward"
+      ],
+      "collocation": "be sent on for processing",
+      "examples": [
+        {
+          "en": "The bottles are then sent on and chopped up into small pieces."
+        }
+      ],
+      "pron": {
+        "tts": "send on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1485,
+      "id": "p-chop-up",
+      "type": "phrase",
+      "front": "chop up",
+      "meaning": "切り刻む",
+      "synonyms": [
+        "shred"
+      ],
+      "collocation": "chopped up into pieces",
+      "examples": [
+        {
+          "en": "The bottles are then sent on and chopped up into small pieces."
+        }
+      ],
+      "pron": {
+        "tts": "chop up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1486,
+      "id": "w-pack",
+      "type": "word",
+      "front": "pack",
+      "meaning": "詰める・積む",
+      "synonyms": [
+        "load"
+      ],
+      "collocation": "packed into boxes",
+      "examples": [
+        {
+          "en": "Finally, the flakes are packed into boxes and made into new products."
+        }
+      ],
+      "pron": {
+        "lookup": "pack",
+        "tts": "pack"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1487,
+      "id": "w-warehouse",
+      "type": "word",
+      "front": "warehouse",
+      "meaning": "倉庫",
+      "pron": {
+        "lookup": "warehouse",
+        "tts": "warehouse"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1488,
+      "id": "w-receptacle",
+      "type": "word",
+      "front": "receptacle",
+      "meaning": "容器",
+      "pron": {
+        "lookup": "receptacle",
+        "tts": "receptacle"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1489,
+      "id": "w-flake",
+      "type": "word",
+      "front": "flake",
+      "meaning": "フレーク",
+      "pron": {
+        "lookup": "flake",
+        "tts": "flake"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1490,
+      "id": "p-in-my-view",
+      "type": "phrase",
+      "front": "in my view",
+      "meaning": "私の考えでは",
+      "synonyms": [
+        "it is my firm belief that",
+        "as I see it"
+      ],
+      "collocation": "in my view, sponsorship is effective",
+      "pron": {
+        "tts": "in my view"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1491,
+      "id": "p-this-is-largely-because",
+      "type": "phrase",
+      "front": "this is largely because",
+      "meaning": "これは主に〜だからだ",
+      "synonyms": [
+        "owing to",
+        "due to the fact that"
+      ],
+      "collocation": "this is largely because …",
+      "pron": {
+        "tts": "this is largely because"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1492,
+      "id": "p-for-example",
+      "type": "phrase",
+      "front": "for example",
+      "meaning": "例えば",
+      "synonyms": [
+        "for instance",
+        "a case in point is"
+      ],
+      "collocation": "for example, fans …",
+      "pron": {
+        "tts": "for example"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1493,
+      "id": "w-overall",
+      "type": "word",
+      "front": "overall",
+      "meaning": "全体として",
+      "synonyms": [
+        "on the whole",
+        "all in all"
+      ],
+      "collocation": "overall, it is a win-win",
+      "pron": {
+        "lookup": "overall",
+        "tts": "overall"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1494,
+      "id": "w-sponsor",
+      "type": "word",
+      "front": "sponsor",
+      "meaning": "出資する",
+      "synonyms": [
+        "bankroll"
+      ],
+      "collocation": "sponsor a team",
+      "pron": {
+        "lookup": "sponsor",
+        "tts": "sponsor"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1495,
+      "id": "w-athlete",
+      "type": "word",
+      "front": "athlete",
+      "meaning": "アスリート・運動選手",
+      "synonyms": [
+        "sportsperson",
+        "player"
+      ],
+      "collocation": "sponsor an athlete",
+      "pron": {
+        "lookup": "athlete",
+        "tts": "athlete"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1496,
+      "id": "w-affiliation",
+      "type": "word",
+      "front": "affiliation",
+      "meaning": "提携・つながり",
+      "synonyms": [
+        "association",
+        "connection"
+      ],
+      "collocation": "a strong affiliation",
+      "pron": {
+        "lookup": "affiliation",
+        "tts": "affiliation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1497,
+      "id": "p-in-the-long-run",
+      "type": "phrase",
+      "front": "in the long run",
+      "meaning": "長い目で見れば",
+      "synonyms": [
+        "in the fullness of time"
+      ],
+      "collocation": "benefit in the long run",
+      "pron": {
+        "tts": "in the long run"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1498,
+      "id": "w-logo",
+      "type": "word",
+      "front": "logo",
+      "meaning": "シンボルマーク・ロゴ",
+      "synonyms": [
+        "corporate symbol",
+        "trademark"
+      ],
+      "collocation": "the logo on the kit",
+      "pron": {
+        "lookup": "logo",
+        "tts": "logo"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1499,
+      "id": "w-visible",
+      "type": "word",
+      "front": "visible",
+      "meaning": "目に見える・目立つ",
+      "synonyms": [
+        "discernible",
+        "unmistakable"
+      ],
+      "collocation": "clearly visible",
+      "pron": {
+        "lookup": "visible",
+        "tts": "visible"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1500,
+      "id": "w-carry",
+      "type": "word",
+      "front": "carry",
+      "meaning": "（商品を）店に置く・扱う",
+      "synonyms": [
+        "stock",
+        "keep in stock"
+      ],
+      "collocation": "stores that carry the gear",
+      "pron": {
+        "lookup": "carry",
+        "tts": "carry"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1501,
+      "id": "w-admittedly",
+      "type": "word",
+      "front": "admittedly",
+      "meaning": "確かに（〜だが）",
+      "synonyms": [
+        "it is true that",
+        "granted"
+      ],
+      "collocation": "admittedly, there are risks",
+      "pron": {
+        "lookup": "admittedly",
+        "tts": "admittedly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1502,
+      "id": "p-on-the-other-hand",
+      "type": "phrase",
+      "front": "on the other hand",
+      "meaning": "他方で",
+      "synonyms": [
+        "conversely",
+        "by contrast"
+      ],
+      "collocation": "on the other hand, …",
+      "pron": {
+        "tts": "on the other hand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1503,
+      "id": "p-in-conclusion",
+      "type": "phrase",
+      "front": "in conclusion",
+      "meaning": "結論として",
+      "synonyms": [
+        "to conclude",
+        "to sum up"
+      ],
+      "collocation": "in conclusion, firms …",
+      "pron": {
+        "tts": "in conclusion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1504,
+      "id": "w-scandal",
+      "type": "word",
+      "front": "scandal",
+      "meaning": "不祥事・スキャンダル",
+      "synonyms": [
+        "impropriety",
+        "wrongdoing",
+        "misconduct"
+      ],
+      "collocation": "get involved in a scandal",
+      "pron": {
+        "lookup": "scandal",
+        "tts": "scandal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1505,
+      "id": "w-nightmare",
+      "type": "word",
+      "front": "nightmare",
+      "meaning": "悪夢",
+      "synonyms": [
+        "ordeal",
+        "traumatic experience"
+      ],
+      "collocation": "a PR nightmare",
+      "pron": {
+        "lookup": "nightmare",
+        "tts": "nightmare"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1506,
+      "id": "w-scenario",
+      "type": "word",
+      "front": "scenario",
+      "meaning": "筋書き・シナリオ",
+      "synonyms": [
+        "situation"
+      ],
+      "collocation": "a possible scenario",
+      "pron": {
+        "lookup": "scenario",
+        "tts": "scenario"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1507,
+      "id": "p-fall-ill",
+      "type": "phrase",
+      "front": "fall ill",
+      "meaning": "病気になる",
+      "synonyms": [
+        "get sick",
+        "be taken ill"
+      ],
+      "collocation": "the player fell ill",
+      "pron": {
+        "tts": "fall ill"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1508,
+      "id": "p-find-oneself-in",
+      "type": "phrase",
+      "front": "find oneself in",
+      "meaning": "（ある状況）にいることに気づく",
+      "synonyms": [
+        "land oneself in"
+      ],
+      "collocation": "find oneself in trouble",
+      "pron": {
+        "tts": "find oneself in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1509,
+      "id": "p-happy-enough",
+      "type": "phrase",
+      "front": "happy enough",
+      "meaning": "十分に喜んで",
+      "synonyms": [
+        "willing",
+        "agreeable",
+        "amenable"
+      ],
+      "collocation": "happy enough to provide funding",
+      "pron": {
+        "tts": "happy enough"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1510,
+      "id": "w-drop",
+      "type": "word",
+      "front": "drop",
+      "meaning": "（人を）解雇する・除外する",
+      "synonyms": [
+        "abandon",
+        "throw overboard",
+        "chuck overboard"
+      ],
+      "collocation": "be quickly dropped",
+      "pron": {
+        "lookup": "drop",
+        "tts": "drop"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1511,
+      "id": "p-be-in-favour-of",
+      "type": "phrase",
+      "front": "be in favour of",
+      "meaning": "〜に賛成である",
+      "synonyms": [
+        "advocate",
+        "support"
+      ],
+      "collocation": "be in favour of harsh punishment",
+      "pron": {
+        "tts": "be in favour of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1512,
+      "id": "p-harsh-punishment",
+      "type": "phrase",
+      "front": "harsh punishment",
+      "meaning": "厳罰",
+      "synonyms": [
+        "severe punishment",
+        "strict punishment"
+      ],
+      "collocation": "harsh punishment acts as a deterrent",
+      "pron": {
+        "tts": "harsh punishment"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1513,
+      "id": "w-actions",
+      "type": "word",
+      "front": "actions",
+      "meaning": "行為・振る舞い",
+      "synonyms": [
+        "behaviour",
+        "conduct"
+      ],
+      "collocation": "responsible for one's actions",
+      "pron": {
+        "lookup": "actions",
+        "tts": "actions"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1514,
+      "id": "p-under-pressure",
+      "type": "phrase",
+      "front": "under pressure",
+      "meaning": "プレッシャーをかけられて",
+      "synonyms": [
+        "pressured",
+        "pushed"
+      ],
+      "collocation": "under peer pressure",
+      "pron": {
+        "tts": "under pressure"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1515,
+      "id": "w-lenient",
+      "type": "word",
+      "front": "lenient",
+      "meaning": "寛大な・甘い",
+      "synonyms": [
+        "forgiving"
+      ],
+      "collocation": "lenient towards offenders",
+      "pron": {
+        "lookup": "lenient",
+        "tts": "lenient"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1516,
+      "id": "p-let-off",
+      "type": "phrase",
+      "front": "let off",
+      "meaning": "（人を）許す・放免する",
+      "synonyms": [
+        "escape punishment",
+        "allow to walk free"
+      ],
+      "collocation": "be let off",
+      "pron": {
+        "tts": "let off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1517,
+      "id": "w-juvenile",
+      "type": "word",
+      "front": "juvenile",
+      "meaning": "未成年者・青少年",
+      "synonyms": [
+        "minor",
+        "adolescent",
+        "teen"
+      ],
+      "collocation": "juveniles become adults",
+      "pron": {
+        "lookup": "juvenile",
+        "tts": "juvenile"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1518,
+      "id": "p-commit-a-crime",
+      "type": "phrase",
+      "front": "commit a crime",
+      "meaning": "罪を犯す",
+      "synonyms": [
+        "break the law"
+      ],
+      "collocation": "juveniles who commit a crime",
+      "pron": {
+        "tts": "commit a crime"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1519,
+      "id": "p-put-in-jail",
+      "type": "phrase",
+      "front": "put in jail",
+      "meaning": "投獄する",
+      "synonyms": [
+        "incarcerate",
+        "lock up",
+        "imprison"
+      ],
+      "collocation": "be put in jail",
+      "pron": {
+        "tts": "put in jail"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1520,
+      "id": "w-offender",
+      "type": "word",
+      "front": "offender",
+      "meaning": "犯罪者",
+      "synonyms": [
+        "criminal",
+        "lawbreaker",
+        "perpetrator"
+      ],
+      "collocation": "young offenders",
+      "pron": {
+        "lookup": "offender",
+        "tts": "offender"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1521,
+      "id": "w-rehabilitate",
+      "type": "word",
+      "front": "rehabilitate",
+      "meaning": "更生させる",
+      "synonyms": [
+        "reform"
+      ],
+      "collocation": "be rehabilitated",
+      "pron": {
+        "lookup": "rehabilitate",
+        "tts": "rehabilitate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1522,
+      "id": "p-lend-a-hand",
+      "type": "phrase",
+      "front": "lend a hand",
+      "meaning": "手を貸す・助ける",
+      "synonyms": [
+        "aid",
+        "assist",
+        "help out"
+      ],
+      "collocation": "lend a hand in the community",
+      "pron": {
+        "tts": "lend a hand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1523,
+      "id": "p-slap-on-the-wrist",
+      "type": "phrase",
+      "front": "slap on the wrist",
+      "meaning": "軽い叱責・軽い罰",
+      "synonyms": [
+        "lenient punishment"
+      ],
+      "collocation": "just a slap on the wrist",
+      "pron": {
+        "tts": "slap on the wrist"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1524,
+      "id": "w-clarify",
+      "type": "word",
+      "front": "clarify",
+      "meaning": "明らかにする",
+      "synonyms": [
+        "make clear"
+      ],
+      "collocation": "clarify one's goals",
+      "pron": {
+        "lookup": "clarify",
+        "tts": "clarify"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1525,
+      "id": "p-put-money-aside",
+      "type": "phrase",
+      "front": "put money aside",
+      "meaning": "お金を貯める",
+      "synonyms": [
+        "save up",
+        "lay aside money",
+        "economise"
+      ],
+      "collocation": "put money aside for a trip",
+      "pron": {
+        "tts": "put money aside"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1526,
+      "id": "p-stick-to",
+      "type": "phrase",
+      "front": "stick to",
+      "meaning": "〜を守る・固執する",
+      "synonyms": [
+        "adhere to",
+        "follow"
+      ],
+      "collocation": "stick to a budget",
+      "pron": {
+        "tts": "stick to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1527,
+      "id": "p-splash-out-on",
+      "type": "phrase",
+      "front": "splash out on",
+      "meaning": "〜に散財する",
+      "synonyms": [
+        "splurge on",
+        "spend lavishly on"
+      ],
+      "collocation": "splash out on luggage",
+      "pron": {
+        "tts": "splash out on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1528,
+      "id": "w-accommodation",
+      "type": "word",
+      "front": "accommodation",
+      "meaning": "宿泊施設",
+      "synonyms": [
+        "housing",
+        "lodging",
+        "residence"
+      ],
+      "collocation": "pay for accommodation",
+      "pron": {
+        "lookup": "accommodation",
+        "tts": "accommodation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1529,
+      "id": "p-rush-into",
+      "type": "phrase",
+      "front": "rush into",
+      "meaning": "〜に性急に飛び込む",
+      "synonyms": [
+        "rush headlong into",
+        "plunge into"
+      ],
+      "collocation": "rush into a decision",
+      "pron": {
+        "tts": "rush into"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1530,
+      "id": "w-suit",
+      "type": "word",
+      "front": "suit",
+      "meaning": "〜に合う",
+      "synonyms": [
+        "be appropriate for",
+        "fit"
+      ],
+      "collocation": "the subject suits them",
+      "pron": {
+        "lookup": "suit",
+        "tts": "suit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 70,
+      "themeName": "ギャップイヤー①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1531,
+      "id": "p-get-a-taste-of",
+      "type": "phrase",
+      "front": "get a taste of",
+      "meaning": "〜を少し経験する",
+      "synonyms": [
+        "briefly experience"
+      ],
+      "collocation": "get a taste of adult life",
+      "pron": {
+        "tts": "get a taste of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1532,
+      "id": "p-arrive-on-time",
+      "type": "phrase",
+      "front": "arrive on time",
+      "meaning": "時間通りに到着する",
+      "synonyms": [
+        "be punctual"
+      ],
+      "collocation": "arrive on time for work",
+      "pron": {
+        "tts": "arrive on time"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1533,
+      "id": "p-get-homesick",
+      "type": "phrase",
+      "front": "get homesick",
+      "meaning": "ホームシックになる",
+      "synonyms": [
+        "miss home"
+      ],
+      "collocation": "get homesick abroad",
+      "pron": {
+        "tts": "get homesick"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1534,
+      "id": "p-get-back-into-the-habit-of",
+      "type": "phrase",
+      "front": "get back into the habit of",
+      "meaning": "〜の習慣に戻る",
+      "synonyms": [
+        "return to the practice of",
+        "get used to again"
+      ],
+      "collocation": "get back into the habit of studying",
+      "pron": {
+        "tts": "get back into the habit of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1535,
+      "id": "p-set-off",
+      "type": "phrase",
+      "front": "set off",
+      "meaning": "出発する・始める",
+      "synonyms": [
+        "take off"
+      ],
+      "collocation": "before setting off",
+      "pron": {
+        "tts": "set off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1536,
+      "id": "w-impactful",
+      "type": "word",
+      "front": "impactful",
+      "meaning": "影響力の強い",
+      "synonyms": [
+        "moving",
+        "life-changing",
+        "meaningful"
+      ],
+      "collocation": "a life-changing experience",
+      "pron": {
+        "lookup": "impactful",
+        "tts": "impactful"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 71,
+      "themeName": "ギャップイヤー②（欠点・自分の意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1537,
+      "id": "w-concede",
+      "type": "word",
+      "front": "concede",
+      "meaning": "（しぶしぶ）認める",
+      "synonyms": [
+        "admit"
+      ],
+      "collocation": "I must concede that …",
+      "pron": {
+        "lookup": "concede",
+        "tts": "concede"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1538,
+      "id": "p-make-sense",
+      "type": "phrase",
+      "front": "make sense",
+      "meaning": "理にかなう",
+      "synonyms": [
+        "be justifiable",
+        "be understandable"
+      ],
+      "collocation": "it makes sense to …",
+      "pron": {
+        "tts": "make sense"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1539,
+      "id": "w-hypothesis",
+      "type": "word",
+      "front": "hypothesis",
+      "meaning": "仮説",
+      "synonyms": [
+        "assumption",
+        "theory",
+        "belief"
+      ],
+      "collocation": "a controversial hypothesis",
+      "pron": {
+        "lookup": "hypothesis",
+        "tts": "hypothesis"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1540,
+      "id": "p-job-market",
+      "type": "phrase",
+      "front": "job market",
+      "meaning": "求人市場",
+      "synonyms": [
+        "labour market"
+      ],
+      "collocation": "the future job market",
+      "pron": {
+        "tts": "job market"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1541,
+      "id": "p-be-on-the-lookout-for",
+      "type": "phrase",
+      "front": "be on the lookout for",
+      "meaning": "〜を注意して探している",
+      "synonyms": [
+        "keep an eye out for"
+      ],
+      "collocation": "employers are on the lookout for",
+      "pron": {
+        "tts": "be on the lookout for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1542,
+      "id": "p-be-desired",
+      "type": "phrase",
+      "front": "be desired",
+      "meaning": "求められている",
+      "synonyms": [
+        "be coveted"
+      ],
+      "collocation": "skills that are desired",
+      "pron": {
+        "tts": "be desired"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1543,
+      "id": "w-obsolete",
+      "type": "word",
+      "front": "obsolete",
+      "meaning": "廃れた・時代遅れの",
+      "synonyms": [
+        "out-of-date",
+        "antiquated"
+      ],
+      "collocation": "become obsolete",
+      "pron": {
+        "lookup": "obsolete",
+        "tts": "obsolete"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1544,
+      "id": "p-window-of-opportunity",
+      "type": "phrase",
+      "front": "window of opportunity",
+      "meaning": "絶好の機会",
+      "synonyms": [
+        "critical period",
+        "critical window"
+      ],
+      "collocation": "a window of opportunity",
+      "pron": {
+        "tts": "window of opportunity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1545,
+      "id": "w-preadolescence",
+      "type": "word",
+      "front": "preadolescence",
+      "meaning": "思春期直前期",
+      "synonyms": [
+        "preteen years"
+      ],
+      "collocation": "in preadolescence",
+      "pron": {
+        "lookup": "preadolescence",
+        "tts": "preadolescence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1546,
+      "id": "p-pick-up",
+      "type": "phrase",
+      "front": "pick up",
+      "meaning": "身につける・覚える",
+      "synonyms": [
+        "informally learn"
+      ],
+      "collocation": "pick up vocabulary",
+      "pron": {
+        "tts": "pick up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1547,
+      "id": "w-undaunted",
+      "type": "word",
+      "front": "undaunted",
+      "meaning": "ひるまない・恐れない",
+      "synonyms": [
+        "fearless",
+        "unafraid"
+      ],
+      "collocation": "undaunted by mistakes",
+      "pron": {
+        "lookup": "undaunted",
+        "tts": "undaunted"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1548,
+      "id": "w-reticence",
+      "type": "word",
+      "front": "reticence",
+      "meaning": "遠慮・気後れ",
+      "synonyms": [
+        "inhibition",
+        "hang-up",
+        "reluctance"
+      ],
+      "collocation": "a lack of reticence",
+      "pron": {
+        "lookup": "reticence",
+        "tts": "reticence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1549,
+      "id": "w-puberty",
+      "type": "word",
+      "front": "puberty",
+      "meaning": "思春期",
+      "synonyms": [
+        "adolescence"
+      ],
+      "collocation": "before puberty",
+      "pron": {
+        "lookup": "puberty",
+        "tts": "puberty"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 73,
+      "themeName": "小学生の外国語学習②（臨界期）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1550,
+      "id": "w-premise",
+      "type": "word",
+      "front": "premise",
+      "meaning": "前提",
+      "synonyms": [
+        "assumption",
+        "presumption"
+      ],
+      "collocation": "the premise behind …",
+      "pron": {
+        "lookup": "premise",
+        "tts": "premise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1551,
+      "id": "w-cooperation",
+      "type": "word",
+      "front": "cooperation",
+      "meaning": "協力",
+      "synonyms": [
+        "collaboration",
+        "mutual support"
+      ],
+      "collocation": "create cooperation",
+      "pron": {
+        "lookup": "cooperation",
+        "tts": "cooperation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1552,
+      "id": "p-put-one-s-heads-together",
+      "type": "phrase",
+      "front": "put one's heads together",
+      "meaning": "集まって相談する",
+      "synonyms": [
+        "share ideas",
+        "bounce ideas off one another"
+      ],
+      "collocation": "put their heads together",
+      "pron": {
+        "tts": "put one's heads together"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1553,
+      "id": "w-spontaneous",
+      "type": "word",
+      "front": "spontaneous",
+      "meaning": "自発的な・とっさの",
+      "synonyms": [
+        "spur-of-the-moment",
+        "impromptu",
+        "off-the-cuff"
+      ],
+      "collocation": "spontaneous conversations",
+      "pron": {
+        "lookup": "spontaneous",
+        "tts": "spontaneous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1554,
+      "id": "w-complain",
+      "type": "word",
+      "front": "complain",
+      "meaning": "不平を言う",
+      "synonyms": [
+        "grumble"
+      ],
+      "collocation": "workers complain that …",
+      "pron": {
+        "lookup": "complain",
+        "tts": "complain"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1555,
+      "id": "p-be-in-fear-of",
+      "type": "phrase",
+      "front": "be in fear of",
+      "meaning": "〜に恐れをなす",
+      "synonyms": [
+        "be frightened of"
+      ],
+      "collocation": "be in fear of change",
+      "pron": {
+        "tts": "be in fear of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1556,
+      "id": "p-eavesdrop-on",
+      "type": "phrase",
+      "front": "eavesdrop on",
+      "meaning": "〜を盗み聞きする",
+      "synonyms": [
+        "listen in on"
+      ],
+      "collocation": "eavesdrop on a conversation",
+      "pron": {
+        "tts": "eavesdrop on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1557,
+      "id": "w-memento",
+      "type": "word",
+      "front": "memento",
+      "meaning": "思い出の品",
+      "synonyms": [
+        "keepsake"
+      ],
+      "collocation": "personal mementos",
+      "pron": {
+        "lookup": "memento",
+        "tts": "memento"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1558,
+      "id": "p-take-pride-in",
+      "type": "phrase",
+      "front": "take pride in",
+      "meaning": "〜を誇りに思う",
+      "synonyms": [
+        "take satisfaction in"
+      ],
+      "collocation": "take pride in one's work",
+      "pron": {
+        "tts": "take pride in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1559,
+      "id": "p-to-some-extent",
+      "type": "phrase",
+      "front": "to some extent",
+      "meaning": "ある程度は",
+      "synonyms": [
+        "to a certain degree"
+      ],
+      "collocation": "to some extent, …",
+      "pron": {
+        "tts": "to some extent"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1560,
+      "id": "w-colleague",
+      "type": "word",
+      "front": "colleague",
+      "meaning": "同僚",
+      "synonyms": [
+        "co-worker",
+        "workmate"
+      ],
+      "collocation": "colleagues work together",
+      "pron": {
+        "lookup": "colleague",
+        "tts": "colleague"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1561,
+      "id": "p-in-private",
+      "type": "phrase",
+      "front": "in private",
+      "meaning": "内密に・こっそりと",
+      "synonyms": [
+        "behind closed doors"
+      ],
+      "collocation": "discuss in private",
+      "pron": {
+        "tts": "in private"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1562,
+      "id": "p-pluses-and-minuses",
+      "type": "phrase",
+      "front": "pluses and minuses",
+      "meaning": "長所と短所",
+      "synonyms": [
+        "advantages and disadvantages",
+        "pros and cons",
+        "benefits and drawbacks"
+      ],
+      "collocation": "there are pluses and minuses",
+      "pron": {
+        "tts": "pluses and minuses"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1563,
+      "id": "p-opt-for",
+      "type": "phrase",
+      "front": "opt for",
+      "meaning": "〜を選ぶ",
+      "synonyms": [
+        "select",
+        "go for"
+      ],
+      "collocation": "opt for the layout",
+      "pron": {
+        "tts": "opt for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1564,
+      "id": "w-pristine",
+      "type": "word",
+      "front": "pristine",
+      "meaning": "原始状態の・自然のままの",
+      "synonyms": [
+        "untouched",
+        "unspoiled"
+      ],
+      "collocation": "pristine countries",
+      "pron": {
+        "lookup": "pristine",
+        "tts": "pristine"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1565,
+      "id": "p-see-in-a-positive-light",
+      "type": "phrase",
+      "front": "see in a positive light",
+      "meaning": "肯定的に捉える",
+      "synonyms": [
+        "view positively"
+      ],
+      "collocation": "be seen in a positive light",
+      "pron": {
+        "tts": "see in a positive light"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1566,
+      "id": "p-lag-behind",
+      "type": "phrase",
+      "front": "lag behind",
+      "meaning": "遅れを取る",
+      "synonyms": [
+        "trail behind",
+        "fall behind"
+      ],
+      "collocation": "lag behind in facilities",
+      "pron": {
+        "tts": "lag behind"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1567,
+      "id": "p-second-to-none",
+      "type": "phrase",
+      "front": "second to none",
+      "meaning": "何ものにも劣らない",
+      "synonyms": [
+        "incomparable",
+        "unequalled",
+        "beyond compare"
+      ],
+      "collocation": "beauty second to none",
+      "pron": {
+        "tts": "second to none"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1568,
+      "id": "p-those-in-need",
+      "type": "phrase",
+      "front": "those in need",
+      "meaning": "援助を必要とする人々",
+      "synonyms": [
+        "the poor",
+        "the impoverished",
+        "the disadvantaged"
+      ],
+      "collocation": "jobs for those in need",
+      "pron": {
+        "tts": "those in need"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1569,
+      "id": "w-poverty",
+      "type": "word",
+      "front": "poverty",
+      "meaning": "貧困",
+      "synonyms": [
+        "economic hardship",
+        "destitution"
+      ],
+      "collocation": "escape poverty",
+      "pron": {
+        "lookup": "poverty",
+        "tts": "poverty"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1570,
+      "id": "p-take-a-turn-for-the-worse",
+      "type": "phrase",
+      "front": "take a turn for the worse",
+      "meaning": "悪化する",
+      "synonyms": [
+        "go downhill",
+        "worsen"
+      ],
+      "collocation": "conditions take a turn for the worse",
+      "pron": {
+        "tts": "take a turn for the worse"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1571,
+      "id": "p-point-out",
+      "type": "phrase",
+      "front": "point out",
+      "meaning": "指摘する",
+      "synonyms": [
+        "call attention to",
+        "draw attention to"
+      ],
+      "collocation": "it is worth pointing out that …",
+      "pron": {
+        "tts": "point out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1572,
+      "id": "w-wage",
+      "type": "word",
+      "front": "wage",
+      "meaning": "賃金",
+      "synonyms": [
+        "income",
+        "earnings",
+        "salary",
+        "pay"
+      ],
+      "collocation": "higher wages in tourism",
+      "pron": {
+        "lookup": "wage",
+        "tts": "wage"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1573,
+      "id": "p-grow-in-popularity",
+      "type": "phrase",
+      "front": "grow in popularity",
+      "meaning": "人気が高まる",
+      "synonyms": [
+        "take off",
+        "make a name for itself"
+      ],
+      "collocation": "areas grow in popularity",
+      "pron": {
+        "tts": "grow in popularity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1574,
+      "id": "p-push-out",
+      "type": "phrase",
+      "front": "push out",
+      "meaning": "追い出す",
+      "synonyms": [
+        "force out",
+        "drive out"
+      ],
+      "collocation": "push out local people",
+      "pron": {
+        "tts": "push out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1575,
+      "id": "w-transpire",
+      "type": "word",
+      "front": "transpire",
+      "meaning": "起こる・生じる",
+      "synonyms": [
+        "come about",
+        "occur"
+      ],
+      "collocation": "cultural change transpires",
+      "pron": {
+        "lookup": "transpire",
+        "tts": "transpire"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1576,
+      "id": "w-embrace",
+      "type": "word",
+      "front": "embrace",
+      "meaning": "受け入れる",
+      "synonyms": [
+        "adopt"
+      ],
+      "collocation": "embrace new traditions",
+      "pron": {
+        "lookup": "embrace",
+        "tts": "embrace"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1577,
+      "id": "w-taste",
+      "type": "word",
+      "front": "taste",
+      "meaning": "好み・嗜好",
+      "synonyms": [
+        "preference"
+      ],
+      "collocation": "a taste for hip-hop",
+      "pron": {
+        "lookup": "taste",
+        "tts": "taste"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1578,
+      "id": "p-to-be-honest",
+      "type": "phrase",
+      "front": "to be honest",
+      "meaning": "正直に言うと",
+      "synonyms": [
+        "honestly",
+        "to tell you the truth"
+      ],
+      "collocation": "to be honest, I …",
+      "pron": {
+        "tts": "to be honest"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1579,
+      "id": "p-slave-driver",
+      "type": "phrase",
+      "front": "slave driver",
+      "meaning": "人使いの荒い人",
+      "synonyms": [
+        "tyrant",
+        "taskmaster"
+      ],
+      "collocation": "my boss is a slave driver",
+      "pron": {
+        "tts": "slave driver"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1580,
+      "id": "p-pore-over",
+      "type": "phrase",
+      "front": "pore over",
+      "meaning": "〜を熟読する・細かく調べる",
+      "synonyms": [
+        "go over carefully",
+        "scrutinise"
+      ],
+      "collocation": "pore over everything",
+      "pron": {
+        "tts": "pore over"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1581,
+      "id": "p-get-ahead",
+      "type": "phrase",
+      "front": "get ahead",
+      "meaning": "出世する・成功する",
+      "synonyms": [
+        "advance",
+        "climb the career ladder",
+        "get promoted"
+      ],
+      "collocation": "get ahead at work",
+      "pron": {
+        "tts": "get ahead"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1582,
+      "id": "w-laid-back",
+      "type": "word",
+      "front": "laid-back",
+      "meaning": "のんびりした・くつろいだ",
+      "synonyms": [
+        "low-pressure",
+        "mellow",
+        "easy-going"
+      ],
+      "collocation": "a laid-back workplace",
+      "pron": {
+        "lookup": "laid-back",
+        "tts": "laid-back"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1583,
+      "id": "p-get-on-with",
+      "type": "phrase",
+      "front": "get on with",
+      "meaning": "〜を進める",
+      "synonyms": [
+        "make progress with",
+        "continue with"
+      ],
+      "collocation": "get on with my work",
+      "pron": {
+        "tts": "get on with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1584,
+      "id": "p-run-one-s-business",
+      "type": "phrase",
+      "front": "run one's business",
+      "meaning": "事業を営む",
+      "synonyms": [
+        "head one's company"
+      ],
+      "collocation": "run my own business",
+      "pron": {
+        "tts": "run one's business"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1585,
+      "id": "p-make-a-living",
+      "type": "phrase",
+      "front": "make a living",
+      "meaning": "生計を立てる",
+      "synonyms": [
+        "earn money",
+        "make ends meet"
+      ],
+      "collocation": "make a living as a trader",
+      "pron": {
+        "tts": "make a living"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1586,
+      "id": "w-leafy",
+      "type": "word",
+      "front": "leafy",
+      "meaning": "緑の多い・緑豊かな",
+      "synonyms": [
+        "tree-lined"
+      ],
+      "collocation": "leafy streets",
+      "pron": {
+        "lookup": "leafy",
+        "tts": "leafy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1587,
+      "id": "p-high-rise-building",
+      "type": "phrase",
+      "front": "high-rise building",
+      "meaning": "高層ビル",
+      "synonyms": [
+        "skyscraper",
+        "high-rise"
+      ],
+      "collocation": "no high-rise buildings",
+      "pron": {
+        "tts": "high-rise building"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1588,
+      "id": "w-nightlife",
+      "type": "word",
+      "front": "nightlife",
+      "meaning": "夜の娯楽",
+      "synonyms": [
+        "night-time entertainment"
+      ],
+      "collocation": "not much nightlife",
+      "pron": {
+        "lookup": "nightlife",
+        "tts": "nightlife"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1589,
+      "id": "p-peace-and-quiet",
+      "type": "phrase",
+      "front": "peace and quiet",
+      "meaning": "安らぎ・平穏",
+      "synonyms": [
+        "tranquillity",
+        "peacefulness"
+      ],
+      "collocation": "prefer the peace and quiet",
+      "pron": {
+        "tts": "peace and quiet"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1590,
+      "id": "p-put-on",
+      "type": "phrase",
+      "front": "put on",
+      "meaning": "（催しを）催す",
+      "synonyms": [
+        "organise"
+      ],
+      "collocation": "put on a festival",
+      "pron": {
+        "tts": "put on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1591,
+      "id": "p-can-t-stand",
+      "type": "phrase",
+      "front": "can't stand",
+      "meaning": "我慢できない・大嫌い",
+      "synonyms": [
+        "loathe",
+        "despise",
+        "detest"
+      ],
+      "collocation": "can't stand overpriced places",
+      "pron": {
+        "tts": "can't stand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 79,
+      "themeName": "あなたの地域は住みやすい場所ですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1592,
+      "id": "p-from-time-to-time",
+      "type": "phrase",
+      "front": "from time to time",
+      "meaning": "時々",
+      "synonyms": [
+        "now and again",
+        "every now and then"
+      ],
+      "collocation": "see them from time to time",
+      "pron": {
+        "tts": "from time to time"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1593,
+      "id": "p-be-snowed-under-with",
+      "type": "phrase",
+      "front": "be snowed under with",
+      "meaning": "〜で多忙である",
+      "synonyms": [
+        "be swamped with",
+        "be overwhelmed with"
+      ],
+      "collocation": "snowed under with work",
+      "pron": {
+        "tts": "be snowed under with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1594,
+      "id": "p-two-peas-in-a-pod",
+      "type": "phrase",
+      "front": "two peas in a pod",
+      "meaning": "うりふたつ・仲がそっくり",
+      "synonyms": [
+        "be the spitting image of"
+      ],
+      "collocation": "like two peas in a pod",
+      "pron": {
+        "tts": "two peas in a pod"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1595,
+      "id": "p-get-hold-of",
+      "type": "phrase",
+      "front": "get hold of",
+      "meaning": "〜と連絡を取る",
+      "synonyms": [
+        "get in touch with",
+        "contact"
+      ],
+      "collocation": "get hold of a friend",
+      "pron": {
+        "tts": "get hold of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1596,
+      "id": "p-touch-base",
+      "type": "phrase",
+      "front": "touch base",
+      "meaning": "連絡を取る",
+      "synonyms": [
+        "get in touch"
+      ],
+      "collocation": "touch base with sb",
+      "pron": {
+        "tts": "touch base"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1597,
+      "id": "p-hang-out",
+      "type": "phrase",
+      "front": "hang out",
+      "meaning": "ブラブラして時を過ごす",
+      "synonyms": [
+        "spend time together"
+      ],
+      "collocation": "hang out with friends",
+      "pron": {
+        "tts": "hang out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1598,
+      "id": "p-catch-up",
+      "type": "phrase",
+      "front": "catch up",
+      "meaning": "近況を報告し合う",
+      "synonyms": [
+        "get together"
+      ],
+      "collocation": "catch up with friends",
+      "pron": {
+        "tts": "catch up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1599,
+      "id": "w-actually",
+      "type": "word",
+      "front": "actually",
+      "meaning": "実は・実のところ",
+      "synonyms": [
+        "in fact",
+        "to tell the truth"
+      ],
+      "collocation": "actually, I …",
+      "pron": {
+        "lookup": "actually",
+        "tts": "actually"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1600,
+      "id": "p-be-a-bit-steep",
+      "type": "phrase",
+      "front": "be a bit steep",
+      "meaning": "少し高くつく",
+      "synonyms": [
+        "be a bit pricey",
+        "be a bit dear"
+      ],
+      "collocation": "tickets are a bit steep",
+      "pron": {
+        "tts": "be a bit steep"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1601,
+      "id": "p-treat-oneself",
+      "type": "phrase",
+      "front": "treat oneself",
+      "meaning": "自分にご褒美をあげる",
+      "synonyms": [
+        "indulge oneself"
+      ],
+      "collocation": "treat myself to a film",
+      "pron": {
+        "tts": "treat oneself"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1602,
+      "id": "p-be-crazy-about",
+      "type": "phrase",
+      "front": "be crazy about",
+      "meaning": "〜に夢中である",
+      "synonyms": [
+        "be mad about",
+        "be nuts about"
+      ],
+      "collocation": "crazy about blockbusters",
+      "pron": {
+        "tts": "be crazy about"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1603,
+      "id": "w-trashy",
+      "type": "word",
+      "front": "trashy",
+      "meaning": "くだらない・低俗な",
+      "synonyms": [
+        "cheesy"
+      ],
+      "collocation": "trashy blockbusters",
+      "pron": {
+        "lookup": "trashy",
+        "tts": "trashy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1604,
+      "id": "p-can-t-wait",
+      "type": "phrase",
+      "front": "can't wait",
+      "meaning": "待ちきれない",
+      "synonyms": [
+        "be really looking forward to"
+      ],
+      "collocation": "can't wait for the next one",
+      "pron": {
+        "tts": "can't wait"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1605,
+      "id": "w-comfy",
+      "type": "word",
+      "front": "comfy",
+      "meaning": "快適な",
+      "synonyms": [
+        "comfortable"
+      ],
+      "collocation": "comfy shoes",
+      "pron": {
+        "lookup": "comfy",
+        "tts": "comfy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1606,
+      "id": "w-wear",
+      "type": "word",
+      "front": "wear",
+      "meaning": "身に着けている",
+      "synonyms": [
+        "have on",
+        "be dressed in"
+      ],
+      "collocation": "wear go-to shoes",
+      "pron": {
+        "lookup": "wear",
+        "tts": "wear"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1607,
+      "id": "p-go-with",
+      "type": "phrase",
+      "front": "go with",
+      "meaning": "〜に合う",
+      "synonyms": [
+        "complement",
+        "not clash with"
+      ],
+      "collocation": "shoes that go with an outfit",
+      "pron": {
+        "tts": "go with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1608,
+      "id": "p-have-a-night-out",
+      "type": "phrase",
+      "front": "have a night out",
+      "meaning": "夜に外出する",
+      "synonyms": [
+        "hit the town",
+        "go out"
+      ],
+      "collocation": "have a night out",
+      "pron": {
+        "tts": "have a night out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1609,
+      "id": "p-dress-up",
+      "type": "phrase",
+      "front": "dress up",
+      "meaning": "おしゃれをする・着飾る",
+      "synonyms": [
+        "dress smartly",
+        "be dressed up to the nines"
+      ],
+      "collocation": "dress up for a party",
+      "pron": {
+        "tts": "dress up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1610,
+      "id": "p-throw-on",
+      "type": "phrase",
+      "front": "throw on",
+      "meaning": "（衣服を）さっと身につける",
+      "synonyms": [
+        "put on quickly"
+      ],
+      "collocation": "throw on a jacket",
+      "pron": {
+        "tts": "throw on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1611,
+      "id": "p-kick-off",
+      "type": "phrase",
+      "front": "kick off",
+      "meaning": "（靴を）脱ぎ捨てる",
+      "synonyms": [
+        "take off"
+      ],
+      "collocation": "kick off my shoes",
+      "pron": {
+        "tts": "kick off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1612,
+      "id": "w-handy",
+      "type": "word",
+      "front": "handy",
+      "meaning": "便利な",
+      "synonyms": [
+        "convenient"
+      ],
+      "collocation": "so handy",
+      "pron": {
+        "lookup": "handy",
+        "tts": "handy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1613,
+      "id": "p-take-in",
+      "type": "phrase",
+      "front": "take in",
+      "meaning": "（景色などを）眺める・吸収する",
+      "synonyms": [
+        "absorb",
+        "soak up"
+      ],
+      "collocation": "take in a new place",
+      "pron": {
+        "tts": "take in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1614,
+      "id": "p-get-lost",
+      "type": "phrase",
+      "front": "get lost",
+      "meaning": "道に迷う",
+      "synonyms": [
+        "lose one's way"
+      ],
+      "collocation": "if I get lost",
+      "pron": {
+        "tts": "get lost"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1615,
+      "id": "w-explore",
+      "type": "word",
+      "front": "explore",
+      "meaning": "探検する・見て回る",
+      "synonyms": [
+        "have a look round"
+      ],
+      "collocation": "explore the area",
+      "pron": {
+        "lookup": "explore",
+        "tts": "explore"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1616,
+      "id": "p-whip-out",
+      "type": "phrase",
+      "front": "whip out",
+      "meaning": "〜をさっと取り出す",
+      "synonyms": [
+        "take out quickly",
+        "get out quickly"
+      ],
+      "collocation": "whip out a map",
+      "pron": {
+        "tts": "whip out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1617,
+      "id": "p-at-a-pinch",
+      "type": "phrase",
+      "front": "at a pinch",
+      "meaning": "緊急の場合に・いざとなれば",
+      "synonyms": [
+        "if need be",
+        "if push comes to shove"
+      ],
+      "collocation": "works at a pinch",
+      "pron": {
+        "tts": "at a pinch"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1618,
+      "id": "p-some-time-off",
+      "type": "phrase",
+      "front": "some time off",
+      "meaning": "休暇・休み",
+      "synonyms": [
+        "holiday"
+      ],
+      "collocation": "take some time off",
+      "pron": {
+        "tts": "some time off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 83,
+      "themeName": "どちらが好きですか？②（地図）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1619,
+      "id": "w-floored",
+      "type": "word",
+      "front": "floored",
+      "meaning": "驚いて言葉も出ない",
+      "synonyms": [
+        "speechless",
+        "stunned",
+        "overwhelmed"
+      ],
+      "collocation": "I was completely floored",
+      "pron": {
+        "lookup": "floored",
+        "tts": "floored"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1620,
+      "id": "w-awesome",
+      "type": "word",
+      "front": "awesome",
+      "meaning": "素晴らしい",
+      "synonyms": [
+        "fantastic",
+        "superb",
+        "amazing"
+      ],
+      "collocation": "an awesome bike",
+      "pron": {
+        "lookup": "awesome",
+        "tts": "awesome"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1621,
+      "id": "p-as-black-as-coal",
+      "type": "phrase",
+      "front": "as black as coal",
+      "meaning": "真っ黒の",
+      "synonyms": [
+        "pitch-black",
+        "jet-black"
+      ],
+      "collocation": "as black as coal",
+      "pron": {
+        "tts": "as black as coal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1622,
+      "id": "p-as-clean-as-a-whistle",
+      "type": "phrase",
+      "front": "as clean as a whistle",
+      "meaning": "ぴかぴかの・全くきれいで",
+      "synonyms": [
+        "spotless"
+      ],
+      "collocation": "as clean as a whistle",
+      "pron": {
+        "tts": "as clean as a whistle"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1623,
+      "id": "p-over-the-moon",
+      "type": "phrase",
+      "front": "over the moon",
+      "meaning": "大喜びで",
+      "synonyms": [
+        "thrilled to bits",
+        "chuffed to bits",
+        "as pleased as Punch"
+      ],
+      "collocation": "I was over the moon",
+      "pron": {
+        "tts": "over the moon"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1624,
+      "id": "w-straightaway",
+      "type": "word",
+      "front": "straightaway",
+      "meaning": "すぐに",
+      "synonyms": [
+        "right away",
+        "immediately",
+        "right off the bat"
+      ],
+      "collocation": "ride it straightaway",
+      "pron": {
+        "lookup": "straightaway",
+        "tts": "straightaway"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1625,
+      "id": "p-pump-up",
+      "type": "phrase",
+      "front": "pump up",
+      "meaning": "〜に空気を入れる",
+      "synonyms": [
+        "inflate",
+        "blow up",
+        "put air in"
+      ],
+      "collocation": "pump up the tyres",
+      "pron": {
+        "tts": "pump up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1626,
+      "id": "w-witty",
+      "type": "word",
+      "front": "witty",
+      "meaning": "機知のある",
+      "synonyms": [
+        "humorous",
+        "amusing",
+        "clever and funny"
+      ],
+      "collocation": "a witty instructor",
+      "pron": {
+        "lookup": "witty",
+        "tts": "witty"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1627,
+      "id": "w-unassuming",
+      "type": "word",
+      "front": "unassuming",
+      "meaning": "出しゃばらない・謙虚な",
+      "synonyms": [
+        "modest",
+        "humble",
+        "unpretentious"
+      ],
+      "collocation": "an unassuming teacher",
+      "pron": {
+        "lookup": "unassuming",
+        "tts": "unassuming"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1628,
+      "id": "w-hilarious",
+      "type": "word",
+      "front": "hilarious",
+      "meaning": "とても面白い",
+      "synonyms": [
+        "hysterical"
+      ],
+      "collocation": "hilarious jokes",
+      "pron": {
+        "lookup": "hilarious",
+        "tts": "hilarious"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1629,
+      "id": "w-magnetic",
+      "type": "word",
+      "front": "magnetic",
+      "meaning": "魅力的な・引きつける",
+      "synonyms": [
+        "charming",
+        "captivating",
+        "engaging"
+      ],
+      "collocation": "a magnetic personality",
+      "pron": {
+        "lookup": "magnetic",
+        "tts": "magnetic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1630,
+      "id": "w-riveting",
+      "type": "word",
+      "front": "riveting",
+      "meaning": "夢中にさせる・面白い",
+      "synonyms": [
+        "gripping",
+        "enthralling"
+      ],
+      "collocation": "absolutely riveting",
+      "pron": {
+        "lookup": "riveting",
+        "tts": "riveting"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1631,
+      "id": "w-involve",
+      "type": "word",
+      "front": "involve",
+      "meaning": "巻き込む・参加させる",
+      "synonyms": [
+        "include"
+      ],
+      "collocation": "involve everyone",
+      "pron": {
+        "lookup": "involve",
+        "tts": "involve"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1632,
+      "id": "w-interactive",
+      "type": "word",
+      "front": "interactive",
+      "meaning": "双方向の",
+      "synonyms": [
+        "hands-on"
+      ],
+      "collocation": "an interactive lesson",
+      "pron": {
+        "lookup": "interactive",
+        "tts": "interactive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1633,
+      "id": "p-eat-out",
+      "type": "phrase",
+      "front": "eat out",
+      "meaning": "外食する",
+      "synonyms": [
+        "go out for a meal"
+      ],
+      "collocation": "eat out at a café",
+      "pron": {
+        "tts": "eat out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1634,
+      "id": "p-die-of-hunger",
+      "type": "phrase",
+      "front": "die of hunger",
+      "meaning": "腹ぺこである",
+      "synonyms": [
+        "starve"
+      ],
+      "collocation": "dying of hunger",
+      "pron": {
+        "tts": "die of hunger"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1635,
+      "id": "p-to-die-for",
+      "type": "phrase",
+      "front": "to die for",
+      "meaning": "非常に素晴らしい",
+      "synonyms": [
+        "ace",
+        "brilliant"
+      ],
+      "collocation": "the food is to die for",
+      "pron": {
+        "tts": "to die for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1636,
+      "id": "w-bite",
+      "type": "word",
+      "front": "bite",
+      "meaning": "一口・軽い食事",
+      "synonyms": [
+        "mouthful",
+        "morsel"
+      ],
+      "collocation": "love every bite",
+      "pron": {
+        "lookup": "bite",
+        "tts": "bite"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1637,
+      "id": "p-fill-oneself-up",
+      "type": "phrase",
+      "front": "fill oneself up",
+      "meaning": "満腹になる",
+      "synonyms": [
+        "stuff oneself"
+      ],
+      "collocation": "fill myself up",
+      "pron": {
+        "tts": "fill oneself up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1638,
+      "id": "p-watch-one-s-weight",
+      "type": "phrase",
+      "front": "watch one's weight",
+      "meaning": "体重に気を使う",
+      "synonyms": [
+        "stick to a diet",
+        "watch what one eats"
+      ],
+      "collocation": "watch my weight",
+      "pron": {
+        "tts": "watch one's weight"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 86,
+      "themeName": "食を語る①（好きな飲食店）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1639,
+      "id": "p-keep-fit",
+      "type": "phrase",
+      "front": "keep fit",
+      "meaning": "健康を維持する",
+      "synonyms": [
+        "stay healthy"
+      ],
+      "collocation": "keep fit by exercising",
+      "pron": {
+        "tts": "keep fit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1640,
+      "id": "p-run-after",
+      "type": "phrase",
+      "front": "run after",
+      "meaning": "〜を追いかける",
+      "synonyms": [
+        "chase"
+      ],
+      "collocation": "run after the ball",
+      "pron": {
+        "tts": "run after"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1641,
+      "id": "p-work-out",
+      "type": "phrase",
+      "front": "work out",
+      "meaning": "運動する",
+      "synonyms": [
+        "exercise"
+      ],
+      "collocation": "a way to work out",
+      "pron": {
+        "tts": "work out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1642,
+      "id": "w-full-on",
+      "type": "word",
+      "front": "full-on",
+      "meaning": "全力の・徹底的な",
+      "synonyms": [
+        "extreme",
+        "all-out"
+      ],
+      "collocation": "so full-on",
+      "pron": {
+        "lookup": "full-on",
+        "tts": "full-on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1643,
+      "id": "p-pass-out",
+      "type": "phrase",
+      "front": "pass out",
+      "meaning": "倒れる・卒倒する",
+      "synonyms": [
+        "lose consciousness",
+        "faint"
+      ],
+      "collocation": "almost pass out",
+      "pron": {
+        "tts": "pass out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1644,
+      "id": "w-knackered",
+      "type": "word",
+      "front": "knackered",
+      "meaning": "へとへとに疲れた",
+      "synonyms": [
+        "done in",
+        "exhausted",
+        "wiped out"
+      ],
+      "collocation": "totally knackered",
+      "pron": {
+        "lookup": "knackered",
+        "tts": "knackered"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1645,
+      "id": "p-from-head-to-toe",
+      "type": "phrase",
+      "front": "from head to toe",
+      "meaning": "頭のてっぺんから足の先まで・全身",
+      "synonyms": [
+        "all over one's whole body"
+      ],
+      "collocation": "ache from head to toe",
+      "pron": {
+        "tts": "from head to toe"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1646,
+      "id": "w-globetrotter",
+      "type": "word",
+      "front": "globetrotter",
+      "meaning": "世界を旅する人",
+      "synonyms": [
+        "world traveller"
+      ],
+      "collocation": "not much of a globetrotter",
+      "pron": {
+        "lookup": "globetrotter",
+        "tts": "globetrotter"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1647,
+      "id": "p-cross-off",
+      "type": "phrase",
+      "front": "cross off",
+      "meaning": "（リストから）消す・済ませる",
+      "synonyms": [
+        "tick off"
+      ],
+      "collocation": "cross off my bucket list",
+      "pron": {
+        "tts": "cross off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1648,
+      "id": "p-in-terms-of",
+      "type": "phrase",
+      "front": "in terms of",
+      "meaning": "〜に関しては",
+      "synonyms": [
+        "as for"
+      ],
+      "collocation": "in terms of what I'd do",
+      "pron": {
+        "tts": "in terms of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1649,
+      "id": "p-sign-up-for",
+      "type": "phrase",
+      "front": "sign up for",
+      "meaning": "〜に申し込む・参加する",
+      "synonyms": [
+        "register for"
+      ],
+      "collocation": "sign up for a class",
+      "pron": {
+        "tts": "sign up for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1650,
+      "id": "w-guidance",
+      "type": "word",
+      "front": "guidance",
+      "meaning": "助言・案内",
+      "synonyms": [
+        "recommendation",
+        "tip",
+        "advice"
+      ],
+      "collocation": "get some guidance",
+      "pron": {
+        "lookup": "guidance",
+        "tts": "guidance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1651,
+      "id": "p-brush-up-on",
+      "type": "phrase",
+      "front": "brush up on",
+      "meaning": "〜の能力を磨き直す",
+      "synonyms": [
+        "get back up to speed on"
+      ],
+      "collocation": "brush up on my French",
+      "pron": {
+        "tts": "brush up on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1652,
+      "id": "p-wishful-thinking",
+      "type": "phrase",
+      "front": "wishful thinking",
+      "meaning": "願望的思考・希望的観測",
+      "synonyms": [
+        "pipe dream",
+        "fantasy"
+      ],
+      "collocation": "a bit of wishful thinking",
+      "pron": {
+        "tts": "wishful thinking"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 88,
+      "themeName": "未来を語る①（住んでみたい国）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1653,
+      "id": "p-get-down",
+      "type": "phrase",
+      "front": "get down",
+      "meaning": "〜を落胆させる",
+      "synonyms": [
+        "depress",
+        "weigh down"
+      ],
+      "collocation": "rainy weather gets me down",
+      "pron": {
+        "tts": "get down"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1654,
+      "id": "w-congested",
+      "type": "word",
+      "front": "congested",
+      "meaning": "混雑した",
+      "synonyms": [
+        "packed",
+        "crowded",
+        "jam-packed"
+      ],
+      "collocation": "congested trains",
+      "pron": {
+        "lookup": "congested",
+        "tts": "congested"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1655,
+      "id": "p-get-on-one-s-nerves",
+      "type": "phrase",
+      "front": "get on one's nerves",
+      "meaning": "〜をイライラさせる",
+      "synonyms": [
+        "bother",
+        "irritate",
+        "annoy"
+      ],
+      "collocation": "trains get on my nerves",
+      "pron": {
+        "tts": "get on one's nerves"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1656,
+      "id": "p-calm-and-collected",
+      "type": "phrase",
+      "front": "calm and collected",
+      "meaning": "冷静で落ち着いた",
+      "synonyms": [
+        "poised",
+        "even-tempered",
+        "restrained"
+      ],
+      "collocation": "stay calm and collected",
+      "pron": {
+        "tts": "calm and collected"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1657,
+      "id": "p-brush-off",
+      "type": "phrase",
+      "front": "brush off",
+      "meaning": "〜を無視する・受け流す",
+      "synonyms": [
+        "shrug off",
+        "ignore",
+        "brush aside"
+      ],
+      "collocation": "brush it off",
+      "pron": {
+        "tts": "brush off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1658,
+      "id": "p-keep-on",
+      "type": "phrase",
+      "front": "keep on",
+      "meaning": "〜し続ける",
+      "synonyms": [
+        "go on",
+        "continue"
+      ],
+      "collocation": "keep on smiling",
+      "pron": {
+        "tts": "keep on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1659,
+      "id": "w-reckon",
+      "type": "word",
+      "front": "reckon",
+      "meaning": "〜だと思う",
+      "synonyms": [
+        "suppose"
+      ],
+      "collocation": "I reckon that …",
+      "pron": {
+        "lookup": "reckon",
+        "tts": "reckon"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1660,
+      "id": "p-be-really-into",
+      "type": "phrase",
+      "front": "be really into",
+      "meaning": "〜に夢中である・大ファンである",
+      "synonyms": [
+        "be a massive fan of"
+      ],
+      "collocation": "be really into culture",
+      "pron": {
+        "tts": "be really into"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1661,
+      "id": "p-grow-out-of",
+      "type": "phrase",
+      "front": "grow out of",
+      "meaning": "成長して〜から卒業する",
+      "synonyms": [
+        "outgrow"
+      ],
+      "collocation": "grow out of festivals",
+      "pron": {
+        "tts": "grow out of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1662,
+      "id": "p-give-up",
+      "type": "phrase",
+      "front": "give up",
+      "meaning": "諦める・やめる",
+      "synonyms": [
+        "quit",
+        "call it quits"
+      ],
+      "collocation": "give up a hobby",
+      "pron": {
+        "tts": "give up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1663,
+      "id": "p-stick-in-one-s-memory",
+      "type": "phrase",
+      "front": "stick in one's memory",
+      "meaning": "記憶に焼きつく",
+      "synonyms": [
+        "be very memorable",
+        "leave a lasting impression"
+      ],
+      "collocation": "stick in my memory",
+      "pron": {
+        "tts": "stick in one's memory"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1664,
+      "id": "p-hold-back-from",
+      "type": "phrase",
+      "front": "hold back from",
+      "meaning": "〜から〜を遠ざける・妨げる",
+      "synonyms": [
+        "stop from",
+        "keep from"
+      ],
+      "collocation": "hold them back from enjoying it",
+      "pron": {
+        "tts": "hold back from"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1665,
+      "id": "w-enlighten",
+      "type": "word",
+      "front": "enlighten",
+      "meaning": "〜に教える・啓発する",
+      "synonyms": [
+        "teach about",
+        "make aware of"
+      ],
+      "collocation": "enlighten kids about",
+      "pron": {
+        "lookup": "enlighten",
+        "tts": "enlighten"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1666,
+      "id": "w-well-rounded",
+      "type": "word",
+      "front": "well-rounded",
+      "meaning": "多才な・幅広い教養のある",
+      "synonyms": [
+        "informed",
+        "knowledgeable"
+      ],
+      "collocation": "become well-rounded",
+      "pron": {
+        "lookup": "well-rounded",
+        "tts": "well-rounded"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1667,
+      "id": "p-fit-in-with",
+      "type": "phrase",
+      "front": "fit in with",
+      "meaning": "〜に溶け込む",
+      "synonyms": [
+        "be accepted by"
+      ],
+      "collocation": "fit in with peers",
+      "pron": {
+        "tts": "fit in with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1668,
+      "id": "p-feel-left-out",
+      "type": "phrase",
+      "front": "feel left out",
+      "meaning": "仲間外れにされていると感じる",
+      "synonyms": [
+        "feel excluded",
+        "feel ostracised",
+        "feel shunned"
+      ],
+      "collocation": "feel left out",
+      "pron": {
+        "tts": "feel left out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1669,
+      "id": "w-bedrock",
+      "type": "word",
+      "front": "bedrock",
+      "meaning": "基盤・根幹",
+      "synonyms": [
+        "foundation",
+        "basis",
+        "backbone",
+        "core"
+      ],
+      "collocation": "the bedrock of society",
+      "pron": {
+        "lookup": "bedrock",
+        "tts": "bedrock"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1670,
+      "id": "p-hold-dear",
+      "type": "phrase",
+      "front": "hold dear",
+      "meaning": "〜を大切にする",
+      "synonyms": [
+        "treasure",
+        "cherish"
+      ],
+      "collocation": "hold customs dear",
+      "pron": {
+        "tts": "hold dear"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1671,
+      "id": "p-get-across",
+      "type": "phrase",
+      "front": "get across",
+      "meaning": "〜を理解させる・伝える",
+      "synonyms": [
+        "make clear",
+        "make understood"
+      ],
+      "collocation": "get the idea across",
+      "pron": {
+        "tts": "get across"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1672,
+      "id": "w-matter",
+      "type": "word",
+      "front": "matter",
+      "meaning": "重要である",
+      "synonyms": [
+        "make a difference"
+      ],
+      "collocation": "why it matters",
+      "pron": {
+        "lookup": "matter",
+        "tts": "matter"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1673,
+      "id": "p-keep-alive",
+      "type": "phrase",
+      "front": "keep alive",
+      "meaning": "〜を存続させる",
+      "synonyms": [
+        "preserve",
+        "uphold"
+      ],
+      "collocation": "keep traditions alive",
+      "pron": {
+        "tts": "keep alive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1674,
+      "id": "p-mixed-blessing",
+      "type": "phrase",
+      "front": "mixed blessing",
+      "meaning": "良くもあり悪くもあること",
+      "synonyms": [
+        "double-edged sword"
+      ],
+      "collocation": "a bit of a mixed blessing",
+      "pron": {
+        "tts": "mixed blessing"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1675,
+      "id": "w-rearrange",
+      "type": "word",
+      "front": "rearrange",
+      "meaning": "再整理する・調整する",
+      "synonyms": [
+        "rejig",
+        "juggle around"
+      ],
+      "collocation": "rearrange one's schedule",
+      "pron": {
+        "lookup": "rearrange",
+        "tts": "rearrange"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1676,
+      "id": "w-need",
+      "type": "word",
+      "front": "need",
+      "meaning": "必要・要求",
+      "synonyms": [
+        "requirement",
+        "demand"
+      ],
+      "collocation": "suit one's needs",
+      "pron": {
+        "lookup": "need",
+        "tts": "need"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1677,
+      "id": "w-face-to-face",
+      "type": "word",
+      "front": "face-to-face",
+      "meaning": "直接会って・対面で",
+      "synonyms": [
+        "in person"
+      ],
+      "collocation": "meet face-to-face",
+      "pron": {
+        "lookup": "face-to-face",
+        "tts": "face-to-face"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1678,
+      "id": "w-security",
+      "type": "word",
+      "front": "security",
+      "meaning": "安心・安定",
+      "synonyms": [
+        "peace of mind",
+        "surety"
+      ],
+      "collocation": "job security",
+      "pron": {
+        "lookup": "security",
+        "tts": "security"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1679,
+      "id": "p-live-from-paycheck-to-paycheck",
+      "type": "phrase",
+      "front": "live from paycheck to paycheck",
+      "meaning": "その日暮らしをする",
+      "synonyms": [
+        "live hand to mouth"
+      ],
+      "collocation": "live from paycheck to paycheck",
+      "pron": {
+        "tts": "live from paycheck to paycheck"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1680,
+      "id": "p-pros-and-cons",
+      "type": "phrase",
+      "front": "pros and cons",
+      "meaning": "賛否両論・長所と短所",
+      "synonyms": [
+        "advantages and disadvantages",
+        "good and bad points"
+      ],
+      "collocation": "a lot of pros and cons",
+      "pron": {
+        "tts": "pros and cons"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1681,
+      "id": "w-development",
+      "type": "word",
+      "front": "development",
+      "meaning": "進展・展開",
+      "synonyms": [
+        "turn of events"
+      ],
+      "collocation": "a negative development",
+      "pron": {
+        "lookup": "development",
+        "tts": "development"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1682,
+      "id": "w-intrusion",
+      "type": "word",
+      "front": "intrusion",
+      "meaning": "侵害・侵入",
+      "synonyms": [
+        "encroachment",
+        "imposition"
+      ],
+      "collocation": "an intrusion on our time",
+      "pron": {
+        "lookup": "intrusion",
+        "tts": "intrusion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1683,
+      "id": "w-bombard",
+      "type": "word",
+      "front": "bombard",
+      "meaning": "浴びせる・攻めたてる",
+      "synonyms": [
+        "besiege",
+        "barrage"
+      ],
+      "collocation": "be bombarded with emails",
+      "pron": {
+        "lookup": "bombard",
+        "tts": "bombard"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1684,
+      "id": "w-promptly",
+      "type": "word",
+      "front": "promptly",
+      "meaning": "即座に・すぐに",
+      "synonyms": [
+        "A.S.A.P.",
+        "at once",
+        "on the double"
+      ],
+      "collocation": "reply promptly",
+      "pron": {
+        "lookup": "promptly",
+        "tts": "promptly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1685,
+      "id": "p-get-in-trouble",
+      "type": "phrase",
+      "front": "get in trouble",
+      "meaning": "トラブルに巻き込まれる",
+      "synonyms": [
+        "run into difficulty",
+        "get into a mess"
+      ],
+      "collocation": "get in trouble at work",
+      "pron": {
+        "tts": "get in trouble"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1686,
+      "id": "w-get",
+      "type": "word",
+      "front": "get",
+      "meaning": "理解する",
+      "synonyms": [
+        "comprehend",
+        "appreciate"
+      ],
+      "collocation": "I get the reason",
+      "pron": {
+        "lookup": "get",
+        "tts": "get"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 94,
+      "themeName": "政府と環境保護①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1687,
+      "id": "p-red-tape",
+      "type": "phrase",
+      "front": "red tape",
+      "meaning": "お役所仕事・官僚主義の手続き",
+      "synonyms": [
+        "excessive bureaucracy",
+        "burdensome regulations"
+      ],
+      "collocation": "a lot of red tape",
+      "pron": {
+        "tts": "red tape"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 94,
+      "themeName": "政府と環境保護①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1688,
+      "id": "p-hand-out",
+      "type": "phrase",
+      "front": "hand out",
+      "meaning": "配る",
+      "synonyms": [
+        "dispense",
+        "provide"
+      ],
+      "collocation": "hand out rubbish bags",
+      "pron": {
+        "tts": "hand out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 94,
+      "themeName": "政府と環境保護①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1689,
+      "id": "p-waste-of-time",
+      "type": "phrase",
+      "front": "waste of time",
+      "meaning": "時間の無駄",
+      "synonyms": [
+        "exercise in futility",
+        "pointless exercise"
+      ],
+      "collocation": "a big waste of time",
+      "pron": {
+        "tts": "waste of time"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 94,
+      "themeName": "政府と環境保護①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1690,
+      "id": "w-utterly",
+      "type": "word",
+      "front": "utterly",
+      "meaning": "完全に・全く",
+      "synonyms": [
+        "completely",
+        "totally",
+        "wholly"
+      ],
+      "collocation": "utterly pointless",
+      "pron": {
+        "lookup": "utterly",
+        "tts": "utterly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 94,
+      "themeName": "政府と環境保護①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1691,
+      "id": "p-at-the-end-of-the-day",
+      "type": "phrase",
+      "front": "at the end of the day",
+      "meaning": "結局のところ",
+      "synonyms": [
+        "when all's said and done",
+        "all things considered"
+      ],
+      "collocation": "at the end of the day, …",
+      "pron": {
+        "tts": "at the end of the day"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 94,
+      "themeName": "政府と環境保護①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1692,
+      "id": "p-pitch-in",
+      "type": "phrase",
+      "front": "pitch in",
+      "meaning": "協力する・力を貸す",
+      "synonyms": [
+        "help out",
+        "do one's bit",
+        "do one's part"
+      ],
+      "collocation": "everyone should pitch in",
+      "pron": {
+        "tts": "pitch in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 94,
+      "themeName": "政府と環境保護①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1693,
+      "id": "w-absolutely",
+      "type": "word",
+      "front": "absolutely",
+      "meaning": "その通り・もちろん",
+      "synonyms": [
+        "definitely",
+        "certainly",
+        "unquestionably"
+      ],
+      "collocation": "Oh, absolutely!",
+      "pron": {
+        "lookup": "absolutely",
+        "tts": "absolutely"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1694,
+      "id": "p-go-up",
+      "type": "phrase",
+      "front": "go up",
+      "meaning": "〜を登る",
+      "synonyms": [
+        "climb up",
+        "hike up"
+      ],
+      "collocation": "go up Mt. Fuji",
+      "pron": {
+        "tts": "go up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1695,
+      "id": "w-rubbish",
+      "type": "word",
+      "front": "rubbish",
+      "meaning": "ごみ",
+      "synonyms": [
+        "trash",
+        "garbage"
+      ],
+      "collocation": "covered in rubbish",
+      "pron": {
+        "lookup": "rubbish",
+        "tts": "rubbish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1696,
+      "id": "w-litter",
+      "type": "word",
+      "front": "litter",
+      "meaning": "（散らかった）ごみ・ごみを捨てる",
+      "synonyms": [
+        "toss on the ground"
+      ],
+      "collocation": "drop litter",
+      "pron": {
+        "lookup": "litter",
+        "tts": "litter"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1697,
+      "id": "p-throw-away",
+      "type": "phrase",
+      "front": "throw away",
+      "meaning": "〜を捨てる",
+      "synonyms": [
+        "throw out",
+        "dispose of"
+      ],
+      "collocation": "throw away rubbish",
+      "pron": {
+        "tts": "throw away"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1698,
+      "id": "w-ban",
+      "type": "word",
+      "front": "ban",
+      "meaning": "〜を禁止する",
+      "synonyms": [
+        "prohibit",
+        "officially forbid"
+      ],
+      "collocation": "ban plastic bottles",
+      "pron": {
+        "lookup": "ban",
+        "tts": "ban"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1699,
+      "id": "p-phase-out",
+      "type": "phrase",
+      "front": "phase out",
+      "meaning": "〜を段階的に廃止する",
+      "synonyms": [
+        "slowly get rid of"
+      ],
+      "collocation": "phase out plastic bottles",
+      "pron": {
+        "tts": "phase out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 95,
+      "themeName": "政府と環境保護②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1700,
+      "id": "w-breadwinner",
+      "type": "word",
+      "front": "breadwinner",
+      "meaning": "一家の稼ぎ手",
+      "synonyms": [
+        "main wage earner",
+        "main provider",
+        "head of the household"
+      ],
+      "collocation": "the sole breadwinner",
+      "pron": {
+        "lookup": "breadwinner",
+        "tts": "breadwinner"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1701,
+      "id": "w-workforce",
+      "type": "word",
+      "front": "workforce",
+      "meaning": "労働人口・労働力",
+      "synonyms": [
+        "labour market",
+        "job market"
+      ],
+      "collocation": "enter the workforce",
+      "pron": {
+        "lookup": "workforce",
+        "tts": "workforce"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1702,
+      "id": "w-raise",
+      "type": "word",
+      "front": "raise",
+      "meaning": "育てる",
+      "synonyms": [
+        "bring up"
+      ],
+      "collocation": "raise children",
+      "pron": {
+        "lookup": "raise",
+        "tts": "raise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1703,
+      "id": "p-do-the-washing-up",
+      "type": "phrase",
+      "front": "do the washing up",
+      "meaning": "食器洗いをする",
+      "synonyms": [
+        "do the dishes",
+        "wash the dishes"
+      ],
+      "collocation": "do the washing up",
+      "pron": {
+        "tts": "do the washing up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1704,
+      "id": "p-bond-with",
+      "type": "phrase",
+      "front": "bond with",
+      "meaning": "〜と絆を深める",
+      "synonyms": [
+        "develop a close connection with",
+        "build a relationship with"
+      ],
+      "collocation": "bond with one's kids",
+      "pron": {
+        "tts": "bond with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1705,
+      "id": "p-get-involved-in",
+      "type": "phrase",
+      "front": "get involved in",
+      "meaning": "〜に関与する・参加する",
+      "synonyms": [
+        "take an interest in"
+      ],
+      "collocation": "both parents get involved",
+      "pron": {
+        "tts": "get involved in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 96,
+      "themeName": "社会変化と家族①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1706,
+      "id": "p-that-s-a-tough-one",
+      "type": "phrase",
+      "front": "that's a tough one",
+      "meaning": "それは難しい質問だね（考える時間を稼ぐ）",
+      "synonyms": [
+        "that's a hard one",
+        "it's a difficult question"
+      ],
+      "collocation": "That's a tough one…",
+      "pron": {
+        "tts": "that's a tough one"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1707,
+      "id": "p-let-s-see",
+      "type": "phrase",
+      "front": "let's see",
+      "meaning": "ええと・そうだな",
+      "synonyms": [
+        "um",
+        "you know"
+      ],
+      "collocation": "Let's see…",
+      "pron": {
+        "tts": "let's see"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1708,
+      "id": "p-grow-apart",
+      "type": "phrase",
+      "front": "grow apart",
+      "meaning": "疎遠になる・心が離れる",
+      "synonyms": [
+        "grow distant"
+      ],
+      "collocation": "couples grow apart",
+      "pron": {
+        "tts": "grow apart"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1709,
+      "id": "p-have-a-row",
+      "type": "phrase",
+      "front": "have a row",
+      "meaning": "口論する",
+      "synonyms": [
+        "have an argument",
+        "have a fight"
+      ],
+      "collocation": "have a row",
+      "pron": {
+        "tts": "have a row"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1710,
+      "id": "p-make-up",
+      "type": "phrase",
+      "front": "make up",
+      "meaning": "仲直りする",
+      "synonyms": [
+        "bury the hatchet",
+        "forgive and forget"
+      ],
+      "collocation": "make up after a fight",
+      "pron": {
+        "tts": "make up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1711,
+      "id": "p-split-up",
+      "type": "phrase",
+      "front": "split up",
+      "meaning": "別れる・離婚する",
+      "synonyms": [
+        "break up",
+        "separate"
+      ],
+      "collocation": "couples split up",
+      "pron": {
+        "tts": "split up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1712,
+      "id": "p-pocket-money",
+      "type": "phrase",
+      "front": "pocket money",
+      "meaning": "小遣い",
+      "synonyms": [
+        "allowance"
+      ],
+      "collocation": "give kids pocket money",
+      "pron": {
+        "tts": "pocket money"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 97,
+      "themeName": "社会変化と家族②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
     }
   ]
 }

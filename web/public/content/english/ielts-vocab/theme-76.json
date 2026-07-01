@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 76,
+  "themeId": "theme-76",
+  "themeName": "低開発国と観光業①（肯定）",
+  "version": "14fc5d89",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1564,
+      "id": "w-pristine",
+      "type": "word",
+      "front": "pristine",
+      "meaning": "原始状態の・自然のままの",
+      "synonyms": [
+        "untouched",
+        "unspoiled"
+      ],
+      "collocation": "pristine countries",
+      "pron": {
+        "lookup": "pristine",
+        "tts": "pristine"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1565,
+      "id": "p-see-in-a-positive-light",
+      "type": "phrase",
+      "front": "see in a positive light",
+      "meaning": "肯定的に捉える",
+      "synonyms": [
+        "view positively"
+      ],
+      "collocation": "be seen in a positive light",
+      "pron": {
+        "tts": "see in a positive light"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1566,
+      "id": "p-lag-behind",
+      "type": "phrase",
+      "front": "lag behind",
+      "meaning": "遅れを取る",
+      "synonyms": [
+        "trail behind",
+        "fall behind"
+      ],
+      "collocation": "lag behind in facilities",
+      "pron": {
+        "tts": "lag behind"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1567,
+      "id": "p-second-to-none",
+      "type": "phrase",
+      "front": "second to none",
+      "meaning": "何ものにも劣らない",
+      "synonyms": [
+        "incomparable",
+        "unequalled",
+        "beyond compare"
+      ],
+      "collocation": "beauty second to none",
+      "pron": {
+        "tts": "second to none"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1568,
+      "id": "p-those-in-need",
+      "type": "phrase",
+      "front": "those in need",
+      "meaning": "援助を必要とする人々",
+      "synonyms": [
+        "the poor",
+        "the impoverished",
+        "the disadvantaged"
+      ],
+      "collocation": "jobs for those in need",
+      "pron": {
+        "tts": "those in need"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1569,
+      "id": "w-poverty",
+      "type": "word",
+      "front": "poverty",
+      "meaning": "貧困",
+      "synonyms": [
+        "economic hardship",
+        "destitution"
+      ],
+      "collocation": "escape poverty",
+      "pron": {
+        "lookup": "poverty",
+        "tts": "poverty"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1570,
+      "id": "p-take-a-turn-for-the-worse",
+      "type": "phrase",
+      "front": "take a turn for the worse",
+      "meaning": "悪化する",
+      "synonyms": [
+        "go downhill",
+        "worsen"
+      ],
+      "collocation": "conditions take a turn for the worse",
+      "pron": {
+        "tts": "take a turn for the worse"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 76,
+      "themeName": "低開発国と観光業①（肯定）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

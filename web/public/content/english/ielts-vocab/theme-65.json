@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 65,
+  "themeId": "theme-65",
+  "themeName": "ペットボトルのリサイクル",
+  "version": "214ae9c1",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1480,
+      "id": "w-diagram",
+      "type": "word",
+      "front": "diagram",
+      "meaning": "図・図表",
+      "synonyms": [
+        "representation",
+        "flowchart"
+      ],
+      "collocation": "the diagram depicts",
+      "examples": [
+        {
+          "en": "The diagram shows how PET bottles are recycled in six steps."
+        }
+      ],
+      "pron": {
+        "lookup": "diagram",
+        "tts": "diagram"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1481,
+      "id": "w-step",
+      "type": "word",
+      "front": "step",
+      "meaning": "段階・手順",
+      "synonyms": [
+        "stage"
+      ],
+      "collocation": "a process with six steps",
+      "examples": [
+        {
+          "en": "The diagram shows how PET bottles are recycled in six steps."
+        }
+      ],
+      "pron": {
+        "lookup": "step",
+        "tts": "step"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1482,
+      "id": "w-consumer",
+      "type": "word",
+      "front": "consumer",
+      "meaning": "消費者",
+      "synonyms": [
+        "customer",
+        "purchaser"
+      ],
+      "collocation": "from the consumer",
+      "examples": [
+        {
+          "en": "First, bottles are collected from the consumer and transported to warehouses."
+        }
+      ],
+      "pron": {
+        "lookup": "consumer",
+        "tts": "consumer"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1483,
+      "id": "w-sort",
+      "type": "word",
+      "front": "sort",
+      "meaning": "分類する",
+      "synonyms": [
+        "organise",
+        "categorise",
+        "group"
+      ],
+      "collocation": "sorted by size and colour",
+      "examples": [
+        {
+          "en": "Next, they are sorted by size and colour."
+        }
+      ],
+      "pron": {
+        "lookup": "sort",
+        "tts": "sort"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1484,
+      "id": "p-send-on",
+      "type": "phrase",
+      "front": "send on",
+      "meaning": "先へ送る",
+      "synonyms": [
+        "forward"
+      ],
+      "collocation": "be sent on for processing",
+      "examples": [
+        {
+          "en": "The bottles are then sent on and chopped up into small pieces."
+        }
+      ],
+      "pron": {
+        "tts": "send on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1485,
+      "id": "p-chop-up",
+      "type": "phrase",
+      "front": "chop up",
+      "meaning": "切り刻む",
+      "synonyms": [
+        "shred"
+      ],
+      "collocation": "chopped up into pieces",
+      "examples": [
+        {
+          "en": "The bottles are then sent on and chopped up into small pieces."
+        }
+      ],
+      "pron": {
+        "tts": "chop up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1486,
+      "id": "w-pack",
+      "type": "word",
+      "front": "pack",
+      "meaning": "詰める・積む",
+      "synonyms": [
+        "load"
+      ],
+      "collocation": "packed into boxes",
+      "examples": [
+        {
+          "en": "Finally, the flakes are packed into boxes and made into new products."
+        }
+      ],
+      "pron": {
+        "lookup": "pack",
+        "tts": "pack"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1487,
+      "id": "w-warehouse",
+      "type": "word",
+      "front": "warehouse",
+      "meaning": "倉庫",
+      "pron": {
+        "lookup": "warehouse",
+        "tts": "warehouse"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1488,
+      "id": "w-receptacle",
+      "type": "word",
+      "front": "receptacle",
+      "meaning": "容器",
+      "pron": {
+        "lookup": "receptacle",
+        "tts": "receptacle"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1489,
+      "id": "w-flake",
+      "type": "word",
+      "front": "flake",
+      "meaning": "フレーク",
+      "pron": {
+        "lookup": "flake",
+        "tts": "flake"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 65,
+      "themeName": "ペットボトルのリサイクル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t65",
+    "theme": 65,
+    "themeName": "ペットボトルのリサイクル",
+    "jp": "この図は、ペットボトルが6つの段階でどうリサイクルされるかを示す。まず、ボトルは消費者から回収され倉庫へ運ばれる。次に、大きさと色で分類される。その後ボトルは次工程へ送られ、小さく切り刻まれる。最後に、フレークは箱に詰められ、新しい製品になる。",
+    "sentences": [
+      {
+        "en": "The diagram shows how PET bottles are recycled in six steps.",
+        "targets": [
+          {
+            "id": "w-diagram",
+            "text": "diagram"
+          },
+          {
+            "id": "w-step",
+            "text": "steps"
+          }
+        ]
+      },
+      {
+        "en": "First, bottles are collected from the consumer and transported to warehouses.",
+        "targets": [
+          {
+            "id": "w-consumer",
+            "text": "consumer"
+          }
+        ]
+      },
+      {
+        "en": "Next, they are sorted by size and colour.",
+        "targets": [
+          {
+            "id": "w-sort",
+            "text": "sorted"
+          }
+        ]
+      },
+      {
+        "en": "The bottles are then sent on and chopped up into small pieces.",
+        "targets": [
+          {
+            "id": "p-send-on",
+            "text": "sent on"
+          },
+          {
+            "id": "p-chop-up",
+            "text": "chopped up"
+          }
+        ]
+      },
+      {
+        "en": "Finally, the flakes are packed into boxes and made into new products.",
+        "targets": [
+          {
+            "id": "w-pack",
+            "text": "packed"
+          }
+        ]
+      }
+    ]
+  }
+}

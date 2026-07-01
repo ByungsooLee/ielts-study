@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 93,
+  "themeId": "theme-93",
+  "themeName": "テクノロジーと働き方②",
+  "version": "e6dd076c",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1680,
+      "id": "p-pros-and-cons",
+      "type": "phrase",
+      "front": "pros and cons",
+      "meaning": "賛否両論・長所と短所",
+      "synonyms": [
+        "advantages and disadvantages",
+        "good and bad points"
+      ],
+      "collocation": "a lot of pros and cons",
+      "pron": {
+        "tts": "pros and cons"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1681,
+      "id": "w-development",
+      "type": "word",
+      "front": "development",
+      "meaning": "進展・展開",
+      "synonyms": [
+        "turn of events"
+      ],
+      "collocation": "a negative development",
+      "pron": {
+        "lookup": "development",
+        "tts": "development"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1682,
+      "id": "w-intrusion",
+      "type": "word",
+      "front": "intrusion",
+      "meaning": "侵害・侵入",
+      "synonyms": [
+        "encroachment",
+        "imposition"
+      ],
+      "collocation": "an intrusion on our time",
+      "pron": {
+        "lookup": "intrusion",
+        "tts": "intrusion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1683,
+      "id": "w-bombard",
+      "type": "word",
+      "front": "bombard",
+      "meaning": "浴びせる・攻めたてる",
+      "synonyms": [
+        "besiege",
+        "barrage"
+      ],
+      "collocation": "be bombarded with emails",
+      "pron": {
+        "lookup": "bombard",
+        "tts": "bombard"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1684,
+      "id": "w-promptly",
+      "type": "word",
+      "front": "promptly",
+      "meaning": "即座に・すぐに",
+      "synonyms": [
+        "A.S.A.P.",
+        "at once",
+        "on the double"
+      ],
+      "collocation": "reply promptly",
+      "pron": {
+        "lookup": "promptly",
+        "tts": "promptly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1685,
+      "id": "p-get-in-trouble",
+      "type": "phrase",
+      "front": "get in trouble",
+      "meaning": "トラブルに巻き込まれる",
+      "synonyms": [
+        "run into difficulty",
+        "get into a mess"
+      ],
+      "collocation": "get in trouble at work",
+      "pron": {
+        "tts": "get in trouble"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 93,
+      "themeName": "テクノロジーと働き方②",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

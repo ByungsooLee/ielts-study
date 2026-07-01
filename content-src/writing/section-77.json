@@ -1,0 +1,35 @@
+{
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "section": 77,
+  "title": "低開発国と観光業②（否定・結論）",
+  "prompt": "More and more people travel to undeveloped countries for holidays. Is this a positive or negative development for the host country?",
+  "prompt_jp": "観光業の否定的側面と結論を述べよ。",
+  "outline_jp": ["対比: 否定的側面に注意を促す", "帰結: 地元民が追い出される", "理由: 観光の高賃金が農業から人を引き離す", "例: 文化の変化が起こる", "結論: 適切な道か検討すべき"],
+  "model_answer": [
+    "However, it is worth pointing out that tourism has a negative side we should call attention to.",
+    "As areas grow in popularity, tourism can push out local people who cannot afford higher prices.",
+    "This is largely because higher wages in tourism draw people away from farming and fishing.",
+    "For example, cultural change may transpire, as young people embrace hip-hop over local traditions.",
+    "In conclusion, host countries should consider whether tourism is the right course of action."
+  ],
+  "items": [
+    {"id": "w2-this-is-largely-because", "type": "writing-word", "front": "this is largely because", "func": "reason", "meaning": "これは主に〜だからだ", "synonyms": ["owing to"], "collocation": "this is largely because …", "priority": "S"},
+    {"id": "w2-for-example", "type": "writing-word", "front": "for example", "func": "example", "meaning": "例えば", "synonyms": ["for instance"], "collocation": "for example, …", "priority": "A"},
+    {"id": "w2-in-conclusion", "type": "writing-word", "front": "in conclusion", "func": "conclusion", "meaning": "結論として", "synonyms": ["to conclude"], "collocation": "in conclusion, …", "priority": "S"},
+    {"id": "w2-point-out", "type": "writing-word", "front": "point out", "func": "opinion", "meaning": "指摘する", "synonyms": ["call attention to", "draw attention to"], "collocation": "it is worth pointing out that …", "priority": "S"},
+    {"id": "w2-wage", "type": "writing-word", "front": "wage", "func": "topic", "meaning": "賃金", "synonyms": ["income", "earnings", "salary", "pay"], "collocation": "higher wages in tourism", "priority": "A"},
+    {"id": "w2-grow-in-popularity", "type": "writing-word", "front": "grow in popularity", "func": "topic", "meaning": "人気が高まる", "synonyms": ["take off", "make a name for itself"], "collocation": "areas grow in popularity", "priority": "A"},
+    {"id": "w2-push-out", "type": "writing-word", "front": "push out", "func": "topic", "meaning": "追い出す", "synonyms": ["force out", "drive out"], "collocation": "push out local people", "priority": "A"},
+    {"id": "w2-transpire", "type": "writing-word", "front": "transpire", "func": "topic", "meaning": "起こる・生じる", "synonyms": ["come about", "occur"], "collocation": "cultural change transpires", "priority": "A"},
+    {"id": "w2-embrace", "type": "writing-word", "front": "embrace", "func": "topic", "meaning": "受け入れる", "synonyms": ["adopt"], "collocation": "embrace new traditions", "priority": "S"},
+    {"id": "w2-taste", "type": "writing-word", "front": "taste", "func": "topic", "meaning": "好み・嗜好", "synonyms": ["preference"], "collocation": "a taste for hip-hop", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "w2-77-d1", "focus_func": "opinion", "jp": "しかし、観光には注意を促すべき否定的側面があると指摘する価値がある。", "target_ids": ["w2-point-out"], "model_en": "However, it is worth pointing out that tourism has a negative side.", "acceptable": ["call attention to", "draw attention to"]},
+    {"id": "w2-77-d2", "focus_func": "reason", "jp": "これは主に、観光業の高い賃金が人々を農業から引き離すからだ。", "target_ids": ["w2-this-is-largely-because", "w2-wage"], "model_en": "This is largely because higher wages in tourism draw people away from farming.", "acceptable": ["income"]},
+    {"id": "w2-77-d3", "focus_func": "conclusion", "jp": "結論として、受入国は観光が適切な道か検討すべきだ。", "target_ids": ["w2-in-conclusion", "w2-embrace"], "model_en": "In conclusion, host countries should consider whether to embrace tourism as the right course.", "acceptable": ["to conclude", "adopt"]}
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 85,
+  "themeId": "theme-85",
+  "themeName": "過去を語る②（印象的な授業）",
+  "version": "50cfef87",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1626,
+      "id": "w-witty",
+      "type": "word",
+      "front": "witty",
+      "meaning": "機知のある",
+      "synonyms": [
+        "humorous",
+        "amusing",
+        "clever and funny"
+      ],
+      "collocation": "a witty instructor",
+      "pron": {
+        "lookup": "witty",
+        "tts": "witty"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1627,
+      "id": "w-unassuming",
+      "type": "word",
+      "front": "unassuming",
+      "meaning": "出しゃばらない・謙虚な",
+      "synonyms": [
+        "modest",
+        "humble",
+        "unpretentious"
+      ],
+      "collocation": "an unassuming teacher",
+      "pron": {
+        "lookup": "unassuming",
+        "tts": "unassuming"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1628,
+      "id": "w-hilarious",
+      "type": "word",
+      "front": "hilarious",
+      "meaning": "とても面白い",
+      "synonyms": [
+        "hysterical"
+      ],
+      "collocation": "hilarious jokes",
+      "pron": {
+        "lookup": "hilarious",
+        "tts": "hilarious"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1629,
+      "id": "w-magnetic",
+      "type": "word",
+      "front": "magnetic",
+      "meaning": "魅力的な・引きつける",
+      "synonyms": [
+        "charming",
+        "captivating",
+        "engaging"
+      ],
+      "collocation": "a magnetic personality",
+      "pron": {
+        "lookup": "magnetic",
+        "tts": "magnetic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1630,
+      "id": "w-riveting",
+      "type": "word",
+      "front": "riveting",
+      "meaning": "夢中にさせる・面白い",
+      "synonyms": [
+        "gripping",
+        "enthralling"
+      ],
+      "collocation": "absolutely riveting",
+      "pron": {
+        "lookup": "riveting",
+        "tts": "riveting"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1631,
+      "id": "w-involve",
+      "type": "word",
+      "front": "involve",
+      "meaning": "巻き込む・参加させる",
+      "synonyms": [
+        "include"
+      ],
+      "collocation": "involve everyone",
+      "pron": {
+        "lookup": "involve",
+        "tts": "involve"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1632,
+      "id": "w-interactive",
+      "type": "word",
+      "front": "interactive",
+      "meaning": "双方向の",
+      "synonyms": [
+        "hands-on"
+      ],
+      "collocation": "an interactive lesson",
+      "pron": {
+        "lookup": "interactive",
+        "tts": "interactive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

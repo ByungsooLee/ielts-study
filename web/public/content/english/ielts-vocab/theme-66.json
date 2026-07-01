@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 66,
+  "themeId": "theme-66",
+  "themeName": "スポーツのスポンサーシップ①（利点）",
+  "version": "0f47d5ca",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1490,
+      "id": "p-in-my-view",
+      "type": "phrase",
+      "front": "in my view",
+      "meaning": "私の考えでは",
+      "synonyms": [
+        "it is my firm belief that",
+        "as I see it"
+      ],
+      "collocation": "in my view, sponsorship is effective",
+      "pron": {
+        "tts": "in my view"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1491,
+      "id": "p-this-is-largely-because",
+      "type": "phrase",
+      "front": "this is largely because",
+      "meaning": "これは主に〜だからだ",
+      "synonyms": [
+        "owing to",
+        "due to the fact that"
+      ],
+      "collocation": "this is largely because …",
+      "pron": {
+        "tts": "this is largely because"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1492,
+      "id": "p-for-example",
+      "type": "phrase",
+      "front": "for example",
+      "meaning": "例えば",
+      "synonyms": [
+        "for instance",
+        "a case in point is"
+      ],
+      "collocation": "for example, fans …",
+      "pron": {
+        "tts": "for example"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1493,
+      "id": "w-overall",
+      "type": "word",
+      "front": "overall",
+      "meaning": "全体として",
+      "synonyms": [
+        "on the whole",
+        "all in all"
+      ],
+      "collocation": "overall, it is a win-win",
+      "pron": {
+        "lookup": "overall",
+        "tts": "overall"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1494,
+      "id": "w-sponsor",
+      "type": "word",
+      "front": "sponsor",
+      "meaning": "出資する",
+      "synonyms": [
+        "bankroll"
+      ],
+      "collocation": "sponsor a team",
+      "pron": {
+        "lookup": "sponsor",
+        "tts": "sponsor"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1495,
+      "id": "w-athlete",
+      "type": "word",
+      "front": "athlete",
+      "meaning": "アスリート・運動選手",
+      "synonyms": [
+        "sportsperson",
+        "player"
+      ],
+      "collocation": "sponsor an athlete",
+      "pron": {
+        "lookup": "athlete",
+        "tts": "athlete"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1496,
+      "id": "w-affiliation",
+      "type": "word",
+      "front": "affiliation",
+      "meaning": "提携・つながり",
+      "synonyms": [
+        "association",
+        "connection"
+      ],
+      "collocation": "a strong affiliation",
+      "pron": {
+        "lookup": "affiliation",
+        "tts": "affiliation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1497,
+      "id": "p-in-the-long-run",
+      "type": "phrase",
+      "front": "in the long run",
+      "meaning": "長い目で見れば",
+      "synonyms": [
+        "in the fullness of time"
+      ],
+      "collocation": "benefit in the long run",
+      "pron": {
+        "tts": "in the long run"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1498,
+      "id": "w-logo",
+      "type": "word",
+      "front": "logo",
+      "meaning": "シンボルマーク・ロゴ",
+      "synonyms": [
+        "corporate symbol",
+        "trademark"
+      ],
+      "collocation": "the logo on the kit",
+      "pron": {
+        "lookup": "logo",
+        "tts": "logo"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1499,
+      "id": "w-visible",
+      "type": "word",
+      "front": "visible",
+      "meaning": "目に見える・目立つ",
+      "synonyms": [
+        "discernible",
+        "unmistakable"
+      ],
+      "collocation": "clearly visible",
+      "pron": {
+        "lookup": "visible",
+        "tts": "visible"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1500,
+      "id": "w-carry",
+      "type": "word",
+      "front": "carry",
+      "meaning": "（商品を）店に置く・扱う",
+      "synonyms": [
+        "stock",
+        "keep in stock"
+      ],
+      "collocation": "stores that carry the gear",
+      "pron": {
+        "lookup": "carry",
+        "tts": "carry"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 66,
+      "themeName": "スポーツのスポンサーシップ①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

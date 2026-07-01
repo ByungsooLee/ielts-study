@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 85,
+  "themeId": "section-85",
+  "themeName": "過去を語る②（印象的な授業）",
+  "version": "45abb483",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 85,
+  "title": "過去を語る②（印象的な授業）",
+  "prompt": "Describe an interesting lesson you have attended.",
+  "prompt_jp": "参加した中で興味深かった授業について話してください。",
+  "model_answer": [
+    "I once attended an amazing workshop at a job fair.",
+    "It was the best lesson I have ever had because the instructor was witty and unassuming, telling hilarious jokes.",
+    "On top of that, the lesson was absolutely riveting because he related everything to the real world.",
+    "He involved everyone, and it was all interactive, which really suited my learning style."
+  ],
+  "items": [
+    {
+      "id": "sp-witty",
+      "type": "speaking-word",
+      "front": "witty",
+      "func": "topic",
+      "meaning": "機知のある",
+      "synonyms": [
+        "humorous",
+        "amusing",
+        "clever and funny"
+      ],
+      "collocation": "a witty instructor",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）"
+    },
+    {
+      "id": "sp-unassuming",
+      "type": "speaking-word",
+      "front": "unassuming",
+      "func": "topic",
+      "meaning": "出しゃばらない・謙虚な",
+      "synonyms": [
+        "modest",
+        "humble",
+        "unpretentious"
+      ],
+      "collocation": "an unassuming teacher",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）"
+    },
+    {
+      "id": "sp-hilarious",
+      "type": "speaking-word",
+      "front": "hilarious",
+      "func": "sp-emphasis",
+      "meaning": "とても面白い",
+      "synonyms": [
+        "hysterical"
+      ],
+      "collocation": "hilarious jokes",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）"
+    },
+    {
+      "id": "sp-magnetic",
+      "type": "speaking-word",
+      "front": "magnetic",
+      "func": "topic",
+      "meaning": "魅力的な・引きつける",
+      "synonyms": [
+        "charming",
+        "captivating",
+        "engaging"
+      ],
+      "collocation": "a magnetic personality",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）"
+    },
+    {
+      "id": "sp-riveting",
+      "type": "speaking-word",
+      "front": "riveting",
+      "func": "sp-emphasis",
+      "meaning": "夢中にさせる・面白い",
+      "synonyms": [
+        "gripping",
+        "enthralling"
+      ],
+      "collocation": "absolutely riveting",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）"
+    },
+    {
+      "id": "sp-involve",
+      "type": "speaking-word",
+      "front": "involve",
+      "func": "topic",
+      "meaning": "巻き込む・参加させる",
+      "synonyms": [
+        "include"
+      ],
+      "collocation": "involve everyone",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）"
+    },
+    {
+      "id": "sp-interactive",
+      "type": "speaking-word",
+      "front": "interactive",
+      "func": "topic",
+      "meaning": "双方向の",
+      "synonyms": [
+        "hands-on"
+      ],
+      "collocation": "an interactive lesson",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 85,
+      "themeName": "過去を語る②（印象的な授業）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-85-d1",
+      "focus_func": "topic",
+      "jp": "講師は機知に富み謙虚で、とても面白い冗談を言った。",
+      "target_ids": [
+        "sp-witty",
+        "sp-unassuming",
+        "sp-hilarious"
+      ],
+      "model_en": "The instructor was witty and unassuming, telling hilarious jokes.",
+      "acceptable": [
+        "amusing",
+        "modest"
+      ]
+    },
+    {
+      "id": "sp-85-d2",
+      "focus_func": "sp-emphasis",
+      "jp": "その授業は現実世界に結びつけていたので、本当に夢中になった。",
+      "target_ids": [
+        "sp-riveting"
+      ],
+      "model_en": "The lesson was absolutely riveting because he related it to the real world.",
+      "acceptable": [
+        "gripping",
+        "enthralling"
+      ]
+    },
+    {
+      "id": "sp-85-d3",
+      "focus_func": "topic",
+      "jp": "彼は全員を巻き込み、双方向的で私の学び方に合っていた。",
+      "target_ids": [
+        "sp-involve",
+        "sp-interactive"
+      ],
+      "model_en": "He involved everyone, and it was interactive, which suited my learning style.",
+      "acceptable": [
+        "included",
+        "hands-on"
+      ]
+    }
+  ]
+}

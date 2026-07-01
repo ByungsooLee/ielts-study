@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 80,
+  "themeId": "section-80",
+  "themeName": "友達とどのくらい会えますか？",
+  "version": "6f62e04f",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 80,
+  "title": "友達とどのくらい会えますか？",
+  "prompt": "How often do you see your friends?",
+  "prompt_jp": "友達とどのくらい会えますか？",
+  "model_answer": [
+    "Unfortunately, I only see my friends from time to time because I'm always snowed under with work.",
+    "My best friend lives in Kyoto now, but we were like two peas in a pod back in secondary school.",
+    "These days I can only get hold of him and touch base every now and again.",
+    "Hopefully we can hang out and catch up soon — I'd really love to get together."
+  ],
+  "items": [
+    {
+      "id": "sp-from-time-to-time",
+      "type": "speaking-word",
+      "front": "from time to time",
+      "func": "sp-frequency",
+      "meaning": "時々",
+      "synonyms": [
+        "now and again",
+        "every now and then"
+      ],
+      "collocation": "see them from time to time",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？"
+    },
+    {
+      "id": "sp-be-snowed-under-with",
+      "type": "speaking-word",
+      "front": "be snowed under with",
+      "func": "topic",
+      "meaning": "〜で多忙である",
+      "synonyms": [
+        "be swamped with",
+        "be overwhelmed with"
+      ],
+      "collocation": "snowed under with work",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？"
+    },
+    {
+      "id": "sp-two-peas-in-a-pod",
+      "type": "speaking-word",
+      "front": "two peas in a pod",
+      "func": "sp-idiom",
+      "meaning": "うりふたつ・仲がそっくり",
+      "synonyms": [
+        "be the spitting image of"
+      ],
+      "collocation": "like two peas in a pod",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？"
+    },
+    {
+      "id": "sp-get-hold-of",
+      "type": "speaking-word",
+      "front": "get hold of",
+      "func": "topic",
+      "meaning": "〜と連絡を取る",
+      "synonyms": [
+        "get in touch with",
+        "contact"
+      ],
+      "collocation": "get hold of a friend",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？"
+    },
+    {
+      "id": "sp-touch-base",
+      "type": "speaking-word",
+      "front": "touch base",
+      "func": "sp-idiom",
+      "meaning": "連絡を取る",
+      "synonyms": [
+        "get in touch"
+      ],
+      "collocation": "touch base with sb",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？"
+    },
+    {
+      "id": "sp-hang-out",
+      "type": "speaking-word",
+      "front": "hang out",
+      "func": "topic",
+      "meaning": "ブラブラして時を過ごす",
+      "synonyms": [
+        "spend time together"
+      ],
+      "collocation": "hang out with friends",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？"
+    },
+    {
+      "id": "sp-catch-up",
+      "type": "speaking-word",
+      "front": "catch up",
+      "func": "topic",
+      "meaning": "近況を報告し合う",
+      "synonyms": [
+        "get together"
+      ],
+      "collocation": "catch up with friends",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 80,
+      "themeName": "友達とどのくらい会えますか？"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-80-d1",
+      "focus_func": "sp-frequency",
+      "jp": "仕事でいつも忙しくて、友達とは時々しか会えない。",
+      "target_ids": [
+        "sp-from-time-to-time",
+        "sp-be-snowed-under-with"
+      ],
+      "model_en": "I only see my friends from time to time because I'm always snowed under with work.",
+      "acceptable": [
+        "now and again",
+        "swamped with"
+      ]
+    },
+    {
+      "id": "sp-80-d2",
+      "focus_func": "sp-idiom",
+      "jp": "学生の頃、私たちはうりふたつだった。",
+      "target_ids": [
+        "sp-two-peas-in-a-pod"
+      ],
+      "model_en": "Back at school, we were like two peas in a pod.",
+      "acceptable": [
+        "the spitting image"
+      ]
+    },
+    {
+      "id": "sp-80-d3",
+      "focus_func": "topic",
+      "jp": "近いうちに集まって近況を報告し合えたらいいな。",
+      "target_ids": [
+        "sp-catch-up",
+        "sp-hang-out"
+      ],
+      "model_en": "Hopefully we can hang out and catch up soon.",
+      "acceptable": [
+        "get together"
+      ]
+    }
+  ]
+}

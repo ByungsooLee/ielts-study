@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 82,
+  "themeId": "section-82",
+  "themeName": "どちらが好きですか？①（靴）",
+  "version": "315ba16c",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 82,
+  "title": "どちらが好きですか？①（靴）",
+  "prompt": "Do you prefer comfortable or stylish shoes?",
+  "prompt_jp": "履き心地の良い靴とおしゃれな靴、どちらが好きですか？",
+  "model_answer": [
+    "I think it depends. Most of the time I'm on my feet all day, so I wear comfy go-to shoes that I hardly notice.",
+    "But if I'm going to have a night out, I might want to dress up and throw on a pair of heels.",
+    "I just make sure they go with my everyday clothes and don't clash with my outfit.",
+    "At the end of the night, though, I can't wait to kick off my shoes and relax."
+  ],
+  "items": [
+    {
+      "id": "sp-comfy",
+      "type": "speaking-word",
+      "front": "comfy",
+      "func": "topic",
+      "meaning": "快適な",
+      "synonyms": [
+        "comfortable"
+      ],
+      "collocation": "comfy shoes",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）"
+    },
+    {
+      "id": "sp-have-on",
+      "type": "speaking-word",
+      "front": "wear",
+      "func": "topic",
+      "meaning": "身に着けている",
+      "synonyms": [
+        "have on",
+        "be dressed in"
+      ],
+      "collocation": "wear go-to shoes",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）"
+    },
+    {
+      "id": "sp-go-with",
+      "type": "speaking-word",
+      "front": "go with",
+      "func": "topic",
+      "meaning": "〜に合う",
+      "synonyms": [
+        "complement",
+        "not clash with"
+      ],
+      "collocation": "shoes that go with an outfit",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）"
+    },
+    {
+      "id": "sp-have-a-night-out",
+      "type": "speaking-word",
+      "front": "have a night out",
+      "func": "sp-idiom",
+      "meaning": "夜に外出する",
+      "synonyms": [
+        "hit the town",
+        "go out"
+      ],
+      "collocation": "have a night out",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）"
+    },
+    {
+      "id": "sp-dress-up",
+      "type": "speaking-word",
+      "front": "dress up",
+      "func": "topic",
+      "meaning": "おしゃれをする・着飾る",
+      "synonyms": [
+        "dress smartly",
+        "be dressed up to the nines"
+      ],
+      "collocation": "dress up for a party",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）"
+    },
+    {
+      "id": "sp-throw-on",
+      "type": "speaking-word",
+      "front": "throw on",
+      "func": "topic",
+      "meaning": "（衣服を）さっと身につける",
+      "synonyms": [
+        "put on quickly"
+      ],
+      "collocation": "throw on a jacket",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）"
+    },
+    {
+      "id": "sp-kick-off-shoes",
+      "type": "speaking-word",
+      "front": "kick off (one's shoes)",
+      "func": "topic",
+      "meaning": "（靴を）脱ぎ捨てる",
+      "synonyms": [
+        "take off"
+      ],
+      "collocation": "kick off my shoes",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 82,
+      "themeName": "どちらが好きですか？①（靴）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-82-d1",
+      "focus_func": "topic",
+      "jp": "一日中立ち仕事だから、ほとんど気にならない快適な定番の靴を履く。",
+      "target_ids": [
+        "sp-comfy",
+        "sp-have-on"
+      ],
+      "model_en": "I'm on my feet all day, so I wear comfy go-to shoes I hardly notice.",
+      "acceptable": [
+        "have on"
+      ]
+    },
+    {
+      "id": "sp-82-d2",
+      "focus_func": "sp-idiom",
+      "jp": "夜に外出するなら、おしゃれをしてヒールをさっと履くかも。",
+      "target_ids": [
+        "sp-have-a-night-out",
+        "sp-dress-up"
+      ],
+      "model_en": "If I have a night out, I might dress up and throw on some heels.",
+      "acceptable": [
+        "hit the town"
+      ]
+    },
+    {
+      "id": "sp-82-d3",
+      "focus_func": "topic",
+      "jp": "一日の終わりには、靴を脱ぎ捨てるのが待ちきれない。",
+      "target_ids": [
+        "sp-kick-off-shoes",
+        "sp-go-with"
+      ],
+      "model_en": "At the end of the day, I can't wait to kick off my shoes.",
+      "acceptable": [
+        "take off"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 60,
+  "themeId": "theme-60",
+  "themeName": "ビニール袋と紙袋の原料",
+  "version": "d9c3fa23",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1432,
+      "id": "w-depict",
+      "type": "word",
+      "front": "depict",
+      "meaning": "描写する・示す",
+      "synonyms": [
+        "represent",
+        "illustrate",
+        "show"
+      ],
+      "collocation": "the pictures depict",
+      "examples": [
+        {
+          "en": "The pictures depict the resources needed to make paper and plastic bags."
+        }
+      ],
+      "pron": {
+        "lookup": "depict",
+        "tts": "depict"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1433,
+      "id": "w-resource",
+      "type": "word",
+      "front": "resource",
+      "meaning": "資源",
+      "synonyms": [
+        "raw material",
+        "natural resource"
+      ],
+      "collocation": "consume resources",
+      "examples": [
+        {
+          "en": "The pictures depict the resources needed to make paper and plastic bags."
+        }
+      ],
+      "pron": {
+        "lookup": "resource",
+        "tts": "resource"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1434,
+      "id": "w-consume",
+      "type": "word",
+      "front": "consume",
+      "meaning": "消費する",
+      "synonyms": [
+        "use up",
+        "expend"
+      ],
+      "collocation": "consume resources",
+      "examples": [
+        {
+          "en": "Overall, paper bags consume far more materials than plastic ones."
+        }
+      ],
+      "pron": {
+        "lookup": "consume",
+        "tts": "consume"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1435,
+      "id": "w-manufacture",
+      "type": "word",
+      "front": "manufacture",
+      "meaning": "製造（する）",
+      "synonyms": [
+        "production",
+        "creation"
+      ],
+      "collocation": "the manufacture of bags",
+      "examples": [
+        {
+          "en": "The manufacture of a paper bag needs treble the wood of a plastic one."
+        }
+      ],
+      "pron": {
+        "lookup": "manufacture",
+        "tts": "manufacture"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1436,
+      "id": "w-transport",
+      "type": "word",
+      "front": "transport",
+      "meaning": "輸送する",
+      "synonyms": [
+        "ship",
+        "transit",
+        "transfer"
+      ],
+      "collocation": "transport bags",
+      "examples": [
+        {
+          "en": "More oil is used to transport paper bags than plastic ones."
+        }
+      ],
+      "pron": {
+        "lookup": "transport",
+        "tts": "transport"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1437,
+      "id": "w-treble",
+      "type": "word",
+      "front": "treble",
+      "meaning": "3倍の",
+      "synonyms": [
+        "triple",
+        "threefold"
+      ],
+      "collocation": "treble the quantity",
+      "examples": [
+        {
+          "en": "The manufacture of a paper bag needs treble the wood of a plastic one."
+        }
+      ],
+      "pron": {
+        "lookup": "treble",
+        "tts": "treble"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1438,
+      "id": "p-looking-at-the-data-from-a-general-perspective",
+      "type": "phrase",
+      "front": "looking at the data from a general perspective",
+      "meaning": "全体的な視点から見ると",
+      "synonyms": [
+        "overall",
+        "generally"
+      ],
+      "collocation": "looking at the data from a general perspective",
+      "examples": [
+        {
+          "en": "Looking at the data from a general perspective, paper bags are more resource-intensive."
+        }
+      ],
+      "pron": {
+        "tts": "looking at the data from a general perspective"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1439,
+      "id": "w-respectively",
+      "type": "word",
+      "front": "respectively",
+      "meaning": "それぞれ",
+      "pron": {
+        "lookup": "respectively",
+        "tts": "respectively"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1440,
+      "id": "w-resource-intensive",
+      "type": "word",
+      "front": "resource-intensive",
+      "meaning": "資源集約的な",
+      "pron": {
+        "lookup": "resource-intensive",
+        "tts": "resource-intensive"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 60,
+      "themeName": "ビニール袋と紙袋の原料",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t60",
+    "theme": 60,
+    "themeName": "ビニール袋と紙袋の原料",
+    "jp": "この絵は、紙袋とビニール袋を作るのに必要な資源を描いている。全体として、紙袋はビニール袋よりはるかに多くの材料を消費する。紙袋の製造にはビニール袋の3倍の木材が必要だ。紙袋の輸送にはビニール袋より多くの石油が使われる。全体的な視点から見ると、紙袋の方が資源集約的である。",
+    "sentences": [
+      {
+        "en": "The pictures depict the resources needed to make paper and plastic bags.",
+        "targets": [
+          {
+            "id": "w-depict",
+            "text": "depict"
+          },
+          {
+            "id": "w-resource",
+            "text": "resources"
+          }
+        ]
+      },
+      {
+        "en": "Overall, paper bags consume far more materials than plastic ones.",
+        "targets": [
+          {
+            "id": "w-consume",
+            "text": "consume"
+          }
+        ]
+      },
+      {
+        "en": "The manufacture of a paper bag needs treble the wood of a plastic one.",
+        "targets": [
+          {
+            "id": "w-manufacture",
+            "text": "manufacture"
+          },
+          {
+            "id": "w-treble",
+            "text": "treble"
+          }
+        ]
+      },
+      {
+        "en": "More oil is used to transport paper bags than plastic ones.",
+        "targets": [
+          {
+            "id": "w-transport",
+            "text": "transport"
+          }
+        ]
+      },
+      {
+        "en": "Looking at the data from a general perspective, paper bags are more resource-intensive.",
+        "targets": [
+          {
+            "id": "p-looking-at-the-data-from-a-general-perspective",
+            "text": "Looking at the data from a general perspective"
+          }
+        ]
+      }
+    ]
+  }
+}

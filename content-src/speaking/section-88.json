@@ -1,0 +1,30 @@
+{
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "section": 88,
+  "title": "未来を語る①（住んでみたい国）",
+  "question": "Describe a foreign country in which you would like to live for a short time.",
+  "question_jp": "短期間住んでみたい外国について話してください。",
+  "model_answer": [
+    "I'm not much of a globetrotter, but if I had the chance, I'd love to live in Paris for a while.",
+    "It's one country I could cross off my bucket list.",
+    "In terms of what I'd do there, I'd sign up for a cooking class and learn to make gorgeous desserts.",
+    "I might need to brush up on my French, though, because my language skills are rusty — I know it's a bit of wishful thinking!"
+  ],
+  "items": [
+    {"id": "sp-globetrotter", "type": "speaking-word", "front": "globetrotter", "func": "topic", "meaning": "世界を旅する人", "synonyms": ["world traveller"], "collocation": "not much of a globetrotter", "priority": "A"},
+    {"id": "sp-cross-off", "type": "speaking-word", "front": "cross off", "func": "topic", "meaning": "（リストから）消す・済ませる", "synonyms": ["tick off"], "collocation": "cross off my bucket list", "priority": "A"},
+    {"id": "sp-in-terms-of", "type": "speaking-word", "front": "in terms of", "func": "sp-hedge", "meaning": "〜に関しては", "synonyms": ["as for"], "collocation": "in terms of what I'd do", "priority": "S"},
+    {"id": "sp-sign-up-for", "type": "speaking-word", "front": "sign up for", "func": "topic", "meaning": "〜に申し込む・参加する", "synonyms": ["register for"], "collocation": "sign up for a class", "priority": "S"},
+    {"id": "sp-guidance", "type": "speaking-word", "front": "guidance", "func": "topic", "meaning": "助言・案内", "synonyms": ["recommendation", "tip", "advice"], "collocation": "get some guidance", "priority": "A"},
+    {"id": "sp-brush-up-on", "type": "speaking-word", "front": "brush up on", "func": "topic", "meaning": "〜の能力を磨き直す", "synonyms": ["get back up to speed on"], "collocation": "brush up on my French", "priority": "A"},
+    {"id": "sp-wishful-thinking", "type": "speaking-word", "front": "wishful thinking", "func": "sp-idiom", "meaning": "願望的思考・希望的観測", "synonyms": ["pipe dream", "fantasy"], "collocation": "a bit of wishful thinking", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "sp-88-d1", "focus_func": "sp-hedge", "jp": "そこで何をするかについては、料理教室に申し込むだろう。", "target_ids": ["sp-in-terms-of", "sp-sign-up-for"], "model_en": "In terms of what I'd do, I would sign up for a cooking class.", "acceptable": ["as for", "register for"]},
+    {"id": "sp-88-d2", "focus_func": "topic", "jp": "フランス語がさびついているので、磨き直す必要がある。", "target_ids": ["sp-brush-up-on"], "model_en": "I'd need to brush up on my French because it's rusty.", "acceptable": ["get back up to speed on"]},
+    {"id": "sp-88-d3", "focus_func": "sp-idiom", "jp": "パリに住むのは、少し希望的観測だとわかっている。", "target_ids": ["sp-wishful-thinking", "sp-cross-off"], "model_en": "Living in Paris is a bit of wishful thinking, but I'd love to cross it off my list.", "acceptable": ["pipe dream", "tick off"]}
+  ]
+}

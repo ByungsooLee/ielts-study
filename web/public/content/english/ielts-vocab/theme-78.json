@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 78,
+  "themeId": "theme-78",
+  "themeName": "なぜ今の仕事を選んだのですか？",
+  "version": "02f6bccc",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1578,
+      "id": "p-to-be-honest",
+      "type": "phrase",
+      "front": "to be honest",
+      "meaning": "正直に言うと",
+      "synonyms": [
+        "honestly",
+        "to tell you the truth"
+      ],
+      "collocation": "to be honest, I …",
+      "pron": {
+        "tts": "to be honest"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1579,
+      "id": "p-slave-driver",
+      "type": "phrase",
+      "front": "slave driver",
+      "meaning": "人使いの荒い人",
+      "synonyms": [
+        "tyrant",
+        "taskmaster"
+      ],
+      "collocation": "my boss is a slave driver",
+      "pron": {
+        "tts": "slave driver"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1580,
+      "id": "p-pore-over",
+      "type": "phrase",
+      "front": "pore over",
+      "meaning": "〜を熟読する・細かく調べる",
+      "synonyms": [
+        "go over carefully",
+        "scrutinise"
+      ],
+      "collocation": "pore over everything",
+      "pron": {
+        "tts": "pore over"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1581,
+      "id": "p-get-ahead",
+      "type": "phrase",
+      "front": "get ahead",
+      "meaning": "出世する・成功する",
+      "synonyms": [
+        "advance",
+        "climb the career ladder",
+        "get promoted"
+      ],
+      "collocation": "get ahead at work",
+      "pron": {
+        "tts": "get ahead"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1582,
+      "id": "w-laid-back",
+      "type": "word",
+      "front": "laid-back",
+      "meaning": "のんびりした・くつろいだ",
+      "synonyms": [
+        "low-pressure",
+        "mellow",
+        "easy-going"
+      ],
+      "collocation": "a laid-back workplace",
+      "pron": {
+        "lookup": "laid-back",
+        "tts": "laid-back"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1583,
+      "id": "p-get-on-with",
+      "type": "phrase",
+      "front": "get on with",
+      "meaning": "〜を進める",
+      "synonyms": [
+        "make progress with",
+        "continue with"
+      ],
+      "collocation": "get on with my work",
+      "pron": {
+        "tts": "get on with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1584,
+      "id": "p-run-one-s-business",
+      "type": "phrase",
+      "front": "run one's business",
+      "meaning": "事業を営む",
+      "synonyms": [
+        "head one's company"
+      ],
+      "collocation": "run my own business",
+      "pron": {
+        "tts": "run one's business"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1585,
+      "id": "p-make-a-living",
+      "type": "phrase",
+      "front": "make a living",
+      "meaning": "生計を立てる",
+      "synonyms": [
+        "earn money",
+        "make ends meet"
+      ],
+      "collocation": "make a living as a trader",
+      "pron": {
+        "tts": "make a living"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 78,
+      "themeName": "なぜ今の仕事を選んだのですか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

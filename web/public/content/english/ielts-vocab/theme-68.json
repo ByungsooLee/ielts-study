@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 68,
+  "themeId": "theme-68",
+  "themeName": "少年犯罪①（成人と同様に扱う立場）",
+  "version": "5ba6fc98",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1511,
+      "id": "p-be-in-favour-of",
+      "type": "phrase",
+      "front": "be in favour of",
+      "meaning": "〜に賛成である",
+      "synonyms": [
+        "advocate",
+        "support"
+      ],
+      "collocation": "be in favour of harsh punishment",
+      "pron": {
+        "tts": "be in favour of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1512,
+      "id": "p-harsh-punishment",
+      "type": "phrase",
+      "front": "harsh punishment",
+      "meaning": "厳罰",
+      "synonyms": [
+        "severe punishment",
+        "strict punishment"
+      ],
+      "collocation": "harsh punishment acts as a deterrent",
+      "pron": {
+        "tts": "harsh punishment"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1513,
+      "id": "w-actions",
+      "type": "word",
+      "front": "actions",
+      "meaning": "行為・振る舞い",
+      "synonyms": [
+        "behaviour",
+        "conduct"
+      ],
+      "collocation": "responsible for one's actions",
+      "pron": {
+        "lookup": "actions",
+        "tts": "actions"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1514,
+      "id": "p-under-pressure",
+      "type": "phrase",
+      "front": "under pressure",
+      "meaning": "プレッシャーをかけられて",
+      "synonyms": [
+        "pressured",
+        "pushed"
+      ],
+      "collocation": "under peer pressure",
+      "pron": {
+        "tts": "under pressure"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1515,
+      "id": "w-lenient",
+      "type": "word",
+      "front": "lenient",
+      "meaning": "寛大な・甘い",
+      "synonyms": [
+        "forgiving"
+      ],
+      "collocation": "lenient towards offenders",
+      "pron": {
+        "lookup": "lenient",
+        "tts": "lenient"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1516,
+      "id": "p-let-off",
+      "type": "phrase",
+      "front": "let off",
+      "meaning": "（人を）許す・放免する",
+      "synonyms": [
+        "escape punishment",
+        "allow to walk free"
+      ],
+      "collocation": "be let off",
+      "pron": {
+        "tts": "let off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 68,
+      "themeName": "少年犯罪①（成人と同様に扱う立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 91,
+  "themeId": "section-91",
+  "themeName": "子供たちと伝統文化②（意見）",
+  "version": "04a02610",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 91,
+  "title": "子供たちと伝統文化②（意見）",
+  "prompt": "Should children be made to learn about their country's traditional culture?",
+  "prompt_jp": "子供は自国の伝統文化を学ばされるべきだと思いますか？（賛成の立場）",
+  "model_answer": [
+    "I reckon shared traditions help kids fit in with their peers and give them a sense of identity.",
+    "If children don't take part, they may feel left out.",
+    "In my opinion, culture is the bedrock of society, so we should hold these customs dear.",
+    "It's important to get across to young people why it matters, so that we keep these traditions alive."
+  ],
+  "items": [
+    {
+      "id": "sp-fit-in-with",
+      "type": "speaking-word",
+      "front": "fit in with",
+      "func": "topic",
+      "meaning": "〜に溶け込む",
+      "synonyms": [
+        "be accepted by"
+      ],
+      "collocation": "fit in with peers",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）"
+    },
+    {
+      "id": "sp-feel-left-out",
+      "type": "speaking-word",
+      "front": "feel left out",
+      "func": "sp-idiom",
+      "meaning": "仲間外れにされていると感じる",
+      "synonyms": [
+        "feel excluded",
+        "feel ostracised",
+        "feel shunned"
+      ],
+      "collocation": "feel left out",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）"
+    },
+    {
+      "id": "sp-bedrock",
+      "type": "speaking-word",
+      "front": "bedrock",
+      "func": "topic",
+      "meaning": "基盤・根幹",
+      "synonyms": [
+        "foundation",
+        "basis",
+        "backbone",
+        "core"
+      ],
+      "collocation": "the bedrock of society",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）"
+    },
+    {
+      "id": "sp-hold-dear",
+      "type": "speaking-word",
+      "front": "hold dear",
+      "func": "topic",
+      "meaning": "〜を大切にする",
+      "synonyms": [
+        "treasure",
+        "cherish"
+      ],
+      "collocation": "hold customs dear",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）"
+    },
+    {
+      "id": "sp-get-across",
+      "type": "speaking-word",
+      "front": "get across",
+      "func": "topic",
+      "meaning": "〜を理解させる・伝える",
+      "synonyms": [
+        "make clear",
+        "make understood"
+      ],
+      "collocation": "get the idea across",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）"
+    },
+    {
+      "id": "sp-matter",
+      "type": "speaking-word",
+      "front": "matter",
+      "func": "topic",
+      "meaning": "重要である",
+      "synonyms": [
+        "make a difference"
+      ],
+      "collocation": "why it matters",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）"
+    },
+    {
+      "id": "sp-keep-alive",
+      "type": "speaking-word",
+      "front": "keep alive",
+      "func": "topic",
+      "meaning": "〜を存続させる",
+      "synonyms": [
+        "preserve",
+        "uphold"
+      ],
+      "collocation": "keep traditions alive",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-91-d1",
+      "focus_func": "topic",
+      "jp": "共有された伝統は子供が仲間に溶け込む助けになると思う。",
+      "target_ids": [
+        "sp-fit-in-with"
+      ],
+      "model_en": "Shared traditions help kids fit in with their peers.",
+      "acceptable": [
+        "be accepted by"
+      ]
+    },
+    {
+      "id": "sp-91-d2",
+      "focus_func": "sp-idiom",
+      "jp": "参加しないと、子供は仲間外れに感じるかもしれない。",
+      "target_ids": [
+        "sp-feel-left-out"
+      ],
+      "model_en": "If they don't take part, children may feel left out.",
+      "acceptable": [
+        "feel excluded"
+      ]
+    },
+    {
+      "id": "sp-91-d3",
+      "focus_func": "topic",
+      "jp": "文化は社会の根幹なので、これらの慣習を大切にすべきだ。",
+      "target_ids": [
+        "sp-bedrock",
+        "sp-hold-dear"
+      ],
+      "model_en": "Culture is the bedrock of society, so we should hold these customs dear.",
+      "acceptable": [
+        "foundation",
+        "cherish"
+      ]
+    }
+  ]
+}

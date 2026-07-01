@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 67,
+  "themeId": "theme-67",
+  "themeName": "スポーツのスポンサーシップ②（リスク）",
+  "version": "7f6c8a8b",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1501,
+      "id": "w-admittedly",
+      "type": "word",
+      "front": "admittedly",
+      "meaning": "確かに（〜だが）",
+      "synonyms": [
+        "it is true that",
+        "granted"
+      ],
+      "collocation": "admittedly, there are risks",
+      "pron": {
+        "lookup": "admittedly",
+        "tts": "admittedly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1502,
+      "id": "p-on-the-other-hand",
+      "type": "phrase",
+      "front": "on the other hand",
+      "meaning": "他方で",
+      "synonyms": [
+        "conversely",
+        "by contrast"
+      ],
+      "collocation": "on the other hand, …",
+      "pron": {
+        "tts": "on the other hand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1503,
+      "id": "p-in-conclusion",
+      "type": "phrase",
+      "front": "in conclusion",
+      "meaning": "結論として",
+      "synonyms": [
+        "to conclude",
+        "to sum up"
+      ],
+      "collocation": "in conclusion, firms …",
+      "pron": {
+        "tts": "in conclusion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1504,
+      "id": "w-scandal",
+      "type": "word",
+      "front": "scandal",
+      "meaning": "不祥事・スキャンダル",
+      "synonyms": [
+        "impropriety",
+        "wrongdoing",
+        "misconduct"
+      ],
+      "collocation": "get involved in a scandal",
+      "pron": {
+        "lookup": "scandal",
+        "tts": "scandal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1505,
+      "id": "w-nightmare",
+      "type": "word",
+      "front": "nightmare",
+      "meaning": "悪夢",
+      "synonyms": [
+        "ordeal",
+        "traumatic experience"
+      ],
+      "collocation": "a PR nightmare",
+      "pron": {
+        "lookup": "nightmare",
+        "tts": "nightmare"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1506,
+      "id": "w-scenario",
+      "type": "word",
+      "front": "scenario",
+      "meaning": "筋書き・シナリオ",
+      "synonyms": [
+        "situation"
+      ],
+      "collocation": "a possible scenario",
+      "pron": {
+        "lookup": "scenario",
+        "tts": "scenario"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1507,
+      "id": "p-fall-ill",
+      "type": "phrase",
+      "front": "fall ill",
+      "meaning": "病気になる",
+      "synonyms": [
+        "get sick",
+        "be taken ill"
+      ],
+      "collocation": "the player fell ill",
+      "pron": {
+        "tts": "fall ill"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1508,
+      "id": "p-find-oneself-in",
+      "type": "phrase",
+      "front": "find oneself in",
+      "meaning": "（ある状況）にいることに気づく",
+      "synonyms": [
+        "land oneself in"
+      ],
+      "collocation": "find oneself in trouble",
+      "pron": {
+        "tts": "find oneself in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1509,
+      "id": "p-happy-enough",
+      "type": "phrase",
+      "front": "happy enough",
+      "meaning": "十分に喜んで",
+      "synonyms": [
+        "willing",
+        "agreeable",
+        "amenable"
+      ],
+      "collocation": "happy enough to provide funding",
+      "pron": {
+        "tts": "happy enough"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1510,
+      "id": "w-drop",
+      "type": "word",
+      "front": "drop",
+      "meaning": "（人を）解雇する・除外する",
+      "synonyms": [
+        "abandon",
+        "throw overboard",
+        "chuck overboard"
+      ],
+      "collocation": "be quickly dropped",
+      "pron": {
+        "lookup": "drop",
+        "tts": "drop"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

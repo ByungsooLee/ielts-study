@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionId": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "theme": 74,
+  "themeId": "section-74",
+  "themeName": "オープンプランオフィス①（利点）",
+  "version": "ba9adf5a",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 74,
+  "title": "オープンプランオフィス①（利点）",
+  "prompt": "Nowadays, a lot of offices are being built with an open-plan design. Do the advantages of this trend outweigh the disadvantages?",
+  "prompt_jp": "近年、オープンプラン設計のオフィスが増えている。この傾向の利点は欠点を上回るか。",
+  "outline_jp": [
+    "前提: 協力と相乗効果を生む",
+    "理由: 自発的な会話で新しい発想が生まれる",
+    "対比: 一方で犠牲もある",
+    "例: 気が散り、盗み聞きを恐れる"
+  ],
+  "model_answer": [
+    "Nowadays, many offices are built with an open-plan design.",
+    "The premise behind this is that it creates cooperation and synergy, allowing staff to put their heads together.",
+    "This is largely because open plans trigger spontaneous conversations in which colleagues come up with new ideas.",
+    "On the other hand, some workers complain that the design comes at a cost.",
+    "For example, they cannot concentrate due to distractions, and may be in fear of others eavesdropping on them."
+  ],
+  "items": [
+    {
+      "id": "w2-this-is-largely-because",
+      "type": "writing-word",
+      "front": "this is largely because",
+      "func": "reason",
+      "meaning": "これは主に〜だからだ",
+      "synonyms": [
+        "owing to"
+      ],
+      "collocation": "this is largely because …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    },
+    {
+      "id": "w2-for-example",
+      "type": "writing-word",
+      "front": "for example",
+      "func": "example",
+      "meaning": "例えば",
+      "synonyms": [
+        "for instance"
+      ],
+      "collocation": "for example, …",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    },
+    {
+      "id": "w2-on-the-other-hand",
+      "type": "writing-word",
+      "front": "on the other hand",
+      "func": "contrast",
+      "meaning": "他方で",
+      "synonyms": [
+        "conversely",
+        "by contrast"
+      ],
+      "collocation": "on the other hand, …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    },
+    {
+      "id": "w2-premise",
+      "type": "writing-word",
+      "front": "premise",
+      "func": "topic",
+      "meaning": "前提",
+      "synonyms": [
+        "assumption",
+        "presumption"
+      ],
+      "collocation": "the premise behind …",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    },
+    {
+      "id": "w2-cooperation",
+      "type": "writing-word",
+      "front": "cooperation",
+      "func": "topic",
+      "meaning": "協力",
+      "synonyms": [
+        "collaboration",
+        "mutual support"
+      ],
+      "collocation": "create cooperation",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    },
+    {
+      "id": "w2-put-heads-together",
+      "type": "writing-word",
+      "front": "put one's heads together",
+      "func": "topic",
+      "meaning": "集まって相談する",
+      "synonyms": [
+        "share ideas",
+        "bounce ideas off one another"
+      ],
+      "collocation": "put their heads together",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    },
+    {
+      "id": "w2-spontaneous",
+      "type": "writing-word",
+      "front": "spontaneous",
+      "func": "topic",
+      "meaning": "自発的な・とっさの",
+      "synonyms": [
+        "spur-of-the-moment",
+        "impromptu",
+        "off-the-cuff"
+      ],
+      "collocation": "spontaneous conversations",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    },
+    {
+      "id": "w2-complain",
+      "type": "writing-word",
+      "front": "complain",
+      "func": "topic",
+      "meaning": "不平を言う",
+      "synonyms": [
+        "grumble"
+      ],
+      "collocation": "workers complain that …",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    },
+    {
+      "id": "w2-be-in-fear-of",
+      "type": "writing-word",
+      "front": "be in fear of",
+      "func": "topic",
+      "meaning": "〜に恐れをなす",
+      "synonyms": [
+        "be frightened of"
+      ],
+      "collocation": "be in fear of change",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    },
+    {
+      "id": "w2-eavesdrop-on",
+      "type": "writing-word",
+      "front": "eavesdrop on",
+      "func": "topic",
+      "meaning": "〜を盗み聞きする",
+      "synonyms": [
+        "listen in on"
+      ],
+      "collocation": "eavesdrop on a conversation",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "w2-74-d1",
+      "focus_func": "topic",
+      "jp": "オープンプランの前提は、協力を生み、社員が集まって相談できることだ。",
+      "target_ids": [
+        "w2-premise",
+        "w2-cooperation",
+        "w2-put-heads-together"
+      ],
+      "model_en": "The premise of open plans is that they create cooperation and let staff put their heads together.",
+      "acceptable": [
+        "collaboration"
+      ]
+    },
+    {
+      "id": "w2-74-d2",
+      "focus_func": "reason",
+      "jp": "これは主に、自発的な会話が起き、同僚が新しい発想を思いつくからだ。",
+      "target_ids": [
+        "w2-this-is-largely-because",
+        "w2-spontaneous"
+      ],
+      "model_en": "This is largely because open plans trigger spontaneous conversations with new ideas.",
+      "acceptable": [
+        "impromptu"
+      ]
+    },
+    {
+      "id": "w2-74-d3",
+      "focus_func": "contrast",
+      "jp": "他方で、従業員は盗み聞きされることを恐れるかもしれない。",
+      "target_ids": [
+        "w2-on-the-other-hand",
+        "w2-eavesdrop-on"
+      ],
+      "model_en": "On the other hand, employees may be in fear of others eavesdropping on them.",
+      "acceptable": [
+        "conversely",
+        "listen in on"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "section": 92,
+  "title": "テクノロジーと働き方①",
+  "question": "How has technology changed the way we work? Has it been a good or bad development?",
+  "question_jp": "テクノロジーは働き方をどう変えましたか。良い変化ですか、悪い変化ですか。",
+  "model_answer": [
+    "I think technology has been a bit of a mixed blessing.",
+    "On one hand, virtual jobs let people work from home and rearrange their schedules to suit their needs.",
+    "You don't even have to meet colleagues face-to-face, as the details can be worked out over the internet.",
+    "On the other hand, there will be less job security, and some people could end up living from paycheck to paycheck."
+  ],
+  "items": [
+    {"id": "sp-mixed-blessing", "type": "speaking-word", "front": "mixed blessing", "func": "sp-idiom", "meaning": "良くもあり悪くもあること", "synonyms": ["double-edged sword"], "collocation": "a bit of a mixed blessing", "priority": "A"},
+    {"id": "sp-rearrange", "type": "speaking-word", "front": "rearrange", "func": "topic", "meaning": "再整理する・調整する", "synonyms": ["rejig", "juggle around"], "collocation": "rearrange one's schedule", "priority": "A"},
+    {"id": "sp-need", "type": "speaking-word", "front": "need", "func": "topic", "meaning": "必要・要求", "synonyms": ["requirement", "demand"], "collocation": "suit one's needs", "priority": "S"},
+    {"id": "sp-face-to-face", "type": "speaking-word", "front": "face-to-face", "func": "topic", "meaning": "直接会って・対面で", "synonyms": ["in person"], "collocation": "meet face-to-face", "priority": "S"},
+    {"id": "sp-work-out-resolve", "type": "speaking-word", "front": "work out", "func": "topic", "meaning": "〜を解決する・まとめる", "synonyms": ["resolve", "iron out"], "collocation": "work out the details", "priority": "S"},
+    {"id": "sp-security", "type": "speaking-word", "front": "security", "func": "topic", "meaning": "安心・安定", "synonyms": ["peace of mind", "surety"], "collocation": "job security", "priority": "S"},
+    {"id": "sp-live-paycheck-to-paycheck", "type": "speaking-word", "front": "live from paycheck to paycheck", "func": "sp-idiom", "meaning": "その日暮らしをする", "synonyms": ["live hand to mouth"], "collocation": "live from paycheck to paycheck", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "sp-92-d1", "focus_func": "sp-idiom", "jp": "テクノロジーは良くもあり悪くもあることだと思う。", "target_ids": ["sp-mixed-blessing"], "model_en": "I think technology has been a bit of a mixed blessing.", "acceptable": ["a double-edged sword"]},
+    {"id": "sp-92-d2", "focus_func": "topic", "jp": "在宅なら、予定を自分のニーズに合わせて調整しやすい。", "target_ids": ["sp-rearrange", "sp-need"], "model_en": "Working from home lets you rearrange your schedule to suit your needs.", "acceptable": ["rejig", "requirements"]},
+    {"id": "sp-92-d3", "focus_func": "sp-idiom", "jp": "他方で仕事の安定が減り、その日暮らしになる人もいるかもしれない。", "target_ids": ["sp-security", "sp-live-paycheck-to-paycheck"], "model_en": "On the other hand, there is less security, and some may live from paycheck to paycheck.", "acceptable": ["peace of mind", "live hand to mouth"]}
+  ]
+}

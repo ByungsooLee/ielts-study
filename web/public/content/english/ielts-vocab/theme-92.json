@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 92,
+  "themeId": "theme-92",
+  "themeName": "テクノロジーと働き方①",
+  "version": "09807859",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1674,
+      "id": "p-mixed-blessing",
+      "type": "phrase",
+      "front": "mixed blessing",
+      "meaning": "良くもあり悪くもあること",
+      "synonyms": [
+        "double-edged sword"
+      ],
+      "collocation": "a bit of a mixed blessing",
+      "pron": {
+        "tts": "mixed blessing"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1675,
+      "id": "w-rearrange",
+      "type": "word",
+      "front": "rearrange",
+      "meaning": "再整理する・調整する",
+      "synonyms": [
+        "rejig",
+        "juggle around"
+      ],
+      "collocation": "rearrange one's schedule",
+      "pron": {
+        "lookup": "rearrange",
+        "tts": "rearrange"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1676,
+      "id": "w-need",
+      "type": "word",
+      "front": "need",
+      "meaning": "必要・要求",
+      "synonyms": [
+        "requirement",
+        "demand"
+      ],
+      "collocation": "suit one's needs",
+      "pron": {
+        "lookup": "need",
+        "tts": "need"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1677,
+      "id": "w-face-to-face",
+      "type": "word",
+      "front": "face-to-face",
+      "meaning": "直接会って・対面で",
+      "synonyms": [
+        "in person"
+      ],
+      "collocation": "meet face-to-face",
+      "pron": {
+        "lookup": "face-to-face",
+        "tts": "face-to-face"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1678,
+      "id": "w-security",
+      "type": "word",
+      "front": "security",
+      "meaning": "安心・安定",
+      "synonyms": [
+        "peace of mind",
+        "surety"
+      ],
+      "collocation": "job security",
+      "pron": {
+        "lookup": "security",
+        "tts": "security"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1679,
+      "id": "p-live-from-paycheck-to-paycheck",
+      "type": "phrase",
+      "front": "live from paycheck to paycheck",
+      "meaning": "その日暮らしをする",
+      "synonyms": [
+        "live hand to mouth"
+      ],
+      "collocation": "live from paycheck to paycheck",
+      "pron": {
+        "tts": "live from paycheck to paycheck"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 92,
+      "themeName": "テクノロジーと働き方①",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

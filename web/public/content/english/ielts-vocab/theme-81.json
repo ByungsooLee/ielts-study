@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 81,
+  "themeId": "theme-81",
+  "themeName": "映画館にどのくらい行きますか？",
+  "version": "de047790",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1599,
+      "id": "w-actually",
+      "type": "word",
+      "front": "actually",
+      "meaning": "実は・実のところ",
+      "synonyms": [
+        "in fact",
+        "to tell the truth"
+      ],
+      "collocation": "actually, I …",
+      "pron": {
+        "lookup": "actually",
+        "tts": "actually"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1600,
+      "id": "p-be-a-bit-steep",
+      "type": "phrase",
+      "front": "be a bit steep",
+      "meaning": "少し高くつく",
+      "synonyms": [
+        "be a bit pricey",
+        "be a bit dear"
+      ],
+      "collocation": "tickets are a bit steep",
+      "pron": {
+        "tts": "be a bit steep"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1601,
+      "id": "p-treat-oneself",
+      "type": "phrase",
+      "front": "treat oneself",
+      "meaning": "自分にご褒美をあげる",
+      "synonyms": [
+        "indulge oneself"
+      ],
+      "collocation": "treat myself to a film",
+      "pron": {
+        "tts": "treat oneself"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1602,
+      "id": "p-be-crazy-about",
+      "type": "phrase",
+      "front": "be crazy about",
+      "meaning": "〜に夢中である",
+      "synonyms": [
+        "be mad about",
+        "be nuts about"
+      ],
+      "collocation": "crazy about blockbusters",
+      "pron": {
+        "tts": "be crazy about"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1603,
+      "id": "w-trashy",
+      "type": "word",
+      "front": "trashy",
+      "meaning": "くだらない・低俗な",
+      "synonyms": [
+        "cheesy"
+      ],
+      "collocation": "trashy blockbusters",
+      "pron": {
+        "lookup": "trashy",
+        "tts": "trashy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1604,
+      "id": "p-can-t-wait",
+      "type": "phrase",
+      "front": "can't wait",
+      "meaning": "待ちきれない",
+      "synonyms": [
+        "be really looking forward to"
+      ],
+      "collocation": "can't wait for the next one",
+      "pron": {
+        "tts": "can't wait"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 81,
+      "themeName": "映画館にどのくらい行きますか？",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

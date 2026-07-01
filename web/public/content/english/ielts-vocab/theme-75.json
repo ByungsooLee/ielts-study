@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 75,
+  "themeId": "theme-75",
+  "themeName": "オープンプランオフィス②（欠点・結論）",
+  "version": "305c97ba",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1557,
+      "id": "w-memento",
+      "type": "word",
+      "front": "memento",
+      "meaning": "思い出の品",
+      "synonyms": [
+        "keepsake"
+      ],
+      "collocation": "personal mementos",
+      "pron": {
+        "lookup": "memento",
+        "tts": "memento"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1558,
+      "id": "p-take-pride-in",
+      "type": "phrase",
+      "front": "take pride in",
+      "meaning": "〜を誇りに思う",
+      "synonyms": [
+        "take satisfaction in"
+      ],
+      "collocation": "take pride in one's work",
+      "pron": {
+        "tts": "take pride in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1559,
+      "id": "p-to-some-extent",
+      "type": "phrase",
+      "front": "to some extent",
+      "meaning": "ある程度は",
+      "synonyms": [
+        "to a certain degree"
+      ],
+      "collocation": "to some extent, …",
+      "pron": {
+        "tts": "to some extent"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1560,
+      "id": "w-colleague",
+      "type": "word",
+      "front": "colleague",
+      "meaning": "同僚",
+      "synonyms": [
+        "co-worker",
+        "workmate"
+      ],
+      "collocation": "colleagues work together",
+      "pron": {
+        "lookup": "colleague",
+        "tts": "colleague"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1561,
+      "id": "p-in-private",
+      "type": "phrase",
+      "front": "in private",
+      "meaning": "内密に・こっそりと",
+      "synonyms": [
+        "behind closed doors"
+      ],
+      "collocation": "discuss in private",
+      "pron": {
+        "tts": "in private"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1562,
+      "id": "p-pluses-and-minuses",
+      "type": "phrase",
+      "front": "pluses and minuses",
+      "meaning": "長所と短所",
+      "synonyms": [
+        "advantages and disadvantages",
+        "pros and cons",
+        "benefits and drawbacks"
+      ],
+      "collocation": "there are pluses and minuses",
+      "pron": {
+        "tts": "pluses and minuses"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1563,
+      "id": "p-opt-for",
+      "type": "phrase",
+      "front": "opt for",
+      "meaning": "〜を選ぶ",
+      "synonyms": [
+        "select",
+        "go for"
+      ],
+      "collocation": "opt for the layout",
+      "pron": {
+        "tts": "opt for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 75,
+      "themeName": "オープンプランオフィス②（欠点・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

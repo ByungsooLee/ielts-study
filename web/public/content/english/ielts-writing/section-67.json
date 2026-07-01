@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionId": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "theme": 67,
+  "themeId": "section-67",
+  "themeName": "スポーツのスポンサーシップ②（リスク）",
+  "version": "6a5299b9",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 67,
+  "title": "スポーツのスポンサーシップ②（リスク）",
+  "prompt": "Some companies use sports sponsorship as a way to advertise themselves. Is this a benefit or a risk to the company?",
+  "prompt_jp": "スポーツのスポンサーになるのは企業にとって利益かリスクか（リスク面を論じる）。",
+  "outline_jp": [
+    "譲歩: 一方でリスクもある",
+    "理由: 選手の不祥事に巻き込まれる",
+    "例: 飲酒運転で悪評・企業の悪夢",
+    "結論: 費用不足でも最善を望みリスクに備える"
+  ],
+  "model_answer": [
+    "Admittedly, there are certain risks to being a patron of an athlete or team.",
+    "First of all, if a player gets involved in a scandal, it will reflect badly on the sponsor.",
+    "For example, a golfer once arrested on a drink-driving charge became a nightmare for his sponsor's PR department.",
+    "Another possible scenario is that the star could fall ill and be knocked out of a tournament.",
+    "On the other hand, sportspeople still need to look for sponsors, and companies are usually happy enough to provide funding for good public relations.",
+    "In conclusion, firms know they are running a risk, yet they prepare for the worst and hope for the best."
+  ],
+  "items": [
+    {
+      "id": "w2-admittedly",
+      "type": "writing-word",
+      "front": "admittedly",
+      "func": "concession",
+      "meaning": "確かに（〜だが）",
+      "synonyms": [
+        "it is true that",
+        "granted"
+      ],
+      "collocation": "admittedly, there are risks",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    },
+    {
+      "id": "w2-on-the-other-hand",
+      "type": "writing-word",
+      "front": "on the other hand",
+      "func": "contrast",
+      "meaning": "他方で",
+      "synonyms": [
+        "conversely",
+        "by contrast"
+      ],
+      "collocation": "on the other hand, …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    },
+    {
+      "id": "w2-in-conclusion",
+      "type": "writing-word",
+      "front": "in conclusion",
+      "func": "conclusion",
+      "meaning": "結論として",
+      "synonyms": [
+        "to conclude",
+        "to sum up"
+      ],
+      "collocation": "in conclusion, firms …",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    },
+    {
+      "id": "w2-scandal",
+      "type": "writing-word",
+      "front": "scandal",
+      "func": "topic",
+      "meaning": "不祥事・スキャンダル",
+      "synonyms": [
+        "impropriety",
+        "wrongdoing",
+        "misconduct"
+      ],
+      "collocation": "get involved in a scandal",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    },
+    {
+      "id": "w2-nightmare",
+      "type": "writing-word",
+      "front": "nightmare",
+      "func": "topic",
+      "meaning": "悪夢",
+      "synonyms": [
+        "ordeal",
+        "traumatic experience"
+      ],
+      "collocation": "a PR nightmare",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    },
+    {
+      "id": "w2-scenario",
+      "type": "writing-word",
+      "front": "scenario",
+      "func": "topic",
+      "meaning": "筋書き・シナリオ",
+      "synonyms": [
+        "situation"
+      ],
+      "collocation": "a possible scenario",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    },
+    {
+      "id": "w2-fall-ill",
+      "type": "writing-word",
+      "front": "fall ill",
+      "func": "topic",
+      "meaning": "病気になる",
+      "synonyms": [
+        "get sick",
+        "be taken ill"
+      ],
+      "collocation": "the player fell ill",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    },
+    {
+      "id": "w2-find-oneself-in",
+      "type": "writing-word",
+      "front": "find oneself in",
+      "func": "topic",
+      "meaning": "（ある状況）にいることに気づく",
+      "synonyms": [
+        "land oneself in"
+      ],
+      "collocation": "find oneself in trouble",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    },
+    {
+      "id": "w2-happy-enough",
+      "type": "writing-word",
+      "front": "happy enough",
+      "func": "topic",
+      "meaning": "十分に喜んで",
+      "synonyms": [
+        "willing",
+        "agreeable",
+        "amenable"
+      ],
+      "collocation": "happy enough to provide funding",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    },
+    {
+      "id": "w2-drop",
+      "type": "writing-word",
+      "front": "drop",
+      "func": "topic",
+      "meaning": "（人を）解雇する・除外する",
+      "synonyms": [
+        "abandon",
+        "throw overboard",
+        "chuck overboard"
+      ],
+      "collocation": "be quickly dropped",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-writing",
+      "theme": 67,
+      "themeName": "スポーツのスポンサーシップ②（リスク）"
+    }
+  ],
+  "drills": [
+    {
+      "id": "w2-67-d1",
+      "focus_func": "concession",
+      "jp": "確かに、選手のスポンサーになることには一定のリスクがある。",
+      "target_ids": [
+        "w2-admittedly"
+      ],
+      "model_en": "Admittedly, there are certain risks to sponsoring an athlete.",
+      "acceptable": [
+        "it is true that",
+        "granted"
+      ]
+    },
+    {
+      "id": "w2-67-d2",
+      "focus_func": "topic",
+      "jp": "選手が不祥事に巻き込まれれば、それはスポンサーの悪評につながる。",
+      "target_ids": [
+        "w2-scandal"
+      ],
+      "model_en": "If a player gets involved in a scandal, it reflects badly on the sponsor.",
+      "acceptable": [
+        "wrongdoing",
+        "misconduct"
+      ]
+    },
+    {
+      "id": "w2-67-d3",
+      "focus_func": "contrast",
+      "jp": "他方で、選手はやはりスポンサーを必要としている。",
+      "target_ids": [
+        "w2-on-the-other-hand"
+      ],
+      "model_en": "On the other hand, athletes still need to find sponsors.",
+      "acceptable": [
+        "conversely"
+      ]
+    },
+    {
+      "id": "w2-67-d4",
+      "focus_func": "conclusion",
+      "jp": "結論として、企業はリスクを承知の上で最善を望みつつ最悪に備える。",
+      "target_ids": [
+        "w2-in-conclusion"
+      ],
+      "model_en": "In conclusion, companies accept the risk but prepare for the worst and hope for the best.",
+      "acceptable": [
+        "to conclude"
+      ]
+    }
+  ]
+}

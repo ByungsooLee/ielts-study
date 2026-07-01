@@ -1,0 +1,34 @@
+{
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "section": 69,
+  "title": "少年犯罪②（更生を重視する立場）",
+  "prompt": "Some people believe that juveniles who commit crimes should be treated the same way as adults, while others feel there are better alternatives. Discuss both views and give your opinion.",
+  "prompt_jp": "罪を犯した少年の扱いについて、更生を重視する立場と自分の意見を述べよ。",
+  "outline_jp": ["対比: 一方で投獄すべきでないとの意見", "手段: 社会奉仕で更生させる", "理由: 刑務所で悪い犯罪行動を学ぶ", "自分の意見: 重罪には甘すぎるが多くは更生が適する"],
+  "model_answer": [
+    "On the other hand, many people believe that juveniles should not be put in jail like adults.",
+    "Instead, offenders can be rehabilitated by doing community service.",
+    "This is because young people may learn even worse criminal behaviour from hardened criminals in prison.",
+    "For instance, lending a hand in the community teaches useful life skills.",
+    "In my view, a slap on the wrist is not enough for serious crimes, but rehabilitation suits most young offenders."
+  ],
+  "items": [
+    {"id": "w2-on-the-other-hand", "type": "writing-word", "front": "on the other hand", "func": "contrast", "meaning": "他方で", "synonyms": ["conversely", "by contrast"], "collocation": "on the other hand, …", "priority": "S"},
+    {"id": "w2-in-my-view", "type": "writing-word", "front": "in my view", "func": "opinion", "meaning": "私の考えでは", "synonyms": ["it is my firm belief that", "as I see it"], "collocation": "in my view, …", "priority": "S"},
+    {"id": "w2-juvenile", "type": "writing-word", "front": "juvenile", "func": "topic", "meaning": "未成年者・青少年", "synonyms": ["minor", "adolescent", "teen"], "collocation": "juveniles become adults", "priority": "A"},
+    {"id": "w2-commit-a-crime", "type": "writing-word", "front": "commit a crime", "func": "topic", "meaning": "罪を犯す", "synonyms": ["break the law"], "collocation": "juveniles who commit a crime", "priority": "S"},
+    {"id": "w2-put-in-jail", "type": "writing-word", "front": "put in jail", "func": "topic", "meaning": "投獄する", "synonyms": ["incarcerate", "lock up", "imprison"], "collocation": "be put in jail", "priority": "A"},
+    {"id": "w2-offender", "type": "writing-word", "front": "offender", "func": "topic", "meaning": "犯罪者", "synonyms": ["criminal", "lawbreaker", "perpetrator"], "collocation": "young offenders", "priority": "A"},
+    {"id": "w2-rehabilitate", "type": "writing-word", "front": "rehabilitate", "func": "topic", "meaning": "更生させる", "synonyms": ["reform"], "collocation": "be rehabilitated", "priority": "A"},
+    {"id": "w2-lend-a-hand", "type": "writing-word", "front": "lend a hand", "func": "topic", "meaning": "手を貸す・助ける", "synonyms": ["aid", "assist", "help out"], "collocation": "lend a hand in the community", "priority": "A"},
+    {"id": "w2-slap-on-the-wrist", "type": "writing-word", "front": "slap on the wrist", "func": "topic", "meaning": "軽い叱責・軽い罰", "synonyms": ["lenient punishment"], "collocation": "just a slap on the wrist", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "w2-69-d1", "focus_func": "contrast", "jp": "他方で、少年は成人のように投獄すべきでないと考える人も多い。", "target_ids": ["w2-on-the-other-hand", "w2-put-in-jail"], "model_en": "On the other hand, many feel juveniles should not be put in jail like adults.", "acceptable": ["conversely", "incarcerated"]},
+    {"id": "w2-69-d2", "focus_func": "topic", "jp": "その代わり、犯罪者は社会奉仕によって更生させられる。", "target_ids": ["w2-offender", "w2-rehabilitate"], "model_en": "Instead, offenders can be rehabilitated by doing community service.", "acceptable": ["reformed"]},
+    {"id": "w2-69-d3", "focus_func": "opinion", "jp": "私の考えでは、軽い罰は重罪には不十分だが、多くの若者には更生が適する。", "target_ids": ["w2-in-my-view", "w2-slap-on-the-wrist"], "model_en": "In my view, a slap on the wrist is not enough for serious crimes, but rehabilitation suits most.", "acceptable": ["it is my firm belief that"]}
+  ]
+}

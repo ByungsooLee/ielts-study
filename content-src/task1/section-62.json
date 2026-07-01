@@ -1,0 +1,41 @@
+{
+  "domain": "english",
+  "collection": "ielts-task1",
+  "collectionName": "IELTS図解描写(Task1)",
+  "kind": "task1",
+  "section": 62,
+  "title": "音楽学校の改修案",
+  "chart": {
+    "type": "map",
+    "caption": "The plans show a music school now and a proposed refurbishment.",
+    "svg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='平面図：音楽学校の現状と改修案'><title>Music school floor plan, now and proposed</title><g font-size='8' fill='#555'><text x='40' y='24' font-size='10' fill='#333'>Now</text><rect x='40' y='30' width='110' height='60' fill='none' stroke='#9aa0a6' stroke-width='2'/><line x1='95' y1='30' x2='95' y2='90' stroke='#9aa0a6'/><text x='50' y='58'>Classroom 1</text><text x='105' y='58'>Classroom 2</text><text x='55' y='104' fill='#c96442'>stairs / cupboard</text><text x='180' y='24' font-size='10' fill='#333'>Proposed</text><rect x='180' y='30' width='110' height='60' fill='none' stroke='#7c9cc4' stroke-width='2'/><line x1='235' y1='30' x2='235' y2='90' stroke='#7c9cc4'/><text x='190' y='58'>Classroom 1</text><text x='245' y='58'>Studio</text><text x='185' y='104' fill='#c96442'>ramp / toilets / lift</text><text x='185' y='118' fill='#7c9cc4'>♿ wider doorways</text></g></svg>",
+    "series": [
+      {"name": "Now", "func": ["compare"]},
+      {"name": "Proposed", "func": ["compare", "describe"]}
+    ]
+  },
+  "model_paragraph": "The two plans show a music school as it is now and a proposed refurbishment. Overall, the changes will make the building far more accessible for people with disabilities. In the new plan, the stairs at the front entrance will be taken out and replaced with a wheelchair ramp. The supply cupboard on the ground floor will be converted into toilets, while the stairs at the end of the hallway will remain, though a new lift will be installed nearby. The doorways to the classrooms will be widened, and the trees outside will be cut down to make room for the ramp.",
+  "items": [
+    {"id": "t1-entrance", "type": "task1-word", "front": "entrance", "func": "describe", "meaning": "入り口", "synonyms": ["doorway", "entry", "entranceway"], "collocation": "the front entrance", "register": "active", "priority": "S"},
+    {"id": "t1-doorway", "type": "task1-word", "front": "doorway", "func": "describe", "meaning": "戸口・出入口", "synonyms": ["entrance", "entry"], "collocation": "widen the doorways", "register": "active", "priority": "A"},
+    {"id": "t1-take-out", "type": "task1-word", "front": "take out", "func": "compare", "meaning": "取り除く", "synonyms": ["remove"], "collocation": "the stairs will be taken out", "register": "active", "priority": "A"},
+    {"id": "t1-remove", "type": "task1-word", "front": "remove", "func": "compare", "meaning": "撤去する・取り除く", "synonyms": ["take out"], "collocation": "be removed", "register": "active", "priority": "S"},
+    {"id": "t1-convert-into", "type": "task1-word", "front": "convert into", "func": "compare", "meaning": "〜に改造する", "synonyms": ["change into"], "collocation": "be converted into toilets", "register": "active", "priority": "S"},
+    {"id": "t1-change-into", "type": "task1-word", "front": "change into", "func": "compare", "meaning": "〜に変える", "synonyms": ["convert into"], "collocation": "be changed into a studio", "register": "active", "priority": "A"},
+    {"id": "t1-hallway", "type": "task1-word", "front": "hallway", "func": "describe", "meaning": "廊下", "synonyms": ["corridor", "hall"], "collocation": "the end of the hallway", "register": "active", "priority": "A"},
+    {"id": "t1-corridor", "type": "task1-word", "front": "corridor", "func": "describe", "meaning": "廊下", "synonyms": ["hallway", "hall"], "collocation": "along the corridor", "register": "active", "priority": "A"},
+    {"id": "t1-remain", "type": "task1-word", "front": "remain", "func": "compare", "meaning": "そのまま残る", "synonyms": ["be kept"], "collocation": "the stairs will remain", "register": "active", "priority": "S"},
+    {"id": "t1-be-kept", "type": "task1-word", "front": "be kept", "func": "compare", "meaning": "維持される・残される", "synonyms": ["remain"], "collocation": "be kept in the same place", "register": "active", "priority": "A"},
+    {"id": "t1-cut-down", "type": "task1-word", "front": "cut down", "func": "compare", "meaning": "切り倒す", "synonyms": ["chop down"], "collocation": "trees will be cut down", "register": "active", "priority": "A"},
+    {"id": "t1-chop-down", "type": "task1-word", "front": "chop down", "func": "compare", "meaning": "切り倒す", "synonyms": ["cut down"], "collocation": "chop down trees", "register": "active", "priority": "A"},
+    {"id": "t1-make-room-for", "type": "task1-word", "front": "make room for", "func": "describe", "meaning": "〜のための場所をあける", "synonyms": ["allow room for", "provide space for", "accommodate"], "collocation": "make room for a ramp", "register": "active", "priority": "A"},
+    {"id": "t1-accommodate", "type": "task1-word", "front": "accommodate", "func": "describe", "meaning": "収容する・受け入れる", "synonyms": ["allow room for", "provide space for"], "collocation": "accommodate wheelchairs", "register": "active", "priority": "S"}
+  ],
+  "drills": [
+    {"id": "t1-62-d1", "focus_func": "compare", "highlight": {"note": "入口の撤去"}, "jp": "正面入口の階段は取り除かれ、スロープに置き換えられる。", "target_ids": ["t1-take-out", "t1-entrance"], "model_en": "The stairs at the front entrance will be taken out and replaced with a ramp.", "acceptable": ["removed"]},
+    {"id": "t1-62-d2", "focus_func": "compare", "highlight": {"note": "転用"}, "jp": "備品室はトイレに改装される。", "target_ids": ["t1-convert-into"], "model_en": "The supply cupboard will be converted into toilets.", "acceptable": ["changed into"]},
+    {"id": "t1-62-d3", "focus_func": "compare", "highlight": {"note": "変更なし"}, "jp": "廊下の端の階段はそのまま残る。", "target_ids": ["t1-remain", "t1-hallway"], "model_en": "The stairs at the end of the hallway will remain.", "acceptable": ["be kept", "corridor"]},
+    {"id": "t1-62-d4", "focus_func": "describe", "highlight": {"note": "スペース確保"}, "jp": "スロープのためのスペースを作るため、木は切り倒される。", "target_ids": ["t1-cut-down", "t1-make-room-for"], "model_en": "The trees will be cut down to make room for the ramp.", "acceptable": ["chopped down", "accommodate"]},
+    {"id": "t1-62-d5", "focus_func": "describe", "highlight": {"note": "戸口拡張"}, "jp": "各教室の戸口は広げられる。", "target_ids": ["t1-doorway"], "model_en": "The doorways to the classrooms will be widened.", "acceptable": ["entrances"]}
+  ]
+}

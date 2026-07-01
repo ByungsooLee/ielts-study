@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 87,
+  "themeId": "theme-87",
+  "themeName": "今を語る②（好きな活動）",
+  "version": "bccc220b",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1639,
+      "id": "p-keep-fit",
+      "type": "phrase",
+      "front": "keep fit",
+      "meaning": "健康を維持する",
+      "synonyms": [
+        "stay healthy"
+      ],
+      "collocation": "keep fit by exercising",
+      "pron": {
+        "tts": "keep fit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1640,
+      "id": "p-run-after",
+      "type": "phrase",
+      "front": "run after",
+      "meaning": "〜を追いかける",
+      "synonyms": [
+        "chase"
+      ],
+      "collocation": "run after the ball",
+      "pron": {
+        "tts": "run after"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1641,
+      "id": "p-work-out",
+      "type": "phrase",
+      "front": "work out",
+      "meaning": "運動する",
+      "synonyms": [
+        "exercise"
+      ],
+      "collocation": "a way to work out",
+      "pron": {
+        "tts": "work out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1642,
+      "id": "w-full-on",
+      "type": "word",
+      "front": "full-on",
+      "meaning": "全力の・徹底的な",
+      "synonyms": [
+        "extreme",
+        "all-out"
+      ],
+      "collocation": "so full-on",
+      "pron": {
+        "lookup": "full-on",
+        "tts": "full-on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1643,
+      "id": "p-pass-out",
+      "type": "phrase",
+      "front": "pass out",
+      "meaning": "倒れる・卒倒する",
+      "synonyms": [
+        "lose consciousness",
+        "faint"
+      ],
+      "collocation": "almost pass out",
+      "pron": {
+        "tts": "pass out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1644,
+      "id": "w-knackered",
+      "type": "word",
+      "front": "knackered",
+      "meaning": "へとへとに疲れた",
+      "synonyms": [
+        "done in",
+        "exhausted",
+        "wiped out"
+      ],
+      "collocation": "totally knackered",
+      "pron": {
+        "lookup": "knackered",
+        "tts": "knackered"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1645,
+      "id": "p-from-head-to-toe",
+      "type": "phrase",
+      "front": "from head to toe",
+      "meaning": "頭のてっぺんから足の先まで・全身",
+      "synonyms": [
+        "all over one's whole body"
+      ],
+      "collocation": "ache from head to toe",
+      "pron": {
+        "tts": "from head to toe"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 87,
+      "themeName": "今を語る②（好きな活動）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

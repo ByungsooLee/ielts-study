@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 74,
+  "themeId": "theme-74",
+  "themeName": "オープンプランオフィス①（利点）",
+  "version": "4cb0e22d",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1550,
+      "id": "w-premise",
+      "type": "word",
+      "front": "premise",
+      "meaning": "前提",
+      "synonyms": [
+        "assumption",
+        "presumption"
+      ],
+      "collocation": "the premise behind …",
+      "pron": {
+        "lookup": "premise",
+        "tts": "premise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1551,
+      "id": "w-cooperation",
+      "type": "word",
+      "front": "cooperation",
+      "meaning": "協力",
+      "synonyms": [
+        "collaboration",
+        "mutual support"
+      ],
+      "collocation": "create cooperation",
+      "pron": {
+        "lookup": "cooperation",
+        "tts": "cooperation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1552,
+      "id": "p-put-one-s-heads-together",
+      "type": "phrase",
+      "front": "put one's heads together",
+      "meaning": "集まって相談する",
+      "synonyms": [
+        "share ideas",
+        "bounce ideas off one another"
+      ],
+      "collocation": "put their heads together",
+      "pron": {
+        "tts": "put one's heads together"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1553,
+      "id": "w-spontaneous",
+      "type": "word",
+      "front": "spontaneous",
+      "meaning": "自発的な・とっさの",
+      "synonyms": [
+        "spur-of-the-moment",
+        "impromptu",
+        "off-the-cuff"
+      ],
+      "collocation": "spontaneous conversations",
+      "pron": {
+        "lookup": "spontaneous",
+        "tts": "spontaneous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1554,
+      "id": "w-complain",
+      "type": "word",
+      "front": "complain",
+      "meaning": "不平を言う",
+      "synonyms": [
+        "grumble"
+      ],
+      "collocation": "workers complain that …",
+      "pron": {
+        "lookup": "complain",
+        "tts": "complain"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1555,
+      "id": "p-be-in-fear-of",
+      "type": "phrase",
+      "front": "be in fear of",
+      "meaning": "〜に恐れをなす",
+      "synonyms": [
+        "be frightened of"
+      ],
+      "collocation": "be in fear of change",
+      "pron": {
+        "tts": "be in fear of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1556,
+      "id": "p-eavesdrop-on",
+      "type": "phrase",
+      "front": "eavesdrop on",
+      "meaning": "〜を盗み聞きする",
+      "synonyms": [
+        "listen in on"
+      ],
+      "collocation": "eavesdrop on a conversation",
+      "pron": {
+        "tts": "eavesdrop on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 74,
+      "themeName": "オープンプランオフィス①（利点）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "ielts-speaking",
+  "domain": "english",
+  "name": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "version": "ffb8ee72",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "sections": [
+    {
+      "section": 78,
+      "title": "なぜ今の仕事を選んだのですか？",
+      "file": "english/ielts-speaking/section-78.json",
+      "version": "ef25885e",
+      "itemCount": 8,
+      "drillCount": 3
+    },
+    {
+      "section": 79,
+      "title": "あなたの地域は住みやすい場所ですか？",
+      "file": "english/ielts-speaking/section-79.json",
+      "version": "7e6b7037",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 80,
+      "title": "友達とどのくらい会えますか？",
+      "file": "english/ielts-speaking/section-80.json",
+      "version": "6f62e04f",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 81,
+      "title": "映画館にどのくらい行きますか？",
+      "file": "english/ielts-speaking/section-81.json",
+      "version": "90e9e19b",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 82,
+      "title": "どちらが好きですか？①（靴）",
+      "file": "english/ielts-speaking/section-82.json",
+      "version": "315ba16c",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 83,
+      "title": "どちらが好きですか？②（地図）",
+      "file": "english/ielts-speaking/section-83.json",
+      "version": "4acbf0e0",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 84,
+      "title": "過去を語る①（もらった贈り物）",
+      "file": "english/ielts-speaking/section-84.json",
+      "version": "3ac5d0b7",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 85,
+      "title": "過去を語る②（印象的な授業）",
+      "file": "english/ielts-speaking/section-85.json",
+      "version": "45abb483",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 86,
+      "title": "食を語る①（好きな飲食店）",
+      "file": "english/ielts-speaking/section-86.json",
+      "version": "eb0e05e0",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 87,
+      "title": "今を語る②（好きな活動）",
+      "file": "english/ielts-speaking/section-87.json",
+      "version": "93f2e562",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 88,
+      "title": "未来を語る①（住んでみたい国）",
+      "file": "english/ielts-speaking/section-88.json",
+      "version": "4be133a3",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 89,
+      "title": "人を語る（見習いたい習慣）",
+      "file": "english/ielts-speaking/section-89.json",
+      "version": "1cad9b1c",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 90,
+      "title": "子供たちと伝統文化①（意見）",
+      "file": "english/ielts-speaking/section-90.json",
+      "version": "209b05ca",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 91,
+      "title": "子供たちと伝統文化②（意見）",
+      "file": "english/ielts-speaking/section-91.json",
+      "version": "04a02610",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 92,
+      "title": "テクノロジーと働き方①",
+      "file": "english/ielts-speaking/section-92.json",
+      "version": "999305a2",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 93,
+      "title": "テクノロジーと働き方②",
+      "file": "english/ielts-speaking/section-93.json",
+      "version": "ae9bd549",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 94,
+      "title": "政府と環境保護①",
+      "file": "english/ielts-speaking/section-94.json",
+      "version": "2ce7f5b3",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 95,
+      "title": "政府と環境保護②",
+      "file": "english/ielts-speaking/section-95.json",
+      "version": "bfbe2969",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 96,
+      "title": "社会変化と家族①",
+      "file": "english/ielts-speaking/section-96.json",
+      "version": "adde5f97",
+      "itemCount": 7,
+      "drillCount": 3
+    },
+    {
+      "section": 97,
+      "title": "社会変化と家族②",
+      "file": "english/ielts-speaking/section-97.json",
+      "version": "9ab7fc41",
+      "itemCount": 7,
+      "drillCount": 3
+    }
+  ]
+}

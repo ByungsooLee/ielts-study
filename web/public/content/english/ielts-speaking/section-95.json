@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 95,
+  "themeId": "section-95",
+  "themeName": "政府と環境保護②",
+  "version": "bfbe2969",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 95,
+  "title": "政府と環境保護②",
+  "prompt": "Do you think the government should do more to protect natural areas of beauty in your country?",
+  "prompt_jp": "自然の景勝地の保護について、賛成の立場で述べてください。",
+  "model_answer": [
+    "Oh, absolutely! We need to safeguard natural places in Japan.",
+    "Last year, I went up Mt. Fuji and I was shocked because the summit was covered in rubbish.",
+    "I think the government should ban throwing away litter and impose fines on anyone caught doing it.",
+    "If people can't do that immediately, we should at least phase out plastic bottles."
+  ],
+  "items": [
+    {
+      "id": "sp-absolutely",
+      "type": "speaking-word",
+      "front": "absolutely",
+      "func": "sp-emphasis",
+      "meaning": "その通り・もちろん",
+      "synonyms": [
+        "definitely",
+        "certainly",
+        "unquestionably"
+      ],
+      "collocation": "Oh, absolutely!",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 95,
+      "themeName": "政府と環境保護②"
+    },
+    {
+      "id": "sp-go-up",
+      "type": "speaking-word",
+      "front": "go up",
+      "func": "topic",
+      "meaning": "〜を登る",
+      "synonyms": [
+        "climb up",
+        "hike up"
+      ],
+      "collocation": "go up Mt. Fuji",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 95,
+      "themeName": "政府と環境保護②"
+    },
+    {
+      "id": "sp-rubbish",
+      "type": "speaking-word",
+      "front": "rubbish",
+      "func": "topic",
+      "meaning": "ごみ",
+      "synonyms": [
+        "trash",
+        "garbage"
+      ],
+      "collocation": "covered in rubbish",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 95,
+      "themeName": "政府と環境保護②"
+    },
+    {
+      "id": "sp-litter",
+      "type": "speaking-word",
+      "front": "litter",
+      "func": "topic",
+      "meaning": "（散らかった）ごみ・ごみを捨てる",
+      "synonyms": [
+        "toss on the ground"
+      ],
+      "collocation": "drop litter",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 95,
+      "themeName": "政府と環境保護②"
+    },
+    {
+      "id": "sp-throw-away",
+      "type": "speaking-word",
+      "front": "throw away",
+      "func": "topic",
+      "meaning": "〜を捨てる",
+      "synonyms": [
+        "throw out",
+        "dispose of"
+      ],
+      "collocation": "throw away rubbish",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 95,
+      "themeName": "政府と環境保護②"
+    },
+    {
+      "id": "sp-ban",
+      "type": "speaking-word",
+      "front": "ban",
+      "func": "topic",
+      "meaning": "〜を禁止する",
+      "synonyms": [
+        "prohibit",
+        "officially forbid"
+      ],
+      "collocation": "ban plastic bottles",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 95,
+      "themeName": "政府と環境保護②"
+    },
+    {
+      "id": "sp-phase-out",
+      "type": "speaking-word",
+      "front": "phase out",
+      "func": "topic",
+      "meaning": "〜を段階的に廃止する",
+      "synonyms": [
+        "slowly get rid of"
+      ],
+      "collocation": "phase out plastic bottles",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 95,
+      "themeName": "政府と環境保護②"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-95-d1",
+      "focus_func": "sp-emphasis",
+      "jp": "もちろん！日本の自然の場所を守る必要がある。",
+      "target_ids": [
+        "sp-absolutely"
+      ],
+      "model_en": "Oh, absolutely! We need to safeguard natural places in Japan.",
+      "acceptable": [
+        "definitely",
+        "certainly"
+      ]
+    },
+    {
+      "id": "sp-95-d2",
+      "focus_func": "topic",
+      "jp": "去年富士山に登ったが、頂上がごみで覆われていて驚いた。",
+      "target_ids": [
+        "sp-go-up",
+        "sp-rubbish"
+      ],
+      "model_en": "Last year I went up Mt. Fuji and was shocked the summit was covered in rubbish.",
+      "acceptable": [
+        "climbed up",
+        "trash"
+      ]
+    },
+    {
+      "id": "sp-95-d3",
+      "focus_func": "topic",
+      "jp": "政府はごみのポイ捨てを禁止し、すぐできないなら少なくともペットボトルを段階的に廃止すべきだ。",
+      "target_ids": [
+        "sp-ban",
+        "sp-throw-away",
+        "sp-phase-out"
+      ],
+      "model_en": "The government should ban throwing away litter and phase out plastic bottles.",
+      "acceptable": [
+        "prohibit",
+        "dispose of"
+      ]
+    }
+  ]
+}

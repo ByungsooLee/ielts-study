@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 89,
+  "themeId": "theme-89",
+  "themeName": "人を語る（見習いたい習慣）",
+  "version": "a309c0c6",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1653,
+      "id": "p-get-down",
+      "type": "phrase",
+      "front": "get down",
+      "meaning": "〜を落胆させる",
+      "synonyms": [
+        "depress",
+        "weigh down"
+      ],
+      "collocation": "rainy weather gets me down",
+      "pron": {
+        "tts": "get down"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1654,
+      "id": "w-congested",
+      "type": "word",
+      "front": "congested",
+      "meaning": "混雑した",
+      "synonyms": [
+        "packed",
+        "crowded",
+        "jam-packed"
+      ],
+      "collocation": "congested trains",
+      "pron": {
+        "lookup": "congested",
+        "tts": "congested"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1655,
+      "id": "p-get-on-one-s-nerves",
+      "type": "phrase",
+      "front": "get on one's nerves",
+      "meaning": "〜をイライラさせる",
+      "synonyms": [
+        "bother",
+        "irritate",
+        "annoy"
+      ],
+      "collocation": "trains get on my nerves",
+      "pron": {
+        "tts": "get on one's nerves"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1656,
+      "id": "p-calm-and-collected",
+      "type": "phrase",
+      "front": "calm and collected",
+      "meaning": "冷静で落ち着いた",
+      "synonyms": [
+        "poised",
+        "even-tempered",
+        "restrained"
+      ],
+      "collocation": "stay calm and collected",
+      "pron": {
+        "tts": "calm and collected"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1657,
+      "id": "p-brush-off",
+      "type": "phrase",
+      "front": "brush off",
+      "meaning": "〜を無視する・受け流す",
+      "synonyms": [
+        "shrug off",
+        "ignore",
+        "brush aside"
+      ],
+      "collocation": "brush it off",
+      "pron": {
+        "tts": "brush off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1658,
+      "id": "p-keep-on",
+      "type": "phrase",
+      "front": "keep on",
+      "meaning": "〜し続ける",
+      "synonyms": [
+        "go on",
+        "continue"
+      ],
+      "collocation": "keep on smiling",
+      "pron": {
+        "tts": "keep on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1659,
+      "id": "w-reckon",
+      "type": "word",
+      "front": "reckon",
+      "meaning": "〜だと思う",
+      "synonyms": [
+        "suppose"
+      ],
+      "collocation": "I reckon that …",
+      "pron": {
+        "lookup": "reckon",
+        "tts": "reckon"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 89,
+      "themeName": "人を語る（見習いたい習慣）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

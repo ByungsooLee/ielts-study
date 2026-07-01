@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 77,
+  "themeId": "theme-77",
+  "themeName": "低開発国と観光業②（否定・結論）",
+  "version": "e42fda84",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1571,
+      "id": "p-point-out",
+      "type": "phrase",
+      "front": "point out",
+      "meaning": "指摘する",
+      "synonyms": [
+        "call attention to",
+        "draw attention to"
+      ],
+      "collocation": "it is worth pointing out that …",
+      "pron": {
+        "tts": "point out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1572,
+      "id": "w-wage",
+      "type": "word",
+      "front": "wage",
+      "meaning": "賃金",
+      "synonyms": [
+        "income",
+        "earnings",
+        "salary",
+        "pay"
+      ],
+      "collocation": "higher wages in tourism",
+      "pron": {
+        "lookup": "wage",
+        "tts": "wage"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1573,
+      "id": "p-grow-in-popularity",
+      "type": "phrase",
+      "front": "grow in popularity",
+      "meaning": "人気が高まる",
+      "synonyms": [
+        "take off",
+        "make a name for itself"
+      ],
+      "collocation": "areas grow in popularity",
+      "pron": {
+        "tts": "grow in popularity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1574,
+      "id": "p-push-out",
+      "type": "phrase",
+      "front": "push out",
+      "meaning": "追い出す",
+      "synonyms": [
+        "force out",
+        "drive out"
+      ],
+      "collocation": "push out local people",
+      "pron": {
+        "tts": "push out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1575,
+      "id": "w-transpire",
+      "type": "word",
+      "front": "transpire",
+      "meaning": "起こる・生じる",
+      "synonyms": [
+        "come about",
+        "occur"
+      ],
+      "collocation": "cultural change transpires",
+      "pron": {
+        "lookup": "transpire",
+        "tts": "transpire"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1576,
+      "id": "w-embrace",
+      "type": "word",
+      "front": "embrace",
+      "meaning": "受け入れる",
+      "synonyms": [
+        "adopt"
+      ],
+      "collocation": "embrace new traditions",
+      "pron": {
+        "lookup": "embrace",
+        "tts": "embrace"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1577,
+      "id": "w-taste",
+      "type": "word",
+      "front": "taste",
+      "meaning": "好み・嗜好",
+      "synonyms": [
+        "preference"
+      ],
+      "collocation": "a taste for hip-hop",
+      "pron": {
+        "lookup": "taste",
+        "tts": "taste"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 77,
+      "themeName": "低開発国と観光業②（否定・結論）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

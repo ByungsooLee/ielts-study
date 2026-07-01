@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 72,
+  "themeId": "theme-72",
+  "themeName": "小学生の外国語学習①（賛成）",
+  "version": "3157ad3f",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1537,
+      "id": "w-concede",
+      "type": "word",
+      "front": "concede",
+      "meaning": "（しぶしぶ）認める",
+      "synonyms": [
+        "admit"
+      ],
+      "collocation": "I must concede that …",
+      "pron": {
+        "lookup": "concede",
+        "tts": "concede"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1538,
+      "id": "p-make-sense",
+      "type": "phrase",
+      "front": "make sense",
+      "meaning": "理にかなう",
+      "synonyms": [
+        "be justifiable",
+        "be understandable"
+      ],
+      "collocation": "it makes sense to …",
+      "pron": {
+        "tts": "make sense"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1539,
+      "id": "w-hypothesis",
+      "type": "word",
+      "front": "hypothesis",
+      "meaning": "仮説",
+      "synonyms": [
+        "assumption",
+        "theory",
+        "belief"
+      ],
+      "collocation": "a controversial hypothesis",
+      "pron": {
+        "lookup": "hypothesis",
+        "tts": "hypothesis"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1540,
+      "id": "p-job-market",
+      "type": "phrase",
+      "front": "job market",
+      "meaning": "求人市場",
+      "synonyms": [
+        "labour market"
+      ],
+      "collocation": "the future job market",
+      "pron": {
+        "tts": "job market"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1541,
+      "id": "p-be-on-the-lookout-for",
+      "type": "phrase",
+      "front": "be on the lookout for",
+      "meaning": "〜を注意して探している",
+      "synonyms": [
+        "keep an eye out for"
+      ],
+      "collocation": "employers are on the lookout for",
+      "pron": {
+        "tts": "be on the lookout for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1542,
+      "id": "p-be-desired",
+      "type": "phrase",
+      "front": "be desired",
+      "meaning": "求められている",
+      "synonyms": [
+        "be coveted"
+      ],
+      "collocation": "skills that are desired",
+      "pron": {
+        "tts": "be desired"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1543,
+      "id": "w-obsolete",
+      "type": "word",
+      "front": "obsolete",
+      "meaning": "廃れた・時代遅れの",
+      "synonyms": [
+        "out-of-date",
+        "antiquated"
+      ],
+      "collocation": "become obsolete",
+      "pron": {
+        "lookup": "obsolete",
+        "tts": "obsolete"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 72,
+      "themeName": "小学生の外国語学習①（賛成）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

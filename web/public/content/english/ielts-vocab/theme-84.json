@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 84,
+  "themeId": "theme-84",
+  "themeName": "過去を語る①（もらった贈り物）",
+  "version": "028d7631",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1619,
+      "id": "w-floored",
+      "type": "word",
+      "front": "floored",
+      "meaning": "驚いて言葉も出ない",
+      "synonyms": [
+        "speechless",
+        "stunned",
+        "overwhelmed"
+      ],
+      "collocation": "I was completely floored",
+      "pron": {
+        "lookup": "floored",
+        "tts": "floored"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1620,
+      "id": "w-awesome",
+      "type": "word",
+      "front": "awesome",
+      "meaning": "素晴らしい",
+      "synonyms": [
+        "fantastic",
+        "superb",
+        "amazing"
+      ],
+      "collocation": "an awesome bike",
+      "pron": {
+        "lookup": "awesome",
+        "tts": "awesome"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1621,
+      "id": "p-as-black-as-coal",
+      "type": "phrase",
+      "front": "as black as coal",
+      "meaning": "真っ黒の",
+      "synonyms": [
+        "pitch-black",
+        "jet-black"
+      ],
+      "collocation": "as black as coal",
+      "pron": {
+        "tts": "as black as coal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1622,
+      "id": "p-as-clean-as-a-whistle",
+      "type": "phrase",
+      "front": "as clean as a whistle",
+      "meaning": "ぴかぴかの・全くきれいで",
+      "synonyms": [
+        "spotless"
+      ],
+      "collocation": "as clean as a whistle",
+      "pron": {
+        "tts": "as clean as a whistle"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1623,
+      "id": "p-over-the-moon",
+      "type": "phrase",
+      "front": "over the moon",
+      "meaning": "大喜びで",
+      "synonyms": [
+        "thrilled to bits",
+        "chuffed to bits",
+        "as pleased as Punch"
+      ],
+      "collocation": "I was over the moon",
+      "pron": {
+        "tts": "over the moon"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1624,
+      "id": "w-straightaway",
+      "type": "word",
+      "front": "straightaway",
+      "meaning": "すぐに",
+      "synonyms": [
+        "right away",
+        "immediately",
+        "right off the bat"
+      ],
+      "collocation": "ride it straightaway",
+      "pron": {
+        "lookup": "straightaway",
+        "tts": "straightaway"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1625,
+      "id": "p-pump-up",
+      "type": "phrase",
+      "front": "pump up",
+      "meaning": "〜に空気を入れる",
+      "synonyms": [
+        "inflate",
+        "blow up",
+        "put air in"
+      ],
+      "collocation": "pump up the tyres",
+      "pron": {
+        "tts": "pump up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 84,
+      "themeName": "過去を語る①（もらった贈り物）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

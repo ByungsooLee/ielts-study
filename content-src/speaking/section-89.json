@@ -1,0 +1,30 @@
+{
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "section": 89,
+  "title": "人を語る（見習いたい習慣）",
+  "question": "Describe a habit or characteristic that someone you know has that you would like to adopt.",
+  "question_jp": "あなたが見習いたいと思う、知人の習慣や特徴について話してください。",
+  "model_answer": [
+    "I've got a mate who lives life like he doesn't have a care in the world.",
+    "For example, crowded trains that get on my nerves in the morning don't bother him at all.",
+    "He just stays calm and collected and brushes it off, keeping on smiling.",
+    "I reckon I like him so much because I wish I were more like him."
+  ],
+  "items": [
+    {"id": "sp-get-down", "type": "speaking-word", "front": "get down", "func": "topic", "meaning": "〜を落胆させる", "synonyms": ["depress", "weigh down"], "collocation": "rainy weather gets me down", "priority": "A"},
+    {"id": "sp-congested", "type": "speaking-word", "front": "congested", "func": "topic", "meaning": "混雑した", "synonyms": ["packed", "crowded", "jam-packed"], "collocation": "congested trains", "priority": "A"},
+    {"id": "sp-get-on-ones-nerves", "type": "speaking-word", "front": "get on one's nerves", "func": "sp-idiom", "meaning": "〜をイライラさせる", "synonyms": ["bother", "irritate", "annoy"], "collocation": "trains get on my nerves", "priority": "S"},
+    {"id": "sp-calm-and-collected", "type": "speaking-word", "front": "calm and collected", "func": "topic", "meaning": "冷静で落ち着いた", "synonyms": ["poised", "even-tempered", "restrained"], "collocation": "stay calm and collected", "priority": "A"},
+    {"id": "sp-brush-off", "type": "speaking-word", "front": "brush off", "func": "topic", "meaning": "〜を無視する・受け流す", "synonyms": ["shrug off", "ignore", "brush aside"], "collocation": "brush it off", "priority": "A"},
+    {"id": "sp-keep-on", "type": "speaking-word", "front": "keep on", "func": "topic", "meaning": "〜し続ける", "synonyms": ["go on", "continue"], "collocation": "keep on smiling", "priority": "A"},
+    {"id": "sp-reckon", "type": "speaking-word", "front": "reckon", "func": "sp-hedge", "meaning": "〜だと思う", "synonyms": ["suppose"], "collocation": "I reckon that …", "priority": "S"}
+  ],
+  "drills": [
+    {"id": "sp-89-d1", "focus_func": "sp-idiom", "jp": "朝の混雑した電車は私をイライラさせるが、彼は全く気にしない。", "target_ids": ["sp-get-on-ones-nerves", "sp-congested"], "model_en": "Congested morning trains get on my nerves, but they don't bother him at all.", "acceptable": ["crowded", "irritate"]},
+    {"id": "sp-89-d2", "focus_func": "topic", "jp": "彼は冷静に落ち着いて受け流し、笑い続ける。", "target_ids": ["sp-calm-and-collected", "sp-brush-off", "sp-keep-on"], "model_en": "He stays calm and collected, brushes it off and keeps on smiling.", "acceptable": ["even-tempered", "shrugs off"]},
+    {"id": "sp-89-d3", "focus_func": "sp-hedge", "jp": "彼のようになりたいから、彼が好きなんだと思う。", "target_ids": ["sp-reckon"], "model_en": "I reckon I like him because I wish I were more like him.", "acceptable": ["suppose"]}
+  ]
+}

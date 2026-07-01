@@ -1,0 +1,39 @@
+{
+  "domain": "english",
+  "collection": "ielts-task1",
+  "collectionName": "IELTS図解描写(Task1)",
+  "kind": "task1",
+  "section": 65,
+  "title": "ペットボトルのリサイクル",
+  "chart": {
+    "type": "process",
+    "caption": "The flowchart shows how PET bottles are recycled.",
+    "svg": "<svg viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='フローチャート：ペットボトルのリサイクル'><title>PET bottle recycling</title><g font-size='8' fill='#555' text-anchor='middle'><rect x='20' y='60' width='55' height='34' fill='none' stroke='#7c9cc4' stroke-width='1.5'/><text x='47' y='80'>collect</text><rect x='95' y='60' width='55' height='34' fill='none' stroke='#7c9cc4' stroke-width='1.5'/><text x='122' y='75'>sort by</text><text x='122' y='86'>size/colour</text><rect x='170' y='60' width='55' height='34' fill='none' stroke='#7c9cc4' stroke-width='1.5'/><text x='197' y='80'>chop up</text><rect x='245' y='60' width='55' height='34' fill='none' stroke='#7c9cc4' stroke-width='1.5'/><text x='272' y='75'>pack &amp;</text><text x='272' y='86'>resell</text><path d='M75,77 L93,77 M150,77 L168,77 M225,77 L243,77' stroke='#c96442' fill='none' marker-end='url(#a)'/><defs><marker id='a' markerWidth='6' markerHeight='6' refX='5' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#c96442'/></marker></defs></g></svg>",
+    "series": [
+      {"name": "Recycling process", "func": ["describe"]}
+    ]
+  },
+  "model_paragraph": "The flowchart shows how PET bottles are recycled. Overall, this is a fairly simple process with six steps, running from the consumer through processing and back to the consumer. First, bottles are collected and transported by lorry to warehouses, where they are stored. Next, they are inspected and sorted by size and colour before being sent on for further processing. The plastic is then chopped up into small pieces and scrubbed clean. Finally, the flakes are packed into boxes, made into new products and resold.",
+  "items": [
+    {"id": "t1-diagram", "type": "task1-word", "front": "diagram", "func": "describe", "meaning": "図・図表", "synonyms": ["representation", "flowchart"], "collocation": "the diagram depicts", "register": "active", "priority": "S"},
+    {"id": "t1-flowchart", "type": "task1-word", "front": "flowchart", "func": "describe", "meaning": "流れ図", "synonyms": ["diagram", "representation"], "collocation": "the flowchart illustrates", "register": "active", "priority": "A"},
+    {"id": "t1-step", "type": "task1-word", "front": "step", "func": "describe", "meaning": "段階・手順", "synonyms": ["stage"], "collocation": "a process with six steps", "register": "active", "priority": "S"},
+    {"id": "t1-consumer", "type": "task1-word", "front": "consumer", "func": "describe", "meaning": "消費者", "synonyms": ["customer", "purchaser"], "collocation": "from the consumer", "register": "active", "priority": "S"},
+    {"id": "t1-customer", "type": "task1-word", "front": "customer", "func": "describe", "meaning": "客", "synonyms": ["consumer", "purchaser"], "collocation": "the customer deposits bottles", "register": "active", "priority": "A"},
+    {"id": "t1-sort", "type": "task1-word", "front": "sort", "func": "describe", "meaning": "分類する", "synonyms": ["organise", "categorise", "group"], "collocation": "sorted by size and colour", "register": "active", "priority": "S"},
+    {"id": "t1-categorise", "type": "task1-word", "front": "categorise", "func": "describe", "meaning": "分類する", "synonyms": ["sort", "group", "organise"], "collocation": "categorise by colour", "register": "active", "priority": "A"},
+    {"id": "t1-send-on", "type": "task1-word", "front": "send on", "func": "describe", "meaning": "先へ送る", "synonyms": ["forward"], "collocation": "be sent on for processing", "register": "active", "priority": "A"},
+    {"id": "t1-forward", "type": "task1-word", "front": "forward", "func": "describe", "meaning": "転送する・送る", "synonyms": ["send on"], "collocation": "forwarded to a factory", "register": "active", "priority": "A"},
+    {"id": "t1-chop-up", "type": "task1-word", "front": "chop up", "func": "describe", "meaning": "切り刻む", "synonyms": ["shred"], "collocation": "chopped up into pieces", "register": "active", "priority": "A"},
+    {"id": "t1-shred", "type": "task1-word", "front": "shred", "func": "describe", "meaning": "細断する", "synonyms": ["chop up"], "collocation": "shredded into pieces", "register": "active", "priority": "A"},
+    {"id": "t1-pack", "type": "task1-word", "front": "pack", "func": "describe", "meaning": "詰める", "synonyms": ["load"], "collocation": "packed into boxes", "register": "active", "priority": "A"},
+    {"id": "t1-load", "type": "task1-word", "front": "load", "func": "describe", "meaning": "積み込む", "synonyms": ["pack"], "collocation": "load the bottles onto trucks", "register": "active", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "t1-65-d1", "focus_func": "describe", "highlight": {"note": "図と段階数"}, "jp": "この図は6つの段階から成る工程を示している。", "target_ids": ["t1-diagram", "t1-step"], "model_en": "The diagram shows a process with six steps.", "acceptable": ["flowchart", "stages"]},
+    {"id": "t1-65-d2", "focus_func": "describe", "highlight": {"note": "登場人物"}, "jp": "消費者がボトルを回収箱に入れる。", "target_ids": ["t1-consumer"], "model_en": "The consumer deposits bottles into receptacles.", "acceptable": ["customer"]},
+    {"id": "t1-65-d3", "focus_func": "describe", "highlight": {"note": "分類"}, "jp": "ボトルは大きさと色で分類される。", "target_ids": ["t1-sort"], "model_en": "The bottles are sorted by size and colour.", "acceptable": ["categorised", "grouped"]},
+    {"id": "t1-65-d4", "focus_func": "describe", "highlight": {"note": "搬送と細断"}, "jp": "その後、プラスチックは小さく切り刻まれ、次の工場へ送られる。", "target_ids": ["t1-chop-up", "t1-send-on"], "model_en": "The plastic is then chopped up and sent on to the next factory.", "acceptable": ["shredded", "forwarded"]},
+    {"id": "t1-65-d5", "focus_func": "describe", "highlight": {"note": "梱包"}, "jp": "作業員はフレークを箱に詰める。", "target_ids": ["t1-pack"], "model_en": "The workers pack the flakes into boxes.", "acceptable": ["load"]}
+  ]
+}

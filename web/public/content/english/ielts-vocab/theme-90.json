@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 90,
+  "themeId": "theme-90",
+  "themeName": "子供たちと伝統文化①（意見）",
+  "version": "9c22e1d3",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1660,
+      "id": "p-be-really-into",
+      "type": "phrase",
+      "front": "be really into",
+      "meaning": "〜に夢中である・大ファンである",
+      "synonyms": [
+        "be a massive fan of"
+      ],
+      "collocation": "be really into culture",
+      "pron": {
+        "tts": "be really into"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1661,
+      "id": "p-grow-out-of",
+      "type": "phrase",
+      "front": "grow out of",
+      "meaning": "成長して〜から卒業する",
+      "synonyms": [
+        "outgrow"
+      ],
+      "collocation": "grow out of festivals",
+      "pron": {
+        "tts": "grow out of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1662,
+      "id": "p-give-up",
+      "type": "phrase",
+      "front": "give up",
+      "meaning": "諦める・やめる",
+      "synonyms": [
+        "quit",
+        "call it quits"
+      ],
+      "collocation": "give up a hobby",
+      "pron": {
+        "tts": "give up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1663,
+      "id": "p-stick-in-one-s-memory",
+      "type": "phrase",
+      "front": "stick in one's memory",
+      "meaning": "記憶に焼きつく",
+      "synonyms": [
+        "be very memorable",
+        "leave a lasting impression"
+      ],
+      "collocation": "stick in my memory",
+      "pron": {
+        "tts": "stick in one's memory"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1664,
+      "id": "p-hold-back-from",
+      "type": "phrase",
+      "front": "hold back from",
+      "meaning": "〜から〜を遠ざける・妨げる",
+      "synonyms": [
+        "stop from",
+        "keep from"
+      ],
+      "collocation": "hold them back from enjoying it",
+      "pron": {
+        "tts": "hold back from"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1665,
+      "id": "w-enlighten",
+      "type": "word",
+      "front": "enlighten",
+      "meaning": "〜に教える・啓発する",
+      "synonyms": [
+        "teach about",
+        "make aware of"
+      ],
+      "collocation": "enlighten kids about",
+      "pron": {
+        "lookup": "enlighten",
+        "tts": "enlighten"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1666,
+      "id": "w-well-rounded",
+      "type": "word",
+      "front": "well-rounded",
+      "meaning": "多才な・幅広い教養のある",
+      "synonyms": [
+        "informed",
+        "knowledgeable"
+      ],
+      "collocation": "become well-rounded",
+      "pron": {
+        "lookup": "well-rounded",
+        "tts": "well-rounded"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 90,
+      "themeName": "子供たちと伝統文化①（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

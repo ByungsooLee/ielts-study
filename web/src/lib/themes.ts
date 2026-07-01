@@ -10,6 +10,9 @@ export const CATEGORY_LABELS: Record<ItemType, string> = {
   conversation: "会話",
   concept: "概念",
   interview: "面接",
+  "task1-word": "図解描写",
+  "writing-word": "意見(W)",
+  "speaking-word": "意見(S)",
 };
 
 export const CATEGORY_STYLES: Record<
@@ -51,6 +54,24 @@ export const CATEGORY_STYLES: Record<
     inactive: "bg-rose-50 text-rose-800 hover:bg-rose-100 dark:bg-rose-950 dark:text-rose-200 dark:hover:bg-rose-900",
     ring: "ring-2 ring-rose-400",
     badge: "bg-rose-100 text-rose-800 dark:bg-rose-900 dark:text-rose-200",
+  },
+  "task1-word": {
+    active: "bg-sky-600 text-white",
+    inactive: "bg-sky-50 text-sky-800 hover:bg-sky-100 dark:bg-sky-950 dark:text-sky-200 dark:hover:bg-sky-900",
+    ring: "ring-2 ring-sky-400",
+    badge: "bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200",
+  },
+  "writing-word": {
+    active: "bg-indigo-600 text-white",
+    inactive: "bg-indigo-50 text-indigo-800 hover:bg-indigo-100 dark:bg-indigo-950 dark:text-indigo-200 dark:hover:bg-indigo-900",
+    ring: "ring-2 ring-indigo-400",
+    badge: "bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200",
+  },
+  "speaking-word": {
+    active: "bg-fuchsia-600 text-white",
+    inactive: "bg-fuchsia-50 text-fuchsia-800 hover:bg-fuchsia-100 dark:bg-fuchsia-950 dark:text-fuchsia-200 dark:hover:bg-fuchsia-900",
+    ring: "ring-2 ring-fuchsia-400",
+    badge: "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-900 dark:text-fuchsia-200",
   },
 };
 

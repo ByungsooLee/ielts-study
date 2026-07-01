@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 91,
+  "themeId": "theme-91",
+  "themeName": "子供たちと伝統文化②（意見）",
+  "version": "4b14671a",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1667,
+      "id": "p-fit-in-with",
+      "type": "phrase",
+      "front": "fit in with",
+      "meaning": "〜に溶け込む",
+      "synonyms": [
+        "be accepted by"
+      ],
+      "collocation": "fit in with peers",
+      "pron": {
+        "tts": "fit in with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1668,
+      "id": "p-feel-left-out",
+      "type": "phrase",
+      "front": "feel left out",
+      "meaning": "仲間外れにされていると感じる",
+      "synonyms": [
+        "feel excluded",
+        "feel ostracised",
+        "feel shunned"
+      ],
+      "collocation": "feel left out",
+      "pron": {
+        "tts": "feel left out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1669,
+      "id": "w-bedrock",
+      "type": "word",
+      "front": "bedrock",
+      "meaning": "基盤・根幹",
+      "synonyms": [
+        "foundation",
+        "basis",
+        "backbone",
+        "core"
+      ],
+      "collocation": "the bedrock of society",
+      "pron": {
+        "lookup": "bedrock",
+        "tts": "bedrock"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1670,
+      "id": "p-hold-dear",
+      "type": "phrase",
+      "front": "hold dear",
+      "meaning": "〜を大切にする",
+      "synonyms": [
+        "treasure",
+        "cherish"
+      ],
+      "collocation": "hold customs dear",
+      "pron": {
+        "tts": "hold dear"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1671,
+      "id": "p-get-across",
+      "type": "phrase",
+      "front": "get across",
+      "meaning": "〜を理解させる・伝える",
+      "synonyms": [
+        "make clear",
+        "make understood"
+      ],
+      "collocation": "get the idea across",
+      "pron": {
+        "tts": "get across"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1672,
+      "id": "w-matter",
+      "type": "word",
+      "front": "matter",
+      "meaning": "重要である",
+      "synonyms": [
+        "make a difference"
+      ],
+      "collocation": "why it matters",
+      "pron": {
+        "lookup": "matter",
+        "tts": "matter"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1673,
+      "id": "p-keep-alive",
+      "type": "phrase",
+      "front": "keep alive",
+      "meaning": "〜を存続させる",
+      "synonyms": [
+        "preserve",
+        "uphold"
+      ],
+      "collocation": "keep traditions alive",
+      "pron": {
+        "tts": "keep alive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 91,
+      "themeName": "子供たちと伝統文化②（意見）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

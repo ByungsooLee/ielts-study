@@ -1,0 +1,34 @@
+{
+  "domain": "english",
+  "collection": "ielts-writing",
+  "collectionName": "IELTS意見エッセイ(Writing Task2)",
+  "kind": "writing",
+  "section": 71,
+  "title": "ギャップイヤー②（欠点・自分の意見）",
+  "prompt": "In some countries, young people are encouraged to work or travel for a year between finishing high school and starting university. Discuss the advantages and disadvantages.",
+  "prompt_jp": "ギャップイヤーの欠点と自分の意見を述べよ。",
+  "outline_jp": ["利点: 実社会で学び大人の生活を味わう", "例: 時間を守るなど実践的スキル", "譲歩: ホームシックになりやすい", "欠点: 勉強の習慣に戻りにくい", "結論: 有益だが親と相談を"],
+  "model_answer": [
+    "One advantage of a gap year is that you learn in the real world, getting a taste of adult life.",
+    "For instance, work teaches punctuality, such as arriving on time every day.",
+    "Admittedly, there are disadvantages: many people get homesick after a few weeks abroad.",
+    "There is also a risk that people forget how to study and find it hard to get back into the habit of doing homework.",
+    "In conclusion, although a gap year builds useful life skills, young people should discuss setting off with their parents."
+  ],
+  "items": [
+    {"id": "w2-for-example", "type": "writing-word", "front": "for example", "func": "example", "meaning": "例えば", "synonyms": ["for instance", "a case in point is"], "collocation": "for example, …", "priority": "A"},
+    {"id": "w2-admittedly", "type": "writing-word", "front": "admittedly", "func": "concession", "meaning": "確かに（〜だが）", "synonyms": ["it is true that", "granted"], "collocation": "admittedly, …", "priority": "S"},
+    {"id": "w2-in-conclusion", "type": "writing-word", "front": "in conclusion", "func": "conclusion", "meaning": "結論として", "synonyms": ["to conclude", "to sum up"], "collocation": "in conclusion, …", "priority": "S"},
+    {"id": "w2-get-a-taste-of", "type": "writing-word", "front": "get a taste of", "func": "topic", "meaning": "〜を少し経験する", "synonyms": ["briefly experience"], "collocation": "get a taste of adult life", "priority": "A"},
+    {"id": "w2-arrive-on-time", "type": "writing-word", "front": "arrive on time", "func": "topic", "meaning": "時間通りに到着する", "synonyms": ["be punctual"], "collocation": "arrive on time for work", "priority": "A"},
+    {"id": "w2-get-homesick", "type": "writing-word", "front": "get homesick", "func": "topic", "meaning": "ホームシックになる", "synonyms": ["miss home"], "collocation": "get homesick abroad", "priority": "A"},
+    {"id": "w2-get-back-into-the-habit-of", "type": "writing-word", "front": "get back into the habit of", "func": "topic", "meaning": "〜の習慣に戻る", "synonyms": ["return to the practice of", "get used to again"], "collocation": "get back into the habit of studying", "priority": "A"},
+    {"id": "w2-set-off", "type": "writing-word", "front": "set off", "func": "topic", "meaning": "出発する・始める", "synonyms": ["take off"], "collocation": "before setting off", "priority": "A"},
+    {"id": "w2-impactful", "type": "writing-word", "front": "impactful", "func": "topic", "meaning": "影響力の強い", "synonyms": ["moving", "life-changing", "meaningful"], "collocation": "a life-changing experience", "priority": "A"}
+  ],
+  "drills": [
+    {"id": "w2-71-d1", "focus_func": "topic", "jp": "ギャップイヤーの利点は、実社会で学び大人の生活を少し味わえることだ。", "target_ids": ["w2-get-a-taste-of"], "model_en": "One advantage of a gap year is learning in the real world and getting a taste of adult life.", "acceptable": ["briefly experiencing"]},
+    {"id": "w2-71-d2", "focus_func": "concession", "jp": "確かに欠点もあり、多くの人が数週間で海外でホームシックになる。", "target_ids": ["w2-admittedly", "w2-get-homesick"], "model_en": "Admittedly, there are disadvantages: many people get homesick abroad after a few weeks.", "acceptable": ["it is true that", "miss home"]},
+    {"id": "w2-71-d3", "focus_func": "conclusion", "jp": "結論として、有益だが、若者は出発前に親と相談すべきだ。", "target_ids": ["w2-in-conclusion", "w2-set-off"], "model_en": "In conclusion, although it is useful, young people should discuss setting off with their parents.", "acceptable": ["to conclude"]}
+  ]
+}

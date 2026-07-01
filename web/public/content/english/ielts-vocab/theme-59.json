@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 59,
+  "themeId": "theme-59",
+  "themeName": "英国のエネルギー使用量",
+  "version": "684691f8",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1422,
+      "id": "w-double",
+      "type": "word",
+      "front": "double",
+      "meaning": "倍増する",
+      "synonyms": [
+        "increase twofold"
+      ],
+      "collocation": "double from 60 to 130",
+      "examples": [
+        {
+          "en": "Petrol began at 60 units and doubled to 130 by 2000."
+        }
+      ],
+      "pron": {
+        "lookup": "double",
+        "tts": "double"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1423,
+      "id": "w-reach",
+      "type": "word",
+      "front": "reach",
+      "meaning": "（値に）達する",
+      "synonyms": [
+        "hit"
+      ],
+      "collocation": "reach 100 units",
+      "examples": [
+        {
+          "en": "Today only 25 units are used, and this fuel is estimated to fluctuate slightly between 20 and 25, while solar is expected to reach higher levels."
+        }
+      ],
+      "pron": {
+        "lookup": "reach",
+        "tts": "reach"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1424,
+      "id": "p-be-projected-to",
+      "type": "phrase",
+      "front": "be projected to",
+      "meaning": "〜すると予測される",
+      "synonyms": [
+        "be estimated to",
+        "be predicted to"
+      ],
+      "collocation": "be projected to remain steady",
+      "examples": [
+        {
+          "en": "It is projected to remain steady until 2050."
+        }
+      ],
+      "pron": {
+        "tts": "be projected to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1425,
+      "id": "p-remain-steady",
+      "type": "phrase",
+      "front": "remain steady",
+      "meaning": "一定に保たれる",
+      "synonyms": [
+        "stay constant",
+        "remain static",
+        "hover"
+      ],
+      "collocation": "remain steady until 2050",
+      "examples": [
+        {
+          "en": "It is projected to remain steady until 2050."
+        }
+      ],
+      "pron": {
+        "tts": "remain steady"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1426,
+      "id": "w-uptick",
+      "type": "word",
+      "front": "uptick",
+      "meaning": "上昇・急増",
+      "synonyms": [
+        "hike",
+        "boost",
+        "upsurge"
+      ],
+      "collocation": "a brief uptick",
+      "examples": [
+        {
+          "en": "Coal and gas saw a brief uptick to 100 units in 1975, but then plunged to 50 by 2000."
+        }
+      ],
+      "pron": {
+        "lookup": "uptick",
+        "tts": "uptick"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1427,
+      "id": "w-plunge",
+      "type": "word",
+      "front": "plunge",
+      "meaning": "急落する",
+      "synonyms": [
+        "plummet",
+        "nose-dive",
+        "tumble"
+      ],
+      "collocation": "plunge to 50 units",
+      "examples": [
+        {
+          "en": "Coal and gas saw a brief uptick to 100 units in 1975, but then plunged to 50 by 2000."
+        }
+      ],
+      "pron": {
+        "lookup": "plunge",
+        "tts": "plunge"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1428,
+      "id": "p-fluctuate-slightly",
+      "type": "phrase",
+      "front": "fluctuate slightly",
+      "meaning": "わずかに変動する",
+      "synonyms": [
+        "waver"
+      ],
+      "collocation": "fluctuate slightly between 20 and 25",
+      "examples": [
+        {
+          "en": "Today only 25 units are used, and this fuel is estimated to fluctuate slightly between 20 and 25, while solar is expected to reach higher levels."
+        }
+      ],
+      "pron": {
+        "tts": "fluctuate slightly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1429,
+      "id": "p-quadrillion-units",
+      "type": "phrase",
+      "front": "quadrillion units",
+      "meaning": "4京単位",
+      "pron": {
+        "tts": "quadrillion units"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1430,
+      "id": "p-fuel-type",
+      "type": "phrase",
+      "front": "fuel type",
+      "meaning": "燃料の種類",
+      "pron": {
+        "tts": "fuel type"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1431,
+      "id": "w-projection",
+      "type": "word",
+      "front": "projection",
+      "meaning": "予測",
+      "pron": {
+        "lookup": "projection",
+        "tts": "projection"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 59,
+      "themeName": "英国のエネルギー使用量",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t59",
+    "theme": 59,
+    "themeName": "英国のエネルギー使用量",
+    "jp": "この折れ線グラフは、1950年からの英国の燃料別エネルギー消費を2050年までの予測とともに示す。石油は60単位から始まり、2000年までに130へ倍増した。石油は2050年まで一定に保たれると予測されている。石炭とガスは1975年に100単位への一時的な急増を見せたが、その後2000年までに50へ急落した。現在は25単位しか使われず、この燃料は今後20から25の間でわずかに変動すると見積もられ、一方で太陽エネルギーはより高い水準に達すると見込まれる。",
+    "sentences": [
+      {
+        "en": "The line graph shows energy consumption by fuel type in the UK from 1950, with projections to 2050."
+      },
+      {
+        "en": "Petrol began at 60 units and doubled to 130 by 2000.",
+        "targets": [
+          {
+            "id": "w-double",
+            "text": "doubled"
+          }
+        ]
+      },
+      {
+        "en": "It is projected to remain steady until 2050.",
+        "targets": [
+          {
+            "id": "p-be-projected-to",
+            "text": "projected"
+          },
+          {
+            "id": "p-remain-steady",
+            "text": "remain steady"
+          }
+        ]
+      },
+      {
+        "en": "Coal and gas saw a brief uptick to 100 units in 1975, but then plunged to 50 by 2000.",
+        "targets": [
+          {
+            "id": "w-uptick",
+            "text": "uptick"
+          },
+          {
+            "id": "w-plunge",
+            "text": "plunged"
+          }
+        ]
+      },
+      {
+        "en": "Today only 25 units are used, and this fuel is estimated to fluctuate slightly between 20 and 25, while solar is expected to reach higher levels.",
+        "targets": [
+          {
+            "id": "p-fluctuate-slightly",
+            "text": "fluctuate slightly"
+          },
+          {
+            "id": "w-reach",
+            "text": "reach"
+          }
+        ]
+      }
+    ]
+  }
+}

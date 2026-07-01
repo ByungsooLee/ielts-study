@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 69,
+  "themeId": "theme-69",
+  "themeName": "少年犯罪②（更生を重視する立場）",
+  "version": "ccc4a9b3",
+  "generatedAt": "2026-07-01T10:38:34.855Z",
+  "items": [
+    {
+      "n": 1517,
+      "id": "w-juvenile",
+      "type": "word",
+      "front": "juvenile",
+      "meaning": "未成年者・青少年",
+      "synonyms": [
+        "minor",
+        "adolescent",
+        "teen"
+      ],
+      "collocation": "juveniles become adults",
+      "pron": {
+        "lookup": "juvenile",
+        "tts": "juvenile"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1518,
+      "id": "p-commit-a-crime",
+      "type": "phrase",
+      "front": "commit a crime",
+      "meaning": "罪を犯す",
+      "synonyms": [
+        "break the law"
+      ],
+      "collocation": "juveniles who commit a crime",
+      "pron": {
+        "tts": "commit a crime"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1519,
+      "id": "p-put-in-jail",
+      "type": "phrase",
+      "front": "put in jail",
+      "meaning": "投獄する",
+      "synonyms": [
+        "incarcerate",
+        "lock up",
+        "imprison"
+      ],
+      "collocation": "be put in jail",
+      "pron": {
+        "tts": "put in jail"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1520,
+      "id": "w-offender",
+      "type": "word",
+      "front": "offender",
+      "meaning": "犯罪者",
+      "synonyms": [
+        "criminal",
+        "lawbreaker",
+        "perpetrator"
+      ],
+      "collocation": "young offenders",
+      "pron": {
+        "lookup": "offender",
+        "tts": "offender"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1521,
+      "id": "w-rehabilitate",
+      "type": "word",
+      "front": "rehabilitate",
+      "meaning": "更生させる",
+      "synonyms": [
+        "reform"
+      ],
+      "collocation": "be rehabilitated",
+      "pron": {
+        "lookup": "rehabilitate",
+        "tts": "rehabilitate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1522,
+      "id": "p-lend-a-hand",
+      "type": "phrase",
+      "front": "lend a hand",
+      "meaning": "手を貸す・助ける",
+      "synonyms": [
+        "aid",
+        "assist",
+        "help out"
+      ],
+      "collocation": "lend a hand in the community",
+      "pron": {
+        "tts": "lend a hand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1523,
+      "id": "p-slap-on-the-wrist",
+      "type": "phrase",
+      "front": "slap on the wrist",
+      "meaning": "軽い叱責・軽い罰",
+      "synonyms": [
+        "lenient punishment"
+      ],
+      "collocation": "just a slap on the wrist",
+      "pron": {
+        "tts": "slap on the wrist"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 69,
+      "themeName": "少年犯罪②（更生を重視する立場）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ]
+}

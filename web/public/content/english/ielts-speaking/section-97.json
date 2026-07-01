@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-speaking",
+  "collectionId": "ielts-speaking",
+  "collectionName": "IELTS口頭回答(Speaking)",
+  "kind": "speaking",
+  "theme": 97,
+  "themeId": "section-97",
+  "themeName": "社会変化と家族②",
+  "version": "9ab7fc41",
+  "generatedAt": "2026-07-01T10:27:35.197Z",
+  "section": 97,
+  "title": "社会変化と家族②",
+  "prompt": "What have been some of the biggest changes in your society over the past few decades?",
+  "prompt_jp": "社会の変化について（家族関係の変化）。",
+  "model_answer": [
+    "That's a tough one... let's see.",
+    "Right, families used to just settle down and have a nuclear family, but that has changed.",
+    "These days, couples may grow apart, have a row and split up rather than make up.",
+    "Also, some kids are naughty and take away their parents' peace of mind, so I hope they grow up to be well-adjusted."
+  ],
+  "items": [
+    {
+      "id": "sp-thats-a-tough-one",
+      "type": "speaking-word",
+      "front": "that's a tough one",
+      "func": "sp-filler",
+      "meaning": "それは難しい質問だね（考える時間を稼ぐ）",
+      "synonyms": [
+        "that's a hard one",
+        "it's a difficult question"
+      ],
+      "collocation": "That's a tough one…",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 97,
+      "themeName": "社会変化と家族②"
+    },
+    {
+      "id": "sp-lets-see",
+      "type": "speaking-word",
+      "front": "let's see",
+      "func": "sp-filler",
+      "meaning": "ええと・そうだな",
+      "synonyms": [
+        "um",
+        "you know"
+      ],
+      "collocation": "Let's see…",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 97,
+      "themeName": "社会変化と家族②"
+    },
+    {
+      "id": "sp-grow-apart",
+      "type": "speaking-word",
+      "front": "grow apart",
+      "func": "topic",
+      "meaning": "疎遠になる・心が離れる",
+      "synonyms": [
+        "grow distant"
+      ],
+      "collocation": "couples grow apart",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 97,
+      "themeName": "社会変化と家族②"
+    },
+    {
+      "id": "sp-have-a-row",
+      "type": "speaking-word",
+      "front": "have a row",
+      "func": "topic",
+      "meaning": "口論する",
+      "synonyms": [
+        "have an argument",
+        "have a fight"
+      ],
+      "collocation": "have a row",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 97,
+      "themeName": "社会変化と家族②"
+    },
+    {
+      "id": "sp-make-up",
+      "type": "speaking-word",
+      "front": "make up",
+      "func": "topic",
+      "meaning": "仲直りする",
+      "synonyms": [
+        "bury the hatchet",
+        "forgive and forget"
+      ],
+      "collocation": "make up after a fight",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 97,
+      "themeName": "社会変化と家族②"
+    },
+    {
+      "id": "sp-split-up",
+      "type": "speaking-word",
+      "front": "split up",
+      "func": "topic",
+      "meaning": "別れる・離婚する",
+      "synonyms": [
+        "break up",
+        "separate"
+      ],
+      "collocation": "couples split up",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 97,
+      "themeName": "社会変化と家族②"
+    },
+    {
+      "id": "sp-pocket-money",
+      "type": "speaking-word",
+      "front": "pocket money",
+      "func": "topic",
+      "meaning": "小遣い",
+      "synonyms": [
+        "allowance"
+      ],
+      "collocation": "give kids pocket money",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-speaking",
+      "theme": 97,
+      "themeName": "社会変化と家族②"
+    }
+  ],
+  "drills": [
+    {
+      "id": "sp-97-d1",
+      "focus_func": "sp-filler",
+      "jp": "それは難しい質問だね…ええと。",
+      "target_ids": [
+        "sp-thats-a-tough-one",
+        "sp-lets-see"
+      ],
+      "model_en": "That's a tough one... let's see.",
+      "acceptable": [
+        "that's a hard one",
+        "um"
+      ]
+    },
+    {
+      "id": "sp-97-d2",
+      "focus_func": "topic",
+      "jp": "近頃、夫婦は仲直りするより疎遠になり、口論して別れることがある。",
+      "target_ids": [
+        "sp-grow-apart",
+        "sp-have-a-row",
+        "sp-split-up"
+      ],
+      "model_en": "These days, couples may grow apart, have a row and split up rather than make up.",
+      "acceptable": [
+        "grow distant",
+        "break up"
+      ]
+    },
+    {
+      "id": "sp-97-d3",
+      "focus_func": "topic",
+      "jp": "彼らが仲直りしてくれることを願う。",
+      "target_ids": [
+        "sp-make-up"
+      ],
+      "model_en": "I hope that they make up.",
+      "acceptable": [
+        "bury the hatchet",
+        "forgive and forget"
+      ]
+    }
+  ]
+}
