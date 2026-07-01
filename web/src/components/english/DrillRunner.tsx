@@ -3,7 +3,8 @@ import { playPronunciation } from "../../lib/pronunciation";
 import { resolveTargets } from "../../lib/drillContent";
 import { useProgressStore } from "../../stores/progressStore";
 import { useSettingsStore } from "../../stores/settingsStore";
-import { MarkableWordChip } from "./MarkableWordChip";
+import { ModelText } from "./ModelText";
+import { WordChip } from "./WordChip";
 import { RecordingPanel } from "../RecordingPanel";
 import type { DrillDef, DrillKind, Grade, StudyItem } from "../../types";
 
@@ -11,44 +12,17 @@ interface Props {
   kind: DrillKind;
   drills: DrillDef[];
   items: StudyItem[];
-  /** Task1 図など、ドリル固有の上部装飾（sectionから渡す） */
-  aboveInput?: React.ReactNode;
-  /** section 完了時のハンドラ（次セクション遷移など） */
+  /** section 完了時のハンドラ */
   onFinish?: () => void;
 }
 
 const GRADE_BUTTONS: { grade: Grade; label: string; className: string }[] = [
-  { grade: "forgot", label: "忘れた", className: "bg-rose-600 text-white" },
-  { grade: "maybe", label: "あいまい", className: "bg-amber-500 text-white" },
-  { grade: "remembered", label: "覚えてた", className: "bg-emerald-600 text-white" },
+  { grade: "forgot", label: "忘れた", className: "bg-rose-600 text-white hover:bg-rose-700" },
+  { grade: "maybe", label: "あいまい", className: "bg-amber-500 text-white hover:bg-amber-600" },
+  { grade: "remembered", label: "覚えてた", className: "bg-emerald-600 text-white hover:bg-emerald-700" },
 ];
 
-/** target 語の front（case-insensitive・単語境界考慮）で model_en をハイライト。 */
-function highlightModel(text: string, targets: StudyItem[]): React.ReactNode[] {
-  if (!targets.length) return [text];
-  const fronts = targets
-    .map((t) => t.front.trim())
-    .filter((f) => f.length > 0)
-    .sort((a, b) => b.length - a.length); // 長い順に置換して部分一致衝突を避ける
-  const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const pattern = new RegExp(`(${fronts.map(escape).join("|")})`, "gi");
-  const parts = text.split(pattern);
-  return parts.map((part, i) => {
-    const isMatch = fronts.some((f) => f.toLowerCase() === part.toLowerCase());
-    return isMatch ? (
-      <em
-        key={i}
-        className="rounded bg-yellow-100 px-1 not-italic font-semibold text-slate-900 dark:bg-yellow-500/30 dark:text-slate-50"
-      >
-        {part}
-      </em>
-    ) : (
-      <span key={i}>{part}</span>
-    );
-  });
-}
-
-export function DrillRunner({ kind, drills, items, aboveInput, onFinish }: Props) {
+export function DrillRunner({ kind, drills, items, onFinish }: Props) {
   const gradeItem = useProgressStore((s) => s.gradeItem);
   const recordStudyDay = useProgressStore((s) => s.recordStudyDay);
   const accent = useSettingsStore((s) => s.settings.accent);
@@ -85,20 +59,6 @@ export function DrillRunner({ kind, drills, items, aboveInput, onFinish }: Props
       });
     } catch (e) {
       console.warn("model_en TTS failed", e);
-    }
-  }
-
-  async function playWord(word: string) {
-    try {
-      await playPronunciation({
-        text: word,
-        source: "word",
-        accent,
-        workerUrl,
-        syncToken,
-      });
-    } catch (e) {
-      console.warn("word TTS failed", e);
     }
   }
 
@@ -139,8 +99,6 @@ export function DrillRunner({ kind, drills, items, aboveInput, onFinish }: Props
         )}
       </div>
 
-      {aboveInput}
-
       {current.highlight?.note && (
         <p className="rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:bg-amber-500/10 dark:text-amber-200">
           注目: {current.highlight.series ? `${current.highlight.series} — ` : ""}
@@ -155,16 +113,10 @@ export function DrillRunner({ kind, drills, items, aboveInput, onFinish }: Props
         {targets.length > 0 && (
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <span className="text-xs text-slate-500 dark:text-slate-400">
-              ヒント（タップで青→黄→オレンジ）:
+              使う語（タップで意味）:
             </span>
             {targets.map((t) => (
-              <MarkableWordChip
-                key={t.id}
-                itemId={t.id}
-                label={t.front}
-                meaning={t.meaning}
-                onSpeak={() => void playWord(t.front)}
-              />
+              <WordChip key={t.id} itemId={t.id} label={t.front} />
             ))}
           </div>
         )}
@@ -218,7 +170,7 @@ export function DrillRunner({ kind, drills, items, aboveInput, onFinish }: Props
         <div className="space-y-3 rounded-lg border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-800 dark:bg-emerald-950/40">
           <p className="text-sm font-medium text-emerald-700 dark:text-emerald-300">モデル解答</p>
           <p className="text-lg leading-relaxed text-slate-900 dark:text-slate-50">
-            {highlightModel(current.model_en, targets)}
+            <ModelText text={current.model_en} items={items} highlightIds={current.target_ids} />
           </p>
           {current.acceptable && current.acceptable.length > 0 && (
             <p className="text-sm text-slate-700 dark:text-slate-300">
@@ -228,15 +180,12 @@ export function DrillRunner({ kind, drills, items, aboveInput, onFinish }: Props
           )}
           {targets.length > 0 && (
             <div className="border-t border-emerald-200 pt-3 text-xs text-slate-600 dark:border-emerald-800 dark:text-slate-400">
-              <p className="mb-1 font-semibold">使った語（SRS更新対象）:</p>
-              <ul className="space-y-1">
+              <p className="mb-1 font-semibold">使った語（採点で SRS 更新）:</p>
+              <div className="flex flex-wrap gap-1.5">
                 {targets.map((t) => (
-                  <li key={t.id}>
-                    <span className="font-medium text-slate-800 dark:text-slate-200">{t.front}</span>
-                    {t.meaning ? ` — ${t.meaning}` : ""}
-                  </li>
+                  <WordChip key={t.id} itemId={t.id} label={t.front} />
                 ))}
-              </ul>
+              </div>
             </div>
           )}
 
@@ -247,6 +196,7 @@ export function DrillRunner({ kind, drills, items, aboveInput, onFinish }: Props
                 type="button"
                 className={`rounded-lg px-4 py-2 text-sm font-semibold ${b.className}`}
                 onClick={() => handleGrade(b.grade)}
+                aria-label={`ドリル内の使った語を全て「${b.label}」で採点`}
               >
                 {b.label}
               </button>

@@ -1,7 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { DrillRunner } from "../../components/english/DrillRunner";
 import { DrillSectionPicker } from "../../components/english/DrillSectionPicker";
+import { ModelText } from "../../components/english/ModelText";
 import { PartBanner } from "../../components/english/PartBanner";
+import {
+  SectionModeSwitcher,
+  type SectionMode,
+} from "../../components/english/SectionModeSwitcher";
+import { WordModeView } from "../../components/english/WordModeView";
 import {
   computeDrillDueCounts,
   DRILL_COLLECTION_IDS,
@@ -10,58 +16,12 @@ import {
   prefetchDrillCollection,
   type DrillCollectionMeta,
 } from "../../lib/drillContent";
-import { todayDay } from "../../lib/srs";
+import { srsColor, todayDay } from "../../lib/srs";
+import { playPronunciation } from "../../lib/pronunciation";
 import { useContentStore } from "../../stores/contentStore";
 import { useProgressStore } from "../../stores/progressStore";
-import type { DrillSection, StudyItem } from "../../types";
-
-const FUNC_LABELS: Record<string, string> = {
-  "up-gradual": "ゆるやかな上昇",
-  "up-sharp": "急上昇",
-  "down-gradual": "ゆるやかな下降",
-  "down-sharp": "急落",
-  overtake: "追い越す",
-  peak: "頂点",
-  trough: "底",
-  flat: "横ばい",
-  fluctuate: "変動",
-  time: "時間",
-  quantity: "量・倍数",
-  describe: "図の提示",
-  compare: "比較",
-};
-
-function FuncChips({ items, focus }: { items: StudyItem[]; focus?: string }) {
-  const groups = useMemo(() => {
-    const map = new Map<string, StudyItem[]>();
-    for (const it of items) {
-      const f = it.func ?? "topic";
-      if (!map.has(f)) map.set(f, []);
-      map.get(f)!.push(it);
-    }
-    return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
-  }, [items]);
-  return (
-    <div className="flex flex-wrap gap-2">
-      {groups.map(([f, list]) => {
-        const isFocus = f === focus;
-        return (
-          <span
-            key={f}
-            className={`rounded-full px-3 py-1 text-xs font-medium ${
-              isFocus
-                ? "bg-blue-600 text-white"
-                : "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-200"
-            }`}
-            title={list.map((it) => it.front).join(", ")}
-          >
-            {FUNC_LABELS[f] ?? f} ({list.length})
-          </span>
-        );
-      })}
-    </div>
-  );
-}
+import { useSettingsStore } from "../../stores/settingsStore";
+import type { DrillSection } from "../../types";
 
 function ChartView({ svg, caption }: { svg: string; caption: string }) {
   return (
@@ -80,11 +40,14 @@ export function Task1Page() {
   const [activeSection, setActiveSection] = useState<number | null>(null);
   const [section, setSection] = useState<DrillSection | null>(null);
   const [loading, setLoading] = useState(false);
-  const [showModel, setShowModel] = useState(false);
+  const [mode, setMode] = useState<SectionMode>("vocab");
   const [currentFocus, setCurrentFocus] = useState<string | undefined>();
   const load = useContentStore((s) => s.load);
   const allRecords = useContentStore((s) => s.items);
   const srs = useProgressStore((s) => s.progress.srs);
+  const accent = useSettingsStore((s) => s.settings.accent);
+  const workerUrl = useSettingsStore((s) => s.settings.workerUrl);
+  const syncToken = useSettingsStore((s) => s.settings.syncToken);
   const dueCounts = useMemo(
     () => computeDrillDueCounts(allRecords, srs, DRILL_COLLECTION_IDS.task1, todayDay()),
     [allRecords, srs],
@@ -103,7 +66,6 @@ export function Task1Page() {
     return () => {
       alive = false;
     };
-    // 初回のみ
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -111,12 +73,11 @@ export function Task1Page() {
     if (activeSection == null) return;
     let alive = true;
     setLoading(true);
-    setShowModel(false);
     void ensureDrillSection("task1", activeSection)
       .then(async (sec) => {
         if (!alive) return;
         setSection(sec);
-        await load(); // 新しい items を contentStore に取り込む
+        await load();
       })
       .finally(() => {
         if (alive) setLoading(false);
@@ -130,6 +91,15 @@ export function Task1Page() {
     setCurrentFocus(section?.drills[0]?.focus_func);
   }, [section]);
 
+  // 進捗バッジ（単語モード用）
+  const vocabProgress = useMemo(() => {
+    if (!section) return undefined;
+    const learned = section.items.filter((it) => srsColor(srs[it.id]) === "green").length;
+    return `${learned}/${section.items.length}`;
+  }, [section, srs]);
+
+  const drillBadge = section && section.drills.length > 0 ? String(section.drills.length) : undefined;
+
   return (
     <div className="space-y-4">
       <PartBanner
@@ -140,8 +110,8 @@ export function Task1Page() {
         sectionRange="58–65"
       />
       <DrillSectionPicker
-        title="IELTS 図解描写 (Task1)"
-        description="図の動きを英語で描く"
+        title="セクション"
+        description="Section 58–65"
         sections={collection?.sections ?? []}
         activeSection={activeSection}
         onSelect={setActiveSection}
@@ -164,38 +134,48 @@ export function Task1Page() {
             <ChartView svg={section.chart.svg} caption={section.chart.caption} />
           )}
 
-          {section.items.length > 0 && (
-            <div>
-              <p className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-300">描写の型</p>
-              <FuncChips items={section.items} focus={currentFocus} />
-            </div>
+          <div className="flex justify-center">
+            <SectionModeSwitcher
+              mode={mode}
+              onChange={setMode}
+              vocabBadge={vocabProgress}
+              drillBadge={drillBadge}
+            />
+          </div>
+
+          {mode === "vocab" && (
+            <WordModeView items={section.items} kind="task1" focusFunc={currentFocus} />
           )}
 
-          <DrillRunner
-            kind="task1"
-            drills={section.drills}
-            items={section.items}
-          />
+          {mode === "drill" && (
+            <DrillRunner kind="task1" drills={section.drills} items={section.items} />
+          )}
 
-          {section.model_paragraph && (
-            <div className="rounded-lg border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
+          {mode === "model" && section.model_paragraph && (
+            <div className="space-y-3 rounded-lg border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium text-slate-700 dark:text-slate-300">
                   モデル段落（描写全体）
                 </p>
                 <button
                   type="button"
-                  className="rounded-lg border border-slate-300 px-3 py-1 text-xs text-slate-700 dark:border-slate-600 dark:text-slate-200"
-                  onClick={() => setShowModel((v) => !v)}
+                  className="rounded border border-slate-300 px-2 py-1 text-xs text-slate-700 dark:border-slate-600 dark:text-slate-200"
+                  onClick={() =>
+                    void playPronunciation({
+                      text: section.model_paragraph!,
+                      source: "sentence",
+                      accent,
+                      workerUrl,
+                      syncToken,
+                    }).catch(() => {})
+                  }
                 >
-                  {showModel ? "隠す" : "表示"}
+                  🔊 全文
                 </button>
               </div>
-              {showModel && (
-                <p className="mt-3 whitespace-pre-line text-base leading-relaxed text-slate-800 dark:text-slate-200">
-                  {section.model_paragraph}
-                </p>
-              )}
+              <p className="whitespace-pre-line text-base leading-relaxed text-slate-800 dark:text-slate-100">
+                <ModelText text={section.model_paragraph} items={section.items} />
+              </p>
             </div>
           )}
         </div>

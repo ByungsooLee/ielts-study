@@ -24,9 +24,25 @@ export function getOrCreateSched(progress: ProgressData, itemId: string, today =
 }
 
 export function applyGrade(record: Sched, grade: Grade, today = todayDay()): Sched {
-  const next = applySm2Grade(record, grade, today);
+  const stepped = applySm2Grade(record, grade, today);
+  const next: Sched = { ...stepped, lastGrade: grade };
   if (grade !== "maybe") return next;
   return { ...next, maybeCount: (record.maybeCount ?? 0) + 1 };
+}
+
+export type SrsColor = "neutral" | "red" | "yellow" | "green";
+
+/** SM-2 記録から3段階の色を決める。UIチップ/リスト行の背景色に使う。 */
+export function srsColor(record: Sched | undefined): SrsColor {
+  if (!record) return "neutral";
+  if (record.status === "new") return "neutral";
+  if (record.lastGrade === "forgot") return "red";
+  if (record.lastGrade === "maybe") return "yellow";
+  if (record.lastGrade === "remembered") return "green";
+  // lastGrade が無い旧データからの推定フォールバック
+  if (record.status === "learning") return "red";
+  if (record.status === "review" && record.reps >= 2) return "green";
+  return "yellow";
 }
 
 export function isDue(record: Sched | undefined, today = todayDay()): boolean {

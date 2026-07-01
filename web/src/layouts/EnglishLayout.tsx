@@ -5,6 +5,7 @@ import { useDomainStore } from "../stores/domainStore";
 import { TtsUsageBanner } from "../components/TtsUsageBanner";
 import { prefetchAllDrillCollectionsAndReload } from "../lib/drillContent";
 import { useContentStore } from "../stores/contentStore";
+import { WordDetailSheet } from "../components/english/WordDetailSheet";
 
 const navClass = ({ isActive }: { isActive: boolean }) =>
   `rounded-lg px-3 py-2 text-sm ${
@@ -115,36 +116,33 @@ export function EnglishLayout() {
 
             <span className="hidden h-6 w-px bg-slate-300 md:inline-block dark:bg-slate-700" />
 
-            <NavLink to="/english/task1" className={partNavClass("sky")}>
+            <NavLink to="/english/task1" className={partNavClass("sky")} title="Part 2 図解描写 (Task1)">
               {({ isActive }) => (
                 <>
                   <PartBadge label="Part 2" color="sky" active={isActive} />
-                  Task1描写
+                  <span className="hidden sm:inline">Task1描写</span>
                 </>
               )}
             </NavLink>
-            <NavLink to="/english/writing" className={partNavClass("amber")}>
+            <NavLink to="/english/writing" className={partNavClass("amber")} title="Part 3 意見(Writing)">
               {({ isActive }) => (
                 <>
                   <PartBadge label="Part 3" color="amber" active={isActive} />
-                  意見(Writing)
+                  <span className="hidden sm:inline">意見(Writing)</span>
                 </>
               )}
             </NavLink>
-            <NavLink to="/english/speaking" className={partNavClass("orange")}>
+            <NavLink to="/english/speaking" className={partNavClass("orange")} title="Part 4 意見(Speaking)">
               {({ isActive }) => (
                 <>
                   <PartBadge label="Part 4" color="orange" active={isActive} />
-                  意見(Speaking)
+                  <span className="hidden sm:inline">意見(Speaking)</span>
                 </>
               )}
             </NavLink>
 
             <span className="hidden h-6 w-px bg-slate-300 md:inline-block dark:bg-slate-700" />
 
-            <NavLink to="/english/marks" className={navClass}>
-              マーク復習
-            </NavLink>
             <NavLink to="/english/maybe" className={navClass}>
               あいまい一覧
             </NavLink>
@@ -161,6 +159,7 @@ export function EnglishLayout() {
       <main className="mx-auto max-w-6xl overflow-x-hidden px-4 py-6">
         <Outlet />
       </main>
+      <WordDetailSheet />
     </div>
   );
 }

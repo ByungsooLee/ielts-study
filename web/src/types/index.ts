@@ -265,6 +265,8 @@ export interface Sched {
   updatedAt?: number;
   /** この変更を行った端末 ID（由来追跡） */
   sourceDeviceId?: string;
+  /** 最後に押した3段階採点。UIの色分け（赤/黄/緑）に使う。 */
+  lastGrade?: Grade;
 }
 
 /** 移行用：旧 box 方式 */
