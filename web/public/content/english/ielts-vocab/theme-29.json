@@ -1,0 +1,816 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 29,
+  "themeId": "theme-29",
+  "themeName": "ナノボット",
+  "version": "4bef73e8",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 684,
+      "id": "w-misinformation",
+      "type": "word",
+      "front": "misinformation",
+      "meaning": "誤情報",
+      "synonyms": [
+        "inaccurate information",
+        "disinformation"
+      ],
+      "collocation": "spread misinformation",
+      "examples": [
+        {
+          "en": "There is much misinformation about the dangers of nanobots, minuscule machines that could upend medicine."
+        }
+      ],
+      "pron": {
+        "lookup": "misinformation",
+        "tts": "misinformation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 685,
+      "id": "w-minuscule",
+      "type": "word",
+      "front": "minuscule",
+      "meaning": "極めて小さい",
+      "synonyms": [
+        "microscopic",
+        "infinitesimal"
+      ],
+      "collocation": "minuscule machines",
+      "examples": [
+        {
+          "en": "There is much misinformation about the dangers of nanobots, minuscule machines that could upend medicine."
+        }
+      ],
+      "pron": {
+        "lookup": "minuscule",
+        "tts": "minuscule"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 686,
+      "id": "w-upend",
+      "type": "word",
+      "front": "upend",
+      "meaning": "一変させる・ひっくり返す",
+      "synonyms": [
+        "transform"
+      ],
+      "collocation": "upend an industry, transform society",
+      "examples": [
+        {
+          "en": "There is much misinformation about the dangers of nanobots, minuscule machines that could upend medicine."
+        }
+      ],
+      "pron": {
+        "lookup": "upend",
+        "tts": "upend"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 687,
+      "id": "w-insist",
+      "type": "word",
+      "front": "insist",
+      "meaning": "主張する・断言する",
+      "synonyms": [
+        "contend",
+        "assert",
+        "claim"
+      ],
+      "collocation": "insist that…, claim that…",
+      "examples": [
+        {
+          "en": "Some critics insist that robots will displace human workers."
+        }
+      ],
+      "pron": {
+        "lookup": "insist",
+        "tts": "insist"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 688,
+      "id": "w-displace",
+      "type": "word",
+      "front": "displace",
+      "meaning": "取って代わる",
+      "synonyms": [
+        "supersede",
+        "replace",
+        "supplant"
+      ],
+      "collocation": "displace workers, supersede old methods",
+      "examples": [
+        {
+          "en": "Some critics insist that robots will displace human workers."
+        }
+      ],
+      "pron": {
+        "lookup": "displace",
+        "tts": "displace"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 689,
+      "id": "w-myriad",
+      "type": "word",
+      "front": "myriad",
+      "meaning": "無数の",
+      "synonyms": [
+        "innumerable",
+        "countless",
+        "infinite"
+      ],
+      "collocation": "a myriad of uses, countless ways",
+      "examples": [
+        {
+          "en": "Yet nanobots have a myriad of uses; in 2018 one successfully delivered drugs to a single cancerous cell with precision."
+        }
+      ],
+      "pron": {
+        "lookup": "myriad",
+        "tts": "myriad"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 690,
+      "id": "w-deliver",
+      "type": "word",
+      "front": "deliver",
+      "meaning": "届ける・分配する",
+      "synonyms": [
+        "distribute",
+        "dispense"
+      ],
+      "collocation": "deliver drugs, distribute evenly",
+      "examples": [
+        {
+          "en": "Yet nanobots have a myriad of uses; in 2018 one successfully delivered drugs to a single cancerous cell with precision."
+        }
+      ],
+      "pron": {
+        "lookup": "deliver",
+        "tts": "deliver"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 691,
+      "id": "w-precision",
+      "type": "word",
+      "front": "precision",
+      "meaning": "正確さ",
+      "synonyms": [
+        "complete accuracy",
+        "exactitude"
+      ],
+      "collocation": "with precision, complete accuracy",
+      "examples": [
+        {
+          "en": "Yet nanobots have a myriad of uses; in 2018 one successfully delivered drugs to a single cancerous cell with precision."
+        }
+      ],
+      "pron": {
+        "lookup": "precision",
+        "tts": "precision"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 692,
+      "id": "w-reveal",
+      "type": "word",
+      "front": "reveal",
+      "meaning": "明るみに出す・暴く",
+      "synonyms": [
+        "expose",
+        "bring to light"
+      ],
+      "collocation": "reveal a possibility, expose the truth",
+      "examples": [
+        {
+          "en": "This technology has revealed the chance to develop tailor-made medical treatment."
+        }
+      ],
+      "pron": {
+        "lookup": "reveal",
+        "tts": "reveal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 693,
+      "id": "w-tailor-made",
+      "type": "word",
+      "front": "tailor-made",
+      "meaning": "あつらえの・特注の",
+      "synonyms": [
+        "custom-made",
+        "customised",
+        "bespoke"
+      ],
+      "collocation": "a tailor-made solution",
+      "examples": [
+        {
+          "en": "This technology has revealed the chance to develop tailor-made medical treatment."
+        }
+      ],
+      "pron": {
+        "lookup": "tailor-made",
+        "tts": "tailor-made"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 694,
+      "id": "p-medical-treatment",
+      "type": "phrase",
+      "front": "medical treatment",
+      "meaning": "治療・医療",
+      "synonyms": [
+        "medical care"
+      ],
+      "collocation": "receive medical treatment",
+      "examples": [
+        {
+          "en": "This technology has revealed the chance to develop tailor-made medical treatment."
+        }
+      ],
+      "pron": {
+        "tts": "medical treatment"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 695,
+      "id": "w-mass-produce",
+      "type": "word",
+      "front": "mass-produce",
+      "meaning": "大量生産する",
+      "synonyms": [
+        "mass-manufacture"
+      ],
+      "collocation": "be mass-produced",
+      "examples": [
+        {
+          "en": "Because they can be mass-produced, nanobots could be durable, affordable and able to work efficiently."
+        }
+      ],
+      "pron": {
+        "lookup": "mass-produce",
+        "tts": "mass-produce"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 696,
+      "id": "w-durable",
+      "type": "word",
+      "front": "durable",
+      "meaning": "丈夫な・耐久性のある",
+      "synonyms": [
+        "resilient",
+        "tough"
+      ],
+      "collocation": "a durable material, tough enough for…",
+      "examples": [
+        {
+          "en": "Because they can be mass-produced, nanobots could be durable, affordable and able to work efficiently."
+        }
+      ],
+      "pron": {
+        "lookup": "durable",
+        "tts": "durable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 697,
+      "id": "w-affordable",
+      "type": "word",
+      "front": "affordable",
+      "meaning": "手頃な・安価な",
+      "synonyms": [
+        "economical",
+        "low-cost"
+      ],
+      "collocation": "affordable for everyone, low-cost travel",
+      "examples": [
+        {
+          "en": "Because they can be mass-produced, nanobots could be durable, affordable and able to work efficiently."
+        }
+      ],
+      "pron": {
+        "lookup": "affordable",
+        "tts": "affordable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 698,
+      "id": "w-efficiently",
+      "type": "word",
+      "front": "efficiently",
+      "meaning": "効率的に",
+      "synonyms": [
+        "quickly and effectively"
+      ],
+      "collocation": "work efficiently",
+      "examples": [
+        {
+          "en": "Because they can be mass-produced, nanobots could be durable, affordable and able to work efficiently."
+        }
+      ],
+      "pron": {
+        "lookup": "efficiently",
+        "tts": "efficiently"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 699,
+      "id": "w-emit",
+      "type": "word",
+      "front": "emit",
+      "meaning": "放出する・排出する",
+      "synonyms": [
+        "discharge"
+      ],
+      "collocation": "emit pollution, discharge waste",
+      "examples": [
+        {
+          "en": "In future, airborne nanobots may remove the contaminants we emit into the air."
+        }
+      ],
+      "pron": {
+        "lookup": "emit",
+        "tts": "emit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 700,
+      "id": "w-contaminant",
+      "type": "word",
+      "front": "contaminant",
+      "meaning": "汚染物質",
+      "synonyms": [
+        "pollutant"
+      ],
+      "collocation": "remove contaminants, release pollutants",
+      "examples": [
+        {
+          "en": "In future, airborne nanobots may remove the contaminants we emit into the air."
+        }
+      ],
+      "pron": {
+        "lookup": "contaminant",
+        "tts": "contaminant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 701,
+      "id": "w-rejuvenate",
+      "type": "word",
+      "front": "rejuvenate",
+      "meaning": "若返らせる・再生する",
+      "synonyms": [
+        "regenerate",
+        "breathe new life into"
+      ],
+      "collocation": "rejuvenate cells, regenerate tissue",
+      "examples": [
+        {
+          "en": "They might even rejuvenate our cells and reverse the deterioration of the body, making illness a thing of the past."
+        }
+      ],
+      "pron": {
+        "lookup": "rejuvenate",
+        "tts": "rejuvenate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 702,
+      "id": "w-deterioration",
+      "type": "word",
+      "front": "deterioration",
+      "meaning": "劣化・悪化",
+      "synonyms": [
+        "damage"
+      ],
+      "collocation": "environmental deterioration",
+      "examples": [
+        {
+          "en": "They might even rejuvenate our cells and reverse the deterioration of the body, making illness a thing of the past."
+        }
+      ],
+      "pron": {
+        "lookup": "deterioration",
+        "tts": "deterioration"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 703,
+      "id": "p-a-thing-of-the-past",
+      "type": "phrase",
+      "front": "a thing of the past",
+      "meaning": "過去のもの",
+      "synonyms": [
+        "ancient history"
+      ],
+      "collocation": "become a thing of the past",
+      "examples": [
+        {
+          "en": "They might even rejuvenate our cells and reverse the deterioration of the body, making illness a thing of the past."
+        }
+      ],
+      "pron": {
+        "tts": "a thing of the past"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 704,
+      "id": "w-kill-switch",
+      "type": "word",
+      "front": "kill-switch",
+      "meaning": "緊急停止装置",
+      "pron": {
+        "lookup": "kill-switch",
+        "tts": "kill-switch"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 705,
+      "id": "w-cancerous",
+      "type": "word",
+      "front": "cancerous",
+      "meaning": "がん性の",
+      "pron": {
+        "lookup": "cancerous",
+        "tts": "cancerous"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 706,
+      "id": "p-side-effect",
+      "type": "phrase",
+      "front": "side effect",
+      "meaning": "副作用",
+      "pron": {
+        "tts": "side effect"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 707,
+      "id": "w-overmedication",
+      "type": "word",
+      "front": "overmedication",
+      "meaning": "過剰投薬",
+      "pron": {
+        "lookup": "overmedication",
+        "tts": "overmedication"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 708,
+      "id": "w-safeguard",
+      "type": "word",
+      "front": "safeguard",
+      "meaning": "安全装置",
+      "pron": {
+        "lookup": "safeguard",
+        "tts": "safeguard"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 709,
+      "id": "w-infinitesimal",
+      "type": "word",
+      "front": "infinitesimal",
+      "meaning": "極微の",
+      "pron": {
+        "lookup": "infinitesimal",
+        "tts": "infinitesimal"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 710,
+      "id": "w-bespoke",
+      "type": "word",
+      "front": "bespoke",
+      "meaning": "特注の",
+      "pron": {
+        "lookup": "bespoke",
+        "tts": "bespoke"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 29,
+      "themeName": "ナノボット",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t29",
+    "theme": 29,
+    "themeName": "ナノボット",
+    "jp": "極めて小さな機械で医療を一変させうるナノボットの危険については、多くの誤情報がある。ロボットが人間の労働者に取って代わると主張する批判者もいる。だがナノボットには無数の用途があり、2018年には一つが正確にがん細胞一つへ薬を届けた。この技術は、あつらえの治療を開発する可能性を明るみに出した。大量生産できるため、ナノボットは丈夫で手頃で効率的に働ける。将来、空中のナノボットは我々が大気に放出する汚染物質を除去するかもしれない。細胞を若返らせ体の劣化を逆転させ、病を過去のものにするかもしれない。",
+    "sentences": [
+      {
+        "en": "There is much misinformation about the dangers of nanobots, minuscule machines that could upend medicine.",
+        "targets": [
+          {
+            "id": "w-misinformation",
+            "text": "misinformation"
+          },
+          {
+            "id": "w-minuscule",
+            "text": "minuscule"
+          },
+          {
+            "id": "w-upend",
+            "text": "upend"
+          }
+        ]
+      },
+      {
+        "en": "Some critics insist that robots will displace human workers.",
+        "targets": [
+          {
+            "id": "w-insist",
+            "text": "insist"
+          },
+          {
+            "id": "w-displace",
+            "text": "displace"
+          }
+        ]
+      },
+      {
+        "en": "Yet nanobots have a myriad of uses; in 2018 one successfully delivered drugs to a single cancerous cell with precision.",
+        "targets": [
+          {
+            "id": "w-myriad",
+            "text": "myriad"
+          },
+          {
+            "id": "w-deliver",
+            "text": "delivered"
+          },
+          {
+            "id": "w-precision",
+            "text": "precision"
+          }
+        ]
+      },
+      {
+        "en": "This technology has revealed the chance to develop tailor-made medical treatment.",
+        "targets": [
+          {
+            "id": "w-reveal",
+            "text": "revealed"
+          },
+          {
+            "id": "w-tailor-made",
+            "text": "tailor-made"
+          },
+          {
+            "id": "p-medical-treatment",
+            "text": "medical treatment"
+          }
+        ]
+      },
+      {
+        "en": "Because they can be mass-produced, nanobots could be durable, affordable and able to work efficiently.",
+        "targets": [
+          {
+            "id": "w-mass-produce",
+            "text": "mass-produced"
+          },
+          {
+            "id": "w-durable",
+            "text": "durable"
+          },
+          {
+            "id": "w-affordable",
+            "text": "affordable"
+          },
+          {
+            "id": "w-efficiently",
+            "text": "efficiently"
+          }
+        ]
+      },
+      {
+        "en": "In future, airborne nanobots may remove the contaminants we emit into the air.",
+        "targets": [
+          {
+            "id": "w-contaminant",
+            "text": "contaminants"
+          },
+          {
+            "id": "w-emit",
+            "text": "emit"
+          }
+        ]
+      },
+      {
+        "en": "They might even rejuvenate our cells and reverse the deterioration of the body, making illness a thing of the past.",
+        "targets": [
+          {
+            "id": "w-rejuvenate",
+            "text": "rejuvenate"
+          },
+          {
+            "id": "w-deterioration",
+            "text": "deterioration"
+          },
+          {
+            "id": "p-a-thing-of-the-past",
+            "text": "a thing of the past"
+          }
+        ]
+      }
+    ]
+  }
+}

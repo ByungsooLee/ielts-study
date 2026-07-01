@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 40,
+  "themeId": "theme-40",
+  "themeName": "ガイ・フォークス",
+  "version": "6c0befd2",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 962,
+      "id": "p-stroll-around",
+      "type": "phrase",
+      "front": "stroll around",
+      "meaning": "ぶらつく・歩き回る",
+      "synonyms": [
+        "wander around"
+      ],
+      "collocation": "stroll around town",
+      "examples": [
+        {
+          "en": "On 5 November, British people stroll around town squares to light bonfires and remember a plot to blow up Parliament in 1605."
+        }
+      ],
+      "pron": {
+        "tts": "stroll around"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 963,
+      "id": "w-light",
+      "type": "word",
+      "front": "light",
+      "meaning": "火をつける・燃やす",
+      "synonyms": [
+        "burn",
+        "set aflame",
+        "torch",
+        "set alight"
+      ],
+      "collocation": "light a bonfire",
+      "examples": [
+        {
+          "en": "On 5 November, British people stroll around town squares to light bonfires and remember a plot to blow up Parliament in 1605."
+        }
+      ],
+      "pron": {
+        "lookup": "light",
+        "tts": "light"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 964,
+      "id": "p-blow-up",
+      "type": "phrase",
+      "front": "blow up",
+      "meaning": "爆破する",
+      "synonyms": [
+        "destroy",
+        "bomb"
+      ],
+      "collocation": "blow up the building",
+      "examples": [
+        {
+          "en": "On 5 November, British people stroll around town squares to light bonfires and remember a plot to blow up Parliament in 1605."
+        }
+      ],
+      "pron": {
+        "tts": "blow up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 965,
+      "id": "p-against-this-background",
+      "type": "phrase",
+      "front": "against this background",
+      "meaning": "こうした状況を背景に",
+      "synonyms": [
+        "in the context of",
+        "against this backdrop"
+      ],
+      "collocation": "against this background",
+      "examples": [
+        {
+          "en": "Against this background of religious conflict, a group of Catholics conspired to kill the Protestant king."
+        }
+      ],
+      "pron": {
+        "tts": "against this background"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 966,
+      "id": "w-conspire",
+      "type": "word",
+      "front": "conspire",
+      "meaning": "共謀する・たくらむ",
+      "synonyms": [
+        "plot",
+        "collude"
+      ],
+      "collocation": "conspire to do",
+      "examples": [
+        {
+          "en": "Against this background of religious conflict, a group of Catholics conspired to kill the Protestant king."
+        }
+      ],
+      "pron": {
+        "lookup": "conspire",
+        "tts": "conspire"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 967,
+      "id": "p-set-out",
+      "type": "phrase",
+      "front": "set out",
+      "meaning": "〜を企てる・引き受ける",
+      "synonyms": [
+        "undertake",
+        "endeavour"
+      ],
+      "collocation": "set out to do",
+      "examples": [
+        {
+          "en": "They set out to explode a bomb during the inaugural session of Parliament."
+        }
+      ],
+      "pron": {
+        "tts": "set out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 968,
+      "id": "w-explode",
+      "type": "word",
+      "front": "explode",
+      "meaning": "爆発する・爆発させる",
+      "synonyms": [
+        "detonate",
+        "set off"
+      ],
+      "collocation": "explode, detonate a bomb",
+      "examples": [
+        {
+          "en": "They set out to explode a bomb during the inaugural session of Parliament."
+        }
+      ],
+      "pron": {
+        "lookup": "explode",
+        "tts": "explode"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 969,
+      "id": "w-inaugural",
+      "type": "word",
+      "front": "inaugural",
+      "meaning": "開会の",
+      "synonyms": [
+        "opening"
+      ],
+      "collocation": "the inaugural session",
+      "examples": [
+        {
+          "en": "They set out to explode a bomb during the inaugural session of Parliament."
+        }
+      ],
+      "pron": {
+        "lookup": "inaugural",
+        "tts": "inaugural"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 970,
+      "id": "w-stock",
+      "type": "word",
+      "front": "stock",
+      "meaning": "蓄える・こっそりしまう",
+      "synonyms": [
+        "stockpile",
+        "stash"
+      ],
+      "collocation": "stock supplies, stash away",
+      "examples": [
+        {
+          "en": "The plotters stocked barrels of gunpowder in a cellar and concealed them under firewood."
+        }
+      ],
+      "pron": {
+        "lookup": "stock",
+        "tts": "stock"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 971,
+      "id": "w-conceal",
+      "type": "word",
+      "front": "conceal",
+      "meaning": "隠す",
+      "synonyms": [
+        "disguise",
+        "cover up",
+        "camouflage"
+      ],
+      "collocation": "conceal sth",
+      "examples": [
+        {
+          "en": "Scientists who investigated child development found that learning to conceal the truth is actually a milestone — a sign the brain is reaching maturity.",
+          "linking": "Scientists who‿investigated child development found that learning to‿conceal the truth‿is‿actually‿a milestone — a sign the brain‿is reaching maturity.",
+          "tips": [
+            "連結: truth‿is, brain‿is=ブレイニズ, to‿conceal",
+            "弱形: who/that(=/ðət/)/to(=/tə/)/the/a/is",
+            "強勢: SCI·entists, in·VES·tigated, con·CEAL, MILE·stone, ma·TU·rity",
+            "注意音: TH(that/the/truth), R(reaching/maturity/learning), truth=トゥルース/θ/"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "conceal",
+        "tts": "conceal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 972,
+      "id": "p-be-tasked-with",
+      "type": "phrase",
+      "front": "be tasked with",
+      "meaning": "〜の任務を負う",
+      "synonyms": [
+        "be assigned to",
+        "be given responsibility for",
+        "be given charge of"
+      ],
+      "collocation": "be tasked with",
+      "examples": [
+        {
+          "en": "Guy Fawkes was tasked with guarding the powder, and the authorities were in the dark about the insidious plan."
+        }
+      ],
+      "pron": {
+        "tts": "be tasked with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 973,
+      "id": "p-the-authorities",
+      "type": "phrase",
+      "front": "the authorities",
+      "meaning": "当局・官憲",
+      "synonyms": [
+        "law enforcement"
+      ],
+      "collocation": "the authorities",
+      "examples": [
+        {
+          "en": "Guy Fawkes was tasked with guarding the powder, and the authorities were in the dark about the insidious plan."
+        }
+      ],
+      "pron": {
+        "tts": "the authorities"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 974,
+      "id": "p-in-the-dark-about",
+      "type": "phrase",
+      "front": "in the dark about",
+      "meaning": "〜について知らない",
+      "synonyms": [
+        "ignorant of",
+        "unaware of",
+        "oblivious to"
+      ],
+      "collocation": "in the dark about",
+      "examples": [
+        {
+          "en": "Guy Fawkes was tasked with guarding the powder, and the authorities were in the dark about the insidious plan."
+        }
+      ],
+      "pron": {
+        "tts": "in the dark about"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 975,
+      "id": "w-insidious",
+      "type": "word",
+      "front": "insidious",
+      "meaning": "陰険な・卑劣な",
+      "synonyms": [
+        "cunning",
+        "sneaky",
+        "treacherous"
+      ],
+      "collocation": "an insidious plan",
+      "examples": [
+        {
+          "en": "Guy Fawkes was tasked with guarding the powder, and the authorities were in the dark about the insidious plan."
+        }
+      ],
+      "pron": {
+        "lookup": "insidious",
+        "tts": "insidious"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 976,
+      "id": "p-take-part-in",
+      "type": "phrase",
+      "front": "take part in",
+      "meaning": "〜に参加する",
+      "synonyms": [
+        "join",
+        "participate in"
+      ],
+      "collocation": "take part in",
+      "examples": [
+        {
+          "en": "Warned by a letter, someone refused to take part in it, and in the wee hours the police arrested Fawkes."
+        }
+      ],
+      "pron": {
+        "tts": "take part in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 977,
+      "id": "p-in-the-wee-hours",
+      "type": "phrase",
+      "front": "in the wee hours",
+      "meaning": "早朝に・深夜過ぎに",
+      "synonyms": [
+        "in the early morning hours",
+        "at dawn",
+        "at daybreak"
+      ],
+      "collocation": "in the wee hours",
+      "examples": [
+        {
+          "en": "Warned by a letter, someone refused to take part in it, and in the wee hours the police arrested Fawkes."
+        }
+      ],
+      "pron": {
+        "tts": "in the wee hours"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 978,
+      "id": "w-arrest",
+      "type": "word",
+      "front": "arrest",
+      "meaning": "逮捕する",
+      "synonyms": [
+        "take into custody",
+        "capture",
+        "apprehend"
+      ],
+      "collocation": "be arrested",
+      "examples": [
+        {
+          "en": "Warned by a letter, someone refused to take part in it, and in the wee hours the police arrested Fawkes."
+        }
+      ],
+      "pron": {
+        "lookup": "arrest",
+        "tts": "arrest"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 979,
+      "id": "w-defiant",
+      "type": "word",
+      "front": "defiant",
+      "meaning": "反抗的な",
+      "synonyms": [
+        "resistant",
+        "steadfast",
+        "unwavering"
+      ],
+      "collocation": "defiant at first",
+      "examples": [
+        {
+          "en": "Defiant at first, he eventually confessed to the plot, and people still commemorate the night today."
+        }
+      ],
+      "pron": {
+        "lookup": "defiant",
+        "tts": "defiant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 980,
+      "id": "w-eventually",
+      "type": "word",
+      "front": "eventually",
+      "meaning": "ついに・結局は",
+      "synonyms": [
+        "ultimately",
+        "in the end"
+      ],
+      "collocation": "eventually",
+      "examples": [
+        {
+          "en": "Defiant at first, he eventually confessed to the plot, and people still commemorate the night today."
+        }
+      ],
+      "pron": {
+        "lookup": "eventually",
+        "tts": "eventually"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 981,
+      "id": "p-confess-to",
+      "type": "phrase",
+      "front": "confess to",
+      "meaning": "〜を認める・白状する",
+      "synonyms": [
+        "admit to"
+      ],
+      "collocation": "confess to",
+      "examples": [
+        {
+          "en": "Defiant at first, he eventually confessed to the plot, and people still commemorate the night today."
+        }
+      ],
+      "pron": {
+        "tts": "confess to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 982,
+      "id": "w-commemorate",
+      "type": "word",
+      "front": "commemorate",
+      "meaning": "祝う・記念する",
+      "synonyms": [
+        "observe",
+        "celebrate"
+      ],
+      "collocation": "commemorate an event",
+      "examples": [
+        {
+          "en": "Defiant at first, he eventually confessed to the plot, and people still commemorate the night today."
+        }
+      ],
+      "pron": {
+        "lookup": "commemorate",
+        "tts": "commemorate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 983,
+      "id": "w-effigy",
+      "type": "word",
+      "front": "effigy",
+      "meaning": "人形",
+      "pron": {
+        "lookup": "effigy",
+        "tts": "effigy"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 984,
+      "id": "p-house-of-lords",
+      "type": "phrase",
+      "front": "House of Lords",
+      "meaning": "貴族院",
+      "pron": {
+        "tts": "House of Lords"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 985,
+      "id": "w-assassinate",
+      "type": "word",
+      "front": "assassinate",
+      "meaning": "暗殺する",
+      "pron": {
+        "lookup": "assassinate",
+        "tts": "assassinate"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 986,
+      "id": "w-gunpowder",
+      "type": "word",
+      "front": "gunpowder",
+      "meaning": "火薬",
+      "pron": {
+        "lookup": "gunpowder",
+        "tts": "gunpowder"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 987,
+      "id": "w-barrel",
+      "type": "word",
+      "front": "barrel",
+      "meaning": "樽",
+      "pron": {
+        "lookup": "barrel",
+        "tts": "barrel"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 988,
+      "id": "p-the-plague",
+      "type": "phrase",
+      "front": "the plague",
+      "meaning": "疫病",
+      "pron": {
+        "tts": "the plague"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 40,
+      "themeName": "ガイ・フォークス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t40",
+    "theme": 40,
+    "themeName": "ガイ・フォークス",
+    "jp": "11月5日、イギリスの人々は広場をぶらつき、かがり火をたいて、1605年に議会を爆破しようとした陰謀を思い出す。宗教対立を背景に、カトリックの一団がプロテスタントの王を殺そうと共謀した。彼らは議会の開会中に爆弾を爆発させようと企てた。陰謀者は地下に火薬の樽を蓄え、薪の下に隠した。ガイ・フォークスは火薬を守る任務を負い、当局はこの陰険な計画について知らなかった。手紙で警告され、ある者が参加を拒み、深夜過ぎに警察はフォークスを逮捕した。当初は反抗的だったが、彼はついに陰謀を白状し、人々は今もその夜を記念している。",
+    "sentences": [
+      {
+        "en": "On 5 November, British people stroll around town squares to light bonfires and remember a plot to blow up Parliament in 1605.",
+        "targets": [
+          {
+            "id": "p-stroll-around",
+            "text": "stroll around"
+          },
+          {
+            "id": "w-light",
+            "text": "light"
+          },
+          {
+            "id": "p-blow-up",
+            "text": "blow up"
+          }
+        ]
+      },
+      {
+        "en": "Against this background of religious conflict, a group of Catholics conspired to kill the Protestant king.",
+        "targets": [
+          {
+            "id": "p-against-this-background",
+            "text": "Against this background"
+          },
+          {
+            "id": "w-conspire",
+            "text": "conspired"
+          }
+        ]
+      },
+      {
+        "en": "They set out to explode a bomb during the inaugural session of Parliament.",
+        "targets": [
+          {
+            "id": "p-set-out",
+            "text": "set out"
+          },
+          {
+            "id": "w-explode",
+            "text": "explode"
+          },
+          {
+            "id": "w-inaugural",
+            "text": "inaugural"
+          }
+        ]
+      },
+      {
+        "en": "The plotters stocked barrels of gunpowder in a cellar and concealed them under firewood.",
+        "targets": [
+          {
+            "id": "w-stock",
+            "text": "stocked"
+          },
+          {
+            "id": "w-conceal",
+            "text": "concealed"
+          }
+        ]
+      },
+      {
+        "en": "Guy Fawkes was tasked with guarding the powder, and the authorities were in the dark about the insidious plan.",
+        "targets": [
+          {
+            "id": "p-be-tasked-with",
+            "text": "tasked with"
+          },
+          {
+            "id": "p-the-authorities",
+            "text": "the authorities"
+          },
+          {
+            "id": "p-in-the-dark-about",
+            "text": "in the dark about"
+          },
+          {
+            "id": "w-insidious",
+            "text": "insidious"
+          }
+        ]
+      },
+      {
+        "en": "Warned by a letter, someone refused to take part in it, and in the wee hours the police arrested Fawkes.",
+        "targets": [
+          {
+            "id": "p-take-part-in",
+            "text": "take part in"
+          },
+          {
+            "id": "p-in-the-wee-hours",
+            "text": "in the wee hours"
+          },
+          {
+            "id": "w-arrest",
+            "text": "arrested"
+          }
+        ]
+      },
+      {
+        "en": "Defiant at first, he eventually confessed to the plot, and people still commemorate the night today.",
+        "targets": [
+          {
+            "id": "w-defiant",
+            "text": "Defiant"
+          },
+          {
+            "id": "w-eventually",
+            "text": "eventually"
+          },
+          {
+            "id": "p-confess-to",
+            "text": "confessed to"
+          },
+          {
+            "id": "w-commemorate",
+            "text": "commemorate"
+          }
+        ]
+      }
+    ]
+  }
+}

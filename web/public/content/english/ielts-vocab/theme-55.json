@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 55,
+  "themeId": "theme-55",
+  "themeName": "苦境に立つデパート",
+  "version": "0c0c2e89",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1340,
+      "id": "w-heyday",
+      "type": "word",
+      "front": "heyday",
+      "meaning": "全盛期",
+      "synonyms": [
+        "prime",
+        "best days"
+      ],
+      "collocation": "in its heyday",
+      "examples": [
+        {
+          "en": "Department stores had their heyday for the better part of the twentieth century."
+        }
+      ],
+      "pron": {
+        "lookup": "heyday",
+        "tts": "heyday"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1341,
+      "id": "p-for-the-better-part-of",
+      "type": "phrase",
+      "front": "for the better part of",
+      "meaning": "〜の大半で",
+      "synonyms": [
+        "for the bulk of",
+        "for most of"
+      ],
+      "collocation": "for the better part of",
+      "examples": [
+        {
+          "en": "Department stores had their heyday for the better part of the twentieth century."
+        }
+      ],
+      "pron": {
+        "tts": "for the better part of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1342,
+      "id": "w-up-to-date",
+      "type": "word",
+      "front": "up-to-date",
+      "meaning": "最新の",
+      "synonyms": [
+        "current",
+        "contemporary"
+      ],
+      "collocation": "up-to-date products",
+      "examples": [
+        {
+          "en": "They were the first to sell up-to-date fashion and niche goods, all under one roof."
+        }
+      ],
+      "pron": {
+        "lookup": "up-to-date",
+        "tts": "up-to-date"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1343,
+      "id": "w-niche",
+      "type": "word",
+      "front": "niche",
+      "meaning": "特定分野・専門市場",
+      "synonyms": [
+        "speciality",
+        "boutique"
+      ],
+      "collocation": "a niche",
+      "examples": [
+        {
+          "en": "They were the first to sell up-to-date fashion and niche goods, all under one roof."
+        }
+      ],
+      "pron": {
+        "lookup": "niche",
+        "tts": "niche"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1344,
+      "id": "p-under-one-roof",
+      "type": "phrase",
+      "front": "under one roof",
+      "meaning": "一つの屋根の下で",
+      "synonyms": [
+        "in one location"
+      ],
+      "collocation": "under one roof",
+      "examples": [
+        {
+          "en": "They were the first to sell up-to-date fashion and niche goods, all under one roof."
+        }
+      ],
+      "pron": {
+        "tts": "under one roof"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1345,
+      "id": "p-put-up-with",
+      "type": "phrase",
+      "front": "put up with",
+      "meaning": "〜に耐える",
+      "synonyms": [
+        "tolerate",
+        "endure"
+      ],
+      "collocation": "put up with",
+      "examples": [
+        {
+          "en": "Shoppers had to put up with finding merchandise in a labyrinth of departments."
+        }
+      ],
+      "pron": {
+        "tts": "put up with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1346,
+      "id": "w-merchandise",
+      "type": "word",
+      "front": "merchandise",
+      "meaning": "商品",
+      "synonyms": [
+        "goods",
+        "commodity",
+        "wares"
+      ],
+      "collocation": "sell merchandise",
+      "examples": [
+        {
+          "en": "Shoppers had to put up with finding merchandise in a labyrinth of departments."
+        }
+      ],
+      "pron": {
+        "lookup": "merchandise",
+        "tts": "merchandise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1347,
+      "id": "w-labyrinth",
+      "type": "word",
+      "front": "labyrinth",
+      "meaning": "迷路",
+      "synonyms": [
+        "maze"
+      ],
+      "collocation": "a labyrinth of",
+      "examples": [
+        {
+          "en": "Shoppers had to put up with finding merchandise in a labyrinth of departments."
+        }
+      ],
+      "pron": {
+        "lookup": "labyrinth",
+        "tts": "labyrinth"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1348,
+      "id": "p-brick-and-mortar-store",
+      "type": "phrase",
+      "front": "brick and mortar store",
+      "meaning": "実店舗",
+      "synonyms": [
+        "retail store"
+      ],
+      "collocation": "a brick and mortar store",
+      "examples": [
+        {
+          "en": "Now, brick and mortar stores' days are numbered, and they are under the gun from online shopping."
+        }
+      ],
+      "pron": {
+        "tts": "brick and mortar store"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1349,
+      "id": "p-days-are-numbered",
+      "type": "phrase",
+      "front": "days are numbered",
+      "meaning": "もう長くは続けられない",
+      "synonyms": [
+        "time is up"
+      ],
+      "collocation": "days are numbered",
+      "examples": [
+        {
+          "en": "Now, brick and mortar stores' days are numbered, and they are under the gun from online shopping."
+        }
+      ],
+      "pron": {
+        "tts": "days are numbered"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1350,
+      "id": "p-under-the-gun",
+      "type": "phrase",
+      "front": "under the gun",
+      "meaning": "重圧の下で・追い込まれて",
+      "synonyms": [
+        "under pressure"
+      ],
+      "collocation": "under the gun",
+      "examples": [
+        {
+          "en": "Now, brick and mortar stores' days are numbered, and they are under the gun from online shopping."
+        }
+      ],
+      "pron": {
+        "tts": "under the gun"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1351,
+      "id": "w-waste",
+      "type": "word",
+      "front": "waste",
+      "meaning": "浪費する",
+      "synonyms": [
+        "fritter away",
+        "squander",
+        "blow"
+      ],
+      "collocation": "waste money",
+      "examples": [
+        {
+          "en": "Why would anyone waste a day to amble through a store when goods arrive at the click of a button?"
+        }
+      ],
+      "pron": {
+        "lookup": "waste",
+        "tts": "waste"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1352,
+      "id": "w-amble",
+      "type": "word",
+      "front": "amble",
+      "meaning": "のんびり歩く",
+      "synonyms": [
+        "drift",
+        "wander",
+        "meander"
+      ],
+      "collocation": "amble around",
+      "examples": [
+        {
+          "en": "Why would anyone waste a day to amble through a store when goods arrive at the click of a button?"
+        }
+      ],
+      "pron": {
+        "lookup": "amble",
+        "tts": "amble"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1353,
+      "id": "w-ominous",
+      "type": "word",
+      "front": "ominous",
+      "meaning": "不吉な",
+      "synonyms": [
+        "dire",
+        "alarming"
+      ],
+      "collocation": "an ominous sign",
+      "examples": [
+        {
+          "en": "There is something ominous on the horizon: online retailers are looking at drones."
+        }
+      ],
+      "pron": {
+        "lookup": "ominous",
+        "tts": "ominous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1354,
+      "id": "p-on-the-horizon",
+      "type": "phrase",
+      "front": "on the horizon",
+      "meaning": "差し迫って",
+      "synonyms": [
+        "in the pipeline",
+        "imminent",
+        "just around the corner"
+      ],
+      "collocation": "on the horizon",
+      "examples": [
+        {
+          "en": "There is something ominous on the horizon: online retailers are looking at drones."
+        }
+      ],
+      "pron": {
+        "tts": "on the horizon"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1355,
+      "id": "w-retailer",
+      "type": "word",
+      "front": "retailer",
+      "meaning": "小売業者",
+      "synonyms": [
+        "merchant",
+        "vendor"
+      ],
+      "collocation": "online retailers",
+      "examples": [
+        {
+          "en": "There is something ominous on the horizon: online retailers are looking at drones."
+        }
+      ],
+      "pron": {
+        "lookup": "retailer",
+        "tts": "retailer"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1356,
+      "id": "p-look-into",
+      "type": "phrase",
+      "front": "look into",
+      "meaning": "調査する・見極める",
+      "synonyms": [
+        "investigate",
+        "determine",
+        "check out"
+      ],
+      "collocation": "look into sth",
+      "examples": [
+        {
+          "en": "They look into whether packages can arrive safe and sound."
+        }
+      ],
+      "pron": {
+        "tts": "look into"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1357,
+      "id": "p-safe-and-sound",
+      "type": "phrase",
+      "front": "safe and sound",
+      "meaning": "無事に",
+      "synonyms": [
+        "intact",
+        "unscathed",
+        "in one piece"
+      ],
+      "collocation": "arrive safe and sound",
+      "examples": [
+        {
+          "en": "They look into whether packages can arrive safe and sound."
+        }
+      ],
+      "pron": {
+        "tts": "safe and sound"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1358,
+      "id": "p-make-strides",
+      "type": "phrase",
+      "front": "make strides",
+      "meaning": "前進する",
+      "synonyms": [
+        "make progress",
+        "make headway",
+        "forge ahead"
+      ],
+      "collocation": "make strides",
+      "examples": [
+        {
+          "en": "As drone firms make strides and put the technology to use, the closure of famous stores may foreshadow the end of high street shopping."
+        }
+      ],
+      "pron": {
+        "tts": "make strides"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1359,
+      "id": "p-put-to-use",
+      "type": "phrase",
+      "front": "put to use",
+      "meaning": "〜を利用する",
+      "synonyms": [
+        "utilise",
+        "make use of"
+      ],
+      "collocation": "put to use",
+      "examples": [
+        {
+          "en": "As drone firms make strides and put the technology to use, the closure of famous stores may foreshadow the end of high street shopping."
+        }
+      ],
+      "pron": {
+        "tts": "put to use"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1360,
+      "id": "w-foreshadow",
+      "type": "word",
+      "front": "foreshadow",
+      "meaning": "前兆となる",
+      "synonyms": [
+        "act as a bellwether for"
+      ],
+      "collocation": "foreshadow sth",
+      "examples": [
+        {
+          "en": "As drone firms make strides and put the technology to use, the closure of famous stores may foreshadow the end of high street shopping."
+        }
+      ],
+      "pron": {
+        "lookup": "foreshadow",
+        "tts": "foreshadow"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1361,
+      "id": "p-everything-under-the-sun",
+      "type": "phrase",
+      "front": "everything under the sun",
+      "meaning": "ありとあらゆるもの",
+      "pron": {
+        "tts": "everything under the sun"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1362,
+      "id": "w-unmanned",
+      "type": "word",
+      "front": "unmanned",
+      "meaning": "無人の",
+      "pron": {
+        "lookup": "unmanned",
+        "tts": "unmanned"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1363,
+      "id": "p-high-street",
+      "type": "phrase",
+      "front": "high street",
+      "meaning": "本通り・商店街",
+      "pron": {
+        "tts": "high street"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 55,
+      "themeName": "苦境に立つデパート",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t55",
+    "theme": 55,
+    "themeName": "苦境に立つデパート",
+    "jp": "デパートは20世紀の大半で全盛を誇った。最新のファッションや専門的な商品を、一つ屋根の下で最初に売った店だった。買い物客は迷路のような売り場で商品を探すのに耐えねばならなかった。今や実店舗はもう長くは続けられず、オンラインショッピングに追い込まれている。ボタン一つで商品が届くのに、なぜ一日を無駄にして店内をのんびり歩くのか。地平線上に不吉なものが差し迫っている。オンライン小売業者はドローンを検討している。彼らは荷物が無事に届くか調査している。ドローン企業が前進し技術を活用するにつれ、有名店の閉店は本通りでの買い物の終わりの前兆かもしれない。",
+    "sentences": [
+      {
+        "en": "Department stores had their heyday for the better part of the twentieth century.",
+        "targets": [
+          {
+            "id": "w-heyday",
+            "text": "heyday"
+          },
+          {
+            "id": "p-for-the-better-part-of",
+            "text": "for the better part of"
+          }
+        ]
+      },
+      {
+        "en": "They were the first to sell up-to-date fashion and niche goods, all under one roof.",
+        "targets": [
+          {
+            "id": "w-up-to-date",
+            "text": "up-to-date"
+          },
+          {
+            "id": "w-niche",
+            "text": "niche"
+          },
+          {
+            "id": "p-under-one-roof",
+            "text": "under one roof"
+          }
+        ]
+      },
+      {
+        "en": "Shoppers had to put up with finding merchandise in a labyrinth of departments.",
+        "targets": [
+          {
+            "id": "p-put-up-with",
+            "text": "put up with"
+          },
+          {
+            "id": "w-merchandise",
+            "text": "merchandise"
+          },
+          {
+            "id": "w-labyrinth",
+            "text": "labyrinth"
+          }
+        ]
+      },
+      {
+        "en": "Now, brick and mortar stores' days are numbered, and they are under the gun from online shopping.",
+        "targets": [
+          {
+            "id": "p-brick-and-mortar-store",
+            "text": "brick and mortar stores"
+          },
+          {
+            "id": "p-days-are-numbered",
+            "text": "days are numbered"
+          },
+          {
+            "id": "p-under-the-gun",
+            "text": "under the gun"
+          }
+        ]
+      },
+      {
+        "en": "Why would anyone waste a day to amble through a store when goods arrive at the click of a button?",
+        "targets": [
+          {
+            "id": "w-waste",
+            "text": "waste"
+          },
+          {
+            "id": "w-amble",
+            "text": "amble"
+          }
+        ]
+      },
+      {
+        "en": "There is something ominous on the horizon: online retailers are looking at drones.",
+        "targets": [
+          {
+            "id": "w-ominous",
+            "text": "ominous"
+          },
+          {
+            "id": "p-on-the-horizon",
+            "text": "on the horizon"
+          },
+          {
+            "id": "w-retailer",
+            "text": "retailers"
+          }
+        ]
+      },
+      {
+        "en": "They look into whether packages can arrive safe and sound.",
+        "targets": [
+          {
+            "id": "p-look-into",
+            "text": "look into"
+          },
+          {
+            "id": "p-safe-and-sound",
+            "text": "safe and sound"
+          }
+        ]
+      },
+      {
+        "en": "As drone firms make strides and put the technology to use, the closure of famous stores may foreshadow the end of high street shopping.",
+        "targets": [
+          {
+            "id": "p-make-strides",
+            "text": "make strides"
+          },
+          {
+            "id": "p-put-to-use",
+            "text": "put"
+          },
+          {
+            "id": "w-foreshadow",
+            "text": "foreshadow"
+          }
+        ]
+      }
+    ]
+  }
+}

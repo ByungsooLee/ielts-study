@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 34,
+  "themeId": "theme-34",
+  "themeName": "先祖調査ビジネス",
+  "version": "e455f46e",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 810,
+      "id": "w-burgeoning",
+      "type": "word",
+      "front": "burgeoning",
+      "meaning": "急成長する",
+      "synonyms": [
+        "thriving",
+        "flourishing",
+        "booming"
+      ],
+      "collocation": "a burgeoning industry",
+      "examples": [
+        {
+          "en": "A burgeoning business of tracing our ancestors has grown into a huge industry."
+        }
+      ],
+      "pron": {
+        "lookup": "burgeoning",
+        "tts": "burgeoning"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 811,
+      "id": "w-ancestor",
+      "type": "word",
+      "front": "ancestor",
+      "meaning": "先祖",
+      "synonyms": [
+        "forebear",
+        "forefather"
+      ],
+      "collocation": "trace one's ancestors",
+      "examples": [
+        {
+          "en": "A burgeoning business of tracing our ancestors has grown into a huge industry."
+        }
+      ],
+      "pron": {
+        "lookup": "ancestor",
+        "tts": "ancestor"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 812,
+      "id": "w-industry",
+      "type": "word",
+      "front": "industry",
+      "meaning": "業界・事業分野",
+      "synonyms": [
+        "line of business",
+        "business field"
+      ],
+      "collocation": "a growing industry",
+      "examples": [
+        {
+          "en": "A burgeoning business of tracing our ancestors has grown into a huge industry."
+        }
+      ],
+      "pron": {
+        "lookup": "industry",
+        "tts": "industry"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 813,
+      "id": "w-drive",
+      "type": "word",
+      "front": "drive",
+      "meaning": "駆り立てる・動機づける",
+      "synonyms": [
+        "motivate",
+        "inspire"
+      ],
+      "collocation": "drive sb to do, be motivated to",
+      "examples": [
+        {
+          "en": "What drives people to dig into their family trees is a sense of identity in a cosmopolitan world."
+        }
+      ],
+      "pron": {
+        "lookup": "drive",
+        "tts": "drive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 814,
+      "id": "p-dig-into",
+      "type": "phrase",
+      "front": "dig into",
+      "meaning": "〜を掘り下げる・調べる",
+      "synonyms": [
+        "investigate",
+        "delve into"
+      ],
+      "collocation": "dig into the past",
+      "examples": [
+        {
+          "en": "What drives people to dig into their family trees is a sense of identity in a cosmopolitan world."
+        }
+      ],
+      "pron": {
+        "tts": "dig into"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 815,
+      "id": "p-sense-of-identity",
+      "type": "phrase",
+      "front": "sense of identity",
+      "meaning": "自己認識",
+      "synonyms": [
+        "sense of who one is",
+        "understanding of one's place in the world"
+      ],
+      "collocation": "a sense of identity",
+      "examples": [
+        {
+          "en": "What drives people to dig into their family trees is a sense of identity in a cosmopolitan world."
+        }
+      ],
+      "pron": {
+        "tts": "sense of identity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 816,
+      "id": "w-cosmopolitan",
+      "type": "word",
+      "front": "cosmopolitan",
+      "meaning": "国際化した",
+      "synonyms": [
+        "internationalised",
+        "globalised"
+      ],
+      "collocation": "a cosmopolitan city",
+      "examples": [
+        {
+          "en": "What drives people to dig into their family trees is a sense of identity in a cosmopolitan world."
+        }
+      ],
+      "pron": {
+        "lookup": "cosmopolitan",
+        "tts": "cosmopolitan"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 817,
+      "id": "p-track-down",
+      "type": "phrase",
+      "front": "track down",
+      "meaning": "〜を突き止める",
+      "synonyms": [
+        "trace",
+        "research"
+      ],
+      "collocation": "track down ancestors",
+      "examples": [
+        {
+          "en": "It is convenient: people can track down their history from home."
+        }
+      ],
+      "pron": {
+        "tts": "track down"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 818,
+      "id": "w-convenient",
+      "type": "word",
+      "front": "convenient",
+      "meaning": "わかりやすい・便利な",
+      "synonyms": [
+        "straightforward",
+        "uncomplicated"
+      ],
+      "collocation": "convenient to use",
+      "examples": [
+        {
+          "en": "It is convenient: people can track down their history from home."
+        }
+      ],
+      "pron": {
+        "lookup": "convenient",
+        "tts": "convenient"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 819,
+      "id": "w-accomplish",
+      "type": "word",
+      "front": "accomplish",
+      "meaning": "やり遂げる・完了する",
+      "synonyms": [
+        "achieve",
+        "complete"
+      ],
+      "collocation": "be accomplished",
+      "examples": [
+        {
+          "en": "You input some details, and the company issues a chart, all accomplished from a saliva sample."
+        }
+      ],
+      "pron": {
+        "lookup": "accomplish",
+        "tts": "accomplish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 820,
+      "id": "w-input",
+      "type": "word",
+      "front": "input",
+      "meaning": "入力する",
+      "synonyms": [
+        "enter",
+        "upload"
+      ],
+      "collocation": "input the information",
+      "examples": [
+        {
+          "en": "You input some details, and the company issues a chart, all accomplished from a saliva sample."
+        }
+      ],
+      "pron": {
+        "lookup": "input",
+        "tts": "input"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 821,
+      "id": "w-issue",
+      "type": "word",
+      "front": "issue",
+      "meaning": "発行する・送る",
+      "synonyms": [
+        "send out"
+      ],
+      "collocation": "issue a chart",
+      "examples": [
+        {
+          "en": "You input some details, and the company issues a chart, all accomplished from a saliva sample."
+        }
+      ],
+      "pron": {
+        "lookup": "issue",
+        "tts": "issue"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 822,
+      "id": "w-unearth",
+      "type": "word",
+      "front": "unearth",
+      "meaning": "発掘する・明るみに出す",
+      "synonyms": [
+        "uncover",
+        "dig up"
+      ],
+      "collocation": "unearth one's roots",
+      "examples": [
+        {
+          "en": "DNA tests can unearth your roots going back thousands of years."
+        }
+      ],
+      "pron": {
+        "lookup": "unearth",
+        "tts": "unearth"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 823,
+      "id": "w-roots",
+      "type": "word",
+      "front": "roots",
+      "meaning": "遺産・ルーツ",
+      "synonyms": [
+        "heritage"
+      ],
+      "collocation": "trace one's roots",
+      "examples": [
+        {
+          "en": "DNA tests can unearth your roots going back thousands of years."
+        }
+      ],
+      "pron": {
+        "lookup": "roots",
+        "tts": "roots"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 824,
+      "id": "p-susceptible-to",
+      "type": "phrase",
+      "front": "susceptible to",
+      "meaning": "〜の危険にさらされて",
+      "synonyms": [
+        "at risk of",
+        "prone to",
+        "vulnerable to"
+      ],
+      "collocation": "susceptible to hacking",
+      "examples": [
+        {
+          "en": "Yet these databases are susceptible to hacking, and they may reveal diseases that run in the family."
+        }
+      ],
+      "pron": {
+        "tts": "susceptible to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 825,
+      "id": "p-run-in-one-s-family",
+      "type": "phrase",
+      "front": "run in one's family",
+      "meaning": "（病気などが）遺伝である",
+      "synonyms": [
+        "be genetically inherited",
+        "be hereditary"
+      ],
+      "collocation": "run in the family",
+      "examples": [
+        {
+          "en": "Yet these databases are susceptible to hacking, and they may reveal diseases that run in the family."
+        }
+      ],
+      "pron": {
+        "tts": "run in one's family"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 826,
+      "id": "w-advocate",
+      "type": "word",
+      "front": "advocate",
+      "meaning": "擁護者・支持者",
+      "synonyms": [
+        "proponent"
+      ],
+      "collocation": "an advocate of",
+      "examples": [
+        {
+          "en": "For this reason, privacy advocates raise concerns about information that could become accessible at the click of a mouse."
+        }
+      ],
+      "pron": {
+        "lookup": "advocate",
+        "tts": "advocate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 827,
+      "id": "p-raise-concerns-about",
+      "type": "phrase",
+      "front": "raise concerns about",
+      "meaning": "〜への懸念を提起する",
+      "synonyms": [
+        "call into question",
+        "cast doubt on"
+      ],
+      "collocation": "raise concerns about",
+      "examples": [
+        {
+          "en": "For this reason, privacy advocates raise concerns about information that could become accessible at the click of a mouse."
+        }
+      ],
+      "pron": {
+        "tts": "raise concerns about"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 828,
+      "id": "w-accessible",
+      "type": "word",
+      "front": "accessible",
+      "meaning": "入手可能な",
+      "synonyms": [
+        "available",
+        "out in the open",
+        "in public view"
+      ],
+      "collocation": "be accessible",
+      "examples": [
+        {
+          "en": "For this reason, privacy advocates raise concerns about information that could become accessible at the click of a mouse."
+        }
+      ],
+      "pron": {
+        "lookup": "accessible",
+        "tts": "accessible"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 829,
+      "id": "w-genealogy",
+      "type": "word",
+      "front": "genealogy",
+      "meaning": "家系図",
+      "pron": {
+        "lookup": "genealogy",
+        "tts": "genealogy"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 830,
+      "id": "p-personal-details",
+      "type": "phrase",
+      "front": "personal details",
+      "meaning": "個人情報",
+      "pron": {
+        "tts": "personal details"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 831,
+      "id": "w-saliva",
+      "type": "word",
+      "front": "saliva",
+      "meaning": "唾液",
+      "pron": {
+        "lookup": "saliva",
+        "tts": "saliva"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 832,
+      "id": "p-biological-information",
+      "type": "phrase",
+      "front": "biological information",
+      "meaning": "生物学的情報",
+      "pron": {
+        "tts": "biological information"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 833,
+      "id": "p-at-the-click-of-a-mouse",
+      "type": "phrase",
+      "front": "at the click of a mouse",
+      "meaning": "クリック一つで",
+      "synonyms": [
+        "at the press of a button"
+      ],
+      "pron": {
+        "tts": "at the click of a mouse"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 34,
+      "themeName": "先祖調査ビジネス",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t34",
+    "theme": 34,
+    "themeName": "先祖調査ビジネス",
+    "jp": "先祖をたどる急成長中のビジネスは巨大な業界へと育った。人々を家系調査に駆り立てるのは、国際化した世界での自己認識だ。便利で、家にいながら自分の歴史を突き止められる。いくつか情報を入力すると会社が家系図を発行し、すべて唾液の検体から完了する。DNA検査は何千年も遡ってルーツを掘り出せる。だがこれらのデータベースはハッキングの危険にさらされ、遺伝する病気を明らかにしうる。このため、プライバシーの擁護者は、クリック一つで入手可能になる情報への懸念を提起する。",
+    "sentences": [
+      {
+        "en": "A burgeoning business of tracing our ancestors has grown into a huge industry.",
+        "targets": [
+          {
+            "id": "w-burgeoning",
+            "text": "burgeoning"
+          },
+          {
+            "id": "w-ancestor",
+            "text": "ancestors"
+          },
+          {
+            "id": "w-industry",
+            "text": "industry"
+          }
+        ]
+      },
+      {
+        "en": "What drives people to dig into their family trees is a sense of identity in a cosmopolitan world.",
+        "targets": [
+          {
+            "id": "w-drive",
+            "text": "drives"
+          },
+          {
+            "id": "p-dig-into",
+            "text": "dig into"
+          },
+          {
+            "id": "p-sense-of-identity",
+            "text": "sense of identity"
+          },
+          {
+            "id": "w-cosmopolitan",
+            "text": "cosmopolitan"
+          }
+        ]
+      },
+      {
+        "en": "It is convenient: people can track down their history from home.",
+        "targets": [
+          {
+            "id": "w-convenient",
+            "text": "convenient"
+          },
+          {
+            "id": "p-track-down",
+            "text": "track down"
+          }
+        ]
+      },
+      {
+        "en": "You input some details, and the company issues a chart, all accomplished from a saliva sample.",
+        "targets": [
+          {
+            "id": "w-input",
+            "text": "input"
+          },
+          {
+            "id": "w-issue",
+            "text": "issues"
+          },
+          {
+            "id": "w-accomplish",
+            "text": "accomplished"
+          }
+        ]
+      },
+      {
+        "en": "DNA tests can unearth your roots going back thousands of years.",
+        "targets": [
+          {
+            "id": "w-unearth",
+            "text": "unearth"
+          },
+          {
+            "id": "w-roots",
+            "text": "roots"
+          }
+        ]
+      },
+      {
+        "en": "Yet these databases are susceptible to hacking, and they may reveal diseases that run in the family.",
+        "targets": [
+          {
+            "id": "p-susceptible-to",
+            "text": "susceptible to"
+          },
+          {
+            "id": "p-run-in-one-s-family",
+            "text": "run in the family"
+          }
+        ]
+      },
+      {
+        "en": "For this reason, privacy advocates raise concerns about information that could become accessible at the click of a mouse.",
+        "targets": [
+          {
+            "id": "w-advocate",
+            "text": "advocates"
+          },
+          {
+            "id": "p-raise-concerns-about",
+            "text": "raise concerns about"
+          },
+          {
+            "id": "w-accessible",
+            "text": "accessible"
+          }
+        ]
+      }
+    ]
+  }
+}

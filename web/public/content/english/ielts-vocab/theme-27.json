@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 27,
+  "themeId": "theme-27",
+  "themeName": "行動経済学",
+  "version": "063b32ea",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 631,
+      "id": "p-economic-downturn",
+      "type": "phrase",
+      "front": "economic downturn",
+      "meaning": "景気後退・不況",
+      "synonyms": [
+        "recession"
+      ],
+      "collocation": "a severe recession, an economic downturn",
+      "examples": [
+        {
+          "en": "Despite a recent economic downturn, cruise lines still turn a profit on a massive scale."
+        }
+      ],
+      "pron": {
+        "tts": "economic downturn"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 632,
+      "id": "p-turn-a-profit",
+      "type": "phrase",
+      "front": "turn a profit",
+      "meaning": "利益を上げる",
+      "synonyms": [
+        "get into the black"
+      ],
+      "collocation": "turn a profit, make a profit",
+      "examples": [
+        {
+          "en": "Despite a recent economic downturn, cruise lines still turn a profit on a massive scale."
+        }
+      ],
+      "pron": {
+        "tts": "turn a profit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 633,
+      "id": "p-on-a-massive-scale",
+      "type": "phrase",
+      "front": "on a massive scale",
+      "meaning": "大規模に",
+      "synonyms": [
+        "on a large scale",
+        "in great measure"
+      ],
+      "collocation": "on a massive scale",
+      "examples": [
+        {
+          "en": "Despite a recent economic downturn, cruise lines still turn a profit on a massive scale."
+        }
+      ],
+      "pron": {
+        "tts": "on a massive scale"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 634,
+      "id": "w-modify",
+      "type": "word",
+      "front": "modify",
+      "meaning": "修正する・変更する",
+      "synonyms": [
+        "adjust",
+        "revise"
+      ],
+      "collocation": "modify a plan, adjust prices",
+      "pron": {
+        "lookup": "modify",
+        "tts": "modify"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 635,
+      "id": "w-comprehend",
+      "type": "word",
+      "front": "comprehend",
+      "meaning": "理解する",
+      "synonyms": [
+        "grasp",
+        "fathom",
+        "discern"
+      ],
+      "collocation": "comprehend the concept, grasp the idea",
+      "pron": {
+        "lookup": "comprehend",
+        "tts": "comprehend"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 636,
+      "id": "p-compare-with",
+      "type": "phrase",
+      "front": "compare with",
+      "meaning": "〜と比較する",
+      "synonyms": [
+        "weigh against"
+      ],
+      "collocation": "compare A with B",
+      "examples": [
+        {
+          "en": "They do this by getting customers to compare one price with another."
+        }
+      ],
+      "pron": {
+        "tts": "compare with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 637,
+      "id": "w-costly",
+      "type": "word",
+      "front": "costly",
+      "meaning": "高価な",
+      "synonyms": [
+        "pricey",
+        "overpriced"
+      ],
+      "collocation": "a costly mistake, costly goods",
+      "examples": [
+        {
+          "en": "A $1,000 television seems costly next to a $700 one, yet cheap next to a $2,000 one."
+        }
+      ],
+      "pron": {
+        "lookup": "costly",
+        "tts": "costly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 638,
+      "id": "w-refurbish",
+      "type": "word",
+      "front": "refurbish",
+      "meaning": "改装する・一新する",
+      "synonyms": [
+        "renovate",
+        "spruce up",
+        "fix up"
+      ],
+      "collocation": "refurbish a room",
+      "examples": [
+        {
+          "en": "If you refurbish your living room thoroughly for $20,000, a $1,000 set then seems minor."
+        }
+      ],
+      "pron": {
+        "lookup": "refurbish",
+        "tts": "refurbish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 639,
+      "id": "w-thoroughly",
+      "type": "word",
+      "front": "thoroughly",
+      "meaning": "徹底的に",
+      "synonyms": [
+        "inside and out",
+        "from top to bottom"
+      ],
+      "collocation": "thoroughly clean",
+      "examples": [
+        {
+          "en": "If you refurbish your living room thoroughly for $20,000, a $1,000 set then seems minor."
+        }
+      ],
+      "pron": {
+        "lookup": "thoroughly",
+        "tts": "thoroughly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 640,
+      "id": "w-contradict",
+      "type": "word",
+      "front": "contradict",
+      "meaning": "矛盾する・反論する",
+      "synonyms": [
+        "run counter to",
+        "contrast with"
+      ],
+      "collocation": "contradict the theory",
+      "examples": [
+        {
+          "en": "This contradicts the idea that people spend money logically and treat cash as having an absolute value."
+        }
+      ],
+      "pron": {
+        "lookup": "contradict",
+        "tts": "contradict"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 641,
+      "id": "w-logically",
+      "type": "word",
+      "front": "logically",
+      "meaning": "論理的に・合理的に",
+      "synonyms": [
+        "rationally",
+        "sensibly"
+      ],
+      "collocation": "act rationally, spend money rationally",
+      "examples": [
+        {
+          "en": "This contradicts the idea that people spend money logically and treat cash as having an absolute value."
+        }
+      ],
+      "pron": {
+        "lookup": "logically",
+        "tts": "logically"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 642,
+      "id": "w-absolute",
+      "type": "word",
+      "front": "absolute",
+      "meaning": "絶対的な・確定した",
+      "synonyms": [
+        "definite",
+        "fixed"
+      ],
+      "collocation": "an absolute value, a definite answer",
+      "examples": [
+        {
+          "en": "This contradicts the idea that people spend money logically and treat cash as having an absolute value."
+        }
+      ],
+      "pron": {
+        "lookup": "absolute",
+        "tts": "absolute"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 643,
+      "id": "w-underestimate",
+      "type": "word",
+      "front": "underestimate",
+      "meaning": "過小評価する",
+      "synonyms": [
+        "undervalue"
+      ],
+      "collocation": "underestimate the risk",
+      "examples": [
+        {
+          "en": "Economists once underestimated this, but behavioural economics — a hybrid of psychology and economics — has gained traction."
+        }
+      ],
+      "pron": {
+        "lookup": "underestimate",
+        "tts": "underestimate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 644,
+      "id": "w-hybrid",
+      "type": "word",
+      "front": "hybrid",
+      "meaning": "融合・混成",
+      "synonyms": [
+        "fusion",
+        "combination",
+        "amalgamation"
+      ],
+      "collocation": "a hybrid of A and B",
+      "examples": [
+        {
+          "en": "Economists once underestimated this, but behavioural economics — a hybrid of psychology and economics — has gained traction."
+        }
+      ],
+      "pron": {
+        "lookup": "hybrid",
+        "tts": "hybrid"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 645,
+      "id": "p-gain-traction",
+      "type": "phrase",
+      "front": "gain traction",
+      "meaning": "勢いを増す",
+      "synonyms": [
+        "pick up momentum",
+        "gain ground"
+      ],
+      "collocation": "gain traction, pick up momentum",
+      "examples": [
+        {
+          "en": "Economists once underestimated this, but behavioural economics — a hybrid of psychology and economics — has gained traction."
+        }
+      ],
+      "pron": {
+        "tts": "gain traction"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 646,
+      "id": "w-irrational",
+      "type": "word",
+      "front": "irrational",
+      "meaning": "不合理な",
+      "synonyms": [
+        "illogical",
+        "ill-considered"
+      ],
+      "collocation": "an irrational decision",
+      "examples": [
+        {
+          "en": "It shows people make irrational choices, and companies take advantage of this to boost sales."
+        }
+      ],
+      "pron": {
+        "lookup": "irrational",
+        "tts": "irrational"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 647,
+      "id": "p-take-advantage-of",
+      "type": "phrase",
+      "front": "take advantage of",
+      "meaning": "利用する・つけ込む",
+      "synonyms": [
+        "utilise",
+        "capitalise on"
+      ],
+      "collocation": "take advantage of, capitalise on emotions",
+      "examples": [
+        {
+          "en": "It shows people make irrational choices, and companies take advantage of this to boost sales."
+        }
+      ],
+      "pron": {
+        "tts": "take advantage of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 648,
+      "id": "w-boost",
+      "type": "word",
+      "front": "boost",
+      "meaning": "増やす・押し上げる",
+      "synonyms": [
+        "increase",
+        "raise"
+      ],
+      "collocation": "boost sales, boost the economy",
+      "examples": [
+        {
+          "en": "It shows people make irrational choices, and companies take advantage of this to boost sales."
+        }
+      ],
+      "pron": {
+        "lookup": "boost",
+        "tts": "boost"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 649,
+      "id": "w-astronomical",
+      "type": "word",
+      "front": "astronomical",
+      "meaning": "天文学的な・莫大な",
+      "synonyms": [
+        "enormous",
+        "sky-high"
+      ],
+      "collocation": "astronomical prices",
+      "examples": [
+        {
+          "en": "Once on board, customers spend astronomical amounts, doubling the company's earnings."
+        }
+      ],
+      "pron": {
+        "lookup": "astronomical",
+        "tts": "astronomical"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 650,
+      "id": "w-earnings",
+      "type": "word",
+      "front": "earnings",
+      "meaning": "収入・収益",
+      "synonyms": [
+        "revenue"
+      ],
+      "collocation": "annual earnings, generate revenue",
+      "examples": [
+        {
+          "en": "Once on board, customers spend astronomical amounts, doubling the company's earnings."
+        }
+      ],
+      "pron": {
+        "lookup": "earnings",
+        "tts": "earnings"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 651,
+      "id": "p-turning-a-profit",
+      "type": "phrase",
+      "front": "turning a profit",
+      "meaning": "利益を出す",
+      "pron": {
+        "tts": "turning a profit"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 652,
+      "id": "w-comparing",
+      "type": "word",
+      "front": "comparing",
+      "meaning": "比較",
+      "pron": {
+        "lookup": "comparing",
+        "tts": "comparing"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 653,
+      "id": "p-spending-habits",
+      "type": "phrase",
+      "front": "spending habits",
+      "meaning": "消費習慣・購買決定",
+      "synonyms": [
+        "purchasing decision"
+      ],
+      "pron": {
+        "tts": "spending habits"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 654,
+      "id": "p-in-great-measure",
+      "type": "phrase",
+      "front": "in great measure",
+      "meaning": "大いに",
+      "pron": {
+        "tts": "in great measure"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 655,
+      "id": "p-cruise-line",
+      "type": "phrase",
+      "front": "cruise line",
+      "meaning": "船会社",
+      "pron": {
+        "tts": "cruise line"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 656,
+      "id": "w-exploit",
+      "type": "word",
+      "front": "exploit",
+      "meaning": "利用する",
+      "pron": {
+        "lookup": "exploit",
+        "tts": "exploit"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 657,
+      "id": "p-behavioural-economics",
+      "type": "phrase",
+      "front": "behavioural economics",
+      "meaning": "行動経済学",
+      "pron": {
+        "tts": "behavioural economics"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 27,
+      "themeName": "行動経済学",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t27",
+    "theme": 27,
+    "themeName": "行動経済学",
+    "jp": "近年の景気後退にもかかわらず、クルーズ会社は大規模に利益を上げている。客にある価格を別の価格と比較させることでこれを行う。1000ドルのテレビは700ドルの隣では高価に見えるが、2000ドルの隣では安く見える。居間を2万ドルで徹底的に改装すれば、1000ドルのテレビは小さく思える。これは、人はお金を論理的に使い現金を絶対的な価値として扱うという考えと矛盾する。経済学者はかつてこれを過小評価したが、心理学と経済学の融合である行動経済学は勢いを増している。人は不合理な選択をし、企業はそれを利用して売上を伸ばす。いったん乗せられると客は天文学的な額を使い、企業の収益は倍増する。",
+    "sentences": [
+      {
+        "en": "Despite a recent economic downturn, cruise lines still turn a profit on a massive scale.",
+        "targets": [
+          {
+            "id": "p-economic-downturn",
+            "text": "economic downturn"
+          },
+          {
+            "id": "p-turn-a-profit",
+            "text": "turn a profit"
+          },
+          {
+            "id": "p-on-a-massive-scale",
+            "text": "on a massive scale"
+          }
+        ]
+      },
+      {
+        "en": "They do this by getting customers to compare one price with another.",
+        "targets": [
+          {
+            "id": "p-compare-with",
+            "text": "compare"
+          }
+        ]
+      },
+      {
+        "en": "A $1,000 television seems costly next to a $700 one, yet cheap next to a $2,000 one.",
+        "targets": [
+          {
+            "id": "w-costly",
+            "text": "costly"
+          }
+        ]
+      },
+      {
+        "en": "If you refurbish your living room thoroughly for $20,000, a $1,000 set then seems minor.",
+        "targets": [
+          {
+            "id": "w-refurbish",
+            "text": "refurbish"
+          },
+          {
+            "id": "w-thoroughly",
+            "text": "thoroughly"
+          }
+        ]
+      },
+      {
+        "en": "This contradicts the idea that people spend money logically and treat cash as having an absolute value.",
+        "targets": [
+          {
+            "id": "w-contradict",
+            "text": "contradicts"
+          },
+          {
+            "id": "w-logically",
+            "text": "logically"
+          },
+          {
+            "id": "w-absolute",
+            "text": "absolute"
+          }
+        ]
+      },
+      {
+        "en": "Economists once underestimated this, but behavioural economics — a hybrid of psychology and economics — has gained traction.",
+        "targets": [
+          {
+            "id": "w-underestimate",
+            "text": "underestimated"
+          },
+          {
+            "id": "w-hybrid",
+            "text": "hybrid"
+          },
+          {
+            "id": "p-gain-traction",
+            "text": "gained traction"
+          }
+        ]
+      },
+      {
+        "en": "It shows people make irrational choices, and companies take advantage of this to boost sales.",
+        "targets": [
+          {
+            "id": "w-irrational",
+            "text": "irrational"
+          },
+          {
+            "id": "p-take-advantage-of",
+            "text": "take advantage of"
+          },
+          {
+            "id": "w-boost",
+            "text": "boost"
+          }
+        ]
+      },
+      {
+        "en": "Once on board, customers spend astronomical amounts, doubling the company's earnings.",
+        "targets": [
+          {
+            "id": "w-astronomical",
+            "text": "astronomical"
+          },
+          {
+            "id": "w-earnings",
+            "text": "earnings"
+          }
+        ]
+      }
+    ]
+  }
+}

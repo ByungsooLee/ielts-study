@@ -146,7 +146,7 @@
       ],
       "theme": 1,
       "themeName": "ポリネシアの入植",
-      "priority": "A",
+      "priority": "S",
       "domain": "english",
       "collection": "ielts-vocab"
     },
@@ -412,7 +412,7 @@
       ],
       "theme": 1,
       "themeName": "ポリネシアの入植",
-      "priority": "B",
+      "priority": "A",
       "domain": "english",
       "collection": "ielts-vocab"
     },
@@ -759,7 +759,7 @@
       ],
       "theme": 2,
       "themeName": "プラスチック",
-      "priority": "A",
+      "priority": "S",
       "domain": "english",
       "collection": "ielts-vocab"
     },

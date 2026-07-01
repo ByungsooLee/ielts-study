@@ -1,0 +1,815 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 39,
+  "themeId": "theme-39",
+  "themeName": "ビール製造の歴史",
+  "version": "d7d672aa",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 935,
+      "id": "p-settle-down",
+      "type": "phrase",
+      "front": "settle down",
+      "meaning": "定住する",
+      "synonyms": [
+        "put down roots"
+      ],
+      "collocation": "settle down",
+      "examples": [
+        {
+          "en": "It is widely believed that farming let people settle down and marked the spark of civilisation."
+        }
+      ],
+      "pron": {
+        "tts": "settle down"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 936,
+      "id": "w-spark",
+      "type": "word",
+      "front": "spark",
+      "meaning": "引き金・きっかけ",
+      "synonyms": [
+        "trigger"
+      ],
+      "collocation": "the spark for, a trigger for",
+      "examples": [
+        {
+          "en": "It is widely believed that farming let people settle down and marked the spark of civilisation."
+        }
+      ],
+      "pron": {
+        "lookup": "spark",
+        "tts": "spark"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 937,
+      "id": "w-current",
+      "type": "word",
+      "front": "current",
+      "meaning": "現在の",
+      "synonyms": [
+        "contemporary",
+        "modern-day",
+        "modern"
+      ],
+      "collocation": "current thinking",
+      "examples": [
+        {
+          "en": "But some argue beer, not bread, was the current reason for this shift."
+        }
+      ],
+      "pron": {
+        "lookup": "current",
+        "tts": "current"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 938,
+      "id": "w-circumstantial",
+      "type": "word",
+      "front": "circumstantial",
+      "meaning": "状況証拠の・間接的な",
+      "synonyms": [
+        "indirect"
+      ],
+      "collocation": "circumstantial evidence",
+      "examples": [
+        {
+          "en": "The circumstantial evidence is old relics that archaeologists dug up, which appear as if they were used to brew beer."
+        }
+      ],
+      "pron": {
+        "lookup": "circumstantial",
+        "tts": "circumstantial"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 939,
+      "id": "w-relic",
+      "type": "word",
+      "front": "relic",
+      "meaning": "遺物・遺構",
+      "synonyms": [
+        "artefact"
+      ],
+      "collocation": "ancient relics",
+      "examples": [
+        {
+          "en": "The circumstantial evidence is old relics that archaeologists dug up, which appear as if they were used to brew beer."
+        }
+      ],
+      "pron": {
+        "lookup": "relic",
+        "tts": "relic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 940,
+      "id": "p-dig-up",
+      "type": "phrase",
+      "front": "dig up",
+      "meaning": "発掘する",
+      "synonyms": [
+        "uncover",
+        "unearth"
+      ],
+      "collocation": "dig up remains",
+      "examples": [
+        {
+          "en": "The circumstantial evidence is old relics that archaeologists dug up, which appear as if they were used to brew beer."
+        }
+      ],
+      "pron": {
+        "tts": "dig up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 941,
+      "id": "p-appear-as-if",
+      "type": "phrase",
+      "front": "appear as if",
+      "meaning": "（〜のように）見える",
+      "synonyms": [
+        "look as if",
+        "seem like"
+      ],
+      "collocation": "appear as if",
+      "examples": [
+        {
+          "en": "The circumstantial evidence is old relics that archaeologists dug up, which appear as if they were used to brew beer."
+        }
+      ],
+      "pron": {
+        "tts": "appear as if"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 942,
+      "id": "p-advent-of",
+      "type": "phrase",
+      "front": "advent of",
+      "meaning": "〜の出現・到来",
+      "synonyms": [
+        "onset of",
+        "arrival of"
+      ],
+      "collocation": "the advent of",
+      "pron": {
+        "tts": "advent of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 943,
+      "id": "w-paradoxical",
+      "type": "word",
+      "front": "paradoxical",
+      "meaning": "逆説的な・矛盾した",
+      "synonyms": [
+        "absurd",
+        "contradictory"
+      ],
+      "collocation": "paradoxical but true",
+      "examples": [
+        {
+          "en": "It may seem paradoxical, but beer was safer than water thanks to the antibacterial properties that killed impurities."
+        }
+      ],
+      "pron": {
+        "lookup": "paradoxical",
+        "tts": "paradoxical"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 944,
+      "id": "w-property",
+      "type": "word",
+      "front": "property",
+      "meaning": "特性",
+      "synonyms": [
+        "characteristic",
+        "attribute",
+        "feature"
+      ],
+      "collocation": "an antibacterial property",
+      "examples": [
+        {
+          "en": "It may seem paradoxical, but beer was safer than water thanks to the antibacterial properties that killed impurities."
+        }
+      ],
+      "pron": {
+        "lookup": "property",
+        "tts": "property"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 945,
+      "id": "w-impurity",
+      "type": "word",
+      "front": "impurity",
+      "meaning": "不純物・汚染物質",
+      "synonyms": [
+        "contaminant"
+      ],
+      "collocation": "impurities in water",
+      "examples": [
+        {
+          "en": "It may seem paradoxical, but beer was safer than water thanks to the antibacterial properties that killed impurities."
+        }
+      ],
+      "pron": {
+        "lookup": "impurity",
+        "tts": "impurity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 946,
+      "id": "w-pivotal",
+      "type": "word",
+      "front": "pivotal",
+      "meaning": "極めて重要な",
+      "synonyms": [
+        "central",
+        "essential",
+        "principal"
+      ],
+      "collocation": "a pivotal role",
+      "examples": [
+        {
+          "en": "Beer also played a pivotal social role, because subservience to a leader was easier when alcohol could aid cooperation, and problems multiply when people work alone."
+        }
+      ],
+      "pron": {
+        "lookup": "pivotal",
+        "tts": "pivotal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 947,
+      "id": "w-subservience",
+      "type": "word",
+      "front": "subservience",
+      "meaning": "服従",
+      "synonyms": [
+        "obedience",
+        "submissiveness"
+      ],
+      "collocation": "subservience to a leader",
+      "examples": [
+        {
+          "en": "Beer also played a pivotal social role, because subservience to a leader was easier when alcohol could aid cooperation, and problems multiply when people work alone."
+        }
+      ],
+      "pron": {
+        "lookup": "subservience",
+        "tts": "subservience"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 948,
+      "id": "w-aid",
+      "type": "word",
+      "front": "aid",
+      "meaning": "助ける・促進する",
+      "synonyms": [
+        "assist",
+        "support"
+      ],
+      "collocation": "aid one another",
+      "examples": [
+        {
+          "en": "Beer also played a pivotal social role, because subservience to a leader was easier when alcohol could aid cooperation, and problems multiply when people work alone."
+        }
+      ],
+      "pron": {
+        "lookup": "aid",
+        "tts": "aid"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 949,
+      "id": "w-multiply",
+      "type": "word",
+      "front": "multiply",
+      "meaning": "増える・繁殖する",
+      "synonyms": [
+        "reproduce"
+      ],
+      "collocation": "multiply quickly",
+      "examples": [
+        {
+          "en": "Beer also played a pivotal social role, because subservience to a leader was easier when alcohol could aid cooperation, and problems multiply when people work alone."
+        }
+      ],
+      "pron": {
+        "lookup": "multiply",
+        "tts": "multiply"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 950,
+      "id": "w-suppress",
+      "type": "word",
+      "front": "suppress",
+      "meaning": "抑える",
+      "synonyms": [
+        "push down",
+        "hold in check",
+        "restrain"
+      ],
+      "collocation": "suppress instincts",
+      "examples": [
+        {
+          "en": "To solve problems together, people needed to suppress their instincts and break free from the constraints of social life."
+        }
+      ],
+      "pron": {
+        "lookup": "suppress",
+        "tts": "suppress"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 951,
+      "id": "p-break-free-from",
+      "type": "phrase",
+      "front": "break free from",
+      "meaning": "〜から抜け出す・自由になる",
+      "synonyms": [
+        "break away from",
+        "disentangle oneself from",
+        "escape from"
+      ],
+      "collocation": "break free from",
+      "examples": [
+        {
+          "en": "To solve problems together, people needed to suppress their instincts and break free from the constraints of social life."
+        }
+      ],
+      "pron": {
+        "tts": "break free from"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 952,
+      "id": "w-constraint",
+      "type": "word",
+      "front": "constraint",
+      "meaning": "制約",
+      "synonyms": [
+        "restriction",
+        "restraint",
+        "limitation"
+      ],
+      "collocation": "social constraints",
+      "examples": [
+        {
+          "en": "To solve problems together, people needed to suppress their instincts and break free from the constraints of social life."
+        }
+      ],
+      "pron": {
+        "lookup": "constraint",
+        "tts": "constraint"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 953,
+      "id": "w-inhibition",
+      "type": "word",
+      "front": "inhibition",
+      "meaning": "抑制",
+      "collocation": "lose one's inhibitions",
+      "examples": [
+        {
+          "en": "Drinking lowered their inhibitions and social barriers, so people could speak their minds more freely."
+        }
+      ],
+      "pron": {
+        "lookup": "inhibition",
+        "tts": "inhibition"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 954,
+      "id": "p-social-barrier",
+      "type": "phrase",
+      "front": "social barrier",
+      "meaning": "社会的障壁",
+      "synonyms": [
+        "social anxiety"
+      ],
+      "collocation": "lower social barriers",
+      "examples": [
+        {
+          "en": "Drinking lowered their inhibitions and social barriers, so people could speak their minds more freely."
+        }
+      ],
+      "pron": {
+        "tts": "social barrier"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 955,
+      "id": "p-speak-one-s-mind",
+      "type": "phrase",
+      "front": "speak one's mind",
+      "meaning": "本音を言う",
+      "synonyms": [
+        "express oneself",
+        "voice one's opinion"
+      ],
+      "collocation": "speak one's mind",
+      "examples": [
+        {
+          "en": "Drinking lowered their inhibitions and social barriers, so people could speak their minds more freely."
+        }
+      ],
+      "pron": {
+        "tts": "speak one's mind"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 956,
+      "id": "w-roam",
+      "type": "word",
+      "front": "roam",
+      "meaning": "歩き回る",
+      "pron": {
+        "lookup": "roam",
+        "tts": "roam"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 957,
+      "id": "w-grain",
+      "type": "word",
+      "front": "grain",
+      "meaning": "穀物",
+      "pron": {
+        "lookup": "grain",
+        "tts": "grain"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 958,
+      "id": "w-domesticate",
+      "type": "word",
+      "front": "domesticate",
+      "meaning": "栽培化する",
+      "pron": {
+        "lookup": "domesticate",
+        "tts": "domesticate"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 959,
+      "id": "w-pathogen",
+      "type": "word",
+      "front": "pathogen",
+      "meaning": "病原体",
+      "pron": {
+        "lookup": "pathogen",
+        "tts": "pathogen"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 960,
+      "id": "w-forebear",
+      "type": "word",
+      "front": "forebear",
+      "meaning": "先祖",
+      "pron": {
+        "lookup": "forebear",
+        "tts": "forebear"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 961,
+      "id": "p-shelter-and-clothing",
+      "type": "phrase",
+      "front": "shelter and clothing",
+      "meaning": "生活必需品・衣食住",
+      "pron": {
+        "tts": "shelter and clothing"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 39,
+      "themeName": "ビール製造の歴史",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t39",
+    "theme": 39,
+    "themeName": "ビール製造の歴史",
+    "jp": "農耕が人々を定住させ文明の引き金になったと広く信じられている。だがパンではなくビールがこの転換の現在の理由だと主張する者もいる。状況証拠は、考古学者が発掘した古い遺物で、ビール醸造に使われたように見える。逆説的だが、ビールは水より安全だった。不純物を殺す抗菌性のおかげだ。ビールは重要な社会的役割も果たした。指導者への服従は、酒が協力を助けるとき容易になり、一人で働くと問題が増えるからだ。共に問題を解決するため、人は本能を抑え、社会生活の制約から抜け出す必要があった。飲酒は抑制と社会的障壁を下げ、人はより自由に本音を言えた。",
+    "sentences": [
+      {
+        "en": "It is widely believed that farming let people settle down and marked the spark of civilisation.",
+        "targets": [
+          {
+            "id": "p-settle-down",
+            "text": "settle down"
+          },
+          {
+            "id": "w-spark",
+            "text": "spark"
+          }
+        ]
+      },
+      {
+        "en": "But some argue beer, not bread, was the current reason for this shift.",
+        "targets": [
+          {
+            "id": "w-current",
+            "text": "current"
+          }
+        ]
+      },
+      {
+        "en": "The circumstantial evidence is old relics that archaeologists dug up, which appear as if they were used to brew beer.",
+        "targets": [
+          {
+            "id": "w-circumstantial",
+            "text": "circumstantial"
+          },
+          {
+            "id": "w-relic",
+            "text": "relics"
+          },
+          {
+            "id": "p-dig-up",
+            "text": "dug up"
+          },
+          {
+            "id": "p-appear-as-if",
+            "text": "appear as if"
+          }
+        ]
+      },
+      {
+        "en": "It may seem paradoxical, but beer was safer than water thanks to the antibacterial properties that killed impurities.",
+        "targets": [
+          {
+            "id": "w-paradoxical",
+            "text": "paradoxical"
+          },
+          {
+            "id": "w-property",
+            "text": "properties"
+          },
+          {
+            "id": "w-impurity",
+            "text": "impurities"
+          }
+        ]
+      },
+      {
+        "en": "Beer also played a pivotal social role, because subservience to a leader was easier when alcohol could aid cooperation, and problems multiply when people work alone.",
+        "targets": [
+          {
+            "id": "w-pivotal",
+            "text": "pivotal"
+          },
+          {
+            "id": "w-subservience",
+            "text": "subservience"
+          },
+          {
+            "id": "w-aid",
+            "text": "aid"
+          },
+          {
+            "id": "w-multiply",
+            "text": "multiply"
+          }
+        ]
+      },
+      {
+        "en": "To solve problems together, people needed to suppress their instincts and break free from the constraints of social life.",
+        "targets": [
+          {
+            "id": "w-suppress",
+            "text": "suppress"
+          },
+          {
+            "id": "p-break-free-from",
+            "text": "break free from"
+          },
+          {
+            "id": "w-constraint",
+            "text": "constraints"
+          }
+        ]
+      },
+      {
+        "en": "Drinking lowered their inhibitions and social barriers, so people could speak their minds more freely.",
+        "targets": [
+          {
+            "id": "w-inhibition",
+            "text": "inhibitions"
+          },
+          {
+            "id": "p-social-barrier",
+            "text": "social barriers"
+          },
+          {
+            "id": "p-speak-one-s-mind",
+            "text": "speak their minds"
+          }
+        ]
+      }
+    ]
+  }
+}

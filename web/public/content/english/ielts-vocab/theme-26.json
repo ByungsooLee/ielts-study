@@ -1,0 +1,766 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 26,
+  "themeId": "theme-26",
+  "themeName": "法隆寺",
+  "version": "deef9f40",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 606,
+      "id": "w-dot",
+      "type": "word",
+      "front": "dot",
+      "meaning": "点在する",
+      "synonyms": [
+        "be scattered around"
+      ],
+      "collocation": "temples dot the countryside",
+      "examples": [
+        {
+          "en": "Buddhist temples dot the countryside around Nara, where Prince Shotoku is still revered."
+        }
+      ],
+      "pron": {
+        "lookup": "dot",
+        "tts": "dot"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 607,
+      "id": "w-revere",
+      "type": "word",
+      "front": "revere",
+      "meaning": "崇敬する",
+      "synonyms": [
+        "venerate"
+      ],
+      "collocation": "be revered as, a revered figure",
+      "examples": [
+        {
+          "en": "Buddhist temples dot the countryside around Nara, where Prince Shotoku is still revered."
+        }
+      ],
+      "pron": {
+        "lookup": "revere",
+        "tts": "revere"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 608,
+      "id": "p-recuperate-from",
+      "type": "phrase",
+      "front": "recuperate from",
+      "meaning": "（病気から）回復する",
+      "synonyms": [
+        "recover from",
+        "convalesce from"
+      ],
+      "collocation": "recuperate from an illness",
+      "examples": [
+        {
+          "en": "He built Horyu-ji in honour of his father while he recuperated from an illness."
+        }
+      ],
+      "pron": {
+        "tts": "recuperate from"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 609,
+      "id": "p-in-honour-of",
+      "type": "phrase",
+      "front": "in honour of",
+      "meaning": "〜に敬意を表して",
+      "synonyms": [
+        "in memory of"
+      ],
+      "collocation": "in honour of, a monument in memory of",
+      "examples": [
+        {
+          "en": "He built Horyu-ji in honour of his father while he recuperated from an illness."
+        }
+      ],
+      "pron": {
+        "tts": "in honour of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 610,
+      "id": "w-uninterrupted",
+      "type": "word",
+      "front": "uninterrupted",
+      "meaning": "途切れない・連続した",
+      "synonyms": [
+        "continuous",
+        "constant",
+        "continual"
+      ],
+      "collocation": "uninterrupted service",
+      "examples": [
+        {
+          "en": "It served as a temple for an uninterrupted 1,400 years and was declared a World Heritage Site."
+        }
+      ],
+      "pron": {
+        "lookup": "uninterrupted",
+        "tts": "uninterrupted"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 611,
+      "id": "w-declare",
+      "type": "word",
+      "front": "declare",
+      "meaning": "宣言する・発表する",
+      "synonyms": [
+        "announce"
+      ],
+      "collocation": "be declared a World Heritage Site",
+      "examples": [
+        {
+          "en": "It served as a temple for an uninterrupted 1,400 years and was declared a World Heritage Site."
+        }
+      ],
+      "pron": {
+        "lookup": "declare",
+        "tts": "declare"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 612,
+      "id": "p-be-comprised-of",
+      "type": "phrase",
+      "front": "be comprised of",
+      "meaning": "〜から成る",
+      "synonyms": [
+        "be made up of",
+        "be composed of"
+      ],
+      "collocation": "be comprised of two sections",
+      "examples": [
+        {
+          "en": "The complex is comprised of two sections."
+        }
+      ],
+      "pron": {
+        "tts": "be comprised of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 613,
+      "id": "w-section",
+      "type": "word",
+      "front": "section",
+      "meaning": "区域",
+      "synonyms": [
+        "area",
+        "zone"
+      ],
+      "collocation": "in the western section",
+      "examples": [
+        {
+          "en": "The complex is comprised of two sections."
+        }
+      ],
+      "pron": {
+        "lookup": "section",
+        "tts": "section"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 614,
+      "id": "p-widely-acknowledged",
+      "type": "phrase",
+      "front": "widely acknowledged",
+      "meaning": "広く認められた",
+      "synonyms": [
+        "universally accepted"
+      ],
+      "collocation": "widely acknowledged as…",
+      "examples": [
+        {
+          "en": "It is widely acknowledged to hold the oldest wooden structure in the world, built for more than a utilitarian purpose."
+        }
+      ],
+      "pron": {
+        "tts": "widely acknowledged"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 615,
+      "id": "w-utilitarian",
+      "type": "word",
+      "front": "utilitarian",
+      "meaning": "実用的な",
+      "synonyms": [
+        "practical",
+        "functional"
+      ],
+      "collocation": "a utilitarian purpose",
+      "examples": [
+        {
+          "en": "It is widely acknowledged to hold the oldest wooden structure in the world, built for more than a utilitarian purpose."
+        }
+      ],
+      "pron": {
+        "lookup": "utilitarian",
+        "tts": "utilitarian"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 616,
+      "id": "w-interior",
+      "type": "word",
+      "front": "interior",
+      "meaning": "内部",
+      "synonyms": [
+        "inner",
+        "internal"
+      ],
+      "collocation": "the interior of the building",
+      "examples": [
+        {
+          "en": "Its interior is plain, but the exterior is ornate, and the halls house a sacred statue that is only on display at certain times."
+        }
+      ],
+      "pron": {
+        "lookup": "interior",
+        "tts": "interior"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 617,
+      "id": "w-exterior",
+      "type": "word",
+      "front": "exterior",
+      "meaning": "外観・外部",
+      "synonyms": [
+        "façade",
+        "outside appearance"
+      ],
+      "collocation": "the exterior of the temple",
+      "examples": [
+        {
+          "en": "Its interior is plain, but the exterior is ornate, and the halls house a sacred statue that is only on display at certain times."
+        }
+      ],
+      "pron": {
+        "lookup": "exterior",
+        "tts": "exterior"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 618,
+      "id": "w-house",
+      "type": "word",
+      "front": "house",
+      "meaning": "収蔵する・収める",
+      "synonyms": [
+        "store",
+        "contain",
+        "keep"
+      ],
+      "collocation": "house a statue, be stored in",
+      "examples": [
+        {
+          "en": "Its interior is plain, but the exterior is ornate, and the halls house a sacred statue that is only on display at certain times."
+        }
+      ],
+      "pron": {
+        "lookup": "house",
+        "tts": "house"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 619,
+      "id": "w-sacred",
+      "type": "word",
+      "front": "sacred",
+      "meaning": "神聖な",
+      "synonyms": [
+        "holy",
+        "divine"
+      ],
+      "collocation": "a sacred statue, sacred to…",
+      "examples": [
+        {
+          "en": "Its interior is plain, but the exterior is ornate, and the halls house a sacred statue that is only on display at certain times."
+        }
+      ],
+      "pron": {
+        "lookup": "sacred",
+        "tts": "sacred"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 620,
+      "id": "p-be-on-display",
+      "type": "phrase",
+      "front": "be on display",
+      "meaning": "展示中で",
+      "synonyms": [
+        "be exhibited",
+        "be open to the public"
+      ],
+      "collocation": "be on display, be exhibited",
+      "examples": [
+        {
+          "en": "Its interior is plain, but the exterior is ornate, and the halls house a sacred statue that is only on display at certain times."
+        }
+      ],
+      "pron": {
+        "tts": "be on display"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 621,
+      "id": "w-reconstruct",
+      "type": "word",
+      "front": "reconstruct",
+      "meaning": "再建する",
+      "synonyms": [
+        "rebuild"
+      ],
+      "collocation": "be reconstructed after a fire",
+      "examples": [
+        {
+          "en": "After a fire, some believed the buildings were reconstructed, but analysis of the timber gave conclusive evidence they were original, thanks to a dating technique."
+        }
+      ],
+      "pron": {
+        "lookup": "reconstruct",
+        "tts": "reconstruct"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 622,
+      "id": "w-analysis",
+      "type": "word",
+      "front": "analysis",
+      "meaning": "分析",
+      "synonyms": [
+        "examination"
+      ],
+      "collocation": "analysis of the timber",
+      "examples": [
+        {
+          "en": "After a fire, some believed the buildings were reconstructed, but analysis of the timber gave conclusive evidence they were original, thanks to a dating technique."
+        }
+      ],
+      "pron": {
+        "lookup": "analysis",
+        "tts": "analysis"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 623,
+      "id": "p-conclusive-evidence",
+      "type": "phrase",
+      "front": "conclusive evidence",
+      "meaning": "決定的証拠",
+      "synonyms": [
+        "absolute proof",
+        "confirmation"
+      ],
+      "collocation": "conclusive evidence that…",
+      "examples": [
+        {
+          "en": "After a fire, some believed the buildings were reconstructed, but analysis of the timber gave conclusive evidence they were original, thanks to a dating technique."
+        }
+      ],
+      "pron": {
+        "tts": "conclusive evidence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 624,
+      "id": "w-technique",
+      "type": "word",
+      "front": "technique",
+      "meaning": "技法・手法",
+      "synonyms": [
+        "method",
+        "procedure"
+      ],
+      "collocation": "a dating technique",
+      "examples": [
+        {
+          "en": "After a fire, some believed the buildings were reconstructed, but analysis of the timber gave conclusive evidence they were original, thanks to a dating technique."
+        }
+      ],
+      "pron": {
+        "lookup": "technique",
+        "tts": "technique"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 625,
+      "id": "w-commission",
+      "type": "word",
+      "front": "commission",
+      "meaning": "発注する",
+      "pron": {
+        "lookup": "commission",
+        "tts": "commission"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 626,
+      "id": "w-monastery",
+      "type": "word",
+      "front": "monastery",
+      "meaning": "修道院・僧院",
+      "pron": {
+        "lookup": "monastery",
+        "tts": "monastery"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 627,
+      "id": "w-pagoda",
+      "type": "word",
+      "front": "pagoda",
+      "meaning": "塔",
+      "pron": {
+        "lookup": "pagoda",
+        "tts": "pagoda"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 628,
+      "id": "w-excavation",
+      "type": "word",
+      "front": "excavation",
+      "meaning": "発掘",
+      "pron": {
+        "lookup": "excavation",
+        "tts": "excavation"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 629,
+      "id": "w-dendrochronology",
+      "type": "word",
+      "front": "dendrochronology",
+      "meaning": "年輪年代測定法",
+      "pron": {
+        "lookup": "dendrochronology",
+        "tts": "dendrochronology"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 630,
+      "id": "w-timber",
+      "type": "word",
+      "front": "timber",
+      "meaning": "木材",
+      "pron": {
+        "lookup": "timber",
+        "tts": "timber"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 26,
+      "themeName": "法隆寺",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t26",
+    "theme": 26,
+    "themeName": "法隆寺",
+    "jp": "奈良の周辺には仏教寺院が点在し、聖徳太子は今も崇敬されている。彼は病から回復する間、父に敬意を表して法隆寺を建てた。それは途切れなく1400年寺院として機能し、世界遺産に登録された。伽藍は二つの区域から成る。世界最古の木造建造物を持つと広く認められ、実用を超えた目的で建てられた。内部は簡素だが外観は華やかで、堂は特定の時期にしか公開されない神聖な像を収める。火災の後、建物は再建されたと考える者もいたが、木材の分析が年代測定法により、それらが当初のものだという決定的証拠を与えた。",
+    "sentences": [
+      {
+        "en": "Buddhist temples dot the countryside around Nara, where Prince Shotoku is still revered.",
+        "targets": [
+          {
+            "id": "w-dot",
+            "text": "dot"
+          },
+          {
+            "id": "w-revere",
+            "text": "revered"
+          }
+        ]
+      },
+      {
+        "en": "He built Horyu-ji in honour of his father while he recuperated from an illness.",
+        "targets": [
+          {
+            "id": "p-in-honour-of",
+            "text": "in honour of"
+          },
+          {
+            "id": "p-recuperate-from",
+            "text": "recuperated from"
+          }
+        ]
+      },
+      {
+        "en": "It served as a temple for an uninterrupted 1,400 years and was declared a World Heritage Site.",
+        "targets": [
+          {
+            "id": "w-uninterrupted",
+            "text": "uninterrupted"
+          },
+          {
+            "id": "w-declare",
+            "text": "declared"
+          }
+        ]
+      },
+      {
+        "en": "The complex is comprised of two sections.",
+        "targets": [
+          {
+            "id": "p-be-comprised-of",
+            "text": "is comprised of"
+          },
+          {
+            "id": "w-section",
+            "text": "sections"
+          }
+        ]
+      },
+      {
+        "en": "It is widely acknowledged to hold the oldest wooden structure in the world, built for more than a utilitarian purpose.",
+        "targets": [
+          {
+            "id": "p-widely-acknowledged",
+            "text": "widely acknowledged"
+          },
+          {
+            "id": "w-structure",
+            "text": "structure"
+          },
+          {
+            "id": "w-utilitarian",
+            "text": "utilitarian"
+          }
+        ]
+      },
+      {
+        "en": "Its interior is plain, but the exterior is ornate, and the halls house a sacred statue that is only on display at certain times.",
+        "targets": [
+          {
+            "id": "w-interior",
+            "text": "interior"
+          },
+          {
+            "id": "w-exterior",
+            "text": "exterior"
+          },
+          {
+            "id": "w-house",
+            "text": "house"
+          },
+          {
+            "id": "w-sacred",
+            "text": "sacred"
+          },
+          {
+            "id": "p-be-on-display",
+            "text": "on display"
+          }
+        ]
+      },
+      {
+        "en": "After a fire, some believed the buildings were reconstructed, but analysis of the timber gave conclusive evidence they were original, thanks to a dating technique.",
+        "targets": [
+          {
+            "id": "w-reconstruct",
+            "text": "reconstructed"
+          },
+          {
+            "id": "w-analysis",
+            "text": "analysis"
+          },
+          {
+            "id": "p-conclusive-evidence",
+            "text": "conclusive evidence"
+          },
+          {
+            "id": "w-technique",
+            "text": "technique"
+          }
+        ]
+      }
+    ]
+  }
+}

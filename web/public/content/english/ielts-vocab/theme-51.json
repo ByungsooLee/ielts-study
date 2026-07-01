@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 51,
+  "themeId": "theme-51",
+  "themeName": "カラスの道具作り",
+  "version": "6522a7e0",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1237,
+      "id": "w-implement",
+      "type": "word",
+      "front": "implement",
+      "meaning": "道具",
+      "synonyms": [
+        "instrument",
+        "tool"
+      ],
+      "collocation": "a useful implement",
+      "examples": [
+        {
+          "en": "Besides humans, the New Caledonian crow makes and improves its own implements, much like a human craftsman who carves tools."
+        }
+      ],
+      "pron": {
+        "lookup": "implement",
+        "tts": "implement"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1238,
+      "id": "w-craftsman",
+      "type": "word",
+      "front": "craftsman",
+      "meaning": "職人",
+      "synonyms": [
+        "artisan"
+      ],
+      "collocation": "a skilled craftsman",
+      "examples": [
+        {
+          "en": "Besides humans, the New Caledonian crow makes and improves its own implements, much like a human craftsman who carves tools."
+        }
+      ],
+      "pron": {
+        "lookup": "craftsman",
+        "tts": "craftsman"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1239,
+      "id": "w-carve",
+      "type": "word",
+      "front": "carve",
+      "meaning": "削る・彫る",
+      "synonyms": [
+        "sculpt",
+        "shape",
+        "whittle"
+      ],
+      "collocation": "carve a tool",
+      "examples": [
+        {
+          "en": "Besides humans, the New Caledonian crow makes and improves its own implements, much like a human craftsman who carves tools."
+        }
+      ],
+      "pron": {
+        "lookup": "carve",
+        "tts": "carve"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1240,
+      "id": "w-retrieve",
+      "type": "word",
+      "front": "retrieve",
+      "meaning": "回収する・取り出す",
+      "synonyms": [
+        "fetch",
+        "obtain"
+      ],
+      "collocation": "retrieve food",
+      "examples": [
+        {
+          "en": "In 2002, biologists filmed a crow bending a twig into a hook to retrieve an anticipated reward."
+        }
+      ],
+      "pron": {
+        "lookup": "retrieve",
+        "tts": "retrieve"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1241,
+      "id": "w-anticipated",
+      "type": "word",
+      "front": "anticipated",
+      "meaning": "予期された",
+      "synonyms": [
+        "expected"
+      ],
+      "collocation": "an anticipated reward",
+      "examples": [
+        {
+          "en": "In 2002, biologists filmed a crow bending a twig into a hook to retrieve an anticipated reward."
+        }
+      ],
+      "pron": {
+        "lookup": "anticipated",
+        "tts": "anticipated"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1242,
+      "id": "w-astounding",
+      "type": "word",
+      "front": "astounding",
+      "meaning": "信じがたい・驚くべき",
+      "synonyms": [
+        "hard to believe",
+        "almost beyond belief"
+      ],
+      "collocation": "astounding behaviour",
+      "examples": [
+        {
+          "en": "This astounding behaviour is actually commonplace among these birds."
+        }
+      ],
+      "pron": {
+        "lookup": "astounding",
+        "tts": "astounding"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1243,
+      "id": "w-commonplace",
+      "type": "word",
+      "front": "commonplace",
+      "meaning": "ありふれた・普通の",
+      "synonyms": [
+        "prevalent"
+      ],
+      "collocation": "commonplace amongst crows",
+      "examples": [
+        {
+          "en": "This astounding behaviour is actually commonplace among these birds."
+        }
+      ],
+      "pron": {
+        "lookup": "commonplace",
+        "tts": "commonplace"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1244,
+      "id": "w-long-simmering",
+      "type": "word",
+      "front": "long-simmering",
+      "meaning": "長年くすぶり続けている",
+      "synonyms": [
+        "long-standing",
+        "age-old"
+      ],
+      "collocation": "a long-standing debate",
+      "examples": [
+        {
+          "en": "There is a long-simmering debate over whether the skill is inherent or learned."
+        }
+      ],
+      "pron": {
+        "lookup": "long-simmering",
+        "tts": "long-simmering"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1245,
+      "id": "w-inherent",
+      "type": "word",
+      "front": "inherent",
+      "meaning": "生来の・先天的な",
+      "synonyms": [
+        "hard-wired",
+        "genetic"
+      ],
+      "collocation": "an inherent skill",
+      "examples": [
+        {
+          "en": "There is a long-simmering debate over whether the skill is inherent or learned."
+        }
+      ],
+      "pron": {
+        "lookup": "inherent",
+        "tts": "inherent"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1246,
+      "id": "w-experiment",
+      "type": "word",
+      "front": "experiment",
+      "meaning": "調査・研究",
+      "synonyms": [
+        "investigation",
+        "study"
+      ],
+      "collocation": "conduct an experiment",
+      "examples": [
+        {
+          "en": "In an Oxford experiment, scientists learned the tricks of the trade by deliberately keeping some crows apart."
+        }
+      ],
+      "pron": {
+        "lookup": "experiment",
+        "tts": "experiment"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1247,
+      "id": "p-tricks-of-the-trade",
+      "type": "phrase",
+      "front": "tricks of the trade",
+      "meaning": "専門的な技術",
+      "synonyms": [
+        "know-how",
+        "bag of tricks",
+        "stratagem"
+      ],
+      "collocation": "the tricks of the trade",
+      "examples": [
+        {
+          "en": "In an Oxford experiment, scientists learned the tricks of the trade by deliberately keeping some crows apart."
+        }
+      ],
+      "pron": {
+        "tts": "tricks of the trade"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1248,
+      "id": "w-deliberately",
+      "type": "word",
+      "front": "deliberately",
+      "meaning": "故意に・わざと",
+      "synonyms": [
+        "intentionally",
+        "purposely",
+        "consciously"
+      ],
+      "collocation": "deliberately do sth",
+      "examples": [
+        {
+          "en": "In an Oxford experiment, scientists learned the tricks of the trade by deliberately keeping some crows apart."
+        }
+      ],
+      "pron": {
+        "lookup": "deliberately",
+        "tts": "deliberately"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1249,
+      "id": "p-keep-apart",
+      "type": "phrase",
+      "front": "keep apart",
+      "meaning": "引き離しておく",
+      "synonyms": [
+        "isolate",
+        "set apart",
+        "segregate"
+      ],
+      "collocation": "keep apart",
+      "examples": [
+        {
+          "en": "In an Oxford experiment, scientists learned the tricks of the trade by deliberately keeping some crows apart."
+        }
+      ],
+      "pron": {
+        "tts": "keep apart"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1250,
+      "id": "p-in-the-presence-of",
+      "type": "phrase",
+      "front": "in the presence of",
+      "meaning": "〜の面前で",
+      "synonyms": [
+        "in the company of",
+        "in the midst of"
+      ],
+      "collocation": "in the presence of",
+      "examples": [
+        {
+          "en": "Birds in the presence of more knowledgeable crows learned faster than naive ones, seeming to take their cues from the old hands."
+        }
+      ],
+      "pron": {
+        "tts": "in the presence of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1251,
+      "id": "w-knowledgeable",
+      "type": "word",
+      "front": "knowledgeable",
+      "meaning": "博識な",
+      "synonyms": [
+        "experienced",
+        "seasoned"
+      ],
+      "collocation": "a knowledgeable person",
+      "examples": [
+        {
+          "en": "Birds in the presence of more knowledgeable crows learned faster than naive ones, seeming to take their cues from the old hands."
+        }
+      ],
+      "pron": {
+        "lookup": "knowledgeable",
+        "tts": "knowledgeable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1252,
+      "id": "w-naive",
+      "type": "word",
+      "front": "naive",
+      "meaning": "経験に欠けた",
+      "synonyms": [
+        "inexperienced",
+        "green"
+      ],
+      "collocation": "a naive pair",
+      "examples": [
+        {
+          "en": "Birds in the presence of more knowledgeable crows learned faster than naive ones, seeming to take their cues from the old hands."
+        }
+      ],
+      "pron": {
+        "lookup": "naive",
+        "tts": "naive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1253,
+      "id": "p-take-one-s-cues-from",
+      "type": "phrase",
+      "front": "take one's cues from",
+      "meaning": "〜からヒントを得る",
+      "synonyms": [
+        "be influenced by",
+        "imitate"
+      ],
+      "collocation": "take cues from",
+      "examples": [
+        {
+          "en": "Birds in the presence of more knowledgeable crows learned faster than naive ones, seeming to take their cues from the old hands."
+        }
+      ],
+      "pron": {
+        "tts": "take one's cues from"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1254,
+      "id": "p-old-hand",
+      "type": "phrase",
+      "front": "old hand",
+      "meaning": "熟練者",
+      "synonyms": [
+        "old pro",
+        "expert"
+      ],
+      "collocation": "an old hand",
+      "examples": [
+        {
+          "en": "Birds in the presence of more knowledgeable crows learned faster than naive ones, seeming to take their cues from the old hands."
+        }
+      ],
+      "pron": {
+        "tts": "old hand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1255,
+      "id": "w-curiosity",
+      "type": "word",
+      "front": "curiosity",
+      "meaning": "好奇心",
+      "synonyms": [
+        "inquisitiveness"
+      ],
+      "collocation": "natural curiosity",
+      "examples": [
+        {
+          "en": "Driven by curiosity, a crow can store a visual memory and later recreate a useful tool from it."
+        }
+      ],
+      "pron": {
+        "lookup": "curiosity",
+        "tts": "curiosity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1256,
+      "id": "w-visual",
+      "type": "word",
+      "front": "visual",
+      "meaning": "視覚の",
+      "synonyms": [
+        "optical"
+      ],
+      "collocation": "visual memory",
+      "examples": [
+        {
+          "en": "Driven by curiosity, a crow can store a visual memory and later recreate a useful tool from it."
+        }
+      ],
+      "pron": {
+        "lookup": "visual",
+        "tts": "visual"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1257,
+      "id": "w-recreate",
+      "type": "word",
+      "front": "recreate",
+      "meaning": "再現する",
+      "synonyms": [
+        "reproduce",
+        "reconstruct"
+      ],
+      "collocation": "recreate sth",
+      "examples": [
+        {
+          "en": "Driven by curiosity, a crow can store a visual memory and later recreate a useful tool from it."
+        }
+      ],
+      "pron": {
+        "lookup": "recreate",
+        "tts": "recreate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1258,
+      "id": "p-new-caledonian-crow",
+      "type": "phrase",
+      "front": "New Caledonian crow",
+      "meaning": "カレドニアガラス",
+      "pron": {
+        "tts": "New Caledonian crow"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1259,
+      "id": "w-reward",
+      "type": "word",
+      "front": "reward",
+      "meaning": "報酬",
+      "pron": {
+        "lookup": "reward",
+        "tts": "reward"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1260,
+      "id": "w-twig",
+      "type": "word",
+      "front": "twig",
+      "meaning": "小枝",
+      "pron": {
+        "lookup": "twig",
+        "tts": "twig"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1261,
+      "id": "w-grub",
+      "type": "word",
+      "front": "grub",
+      "meaning": "幼虫",
+      "pron": {
+        "lookup": "grub",
+        "tts": "grub"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1262,
+      "id": "w-log",
+      "type": "word",
+      "front": "log",
+      "meaning": "丸太",
+      "pron": {
+        "lookup": "log",
+        "tts": "log"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1263,
+      "id": "w-reverse-engineer",
+      "type": "word",
+      "front": "reverse-engineer",
+      "meaning": "分解して模倣する",
+      "pron": {
+        "lookup": "reverse-engineer",
+        "tts": "reverse-engineer"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1264,
+      "id": "w-model",
+      "type": "word",
+      "front": "model",
+      "meaning": "手本",
+      "pron": {
+        "lookup": "model",
+        "tts": "model"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 51,
+      "themeName": "カラスの道具作り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t51",
+    "theme": 51,
+    "themeName": "カラスの道具作り",
+    "jp": "人間以外で唯一、道具を作り改良するのがカレドニアガラスで、道具を彫る職人のようだ。2002年、生物学者は小枝を鉤状に曲げて予期した報酬を取り出すカラスを撮影した。この信じがたい行動は実はこれらの鳥ではありふれている。この能力が生来のものか学習かは長年くすぶり続ける議論だ。オックスフォードの実験で、科学者は一部のカラスをわざと引き離して専門的な技術を学んだ。博識なカラスの面前にいる鳥は経験の浅い鳥より速く学び、熟練者からヒントを得ているようだった。好奇心に駆られ、カラスは視覚的な記憶を蓄え、後でそこから役立つ道具を再現できる。",
+    "sentences": [
+      {
+        "en": "Besides humans, the New Caledonian crow makes and improves its own implements, much like a human craftsman who carves tools.",
+        "targets": [
+          {
+            "id": "w-implement",
+            "text": "implements"
+          },
+          {
+            "id": "w-craftsman",
+            "text": "craftsman"
+          },
+          {
+            "id": "w-carve",
+            "text": "carves"
+          }
+        ]
+      },
+      {
+        "en": "In 2002, biologists filmed a crow bending a twig into a hook to retrieve an anticipated reward.",
+        "targets": [
+          {
+            "id": "w-retrieve",
+            "text": "retrieve"
+          },
+          {
+            "id": "w-anticipated",
+            "text": "anticipated"
+          }
+        ]
+      },
+      {
+        "en": "This astounding behaviour is actually commonplace among these birds.",
+        "targets": [
+          {
+            "id": "w-astounding",
+            "text": "astounding"
+          },
+          {
+            "id": "w-commonplace",
+            "text": "commonplace"
+          }
+        ]
+      },
+      {
+        "en": "There is a long-simmering debate over whether the skill is inherent or learned.",
+        "targets": [
+          {
+            "id": "w-long-simmering",
+            "text": "long-simmering"
+          },
+          {
+            "id": "w-inherent",
+            "text": "inherent"
+          }
+        ]
+      },
+      {
+        "en": "In an Oxford experiment, scientists learned the tricks of the trade by deliberately keeping some crows apart.",
+        "targets": [
+          {
+            "id": "w-experiment",
+            "text": "experiment"
+          },
+          {
+            "id": "p-tricks-of-the-trade",
+            "text": "tricks of the trade"
+          },
+          {
+            "id": "w-deliberately",
+            "text": "deliberately"
+          },
+          {
+            "id": "p-keep-apart",
+            "text": "apart"
+          }
+        ]
+      },
+      {
+        "en": "Birds in the presence of more knowledgeable crows learned faster than naive ones, seeming to take their cues from the old hands.",
+        "targets": [
+          {
+            "id": "p-in-the-presence-of",
+            "text": "in the presence of"
+          },
+          {
+            "id": "w-knowledgeable",
+            "text": "knowledgeable"
+          },
+          {
+            "id": "w-naive",
+            "text": "naive"
+          },
+          {
+            "id": "p-take-one-s-cues-from",
+            "text": "take their cues from"
+          },
+          {
+            "id": "p-old-hand",
+            "text": "old hands"
+          }
+        ]
+      },
+      {
+        "en": "Driven by curiosity, a crow can store a visual memory and later recreate a useful tool from it.",
+        "targets": [
+          {
+            "id": "w-curiosity",
+            "text": "curiosity"
+          },
+          {
+            "id": "w-visual",
+            "text": "visual"
+          },
+          {
+            "id": "w-recreate",
+            "text": "recreate"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 50,
+  "themeId": "theme-50",
+  "themeName": "海をきれいに",
+  "version": "2b572786",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1213,
+      "id": "w-inundate",
+      "type": "word",
+      "front": "inundate",
+      "meaning": "押し寄せる",
+      "synonyms": [
+        "overwhelm"
+      ],
+      "collocation": "be inundated with",
+      "examples": [
+        {
+          "en": "Our oceans are being inundated with plastic, and the problem is especially acute in ocean currents called gyres."
+        }
+      ],
+      "pron": {
+        "lookup": "inundate",
+        "tts": "inundate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1214,
+      "id": "w-acute",
+      "type": "word",
+      "front": "acute",
+      "meaning": "深刻な",
+      "synonyms": [
+        "severe",
+        "intense"
+      ],
+      "collocation": "an acute problem",
+      "examples": [
+        {
+          "en": "Our oceans are being inundated with plastic, and the problem is especially acute in ocean currents called gyres."
+        }
+      ],
+      "pron": {
+        "lookup": "acute",
+        "tts": "acute"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1215,
+      "id": "w-quantify",
+      "type": "word",
+      "front": "quantify",
+      "meaning": "定量化する",
+      "synonyms": [
+        "calculate",
+        "measure"
+      ],
+      "collocation": "quantify sth",
+      "examples": [
+        {
+          "en": "It is hard to quantify, but the best educated guess is that the patch holds five trillion pieces."
+        }
+      ],
+      "pron": {
+        "lookup": "quantify",
+        "tts": "quantify"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1216,
+      "id": "p-educated-guess",
+      "type": "phrase",
+      "front": "educated guess",
+      "meaning": "知識に基づく推測",
+      "synonyms": [
+        "approximation",
+        "estimation"
+      ],
+      "collocation": "an educated guess",
+      "examples": [
+        {
+          "en": "It is hard to quantify, but the best educated guess is that the patch holds five trillion pieces."
+        }
+      ],
+      "pron": {
+        "tts": "educated guess"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1217,
+      "id": "w-culprit",
+      "type": "word",
+      "front": "culprit",
+      "meaning": "犯人・元凶",
+      "synonyms": [
+        "offender"
+      ],
+      "collocation": "the main culprit",
+      "examples": [
+        {
+          "en": "Plastic bags are the main culprits, and fish that eat them cause a knock-on effect up the food chain."
+        }
+      ],
+      "pron": {
+        "lookup": "culprit",
+        "tts": "culprit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1218,
+      "id": "p-knock-on-effect",
+      "type": "phrase",
+      "front": "knock-on effect",
+      "meaning": "波及効果・連鎖反応",
+      "synonyms": [
+        "indirect effect"
+      ],
+      "collocation": "a knock-on effect",
+      "examples": [
+        {
+          "en": "Plastic bags are the main culprits, and fish that eat them cause a knock-on effect up the food chain."
+        }
+      ],
+      "pron": {
+        "tts": "knock-on effect"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1219,
+      "id": "w-trace",
+      "type": "word",
+      "front": "trace",
+      "meaning": "痕跡・残留物",
+      "synonyms": [
+        "residue",
+        "vestige"
+      ],
+      "collocation": "traces of",
+      "examples": [
+        {
+          "en": "Traces of toxic chemicals from the plastic end up in the fish we eat."
+        }
+      ],
+      "pron": {
+        "lookup": "trace",
+        "tts": "trace"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1220,
+      "id": "w-toxic",
+      "type": "word",
+      "front": "toxic",
+      "meaning": "有毒な",
+      "synonyms": [
+        "poisonous",
+        "noxious"
+      ],
+      "collocation": "toxic waste",
+      "examples": [
+        {
+          "en": "Traces of toxic chemicals from the plastic end up in the fish we eat."
+        }
+      ],
+      "pron": {
+        "lookup": "toxic",
+        "tts": "toxic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1221,
+      "id": "p-end-up",
+      "type": "phrase",
+      "front": "end up",
+      "meaning": "結局〜になる",
+      "synonyms": [
+        "finish up",
+        "wind up"
+      ],
+      "collocation": "end up in the ocean",
+      "examples": [
+        {
+          "en": "Traces of toxic chemicals from the plastic end up in the fish we eat."
+        }
+      ],
+      "pron": {
+        "tts": "end up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1222,
+      "id": "w-outdated",
+      "type": "word",
+      "front": "outdated",
+      "meaning": "時代遅れの",
+      "synonyms": [
+        "old-fashioned",
+        "obsolete",
+        "outmoded"
+      ],
+      "collocation": "outdated ideas",
+      "examples": [
+        {
+          "en": "Cleaning up with nets is outdated, as ships have to zigzag the water in a fruitless, likely irreversible task."
+        }
+      ],
+      "pron": {
+        "lookup": "outdated",
+        "tts": "outdated"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1223,
+      "id": "w-zigzag",
+      "type": "word",
+      "front": "zigzag",
+      "meaning": "ジグザグに進む",
+      "synonyms": [
+        "weave"
+      ],
+      "collocation": "zigzag through",
+      "examples": [
+        {
+          "en": "Cleaning up with nets is outdated, as ships have to zigzag the water in a fruitless, likely irreversible task."
+        }
+      ],
+      "pron": {
+        "lookup": "zigzag",
+        "tts": "zigzag"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1224,
+      "id": "w-fruitless",
+      "type": "word",
+      "front": "fruitless",
+      "meaning": "無益な",
+      "synonyms": [
+        "ineffectual",
+        "futile",
+        "pointless"
+      ],
+      "collocation": "a fruitless exercise",
+      "examples": [
+        {
+          "en": "Cleaning up with nets is outdated, as ships have to zigzag the water in a fruitless, likely irreversible task."
+        }
+      ],
+      "pron": {
+        "lookup": "fruitless",
+        "tts": "fruitless"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1225,
+      "id": "w-irreversible",
+      "type": "word",
+      "front": "irreversible",
+      "meaning": "取り返しがつかない",
+      "synonyms": [
+        "irrevocable"
+      ],
+      "collocation": "irreversible damage",
+      "examples": [
+        {
+          "en": "Cleaning up with nets is outdated, as ships have to zigzag the water in a fruitless, likely irreversible task."
+        }
+      ],
+      "pron": {
+        "lookup": "irreversible",
+        "tts": "irreversible"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1226,
+      "id": "p-be-frustrated",
+      "type": "phrase",
+      "front": "be frustrated",
+      "meaning": "あきれる・いらだつ",
+      "synonyms": [
+        "be dissatisfied",
+        "be fed up"
+      ],
+      "collocation": "be frustrated",
+      "examples": [
+        {
+          "en": "A teenager named Boyan Slat was frustrated by this dearth of practical solutions."
+        }
+      ],
+      "pron": {
+        "tts": "be frustrated"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1227,
+      "id": "p-dearth-of",
+      "type": "phrase",
+      "front": "dearth of",
+      "meaning": "〜の欠乏",
+      "synonyms": [
+        "absence of",
+        "deficiency of",
+        "lack of"
+      ],
+      "collocation": "a dearth of",
+      "examples": [
+        {
+          "en": "A teenager named Boyan Slat was frustrated by this dearth of practical solutions."
+        }
+      ],
+      "pron": {
+        "tts": "dearth of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1228,
+      "id": "w-practical",
+      "type": "word",
+      "front": "practical",
+      "meaning": "実現性のある",
+      "synonyms": [
+        "workable",
+        "realistic",
+        "doable"
+      ],
+      "collocation": "a practical solution",
+      "examples": [
+        {
+          "en": "A teenager named Boyan Slat was frustrated by this dearth of practical solutions."
+        }
+      ],
+      "pron": {
+        "lookup": "practical",
+        "tts": "practical"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1229,
+      "id": "w-buoyant",
+      "type": "word",
+      "front": "buoyant",
+      "meaning": "浮力のある・浮く",
+      "synonyms": [
+        "floatable",
+        "floating"
+      ],
+      "collocation": "buoyant material",
+      "examples": [
+        {
+          "en": "He invented a buoyant boom that lets the sea gather the plastic, and a field test of the prototype was a resounding success."
+        }
+      ],
+      "pron": {
+        "lookup": "buoyant",
+        "tts": "buoyant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1230,
+      "id": "p-field-test",
+      "type": "phrase",
+      "front": "field test",
+      "meaning": "実地試験",
+      "synonyms": [
+        "beta test",
+        "real-world test"
+      ],
+      "collocation": "a field test",
+      "examples": [
+        {
+          "en": "He invented a buoyant boom that lets the sea gather the plastic, and a field test of the prototype was a resounding success."
+        }
+      ],
+      "pron": {
+        "tts": "field test"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1231,
+      "id": "w-prototype",
+      "type": "word",
+      "front": "prototype",
+      "meaning": "試作品",
+      "synonyms": [
+        "mock-up"
+      ],
+      "collocation": "a prototype",
+      "examples": [
+        {
+          "en": "He invented a buoyant boom that lets the sea gather the plastic, and a field test of the prototype was a resounding success."
+        }
+      ],
+      "pron": {
+        "lookup": "prototype",
+        "tts": "prototype"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1232,
+      "id": "p-resounding-success",
+      "type": "phrase",
+      "front": "resounding success",
+      "meaning": "大成功",
+      "synonyms": [
+        "roaring success",
+        "complete success"
+      ],
+      "collocation": "a resounding success",
+      "examples": [
+        {
+          "en": "He invented a buoyant boom that lets the sea gather the plastic, and a field test of the prototype was a resounding success."
+        }
+      ],
+      "pron": {
+        "tts": "resounding success"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1233,
+      "id": "p-under-circumstances",
+      "type": "phrase",
+      "front": "under circumstances",
+      "meaning": "状況下で",
+      "synonyms": [
+        "given conditions"
+      ],
+      "collocation": "under the right circumstances",
+      "examples": [
+        {
+          "en": "It is hoped that under the right circumstances, the oceans may be plastic-free by 2050."
+        }
+      ],
+      "pron": {
+        "tts": "under circumstances"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1234,
+      "id": "w-gyre",
+      "type": "word",
+      "front": "gyre",
+      "meaning": "環流",
+      "pron": {
+        "lookup": "gyre",
+        "tts": "gyre"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1235,
+      "id": "w-poise",
+      "type": "word",
+      "front": "poise",
+      "meaning": "〜の準備をする",
+      "pron": {
+        "lookup": "poise",
+        "tts": "poise"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1236,
+      "id": "p-marine-life",
+      "type": "phrase",
+      "front": "marine life",
+      "meaning": "海洋生物",
+      "pron": {
+        "tts": "marine life"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 50,
+      "themeName": "海をきれいに",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t50",
+    "theme": 50,
+    "themeName": "海をきれいに",
+    "jp": "私たちの海はプラスチックで押し寄せられており、環流と呼ばれる海流で特に深刻だ。定量化は難しいが、最良の知識に基づく推測では、そのごみの塊は5兆個の破片を含む。レジ袋が主な元凶で、それを食べる魚は食物連鎖を上って波及効果を生む。プラスチックの有毒な化学物質の痕跡は、私たちが食べる魚に結局入り込む。網での清掃は時代遅れで、船は水中をジグザグに進む無益で、おそらく取り返しのつかない作業になる。ボイヤン・スラットという10代の若者は、実現性のある解決策の欠乏にいらだった。彼は海がプラスチックを集められる浮力のあるブームを発明し、その試作品の実地試験は大成功だった。適切な状況下なら、2050年までに海はプラスチックのない状態になると期待されている。",
+    "sentences": [
+      {
+        "en": "Our oceans are being inundated with plastic, and the problem is especially acute in ocean currents called gyres.",
+        "targets": [
+          {
+            "id": "w-inundate",
+            "text": "inundated"
+          },
+          {
+            "id": "w-acute",
+            "text": "acute"
+          }
+        ]
+      },
+      {
+        "en": "It is hard to quantify, but the best educated guess is that the patch holds five trillion pieces.",
+        "targets": [
+          {
+            "id": "w-quantify",
+            "text": "quantify"
+          },
+          {
+            "id": "p-educated-guess",
+            "text": "educated guess"
+          }
+        ]
+      },
+      {
+        "en": "Plastic bags are the main culprits, and fish that eat them cause a knock-on effect up the food chain.",
+        "targets": [
+          {
+            "id": "w-culprit",
+            "text": "culprits"
+          },
+          {
+            "id": "p-knock-on-effect",
+            "text": "knock-on effect"
+          }
+        ]
+      },
+      {
+        "en": "Traces of toxic chemicals from the plastic end up in the fish we eat.",
+        "targets": [
+          {
+            "id": "w-trace",
+            "text": "Traces"
+          },
+          {
+            "id": "w-toxic",
+            "text": "toxic"
+          },
+          {
+            "id": "p-end-up",
+            "text": "end up"
+          }
+        ]
+      },
+      {
+        "en": "Cleaning up with nets is outdated, as ships have to zigzag the water in a fruitless, likely irreversible task.",
+        "targets": [
+          {
+            "id": "w-outdated",
+            "text": "outdated"
+          },
+          {
+            "id": "w-zigzag",
+            "text": "zigzag"
+          },
+          {
+            "id": "w-fruitless",
+            "text": "fruitless"
+          },
+          {
+            "id": "w-irreversible",
+            "text": "irreversible"
+          }
+        ]
+      },
+      {
+        "en": "A teenager named Boyan Slat was frustrated by this dearth of practical solutions.",
+        "targets": [
+          {
+            "id": "p-be-frustrated",
+            "text": "frustrated"
+          },
+          {
+            "id": "p-dearth-of",
+            "text": "dearth of"
+          },
+          {
+            "id": "w-practical",
+            "text": "practical"
+          }
+        ]
+      },
+      {
+        "en": "He invented a buoyant boom that lets the sea gather the plastic, and a field test of the prototype was a resounding success.",
+        "targets": [
+          {
+            "id": "w-buoyant",
+            "text": "buoyant"
+          },
+          {
+            "id": "p-field-test",
+            "text": "field test"
+          },
+          {
+            "id": "w-prototype",
+            "text": "prototype"
+          },
+          {
+            "id": "p-resounding-success",
+            "text": "resounding success"
+          }
+        ]
+      },
+      {
+        "en": "It is hoped that under the right circumstances, the oceans may be plastic-free by 2050.",
+        "targets": [
+          {
+            "id": "p-under-circumstances",
+            "text": "under"
+          }
+        ]
+      }
+    ]
+  }
+}

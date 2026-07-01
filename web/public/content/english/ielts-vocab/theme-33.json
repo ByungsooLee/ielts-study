@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 33,
+  "themeId": "theme-33",
+  "themeName": "親しい友人と脳の働き",
+  "version": "1a7efa49",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 784,
+      "id": "p-be-down-to",
+      "type": "phrase",
+      "front": "be down to",
+      "meaning": "〜が原因で",
+      "synonyms": [
+        "be the result of",
+        "be due to"
+      ],
+      "collocation": "be down to…",
+      "examples": [
+        {
+          "en": "How close friends think may be down to how their brains function."
+        }
+      ],
+      "pron": {
+        "tts": "be down to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 785,
+      "id": "w-function",
+      "type": "word",
+      "front": "function",
+      "meaning": "機能する・働く",
+      "synonyms": [
+        "operate",
+        "behave"
+      ],
+      "collocation": "the brain functions",
+      "examples": [
+        {
+          "en": "How close friends think may be down to how their brains function."
+        }
+      ],
+      "pron": {
+        "lookup": "function",
+        "tts": "function"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 786,
+      "id": "p-carry-out",
+      "type": "phrase",
+      "front": "carry out",
+      "meaning": "〜を実行する",
+      "synonyms": [
+        "conduct"
+      ],
+      "collocation": "carry out research",
+      "examples": [
+        {
+          "en": "Scientists carried out a study using video clips that ranged from unusual music videos to dull wedding scenes."
+        }
+      ],
+      "pron": {
+        "tts": "carry out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 787,
+      "id": "p-range-from",
+      "type": "phrase",
+      "front": "range from",
+      "meaning": "〜から〜に及ぶ",
+      "synonyms": [
+        "span from"
+      ],
+      "collocation": "range from A to B",
+      "examples": [
+        {
+          "en": "Scientists carried out a study using video clips that ranged from unusual music videos to dull wedding scenes."
+        }
+      ],
+      "pron": {
+        "tts": "range from"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 788,
+      "id": "w-unusual",
+      "type": "word",
+      "front": "unusual",
+      "meaning": "異常な・普通でない",
+      "synonyms": [
+        "odd",
+        "bizarre",
+        "offbeat"
+      ],
+      "collocation": "unusual behaviour",
+      "examples": [
+        {
+          "en": "Scientists carried out a study using video clips that ranged from unusual music videos to dull wedding scenes."
+        }
+      ],
+      "pron": {
+        "lookup": "unusual",
+        "tts": "unusual"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 789,
+      "id": "w-dull",
+      "type": "word",
+      "front": "dull",
+      "meaning": "退屈な",
+      "synonyms": [
+        "monotonous",
+        "uninspiring",
+        "tedious"
+      ],
+      "collocation": "a dull video",
+      "examples": [
+        {
+          "en": "Scientists carried out a study using video clips that ranged from unusual music videos to dull wedding scenes."
+        }
+      ],
+      "pron": {
+        "lookup": "dull",
+        "tts": "dull"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 790,
+      "id": "w-divergent",
+      "type": "word",
+      "front": "divergent",
+      "meaning": "食い違う・異なる",
+      "synonyms": [
+        "differing",
+        "dissimilar"
+      ],
+      "collocation": "divergent patterns",
+      "examples": [
+        {
+          "en": "Strangers showed divergent neural patterns, following their own ebb and flow of attention."
+        }
+      ],
+      "pron": {
+        "lookup": "divergent",
+        "tts": "divergent"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 791,
+      "id": "p-ebb-and-flow",
+      "type": "phrase",
+      "front": "ebb and flow",
+      "meaning": "浮き沈み",
+      "synonyms": [
+        "ups and downs",
+        "highs and lows"
+      ],
+      "collocation": "the ebb and flow of",
+      "examples": [
+        {
+          "en": "Strangers showed divergent neural patterns, following their own ebb and flow of attention."
+        }
+      ],
+      "pron": {
+        "tts": "ebb and flow"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 792,
+      "id": "w-evoke",
+      "type": "word",
+      "front": "evoke",
+      "meaning": "呼び起こす",
+      "synonyms": [
+        "induce",
+        "elicit"
+      ],
+      "collocation": "evoke emotions",
+      "examples": [
+        {
+          "en": "The same scenes evoked the same responses in close friends, whose brains were highly synchronised."
+        }
+      ],
+      "pron": {
+        "lookup": "evoke",
+        "tts": "evoke"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 793,
+      "id": "w-synchronised",
+      "type": "word",
+      "front": "synchronised",
+      "meaning": "同調した",
+      "synonyms": [
+        "harmonised",
+        "synced"
+      ],
+      "collocation": "synchronised activity",
+      "examples": [
+        {
+          "en": "The same scenes evoked the same responses in close friends, whose brains were highly synchronised."
+        }
+      ],
+      "pron": {
+        "lookup": "synchronised",
+        "tts": "synchronised"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 794,
+      "id": "p-come-across",
+      "type": "phrase",
+      "front": "come across",
+      "meaning": "偶然見つける",
+      "synonyms": [
+        "stumble upon",
+        "accidentally uncover"
+      ],
+      "collocation": "come across a link",
+      "examples": [
+        {
+          "en": "Researchers came across a clear link between friendship and a longer life expectancy."
+        }
+      ],
+      "pron": {
+        "tts": "come across"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 795,
+      "id": "w-link",
+      "type": "word",
+      "front": "link",
+      "meaning": "関連・つながり",
+      "synonyms": [
+        "connection",
+        "relationship"
+      ],
+      "collocation": "a link between",
+      "examples": [
+        {
+          "en": "Researchers came across a clear link between friendship and a longer life expectancy."
+        }
+      ],
+      "pron": {
+        "lookup": "link",
+        "tts": "link"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 796,
+      "id": "p-life-expectancy",
+      "type": "phrase",
+      "front": "life expectancy",
+      "meaning": "寿命",
+      "synonyms": [
+        "lifespan"
+      ],
+      "collocation": "increase life expectancy",
+      "examples": [
+        {
+          "en": "Researchers came across a clear link between friendship and a longer life expectancy."
+        }
+      ],
+      "pron": {
+        "tts": "life expectancy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 797,
+      "id": "p-symptom-of",
+      "type": "phrase",
+      "front": "symptom of",
+      "meaning": "（病気の）兆候",
+      "synonyms": [
+        "sign of",
+        "indicator of"
+      ],
+      "collocation": "a symptom of dementia",
+      "examples": [
+        {
+          "en": "Loneliness can even be a symptom of poor health, so social ties matter."
+        }
+      ],
+      "pron": {
+        "tts": "symptom of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 798,
+      "id": "w-evolve",
+      "type": "word",
+      "front": "evolve",
+      "meaning": "徐々に発達する",
+      "synonyms": [
+        "develop gradually"
+      ],
+      "collocation": "evolve over time",
+      "examples": [
+        {
+          "en": "Like-mindedness may have evolved as humans formed hunting groups that had to reach a consensus quickly."
+        }
+      ],
+      "pron": {
+        "lookup": "evolve",
+        "tts": "evolve"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 799,
+      "id": "p-reach-a-consensus",
+      "type": "phrase",
+      "front": "reach a consensus",
+      "meaning": "意見の一致をみる",
+      "synonyms": [
+        "settle on a decision",
+        "concur"
+      ],
+      "collocation": "reach a consensus",
+      "examples": [
+        {
+          "en": "Like-mindedness may have evolved as humans formed hunting groups that had to reach a consensus quickly."
+        }
+      ],
+      "pron": {
+        "tts": "reach a consensus"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 800,
+      "id": "w-mindset",
+      "type": "word",
+      "front": "mindset",
+      "meaning": "考え方",
+      "synonyms": [
+        "mentality"
+      ],
+      "collocation": "a fixed mindset",
+      "examples": [
+        {
+          "en": "A shared mindset built strong social bonds, helping people look after one another's young."
+        }
+      ],
+      "pron": {
+        "lookup": "mindset",
+        "tts": "mindset"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 801,
+      "id": "p-social-bond",
+      "type": "phrase",
+      "front": "social bond",
+      "meaning": "社会的つながり",
+      "synonyms": [
+        "social tie",
+        "social network"
+      ],
+      "collocation": "a strong social bond",
+      "examples": [
+        {
+          "en": "A shared mindset built strong social bonds, helping people look after one another's young."
+        }
+      ],
+      "pron": {
+        "tts": "social bond"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 802,
+      "id": "p-look-after",
+      "type": "phrase",
+      "front": "look after",
+      "meaning": "〜の世話をする",
+      "synonyms": [
+        "take care of",
+        "nurture",
+        "bring up"
+      ],
+      "collocation": "look after children",
+      "examples": [
+        {
+          "en": "A shared mindset built strong social bonds, helping people look after one another's young."
+        }
+      ],
+      "pron": {
+        "tts": "look after"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 803,
+      "id": "w-chemistry",
+      "type": "word",
+      "front": "chemistry",
+      "meaning": "相性",
+      "pron": {
+        "lookup": "chemistry",
+        "tts": "chemistry"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 804,
+      "id": "p-brain-wave",
+      "type": "phrase",
+      "front": "brain wave",
+      "meaning": "脳波",
+      "pron": {
+        "tts": "brain wave"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 805,
+      "id": "w-neural",
+      "type": "word",
+      "front": "neural",
+      "meaning": "神経の",
+      "pron": {
+        "lookup": "neural",
+        "tts": "neural"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 806,
+      "id": "w-dementia",
+      "type": "word",
+      "front": "dementia",
+      "meaning": "認知症",
+      "pron": {
+        "lookup": "dementia",
+        "tts": "dementia"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 807,
+      "id": "p-hunter-gatherer-society",
+      "type": "phrase",
+      "front": "hunter-gatherer society",
+      "meaning": "狩猟採集社会",
+      "pron": {
+        "tts": "hunter-gatherer society"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 808,
+      "id": "w-offspring",
+      "type": "word",
+      "front": "offspring",
+      "meaning": "子孫",
+      "pron": {
+        "lookup": "offspring",
+        "tts": "offspring"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 809,
+      "id": "p-loose-acquaintance",
+      "type": "phrase",
+      "front": "loose acquaintance",
+      "meaning": "ちょっとした知り合い",
+      "synonyms": [
+        "nodding acquaintance"
+      ],
+      "pron": {
+        "tts": "loose acquaintance"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 33,
+      "themeName": "親しい友人と脳の働き",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t33",
+    "theme": 33,
+    "themeName": "親しい友人と脳の働き",
+    "jp": "親しい友人の考え方は、脳の働き方が原因かもしれない。科学者は、風変わりな音楽動画から退屈な結婚式まで幅のある映像を使って研究を行った。他人は食い違う神経パターンを示し、それぞれの注意の浮き沈みに従った。同じ場面が親友には同じ反応を呼び起こし、脳は高度に同調していた。研究者は友情と長い寿命との明確な関連を偶然見つけた。孤独は健康悪化の兆候でもあり、社会的つながりは重要だ。共感は、素早く合意する必要のある狩猟集団を人類が形成する中で徐々に発達したのかもしれない。共通の考え方は強い社会的つながりを築き、互いの子の世話を助けた。",
+    "sentences": [
+      {
+        "en": "How close friends think may be down to how their brains function.",
+        "targets": [
+          {
+            "id": "p-be-down-to",
+            "text": "down to"
+          },
+          {
+            "id": "w-function",
+            "text": "function"
+          }
+        ]
+      },
+      {
+        "en": "Scientists carried out a study using video clips that ranged from unusual music videos to dull wedding scenes.",
+        "targets": [
+          {
+            "id": "p-carry-out",
+            "text": "carried out"
+          },
+          {
+            "id": "p-range-from",
+            "text": "ranged from"
+          },
+          {
+            "id": "w-unusual",
+            "text": "unusual"
+          },
+          {
+            "id": "w-dull",
+            "text": "dull"
+          }
+        ]
+      },
+      {
+        "en": "Strangers showed divergent neural patterns, following their own ebb and flow of attention.",
+        "targets": [
+          {
+            "id": "w-divergent",
+            "text": "divergent"
+          },
+          {
+            "id": "p-ebb-and-flow",
+            "text": "ebb and flow"
+          }
+        ]
+      },
+      {
+        "en": "The same scenes evoked the same responses in close friends, whose brains were highly synchronised.",
+        "targets": [
+          {
+            "id": "w-evoke",
+            "text": "evoked"
+          },
+          {
+            "id": "w-synchronised",
+            "text": "synchronised"
+          }
+        ]
+      },
+      {
+        "en": "Researchers came across a clear link between friendship and a longer life expectancy.",
+        "targets": [
+          {
+            "id": "p-come-across",
+            "text": "came across"
+          },
+          {
+            "id": "w-link",
+            "text": "link"
+          },
+          {
+            "id": "p-life-expectancy",
+            "text": "life expectancy"
+          }
+        ]
+      },
+      {
+        "en": "Loneliness can even be a symptom of poor health, so social ties matter.",
+        "targets": [
+          {
+            "id": "p-symptom-of",
+            "text": "symptom of"
+          }
+        ]
+      },
+      {
+        "en": "Like-mindedness may have evolved as humans formed hunting groups that had to reach a consensus quickly.",
+        "targets": [
+          {
+            "id": "w-evolve",
+            "text": "evolved"
+          },
+          {
+            "id": "w-form",
+            "text": "formed"
+          },
+          {
+            "id": "p-reach-a-consensus",
+            "text": "reach a consensus"
+          }
+        ]
+      },
+      {
+        "en": "A shared mindset built strong social bonds, helping people look after one another's young.",
+        "targets": [
+          {
+            "id": "w-mindset",
+            "text": "mindset"
+          },
+          {
+            "id": "p-social-bond",
+            "text": "social bonds"
+          },
+          {
+            "id": "p-look-after",
+            "text": "look after"
+          }
+        ]
+      }
+    ]
+  }
+}

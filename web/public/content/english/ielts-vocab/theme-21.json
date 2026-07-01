@@ -1,0 +1,753 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 21,
+  "themeId": "theme-21",
+  "themeName": "バナナ",
+  "version": "a21dd6df",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 479,
+      "id": "w-staple",
+      "type": "word",
+      "front": "staple",
+      "meaning": "主要な・主食の",
+      "synonyms": [
+        "mainstay",
+        "principal"
+      ],
+      "collocation": "a staple food, a staple crop",
+      "examples": [
+        {
+          "en": "The banana is a staple food for millions and is essential to many diets."
+        }
+      ],
+      "pron": {
+        "lookup": "staple",
+        "tts": "staple"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 480,
+      "id": "w-essential",
+      "type": "word",
+      "front": "essential",
+      "meaning": "不可欠な",
+      "synonyms": [
+        "vital",
+        "indispensable"
+      ],
+      "collocation": "essential for growth, an essential part of",
+      "examples": [
+        {
+          "en": "The banana is a staple food for millions and is essential to many diets."
+        }
+      ],
+      "pron": {
+        "lookup": "essential",
+        "tts": "essential"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 481,
+      "id": "w-quintessential",
+      "type": "word",
+      "front": "quintessential",
+      "meaning": "典型的な・真髄の",
+      "synonyms": [
+        "classic",
+        "archetypal"
+      ],
+      "collocation": "the quintessential example of",
+      "examples": [
+        {
+          "en": "The Cavendish is the quintessential supermarket banana, and it accounts for nearly half of all cultivated fruit."
+        }
+      ],
+      "pron": {
+        "lookup": "quintessential",
+        "tts": "quintessential"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 482,
+      "id": "p-on-the-brink-of",
+      "type": "phrase",
+      "front": "on the brink of",
+      "meaning": "〜の間際で",
+      "synonyms": [
+        "on the verge of",
+        "on the edge of"
+      ],
+      "collocation": "on the brink of extinction",
+      "examples": [
+        {
+          "en": "However, this variety is now on the brink of disaster, because a fungus has begun to ravage plantations."
+        }
+      ],
+      "pron": {
+        "tts": "on the brink of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 483,
+      "id": "w-drastic",
+      "type": "word",
+      "front": "drastic",
+      "meaning": "思い切った・抜本的な",
+      "synonyms": [
+        "radical",
+        "extreme"
+      ],
+      "collocation": "drastic measures, a drastic change",
+      "examples": [
+        {
+          "en": "Growers now take drastic measures to preserve the crop, since numbers dwindle each year."
+        }
+      ],
+      "pron": {
+        "lookup": "drastic",
+        "tts": "drastic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 484,
+      "id": "w-preserve",
+      "type": "word",
+      "front": "preserve",
+      "meaning": "保存する・保護する",
+      "synonyms": [
+        "conserve",
+        "safeguard"
+      ],
+      "collocation": "preserve food, preserve the environment",
+      "examples": [
+        {
+          "en": "Growers now take drastic measures to preserve the crop, since numbers dwindle each year."
+        }
+      ],
+      "pron": {
+        "lookup": "preserve",
+        "tts": "preserve"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 485,
+      "id": "p-account-for",
+      "type": "phrase",
+      "front": "account for",
+      "meaning": "〜を占める",
+      "synonyms": [
+        "make up"
+      ],
+      "collocation": "account for 40% of the total",
+      "examples": [
+        {
+          "en": "The Cavendish is the quintessential supermarket banana, and it accounts for nearly half of all cultivated fruit."
+        }
+      ],
+      "pron": {
+        "tts": "account for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 486,
+      "id": "w-cultivate",
+      "type": "word",
+      "front": "cultivate",
+      "meaning": "栽培する",
+      "synonyms": [
+        "grow",
+        "farm"
+      ],
+      "collocation": "cultivate crops, cultivated land",
+      "examples": [
+        {
+          "en": "The Cavendish is the quintessential supermarket banana, and it accounts for nearly half of all cultivated fruit."
+        }
+      ],
+      "pron": {
+        "lookup": "cultivate",
+        "tts": "cultivate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 487,
+      "id": "w-ravage",
+      "type": "word",
+      "front": "ravage",
+      "meaning": "壊滅させる",
+      "synonyms": [
+        "devastate",
+        "despoil"
+      ],
+      "collocation": "be ravaged by disease",
+      "examples": [
+        {
+          "en": "However, this variety is now on the brink of disaster, because a fungus has begun to ravage plantations."
+        }
+      ],
+      "pron": {
+        "lookup": "ravage",
+        "tts": "ravage"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 488,
+      "id": "p-immune-to",
+      "type": "phrase",
+      "front": "immune to",
+      "meaning": "〜に免疫のある",
+      "synonyms": [
+        "resistant to"
+      ],
+      "collocation": "immune to the disease",
+      "examples": [
+        {
+          "en": "The disease can run rampant worldwide, and Cavendish plants are not immune to it."
+        }
+      ],
+      "pron": {
+        "tts": "immune to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 489,
+      "id": "w-conventional",
+      "type": "word",
+      "front": "conventional",
+      "meaning": "従来の",
+      "synonyms": [
+        "traditional",
+        "ordinary"
+      ],
+      "collocation": "conventional methods, conventional farming",
+      "examples": [
+        {
+          "en": "Because every plant is a clone, conventional farming has allowed the infection a rapid expansion."
+        }
+      ],
+      "pron": {
+        "lookup": "conventional",
+        "tts": "conventional"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 490,
+      "id": "p-rapid-expansion",
+      "type": "phrase",
+      "front": "rapid expansion",
+      "meaning": "急激な拡大",
+      "synonyms": [
+        "explosive growth"
+      ],
+      "collocation": "the rapid expansion of…",
+      "examples": [
+        {
+          "en": "Because every plant is a clone, conventional farming has allowed the infection a rapid expansion."
+        }
+      ],
+      "pron": {
+        "tts": "rapid expansion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 491,
+      "id": "p-run-rampant",
+      "type": "phrase",
+      "front": "run rampant",
+      "meaning": "はびこる",
+      "synonyms": [
+        "spread uncontrollably",
+        "get out of hand"
+      ],
+      "collocation": "disease runs rampant",
+      "examples": [
+        {
+          "en": "The disease can run rampant worldwide, and Cavendish plants are not immune to it."
+        }
+      ],
+      "pron": {
+        "tts": "run rampant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 492,
+      "id": "w-eradicate",
+      "type": "word",
+      "front": "eradicate",
+      "meaning": "根絶する",
+      "synonyms": [
+        "wipe out",
+        "destroy"
+      ],
+      "collocation": "eradicate a disease",
+      "examples": [
+        {
+          "en": "Some hope to eradicate the fungus, while others diversify and search for a substitute variety."
+        }
+      ],
+      "pron": {
+        "lookup": "eradicate",
+        "tts": "eradicate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 493,
+      "id": "w-dwindle",
+      "type": "word",
+      "front": "dwindle",
+      "meaning": "減少する",
+      "synonyms": [
+        "decline",
+        "diminish"
+      ],
+      "collocation": "numbers dwindle",
+      "examples": [
+        {
+          "en": "Growers now take drastic measures to preserve the crop, since numbers dwindle each year."
+        }
+      ],
+      "pron": {
+        "lookup": "dwindle",
+        "tts": "dwindle"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 494,
+      "id": "w-substitute",
+      "type": "word",
+      "front": "substitute",
+      "meaning": "代わり・代用品",
+      "synonyms": [
+        "alternative",
+        "replacement"
+      ],
+      "collocation": "a substitute for sugar, find a substitute",
+      "examples": [
+        {
+          "en": "Some hope to eradicate the fungus, while others diversify and search for a substitute variety."
+        }
+      ],
+      "pron": {
+        "lookup": "substitute",
+        "tts": "substitute"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 495,
+      "id": "w-diversify",
+      "type": "word",
+      "front": "diversify",
+      "meaning": "多様化する",
+      "synonyms": [
+        "branch out"
+      ],
+      "collocation": "diversify crops, diversify the economy",
+      "examples": [
+        {
+          "en": "Some hope to eradicate the fungus, while others diversify and search for a substitute variety."
+        }
+      ],
+      "pron": {
+        "lookup": "diversify",
+        "tts": "diversify"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 496,
+      "id": "p-wreak-havoc",
+      "type": "phrase",
+      "front": "wreak havoc",
+      "meaning": "大惨事をもたらす",
+      "synonyms": [
+        "cause chaos"
+      ],
+      "pron": {
+        "tts": "wreak havoc"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 497,
+      "id": "w-sustenance",
+      "type": "word",
+      "front": "sustenance",
+      "meaning": "栄養・食料源",
+      "synonyms": [
+        "nourishment",
+        "subsistence"
+      ],
+      "pron": {
+        "lookup": "sustenance",
+        "tts": "sustenance"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 498,
+      "id": "w-emigrate",
+      "type": "word",
+      "front": "emigrate",
+      "meaning": "移住する",
+      "synonyms": [
+        "move abroad"
+      ],
+      "pron": {
+        "lookup": "emigrate",
+        "tts": "emigrate"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 499,
+      "id": "p-across-the-globe",
+      "type": "phrase",
+      "front": "across the globe",
+      "meaning": "世界中で",
+      "synonyms": [
+        "in the four corners of the world"
+      ],
+      "pron": {
+        "tts": "across the globe"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 500,
+      "id": "w-household",
+      "type": "word",
+      "front": "household",
+      "meaning": "家庭の・家畜化された",
+      "synonyms": [
+        "domesticated"
+      ],
+      "pron": {
+        "lookup": "household",
+        "tts": "household"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 501,
+      "id": "p-an-assortment-of",
+      "type": "phrase",
+      "front": "an assortment of",
+      "meaning": "各種の",
+      "synonyms": [
+        "a variety of"
+      ],
+      "pron": {
+        "tts": "an assortment of"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 502,
+      "id": "p-be-wiped-off-the-map",
+      "type": "phrase",
+      "front": "be wiped off the map",
+      "meaning": "消滅する",
+      "pron": {
+        "tts": "be wiped off the map"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 503,
+      "id": "p-resistance-to",
+      "type": "phrase",
+      "front": "resistance to",
+      "meaning": "〜への抵抗・防御",
+      "synonyms": [
+        "protection against"
+      ],
+      "pron": {
+        "tts": "resistance to"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 21,
+      "themeName": "バナナ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t21",
+    "theme": 21,
+    "themeName": "バナナ",
+    "jp": "バナナは何百万人もの主食であり、多くの食生活に不可欠だ。キャベンディッシュは典型的なスーパーのバナナで、栽培される果物のほぼ半分を占める。しかしこの品種は今や大惨事の間際にあり、菌類が農園を壊滅させ始めている。この病気は世界中にはびこり、キャベンディッシュはそれに免疫がない。すべての株がクローンのため、従来の農法は感染の急拡大を許してきた。生産者は作物を守るため思い切った対策を取るが、数は年々減少している。菌の根絶を望む者もいれば、多様化して代わりの品種を探す者もいる。",
+    "sentences": [
+      {
+        "en": "The banana is a staple food for millions and is essential to many diets.",
+        "targets": [
+          {
+            "id": "w-staple",
+            "text": "staple"
+          },
+          {
+            "id": "w-essential",
+            "text": "essential"
+          }
+        ]
+      },
+      {
+        "en": "The Cavendish is the quintessential supermarket banana, and it accounts for nearly half of all cultivated fruit.",
+        "targets": [
+          {
+            "id": "w-quintessential",
+            "text": "quintessential"
+          },
+          {
+            "id": "p-account-for",
+            "text": "accounts for"
+          },
+          {
+            "id": "w-cultivate",
+            "text": "cultivated"
+          }
+        ]
+      },
+      {
+        "en": "However, this variety is now on the brink of disaster, because a fungus has begun to ravage plantations.",
+        "targets": [
+          {
+            "id": "p-on-the-brink-of",
+            "text": "on the brink of"
+          },
+          {
+            "id": "w-ravage",
+            "text": "ravage"
+          }
+        ]
+      },
+      {
+        "en": "The disease can run rampant worldwide, and Cavendish plants are not immune to it.",
+        "targets": [
+          {
+            "id": "p-run-rampant",
+            "text": "run rampant"
+          },
+          {
+            "id": "p-immune-to",
+            "text": "immune to"
+          }
+        ]
+      },
+      {
+        "en": "Because every plant is a clone, conventional farming has allowed the infection a rapid expansion.",
+        "targets": [
+          {
+            "id": "w-conventional",
+            "text": "conventional"
+          },
+          {
+            "id": "p-rapid-expansion",
+            "text": "rapid expansion"
+          }
+        ]
+      },
+      {
+        "en": "Growers now take drastic measures to preserve the crop, since numbers dwindle each year.",
+        "targets": [
+          {
+            "id": "w-drastic",
+            "text": "drastic"
+          },
+          {
+            "id": "w-preserve",
+            "text": "preserve"
+          },
+          {
+            "id": "w-dwindle",
+            "text": "dwindle"
+          }
+        ]
+      },
+      {
+        "en": "Some hope to eradicate the fungus, while others diversify and search for a substitute variety.",
+        "targets": [
+          {
+            "id": "w-eradicate",
+            "text": "eradicate"
+          },
+          {
+            "id": "w-diversify",
+            "text": "diversify"
+          },
+          {
+            "id": "w-substitute",
+            "text": "substitute"
+          }
+        ]
+      }
+    ]
+  }
+}

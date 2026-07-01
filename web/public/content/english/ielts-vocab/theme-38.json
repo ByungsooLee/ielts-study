@@ -1,0 +1,783 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 38,
+  "themeId": "theme-38",
+  "themeName": "バラの香り",
+  "version": "37639a5a",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 910,
+      "id": "w-celebrated",
+      "type": "word",
+      "front": "celebrated",
+      "meaning": "名高い・世に知られた",
+      "synonyms": [
+        "well-loved",
+        "adored"
+      ],
+      "collocation": "a celebrated flower",
+      "examples": [
+        {
+          "en": "Roses are celebrated for their magnificent scent."
+        }
+      ],
+      "pron": {
+        "lookup": "celebrated",
+        "tts": "celebrated"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 911,
+      "id": "w-magnificent",
+      "type": "word",
+      "front": "magnificent",
+      "meaning": "壮大な・上等の",
+      "synonyms": [
+        "sublime",
+        "heavenly",
+        "wonderful"
+      ],
+      "collocation": "a magnificent scent",
+      "examples": [
+        {
+          "en": "Roses are celebrated for their magnificent scent."
+        }
+      ],
+      "pron": {
+        "lookup": "magnificent",
+        "tts": "magnificent"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 912,
+      "id": "w-scent",
+      "type": "word",
+      "front": "scent",
+      "meaning": "香り",
+      "synonyms": [
+        "aroma",
+        "fragrance"
+      ],
+      "collocation": "a sweet scent",
+      "examples": [
+        {
+          "en": "Roses are celebrated for their magnificent scent."
+        }
+      ],
+      "pron": {
+        "lookup": "scent",
+        "tts": "scent"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 913,
+      "id": "w-intensive",
+      "type": "word",
+      "front": "intensive",
+      "meaning": "徹底的な・集中的な",
+      "synonyms": [
+        "thorough",
+        "vigorous"
+      ],
+      "collocation": "intensive breeding",
+      "examples": [
+        {
+          "en": "However, intensive breeding for colour has deprived many vivid roses of their smell."
+        }
+      ],
+      "pron": {
+        "lookup": "intensive",
+        "tts": "intensive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 914,
+      "id": "p-deprive-of",
+      "type": "phrase",
+      "front": "deprive of",
+      "meaning": "〜から…を奪う",
+      "synonyms": [
+        "strip of"
+      ],
+      "collocation": "be deprived of",
+      "examples": [
+        {
+          "en": "However, intensive breeding for colour has deprived many vivid roses of their smell."
+        }
+      ],
+      "pron": {
+        "tts": "deprive of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 915,
+      "id": "w-vivid",
+      "type": "word",
+      "front": "vivid",
+      "meaning": "鮮やかな",
+      "synonyms": [
+        "bright",
+        "brilliant",
+        "radiant"
+      ],
+      "collocation": "vivid colours",
+      "examples": [
+        {
+          "en": "However, intensive breeding for colour has deprived many vivid roses of their smell."
+        }
+      ],
+      "pron": {
+        "lookup": "vivid",
+        "tts": "vivid"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 916,
+      "id": "w-odourless",
+      "type": "word",
+      "front": "odourless",
+      "meaning": "無香の",
+      "synonyms": [
+        "scentless"
+      ],
+      "collocation": "odourless roses",
+      "examples": [
+        {
+          "en": "Genetics may now hold the key to breeding perfect, fragrant roses that are no longer odourless."
+        }
+      ],
+      "pron": {
+        "lookup": "odourless",
+        "tts": "odourless"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 917,
+      "id": "w-trial-and-error",
+      "type": "word",
+      "front": "trial-and-error",
+      "meaning": "試行錯誤",
+      "synonyms": [
+        "hit-or-miss"
+      ],
+      "collocation": "a trial-and-error approach",
+      "examples": [
+        {
+          "en": "In the past, growers used a slow trial-and-error approach that was prohibitively expensive."
+        }
+      ],
+      "pron": {
+        "lookup": "trial-and-error",
+        "tts": "trial-and-error"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 918,
+      "id": "w-prohibitively",
+      "type": "word",
+      "front": "prohibitively",
+      "meaning": "法外に・ひどく",
+      "synonyms": [
+        "excessively"
+      ],
+      "collocation": "prohibitively expensive",
+      "examples": [
+        {
+          "en": "In the past, growers used a slow trial-and-error approach that was prohibitively expensive."
+        }
+      ],
+      "pron": {
+        "lookup": "prohibitively",
+        "tts": "prohibitively"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 919,
+      "id": "p-map-out",
+      "type": "phrase",
+      "front": "map out",
+      "meaning": "（遺伝子を）割り出す",
+      "synonyms": [
+        "sequence"
+      ],
+      "collocation": "map out a genome",
+      "examples": [
+        {
+          "en": "Scientists can now map out a genome, and the price tag has dropped sharply."
+        }
+      ],
+      "pron": {
+        "tts": "map out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 920,
+      "id": "p-the-price-tag",
+      "type": "phrase",
+      "front": "the price tag",
+      "meaning": "費用",
+      "synonyms": [
+        "cost",
+        "expense"
+      ],
+      "collocation": "the price tag, the cost of",
+      "examples": [
+        {
+          "en": "Scientists can now map out a genome, and the price tag has dropped sharply."
+        }
+      ],
+      "pron": {
+        "tts": "the price tag"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 921,
+      "id": "w-enable",
+      "type": "word",
+      "front": "enable",
+      "meaning": "〜を可能にする",
+      "synonyms": [
+        "allow",
+        "make possible"
+      ],
+      "collocation": "enable scientists to",
+      "examples": [
+        {
+          "en": "This enables them to pick and choose individual genes and shorten the time frame for breeding."
+        }
+      ],
+      "pron": {
+        "lookup": "enable",
+        "tts": "enable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 922,
+      "id": "p-pick-and-choose",
+      "type": "phrase",
+      "front": "pick and choose",
+      "meaning": "選別する",
+      "synonyms": [
+        "designate"
+      ],
+      "collocation": "pick and choose genes",
+      "examples": [
+        {
+          "en": "This enables them to pick and choose individual genes and shorten the time frame for breeding."
+        }
+      ],
+      "pron": {
+        "tts": "pick and choose"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 923,
+      "id": "w-individual",
+      "type": "word",
+      "front": "individual",
+      "meaning": "個々の・ある特定の",
+      "synonyms": [
+        "certain",
+        "particular",
+        "specific"
+      ],
+      "collocation": "individual genes",
+      "examples": [
+        {
+          "en": "This enables them to pick and choose individual genes and shorten the time frame for breeding."
+        }
+      ],
+      "pron": {
+        "lookup": "individual",
+        "tts": "individual"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 924,
+      "id": "w-shorten",
+      "type": "word",
+      "front": "shorten",
+      "meaning": "短縮する・凝縮する",
+      "synonyms": [
+        "condense"
+      ],
+      "collocation": "shorten the time frame",
+      "examples": [
+        {
+          "en": "This enables them to pick and choose individual genes and shorten the time frame for breeding."
+        }
+      ],
+      "pron": {
+        "lookup": "shorten",
+        "tts": "shorten"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 925,
+      "id": "p-time-frame",
+      "type": "phrase",
+      "front": "time frame",
+      "meaning": "時間（枠）",
+      "synonyms": [
+        "period of time",
+        "timespan"
+      ],
+      "collocation": "a short time frame",
+      "examples": [
+        {
+          "en": "This enables them to pick and choose individual genes and shorten the time frame for breeding."
+        }
+      ],
+      "pron": {
+        "tts": "time frame"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 926,
+      "id": "p-be-responsible-for",
+      "type": "phrase",
+      "front": "be responsible for",
+      "meaning": "〜の原因となる",
+      "synonyms": [
+        "be the cause of"
+      ],
+      "collocation": "be responsible for",
+      "examples": [
+        {
+          "en": "Researchers have found which enzyme is responsible for the scent released by the petals."
+        }
+      ],
+      "pron": {
+        "tts": "be responsible for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 927,
+      "id": "p-be-released-by",
+      "type": "phrase",
+      "front": "be released by",
+      "meaning": "〜によって放たれる",
+      "synonyms": [
+        "be emitted by"
+      ],
+      "collocation": "be released by",
+      "examples": [
+        {
+          "en": "Researchers have found which enzyme is responsible for the scent released by the petals."
+        }
+      ],
+      "pron": {
+        "tts": "be released by"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 928,
+      "id": "w-process",
+      "type": "word",
+      "front": "process",
+      "meaning": "過程・方法",
+      "synonyms": [
+        "system",
+        "way",
+        "manner"
+      ],
+      "collocation": "a natural process",
+      "examples": [
+        {
+          "en": "Understanding this process is vital for creating the perfect rose."
+        }
+      ],
+      "pron": {
+        "lookup": "process",
+        "tts": "process"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 929,
+      "id": "w-vital",
+      "type": "word",
+      "front": "vital",
+      "meaning": "極めて重要な",
+      "synonyms": [
+        "indispensable",
+        "essential"
+      ],
+      "collocation": "vital for reproduction",
+      "examples": [
+        {
+          "en": "Understanding this process is vital for creating the perfect rose."
+        }
+      ],
+      "pron": {
+        "lookup": "vital",
+        "tts": "vital"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 930,
+      "id": "w-horticulturist",
+      "type": "word",
+      "front": "horticulturist",
+      "meaning": "園芸家",
+      "pron": {
+        "lookup": "horticulturist",
+        "tts": "horticulturist"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 931,
+      "id": "w-enzyme",
+      "type": "word",
+      "front": "enzyme",
+      "meaning": "酵素",
+      "pron": {
+        "lookup": "enzyme",
+        "tts": "enzyme"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 932,
+      "id": "w-petal",
+      "type": "word",
+      "front": "petal",
+      "meaning": "花びら",
+      "pron": {
+        "lookup": "petal",
+        "tts": "petal"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 933,
+      "id": "w-pollination",
+      "type": "word",
+      "front": "pollination",
+      "meaning": "受粉",
+      "pron": {
+        "lookup": "pollination",
+        "tts": "pollination"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 934,
+      "id": "p-chemical-compound",
+      "type": "phrase",
+      "front": "chemical compound",
+      "meaning": "化合物",
+      "pron": {
+        "tts": "chemical compound"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 38,
+      "themeName": "バラの香り",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t38",
+    "theme": 38,
+    "themeName": "バラの香り",
+    "jp": "バラはその壮大な香りで名高い。しかし色を求める徹底的な品種改良が、多くの鮮やかなバラから香りを奪ってきた。遺伝学は今、無香でない香り高いバラを育てる鍵を握るかもしれない。かつて生産者は法外に高くつく試行錯誤の手法を用いた。今や科学者はゲノムを割り出せ、費用は大きく下がった。これにより個々の遺伝子を選別し、品種改良の期間を短縮できる。研究者は、花びらから放たれる香りの原因となる酵素を突き止めた。この過程の理解は、完璧なバラを作るのに極めて重要だ。",
+    "sentences": [
+      {
+        "en": "Roses are celebrated for their magnificent scent.",
+        "targets": [
+          {
+            "id": "w-celebrated",
+            "text": "celebrated"
+          },
+          {
+            "id": "w-magnificent",
+            "text": "magnificent"
+          },
+          {
+            "id": "w-scent",
+            "text": "scent"
+          }
+        ]
+      },
+      {
+        "en": "However, intensive breeding for colour has deprived many vivid roses of their smell.",
+        "targets": [
+          {
+            "id": "w-intensive",
+            "text": "intensive"
+          },
+          {
+            "id": "p-deprive-of",
+            "text": "deprived"
+          },
+          {
+            "id": "w-vivid",
+            "text": "vivid"
+          }
+        ]
+      },
+      {
+        "en": "Genetics may now hold the key to breeding perfect, fragrant roses that are no longer odourless.",
+        "targets": [
+          {
+            "id": "p-hold-the-key-to",
+            "text": "hold the key to"
+          },
+          {
+            "id": "w-odourless",
+            "text": "odourless"
+          }
+        ]
+      },
+      {
+        "en": "In the past, growers used a slow trial-and-error approach that was prohibitively expensive.",
+        "targets": [
+          {
+            "id": "w-trial-and-error",
+            "text": "trial-and-error"
+          },
+          {
+            "id": "w-prohibitively",
+            "text": "prohibitively"
+          }
+        ]
+      },
+      {
+        "en": "Scientists can now map out a genome, and the price tag has dropped sharply.",
+        "targets": [
+          {
+            "id": "p-map-out",
+            "text": "map out"
+          },
+          {
+            "id": "p-the-price-tag",
+            "text": "price tag"
+          }
+        ]
+      },
+      {
+        "en": "This enables them to pick and choose individual genes and shorten the time frame for breeding.",
+        "targets": [
+          {
+            "id": "w-enable",
+            "text": "enables"
+          },
+          {
+            "id": "p-pick-and-choose",
+            "text": "pick and choose"
+          },
+          {
+            "id": "w-individual",
+            "text": "individual"
+          },
+          {
+            "id": "w-shorten",
+            "text": "shorten"
+          },
+          {
+            "id": "p-time-frame",
+            "text": "time frame"
+          }
+        ]
+      },
+      {
+        "en": "Researchers have found which enzyme is responsible for the scent released by the petals.",
+        "targets": [
+          {
+            "id": "p-be-responsible-for",
+            "text": "responsible for"
+          },
+          {
+            "id": "p-be-released-by",
+            "text": "released by"
+          }
+        ]
+      },
+      {
+        "en": "Understanding this process is vital for creating the perfect rose.",
+        "targets": [
+          {
+            "id": "w-process",
+            "text": "process"
+          },
+          {
+            "id": "w-vital",
+            "text": "vital"
+          }
+        ]
+      }
+    ]
+  }
+}

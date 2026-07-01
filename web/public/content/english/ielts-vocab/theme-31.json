@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 31,
+  "themeId": "theme-31",
+  "themeName": "スウェーデンと音楽",
+  "version": "2550cf9f",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 735,
+      "id": "w-inordinate",
+      "type": "word",
+      "front": "inordinate",
+      "meaning": "過度の・過大な",
+      "synonyms": [
+        "disproportionate",
+        "excessive"
+      ],
+      "collocation": "an inordinate number of",
+      "examples": [
+        {
+          "en": "Sweden produces an inordinate number of pop hits, and its artists often eclipse far bigger nations."
+        }
+      ],
+      "pron": {
+        "lookup": "inordinate",
+        "tts": "inordinate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 736,
+      "id": "w-eclipse",
+      "type": "word",
+      "front": "eclipse",
+      "meaning": "しのぐ・上回る",
+      "synonyms": [
+        "surpass",
+        "top"
+      ],
+      "collocation": "eclipse rivals, surpass expectations",
+      "examples": [
+        {
+          "en": "Sweden produces an inordinate number of pop hits, and its artists often eclipse far bigger nations."
+        }
+      ],
+      "pron": {
+        "lookup": "eclipse",
+        "tts": "eclipse"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 737,
+      "id": "w-span",
+      "type": "word",
+      "front": "span",
+      "meaning": "（ある期間に）及ぶ",
+      "synonyms": [
+        "stretch over"
+      ],
+      "collocation": "span decades",
+      "examples": [
+        {
+          "en": "Their success has spanned decades, so what is the reason behind this musical powerhouse?"
+        }
+      ],
+      "pron": {
+        "lookup": "span",
+        "tts": "span"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 738,
+      "id": "p-be-the-reason-behind",
+      "type": "phrase",
+      "front": "be the reason behind",
+      "meaning": "〜の原因となる",
+      "synonyms": [
+        "account for"
+      ],
+      "collocation": "be the reason behind the success",
+      "examples": [
+        {
+          "en": "Their success has spanned decades, so what is the reason behind this musical powerhouse?"
+        }
+      ],
+      "pron": {
+        "tts": "be the reason behind"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 739,
+      "id": "w-powerhouse",
+      "type": "word",
+      "front": "powerhouse",
+      "meaning": "強力なグループ・精力家",
+      "synonyms": [
+        "force to be reckoned with"
+      ],
+      "collocation": "a musical powerhouse",
+      "examples": [
+        {
+          "en": "Their success has spanned decades, so what is the reason behind this musical powerhouse?"
+        }
+      ],
+      "pron": {
+        "lookup": "powerhouse",
+        "tts": "powerhouse"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 740,
+      "id": "w-humanities",
+      "type": "word",
+      "front": "humanities",
+      "meaning": "人文科学",
+      "synonyms": [
+        "liberal arts"
+      ],
+      "collocation": "study the humanities",
+      "examples": [
+        {
+          "en": "One factor is a school curriculum that values the humanities and offers heavily subsidised music lessons."
+        }
+      ],
+      "pron": {
+        "lookup": "humanities",
+        "tts": "humanities"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 741,
+      "id": "w-curriculum",
+      "type": "word",
+      "front": "curriculum",
+      "meaning": "教育課程",
+      "synonyms": [
+        "course of study",
+        "educational programme"
+      ],
+      "collocation": "the school curriculum",
+      "examples": [
+        {
+          "en": "One factor is a school curriculum that values the humanities and offers heavily subsidised music lessons."
+        }
+      ],
+      "pron": {
+        "lookup": "curriculum",
+        "tts": "curriculum"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 742,
+      "id": "w-subsidised",
+      "type": "word",
+      "front": "subsidised",
+      "meaning": "助成を受けた",
+      "synonyms": [
+        "funded",
+        "supported"
+      ],
+      "collocation": "a subsidised programme",
+      "examples": [
+        {
+          "en": "One factor is a school curriculum that values the humanities and offers heavily subsidised music lessons."
+        }
+      ],
+      "pron": {
+        "lookup": "subsidised",
+        "tts": "subsidised"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 743,
+      "id": "w-extracurricular",
+      "type": "word",
+      "front": "extracurricular",
+      "meaning": "課外の",
+      "synonyms": [
+        "after-school"
+      ],
+      "collocation": "extracurricular activities",
+      "examples": [
+        {
+          "en": "Many children take up music through extracurricular clubs, so a large proportion of young Swedes gain real confidence."
+        }
+      ],
+      "pron": {
+        "lookup": "extracurricular",
+        "tts": "extracurricular"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 744,
+      "id": "p-take-up",
+      "type": "phrase",
+      "front": "take up",
+      "meaning": "〜を始める・志す",
+      "synonyms": [
+        "pursue",
+        "adopt"
+      ],
+      "collocation": "take up a hobby, pursue a career",
+      "examples": [
+        {
+          "en": "Many children take up music through extracurricular clubs, so a large proportion of young Swedes gain real confidence."
+        }
+      ],
+      "pron": {
+        "tts": "take up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 745,
+      "id": "w-proportion",
+      "type": "word",
+      "front": "proportion",
+      "meaning": "割合",
+      "synonyms": [
+        "percentage"
+      ],
+      "collocation": "a large proportion of",
+      "examples": [
+        {
+          "en": "Many children take up music through extracurricular clubs, so a large proportion of young Swedes gain real confidence."
+        }
+      ],
+      "pron": {
+        "lookup": "proportion",
+        "tts": "proportion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 746,
+      "id": "w-confidence",
+      "type": "word",
+      "front": "confidence",
+      "meaning": "自信",
+      "synonyms": [
+        "self-assurance",
+        "self-confidence"
+      ],
+      "collocation": "gain confidence",
+      "examples": [
+        {
+          "en": "Many children take up music through extracurricular clubs, so a large proportion of young Swedes gain real confidence."
+        }
+      ],
+      "pron": {
+        "lookup": "confidence",
+        "tts": "confidence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 747,
+      "id": "w-concentrated",
+      "type": "word",
+      "front": "concentrated",
+      "meaning": "密集した",
+      "synonyms": [
+        "dense"
+      ],
+      "collocation": "concentrated in cities",
+      "examples": [
+        {
+          "en": "Musicians are concentrated in cities and live in close proximity to one another."
+        }
+      ],
+      "pron": {
+        "lookup": "concentrated",
+        "tts": "concentrated"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 748,
+      "id": "p-in-close-proximity",
+      "type": "phrase",
+      "front": "in close proximity",
+      "meaning": "〜に近接して",
+      "synonyms": [
+        "within walking distance",
+        "a stone's throw from"
+      ],
+      "collocation": "in close proximity to",
+      "examples": [
+        {
+          "en": "Musicians are concentrated in cities and live in close proximity to one another."
+        }
+      ],
+      "pron": {
+        "tts": "in close proximity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 749,
+      "id": "p-empirical-evidence",
+      "type": "phrase",
+      "front": "empirical evidence",
+      "meaning": "経験的証拠",
+      "synonyms": [
+        "objective proof"
+      ],
+      "collocation": "empirical evidence shows",
+      "examples": [
+        {
+          "en": "Empirical evidence suggests that clusters where creative people reside together boost creative output."
+        }
+      ],
+      "pron": {
+        "tts": "empirical evidence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 750,
+      "id": "w-reside",
+      "type": "word",
+      "front": "reside",
+      "meaning": "住む",
+      "synonyms": [
+        "dwell"
+      ],
+      "collocation": "reside in the city",
+      "examples": [
+        {
+          "en": "Empirical evidence suggests that clusters where creative people reside together boost creative output."
+        }
+      ],
+      "pron": {
+        "lookup": "reside",
+        "tts": "reside"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 751,
+      "id": "w-output",
+      "type": "word",
+      "front": "output",
+      "meaning": "生産・産出",
+      "synonyms": [
+        "productivity"
+      ],
+      "collocation": "boost output",
+      "examples": [
+        {
+          "en": "Empirical evidence suggests that clusters where creative people reside together boost creative output."
+        }
+      ],
+      "pron": {
+        "lookup": "output",
+        "tts": "output"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 752,
+      "id": "p-readily-embrace",
+      "type": "phrase",
+      "front": "readily embrace",
+      "meaning": "快く受け入れる",
+      "synonyms": [
+        "welcome"
+      ],
+      "collocation": "readily embrace new ideas",
+      "examples": [
+        {
+          "en": "Finally, Swedes readily embrace new trends, quickly adopting the latest ideas from abroad."
+        }
+      ],
+      "pron": {
+        "tts": "readily embrace"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 753,
+      "id": "w-compulsory",
+      "type": "word",
+      "front": "compulsory",
+      "meaning": "必須の",
+      "synonyms": [
+        "mandatory"
+      ],
+      "pron": {
+        "lookup": "compulsory",
+        "tts": "compulsory"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 754,
+      "id": "w-component",
+      "type": "word",
+      "front": "component",
+      "meaning": "要素",
+      "synonyms": [
+        "element"
+      ],
+      "pron": {
+        "lookup": "component",
+        "tts": "component"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 755,
+      "id": "p-pool-of-talent",
+      "type": "phrase",
+      "front": "pool of talent",
+      "meaning": "人材の宝庫",
+      "pron": {
+        "tts": "pool of talent"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 756,
+      "id": "p-field-of-interest",
+      "type": "phrase",
+      "front": "field of interest",
+      "meaning": "関心分野",
+      "synonyms": [
+        "branch of study",
+        "sphere of interest"
+      ],
+      "pron": {
+        "tts": "field of interest"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 757,
+      "id": "w-abroad",
+      "type": "word",
+      "front": "abroad",
+      "meaning": "海外で",
+      "synonyms": [
+        "overseas"
+      ],
+      "pron": {
+        "lookup": "abroad",
+        "tts": "abroad"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 758,
+      "id": "p-improve-upon",
+      "type": "phrase",
+      "front": "improve upon",
+      "meaning": "改良する",
+      "synonyms": [
+        "reengineer"
+      ],
+      "pron": {
+        "tts": "improve upon"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 31,
+      "themeName": "スウェーデンと音楽",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t31",
+    "theme": 31,
+    "themeName": "スウェーデンと音楽",
+    "jp": "スウェーデンは不釣り合いなほど多くのヒット曲を生み、そのアーティストはしばしばより大きな国をしのぐ。成功は数十年に及ぶが、この音楽大国の理由は何か。一つの要因は、人文科学を重んじ手厚く助成された音楽教育を行う学校のカリキュラムだ。多くの子どもが課外クラブで音楽を始め、若者の大きな割合が本物の自信を得る。音楽家は都市に密集し、互いに近接して住む。経験的証拠は、創造的な人々が集まって住む地域が創造的産出を高めることを示す。最後に、スウェーデン人は新しい流行を快く受け入れ、海外の最新の考えをすぐに取り入れる。",
+    "sentences": [
+      {
+        "en": "Sweden produces an inordinate number of pop hits, and its artists often eclipse far bigger nations.",
+        "targets": [
+          {
+            "id": "w-inordinate",
+            "text": "inordinate"
+          },
+          {
+            "id": "w-eclipse",
+            "text": "eclipse"
+          }
+        ]
+      },
+      {
+        "en": "Their success has spanned decades, so what is the reason behind this musical powerhouse?",
+        "targets": [
+          {
+            "id": "w-span",
+            "text": "spanned"
+          },
+          {
+            "id": "p-be-the-reason-behind",
+            "text": "reason behind"
+          },
+          {
+            "id": "w-powerhouse",
+            "text": "powerhouse"
+          }
+        ]
+      },
+      {
+        "en": "One factor is a school curriculum that values the humanities and offers heavily subsidised music lessons.",
+        "targets": [
+          {
+            "id": "w-curriculum",
+            "text": "curriculum"
+          },
+          {
+            "id": "w-humanities",
+            "text": "humanities"
+          },
+          {
+            "id": "w-subsidised",
+            "text": "subsidised"
+          }
+        ]
+      },
+      {
+        "en": "Many children take up music through extracurricular clubs, so a large proportion of young Swedes gain real confidence.",
+        "targets": [
+          {
+            "id": "p-take-up",
+            "text": "take up"
+          },
+          {
+            "id": "w-extracurricular",
+            "text": "extracurricular"
+          },
+          {
+            "id": "w-proportion",
+            "text": "proportion"
+          },
+          {
+            "id": "w-confidence",
+            "text": "confidence"
+          }
+        ]
+      },
+      {
+        "en": "Musicians are concentrated in cities and live in close proximity to one another.",
+        "targets": [
+          {
+            "id": "w-concentrated",
+            "text": "concentrated"
+          },
+          {
+            "id": "p-in-close-proximity",
+            "text": "in close proximity"
+          }
+        ]
+      },
+      {
+        "en": "Empirical evidence suggests that clusters where creative people reside together boost creative output.",
+        "targets": [
+          {
+            "id": "p-empirical-evidence",
+            "text": "Empirical evidence"
+          },
+          {
+            "id": "w-reside",
+            "text": "reside"
+          },
+          {
+            "id": "w-output",
+            "text": "output"
+          }
+        ]
+      },
+      {
+        "en": "Finally, Swedes readily embrace new trends, quickly adopting the latest ideas from abroad.",
+        "targets": [
+          {
+            "id": "p-readily-embrace",
+            "text": "readily embrace"
+          }
+        ]
+      }
+    ]
+  }
+}

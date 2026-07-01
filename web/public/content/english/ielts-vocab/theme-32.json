@@ -1,0 +1,774 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 32,
+  "themeId": "theme-32",
+  "themeName": "日本建築の耐震性",
+  "version": "91e7963a",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 759,
+      "id": "p-forefront-of",
+      "type": "phrase",
+      "front": "forefront of",
+      "meaning": "〜の最前線",
+      "synonyms": [
+        "vanguard of",
+        "fore of"
+      ],
+      "collocation": "at the forefront of",
+      "examples": [
+        {
+          "en": "Japan is at the forefront of building towers that can withstand strong seismic activity."
+        }
+      ],
+      "pron": {
+        "tts": "forefront of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 760,
+      "id": "w-withstand",
+      "type": "word",
+      "front": "withstand",
+      "meaning": "耐える・持ちこたえる",
+      "synonyms": [
+        "endure",
+        "take"
+      ],
+      "collocation": "withstand an earthquake",
+      "examples": [
+        {
+          "en": "Japan is at the forefront of building towers that can withstand strong seismic activity."
+        }
+      ],
+      "pron": {
+        "lookup": "withstand",
+        "tts": "withstand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 761,
+      "id": "p-seismic-activity",
+      "type": "phrase",
+      "front": "seismic activity",
+      "meaning": "地震活動",
+      "synonyms": [
+        "tremor",
+        "quake"
+      ],
+      "collocation": "seismic activity, a strong tremor",
+      "examples": [
+        {
+          "en": "Japan is at the forefront of building towers that can withstand strong seismic activity."
+        }
+      ],
+      "pron": {
+        "tts": "seismic activity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 762,
+      "id": "w-stiff",
+      "type": "word",
+      "front": "stiff",
+      "meaning": "硬い・曲がらない",
+      "synonyms": [
+        "inflexible",
+        "rigid"
+      ],
+      "collocation": "a stiff structure",
+      "examples": [
+        {
+          "en": "A building must not be too stiff, or it will whip back and forth, so it must be sufficiently flexible to sway with the motion."
+        }
+      ],
+      "pron": {
+        "lookup": "stiff",
+        "tts": "stiff"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 763,
+      "id": "w-whip",
+      "type": "word",
+      "front": "whip",
+      "meaning": "激しく揺れる",
+      "synonyms": [
+        "snap",
+        "jolt"
+      ],
+      "collocation": "whip back and forth",
+      "examples": [
+        {
+          "en": "A building must not be too stiff, or it will whip back and forth, so it must be sufficiently flexible to sway with the motion."
+        }
+      ],
+      "pron": {
+        "lookup": "whip",
+        "tts": "whip"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 764,
+      "id": "p-back-and-forth",
+      "type": "phrase",
+      "front": "back and forth",
+      "meaning": "前後に・行ったり来たり",
+      "synonyms": [
+        "backwards and forwards",
+        "to and fro"
+      ],
+      "collocation": "move back and forth",
+      "examples": [
+        {
+          "en": "A building must not be too stiff, or it will whip back and forth, so it must be sufficiently flexible to sway with the motion."
+        }
+      ],
+      "pron": {
+        "tts": "back and forth"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 765,
+      "id": "w-sufficiently",
+      "type": "word",
+      "front": "sufficiently",
+      "meaning": "十分に",
+      "synonyms": [
+        "adequately",
+        "suitably"
+      ],
+      "collocation": "sufficiently flexible",
+      "examples": [
+        {
+          "en": "A building must not be too stiff, or it will whip back and forth, so it must be sufficiently flexible to sway with the motion."
+        }
+      ],
+      "pron": {
+        "lookup": "sufficiently",
+        "tts": "sufficiently"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 766,
+      "id": "w-dampen",
+      "type": "word",
+      "front": "dampen",
+      "meaning": "勢いをそぐ・弱める",
+      "synonyms": [
+        "curb",
+        "absorb",
+        "minimise"
+      ],
+      "collocation": "dampen the shock",
+      "examples": [
+        {
+          "en": "Tokyo Skytree uses a heavy central pillar to dampen the lateral jolts."
+        }
+      ],
+      "pron": {
+        "lookup": "dampen",
+        "tts": "dampen"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 767,
+      "id": "w-lateral",
+      "type": "word",
+      "front": "lateral",
+      "meaning": "横の",
+      "synonyms": [
+        "horizontal",
+        "side-to-side"
+      ],
+      "collocation": "lateral movement",
+      "examples": [
+        {
+          "en": "Tokyo Skytree uses a heavy central pillar to dampen the lateral jolts."
+        }
+      ],
+      "pron": {
+        "lookup": "lateral",
+        "tts": "lateral"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 768,
+      "id": "w-marvel",
+      "type": "word",
+      "front": "marvel",
+      "meaning": "驚くべきもの・偉業",
+      "synonyms": [
+        "feat",
+        "wonder"
+      ],
+      "collocation": "an engineering marvel",
+      "examples": [
+        {
+          "en": "This engineering marvel was inspired by the pagoda, whose central column helps stabilise the tower."
+        }
+      ],
+      "pron": {
+        "lookup": "marvel",
+        "tts": "marvel"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 769,
+      "id": "p-be-inspired-by",
+      "type": "phrase",
+      "front": "be inspired by",
+      "meaning": "〜に触発される",
+      "synonyms": [
+        "be influenced by"
+      ],
+      "collocation": "be inspired by nature",
+      "examples": [
+        {
+          "en": "This engineering marvel was inspired by the pagoda, whose central column helps stabilise the tower."
+        }
+      ],
+      "pron": {
+        "tts": "be inspired by"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 770,
+      "id": "w-stabilise",
+      "type": "word",
+      "front": "stabilise",
+      "meaning": "安定させる",
+      "synonyms": [
+        "steady",
+        "keep steady"
+      ],
+      "collocation": "stabilise the tower",
+      "examples": [
+        {
+          "en": "This engineering marvel was inspired by the pagoda, whose central column helps stabilise the tower."
+        }
+      ],
+      "pron": {
+        "lookup": "stabilise",
+        "tts": "stabilise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 771,
+      "id": "p-be-modelled-after",
+      "type": "phrase",
+      "front": "be modelled after",
+      "meaning": "〜をモデルにする",
+      "synonyms": [
+        "borrow from"
+      ],
+      "collocation": "be modelled after…",
+      "examples": [
+        {
+          "en": "It is modelled after a design that has never toppled in an earthquake."
+        }
+      ],
+      "pron": {
+        "tts": "be modelled after"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 772,
+      "id": "w-topple",
+      "type": "word",
+      "front": "topple",
+      "meaning": "倒れる",
+      "synonyms": [
+        "be knocked over"
+      ],
+      "collocation": "topple in a quake",
+      "examples": [
+        {
+          "en": "It is modelled after a design that has never toppled in an earthquake."
+        }
+      ],
+      "pron": {
+        "lookup": "topple",
+        "tts": "topple"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 773,
+      "id": "w-regulation",
+      "type": "word",
+      "front": "regulation",
+      "meaning": "規制・規則",
+      "synonyms": [
+        "rule",
+        "code"
+      ],
+      "collocation": "building regulations",
+      "examples": [
+        {
+          "en": "After each disaster, the government tightens building regulations so that fewer homes are flattened."
+        }
+      ],
+      "pron": {
+        "lookup": "regulation",
+        "tts": "regulation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 774,
+      "id": "w-flatten",
+      "type": "word",
+      "front": "flatten",
+      "meaning": "平らにする・倒壊させる",
+      "synonyms": [
+        "level",
+        "knock down"
+      ],
+      "collocation": "be flattened",
+      "examples": [
+        {
+          "en": "After each disaster, the government tightens building regulations so that fewer homes are flattened."
+        }
+      ],
+      "pron": {
+        "lookup": "flatten",
+        "tts": "flatten"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 775,
+      "id": "w-revise",
+      "type": "word",
+      "front": "revise",
+      "meaning": "改正する",
+      "synonyms": [
+        "amend",
+        "update"
+      ],
+      "collocation": "revise the law",
+      "examples": [
+        {
+          "en": "They revise the laws to be more stringent, making reinforced concrete mandatory in tall buildings."
+        }
+      ],
+      "pron": {
+        "lookup": "revise",
+        "tts": "revise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 776,
+      "id": "w-stringent",
+      "type": "word",
+      "front": "stringent",
+      "meaning": "厳格な",
+      "synonyms": [
+        "rigorous"
+      ],
+      "collocation": "stringent codes",
+      "examples": [
+        {
+          "en": "They revise the laws to be more stringent, making reinforced concrete mandatory in tall buildings."
+        }
+      ],
+      "pron": {
+        "lookup": "stringent",
+        "tts": "stringent"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 777,
+      "id": "w-mandatory",
+      "type": "word",
+      "front": "mandatory",
+      "meaning": "義務的な",
+      "synonyms": [
+        "compulsory",
+        "obligatory"
+      ],
+      "collocation": "mandatory for all",
+      "examples": [
+        {
+          "en": "They revise the laws to be more stringent, making reinforced concrete mandatory in tall buildings."
+        }
+      ],
+      "pron": {
+        "lookup": "mandatory",
+        "tts": "mandatory"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 778,
+      "id": "w-earthquake-proof",
+      "type": "word",
+      "front": "earthquake-proof",
+      "meaning": "耐震の",
+      "pron": {
+        "lookup": "earthquake-proof",
+        "tts": "earthquake-proof"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 779,
+      "id": "w-high-rise",
+      "type": "word",
+      "front": "high-rise",
+      "meaning": "高層の",
+      "pron": {
+        "lookup": "high-rise",
+        "tts": "high-rise"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 780,
+      "id": "w-submerge",
+      "type": "word",
+      "front": "submerge",
+      "meaning": "沈める",
+      "pron": {
+        "lookup": "submerge",
+        "tts": "submerge"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 781,
+      "id": "p-central-column",
+      "type": "phrase",
+      "front": "central column",
+      "meaning": "心柱",
+      "pron": {
+        "tts": "central column"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 782,
+      "id": "w-edifice",
+      "type": "word",
+      "front": "edifice",
+      "meaning": "建造物",
+      "synonyms": [
+        "building"
+      ],
+      "pron": {
+        "lookup": "edifice",
+        "tts": "edifice"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 783,
+      "id": "p-appeal-for",
+      "type": "phrase",
+      "front": "appeal for",
+      "meaning": "強く求める",
+      "synonyms": [
+        "demand",
+        "call for"
+      ],
+      "pron": {
+        "tts": "appeal for"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 32,
+      "themeName": "日本建築の耐震性",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t32",
+    "theme": 32,
+    "themeName": "日本建築の耐震性",
+    "jp": "日本は地震に耐える塔を建てる最前線にある。建物は硬すぎると激しく前後に揺れて折れるため、揺れに合わせて十分にしなやかに揺れなければならない。東京スカイツリーは重い心柱で横揺れを弱める。この工学の偉業は五重塔に触発され、その心柱が塔を安定させる。地震で倒れたことのない設計をモデルにしている。災害のたびに政府は建築規制を強化し、倒壊する家を減らす。法律をより厳格に改正し、高層ビルには鉄筋コンクリートを義務づける。",
+    "sentences": [
+      {
+        "en": "Japan is at the forefront of building towers that can withstand strong seismic activity.",
+        "targets": [
+          {
+            "id": "p-forefront-of",
+            "text": "forefront of"
+          },
+          {
+            "id": "w-withstand",
+            "text": "withstand"
+          },
+          {
+            "id": "p-seismic-activity",
+            "text": "seismic activity"
+          }
+        ]
+      },
+      {
+        "en": "A building must not be too stiff, or it will whip back and forth, so it must be sufficiently flexible to sway with the motion.",
+        "targets": [
+          {
+            "id": "w-stiff",
+            "text": "stiff"
+          },
+          {
+            "id": "w-whip",
+            "text": "whip"
+          },
+          {
+            "id": "p-back-and-forth",
+            "text": "back and forth"
+          },
+          {
+            "id": "w-sufficiently",
+            "text": "sufficiently"
+          },
+          {
+            "id": "w-sway",
+            "text": "sway"
+          }
+        ]
+      },
+      {
+        "en": "Tokyo Skytree uses a heavy central pillar to dampen the lateral jolts.",
+        "targets": [
+          {
+            "id": "w-dampen",
+            "text": "dampen"
+          },
+          {
+            "id": "w-lateral",
+            "text": "lateral"
+          }
+        ]
+      },
+      {
+        "en": "This engineering marvel was inspired by the pagoda, whose central column helps stabilise the tower.",
+        "targets": [
+          {
+            "id": "w-marvel",
+            "text": "marvel"
+          },
+          {
+            "id": "p-be-inspired-by",
+            "text": "inspired by"
+          },
+          {
+            "id": "w-stabilise",
+            "text": "stabilise"
+          }
+        ]
+      },
+      {
+        "en": "It is modelled after a design that has never toppled in an earthquake.",
+        "targets": [
+          {
+            "id": "p-be-modelled-after",
+            "text": "modelled after"
+          },
+          {
+            "id": "w-topple",
+            "text": "toppled"
+          }
+        ]
+      },
+      {
+        "en": "After each disaster, the government tightens building regulations so that fewer homes are flattened.",
+        "targets": [
+          {
+            "id": "w-regulation",
+            "text": "regulations"
+          },
+          {
+            "id": "w-flatten",
+            "text": "flattened"
+          }
+        ]
+      },
+      {
+        "en": "They revise the laws to be more stringent, making reinforced concrete mandatory in tall buildings.",
+        "targets": [
+          {
+            "id": "w-revise",
+            "text": "revise"
+          },
+          {
+            "id": "w-stringent",
+            "text": "stringent"
+          },
+          {
+            "id": "w-mandatory",
+            "text": "mandatory"
+          }
+        ]
+      }
+    ]
+  }
+}

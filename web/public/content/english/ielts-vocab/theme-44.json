@@ -1,0 +1,805 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 44,
+  "themeId": "theme-44",
+  "themeName": "グレートバリアリーフ",
+  "version": "f31f870c",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1063,
+      "id": "p-whole-array-of",
+      "type": "phrase",
+      "front": "whole array of",
+      "meaning": "ありとあらゆる",
+      "synonyms": [
+        "wide variety of"
+      ],
+      "collocation": "a whole array of",
+      "examples": [
+        {
+          "en": "The Great Barrier Reef supports a whole array of marine life and a wealth of coral."
+        }
+      ],
+      "pron": {
+        "tts": "whole array of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1064,
+      "id": "w-marine",
+      "type": "word",
+      "front": "marine",
+      "meaning": "海洋の",
+      "synonyms": [
+        "aquatic"
+      ],
+      "collocation": "marine life",
+      "examples": [
+        {
+          "en": "The Great Barrier Reef supports a whole array of marine life and a wealth of coral."
+        }
+      ],
+      "pron": {
+        "lookup": "marine",
+        "tts": "marine"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1065,
+      "id": "p-wealth-of",
+      "type": "phrase",
+      "front": "wealth of",
+      "meaning": "豊富さ",
+      "synonyms": [
+        "abundance of",
+        "bounty of"
+      ],
+      "collocation": "a wealth of",
+      "examples": [
+        {
+          "en": "The Great Barrier Reef supports a whole array of marine life and a wealth of coral."
+        }
+      ],
+      "pron": {
+        "tts": "wealth of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1066,
+      "id": "p-break-off",
+      "type": "phrase",
+      "front": "break off",
+      "meaning": "折り取る",
+      "synonyms": [
+        "snap off"
+      ],
+      "collocation": "break off",
+      "examples": [
+        {
+          "en": "When oil from tour boats breaks off and saturates the water, it can block sunlight from reaching the coral and come to rest on it."
+        }
+      ],
+      "pron": {
+        "tts": "break off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1067,
+      "id": "w-saturate",
+      "type": "word",
+      "front": "saturate",
+      "meaning": "染み込む・満たす",
+      "synonyms": [
+        "permeate",
+        "suffuse"
+      ],
+      "collocation": "be saturated with",
+      "examples": [
+        {
+          "en": "When oil from tour boats breaks off and saturates the water, it can block sunlight from reaching the coral and come to rest on it."
+        }
+      ],
+      "pron": {
+        "lookup": "saturate",
+        "tts": "saturate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1068,
+      "id": "p-block-from",
+      "type": "phrase",
+      "front": "block from",
+      "meaning": "〜が…するのを阻む",
+      "synonyms": [
+        "prevent from"
+      ],
+      "collocation": "block sth from",
+      "examples": [
+        {
+          "en": "When oil from tour boats breaks off and saturates the water, it can block sunlight from reaching the coral and come to rest on it."
+        }
+      ],
+      "pron": {
+        "tts": "block from"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1069,
+      "id": "p-come-to-rest-on",
+      "type": "phrase",
+      "front": "come to rest on",
+      "meaning": "〜のところで止まる",
+      "synonyms": [
+        "settle on",
+        "descend onto"
+      ],
+      "collocation": "come to rest on",
+      "examples": [
+        {
+          "en": "When oil from tour boats breaks off and saturates the water, it can block sunlight from reaching the coral and come to rest on it."
+        }
+      ],
+      "pron": {
+        "tts": "come to rest on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1070,
+      "id": "p-in-bad-shape",
+      "type": "phrase",
+      "front": "in bad shape",
+      "meaning": "悪い状態で",
+      "synonyms": [
+        "in a sorry state"
+      ],
+      "collocation": "be in bad shape",
+      "examples": [
+        {
+          "en": "By 2017 the reef was in bad shape, and years of neglect had hurt its attractiveness."
+        }
+      ],
+      "pron": {
+        "tts": "in bad shape"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1071,
+      "id": "w-neglect",
+      "type": "word",
+      "front": "neglect",
+      "meaning": "無視・無関心",
+      "synonyms": [
+        "indifference",
+        "apathy",
+        "carelessness"
+      ],
+      "collocation": "neglect, indifference towards",
+      "examples": [
+        {
+          "en": "By 2017 the reef was in bad shape, and years of neglect had hurt its attractiveness."
+        }
+      ],
+      "pron": {
+        "lookup": "neglect",
+        "tts": "neglect"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1072,
+      "id": "w-attractiveness",
+      "type": "word",
+      "front": "attractiveness",
+      "meaning": "魅力",
+      "synonyms": [
+        "allure",
+        "attraction"
+      ],
+      "collocation": "the attractiveness of",
+      "examples": [
+        {
+          "en": "By 2017 the reef was in bad shape, and years of neglect had hurt its attractiveness."
+        }
+      ],
+      "pron": {
+        "lookup": "attractiveness",
+        "tts": "attractiveness"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1073,
+      "id": "p-under-threat",
+      "type": "phrase",
+      "front": "under threat",
+      "meaning": "危機にひんして",
+      "synonyms": [
+        "at risk",
+        "in harm's way"
+      ],
+      "collocation": "be under threat",
+      "examples": [
+        {
+          "en": "The wonder is under threat unless people take measures."
+        }
+      ],
+      "pron": {
+        "tts": "under threat"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1074,
+      "id": "p-take-measures",
+      "type": "phrase",
+      "front": "take measures",
+      "meaning": "対策を取る",
+      "synonyms": [
+        "take action",
+        "mount a response"
+      ],
+      "collocation": "take measures",
+      "examples": [
+        {
+          "en": "The wonder is under threat unless people take measures."
+        }
+      ],
+      "pron": {
+        "tts": "take measures"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1075,
+      "id": "p-light-at-the-end-of-the-tunnel",
+      "type": "phrase",
+      "front": "light at the end of the tunnel",
+      "meaning": "希望の光",
+      "synonyms": [
+        "cause for optimism",
+        "reason for hope"
+      ],
+      "collocation": "a light at the end of the tunnel",
+      "examples": [
+        {
+          "en": "Still, there may be a light at the end of the tunnel: the government pledged money to address the current state of affairs."
+        }
+      ],
+      "pron": {
+        "tts": "light at the end of the tunnel"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1076,
+      "id": "w-pledge",
+      "type": "word",
+      "front": "pledge",
+      "meaning": "固く約束する",
+      "synonyms": [
+        "give one's word",
+        "commit",
+        "vow"
+      ],
+      "collocation": "pledge to do",
+      "examples": [
+        {
+          "en": "Still, there may be a light at the end of the tunnel: the government pledged money to address the current state of affairs."
+        }
+      ],
+      "pron": {
+        "lookup": "pledge",
+        "tts": "pledge"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1077,
+      "id": "w-address",
+      "type": "word",
+      "front": "address",
+      "meaning": "対処する",
+      "synonyms": [
+        "deal with",
+        "focus on",
+        "attend to"
+      ],
+      "collocation": "address a problem",
+      "examples": [
+        {
+          "en": "Still, there may be a light at the end of the tunnel: the government pledged money to address the current state of affairs."
+        }
+      ],
+      "pron": {
+        "lookup": "address",
+        "tts": "address"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1078,
+      "id": "p-current-state-of-affairs",
+      "type": "phrase",
+      "front": "current state of affairs",
+      "meaning": "現状",
+      "synonyms": [
+        "status quo",
+        "current situation"
+      ],
+      "collocation": "the current state of affairs",
+      "examples": [
+        {
+          "en": "Still, there may be a light at the end of the tunnel: the government pledged money to address the current state of affairs."
+        }
+      ],
+      "pron": {
+        "tts": "current state of affairs"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1079,
+      "id": "w-limit",
+      "type": "word",
+      "front": "limit",
+      "meaning": "制限する",
+      "synonyms": [
+        "restrict",
+        "put a quota on"
+      ],
+      "collocation": "limit numbers",
+      "examples": [
+        {
+          "en": "Officials aim to limit visitors, though making the reef too exclusive is a risk."
+        }
+      ],
+      "pron": {
+        "lookup": "limit",
+        "tts": "limit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1080,
+      "id": "w-exclusive",
+      "type": "word",
+      "front": "exclusive",
+      "meaning": "排他的な",
+      "synonyms": [
+        "restrictive",
+        "exclusionary",
+        "selective"
+      ],
+      "collocation": "an exclusive destination",
+      "examples": [
+        {
+          "en": "Officials aim to limit visitors, though making the reef too exclusive is a risk."
+        }
+      ],
+      "pron": {
+        "lookup": "exclusive",
+        "tts": "exclusive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1081,
+      "id": "w-sustainable",
+      "type": "word",
+      "front": "sustainable",
+      "meaning": "持続可能な",
+      "synonyms": [
+        "tenable",
+        "viable"
+      ],
+      "collocation": "a sustainable approach",
+      "examples": [
+        {
+          "en": "The goal is a sustainable approach so the reef can spring back, though the survival of this remarkable place remains tenuous."
+        }
+      ],
+      "pron": {
+        "lookup": "sustainable",
+        "tts": "sustainable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1082,
+      "id": "p-spring-back",
+      "type": "phrase",
+      "front": "spring back",
+      "meaning": "立ち直る",
+      "synonyms": [
+        "bounce back",
+        "rebound",
+        "revive"
+      ],
+      "collocation": "spring back",
+      "examples": [
+        {
+          "en": "The goal is a sustainable approach so the reef can spring back, though the survival of this remarkable place remains tenuous."
+        }
+      ],
+      "pron": {
+        "tts": "spring back"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1083,
+      "id": "w-tenuous",
+      "type": "word",
+      "front": "tenuous",
+      "meaning": "薄っぺらい・希薄な",
+      "synonyms": [
+        "shaky"
+      ],
+      "collocation": "a tenuous grasp",
+      "examples": [
+        {
+          "en": "The goal is a sustainable approach so the reef can spring back, though the survival of this remarkable place remains tenuous."
+        }
+      ],
+      "pron": {
+        "lookup": "tenuous",
+        "tts": "tenuous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1084,
+      "id": "w-coral",
+      "type": "word",
+      "front": "coral",
+      "meaning": "サンゴ",
+      "pron": {
+        "lookup": "coral",
+        "tts": "coral"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1085,
+      "id": "w-smother",
+      "type": "word",
+      "front": "smother",
+      "meaning": "覆う",
+      "pron": {
+        "lookup": "smother",
+        "tts": "smother"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1086,
+      "id": "w-heighten",
+      "type": "word",
+      "front": "heighten",
+      "meaning": "強める",
+      "pron": {
+        "lookup": "heighten",
+        "tts": "heighten"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1087,
+      "id": "p-the-writing-is-on-the-wall",
+      "type": "phrase",
+      "front": "the writing is on the wall",
+      "meaning": "不吉な予兆",
+      "pron": {
+        "tts": "the writing is on the wall"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1088,
+      "id": "p-take-a-course-of-action",
+      "type": "phrase",
+      "front": "take a course of action",
+      "meaning": "方策を取る",
+      "pron": {
+        "tts": "take a course of action"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 44,
+      "themeName": "グレートバリアリーフ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t44",
+    "theme": 44,
+    "themeName": "グレートバリアリーフ",
+    "jp": "グレートバリアリーフはありとあらゆる海洋生物と豊富なサンゴを支える。観光船の油が折れて水に染み込むと、日光がサンゴに届くのを阻み、その上に止まりうる。2017年までにサンゴ礁は悪い状態になり、長年の無視がその魅力を損なった。対策を取らなければこの驚異は危機にひんしている。それでも希望の光はある。政府は現状に対処するため資金を約束した。当局は訪問者を制限しようとするが、リーフを排他的にしすぎるのは危険だ。目標は持続可能な方法で、リーフが立ち直れるようにすることだが、この稀有な場所の存続は依然として希薄だ。",
+    "sentences": [
+      {
+        "en": "The Great Barrier Reef supports a whole array of marine life and a wealth of coral.",
+        "targets": [
+          {
+            "id": "p-whole-array-of",
+            "text": "whole array of"
+          },
+          {
+            "id": "w-marine",
+            "text": "marine"
+          },
+          {
+            "id": "p-wealth-of",
+            "text": "wealth of"
+          }
+        ]
+      },
+      {
+        "en": "When oil from tour boats breaks off and saturates the water, it can block sunlight from reaching the coral and come to rest on it.",
+        "targets": [
+          {
+            "id": "p-break-off",
+            "text": "breaks off"
+          },
+          {
+            "id": "w-saturate",
+            "text": "saturates"
+          },
+          {
+            "id": "p-block-from",
+            "text": "block"
+          },
+          {
+            "id": "p-come-to-rest-on",
+            "text": "come to rest on"
+          }
+        ]
+      },
+      {
+        "en": "By 2017 the reef was in bad shape, and years of neglect had hurt its attractiveness.",
+        "targets": [
+          {
+            "id": "p-in-bad-shape",
+            "text": "in bad shape"
+          },
+          {
+            "id": "w-neglect",
+            "text": "neglect"
+          },
+          {
+            "id": "w-attractiveness",
+            "text": "attractiveness"
+          }
+        ]
+      },
+      {
+        "en": "The wonder is under threat unless people take measures.",
+        "targets": [
+          {
+            "id": "p-under-threat",
+            "text": "under threat"
+          },
+          {
+            "id": "p-take-measures",
+            "text": "take measures"
+          }
+        ]
+      },
+      {
+        "en": "Still, there may be a light at the end of the tunnel: the government pledged money to address the current state of affairs.",
+        "targets": [
+          {
+            "id": "p-light-at-the-end-of-the-tunnel",
+            "text": "light at the end of the tunnel"
+          },
+          {
+            "id": "w-pledge",
+            "text": "pledged"
+          },
+          {
+            "id": "w-address",
+            "text": "address"
+          },
+          {
+            "id": "p-current-state-of-affairs",
+            "text": "current state of affairs"
+          }
+        ]
+      },
+      {
+        "en": "Officials aim to limit visitors, though making the reef too exclusive is a risk.",
+        "targets": [
+          {
+            "id": "w-limit",
+            "text": "limit"
+          },
+          {
+            "id": "w-exclusive",
+            "text": "exclusive"
+          }
+        ]
+      },
+      {
+        "en": "The goal is a sustainable approach so the reef can spring back, though the survival of this remarkable place remains tenuous.",
+        "targets": [
+          {
+            "id": "w-sustainable",
+            "text": "sustainable"
+          },
+          {
+            "id": "p-spring-back",
+            "text": "spring back"
+          },
+          {
+            "id": "w-tenuous",
+            "text": "tenuous"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,795 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 48,
+  "themeId": "theme-48",
+  "themeName": "組織市民行動",
+  "version": "47412786",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1164,
+      "id": "w-interaction",
+      "type": "word",
+      "front": "interaction",
+      "meaning": "交流・やり取り",
+      "synonyms": [
+        "dealing",
+        "encounter"
+      ],
+      "collocation": "social interaction",
+      "examples": [
+        {
+          "en": "In daily interactions at work, co-workers help each other in small ways that are not acknowledged by superiors through an explicit reward."
+        }
+      ],
+      "pron": {
+        "lookup": "interaction",
+        "tts": "interaction"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1165,
+      "id": "w-acknowledge",
+      "type": "word",
+      "front": "acknowledge",
+      "meaning": "認める・気づく",
+      "synonyms": [
+        "recognise",
+        "note",
+        "notice"
+      ],
+      "collocation": "acknowledge sb",
+      "examples": [
+        {
+          "en": "In daily interactions at work, co-workers help each other in small ways that are not acknowledged by superiors through an explicit reward."
+        }
+      ],
+      "pron": {
+        "lookup": "acknowledge",
+        "tts": "acknowledge"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1166,
+      "id": "w-superior",
+      "type": "word",
+      "front": "superior",
+      "meaning": "上司・上位の人",
+      "synonyms": [
+        "supervisor",
+        "person higher up the pecking order"
+      ],
+      "collocation": "one's superior",
+      "examples": [
+        {
+          "en": "In daily interactions at work, co-workers help each other in small ways that are not acknowledged by superiors through an explicit reward."
+        }
+      ],
+      "pron": {
+        "lookup": "superior",
+        "tts": "superior"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1167,
+      "id": "w-explicit",
+      "type": "word",
+      "front": "explicit",
+      "meaning": "明確な",
+      "synonyms": [
+        "specific",
+        "unambiguous",
+        "unequivocal"
+      ],
+      "collocation": "an explicit reward",
+      "examples": [
+        {
+          "en": "In daily interactions at work, co-workers help each other in small ways that are not acknowledged by superiors through an explicit reward."
+        }
+      ],
+      "pron": {
+        "lookup": "explicit",
+        "tts": "explicit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1168,
+      "id": "p-go-above-and-beyond",
+      "type": "phrase",
+      "front": "go above and beyond",
+      "meaning": "期待をはるかに上回る",
+      "synonyms": [
+        "exceed expectations",
+        "go the extra mile"
+      ],
+      "collocation": "go above and beyond",
+      "examples": [
+        {
+          "en": "By going above and beyond, they help colleagues overcome difficulties and pass on useful ideas."
+        }
+      ],
+      "pron": {
+        "tts": "go above and beyond"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1169,
+      "id": "w-overcome",
+      "type": "word",
+      "front": "overcome",
+      "meaning": "克服する",
+      "synonyms": [
+        "surmount"
+      ],
+      "collocation": "overcome obstacles",
+      "examples": [
+        {
+          "en": "By going above and beyond, they help colleagues overcome difficulties and pass on useful ideas."
+        }
+      ],
+      "pron": {
+        "lookup": "overcome",
+        "tts": "overcome"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1170,
+      "id": "p-pass-on",
+      "type": "phrase",
+      "front": "pass on",
+      "meaning": "伝える",
+      "synonyms": [
+        "convey",
+        "deliver"
+      ],
+      "collocation": "pass on information",
+      "examples": [
+        {
+          "en": "By going above and beyond, they help colleagues overcome difficulties and pass on useful ideas."
+        }
+      ],
+      "pron": {
+        "tts": "pass on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1171,
+      "id": "w-insight",
+      "type": "word",
+      "front": "insight",
+      "meaning": "見識・理解",
+      "synonyms": [
+        "awareness",
+        "comprehension"
+      ],
+      "collocation": "gain insight",
+      "examples": [
+        {
+          "en": "This 'organisational citizenship behaviour' gives insight and can strengthen bonds and boost fulfilment."
+        }
+      ],
+      "pron": {
+        "lookup": "insight",
+        "tts": "insight"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1172,
+      "id": "w-strengthen",
+      "type": "word",
+      "front": "strengthen",
+      "meaning": "強化する",
+      "synonyms": [
+        "bolster",
+        "build up",
+        "reinforce"
+      ],
+      "collocation": "strengthen bonds",
+      "examples": [
+        {
+          "en": "This 'organisational citizenship behaviour' gives insight and can strengthen bonds and boost fulfilment."
+        }
+      ],
+      "pron": {
+        "lookup": "strengthen",
+        "tts": "strengthen"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1173,
+      "id": "w-fulfilment",
+      "type": "word",
+      "front": "fulfilment",
+      "meaning": "達成感・満足",
+      "synonyms": [
+        "gratification",
+        "contentment"
+      ],
+      "collocation": "a sense of fulfilment",
+      "examples": [
+        {
+          "en": "This 'organisational citizenship behaviour' gives insight and can strengthen bonds and boost fulfilment."
+        }
+      ],
+      "pron": {
+        "lookup": "fulfilment",
+        "tts": "fulfilment"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1174,
+      "id": "w-buzzword",
+      "type": "word",
+      "front": "buzzword",
+      "meaning": "流行語・専門用語",
+      "synonyms": [
+        "catchphrase"
+      ],
+      "collocation": "a buzzword",
+      "examples": [
+        {
+          "en": "Although it sounds like a management buzzword, it is real; reacting to complaints as a matter of course improves the atmosphere and the perception of a company."
+        }
+      ],
+      "pron": {
+        "lookup": "buzzword",
+        "tts": "buzzword"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1175,
+      "id": "w-complaint",
+      "type": "word",
+      "front": "complaint",
+      "meaning": "苦情",
+      "synonyms": [
+        "protest",
+        "objection"
+      ],
+      "collocation": "make a complaint",
+      "examples": [
+        {
+          "en": "Although it sounds like a management buzzword, it is real; reacting to complaints as a matter of course improves the atmosphere and the perception of a company."
+        }
+      ],
+      "pron": {
+        "lookup": "complaint",
+        "tts": "complaint"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1176,
+      "id": "p-a-matter-of-course",
+      "type": "phrase",
+      "front": "a matter of course",
+      "meaning": "当然のこと",
+      "synonyms": [
+        "run-of-the-mill",
+        "par for the course"
+      ],
+      "collocation": "as a matter of course",
+      "examples": [
+        {
+          "en": "Although it sounds like a management buzzword, it is real; reacting to complaints as a matter of course improves the atmosphere and the perception of a company."
+        }
+      ],
+      "pron": {
+        "tts": "a matter of course"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1177,
+      "id": "w-atmosphere",
+      "type": "word",
+      "front": "atmosphere",
+      "meaning": "雰囲気・気分",
+      "synonyms": [
+        "mood"
+      ],
+      "collocation": "a positive atmosphere",
+      "examples": [
+        {
+          "en": "Although it sounds like a management buzzword, it is real; reacting to complaints as a matter of course improves the atmosphere and the perception of a company."
+        }
+      ],
+      "pron": {
+        "lookup": "atmosphere",
+        "tts": "atmosphere"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1178,
+      "id": "w-perception",
+      "type": "word",
+      "front": "perception",
+      "meaning": "見方・印象",
+      "synonyms": [
+        "impression",
+        "opinion"
+      ],
+      "collocation": "the perception of",
+      "examples": [
+        {
+          "en": "Although it sounds like a management buzzword, it is real; reacting to complaints as a matter of course improves the atmosphere and the perception of a company."
+        }
+      ],
+      "pron": {
+        "lookup": "perception",
+        "tts": "perception"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1179,
+      "id": "w-discretionary",
+      "type": "word",
+      "front": "discretionary",
+      "meaning": "任意の",
+      "synonyms": [
+        "optional",
+        "voluntary"
+      ],
+      "collocation": "discretionary behaviour",
+      "examples": [
+        {
+          "en": "Such discretionary behaviour promotes efficiency and brings numerous benefits."
+        }
+      ],
+      "pron": {
+        "lookup": "discretionary",
+        "tts": "discretionary"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1180,
+      "id": "w-promote",
+      "type": "word",
+      "front": "promote",
+      "meaning": "促進する",
+      "synonyms": [
+        "advance",
+        "further",
+        "push"
+      ],
+      "collocation": "promote sth",
+      "examples": [
+        {
+          "en": "Such discretionary behaviour promotes efficiency and brings numerous benefits."
+        }
+      ],
+      "pron": {
+        "lookup": "promote",
+        "tts": "promote"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1181,
+      "id": "w-numerous",
+      "type": "word",
+      "front": "numerous",
+      "meaning": "多くの",
+      "synonyms": [
+        "abundant",
+        "multiple",
+        "copious"
+      ],
+      "collocation": "numerous benefits",
+      "examples": [
+        {
+          "en": "Such discretionary behaviour promotes efficiency and brings numerous benefits."
+        }
+      ],
+      "pron": {
+        "lookup": "numerous",
+        "tts": "numerous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1182,
+      "id": "w-subordinate",
+      "type": "word",
+      "front": "subordinate",
+      "meaning": "部下・下位の人",
+      "synonyms": [
+        "lower-ranking person",
+        "person lower down the pecking order"
+      ],
+      "collocation": "a subordinate",
+      "examples": [
+        {
+          "en": "Subordinates do not feel like a single cog in a vast machine, but part of a supportive family."
+        }
+      ],
+      "pron": {
+        "lookup": "subordinate",
+        "tts": "subordinate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1183,
+      "id": "w-vast",
+      "type": "word",
+      "front": "vast",
+      "meaning": "広大な・莫大な",
+      "synonyms": [
+        "enormous",
+        "mammoth",
+        "tremendous"
+      ],
+      "collocation": "a vast gap",
+      "examples": [
+        {
+          "en": "Subordinates do not feel like a single cog in a vast machine, but part of a supportive family."
+        }
+      ],
+      "pron": {
+        "lookup": "vast",
+        "tts": "vast"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1184,
+      "id": "w-supportive",
+      "type": "word",
+      "front": "supportive",
+      "meaning": "支援する・協力的な",
+      "synonyms": [
+        "encouraging"
+      ],
+      "collocation": "a supportive family",
+      "examples": [
+        {
+          "en": "Subordinates do not feel like a single cog in a vast machine, but part of a supportive family."
+        }
+      ],
+      "pron": {
+        "lookup": "supportive",
+        "tts": "supportive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1185,
+      "id": "w-tangible",
+      "type": "word",
+      "front": "tangible",
+      "meaning": "目に見える",
+      "pron": {
+        "lookup": "tangible",
+        "tts": "tangible"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1186,
+      "id": "w-cog",
+      "type": "word",
+      "front": "cog",
+      "meaning": "歯車の歯",
+      "pron": {
+        "lookup": "cog",
+        "tts": "cog"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1187,
+      "id": "w-morale",
+      "type": "word",
+      "front": "morale",
+      "meaning": "士気",
+      "pron": {
+        "lookup": "morale",
+        "tts": "morale"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1188,
+      "id": "w-bond",
+      "type": "word",
+      "front": "bond",
+      "meaning": "結束",
+      "pron": {
+        "lookup": "bond",
+        "tts": "bond"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 48,
+      "themeName": "組織市民行動",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t48",
+    "theme": 48,
+    "themeName": "組織市民行動",
+    "jp": "職場での日々のやり取りの中で、同僚は明確な報酬を通じてではなく、小さなことで助け合う。期待をはるかに上回ることで、彼らは同僚が困難を克服するのを助け、有用な考えを伝える。この『組織市民行動』は見識を与え、結束を強め、達成感を高めうる。経営の流行語のようだが実在し、苦情に当然のこととして対応することは会社の雰囲気と見方を改善する。こうした任意の行動は効率を促進し、多くの利点をもたらす。部下は広大な機械の一つの歯車ではなく、協力的な家族の一員だと感じる。",
+    "sentences": [
+      {
+        "en": "In daily interactions at work, co-workers help each other in small ways that are not acknowledged by superiors through an explicit reward.",
+        "targets": [
+          {
+            "id": "w-interaction",
+            "text": "interactions"
+          },
+          {
+            "id": "w-acknowledge",
+            "text": "acknowledged"
+          },
+          {
+            "id": "w-superior",
+            "text": "superiors"
+          },
+          {
+            "id": "w-explicit",
+            "text": "explicit"
+          }
+        ]
+      },
+      {
+        "en": "By going above and beyond, they help colleagues overcome difficulties and pass on useful ideas.",
+        "targets": [
+          {
+            "id": "p-go-above-and-beyond",
+            "text": "going above and beyond"
+          },
+          {
+            "id": "w-overcome",
+            "text": "overcome"
+          },
+          {
+            "id": "p-pass-on",
+            "text": "pass on"
+          }
+        ]
+      },
+      {
+        "en": "This 'organisational citizenship behaviour' gives insight and can strengthen bonds and boost fulfilment.",
+        "targets": [
+          {
+            "id": "w-insight",
+            "text": "insight"
+          },
+          {
+            "id": "w-strengthen",
+            "text": "strengthen"
+          },
+          {
+            "id": "w-fulfilment",
+            "text": "fulfilment"
+          }
+        ]
+      },
+      {
+        "en": "Although it sounds like a management buzzword, it is real; reacting to complaints as a matter of course improves the atmosphere and the perception of a company.",
+        "targets": [
+          {
+            "id": "w-buzzword",
+            "text": "buzzword"
+          },
+          {
+            "id": "w-complaint",
+            "text": "complaints"
+          },
+          {
+            "id": "p-a-matter-of-course",
+            "text": "a matter of course"
+          },
+          {
+            "id": "w-atmosphere",
+            "text": "atmosphere"
+          },
+          {
+            "id": "w-perception",
+            "text": "perception"
+          }
+        ]
+      },
+      {
+        "en": "Such discretionary behaviour promotes efficiency and brings numerous benefits.",
+        "targets": [
+          {
+            "id": "w-discretionary",
+            "text": "discretionary"
+          },
+          {
+            "id": "w-promote",
+            "text": "promotes"
+          },
+          {
+            "id": "w-numerous",
+            "text": "numerous"
+          }
+        ]
+      },
+      {
+        "en": "Subordinates do not feel like a single cog in a vast machine, but part of a supportive family.",
+        "targets": [
+          {
+            "id": "w-subordinate",
+            "text": "Subordinates"
+          },
+          {
+            "id": "w-vast",
+            "text": "vast"
+          },
+          {
+            "id": "w-supportive",
+            "text": "supportive"
+          }
+        ]
+      }
+    ]
+  }
+}

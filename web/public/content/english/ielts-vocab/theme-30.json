@@ -1,0 +1,742 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 30,
+  "themeId": "theme-30",
+  "themeName": "情報格差",
+  "version": "9b6a0cee",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 711,
+      "id": "w-inhospitable",
+      "type": "word",
+      "front": "inhospitable",
+      "meaning": "住みにくい・荒涼とした",
+      "synonyms": [
+        "desolate",
+        "barren",
+        "unforgiving"
+      ],
+      "collocation": "inhospitable terrain, a barren landscape",
+      "examples": [
+        {
+          "en": "In the 1800s, remote and inhospitable regions were cut off, and being 'off-line' had serious repercussions."
+        }
+      ],
+      "pron": {
+        "lookup": "inhospitable",
+        "tts": "inhospitable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 712,
+      "id": "w-repercussion",
+      "type": "word",
+      "front": "repercussion",
+      "meaning": "悪影響・余波",
+      "synonyms": [
+        "fallout",
+        "consequence"
+      ],
+      "collocation": "serious repercussions, the fallout from…",
+      "examples": [
+        {
+          "en": "In the 1800s, remote and inhospitable regions were cut off, and being 'off-line' had serious repercussions."
+        }
+      ],
+      "pron": {
+        "lookup": "repercussion",
+        "tts": "repercussion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 713,
+      "id": "p-metropolitan-area",
+      "type": "phrase",
+      "front": "metropolitan area",
+      "meaning": "大都市圏",
+      "synonyms": [
+        "urban centre"
+      ],
+      "collocation": "a major metropolitan area",
+      "examples": [
+        {
+          "en": "Today a similar 'digital divide' separates a metropolitan area from poorer places."
+        }
+      ],
+      "pron": {
+        "tts": "metropolitan area"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 714,
+      "id": "w-provide",
+      "type": "word",
+      "front": "provide",
+      "meaning": "供給する",
+      "synonyms": [
+        "furnish",
+        "supply"
+      ],
+      "collocation": "provide access, supply free of charge",
+      "examples": [
+        {
+          "en": "Where the network is sound, the internet can provide endless job opportunities."
+        }
+      ],
+      "pron": {
+        "lookup": "provide",
+        "tts": "provide"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 715,
+      "id": "w-opportunity",
+      "type": "word",
+      "front": "opportunity",
+      "meaning": "機会・可能性",
+      "synonyms": [
+        "possibility"
+      ],
+      "collocation": "job opportunities, endless possibilities",
+      "examples": [
+        {
+          "en": "Where the network is sound, the internet can provide endless job opportunities."
+        }
+      ],
+      "pron": {
+        "lookup": "opportunity",
+        "tts": "opportunity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 716,
+      "id": "p-be-applicable-to",
+      "type": "phrase",
+      "front": "be applicable to",
+      "meaning": "〜に当てはまる",
+      "synonyms": [
+        "apply to"
+      ],
+      "collocation": "applicable to everyone",
+      "examples": [
+        {
+          "en": "But this does not apply to everyone, and the gulf between rich and poor continues to widen."
+        }
+      ],
+      "pron": {
+        "tts": "be applicable to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 717,
+      "id": "w-sound",
+      "type": "word",
+      "front": "sound",
+      "meaning": "安定した・信頼できる",
+      "synonyms": [
+        "stable",
+        "reliable"
+      ],
+      "collocation": "a sound infrastructure, a stable connection",
+      "examples": [
+        {
+          "en": "Where the network is sound, the internet can provide endless job opportunities."
+        }
+      ],
+      "pron": {
+        "lookup": "sound",
+        "tts": "sound"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 718,
+      "id": "w-gulf",
+      "type": "word",
+      "front": "gulf",
+      "meaning": "隔たり・格差",
+      "synonyms": [
+        "gap",
+        "divide"
+      ],
+      "collocation": "a widening gulf, bridge the divide",
+      "examples": [
+        {
+          "en": "But this does not apply to everyone, and the gulf between rich and poor continues to widen."
+        }
+      ],
+      "pron": {
+        "lookup": "gulf",
+        "tts": "gulf"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 719,
+      "id": "w-widen",
+      "type": "word",
+      "front": "widen",
+      "meaning": "広がる",
+      "synonyms": [
+        "broaden"
+      ],
+      "collocation": "the gap widens, broaden horizons",
+      "examples": [
+        {
+          "en": "But this does not apply to everyone, and the gulf between rich and poor continues to widen."
+        }
+      ],
+      "pron": {
+        "lookup": "widen",
+        "tts": "widen"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 720,
+      "id": "w-unequal",
+      "type": "word",
+      "front": "unequal",
+      "meaning": "不平等な",
+      "synonyms": [
+        "lop-sided",
+        "imbalanced"
+      ],
+      "collocation": "unequal distribution",
+      "examples": [
+        {
+          "en": "Access remains unequal, and many people lack the digital literacy to use resources adequately."
+        }
+      ],
+      "pron": {
+        "lookup": "unequal",
+        "tts": "unequal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 721,
+      "id": "p-digital-literacy",
+      "type": "phrase",
+      "front": "digital literacy",
+      "meaning": "デジタルリテラシー",
+      "synonyms": [
+        "computer know-how"
+      ],
+      "collocation": "digital literacy skills",
+      "examples": [
+        {
+          "en": "Access remains unequal, and many people lack the digital literacy to use resources adequately."
+        }
+      ],
+      "pron": {
+        "tts": "digital literacy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 722,
+      "id": "w-adequately",
+      "type": "word",
+      "front": "adequately",
+      "meaning": "適切に・十分に",
+      "synonyms": [
+        "effectively"
+      ],
+      "collocation": "adequately trained",
+      "examples": [
+        {
+          "en": "Access remains unequal, and many people lack the digital literacy to use resources adequately."
+        }
+      ],
+      "pron": {
+        "lookup": "adequately",
+        "tts": "adequately"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 723,
+      "id": "p-gainful-employment",
+      "type": "phrase",
+      "front": "gainful employment",
+      "meaning": "実入りの良い仕事",
+      "synonyms": [
+        "well-paying work"
+      ],
+      "collocation": "find gainful employment",
+      "examples": [
+        {
+          "en": "Without it, it is hard to find gainful employment, which exacerbates income inequality."
+        }
+      ],
+      "pron": {
+        "tts": "gainful employment"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 724,
+      "id": "w-exacerbate",
+      "type": "word",
+      "front": "exacerbate",
+      "meaning": "悪化させる",
+      "synonyms": [
+        "worsen",
+        "amplify"
+      ],
+      "collocation": "exacerbate the problem, worsen inequality",
+      "examples": [
+        {
+          "en": "Without it, it is hard to find gainful employment, which exacerbates income inequality."
+        }
+      ],
+      "pron": {
+        "lookup": "exacerbate",
+        "tts": "exacerbate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 725,
+      "id": "p-income-inequality",
+      "type": "phrase",
+      "front": "income inequality",
+      "meaning": "所得格差",
+      "synonyms": [
+        "the gap between the haves and the have-nots"
+      ],
+      "collocation": "growing income inequality",
+      "examples": [
+        {
+          "en": "Without it, it is hard to find gainful employment, which exacerbates income inequality."
+        }
+      ],
+      "pron": {
+        "tts": "income inequality"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 726,
+      "id": "w-reverse",
+      "type": "word",
+      "front": "reverse",
+      "meaning": "逆転させる",
+      "synonyms": [
+        "change the momentum of"
+      ],
+      "collocation": "reverse the trend",
+      "examples": [
+        {
+          "en": "To reverse this trend and bridge the gap, the UN has teamed up with NGOs to teach young people how to use applications."
+        }
+      ],
+      "pron": {
+        "lookup": "reverse",
+        "tts": "reverse"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 727,
+      "id": "w-trend",
+      "type": "word",
+      "front": "trend",
+      "meaning": "傾向・動向",
+      "synonyms": [
+        "movement"
+      ],
+      "collocation": "reverse a trend, a growing movement",
+      "examples": [
+        {
+          "en": "To reverse this trend and bridge the gap, the UN has teamed up with NGOs to teach young people how to use applications."
+        }
+      ],
+      "pron": {
+        "lookup": "trend",
+        "tts": "trend"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 728,
+      "id": "p-bridge-the-gap",
+      "type": "phrase",
+      "front": "bridge the gap",
+      "meaning": "格差を埋める",
+      "synonyms": [
+        "overcome the divide"
+      ],
+      "collocation": "bridge the gap between…",
+      "examples": [
+        {
+          "en": "To reverse this trend and bridge the gap, the UN has teamed up with NGOs to teach young people how to use applications."
+        }
+      ],
+      "pron": {
+        "tts": "bridge the gap"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 729,
+      "id": "p-team-up-with",
+      "type": "phrase",
+      "front": "team up with",
+      "meaning": "提携する・協働する",
+      "synonyms": [
+        "collaborate with",
+        "work together with",
+        "cooperate with"
+      ],
+      "collocation": "team up with, collaborate with",
+      "examples": [
+        {
+          "en": "To reverse this trend and bridge the gap, the UN has teamed up with NGOs to teach young people how to use applications."
+        }
+      ],
+      "pron": {
+        "tts": "team up with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 730,
+      "id": "w-transcontinental",
+      "type": "word",
+      "front": "transcontinental",
+      "meaning": "大陸横断の",
+      "pron": {
+        "lookup": "transcontinental",
+        "tts": "transcontinental"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 731,
+      "id": "w-carriage",
+      "type": "word",
+      "front": "carriage",
+      "meaning": "客車",
+      "pron": {
+        "lookup": "carriage",
+        "tts": "carriage"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 732,
+      "id": "p-die-out",
+      "type": "phrase",
+      "front": "die out",
+      "meaning": "廃れる",
+      "pron": {
+        "tts": "die out"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 733,
+      "id": "w-metaphor",
+      "type": "word",
+      "front": "metaphor",
+      "meaning": "比喩",
+      "pron": {
+        "lookup": "metaphor",
+        "tts": "metaphor"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 734,
+      "id": "w-prosper",
+      "type": "word",
+      "front": "prosper",
+      "meaning": "繁栄する",
+      "pron": {
+        "lookup": "prosper",
+        "tts": "prosper"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 30,
+      "themeName": "情報格差",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t30",
+    "theme": 30,
+    "themeName": "情報格差",
+    "jp": "1800年代、辺鄙で住みにくい地域は隔絶され、『オフライン』であることは深刻な悪影響をもたらした。今日、同様の『デジタル格差』が大都市圏と貧しい地域を分ける。回線が安定した所では、インターネットは無数の仕事の機会を供給できる。だがこれは万人に当てはまらず、富める者と貧しい者の隔たりは広がり続ける。アクセスは不平等なままで、多くの人は資源を適切に使うデジタルリテラシーを欠く。それがないと実入りの良い仕事を見つけにくく、所得格差を悪化させる。この傾向を逆転させ格差を埋めるため、国連はNGOと提携し、若者にアプリの使い方を教えている。",
+    "sentences": [
+      {
+        "en": "In the 1800s, remote and inhospitable regions were cut off, and being 'off-line' had serious repercussions.",
+        "targets": [
+          {
+            "id": "w-inhospitable",
+            "text": "inhospitable"
+          },
+          {
+            "id": "w-repercussion",
+            "text": "repercussions"
+          }
+        ]
+      },
+      {
+        "en": "Today a similar 'digital divide' separates a metropolitan area from poorer places.",
+        "targets": [
+          {
+            "id": "p-metropolitan-area",
+            "text": "metropolitan area"
+          }
+        ]
+      },
+      {
+        "en": "Where the network is sound, the internet can provide endless job opportunities.",
+        "targets": [
+          {
+            "id": "w-sound",
+            "text": "sound"
+          },
+          {
+            "id": "w-provide",
+            "text": "provide"
+          },
+          {
+            "id": "w-opportunity",
+            "text": "opportunities"
+          }
+        ]
+      },
+      {
+        "en": "But this does not apply to everyone, and the gulf between rich and poor continues to widen.",
+        "targets": [
+          {
+            "id": "p-be-applicable-to",
+            "text": "apply to"
+          },
+          {
+            "id": "w-gulf",
+            "text": "gulf"
+          },
+          {
+            "id": "w-widen",
+            "text": "widen"
+          }
+        ]
+      },
+      {
+        "en": "Access remains unequal, and many people lack the digital literacy to use resources adequately.",
+        "targets": [
+          {
+            "id": "w-unequal",
+            "text": "unequal"
+          },
+          {
+            "id": "p-digital-literacy",
+            "text": "digital literacy"
+          },
+          {
+            "id": "w-adequately",
+            "text": "adequately"
+          }
+        ]
+      },
+      {
+        "en": "Without it, it is hard to find gainful employment, which exacerbates income inequality.",
+        "targets": [
+          {
+            "id": "p-gainful-employment",
+            "text": "gainful employment"
+          },
+          {
+            "id": "w-exacerbate",
+            "text": "exacerbates"
+          },
+          {
+            "id": "p-income-inequality",
+            "text": "income inequality"
+          }
+        ]
+      },
+      {
+        "en": "To reverse this trend and bridge the gap, the UN has teamed up with NGOs to teach young people how to use applications.",
+        "targets": [
+          {
+            "id": "w-reverse",
+            "text": "reverse"
+          },
+          {
+            "id": "w-trend",
+            "text": "trend"
+          },
+          {
+            "id": "p-bridge-the-gap",
+            "text": "bridge the gap"
+          },
+          {
+            "id": "p-team-up-with",
+            "text": "teamed up with"
+          },
+          {
+            "id": "w-application",
+            "text": "applications"
+          }
+        ]
+      }
+    ]
+  }
+}

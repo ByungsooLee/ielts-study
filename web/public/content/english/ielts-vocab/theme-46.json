@@ -1,0 +1,784 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 46,
+  "themeId": "theme-46",
+  "themeName": "シェイクスピア",
+  "version": "695c2ab7",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1113,
+      "id": "w-admire",
+      "type": "word",
+      "front": "admire",
+      "meaning": "称賛する",
+      "synonyms": [
+        "hail",
+        "hold in high regard"
+      ],
+      "collocation": "admire sb",
+      "examples": [
+        {
+          "en": "Shakespeare's plays are admired the world over, but some sceptics are dubious about the authorship."
+        }
+      ],
+      "pron": {
+        "lookup": "admire",
+        "tts": "admire"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1114,
+      "id": "w-sceptic",
+      "type": "word",
+      "front": "sceptic",
+      "meaning": "懐疑論者",
+      "synonyms": [
+        "naysayer",
+        "disbeliever",
+        "doubter"
+      ],
+      "collocation": "a sceptic",
+      "examples": [
+        {
+          "en": "Shakespeare's plays are admired the world over, but some sceptics are dubious about the authorship."
+        }
+      ],
+      "pron": {
+        "lookup": "sceptic",
+        "tts": "sceptic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1115,
+      "id": "w-dubious",
+      "type": "word",
+      "front": "dubious",
+      "meaning": "疑わしい・半信半疑の",
+      "synonyms": [
+        "doubtful",
+        "sceptical"
+      ],
+      "collocation": "be dubious about",
+      "examples": [
+        {
+          "en": "Shakespeare's plays are admired the world over, but some sceptics are dubious about the authorship."
+        }
+      ],
+      "pron": {
+        "lookup": "dubious",
+        "tts": "dubious"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1116,
+      "id": "w-pen",
+      "type": "word",
+      "front": "pen",
+      "meaning": "書く・執筆する",
+      "synonyms": [
+        "compose",
+        "author"
+      ],
+      "collocation": "pen a play",
+      "examples": [
+        {
+          "en": "They doubt a glove maker's son could have penned such intricate language or shown such intimate knowledge of the court."
+        }
+      ],
+      "pron": {
+        "lookup": "pen",
+        "tts": "pen"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1117,
+      "id": "w-intricate",
+      "type": "word",
+      "front": "intricate",
+      "meaning": "複雑な・入り組んだ",
+      "synonyms": [
+        "elaborate",
+        "sophisticated"
+      ],
+      "collocation": "intricate language",
+      "examples": [
+        {
+          "en": "They doubt a glove maker's son could have penned such intricate language or shown such intimate knowledge of the court."
+        }
+      ],
+      "pron": {
+        "lookup": "intricate",
+        "tts": "intricate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1118,
+      "id": "w-intimate",
+      "type": "word",
+      "front": "intimate",
+      "meaning": "内密の・直接の",
+      "synonyms": [
+        "behind the scenes",
+        "first-hand"
+      ],
+      "collocation": "intimate knowledge",
+      "examples": [
+        {
+          "en": "They doubt a glove maker's son could have penned such intricate language or shown such intimate knowledge of the court."
+        }
+      ],
+      "pron": {
+        "lookup": "intimate",
+        "tts": "intimate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1119,
+      "id": "w-pseudonym",
+      "type": "word",
+      "front": "pseudonym",
+      "meaning": "ペンネーム・仮名",
+      "synonyms": [
+        "alias",
+        "pen name"
+      ],
+      "collocation": "use a pseudonym",
+      "examples": [
+        {
+          "en": "Some claim the plays were written by a noble using a pseudonym, and that Shakespeare was a hoax."
+        }
+      ],
+      "pron": {
+        "lookup": "pseudonym",
+        "tts": "pseudonym"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1120,
+      "id": "w-hoax",
+      "type": "word",
+      "front": "hoax",
+      "meaning": "でっち上げ・ごまかし",
+      "synonyms": [
+        "deception"
+      ],
+      "collocation": "a hoax",
+      "examples": [
+        {
+          "en": "Some claim the plays were written by a noble using a pseudonym, and that Shakespeare was a hoax."
+        }
+      ],
+      "pron": {
+        "lookup": "hoax",
+        "tts": "hoax"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1121,
+      "id": "w-bias",
+      "type": "word",
+      "front": "bias",
+      "meaning": "偏見",
+      "synonyms": [
+        "bigotry",
+        "prejudice"
+      ],
+      "collocation": "class bias",
+      "examples": [
+        {
+          "en": "This theory may rest on a class bias and a flaw: it does not take into consideration his education."
+        }
+      ],
+      "pron": {
+        "lookup": "bias",
+        "tts": "bias"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1122,
+      "id": "w-flaw",
+      "type": "word",
+      "front": "flaw",
+      "meaning": "欠陥・弱点",
+      "synonyms": [
+        "failing",
+        "weakness"
+      ],
+      "collocation": "a flaw in",
+      "examples": [
+        {
+          "en": "This theory may rest on a class bias and a flaw: it does not take into consideration his education."
+        }
+      ],
+      "pron": {
+        "lookup": "flaw",
+        "tts": "flaw"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1123,
+      "id": "p-take-into-consideration",
+      "type": "phrase",
+      "front": "take into consideration",
+      "meaning": "〜を考慮に入れる",
+      "synonyms": [
+        "take into account"
+      ],
+      "collocation": "take into consideration",
+      "examples": [
+        {
+          "en": "This theory may rest on a class bias and a flaw: it does not take into consideration his education."
+        }
+      ],
+      "pron": {
+        "tts": "take into consideration"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1124,
+      "id": "w-comprehensive",
+      "type": "word",
+      "front": "comprehensive",
+      "meaning": "包括的な・広範囲の",
+      "synonyms": [
+        "exhaustive",
+        "far-reaching",
+        "sweeping"
+      ],
+      "collocation": "comprehensive research",
+      "examples": [
+        {
+          "en": "Scholars found a more comprehensive way to settle the guesswork and give a definitive answer, so as to reject the doubters' claim."
+        }
+      ],
+      "pron": {
+        "lookup": "comprehensive",
+        "tts": "comprehensive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1125,
+      "id": "w-guesswork",
+      "type": "word",
+      "front": "guesswork",
+      "meaning": "当て推量・憶測",
+      "synonyms": [
+        "conjecture",
+        "speculation"
+      ],
+      "collocation": "pure guesswork",
+      "examples": [
+        {
+          "en": "Scholars found a more comprehensive way to settle the guesswork and give a definitive answer, so as to reject the doubters' claim."
+        }
+      ],
+      "pron": {
+        "lookup": "guesswork",
+        "tts": "guesswork"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1126,
+      "id": "w-definitive",
+      "type": "word",
+      "front": "definitive",
+      "meaning": "決定的な",
+      "synonyms": [
+        "clear-cut",
+        "categorical",
+        "unambiguous"
+      ],
+      "collocation": "definitive proof",
+      "examples": [
+        {
+          "en": "Scholars found a more comprehensive way to settle the guesswork and give a definitive answer, so as to reject the doubters' claim."
+        }
+      ],
+      "pron": {
+        "lookup": "definitive",
+        "tts": "definitive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1127,
+      "id": "w-reject",
+      "type": "word",
+      "front": "reject",
+      "meaning": "拒否する",
+      "synonyms": [
+        "dismiss",
+        "repudiate",
+        "discredit"
+      ],
+      "collocation": "reject a theory",
+      "examples": [
+        {
+          "en": "Scholars found a more comprehensive way to settle the guesswork and give a definitive answer, so as to reject the doubters' claim."
+        }
+      ],
+      "pron": {
+        "lookup": "reject",
+        "tts": "reject"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1128,
+      "id": "w-frequency",
+      "type": "word",
+      "front": "frequency",
+      "meaning": "頻度",
+      "synonyms": [
+        "regularity",
+        "repetition"
+      ],
+      "collocation": "the frequency of",
+      "examples": [
+        {
+          "en": "Stylometry studies the frequency of words to accurately a text and check its authenticity."
+        }
+      ],
+      "pron": {
+        "lookup": "frequency",
+        "tts": "frequency"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1129,
+      "id": "w-accurately",
+      "type": "word",
+      "front": "accurately",
+      "meaning": "正確に",
+      "synonyms": [
+        "precisely",
+        "reliably"
+      ],
+      "collocation": "accurately attribute",
+      "examples": [
+        {
+          "en": "Stylometry studies the frequency of words to accurately a text and check its authenticity."
+        }
+      ],
+      "pron": {
+        "lookup": "accurately",
+        "tts": "accurately"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1130,
+      "id": "w-authenticity",
+      "type": "word",
+      "front": "authenticity",
+      "meaning": "本物であること",
+      "synonyms": [
+        "genuineness"
+      ],
+      "collocation": "the authenticity of",
+      "examples": [
+        {
+          "en": "Stylometry studies the frequency of words to accurately a text and check its authenticity."
+        }
+      ],
+      "pron": {
+        "lookup": "authenticity",
+        "tts": "authenticity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1131,
+      "id": "p-subject-to-scrutiny",
+      "type": "phrase",
+      "front": "subject to scrutiny",
+      "meaning": "精査する",
+      "synonyms": [
+        "examine",
+        "scrutinise"
+      ],
+      "collocation": "subject sth to scrutiny",
+      "examples": [
+        {
+          "en": "After subjecting the plays to scrutiny and overlaying the data, it is clear Shakespeare did write them."
+        }
+      ],
+      "pron": {
+        "tts": "subject to scrutiny"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1132,
+      "id": "w-overlay",
+      "type": "word",
+      "front": "overlay",
+      "meaning": "重ね合わせる",
+      "synonyms": [
+        "superimpose"
+      ],
+      "collocation": "overlay data",
+      "examples": [
+        {
+          "en": "After subjecting the plays to scrutiny and overlaying the data, it is clear Shakespeare did write them."
+        }
+      ],
+      "pron": {
+        "lookup": "overlay",
+        "tts": "overlay"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1133,
+      "id": "w-eloquence",
+      "type": "word",
+      "front": "eloquence",
+      "meaning": "雄弁",
+      "pron": {
+        "lookup": "eloquence",
+        "tts": "eloquence"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1134,
+      "id": "w-authorship",
+      "type": "word",
+      "front": "authorship",
+      "meaning": "原作者",
+      "pron": {
+        "lookup": "authorship",
+        "tts": "authorship"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1135,
+      "id": "w-stylometry",
+      "type": "word",
+      "front": "stylometry",
+      "meaning": "計量文献学",
+      "pron": {
+        "lookup": "stylometry",
+        "tts": "stylometry"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1136,
+      "id": "p-primary-education",
+      "type": "phrase",
+      "front": "primary education",
+      "meaning": "初等教育",
+      "pron": {
+        "tts": "primary education"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1137,
+      "id": "w-noble",
+      "type": "word",
+      "front": "noble",
+      "meaning": "貴族",
+      "pron": {
+        "lookup": "noble",
+        "tts": "noble"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 46,
+      "themeName": "シェイクスピア",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t46",
+    "theme": 46,
+    "themeName": "シェイクスピア",
+    "jp": "シェイクスピアの戯曲は世界中で称賛されているが、作者について半信半疑の懐疑論者もいる。彼らは、手袋職人の息子がこれほど複雑な言葉や宮廷の内密の知識を書けたのか疑う。貴族がペンネームで書き、シェイクスピアはでっち上げだと主張する者もいる。この説は階級的偏見と、彼の教育を考慮に入れない欠陥に基づくのかもしれない。学者は当て推量を決着させ決定的な答えを出すより包括的な方法を見つけ、疑う者の主張を拒否した。計量文献学は語の頻度を調べて文章を正確に帰属させ、その真正性を確かめる。戯曲を精査しデータを重ね合わせた結果、シェイクスピアが確かに書いたことは明らかだ。",
+    "sentences": [
+      {
+        "en": "Shakespeare's plays are admired the world over, but some sceptics are dubious about the authorship.",
+        "targets": [
+          {
+            "id": "w-admire",
+            "text": "admired"
+          },
+          {
+            "id": "w-sceptic",
+            "text": "sceptics"
+          },
+          {
+            "id": "w-dubious",
+            "text": "dubious"
+          }
+        ]
+      },
+      {
+        "en": "They doubt a glove maker's son could have penned such intricate language or shown such intimate knowledge of the court.",
+        "targets": [
+          {
+            "id": "w-pen",
+            "text": "penned"
+          },
+          {
+            "id": "w-intricate",
+            "text": "intricate"
+          },
+          {
+            "id": "w-intimate",
+            "text": "intimate"
+          }
+        ]
+      },
+      {
+        "en": "Some claim the plays were written by a noble using a pseudonym, and that Shakespeare was a hoax.",
+        "targets": [
+          {
+            "id": "w-pseudonym",
+            "text": "pseudonym"
+          },
+          {
+            "id": "w-hoax",
+            "text": "hoax"
+          }
+        ]
+      },
+      {
+        "en": "This theory may rest on a class bias and a flaw: it does not take into consideration his education.",
+        "targets": [
+          {
+            "id": "w-bias",
+            "text": "bias"
+          },
+          {
+            "id": "w-flaw",
+            "text": "flaw"
+          },
+          {
+            "id": "p-take-into-consideration",
+            "text": "take into consideration"
+          }
+        ]
+      },
+      {
+        "en": "Scholars found a more comprehensive way to settle the guesswork and give a definitive answer, so as to reject the doubters' claim.",
+        "targets": [
+          {
+            "id": "w-comprehensive",
+            "text": "comprehensive"
+          },
+          {
+            "id": "w-guesswork",
+            "text": "guesswork"
+          },
+          {
+            "id": "w-definitive",
+            "text": "definitive"
+          },
+          {
+            "id": "w-reject",
+            "text": "reject"
+          }
+        ]
+      },
+      {
+        "en": "Stylometry studies the frequency of words to accurately a text and check its authenticity.",
+        "targets": [
+          {
+            "id": "w-frequency",
+            "text": "frequency"
+          },
+          {
+            "id": "w-accurately",
+            "text": "accurately"
+          },
+          {
+            "id": "w-authenticity",
+            "text": "authenticity"
+          }
+        ]
+      },
+      {
+        "en": "After subjecting the plays to scrutiny and overlaying the data, it is clear Shakespeare did write them.",
+        "targets": [
+          {
+            "id": "p-subject-to-scrutiny",
+            "text": "subjecting"
+          },
+          {
+            "id": "w-overlay",
+            "text": "overlaying"
+          }
+        ]
+      }
+    ]
+  }
+}

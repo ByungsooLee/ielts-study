@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 45,
+  "themeId": "theme-45",
+  "themeName": "睡眠の大切さ",
+  "version": "e7e22cc1",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1089,
+      "id": "w-fast-paced",
+      "type": "word",
+      "front": "fast-paced",
+      "meaning": "テンポの早い",
+      "synonyms": [
+        "rapidly changing",
+        "fast-moving"
+      ],
+      "collocation": "a fast-paced world",
+      "examples": [
+        {
+          "en": "In our fast-paced world, a full night's sleep is often undervalued."
+        }
+      ],
+      "pron": {
+        "lookup": "fast-paced",
+        "tts": "fast-paced"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1090,
+      "id": "w-undervalue",
+      "type": "word",
+      "front": "undervalue",
+      "meaning": "過小評価する",
+      "synonyms": [
+        "underappreciate",
+        "fail to appreciate"
+      ],
+      "collocation": "undervalue sth",
+      "examples": [
+        {
+          "en": "In our fast-paced world, a full night's sleep is often undervalued."
+        }
+      ],
+      "pron": {
+        "lookup": "undervalue",
+        "tts": "undervalue"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1091,
+      "id": "p-developed-world",
+      "type": "phrase",
+      "front": "developed world",
+      "meaning": "先進国",
+      "synonyms": [
+        "first world",
+        "industrialised world"
+      ],
+      "collocation": "the developed world",
+      "examples": [
+        {
+          "en": "Only a third of adults in the developed world get the eight hours required for good health."
+        }
+      ],
+      "pron": {
+        "tts": "developed world"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1092,
+      "id": "w-required",
+      "type": "word",
+      "front": "required",
+      "meaning": "必須の",
+      "synonyms": [
+        "requisite",
+        "necessary"
+      ],
+      "collocation": "required for health",
+      "examples": [
+        {
+          "en": "Only a third of adults in the developed world get the eight hours required for good health."
+        }
+      ],
+      "pron": {
+        "lookup": "required",
+        "tts": "required"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1093,
+      "id": "p-get-by",
+      "type": "phrase",
+      "front": "get by",
+      "meaning": "どうにかやっていく",
+      "synonyms": [
+        "cope",
+        "survive",
+        "manage"
+      ],
+      "collocation": "get by, cope with",
+      "examples": [
+        {
+          "en": "Some get by on coffee, but trying to run on too little sleep is doomed to fail, and caffeine can disrupt the rest we do get."
+        }
+      ],
+      "pron": {
+        "tts": "get by"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1094,
+      "id": "p-be-doomed-to-fail",
+      "type": "phrase",
+      "front": "be doomed to fail",
+      "meaning": "失敗する運命にある",
+      "synonyms": [
+        "be destined to fail"
+      ],
+      "collocation": "be doomed to fail",
+      "examples": [
+        {
+          "en": "Some get by on coffee, but trying to run on too little sleep is doomed to fail, and caffeine can disrupt the rest we do get."
+        }
+      ],
+      "pron": {
+        "tts": "be doomed to fail"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1095,
+      "id": "w-disrupt",
+      "type": "word",
+      "front": "disrupt",
+      "meaning": "中断させる・混乱させる",
+      "synonyms": [
+        "upset",
+        "disturb"
+      ],
+      "collocation": "disrupt sleep",
+      "examples": [
+        {
+          "en": "Some get by on coffee, but trying to run on too little sleep is doomed to fail, and caffeine can disrupt the rest we do get."
+        }
+      ],
+      "pron": {
+        "lookup": "disrupt",
+        "tts": "disrupt"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1096,
+      "id": "p-pay-a-high-price",
+      "type": "phrase",
+      "front": "pay a high price",
+      "meaning": "大きな代償を払う",
+      "synonyms": [
+        "suffer the consequences",
+        "pay a heavy price"
+      ],
+      "collocation": "pay a high price",
+      "examples": [
+        {
+          "en": "We pay a high price for poor sleep habits."
+        }
+      ],
+      "pron": {
+        "tts": "pay a high price"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1097,
+      "id": "w-habit",
+      "type": "word",
+      "front": "habit",
+      "meaning": "習慣・日課",
+      "synonyms": [
+        "routine"
+      ],
+      "collocation": "a daily habit",
+      "examples": [
+        {
+          "en": "We pay a high price for poor sleep habits."
+        }
+      ],
+      "pron": {
+        "lookup": "habit",
+        "tts": "habit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1098,
+      "id": "p-extol-the-virtues-of",
+      "type": "phrase",
+      "front": "extol the virtues of",
+      "meaning": "〜を賞め讃える",
+      "synonyms": [
+        "sing the praises of"
+      ],
+      "collocation": "extol the virtues of",
+      "examples": [
+        {
+          "en": "Dr Matthew Walker extols the virtues of sleep, which can reinvigorate the brain, while a lack of it impairs our ability to perform to certain standards."
+        }
+      ],
+      "pron": {
+        "tts": "extol the virtues of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1099,
+      "id": "w-reinvigorate",
+      "type": "word",
+      "front": "reinvigorate",
+      "meaning": "活力を与える",
+      "synonyms": [
+        "revitalise",
+        "refresh"
+      ],
+      "collocation": "reinvigorate the body",
+      "examples": [
+        {
+          "en": "Dr Matthew Walker extols the virtues of sleep, which can reinvigorate the brain, while a lack of it impairs our ability to perform to certain standards."
+        }
+      ],
+      "pron": {
+        "lookup": "reinvigorate",
+        "tts": "reinvigorate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1100,
+      "id": "w-impair",
+      "type": "word",
+      "front": "impair",
+      "meaning": "損なう",
+      "synonyms": [
+        "harm",
+        "hinder",
+        "undermine"
+      ],
+      "collocation": "impair ability",
+      "examples": [
+        {
+          "en": "Dr Matthew Walker extols the virtues of sleep, which can reinvigorate the brain, while a lack of it impairs our ability to perform to certain standards."
+        }
+      ],
+      "pron": {
+        "lookup": "impair",
+        "tts": "impair"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1101,
+      "id": "p-perform-to-certain-standards",
+      "type": "phrase",
+      "front": "perform to certain standards",
+      "meaning": "基準に達する",
+      "synonyms": [
+        "measure up",
+        "pass muster"
+      ],
+      "collocation": "measure up",
+      "examples": [
+        {
+          "en": "Dr Matthew Walker extols the virtues of sleep, which can reinvigorate the brain, while a lack of it impairs our ability to perform to certain standards."
+        }
+      ],
+      "pron": {
+        "tts": "perform to certain standards"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1102,
+      "id": "p-major-concern",
+      "type": "phrase",
+      "front": "major concern",
+      "meaning": "大きな懸念事項",
+      "synonyms": [
+        "matter of great concern",
+        "serious issue"
+      ],
+      "collocation": "a major concern",
+      "examples": [
+        {
+          "en": "Sleep deprivation is a major concern that places tired drivers at risk, and insufficient sleep may contribute to disease."
+        }
+      ],
+      "pron": {
+        "tts": "major concern"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1103,
+      "id": "p-place-at-risk",
+      "type": "phrase",
+      "front": "place at risk",
+      "meaning": "危険にさらす",
+      "synonyms": [
+        "endanger",
+        "put in danger"
+      ],
+      "collocation": "place sb at risk",
+      "examples": [
+        {
+          "en": "Sleep deprivation is a major concern that places tired drivers at risk, and insufficient sleep may contribute to disease."
+        }
+      ],
+      "pron": {
+        "tts": "place at risk"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1104,
+      "id": "w-insufficient",
+      "type": "word",
+      "front": "insufficient",
+      "meaning": "不十分な",
+      "synonyms": [
+        "inadequate",
+        "deficient"
+      ],
+      "collocation": "insufficient sleep",
+      "examples": [
+        {
+          "en": "Sleep deprivation is a major concern that places tired drivers at risk, and insufficient sleep may contribute to disease."
+        }
+      ],
+      "pron": {
+        "lookup": "insufficient",
+        "tts": "insufficient"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1105,
+      "id": "p-contribute-to",
+      "type": "phrase",
+      "front": "contribute to",
+      "meaning": "〜を引き起こす",
+      "synonyms": [
+        "be somewhat responsible for"
+      ],
+      "collocation": "contribute to",
+      "examples": [
+        {
+          "en": "Sleep deprivation is a major concern that places tired drivers at risk, and insufficient sleep may contribute to disease."
+        }
+      ],
+      "pron": {
+        "tts": "contribute to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1106,
+      "id": "w-ubiquity",
+      "type": "word",
+      "front": "ubiquity",
+      "meaning": "どこにでもあること",
+      "synonyms": [
+        "pervasiveness",
+        "prevalence",
+        "widespread presence"
+      ],
+      "collocation": "the ubiquity of",
+      "examples": [
+        {
+          "en": "Given the ubiquity of screens, it is imperative that we pay attention to our body clocks rather than staying up at the expense of our health."
+        }
+      ],
+      "pron": {
+        "lookup": "ubiquity",
+        "tts": "ubiquity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1107,
+      "id": "w-imperative",
+      "type": "word",
+      "front": "imperative",
+      "meaning": "緊急の",
+      "synonyms": [
+        "urgent",
+        "pressing"
+      ],
+      "collocation": "it is imperative that",
+      "examples": [
+        {
+          "en": "Given the ubiquity of screens, it is imperative that we pay attention to our body clocks rather than staying up at the expense of our health."
+        }
+      ],
+      "pron": {
+        "lookup": "imperative",
+        "tts": "imperative"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1108,
+      "id": "p-pay-attention-to",
+      "type": "phrase",
+      "front": "pay attention to",
+      "meaning": "〜に注意を払う",
+      "synonyms": [
+        "listen to"
+      ],
+      "collocation": "pay attention to",
+      "examples": [
+        {
+          "en": "Given the ubiquity of screens, it is imperative that we pay attention to our body clocks rather than staying up at the expense of our health."
+        }
+      ],
+      "pron": {
+        "tts": "pay attention to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1109,
+      "id": "p-at-the-expense-of",
+      "type": "phrase",
+      "front": "at the expense of",
+      "meaning": "〜を犠牲にして",
+      "synonyms": [
+        "at the cost of",
+        "at the price of"
+      ],
+      "collocation": "at the expense of",
+      "examples": [
+        {
+          "en": "Given the ubiquity of screens, it is imperative that we pay attention to our body clocks rather than staying up at the expense of our health."
+        }
+      ],
+      "pron": {
+        "tts": "at the expense of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1110,
+      "id": "w-deprivation",
+      "type": "word",
+      "front": "deprivation",
+      "meaning": "欠乏",
+      "pron": {
+        "lookup": "deprivation",
+        "tts": "deprivation"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1111,
+      "id": "w-lorry",
+      "type": "word",
+      "front": "lorry",
+      "meaning": "トラック",
+      "pron": {
+        "lookup": "lorry",
+        "tts": "lorry"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1112,
+      "id": "w-caffeine",
+      "type": "word",
+      "front": "caffeine",
+      "meaning": "カフェイン",
+      "pron": {
+        "lookup": "caffeine",
+        "tts": "caffeine"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 45,
+      "themeName": "睡眠の大切さ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t45",
+    "theme": 45,
+    "themeName": "睡眠の大切さ",
+    "jp": "テンポの早い現代社会では、十分な睡眠はしばしば過小評価される。先進国で健康に必要な8時間の睡眠を取る大人は3分の1だけだ。コーヒーでどうにかやっていく人もいるが、少なすぎる睡眠で走ろうとするのは失敗する運命にあり、カフェインは得られる休息を妨げる。私たちは睡眠習慣の悪さに大きな代償を払う。マシュー・ウォーカー博士は睡眠を賞め讃える。睡眠は脳に活力を与え、不足は基準に達する能力を損なう。睡眠不足は大きな懸念事項で、疲れた運転手を危険にさらし、不十分な睡眠は病気を引き起こしうる。画面がどこにでもある今、健康を犠牲にして夜更かしするより、体内時計に注意を払うことが緊急に必要だ。",
+    "sentences": [
+      {
+        "en": "In our fast-paced world, a full night's sleep is often undervalued.",
+        "targets": [
+          {
+            "id": "w-fast-paced",
+            "text": "fast-paced"
+          },
+          {
+            "id": "w-undervalue",
+            "text": "undervalued"
+          }
+        ]
+      },
+      {
+        "en": "Only a third of adults in the developed world get the eight hours required for good health.",
+        "targets": [
+          {
+            "id": "p-developed-world",
+            "text": "developed world"
+          },
+          {
+            "id": "w-required",
+            "text": "required"
+          }
+        ]
+      },
+      {
+        "en": "Some get by on coffee, but trying to run on too little sleep is doomed to fail, and caffeine can disrupt the rest we do get.",
+        "targets": [
+          {
+            "id": "p-get-by",
+            "text": "get by"
+          },
+          {
+            "id": "p-be-doomed-to-fail",
+            "text": "doomed to fail"
+          },
+          {
+            "id": "w-disrupt",
+            "text": "disrupt"
+          }
+        ]
+      },
+      {
+        "en": "We pay a high price for poor sleep habits.",
+        "targets": [
+          {
+            "id": "p-pay-a-high-price",
+            "text": "pay a high price"
+          },
+          {
+            "id": "w-habit",
+            "text": "habits"
+          }
+        ]
+      },
+      {
+        "en": "Dr Matthew Walker extols the virtues of sleep, which can reinvigorate the brain, while a lack of it impairs our ability to perform to certain standards.",
+        "targets": [
+          {
+            "id": "p-extol-the-virtues-of",
+            "text": "extols the virtues of"
+          },
+          {
+            "id": "w-reinvigorate",
+            "text": "reinvigorate"
+          },
+          {
+            "id": "w-impair",
+            "text": "impairs"
+          },
+          {
+            "id": "p-perform-to-certain-standards",
+            "text": "perform to certain standards"
+          }
+        ]
+      },
+      {
+        "en": "Sleep deprivation is a major concern that places tired drivers at risk, and insufficient sleep may contribute to disease.",
+        "targets": [
+          {
+            "id": "p-major-concern",
+            "text": "major concern"
+          },
+          {
+            "id": "p-place-at-risk",
+            "text": "places"
+          },
+          {
+            "id": "w-insufficient",
+            "text": "insufficient"
+          },
+          {
+            "id": "p-contribute-to",
+            "text": "contribute to"
+          }
+        ]
+      },
+      {
+        "en": "Given the ubiquity of screens, it is imperative that we pay attention to our body clocks rather than staying up at the expense of our health.",
+        "targets": [
+          {
+            "id": "w-ubiquity",
+            "text": "ubiquity"
+          },
+          {
+            "id": "w-imperative",
+            "text": "imperative"
+          },
+          {
+            "id": "p-pay-attention-to",
+            "text": "pay attention to"
+          },
+          {
+            "id": "p-at-the-expense-of",
+            "text": "at the expense of"
+          }
+        ]
+      }
+    ]
+  }
+}

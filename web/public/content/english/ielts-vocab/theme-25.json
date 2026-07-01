@@ -1,0 +1,802 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 25,
+  "themeId": "theme-25",
+  "themeName": "日本ザルと温泉",
+  "version": "e372d941",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 580,
+      "id": "w-incidence",
+      "type": "word",
+      "front": "incidence",
+      "meaning": "発生・発生率",
+      "synonyms": [
+        "occurrence",
+        "instance"
+      ],
+      "collocation": "a high incidence of, the first instance of",
+      "examples": [
+        {
+          "en": "Japanese macaques show a high incidence of bathing in hot springs."
+        }
+      ],
+      "pron": {
+        "lookup": "incidence",
+        "tts": "incidence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 581,
+      "id": "w-observe",
+      "type": "word",
+      "front": "observe",
+      "meaning": "見つける・観察する",
+      "synonyms": [
+        "spot",
+        "sight"
+      ],
+      "collocation": "observe behaviour, be sighted",
+      "examples": [
+        {
+          "en": "Scientists first observed this in Jigokudani, in a mountainous area."
+        }
+      ],
+      "pron": {
+        "lookup": "observe",
+        "tts": "observe"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 582,
+      "id": "p-adjacent-to",
+      "type": "phrase",
+      "front": "adjacent to",
+      "meaning": "〜に隣接した",
+      "synonyms": [
+        "adjoining",
+        "alongside"
+      ],
+      "collocation": "adjacent to the hotel",
+      "examples": [
+        {
+          "en": "The monkeys use a pool adjacent to a hotel, and for hygienic reasons the bath is now used exclusively by them."
+        }
+      ],
+      "pron": {
+        "tts": "adjacent to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 583,
+      "id": "w-hygienic",
+      "type": "word",
+      "front": "hygienic",
+      "meaning": "衛生的な",
+      "synonyms": [
+        "sanitary",
+        "sterile"
+      ],
+      "collocation": "for hygienic reasons, hygienic conditions",
+      "examples": [
+        {
+          "en": "The monkeys use a pool adjacent to a hotel, and for hygienic reasons the bath is now used exclusively by them."
+        }
+      ],
+      "pron": {
+        "lookup": "hygienic",
+        "tts": "hygienic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 584,
+      "id": "w-exclusively",
+      "type": "word",
+      "front": "exclusively",
+      "meaning": "もっぱら・独占的に",
+      "synonyms": [
+        "solely",
+        "entirely"
+      ],
+      "collocation": "used exclusively by…",
+      "examples": [
+        {
+          "en": "The monkeys use a pool adjacent to a hotel, and for hygienic reasons the bath is now used exclusively by them."
+        }
+      ],
+      "pron": {
+        "lookup": "exclusively",
+        "tts": "exclusively"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 585,
+      "id": "w-phenomenon",
+      "type": "word",
+      "front": "phenomenon",
+      "meaning": "現象",
+      "synonyms": [
+        "occurrence"
+      ],
+      "collocation": "a natural phenomenon, a rare phenomenon",
+      "examples": [
+        {
+          "en": "This phenomenon has become famous, and studies validate the idea that the springs help them."
+        }
+      ],
+      "pron": {
+        "lookup": "phenomenon",
+        "tts": "phenomenon"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 586,
+      "id": "w-validate",
+      "type": "word",
+      "front": "validate",
+      "meaning": "実証する・確認する",
+      "synonyms": [
+        "corroborate",
+        "confirm",
+        "verify"
+      ],
+      "collocation": "validate a hypothesis",
+      "examples": [
+        {
+          "en": "This phenomenon has become famous, and studies validate the idea that the springs help them."
+        }
+      ],
+      "pron": {
+        "lookup": "validate",
+        "tts": "validate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 587,
+      "id": "p-adapt-to",
+      "type": "phrase",
+      "front": "adapt to",
+      "meaning": "〜に適応する",
+      "synonyms": [
+        "acclimatise",
+        "adjust to"
+      ],
+      "collocation": "adapt to the environment",
+      "examples": [
+        {
+          "en": "The monkeys adapt to the cold and maintain body heat, so we should not assume the baths merely act as play."
+        }
+      ],
+      "pron": {
+        "tts": "adapt to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 588,
+      "id": "w-mountainous",
+      "type": "word",
+      "front": "mountainous",
+      "meaning": "山地の",
+      "synonyms": [
+        "hilly",
+        "alpine"
+      ],
+      "collocation": "a mountainous region",
+      "examples": [
+        {
+          "en": "Scientists first observed this in Jigokudani, in a mountainous area."
+        }
+      ],
+      "pron": {
+        "lookup": "mountainous",
+        "tts": "mountainous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 589,
+      "id": "w-maintain",
+      "type": "word",
+      "front": "maintain",
+      "meaning": "維持する・保つ",
+      "synonyms": [
+        "preserve"
+      ],
+      "collocation": "maintain body temperature",
+      "examples": [
+        {
+          "en": "The monkeys adapt to the cold and maintain body heat, so we should not assume the baths merely act as play."
+        }
+      ],
+      "pron": {
+        "lookup": "maintain",
+        "tts": "maintain"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 590,
+      "id": "w-assume",
+      "type": "word",
+      "front": "assume",
+      "meaning": "当然と思う・推定する",
+      "synonyms": [
+        "presume"
+      ],
+      "collocation": "assume that…, it is presumed that",
+      "examples": [
+        {
+          "en": "The monkeys adapt to the cold and maintain body heat, so we should not assume the baths merely act as play."
+        }
+      ],
+      "pron": {
+        "lookup": "assume",
+        "tts": "assume"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 591,
+      "id": "p-act-as",
+      "type": "phrase",
+      "front": "act as",
+      "meaning": "〜として機能する",
+      "synonyms": [
+        "serve as"
+      ],
+      "collocation": "act as a barrier, serve as a means",
+      "examples": [
+        {
+          "en": "The monkeys adapt to the cold and maintain body heat, so we should not assume the baths merely act as play."
+        }
+      ],
+      "pron": {
+        "tts": "act as"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 592,
+      "id": "w-uncover",
+      "type": "word",
+      "front": "uncover",
+      "meaning": "発見する",
+      "synonyms": [
+        "find out",
+        "discover"
+      ],
+      "collocation": "uncover the truth, discover that…",
+      "examples": [
+        {
+          "en": "Researchers uncovered that the warm water can alleviate stress and help the monkeys unwind."
+        }
+      ],
+      "pron": {
+        "lookup": "uncover",
+        "tts": "uncover"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 593,
+      "id": "p-alleviate-stress",
+      "type": "phrase",
+      "front": "alleviate stress",
+      "meaning": "ストレスを軽減する",
+      "synonyms": [
+        "reduce stress"
+      ],
+      "collocation": "alleviate stress, relieve stress",
+      "examples": [
+        {
+          "en": "Researchers uncovered that the warm water can alleviate stress and help the monkeys unwind."
+        }
+      ],
+      "pron": {
+        "tts": "alleviate stress"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 594,
+      "id": "w-unwind",
+      "type": "word",
+      "front": "unwind",
+      "meaning": "くつろぐ",
+      "synonyms": [
+        "relax",
+        "take it easy"
+      ],
+      "collocation": "unwind after work",
+      "examples": [
+        {
+          "en": "Researchers uncovered that the warm water can alleviate stress and help the monkeys unwind."
+        }
+      ],
+      "pron": {
+        "lookup": "unwind",
+        "tts": "unwind"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 595,
+      "id": "w-aggressive",
+      "type": "word",
+      "front": "aggressive",
+      "meaning": "攻撃的な",
+      "synonyms": [
+        "belligerent",
+        "combative"
+      ],
+      "collocation": "aggressive behaviour",
+      "examples": [
+        {
+          "en": "During the mating season monkeys can be aggressive and conflict is common."
+        }
+      ],
+      "pron": {
+        "lookup": "aggressive",
+        "tts": "aggressive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 596,
+      "id": "w-conflict",
+      "type": "word",
+      "front": "conflict",
+      "meaning": "対立・口論",
+      "synonyms": [
+        "dispute",
+        "quarrel"
+      ],
+      "collocation": "avoid conflict, settle a dispute",
+      "examples": [
+        {
+          "en": "During the mating season monkeys can be aggressive and conflict is common."
+        }
+      ],
+      "pron": {
+        "lookup": "conflict",
+        "tts": "conflict"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 597,
+      "id": "w-lower",
+      "type": "word",
+      "front": "lower",
+      "meaning": "下げる・減らす",
+      "synonyms": [
+        "reduce",
+        "lessen"
+      ],
+      "collocation": "lower stress levels",
+      "examples": [
+        {
+          "en": "A warm bath can lower stress hormones significantly, with a corresponding drop in aggression."
+        }
+      ],
+      "pron": {
+        "lookup": "lower",
+        "tts": "lower"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 598,
+      "id": "w-significantly",
+      "type": "word",
+      "front": "significantly",
+      "meaning": "著しく・かなり",
+      "synonyms": [
+        "considerably",
+        "measurably"
+      ],
+      "collocation": "significantly higher, grow considerably",
+      "examples": [
+        {
+          "en": "A warm bath can lower stress hormones significantly, with a corresponding drop in aggression."
+        }
+      ],
+      "pron": {
+        "lookup": "significantly",
+        "tts": "significantly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 599,
+      "id": "w-corresponding",
+      "type": "word",
+      "front": "corresponding",
+      "meaning": "対応する・関連する",
+      "synonyms": [
+        "correlative"
+      ],
+      "collocation": "a corresponding effect",
+      "examples": [
+        {
+          "en": "A warm bath can lower stress hormones significantly, with a corresponding drop in aggression."
+        }
+      ],
+      "pron": {
+        "lookup": "corresponding",
+        "tts": "corresponding"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 600,
+      "id": "w-mimic",
+      "type": "word",
+      "front": "mimic",
+      "meaning": "真似る",
+      "synonyms": [
+        "imitate"
+      ],
+      "pron": {
+        "lookup": "mimic",
+        "tts": "mimic"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 601,
+      "id": "w-sterile",
+      "type": "word",
+      "front": "sterile",
+      "meaning": "無菌の",
+      "pron": {
+        "lookup": "sterile",
+        "tts": "sterile"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 602,
+      "id": "w-altercation",
+      "type": "word",
+      "front": "altercation",
+      "meaning": "口論",
+      "pron": {
+        "lookup": "altercation",
+        "tts": "altercation"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 603,
+      "id": "p-give-one-s-undivided-attention-to",
+      "type": "phrase",
+      "front": "give one's undivided attention to",
+      "meaning": "〜に集中する",
+      "pron": {
+        "tts": "give one's undivided attention to"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 604,
+      "id": "w-primate",
+      "type": "word",
+      "front": "primate",
+      "meaning": "霊長類",
+      "pron": {
+        "lookup": "primate",
+        "tts": "primate"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 605,
+      "id": "p-mating-season",
+      "type": "phrase",
+      "front": "mating season",
+      "meaning": "繁殖期",
+      "pron": {
+        "tts": "mating season"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 25,
+      "themeName": "日本ザルと温泉",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t25",
+    "theme": 25,
+    "themeName": "日本ザルと温泉",
+    "jp": "日本ザルは温泉に入る発生率が高い。科学者は山地の地獄谷で初めてこれを観察した。サルはホテルに隣接した湯を使い、衛生的な理由から今その湯はもっぱらサルだけが使う。この現象は有名になり、研究は温泉が役立つという説を実証している。サルは寒さに適応し体温を維持するので、その入浴を単なる遊びと当然視すべきではない。研究者は、温かい湯がストレスを軽減しサルをくつろがせることを発見した。繁殖期にはサルは攻撃的になり対立も多い。温かい湯はストレスホルモンを著しく下げ、攻撃性もそれに対応して減る。",
+    "sentences": [
+      {
+        "en": "Japanese macaques show a high incidence of bathing in hot springs.",
+        "targets": [
+          {
+            "id": "w-incidence",
+            "text": "incidence"
+          }
+        ]
+      },
+      {
+        "en": "Scientists first observed this in Jigokudani, in a mountainous area.",
+        "targets": [
+          {
+            "id": "w-observe",
+            "text": "observed"
+          },
+          {
+            "id": "w-mountainous",
+            "text": "mountainous"
+          }
+        ]
+      },
+      {
+        "en": "The monkeys use a pool adjacent to a hotel, and for hygienic reasons the bath is now used exclusively by them.",
+        "targets": [
+          {
+            "id": "p-adjacent-to",
+            "text": "adjacent to"
+          },
+          {
+            "id": "w-hygienic",
+            "text": "hygienic"
+          },
+          {
+            "id": "w-exclusively",
+            "text": "exclusively"
+          }
+        ]
+      },
+      {
+        "en": "This phenomenon has become famous, and studies validate the idea that the springs help them.",
+        "targets": [
+          {
+            "id": "w-phenomenon",
+            "text": "phenomenon"
+          },
+          {
+            "id": "w-validate",
+            "text": "validate"
+          }
+        ]
+      },
+      {
+        "en": "The monkeys adapt to the cold and maintain body heat, so we should not assume the baths merely act as play.",
+        "targets": [
+          {
+            "id": "p-adapt-to",
+            "text": "adapt to"
+          },
+          {
+            "id": "w-maintain",
+            "text": "maintain"
+          },
+          {
+            "id": "w-assume",
+            "text": "assume"
+          },
+          {
+            "id": "p-act-as",
+            "text": "act as"
+          }
+        ]
+      },
+      {
+        "en": "Researchers uncovered that the warm water can alleviate stress and help the monkeys unwind.",
+        "targets": [
+          {
+            "id": "w-uncover",
+            "text": "uncovered"
+          },
+          {
+            "id": "p-alleviate-stress",
+            "text": "alleviate stress"
+          },
+          {
+            "id": "w-unwind",
+            "text": "unwind"
+          }
+        ]
+      },
+      {
+        "en": "During the mating season monkeys can be aggressive and conflict is common.",
+        "targets": [
+          {
+            "id": "w-aggressive",
+            "text": "aggressive"
+          },
+          {
+            "id": "w-conflict",
+            "text": "conflict"
+          }
+        ]
+      },
+      {
+        "en": "A warm bath can lower stress hormones significantly, with a corresponding drop in aggression.",
+        "targets": [
+          {
+            "id": "w-lower",
+            "text": "lower"
+          },
+          {
+            "id": "w-significantly",
+            "text": "significantly"
+          },
+          {
+            "id": "w-corresponding",
+            "text": "corresponding"
+          }
+        ]
+      }
+    ]
+  }
+}

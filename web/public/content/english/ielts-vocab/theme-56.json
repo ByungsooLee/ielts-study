@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 56,
+  "themeId": "theme-56",
+  "themeName": "セルフリッジのデパート",
+  "version": "3833d51f",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1364,
+      "id": "w-high-end",
+      "type": "word",
+      "front": "high-end",
+      "meaning": "高級な",
+      "synonyms": [
+        "upmarket",
+        "upscale",
+        "posh"
+      ],
+      "collocation": "high-end stores",
+      "examples": [
+        {
+          "en": "Harry Gordon Selfridge founded high-end department stores and certainly marched to the beat of a different drum."
+        }
+      ],
+      "pron": {
+        "lookup": "high-end",
+        "tts": "high-end"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1365,
+      "id": "p-march-to-the-beat-of-a-different-drum",
+      "type": "phrase",
+      "front": "march to the beat of a different drum",
+      "meaning": "型破りである",
+      "synonyms": [
+        "be unconventional",
+        "be unorthodox"
+      ],
+      "collocation": "march to the beat of a different drum",
+      "examples": [
+        {
+          "en": "Harry Gordon Selfridge founded high-end department stores and certainly marched to the beat of a different drum."
+        }
+      ],
+      "pron": {
+        "tts": "march to the beat of a different drum"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1366,
+      "id": "w-exhausting",
+      "type": "word",
+      "front": "exhausting",
+      "meaning": "骨の折れる・疲れさせる",
+      "synonyms": [
+        "draining",
+        "taxing",
+        "tiresome"
+      ],
+      "collocation": "exhausting work",
+      "examples": [
+        {
+          "en": "He saw that American shopping was an exhausting chore rather than a form of leisure."
+        }
+      ],
+      "pron": {
+        "lookup": "exhausting",
+        "tts": "exhausting"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1367,
+      "id": "w-leisure",
+      "type": "word",
+      "front": "leisure",
+      "meaning": "余暇・娯楽",
+      "synonyms": [
+        "recreation"
+      ],
+      "collocation": "leisure time",
+      "examples": [
+        {
+          "en": "He saw that American shopping was an exhausting chore rather than a form of leisure."
+        }
+      ],
+      "pron": {
+        "lookup": "leisure",
+        "tts": "leisure"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1368,
+      "id": "w-erect",
+      "type": "word",
+      "front": "erect",
+      "meaning": "建てる・設立する",
+      "synonyms": [
+        "put up",
+        "construct",
+        "establish"
+      ],
+      "collocation": "erect a building",
+      "examples": [
+        {
+          "en": "He erected his store away from the hustle and bustle of the city centre."
+        }
+      ],
+      "pron": {
+        "lookup": "erect",
+        "tts": "erect"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1369,
+      "id": "p-hustle-and-bustle",
+      "type": "phrase",
+      "front": "hustle and bustle",
+      "meaning": "喧騒・混雑",
+      "synonyms": [
+        "commotion",
+        "pandemonium",
+        "clamour"
+      ],
+      "collocation": "the hustle and bustle",
+      "examples": [
+        {
+          "en": "He erected his store away from the hustle and bustle of the city centre."
+        }
+      ],
+      "pron": {
+        "tts": "hustle and bustle"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1370,
+      "id": "w-oversee",
+      "type": "word",
+      "front": "oversee",
+      "meaning": "監督する",
+      "synonyms": [
+        "manage",
+        "supervise"
+      ],
+      "collocation": "oversee sth",
+      "examples": [
+        {
+          "en": "He oversaw each area, situating the perfume department on the ground floor to pull customers in."
+        }
+      ],
+      "pron": {
+        "lookup": "oversee",
+        "tts": "oversee"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1371,
+      "id": "w-situate",
+      "type": "word",
+      "front": "situate",
+      "meaning": "置く・場所を定める",
+      "synonyms": [
+        "locate",
+        "place"
+      ],
+      "collocation": "situate sth",
+      "examples": [
+        {
+          "en": "He oversaw each area, situating the perfume department on the ground floor to pull customers in."
+        }
+      ],
+      "pron": {
+        "lookup": "situate",
+        "tts": "situate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1372,
+      "id": "p-follow-one-s-example",
+      "type": "phrase",
+      "front": "follow one's example",
+      "meaning": "先例に倣う",
+      "synonyms": [
+        "follow suit"
+      ],
+      "collocation": "follow suit",
+      "examples": [
+        {
+          "en": "Every store then followed suit, and he was the first to sell first-rate and stylish clothes at a discount."
+        }
+      ],
+      "pron": {
+        "tts": "follow one's example"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1373,
+      "id": "w-first-rate",
+      "type": "word",
+      "front": "first-rate",
+      "meaning": "一流の",
+      "synonyms": [
+        "the highest-quality"
+      ],
+      "collocation": "first-rate goods",
+      "examples": [
+        {
+          "en": "Every store then followed suit, and he was the first to sell first-rate and stylish clothes at a discount."
+        }
+      ],
+      "pron": {
+        "lookup": "first-rate",
+        "tts": "first-rate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1374,
+      "id": "w-stylish",
+      "type": "word",
+      "front": "stylish",
+      "meaning": "流行の",
+      "synonyms": [
+        "chic",
+        "trendy"
+      ],
+      "collocation": "stylish clothes",
+      "examples": [
+        {
+          "en": "Every store then followed suit, and he was the first to sell first-rate and stylish clothes at a discount."
+        }
+      ],
+      "pron": {
+        "lookup": "stylish",
+        "tts": "stylish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1375,
+      "id": "w-discount",
+      "type": "word",
+      "front": "discount",
+      "meaning": "割引",
+      "synonyms": [
+        "reduction",
+        "markdown"
+      ],
+      "collocation": "offer a discount",
+      "examples": [
+        {
+          "en": "Every store then followed suit, and he was the first to sell first-rate and stylish clothes at a discount."
+        }
+      ],
+      "pron": {
+        "lookup": "discount",
+        "tts": "discount"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1376,
+      "id": "w-bid",
+      "type": "word",
+      "front": "bid",
+      "meaning": "試み・努力",
+      "synonyms": [
+        "attempt",
+        "effort"
+      ],
+      "collocation": "in a bid to",
+      "examples": [
+        {
+          "en": "In a bid to attract a wider cross-section of customers, his approach proved invaluable and gave him a competitive advantage."
+        }
+      ],
+      "pron": {
+        "lookup": "bid",
+        "tts": "bid"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1377,
+      "id": "w-cross-section",
+      "type": "word",
+      "front": "cross-section",
+      "meaning": "代表的な一団",
+      "synonyms": [
+        "representative sample"
+      ],
+      "collocation": "a cross-section of",
+      "examples": [
+        {
+          "en": "In a bid to attract a wider cross-section of customers, his approach proved invaluable and gave him a competitive advantage."
+        }
+      ],
+      "pron": {
+        "lookup": "cross-section",
+        "tts": "cross-section"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1378,
+      "id": "p-prove-invaluable",
+      "type": "phrase",
+      "front": "prove invaluable",
+      "meaning": "とても価値があるとわかる",
+      "synonyms": [
+        "be worth its weight in gold"
+      ],
+      "collocation": "prove invaluable",
+      "examples": [
+        {
+          "en": "In a bid to attract a wider cross-section of customers, his approach proved invaluable and gave him a competitive advantage."
+        }
+      ],
+      "pron": {
+        "tts": "prove invaluable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1379,
+      "id": "p-give-a-competitive-advantage",
+      "type": "phrase",
+      "front": "give a competitive advantage",
+      "meaning": "競争で優位に立つ",
+      "synonyms": [
+        "give a leg up on the competition"
+      ],
+      "collocation": "give a competitive advantage",
+      "examples": [
+        {
+          "en": "In a bid to attract a wider cross-section of customers, his approach proved invaluable and gave him a competitive advantage."
+        }
+      ],
+      "pron": {
+        "tts": "give a competitive advantage"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1380,
+      "id": "w-progressive",
+      "type": "word",
+      "front": "progressive",
+      "meaning": "進歩的な",
+      "synonyms": [
+        "enlightened",
+        "forward-looking"
+      ],
+      "collocation": "a progressive attitude",
+      "examples": [
+        {
+          "en": "He was also progressive in his attitude to women's rights."
+        }
+      ],
+      "pron": {
+        "lookup": "progressive",
+        "tts": "progressive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1381,
+      "id": "w-attitude",
+      "type": "word",
+      "front": "attitude",
+      "meaning": "姿勢・考え方",
+      "synonyms": [
+        "approach",
+        "philosophy",
+        "point of view"
+      ],
+      "collocation": "a positive attitude",
+      "examples": [
+        {
+          "en": "He was also progressive in his attitude to women's rights."
+        }
+      ],
+      "pron": {
+        "lookup": "attitude",
+        "tts": "attitude"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1382,
+      "id": "p-give-the-go-ahead",
+      "type": "phrase",
+      "front": "give the go-ahead",
+      "meaning": "承認する",
+      "synonyms": [
+        "give a thumbs up",
+        "give the green light",
+        "give approval"
+      ],
+      "collocation": "give the go-ahead",
+      "examples": [
+        {
+          "en": "When the city would not give the go-ahead for a taller building, he still installed women's toilets so ladies could stay out of the house longer."
+        }
+      ],
+      "pron": {
+        "tts": "give the go-ahead"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1383,
+      "id": "w-install",
+      "type": "word",
+      "front": "install",
+      "meaning": "設置する",
+      "synonyms": [
+        "put in place"
+      ],
+      "collocation": "install sth",
+      "examples": [
+        {
+          "en": "When the city would not give the go-ahead for a taller building, he still installed women's toilets so ladies could stay out of the house longer."
+        }
+      ],
+      "pron": {
+        "lookup": "install",
+        "tts": "install"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1384,
+      "id": "w-egalitarianism",
+      "type": "word",
+      "front": "egalitarianism",
+      "meaning": "平等主義",
+      "pron": {
+        "lookup": "egalitarianism",
+        "tts": "egalitarianism"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1385,
+      "id": "w-conservative",
+      "type": "word",
+      "front": "conservative",
+      "meaning": "保守的な",
+      "pron": {
+        "lookup": "conservative",
+        "tts": "conservative"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 56,
+      "themeName": "セルフリッジのデパート",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t56",
+    "theme": 56,
+    "themeName": "セルフリッジのデパート",
+    "jp": "ハリー・ゴードン・セルフリッジは高級デパートを創業し、まさに型破りだった。彼はアメリカの買い物が娯楽ではなく骨の折れる雑用であることに気づいた。彼は都心の喧騒から離れて店を建てた。彼は各区域を監督し、客を引き込むため香水売り場を一階に配置した。どの店もそれに倣い、彼は一流でおしゃれな服を割引で最初に売った。より幅広い層の客を引きつけようとする試みの中で、彼のやり方はとても価値があるとわかり、競争で優位に立たせた。彼は女性の権利への姿勢も進歩的だった。市がより高い建物を承認しなかったとき、彼はそれでも女性用トイレを設置し、女性が長く外出できるようにした。",
+    "sentences": [
+      {
+        "en": "Harry Gordon Selfridge founded high-end department stores and certainly marched to the beat of a different drum.",
+        "targets": [
+          {
+            "id": "w-high-end",
+            "text": "high-end"
+          },
+          {
+            "id": "p-march-to-the-beat-of-a-different-drum",
+            "text": "marched to the beat of a different drum"
+          }
+        ]
+      },
+      {
+        "en": "He saw that American shopping was an exhausting chore rather than a form of leisure.",
+        "targets": [
+          {
+            "id": "w-exhausting",
+            "text": "exhausting"
+          },
+          {
+            "id": "w-leisure",
+            "text": "leisure"
+          }
+        ]
+      },
+      {
+        "en": "He erected his store away from the hustle and bustle of the city centre.",
+        "targets": [
+          {
+            "id": "w-erect",
+            "text": "erected"
+          },
+          {
+            "id": "p-hustle-and-bustle",
+            "text": "hustle and bustle"
+          }
+        ]
+      },
+      {
+        "en": "He oversaw each area, situating the perfume department on the ground floor to pull customers in.",
+        "targets": [
+          {
+            "id": "w-oversee",
+            "text": "oversaw"
+          },
+          {
+            "id": "w-situate",
+            "text": "situating"
+          }
+        ]
+      },
+      {
+        "en": "Every store then followed suit, and he was the first to sell first-rate and stylish clothes at a discount.",
+        "targets": [
+          {
+            "id": "p-follow-one-s-example",
+            "text": "followed suit"
+          },
+          {
+            "id": "w-first-rate",
+            "text": "first-rate"
+          },
+          {
+            "id": "w-stylish",
+            "text": "stylish"
+          },
+          {
+            "id": "w-discount",
+            "text": "discount"
+          }
+        ]
+      },
+      {
+        "en": "In a bid to attract a wider cross-section of customers, his approach proved invaluable and gave him a competitive advantage.",
+        "targets": [
+          {
+            "id": "w-bid",
+            "text": "bid"
+          },
+          {
+            "id": "w-cross-section",
+            "text": "cross-section"
+          },
+          {
+            "id": "p-prove-invaluable",
+            "text": "proved invaluable"
+          },
+          {
+            "id": "p-give-a-competitive-advantage",
+            "text": "gave him a competitive advantage"
+          }
+        ]
+      },
+      {
+        "en": "He was also progressive in his attitude to women's rights.",
+        "targets": [
+          {
+            "id": "w-progressive",
+            "text": "progressive"
+          },
+          {
+            "id": "w-attitude",
+            "text": "attitude"
+          }
+        ]
+      },
+      {
+        "en": "When the city would not give the go-ahead for a taller building, he still installed women's toilets so ladies could stay out of the house longer.",
+        "targets": [
+          {
+            "id": "p-give-the-go-ahead",
+            "text": "give the go-ahead"
+          },
+          {
+            "id": "w-install",
+            "text": "installed"
+          }
+        ]
+      }
+    ]
+  }
+}

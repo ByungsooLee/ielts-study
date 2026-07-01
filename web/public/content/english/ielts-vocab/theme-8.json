@@ -7,8 +7,8 @@
   "theme": 8,
   "themeId": "theme-8",
   "themeName": "ハイパーループ",
-  "version": "a1b4d55d",
-  "generatedAt": "2026-06-18T10:32:03.495Z",
+  "version": "31ea97e2",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
   "items": [
     {
       "n": 143,
@@ -701,6 +701,10 @@
           "注意音: R(there/exorbitant/ordinary/afford), TH(there)"
         ],
         "targets": [
+          {
+            "id": "w-obstacle",
+            "text": "obstacles"
+          },
           {
             "id": "w-exorbitant",
             "text": "exorbitant"

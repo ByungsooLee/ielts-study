@@ -1,0 +1,751 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 41,
+  "themeId": "theme-41",
+  "themeName": "巨大空港",
+  "version": "494822fa",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 989,
+      "id": "p-means-of",
+      "type": "phrase",
+      "front": "means of",
+      "meaning": "〜の手段",
+      "synonyms": [
+        "mode of",
+        "method of"
+      ],
+      "collocation": "a means of transport",
+      "examples": [
+        {
+          "en": "Flying is an efficient means of travelling long distances, and passenger numbers have gone through the roof."
+        }
+      ],
+      "pron": {
+        "tts": "means of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 990,
+      "id": "p-pass-through",
+      "type": "phrase",
+      "front": "pass through",
+      "meaning": "通過する",
+      "synonyms": [
+        "proceed through"
+      ],
+      "collocation": "pass through security",
+      "examples": [
+        {
+          "en": "Most journeys pass through a major hub run by a network of airlines."
+        }
+      ],
+      "pron": {
+        "tts": "pass through"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 991,
+      "id": "w-network",
+      "type": "word",
+      "front": "network",
+      "meaning": "網状組織・提携",
+      "synonyms": [
+        "alliance",
+        "association"
+      ],
+      "collocation": "a network of airlines",
+      "examples": [
+        {
+          "en": "Most journeys pass through a major hub run by a network of airlines."
+        }
+      ],
+      "pron": {
+        "lookup": "network",
+        "tts": "network"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 992,
+      "id": "p-go-through-the-roof",
+      "type": "phrase",
+      "front": "go through the roof",
+      "meaning": "天井知らずに上がる",
+      "synonyms": [
+        "shoot up",
+        "skyrocket",
+        "soar"
+      ],
+      "collocation": "prices go through the roof",
+      "examples": [
+        {
+          "en": "Flying is an efficient means of travelling long distances, and passenger numbers have gone through the roof."
+        }
+      ],
+      "pron": {
+        "tts": "go through the roof"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 993,
+      "id": "w-congestion",
+      "type": "word",
+      "front": "congestion",
+      "meaning": "渋滞・混雑",
+      "synonyms": [
+        "clog",
+        "jam",
+        "bottleneck"
+      ],
+      "collocation": "traffic congestion",
+      "examples": [
+        {
+          "en": "To cope, airports have undergone rapid expansion, becoming miniature cities that ease congestion."
+        }
+      ],
+      "pron": {
+        "lookup": "congestion",
+        "tts": "congestion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 994,
+      "id": "w-undergo",
+      "type": "word",
+      "front": "undergo",
+      "meaning": "経験する",
+      "synonyms": [
+        "go through",
+        "experience"
+      ],
+      "collocation": "undergo change",
+      "examples": [
+        {
+          "en": "To cope, airports have undergone rapid expansion, becoming miniature cities that ease congestion."
+        }
+      ],
+      "pron": {
+        "lookup": "undergo",
+        "tts": "undergo"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 995,
+      "id": "w-miniature",
+      "type": "word",
+      "front": "miniature",
+      "meaning": "超小型の",
+      "synonyms": [
+        "small-scale",
+        "mini"
+      ],
+      "collocation": "a miniature city",
+      "examples": [
+        {
+          "en": "To cope, airports have undergone rapid expansion, becoming miniature cities that ease congestion."
+        }
+      ],
+      "pron": {
+        "lookup": "miniature",
+        "tts": "miniature"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 996,
+      "id": "w-newly-minted",
+      "type": "word",
+      "front": "newly-minted",
+      "meaning": "真新しい",
+      "synonyms": [
+        "brand new"
+      ],
+      "collocation": "a newly-minted airport",
+      "examples": [
+        {
+          "en": "Dubai's newly-minted mega-airport is expected to conclude soon and handle a mind-boggling number of passengers, so as to fulfil demand."
+        }
+      ],
+      "pron": {
+        "lookup": "newly-minted",
+        "tts": "newly-minted"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 997,
+      "id": "w-conclude",
+      "type": "word",
+      "front": "conclude",
+      "meaning": "終える・完成させる",
+      "synonyms": [
+        "wrap up",
+        "finish up"
+      ],
+      "collocation": "conclude soon",
+      "examples": [
+        {
+          "en": "Dubai's newly-minted mega-airport is expected to conclude soon and handle a mind-boggling number of passengers, so as to fulfil demand."
+        }
+      ],
+      "pron": {
+        "lookup": "conclude",
+        "tts": "conclude"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 998,
+      "id": "w-mind-boggling",
+      "type": "word",
+      "front": "mind-boggling",
+      "meaning": "びっくりするほどの",
+      "synonyms": [
+        "stunning",
+        "staggering"
+      ],
+      "collocation": "a mind-boggling number",
+      "examples": [
+        {
+          "en": "Dubai's newly-minted mega-airport is expected to conclude soon and handle a mind-boggling number of passengers, so as to fulfil demand."
+        }
+      ],
+      "pron": {
+        "lookup": "mind-boggling",
+        "tts": "mind-boggling"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 999,
+      "id": "p-fulfil-demand",
+      "type": "phrase",
+      "front": "fulfil demand",
+      "meaning": "需要を満たす",
+      "synonyms": [
+        "meet demand",
+        "satisfy demand"
+      ],
+      "collocation": "fulfil demand",
+      "examples": [
+        {
+          "en": "Dubai's newly-minted mega-airport is expected to conclude soon and handle a mind-boggling number of passengers, so as to fulfil demand."
+        }
+      ],
+      "pron": {
+        "tts": "fulfil demand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1000,
+      "id": "w-facility",
+      "type": "word",
+      "front": "facility",
+      "meaning": "設備・施設",
+      "synonyms": [
+        "amenity"
+      ],
+      "collocation": "airport facilities",
+      "examples": [
+        {
+          "en": "Their facilities are becoming lavish, with casinos and malls on the premises."
+        }
+      ],
+      "pron": {
+        "lookup": "facility",
+        "tts": "facility"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1001,
+      "id": "w-lavish",
+      "type": "word",
+      "front": "lavish",
+      "meaning": "贅沢な",
+      "synonyms": [
+        "grand",
+        "opulent",
+        "extravagant"
+      ],
+      "collocation": "a lavish design",
+      "examples": [
+        {
+          "en": "Their facilities are becoming lavish, with casinos and malls on the premises."
+        }
+      ],
+      "pron": {
+        "lookup": "lavish",
+        "tts": "lavish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1002,
+      "id": "w-premises",
+      "type": "word",
+      "front": "premises",
+      "meaning": "敷地・構内",
+      "synonyms": [
+        "grounds"
+      ],
+      "collocation": "on the premises",
+      "examples": [
+        {
+          "en": "Their facilities are becoming lavish, with casinos and malls on the premises."
+        }
+      ],
+      "pron": {
+        "lookup": "premises",
+        "tts": "premises"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1003,
+      "id": "p-urban-sprawl",
+      "type": "phrase",
+      "front": "urban sprawl",
+      "meaning": "都市の膨張",
+      "synonyms": [
+        "suburban sprawl",
+        "suburbanisation"
+      ],
+      "collocation": "urban sprawl",
+      "examples": [
+        {
+          "en": "As this urban sprawl grows, friction with locals can overload resources."
+        }
+      ],
+      "pron": {
+        "tts": "urban sprawl"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1004,
+      "id": "w-friction",
+      "type": "word",
+      "front": "friction",
+      "meaning": "摩擦・あつれき",
+      "synonyms": [
+        "tension",
+        "discontent",
+        "discord"
+      ],
+      "collocation": "cause friction",
+      "examples": [
+        {
+          "en": "As this urban sprawl grows, friction with locals can overload resources."
+        }
+      ],
+      "pron": {
+        "lookup": "friction",
+        "tts": "friction"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1005,
+      "id": "w-overload",
+      "type": "word",
+      "front": "overload",
+      "meaning": "過剰な負担をかける",
+      "synonyms": [
+        "overwhelm",
+        "overburden"
+      ],
+      "collocation": "overload the system",
+      "examples": [
+        {
+          "en": "As this urban sprawl grows, friction with locals can overload resources."
+        }
+      ],
+      "pron": {
+        "lookup": "overload",
+        "tts": "overload"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1006,
+      "id": "w-direct",
+      "type": "word",
+      "front": "direct",
+      "meaning": "直接の・直接対決の",
+      "synonyms": [
+        "head-to-head",
+        "head-on"
+      ],
+      "collocation": "direct competition",
+      "examples": [
+        {
+          "en": "Airports also enter direct competition with local businesses."
+        }
+      ],
+      "pron": {
+        "lookup": "direct",
+        "tts": "direct"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1007,
+      "id": "w-competition",
+      "type": "word",
+      "front": "competition",
+      "meaning": "競争",
+      "synonyms": [
+        "rivalry",
+        "contention"
+      ],
+      "collocation": "intense competition",
+      "examples": [
+        {
+          "en": "Airports also enter direct competition with local businesses."
+        }
+      ],
+      "pron": {
+        "lookup": "competition",
+        "tts": "competition"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1008,
+      "id": "w-hub",
+      "type": "word",
+      "front": "hub",
+      "meaning": "拠点",
+      "pron": {
+        "lookup": "hub",
+        "tts": "hub"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1009,
+      "id": "w-shuttle",
+      "type": "word",
+      "front": "shuttle",
+      "meaning": "往来させる",
+      "pron": {
+        "lookup": "shuttle",
+        "tts": "shuttle"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1010,
+      "id": "p-power-grid",
+      "type": "phrase",
+      "front": "power grid",
+      "meaning": "送電網",
+      "pron": {
+        "tts": "power grid"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1011,
+      "id": "p-local-resident",
+      "type": "phrase",
+      "front": "local resident",
+      "meaning": "地元住民",
+      "pron": {
+        "tts": "local resident"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1012,
+      "id": "w-overhead",
+      "type": "word",
+      "front": "overhead",
+      "meaning": "頭上の・上方に",
+      "synonyms": [
+        "up above"
+      ],
+      "pron": {
+        "lookup": "overhead",
+        "tts": "overhead"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 41,
+      "themeName": "巨大空港",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t41",
+    "theme": 41,
+    "themeName": "巨大空港",
+    "jp": "飛行機は長距離移動の効率的な手段で、乗客数は天井知らずに増えてきた。ほとんどの旅は航空会社の連合が運営する主要拠点を通過する。対応するため空港は急拡大し、混雑を和らげる小型都市のようになった。ドバイの真新しい巨大空港は間もなく完成予定で、驚異的な数の乗客をさばき、需要を満たす。その施設は贅沢になり、敷地内にカジノやモールがある。この都市膨張が進むと、地元との摩擦が資源に過剰な負担をかけうる。空港は地元企業とも直接競争に入る。",
+    "sentences": [
+      {
+        "en": "Flying is an efficient means of travelling long distances, and passenger numbers have gone through the roof.",
+        "targets": [
+          {
+            "id": "p-means-of",
+            "text": "means of"
+          },
+          {
+            "id": "p-go-through-the-roof",
+            "text": "gone through the roof"
+          }
+        ]
+      },
+      {
+        "en": "Most journeys pass through a major hub run by a network of airlines.",
+        "targets": [
+          {
+            "id": "p-pass-through",
+            "text": "pass through"
+          },
+          {
+            "id": "w-network",
+            "text": "network"
+          }
+        ]
+      },
+      {
+        "en": "To cope, airports have undergone rapid expansion, becoming miniature cities that ease congestion.",
+        "targets": [
+          {
+            "id": "w-undergo",
+            "text": "undergone"
+          },
+          {
+            "id": "w-miniature",
+            "text": "miniature"
+          },
+          {
+            "id": "w-congestion",
+            "text": "congestion"
+          }
+        ]
+      },
+      {
+        "en": "Dubai's newly-minted mega-airport is expected to conclude soon and handle a mind-boggling number of passengers, so as to fulfil demand.",
+        "targets": [
+          {
+            "id": "w-newly-minted",
+            "text": "newly-minted"
+          },
+          {
+            "id": "w-conclude",
+            "text": "conclude"
+          },
+          {
+            "id": "w-mind-boggling",
+            "text": "mind-boggling"
+          },
+          {
+            "id": "p-fulfil-demand",
+            "text": "fulfil demand"
+          }
+        ]
+      },
+      {
+        "en": "Their facilities are becoming lavish, with casinos and malls on the premises.",
+        "targets": [
+          {
+            "id": "w-facility",
+            "text": "facilities"
+          },
+          {
+            "id": "w-lavish",
+            "text": "lavish"
+          },
+          {
+            "id": "w-premises",
+            "text": "premises"
+          }
+        ]
+      },
+      {
+        "en": "As this urban sprawl grows, friction with locals can overload resources.",
+        "targets": [
+          {
+            "id": "p-urban-sprawl",
+            "text": "urban sprawl"
+          },
+          {
+            "id": "w-friction",
+            "text": "friction"
+          },
+          {
+            "id": "w-overload",
+            "text": "overload"
+          }
+        ]
+      },
+      {
+        "en": "Airports also enter direct competition with local businesses.",
+        "targets": [
+          {
+            "id": "w-direct",
+            "text": "direct"
+          },
+          {
+            "id": "w-competition",
+            "text": "competition"
+          }
+        ]
+      }
+    ]
+  }
+}

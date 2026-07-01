@@ -1,0 +1,780 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 28,
+  "themeId": "theme-28",
+  "themeName": "エジプト王国の滅亡",
+  "version": "baad2bb5",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 658,
+      "id": "p-common-knowledge",
+      "type": "phrase",
+      "front": "common knowledge",
+      "meaning": "常識・広く知られた事実",
+      "synonyms": [
+        "widely accepted knowledge"
+      ],
+      "collocation": "it is common knowledge that…",
+      "examples": [
+        {
+          "en": "It is now common knowledge that the Egyptian Empire began to perish around 2200 BC."
+        }
+      ],
+      "pron": {
+        "tts": "common knowledge"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 659,
+      "id": "w-perish",
+      "type": "word",
+      "front": "perish",
+      "meaning": "滅びる・崩壊する",
+      "synonyms": [
+        "collapse"
+      ],
+      "collocation": "perish from drought, the empire collapsed",
+      "examples": [
+        {
+          "en": "It is now common knowledge that the Egyptian Empire began to perish around 2200 BC."
+        }
+      ],
+      "pron": {
+        "lookup": "perish",
+        "tts": "perish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 660,
+      "id": "w-deduce",
+      "type": "word",
+      "front": "deduce",
+      "meaning": "推論する・見抜く",
+      "synonyms": [
+        "figure out",
+        "infer"
+      ],
+      "collocation": "deduce that…, infer from evidence",
+      "examples": [
+        {
+          "en": "By studying pollen, archaeologists deduce that a drought caused a lack of precipitation."
+        }
+      ],
+      "pron": {
+        "lookup": "deduce",
+        "tts": "deduce"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 661,
+      "id": "p-ward-off",
+      "type": "phrase",
+      "front": "ward off",
+      "meaning": "食い止める・防ぐ",
+      "synonyms": [
+        "avert",
+        "stave off"
+      ],
+      "collocation": "ward off disaster, avert a crisis",
+      "examples": [
+        {
+          "en": "As the fringes of the empire dried up, pharaohs failed to take steps or plan ahead to ward off famine."
+        }
+      ],
+      "pron": {
+        "tts": "ward off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 662,
+      "id": "w-precipitation",
+      "type": "word",
+      "front": "precipitation",
+      "meaning": "降水",
+      "synonyms": [
+        "rainfall"
+      ],
+      "collocation": "a lack of precipitation",
+      "examples": [
+        {
+          "en": "By studying pollen, archaeologists deduce that a drought caused a lack of precipitation."
+        }
+      ],
+      "pron": {
+        "lookup": "precipitation",
+        "tts": "precipitation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 663,
+      "id": "p-take-steps",
+      "type": "phrase",
+      "front": "take steps",
+      "meaning": "対策を講じる",
+      "synonyms": [
+        "act",
+        "move"
+      ],
+      "collocation": "take steps to prevent…",
+      "examples": [
+        {
+          "en": "As the fringes of the empire dried up, pharaohs failed to take steps or plan ahead to ward off famine."
+        }
+      ],
+      "pron": {
+        "tts": "take steps"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 664,
+      "id": "w-yield",
+      "type": "word",
+      "front": "yield",
+      "meaning": "産出する・もたらす",
+      "synonyms": [
+        "harvest",
+        "produce"
+      ],
+      "collocation": "yield crops, crop yields",
+      "examples": [
+        {
+          "en": "The Nile valley was once a fertile region that could yield huge harvests."
+        }
+      ],
+      "pron": {
+        "lookup": "yield",
+        "tts": "yield"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 665,
+      "id": "p-fertile-region",
+      "type": "phrase",
+      "front": "fertile region",
+      "meaning": "肥沃な地帯",
+      "synonyms": [
+        "breadbasket"
+      ],
+      "collocation": "a fertile region, the breadbasket of…",
+      "examples": [
+        {
+          "en": "The Nile valley was once a fertile region that could yield huge harvests."
+        }
+      ],
+      "pron": {
+        "tts": "fertile region"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 666,
+      "id": "w-fringe",
+      "type": "word",
+      "front": "fringe",
+      "meaning": "周辺・周縁",
+      "synonyms": [
+        "periphery",
+        "outskirts"
+      ],
+      "collocation": "on the fringes of, the periphery",
+      "examples": [
+        {
+          "en": "As the fringes of the empire dried up, pharaohs failed to take steps or plan ahead to ward off famine."
+        }
+      ],
+      "pron": {
+        "lookup": "fringe",
+        "tts": "fringe"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 667,
+      "id": "p-plan-ahead",
+      "type": "phrase",
+      "front": "plan ahead",
+      "meaning": "前もって計画する",
+      "synonyms": [
+        "prepare in advance",
+        "pre-plan"
+      ],
+      "collocation": "plan ahead for…",
+      "examples": [
+        {
+          "en": "As the fringes of the empire dried up, pharaohs failed to take steps or plan ahead to ward off famine."
+        }
+      ],
+      "pron": {
+        "tts": "plan ahead"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 668,
+      "id": "w-conquer",
+      "type": "word",
+      "front": "conquer",
+      "meaning": "征服する・打ち負かす",
+      "synonyms": [
+        "defeat",
+        "vanquish",
+        "take over"
+      ],
+      "collocation": "conquer a region, defeat an enemy",
+      "examples": [
+        {
+          "en": "They still tried to conquer neighbours rather than act in a selfless way, and chaos spread to the borders."
+        }
+      ],
+      "pron": {
+        "lookup": "conquer",
+        "tts": "conquer"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 669,
+      "id": "w-selfless",
+      "type": "word",
+      "front": "selfless",
+      "meaning": "無私の・利他的な",
+      "synonyms": [
+        "altruistic",
+        "noble",
+        "magnanimous"
+      ],
+      "collocation": "a selfless act, altruistic behaviour",
+      "examples": [
+        {
+          "en": "They still tried to conquer neighbours rather than act in a selfless way, and chaos spread to the borders."
+        }
+      ],
+      "pron": {
+        "lookup": "selfless",
+        "tts": "selfless"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 670,
+      "id": "w-border",
+      "type": "word",
+      "front": "border",
+      "meaning": "境界・国境",
+      "synonyms": [
+        "boundary"
+      ],
+      "collocation": "cross the border, national boundaries",
+      "examples": [
+        {
+          "en": "They still tried to conquer neighbours rather than act in a selfless way, and chaos spread to the borders."
+        }
+      ],
+      "pron": {
+        "lookup": "border",
+        "tts": "border"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 671,
+      "id": "w-hardy",
+      "type": "word",
+      "front": "hardy",
+      "meaning": "丈夫な・頑健な",
+      "synonyms": [
+        "robust",
+        "sturdy"
+      ],
+      "collocation": "a hardy breed, sturdy enough for…",
+      "examples": [
+        {
+          "en": "Even a hardy people, resilient and used to arid land, could not survive."
+        }
+      ],
+      "pron": {
+        "lookup": "hardy",
+        "tts": "hardy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 672,
+      "id": "w-resilient",
+      "type": "word",
+      "front": "resilient",
+      "meaning": "耐性のある・回復力のある",
+      "synonyms": [
+        "resistant"
+      ],
+      "collocation": "resilient to disease, resistant to drought",
+      "examples": [
+        {
+          "en": "Even a hardy people, resilient and used to arid land, could not survive."
+        }
+      ],
+      "pron": {
+        "lookup": "resilient",
+        "tts": "resilient"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 673,
+      "id": "w-arid",
+      "type": "word",
+      "front": "arid",
+      "meaning": "乾燥した",
+      "synonyms": [
+        "bone-dry"
+      ],
+      "collocation": "an arid region, arid conditions",
+      "examples": [
+        {
+          "en": "Even a hardy people, resilient and used to arid land, could not survive."
+        }
+      ],
+      "pron": {
+        "lookup": "arid",
+        "tts": "arid"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 674,
+      "id": "w-prescience",
+      "type": "word",
+      "front": "prescience",
+      "meaning": "先見・先見の明",
+      "synonyms": [
+        "foresight",
+        "forethought"
+      ],
+      "collocation": "show foresight, with prescience",
+      "examples": [
+        {
+          "en": "With more prescience, they might have bred tougher cattle, but the empire began to disintegrate."
+        }
+      ],
+      "pron": {
+        "lookup": "prescience",
+        "tts": "prescience"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 675,
+      "id": "w-disintegrate",
+      "type": "word",
+      "front": "disintegrate",
+      "meaning": "崩壊する・衰退する",
+      "synonyms": [
+        "decline",
+        "fall into ruin"
+      ],
+      "collocation": "empires disintegrate",
+      "examples": [
+        {
+          "en": "With more prescience, they might have bred tougher cattle, but the empire began to disintegrate."
+        }
+      ],
+      "pron": {
+        "lookup": "disintegrate",
+        "tts": "disintegrate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 676,
+      "id": "w-breed",
+      "type": "word",
+      "front": "breed",
+      "meaning": "品種改良する・繁殖させる",
+      "synonyms": [
+        "cross",
+        "crossbreed"
+      ],
+      "collocation": "breed cattle, crossbreed varieties",
+      "examples": [
+        {
+          "en": "With more prescience, they might have bred tougher cattle, but the empire began to disintegrate."
+        }
+      ],
+      "pron": {
+        "lookup": "breed",
+        "tts": "breed"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 677,
+      "id": "w-egyptologist",
+      "type": "word",
+      "front": "Egyptologist",
+      "meaning": "エジプト学者",
+      "pron": {
+        "lookup": "Egyptologist",
+        "tts": "Egyptologist"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 678,
+      "id": "w-drought",
+      "type": "word",
+      "front": "drought",
+      "meaning": "干ばつ",
+      "pron": {
+        "lookup": "drought",
+        "tts": "drought"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 679,
+      "id": "p-fossilised-pollen",
+      "type": "phrase",
+      "front": "fossilised pollen",
+      "meaning": "化石化した花粉",
+      "pron": {
+        "tts": "fossilised pollen"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 680,
+      "id": "w-sediment",
+      "type": "word",
+      "front": "sediment",
+      "meaning": "堆積物",
+      "pron": {
+        "lookup": "sediment",
+        "tts": "sediment"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 681,
+      "id": "w-bovine",
+      "type": "word",
+      "front": "bovine",
+      "meaning": "ウシ科の動物",
+      "pron": {
+        "lookup": "bovine",
+        "tts": "bovine"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 682,
+      "id": "w-chaos",
+      "type": "word",
+      "front": "chaos",
+      "meaning": "混沌",
+      "pron": {
+        "lookup": "chaos",
+        "tts": "chaos"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 683,
+      "id": "w-variant",
+      "type": "word",
+      "front": "variant",
+      "meaning": "変種",
+      "pron": {
+        "lookup": "variant",
+        "tts": "variant"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 28,
+      "themeName": "エジプト王国の滅亡",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t28",
+    "theme": 28,
+    "themeName": "エジプト王国の滅亡",
+    "jp": "エジプト帝国は紀元前2200年頃に滅び始めたというのが今や常識だ。花粉を調べ、考古学者は干ばつが降水不足を招いたと推論する。ナイル渓谷はかつて莫大な収穫を産出できる肥沃な地帯だった。帝国の周辺が干上がると、ファラオは飢饉を食い止める対策も前もっての計画も怠った。彼らは無私に振る舞うより近隣を征服しようとし、混乱は国境に広がった。乾燥した地に慣れた頑健で耐性のある民でさえ生き延びられなかった。もっと先見があれば、より丈夫な牛を品種改良できたかもしれないが、帝国は崩壊し始めた。",
+    "sentences": [
+      {
+        "en": "It is now common knowledge that the Egyptian Empire began to perish around 2200 BC.",
+        "targets": [
+          {
+            "id": "p-common-knowledge",
+            "text": "common knowledge"
+          },
+          {
+            "id": "w-perish",
+            "text": "perish"
+          }
+        ]
+      },
+      {
+        "en": "By studying pollen, archaeologists deduce that a drought caused a lack of precipitation.",
+        "targets": [
+          {
+            "id": "w-deduce",
+            "text": "deduce"
+          },
+          {
+            "id": "w-precipitation",
+            "text": "precipitation"
+          }
+        ]
+      },
+      {
+        "en": "The Nile valley was once a fertile region that could yield huge harvests.",
+        "targets": [
+          {
+            "id": "p-fertile-region",
+            "text": "fertile region"
+          },
+          {
+            "id": "w-yield",
+            "text": "yield"
+          }
+        ]
+      },
+      {
+        "en": "As the fringes of the empire dried up, pharaohs failed to take steps or plan ahead to ward off famine.",
+        "targets": [
+          {
+            "id": "w-fringe",
+            "text": "fringes"
+          },
+          {
+            "id": "p-take-steps",
+            "text": "take steps"
+          },
+          {
+            "id": "p-plan-ahead",
+            "text": "plan ahead"
+          },
+          {
+            "id": "p-ward-off",
+            "text": "ward off"
+          }
+        ]
+      },
+      {
+        "en": "They still tried to conquer neighbours rather than act in a selfless way, and chaos spread to the borders.",
+        "targets": [
+          {
+            "id": "w-conquer",
+            "text": "conquer"
+          },
+          {
+            "id": "w-selfless",
+            "text": "selfless"
+          },
+          {
+            "id": "w-border",
+            "text": "borders"
+          }
+        ]
+      },
+      {
+        "en": "Even a hardy people, resilient and used to arid land, could not survive.",
+        "targets": [
+          {
+            "id": "w-hardy",
+            "text": "hardy"
+          },
+          {
+            "id": "w-resilient",
+            "text": "resilient"
+          },
+          {
+            "id": "w-arid",
+            "text": "arid"
+          }
+        ]
+      },
+      {
+        "en": "With more prescience, they might have bred tougher cattle, but the empire began to disintegrate.",
+        "targets": [
+          {
+            "id": "w-prescience",
+            "text": "prescience"
+          },
+          {
+            "id": "w-breed",
+            "text": "bred"
+          },
+          {
+            "id": "w-disintegrate",
+            "text": "disintegrate"
+          }
+        ]
+      }
+    ]
+  }
+}

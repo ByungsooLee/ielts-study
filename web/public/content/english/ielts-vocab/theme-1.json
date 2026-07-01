@@ -7,8 +7,8 @@
   "theme": 1,
   "themeId": "theme-1",
   "themeName": "ポリネシアの入植",
-  "version": "b05313a6",
-  "generatedAt": "2026-06-18T10:32:03.495Z",
+  "version": "45d3b249",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
   "items": [
     {
       "n": 1,
@@ -151,7 +151,7 @@
       ],
       "theme": 1,
       "themeName": "ポリネシアの入植",
-      "priority": "A",
+      "priority": "S",
       "domain": "english",
       "collection": "ielts-vocab"
     },
@@ -417,7 +417,7 @@
       ],
       "theme": 1,
       "themeName": "ポリネシアの入植",
-      "priority": "B",
+      "priority": "A",
       "domain": "english",
       "collection": "ielts-vocab"
     },

@@ -1,0 +1,760 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 54,
+  "themeId": "theme-54",
+  "themeName": "スポーツにおけるファン心理",
+  "version": "16d299bf",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1316,
+      "id": "w-various",
+      "type": "word",
+      "front": "various",
+      "meaning": "様々な",
+      "synonyms": [
+        "assorted",
+        "varied",
+        "miscellaneous"
+      ],
+      "collocation": "various reasons",
+      "examples": [
+        {
+          "en": "There are various reasons people love sport, such as sharing support with like-minded fans."
+        }
+      ],
+      "pron": {
+        "lookup": "various",
+        "tts": "various"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1317,
+      "id": "w-like-minded",
+      "type": "word",
+      "front": "like-minded",
+      "meaning": "同じ考えの",
+      "synonyms": [
+        "similar-thinking"
+      ],
+      "collocation": "like-minded people",
+      "examples": [
+        {
+          "en": "There are various reasons people love sport, such as sharing support with like-minded fans."
+        }
+      ],
+      "pron": {
+        "lookup": "like-minded",
+        "tts": "like-minded"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1318,
+      "id": "p-experience-chills",
+      "type": "phrase",
+      "front": "experience chills",
+      "meaning": "興奮する",
+      "synonyms": [
+        "get goosebumps"
+      ],
+      "collocation": "experience chills",
+      "examples": [
+        {
+          "en": "Others experience chills and enjoy the suspense of competition."
+        }
+      ],
+      "pron": {
+        "tts": "experience chills"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1319,
+      "id": "w-suspense",
+      "type": "word",
+      "front": "suspense",
+      "meaning": "緊張感・スリル",
+      "synonyms": [
+        "thrill",
+        "buzz"
+      ],
+      "collocation": "a sense of suspense",
+      "examples": [
+        {
+          "en": "Others experience chills and enjoy the suspense of competition."
+        }
+      ],
+      "pron": {
+        "lookup": "suspense",
+        "tts": "suspense"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1320,
+      "id": "p-zero-in-on",
+      "type": "phrase",
+      "front": "zero in on",
+      "meaning": "〜に注意を集中する",
+      "synonyms": [
+        "home in on",
+        "direct one's attention towards"
+      ],
+      "collocation": "zero in on",
+      "examples": [
+        {
+          "en": "Scientists now zero in on a deeper reason: tribalism, which acts subconsciously as a proxy for fighting another group."
+        }
+      ],
+      "pron": {
+        "tts": "zero in on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1321,
+      "id": "w-subconsciously",
+      "type": "word",
+      "front": "subconsciously",
+      "meaning": "潜在意識で",
+      "synonyms": [
+        "subliminally"
+      ],
+      "collocation": "act subconsciously",
+      "examples": [
+        {
+          "en": "Scientists now zero in on a deeper reason: tribalism, which acts subconsciously as a proxy for fighting another group."
+        }
+      ],
+      "pron": {
+        "lookup": "subconsciously",
+        "tts": "subconsciously"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1322,
+      "id": "p-proxy-for",
+      "type": "phrase",
+      "front": "proxy for",
+      "meaning": "〜の代わりになるもの",
+      "synonyms": [
+        "substitute for",
+        "alternative to"
+      ],
+      "collocation": "a proxy for",
+      "examples": [
+        {
+          "en": "Scientists now zero in on a deeper reason: tribalism, which acts subconsciously as a proxy for fighting another group."
+        }
+      ],
+      "pron": {
+        "tts": "proxy for"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1323,
+      "id": "w-nature",
+      "type": "word",
+      "front": "nature",
+      "meaning": "性質・本性",
+      "synonyms": [
+        "character",
+        "disposition"
+      ],
+      "collocation": "human nature",
+      "examples": [
+        {
+          "en": "It is human nature to want our team to win, and if they are beaten, we distance ourselves from them."
+        }
+      ],
+      "pron": {
+        "lookup": "nature",
+        "tts": "nature"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1324,
+      "id": "w-beat",
+      "type": "word",
+      "front": "beat",
+      "meaning": "負かす",
+      "synonyms": [
+        "defeat",
+        "best"
+      ],
+      "collocation": "beat a team",
+      "examples": [
+        {
+          "en": "It is human nature to want our team to win, and if they are beaten, we distance ourselves from them."
+        }
+      ],
+      "pron": {
+        "lookup": "beat",
+        "tts": "beat"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1325,
+      "id": "p-distance-oneself-from",
+      "type": "phrase",
+      "front": "distance oneself from",
+      "meaning": "〜から自分を遠ざける",
+      "synonyms": [
+        "disassociate oneself from"
+      ],
+      "collocation": "distance oneself from",
+      "examples": [
+        {
+          "en": "It is human nature to want our team to win, and if they are beaten, we distance ourselves from them."
+        }
+      ],
+      "pron": {
+        "tts": "distance oneself from"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1326,
+      "id": "w-status",
+      "type": "word",
+      "front": "status",
+      "meaning": "地位・立場",
+      "synonyms": [
+        "standing",
+        "position",
+        "rank"
+      ],
+      "collocation": "social status",
+      "examples": [
+        {
+          "en": "Our social status seems to depend on the team's victory."
+        }
+      ],
+      "pron": {
+        "lookup": "status",
+        "tts": "status"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1327,
+      "id": "w-victory",
+      "type": "word",
+      "front": "victory",
+      "meaning": "勝利",
+      "synonyms": [
+        "triumph"
+      ],
+      "collocation": "a great victory",
+      "examples": [
+        {
+          "en": "Our social status seems to depend on the team's victory."
+        }
+      ],
+      "pron": {
+        "lookup": "victory",
+        "tts": "victory"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1328,
+      "id": "w-empathy",
+      "type": "word",
+      "front": "empathy",
+      "meaning": "共感・親近感",
+      "synonyms": [
+        "affinity",
+        "kinship"
+      ],
+      "collocation": "feel empathy",
+      "examples": [
+        {
+          "en": "Empathy underlies our connection to the team, and we put ourselves in the shoes of the players."
+        }
+      ],
+      "pron": {
+        "lookup": "empathy",
+        "tts": "empathy"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1329,
+      "id": "w-underlie",
+      "type": "word",
+      "front": "underlie",
+      "meaning": "〜の基礎となる",
+      "synonyms": [
+        "form the basis of",
+        "be at the root of"
+      ],
+      "collocation": "underlie sth",
+      "examples": [
+        {
+          "en": "Empathy underlies our connection to the team, and we put ourselves in the shoes of the players."
+        }
+      ],
+      "pron": {
+        "lookup": "underlie",
+        "tts": "underlie"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1330,
+      "id": "p-put-oneself-in-the-shoes-of",
+      "type": "phrase",
+      "front": "put oneself in the shoes of",
+      "meaning": "〜の立場に身を置く",
+      "synonyms": [
+        "empathise with",
+        "identify with"
+      ],
+      "collocation": "put oneself in the shoes of",
+      "examples": [
+        {
+          "en": "Empathy underlies our connection to the team, and we put ourselves in the shoes of the players."
+        }
+      ],
+      "pron": {
+        "tts": "put oneself in the shoes of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1331,
+      "id": "w-triumphant",
+      "type": "word",
+      "front": "triumphant",
+      "meaning": "勝ち誇った",
+      "synonyms": [
+        "victorious"
+      ],
+      "collocation": "feel triumphant",
+      "examples": [
+        {
+          "en": "If the team wins, we feel triumphant, but if they suffer a loss, it hurts."
+        }
+      ],
+      "pron": {
+        "lookup": "triumphant",
+        "tts": "triumphant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1332,
+      "id": "p-suffer-a-loss",
+      "type": "phrase",
+      "front": "suffer a loss",
+      "meaning": "敗北を喫する",
+      "synonyms": [
+        "suffer a defeat"
+      ],
+      "collocation": "suffer a loss",
+      "examples": [
+        {
+          "en": "If the team wins, we feel triumphant, but if they suffer a loss, it hurts."
+        }
+      ],
+      "pron": {
+        "tts": "suffer a loss"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1333,
+      "id": "p-state-of-mind",
+      "type": "phrase",
+      "front": "state of mind",
+      "meaning": "心理状態・物の見方",
+      "synonyms": [
+        "mentality",
+        "mindset",
+        "outlook"
+      ],
+      "collocation": "a state of mind",
+      "examples": [
+        {
+          "en": "This 'us versus them' state of mind can spiral out of control and lead to violence fuelled by tribalism."
+        }
+      ],
+      "pron": {
+        "tts": "state of mind"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1334,
+      "id": "p-spiral-out-of-control",
+      "type": "phrase",
+      "front": "spiral out of control",
+      "meaning": "手に負えない状況に陥る",
+      "synonyms": [
+        "get out of hand"
+      ],
+      "collocation": "spiral out of control",
+      "examples": [
+        {
+          "en": "This 'us versus them' state of mind can spiral out of control and lead to violence fuelled by tribalism."
+        }
+      ],
+      "pron": {
+        "tts": "spiral out of control"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1335,
+      "id": "p-be-fuelled-by",
+      "type": "phrase",
+      "front": "be fuelled by",
+      "meaning": "〜に煽られる",
+      "synonyms": [
+        "be fed by",
+        "be inflamed by"
+      ],
+      "collocation": "be fuelled by",
+      "examples": [
+        {
+          "en": "This 'us versus them' state of mind can spiral out of control and lead to violence fuelled by tribalism."
+        }
+      ],
+      "pron": {
+        "tts": "be fuelled by"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1336,
+      "id": "w-escapism",
+      "type": "word",
+      "front": "escapism",
+      "meaning": "現実逃避",
+      "pron": {
+        "lookup": "escapism",
+        "tts": "escapism"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1337,
+      "id": "w-tribalism",
+      "type": "word",
+      "front": "tribalism",
+      "meaning": "部族主義",
+      "pron": {
+        "lookup": "tribalism",
+        "tts": "tribalism"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1338,
+      "id": "w-testosterone",
+      "type": "word",
+      "front": "testosterone",
+      "meaning": "テストステロン",
+      "pron": {
+        "lookup": "testosterone",
+        "tts": "testosterone"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1339,
+      "id": "w-participant",
+      "type": "word",
+      "front": "participant",
+      "meaning": "参加者",
+      "pron": {
+        "lookup": "participant",
+        "tts": "participant"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 54,
+      "themeName": "スポーツにおけるファン心理",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t54",
+    "theme": 54,
+    "themeName": "スポーツにおけるファン心理",
+    "jp": "人がスポーツを愛する理由は様々で、同じ考えのファンと応援を分かち合うこともその一つだ。試合の緊張感に興奮する人もいる。科学者は今、より深い理由に注意を集中する。部族主義で、別の集団と戦うことの潜在意識的な代わりとして働く。自分のチームに勝ってほしいのは人の本性で、負かされると私たちは彼らから距離を置く。社会的地位はチームの勝利に左右されるようだ。共感が私たちとチームのつながりの基礎にあり、選手の立場に身を置く。勝てば勝ち誇った気分になり、負ければつらい。この『我々対彼ら』の心理状態は手に負えなくなり、部族主義に煽られた暴力につながりうる。",
+    "sentences": [
+      {
+        "en": "There are various reasons people love sport, such as sharing support with like-minded fans.",
+        "targets": [
+          {
+            "id": "w-various",
+            "text": "various"
+          },
+          {
+            "id": "w-like-minded",
+            "text": "like-minded"
+          }
+        ]
+      },
+      {
+        "en": "Others experience chills and enjoy the suspense of competition.",
+        "targets": [
+          {
+            "id": "p-experience-chills",
+            "text": "experience chills"
+          },
+          {
+            "id": "w-suspense",
+            "text": "suspense"
+          }
+        ]
+      },
+      {
+        "en": "Scientists now zero in on a deeper reason: tribalism, which acts subconsciously as a proxy for fighting another group.",
+        "targets": [
+          {
+            "id": "p-zero-in-on",
+            "text": "zero in on"
+          },
+          {
+            "id": "w-subconsciously",
+            "text": "subconsciously"
+          },
+          {
+            "id": "p-proxy-for",
+            "text": "proxy for"
+          }
+        ]
+      },
+      {
+        "en": "It is human nature to want our team to win, and if they are beaten, we distance ourselves from them.",
+        "targets": [
+          {
+            "id": "w-nature",
+            "text": "nature"
+          },
+          {
+            "id": "w-beat",
+            "text": "beaten"
+          },
+          {
+            "id": "p-distance-oneself-from",
+            "text": "distance ourselves from"
+          }
+        ]
+      },
+      {
+        "en": "Our social status seems to depend on the team's victory.",
+        "targets": [
+          {
+            "id": "w-status",
+            "text": "status"
+          },
+          {
+            "id": "w-victory",
+            "text": "victory"
+          }
+        ]
+      },
+      {
+        "en": "Empathy underlies our connection to the team, and we put ourselves in the shoes of the players.",
+        "targets": [
+          {
+            "id": "w-empathy",
+            "text": "Empathy"
+          },
+          {
+            "id": "w-underlie",
+            "text": "underlies"
+          },
+          {
+            "id": "p-put-oneself-in-the-shoes-of",
+            "text": "put ourselves in the shoes of"
+          }
+        ]
+      },
+      {
+        "en": "If the team wins, we feel triumphant, but if they suffer a loss, it hurts.",
+        "targets": [
+          {
+            "id": "w-triumphant",
+            "text": "triumphant"
+          },
+          {
+            "id": "p-suffer-a-loss",
+            "text": "suffer a loss"
+          }
+        ]
+      },
+      {
+        "en": "This 'us versus them' state of mind can spiral out of control and lead to violence fuelled by tribalism.",
+        "targets": [
+          {
+            "id": "p-state-of-mind",
+            "text": "state of mind"
+          },
+          {
+            "id": "p-spiral-out-of-control",
+            "text": "spiral out of control"
+          },
+          {
+            "id": "p-be-fuelled-by",
+            "text": "fuelled by"
+          }
+        ]
+      }
+    ]
+  }
+}

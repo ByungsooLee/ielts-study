@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 57,
+  "themeId": "theme-57",
+  "themeName": "火山噴火の予知",
+  "version": "2fc9a6ca",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1386,
+      "id": "p-take-place",
+      "type": "phrase",
+      "front": "take place",
+      "meaning": "起こる",
+      "synonyms": [
+        "occur"
+      ],
+      "collocation": "take place",
+      "examples": [
+        {
+          "en": "In April 2018, an eruption took place on Mount Io after it had been dormant for 250 years, and ash blanketed the area."
+        }
+      ],
+      "pron": {
+        "tts": "take place"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1387,
+      "id": "w-dormant",
+      "type": "word",
+      "front": "dormant",
+      "meaning": "休眠中の",
+      "synonyms": [
+        "inactive",
+        "inert"
+      ],
+      "collocation": "a dormant volcano",
+      "examples": [
+        {
+          "en": "In April 2018, an eruption took place on Mount Io after it had been dormant for 250 years, and ash blanketed the area."
+        }
+      ],
+      "pron": {
+        "lookup": "dormant",
+        "tts": "dormant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1388,
+      "id": "w-blanket",
+      "type": "word",
+      "front": "blanket",
+      "meaning": "覆う",
+      "synonyms": [
+        "coat",
+        "cloak",
+        "envelop"
+      ],
+      "collocation": "blanket the area",
+      "examples": [
+        {
+          "en": "In April 2018, an eruption took place on Mount Io after it had been dormant for 250 years, and ash blanketed the area."
+        }
+      ],
+      "pron": {
+        "lookup": "blanket",
+        "tts": "blanket"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1389,
+      "id": "p-special-case",
+      "type": "phrase",
+      "front": "special case",
+      "meaning": "特殊なケース・異例",
+      "synonyms": [
+        "anomaly",
+        "deviation from the norm"
+      ],
+      "collocation": "a special case",
+      "examples": [
+        {
+          "en": "Japan is not a special case; it has a cluster of volatile volcanoes near cities, coupled with the danger of earthquakes."
+        }
+      ],
+      "pron": {
+        "tts": "special case"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1390,
+      "id": "w-volatile",
+      "type": "word",
+      "front": "volatile",
+      "meaning": "不安定な・危険な",
+      "synonyms": [
+        "unstable",
+        "explosive"
+      ],
+      "collocation": "a volatile volcano",
+      "examples": [
+        {
+          "en": "Japan is not a special case; it has a cluster of volatile volcanoes near cities, coupled with the danger of earthquakes."
+        }
+      ],
+      "pron": {
+        "lookup": "volatile",
+        "tts": "volatile"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1391,
+      "id": "w-cluster",
+      "type": "word",
+      "front": "cluster",
+      "meaning": "集団・群れ",
+      "synonyms": [
+        "bunch"
+      ],
+      "collocation": "a cluster of",
+      "examples": [
+        {
+          "en": "Japan is not a special case; it has a cluster of volatile volcanoes near cities, coupled with the danger of earthquakes."
+        }
+      ],
+      "pron": {
+        "lookup": "cluster",
+        "tts": "cluster"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1392,
+      "id": "p-coupled-with",
+      "type": "phrase",
+      "front": "coupled with",
+      "meaning": "〜と共に",
+      "synonyms": [
+        "along with",
+        "combined with"
+      ],
+      "collocation": "coupled with",
+      "examples": [
+        {
+          "en": "Japan is not a special case; it has a cluster of volatile volcanoes near cities, coupled with the danger of earthquakes."
+        }
+      ],
+      "pron": {
+        "tts": "coupled with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1393,
+      "id": "w-forecast",
+      "type": "word",
+      "front": "forecast",
+      "meaning": "予測する",
+      "synonyms": [
+        "predict"
+      ],
+      "collocation": "forecast eruptions",
+      "examples": [
+        {
+          "en": "It is vital to forecast eruptions, but the timing is elusive, and volcanologists must go to the volcano in the flesh."
+        }
+      ],
+      "pron": {
+        "lookup": "forecast",
+        "tts": "forecast"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1394,
+      "id": "p-in-the-flesh",
+      "type": "phrase",
+      "front": "in the flesh",
+      "meaning": "直接に・じきじきに",
+      "synonyms": [
+        "in person"
+      ],
+      "collocation": "in the flesh",
+      "examples": [
+        {
+          "en": "It is vital to forecast eruptions, but the timing is elusive, and volcanologists must go to the volcano in the flesh."
+        }
+      ],
+      "pron": {
+        "tts": "in the flesh"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1395,
+      "id": "w-courage",
+      "type": "word",
+      "front": "courage",
+      "meaning": "勇気",
+      "synonyms": [
+        "bravery",
+        "boldness",
+        "fortitude"
+      ],
+      "collocation": "take courage",
+      "examples": [
+        {
+          "en": "It takes great courage to take data from an active volcano."
+        }
+      ],
+      "pron": {
+        "lookup": "courage",
+        "tts": "courage"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1396,
+      "id": "w-duration",
+      "type": "word",
+      "front": "duration",
+      "meaning": "継続時間・期間",
+      "synonyms": [
+        "length",
+        "timespan"
+      ],
+      "collocation": "the duration of",
+      "examples": [
+        {
+          "en": "The duration of the intervals between eruptions varies, making each visit a precarious situation, but a solution may be close at hand."
+        }
+      ],
+      "pron": {
+        "lookup": "duration",
+        "tts": "duration"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1397,
+      "id": "w-interval",
+      "type": "word",
+      "front": "interval",
+      "meaning": "小止み・休止",
+      "synonyms": [
+        "lull"
+      ],
+      "collocation": "a lull between",
+      "examples": [
+        {
+          "en": "The duration of the intervals between eruptions varies, making each visit a precarious situation, but a solution may be close at hand."
+        }
+      ],
+      "pron": {
+        "lookup": "interval",
+        "tts": "interval"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1398,
+      "id": "w-precarious",
+      "type": "word",
+      "front": "precarious",
+      "meaning": "危ない・危険な",
+      "synonyms": [
+        "hazardous",
+        "perilous",
+        "risky"
+      ],
+      "collocation": "a precarious situation",
+      "examples": [
+        {
+          "en": "The duration of the intervals between eruptions varies, making each visit a precarious situation, but a solution may be close at hand."
+        }
+      ],
+      "pron": {
+        "lookup": "precarious",
+        "tts": "precarious"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1399,
+      "id": "p-close-at-hand",
+      "type": "phrase",
+      "front": "close at hand",
+      "meaning": "手の届く所に・目前に",
+      "synonyms": [
+        "imminent"
+      ],
+      "collocation": "close at hand",
+      "examples": [
+        {
+          "en": "The duration of the intervals between eruptions varies, making each visit a precarious situation, but a solution may be close at hand."
+        }
+      ],
+      "pron": {
+        "tts": "close at hand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1400,
+      "id": "w-density",
+      "type": "word",
+      "front": "density",
+      "meaning": "濃度・体積・質量",
+      "synonyms": [
+        "thickness",
+        "bulk",
+        "mass"
+      ],
+      "collocation": "the density of",
+      "examples": [
+        {
+          "en": "Scientists use satellites to safely process changes in the density of the dome and get feedback in real time."
+        }
+      ],
+      "pron": {
+        "lookup": "density",
+        "tts": "density"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1401,
+      "id": "w-feedback",
+      "type": "word",
+      "front": "feedback",
+      "meaning": "評価・フィードバック",
+      "synonyms": [
+        "assessment",
+        "appraisal"
+      ],
+      "collocation": "provide feedback",
+      "examples": [
+        {
+          "en": "Scientists use satellites to safely process changes in the density of the dome and get feedback in real time."
+        }
+      ],
+      "pron": {
+        "lookup": "feedback",
+        "tts": "feedback"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1402,
+      "id": "w-integrate",
+      "type": "word",
+      "front": "integrate",
+      "meaning": "統合する",
+      "synonyms": [
+        "incorporate",
+        "consolidate"
+      ],
+      "collocation": "integrate data",
+      "examples": [
+        {
+          "en": "These changes are hard to perceive with the naked eye, so scientists integrate this data with past eruptions."
+        }
+      ],
+      "pron": {
+        "lookup": "integrate",
+        "tts": "integrate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1403,
+      "id": "w-rudimentary",
+      "type": "word",
+      "front": "rudimentary",
+      "meaning": "初歩の",
+      "synonyms": [
+        "basic",
+        "elementary"
+      ],
+      "collocation": "rudimentary knowledge",
+      "examples": [
+        {
+          "en": "Albeit still in the rudimentary stages, it could be an important step forward."
+        }
+      ],
+      "pron": {
+        "lookup": "rudimentary",
+        "tts": "rudimentary"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1404,
+      "id": "p-step-forward",
+      "type": "phrase",
+      "front": "step forward",
+      "meaning": "前進",
+      "synonyms": [
+        "advancement",
+        "improvement"
+      ],
+      "collocation": "a step forward",
+      "examples": [
+        {
+          "en": "Albeit still in the rudimentary stages, it could be an important step forward."
+        }
+      ],
+      "pron": {
+        "tts": "step forward"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1405,
+      "id": "w-eruption",
+      "type": "word",
+      "front": "eruption",
+      "meaning": "噴火",
+      "pron": {
+        "lookup": "eruption",
+        "tts": "eruption"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1406,
+      "id": "w-elusive",
+      "type": "word",
+      "front": "elusive",
+      "meaning": "捉えにくい",
+      "pron": {
+        "lookup": "elusive",
+        "tts": "elusive"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1407,
+      "id": "p-the-naked-eye",
+      "type": "phrase",
+      "front": "the naked eye",
+      "meaning": "肉眼",
+      "pron": {
+        "tts": "the naked eye"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1408,
+      "id": "p-weather-satellite",
+      "type": "phrase",
+      "front": "weather satellite",
+      "meaning": "気象衛星",
+      "pron": {
+        "tts": "weather satellite"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 57,
+      "themeName": "火山噴火の予知",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t57",
+    "theme": 57,
+    "themeName": "火山噴火の予知",
+    "jp": "2018年4月、硫黄山は250年休眠した後に噴火が起こり、火山灰が一帯を覆った。日本は特殊なケースではない。都市の近くに不安定な火山の集団があり、地震の危険も伴う。噴火を予測することは重要だが、時期は捉えにくく、火山学者は火山に直接行かねばならない。活火山からデータを取るには大きな勇気が要る。噴火の間隔の継続時間はまちまちで、訪問のたびに危ない状況になるが、解決策は目前かもしれない。科学者は衛星を使ってドームの密度の変化を安全に処理し、リアルタイムで評価を得る。こうした変化は肉眼では見分けにくいので、科学者はこのデータを過去の噴火と統合する。まだ初歩の段階だが、重要な前進になりうる。",
+    "sentences": [
+      {
+        "en": "In April 2018, an eruption took place on Mount Io after it had been dormant for 250 years, and ash blanketed the area.",
+        "targets": [
+          {
+            "id": "p-take-place",
+            "text": "took place"
+          },
+          {
+            "id": "w-dormant",
+            "text": "dormant"
+          },
+          {
+            "id": "w-blanket",
+            "text": "blanketed"
+          }
+        ]
+      },
+      {
+        "en": "Japan is not a special case; it has a cluster of volatile volcanoes near cities, coupled with the danger of earthquakes.",
+        "targets": [
+          {
+            "id": "p-special-case",
+            "text": "special case"
+          },
+          {
+            "id": "w-cluster",
+            "text": "cluster"
+          },
+          {
+            "id": "w-volatile",
+            "text": "volatile"
+          },
+          {
+            "id": "p-coupled-with",
+            "text": "coupled with"
+          }
+        ]
+      },
+      {
+        "en": "It is vital to forecast eruptions, but the timing is elusive, and volcanologists must go to the volcano in the flesh.",
+        "targets": [
+          {
+            "id": "w-forecast",
+            "text": "forecast"
+          },
+          {
+            "id": "p-in-the-flesh",
+            "text": "in the flesh"
+          }
+        ]
+      },
+      {
+        "en": "It takes great courage to take data from an active volcano.",
+        "targets": [
+          {
+            "id": "w-courage",
+            "text": "courage"
+          }
+        ]
+      },
+      {
+        "en": "The duration of the intervals between eruptions varies, making each visit a precarious situation, but a solution may be close at hand.",
+        "targets": [
+          {
+            "id": "w-duration",
+            "text": "duration"
+          },
+          {
+            "id": "w-interval",
+            "text": "intervals"
+          },
+          {
+            "id": "w-precarious",
+            "text": "precarious"
+          },
+          {
+            "id": "p-close-at-hand",
+            "text": "close at hand"
+          }
+        ]
+      },
+      {
+        "en": "Scientists use satellites to safely process changes in the density of the dome and get feedback in real time.",
+        "targets": [
+          {
+            "id": "w-process",
+            "text": "process"
+          },
+          {
+            "id": "w-density",
+            "text": "density"
+          },
+          {
+            "id": "w-feedback",
+            "text": "feedback"
+          }
+        ]
+      },
+      {
+        "en": "These changes are hard to perceive with the naked eye, so scientists integrate this data with past eruptions.",
+        "targets": [
+          {
+            "id": "w-perceive",
+            "text": "perceive"
+          },
+          {
+            "id": "w-integrate",
+            "text": "integrate"
+          }
+        ]
+      },
+      {
+        "en": "Albeit still in the rudimentary stages, it could be an important step forward.",
+        "targets": [
+          {
+            "id": "w-rudimentary",
+            "text": "rudimentary"
+          },
+          {
+            "id": "p-step-forward",
+            "text": "step forward"
+          }
+        ]
+      }
+    ]
+  }
+}

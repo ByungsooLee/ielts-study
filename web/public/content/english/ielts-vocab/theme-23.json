@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 23,
+  "themeId": "theme-23",
+  "themeName": "イエローストーンのオオカミ",
+  "version": "edc19adf",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 533,
+      "id": "w-reintroduction",
+      "type": "word",
+      "front": "reintroduction",
+      "meaning": "再導入",
+      "synonyms": [
+        "reinstatement"
+      ],
+      "collocation": "the reintroduction of wolves",
+      "examples": [
+        {
+          "en": "The reintroduction of wolves to Yellowstone helped kick-start the recovery of the whole ecosystem."
+        }
+      ],
+      "pron": {
+        "lookup": "reintroduction",
+        "tts": "reintroduction"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 534,
+      "id": "w-kick-start",
+      "type": "word",
+      "front": "kick-start",
+      "meaning": "始動させる",
+      "synonyms": [
+        "jump-start",
+        "trigger"
+      ],
+      "collocation": "kick-start the economy, trigger a change",
+      "examples": [
+        {
+          "en": "The reintroduction of wolves to Yellowstone helped kick-start the recovery of the whole ecosystem."
+        }
+      ],
+      "pron": {
+        "lookup": "kick-start",
+        "tts": "kick-start"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 535,
+      "id": "p-cascade-effect",
+      "type": "phrase",
+      "front": "cascade effect",
+      "meaning": "連鎖効果",
+      "synonyms": [
+        "ripple effect",
+        "domino effect"
+      ],
+      "collocation": "trigger a cascade effect",
+      "examples": [
+        {
+          "en": "It set off a cascade effect that restored the natural balance of the park."
+        }
+      ],
+      "pron": {
+        "tts": "cascade effect"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 536,
+      "id": "w-restore",
+      "type": "word",
+      "front": "restore",
+      "meaning": "回復させる・戻す",
+      "synonyms": [
+        "reinstate",
+        "bring back"
+      ],
+      "collocation": "restore balance, restore order",
+      "examples": [
+        {
+          "en": "It set off a cascade effect that restored the natural balance of the park."
+        }
+      ],
+      "pron": {
+        "lookup": "restore",
+        "tts": "restore"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 537,
+      "id": "w-balance",
+      "type": "word",
+      "front": "balance",
+      "meaning": "均衡・バランス",
+      "synonyms": [
+        "equilibrium",
+        "stability"
+      ],
+      "collocation": "restore balance, a delicate balance",
+      "examples": [
+        {
+          "en": "It set off a cascade effect that restored the natural balance of the park."
+        }
+      ],
+      "pron": {
+        "lookup": "balance",
+        "tts": "balance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 538,
+      "id": "w-livestock",
+      "type": "word",
+      "front": "livestock",
+      "meaning": "家畜",
+      "synonyms": [
+        "cattle"
+      ],
+      "collocation": "kill livestock, raise livestock",
+      "examples": [
+        {
+          "en": "As an apex predator, the wolf plays a key role, though it can also kill livestock."
+        }
+      ],
+      "pron": {
+        "lookup": "livestock",
+        "tts": "livestock"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 539,
+      "id": "p-apex-predator",
+      "type": "phrase",
+      "front": "apex predator",
+      "meaning": "頂点捕食者",
+      "synonyms": [
+        "top predator",
+        "alpha predator"
+      ],
+      "collocation": "the apex predator of the region",
+      "examples": [
+        {
+          "en": "As an apex predator, the wolf plays a key role, though it can also kill livestock."
+        }
+      ],
+      "pron": {
+        "tts": "apex predator"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 540,
+      "id": "p-play-a-key-role",
+      "type": "phrase",
+      "front": "play a key role",
+      "meaning": "重要な役割を果たす",
+      "synonyms": [
+        "play an important part"
+      ],
+      "collocation": "play a key role in…",
+      "examples": [
+        {
+          "en": "As an apex predator, the wolf plays a key role, though it can also kill livestock."
+        }
+      ],
+      "pron": {
+        "tts": "play a key role"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 541,
+      "id": "w-detrimental",
+      "type": "word",
+      "front": "detrimental",
+      "meaning": "有害な",
+      "synonyms": [
+        "adverse",
+        "harmful",
+        "damaging"
+      ],
+      "collocation": "have a detrimental effect on",
+      "examples": [
+        {
+          "en": "This made the plan controversial, and ranchers were hostile towards it, fearing a detrimental effect on their herds."
+        }
+      ],
+      "pron": {
+        "lookup": "detrimental",
+        "tts": "detrimental"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 542,
+      "id": "w-formulate",
+      "type": "word",
+      "front": "formulate",
+      "meaning": "立案する",
+      "synonyms": [
+        "devise",
+        "draw up"
+      ],
+      "collocation": "formulate a plan, formulate a strategy",
+      "examples": [
+        {
+          "en": "To mollify them, ecologists had to formulate a careful course of action."
+        }
+      ],
+      "pron": {
+        "lookup": "formulate",
+        "tts": "formulate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 543,
+      "id": "p-course-of-action",
+      "type": "phrase",
+      "front": "course of action",
+      "meaning": "行動方針",
+      "synonyms": [
+        "plan",
+        "strategy"
+      ],
+      "collocation": "the best course of action",
+      "examples": [
+        {
+          "en": "To mollify them, ecologists had to formulate a careful course of action."
+        }
+      ],
+      "pron": {
+        "tts": "course of action"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 544,
+      "id": "w-controversial",
+      "type": "word",
+      "front": "controversial",
+      "meaning": "物議を醸す",
+      "synonyms": [
+        "contentious",
+        "questionable"
+      ],
+      "collocation": "a controversial decision",
+      "examples": [
+        {
+          "en": "This made the plan controversial, and ranchers were hostile towards it, fearing a detrimental effect on their herds."
+        }
+      ],
+      "pron": {
+        "lookup": "controversial",
+        "tts": "controversial"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 545,
+      "id": "p-hostile-towards",
+      "type": "phrase",
+      "front": "hostile towards",
+      "meaning": "敵対的な",
+      "synonyms": [
+        "antagonistic to"
+      ],
+      "collocation": "hostile towards the idea",
+      "examples": [
+        {
+          "en": "This made the plan controversial, and ranchers were hostile towards it, fearing a detrimental effect on their herds."
+        }
+      ],
+      "pron": {
+        "tts": "hostile towards"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 546,
+      "id": "w-mollify",
+      "type": "word",
+      "front": "mollify",
+      "meaning": "なだめる・和らげる",
+      "synonyms": [
+        "allay",
+        "put to rest"
+      ],
+      "collocation": "mollify concerns, allay fears",
+      "examples": [
+        {
+          "en": "To mollify them, ecologists had to formulate a careful course of action."
+        }
+      ],
+      "pron": {
+        "lookup": "mollify",
+        "tts": "mollify"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 547,
+      "id": "w-constant",
+      "type": "word",
+      "front": "constant",
+      "meaning": "絶え間ない",
+      "synonyms": [
+        "continuous",
+        "continual"
+      ],
+      "collocation": "a constant struggle, constant pressure",
+      "examples": [
+        {
+          "en": "Under constant surveillance, the wolves did not harass cattle as feared."
+        }
+      ],
+      "pron": {
+        "lookup": "constant",
+        "tts": "constant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 548,
+      "id": "w-surveillance",
+      "type": "word",
+      "front": "surveillance",
+      "meaning": "監視",
+      "synonyms": [
+        "scrutiny",
+        "close observation"
+      ],
+      "collocation": "under surveillance, close scrutiny",
+      "examples": [
+        {
+          "en": "Under constant surveillance, the wolves did not harass cattle as feared."
+        }
+      ],
+      "pron": {
+        "lookup": "surveillance",
+        "tts": "surveillance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 549,
+      "id": "w-diminish",
+      "type": "word",
+      "front": "diminish",
+      "meaning": "減る・衰える",
+      "synonyms": [
+        "shrink",
+        "dwindle"
+      ],
+      "collocation": "diminish over time, numbers shrink",
+      "examples": [
+        {
+          "en": "Instead, elk numbers began to diminish, willows returned to replenish the riverbanks, and the once fragile ecosystem grew strong."
+        }
+      ],
+      "pron": {
+        "lookup": "diminish",
+        "tts": "diminish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 550,
+      "id": "w-harass",
+      "type": "word",
+      "front": "harass",
+      "meaning": "悩ませる・付きまとう",
+      "synonyms": [
+        "stalk",
+        "chase"
+      ],
+      "collocation": "harass the herd",
+      "examples": [
+        {
+          "en": "Under constant surveillance, the wolves did not harass cattle as feared."
+        }
+      ],
+      "pron": {
+        "lookup": "harass",
+        "tts": "harass"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 551,
+      "id": "w-replenish",
+      "type": "word",
+      "front": "replenish",
+      "meaning": "補充する",
+      "synonyms": [
+        "restore",
+        "top up"
+      ],
+      "collocation": "replenish stocks",
+      "examples": [
+        {
+          "en": "Instead, elk numbers began to diminish, willows returned to replenish the riverbanks, and the once fragile ecosystem grew strong."
+        }
+      ],
+      "pron": {
+        "lookup": "replenish",
+        "tts": "replenish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 552,
+      "id": "w-fragile",
+      "type": "word",
+      "front": "fragile",
+      "meaning": "もろい・繊細な",
+      "synonyms": [
+        "delicate"
+      ],
+      "collocation": "a fragile ecosystem, a delicate balance",
+      "examples": [
+        {
+          "en": "Instead, elk numbers began to diminish, willows returned to replenish the riverbanks, and the once fragile ecosystem grew strong."
+        }
+      ],
+      "pron": {
+        "lookup": "fragile",
+        "tts": "fragile"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 553,
+      "id": "w-rewilding",
+      "type": "word",
+      "front": "rewilding",
+      "meaning": "再野生化・復活",
+      "synonyms": [
+        "bringing back"
+      ],
+      "pron": {
+        "lookup": "rewilding",
+        "tts": "rewilding"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 554,
+      "id": "p-subsist-on",
+      "type": "phrase",
+      "front": "subsist on",
+      "meaning": "常食とする",
+      "synonyms": [
+        "live on"
+      ],
+      "pron": {
+        "tts": "subsist on"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 555,
+      "id": "w-forge",
+      "type": "word",
+      "front": "forge",
+      "meaning": "築く・作成する",
+      "synonyms": [
+        "draw up a plan"
+      ],
+      "pron": {
+        "lookup": "forge",
+        "tts": "forge"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 556,
+      "id": "w-ebb",
+      "type": "word",
+      "front": "ebb",
+      "meaning": "衰退する",
+      "pron": {
+        "lookup": "ebb",
+        "tts": "ebb"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 557,
+      "id": "w-cattle",
+      "type": "word",
+      "front": "cattle",
+      "meaning": "牛",
+      "pron": {
+        "lookup": "cattle",
+        "tts": "cattle"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 23,
+      "themeName": "イエローストーンのオオカミ",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t23",
+    "theme": 23,
+    "themeName": "イエローストーンのオオカミ",
+    "jp": "イエローストーンへのオオカミの再導入は、生態系全体の回復を始動させた。それは連鎖効果を引き起こし、公園の自然な均衡を回復させた。頂点捕食者としてオオカミは重要な役割を果たすが、家畜を殺すこともある。このため計画は物議を醸し、牧場主は群れへの有害な影響を恐れて敵対的だった。彼らをなだめるため、生態学者は慎重な行動方針を立案しなければならなかった。絶え間ない監視の下、オオカミは懸念されたほど牛を襲わなかった。むしろエルクの数は減り始め、ヤナギが川岸に戻って補充し、かつてもろかった生態系は強くなった。",
+    "sentences": [
+      {
+        "en": "The reintroduction of wolves to Yellowstone helped kick-start the recovery of the whole ecosystem.",
+        "targets": [
+          {
+            "id": "w-reintroduction",
+            "text": "reintroduction"
+          },
+          {
+            "id": "w-kick-start",
+            "text": "kick-start"
+          }
+        ]
+      },
+      {
+        "en": "It set off a cascade effect that restored the natural balance of the park.",
+        "targets": [
+          {
+            "id": "p-cascade-effect",
+            "text": "cascade effect"
+          },
+          {
+            "id": "w-restore",
+            "text": "restored"
+          },
+          {
+            "id": "w-balance",
+            "text": "balance"
+          }
+        ]
+      },
+      {
+        "en": "As an apex predator, the wolf plays a key role, though it can also kill livestock.",
+        "targets": [
+          {
+            "id": "p-apex-predator",
+            "text": "apex predator"
+          },
+          {
+            "id": "p-play-a-key-role",
+            "text": "plays a key role"
+          },
+          {
+            "id": "w-livestock",
+            "text": "livestock"
+          }
+        ]
+      },
+      {
+        "en": "This made the plan controversial, and ranchers were hostile towards it, fearing a detrimental effect on their herds.",
+        "targets": [
+          {
+            "id": "w-controversial",
+            "text": "controversial"
+          },
+          {
+            "id": "p-hostile-towards",
+            "text": "hostile towards"
+          },
+          {
+            "id": "w-detrimental",
+            "text": "detrimental"
+          }
+        ]
+      },
+      {
+        "en": "To mollify them, ecologists had to formulate a careful course of action.",
+        "targets": [
+          {
+            "id": "w-mollify",
+            "text": "mollify"
+          },
+          {
+            "id": "w-formulate",
+            "text": "formulate"
+          },
+          {
+            "id": "p-course-of-action",
+            "text": "course of action"
+          }
+        ]
+      },
+      {
+        "en": "Under constant surveillance, the wolves did not harass cattle as feared.",
+        "targets": [
+          {
+            "id": "w-constant",
+            "text": "constant"
+          },
+          {
+            "id": "w-surveillance",
+            "text": "surveillance"
+          },
+          {
+            "id": "w-harass",
+            "text": "harass"
+          }
+        ]
+      },
+      {
+        "en": "Instead, elk numbers began to diminish, willows returned to replenish the riverbanks, and the once fragile ecosystem grew strong.",
+        "targets": [
+          {
+            "id": "w-diminish",
+            "text": "diminish"
+          },
+          {
+            "id": "w-replenish",
+            "text": "replenish"
+          },
+          {
+            "id": "w-fragile",
+            "text": "fragile"
+          }
+        ]
+      }
+    ]
+  }
+}

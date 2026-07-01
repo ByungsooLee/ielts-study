@@ -7,8 +7,8 @@
   "theme": 10,
   "themeId": "theme-10",
   "themeName": "なぜ人はウソをつくのか",
-  "version": "e6d083c8",
-  "generatedAt": "2026-06-18T10:32:03.495Z",
+  "version": "a5f266fc",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
   "items": [
     {
       "n": 185,
@@ -699,6 +699,10 @@
           "注意音: TH(that/the/truth), R(reaching/maturity/learning), truth=トゥルース/θ/"
         ],
         "targets": [
+          {
+            "id": "w-conceal",
+            "text": "conceal"
+          },
           {
             "id": "w-milestone",
             "text": "milestone"

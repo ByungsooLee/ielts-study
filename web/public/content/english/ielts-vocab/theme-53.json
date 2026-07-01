@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 53,
+  "themeId": "theme-53",
+  "themeName": "3Dプリンター",
+  "version": "2069c976",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1292,
+      "id": "p-cost-an-arm-and-a-leg",
+      "type": "phrase",
+      "front": "cost an arm and a leg",
+      "meaning": "大金がかかる",
+      "synonyms": [
+        "cost a fortune"
+      ],
+      "collocation": "cost an arm and a leg",
+      "examples": [
+        {
+          "en": "Building a house with bricks can cost an arm and a leg, a problem compounded by a shortage of bricklayers."
+        }
+      ],
+      "pron": {
+        "tts": "cost an arm and a leg"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1293,
+      "id": "w-compound",
+      "type": "word",
+      "front": "compound",
+      "meaning": "悪化させる",
+      "synonyms": [
+        "magnify",
+        "exacerbate",
+        "intensify"
+      ],
+      "collocation": "compound a problem",
+      "examples": [
+        {
+          "en": "Building a house with bricks can cost an arm and a leg, a problem compounded by a shortage of bricklayers."
+        }
+      ],
+      "pron": {
+        "lookup": "compound",
+        "tts": "compound"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1294,
+      "id": "p-shortage-of",
+      "type": "phrase",
+      "front": "shortage of",
+      "meaning": "〜の不足",
+      "synonyms": [
+        "scarcity of",
+        "deficiency in the number of"
+      ],
+      "collocation": "a shortage of",
+      "examples": [
+        {
+          "en": "Building a house with bricks can cost an arm and a leg, a problem compounded by a shortage of bricklayers."
+        }
+      ],
+      "pron": {
+        "tts": "shortage of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1295,
+      "id": "w-banal",
+      "type": "word",
+      "front": "banal",
+      "meaning": "平凡な・つまらない",
+      "synonyms": [
+        "bland",
+        "mundane"
+      ],
+      "collocation": "banal design",
+      "examples": [
+        {
+          "en": "Concrete buildings are often banal and devoid of artistic excellence, but a new gadget offers a solution: 3D printers."
+        }
+      ],
+      "pron": {
+        "lookup": "banal",
+        "tts": "banal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1296,
+      "id": "p-devoid-of",
+      "type": "phrase",
+      "front": "devoid of",
+      "meaning": "〜を欠いた",
+      "synonyms": [
+        "completely lacking in",
+        "bereft of"
+      ],
+      "collocation": "devoid of",
+      "examples": [
+        {
+          "en": "Concrete buildings are often banal and devoid of artistic excellence, but a new gadget offers a solution: 3D printers."
+        }
+      ],
+      "pron": {
+        "tts": "devoid of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1297,
+      "id": "w-gadget",
+      "type": "word",
+      "front": "gadget",
+      "meaning": "道具・装置",
+      "synonyms": [
+        "gizmo"
+      ],
+      "collocation": "a handy gadget",
+      "examples": [
+        {
+          "en": "Concrete buildings are often banal and devoid of artistic excellence, but a new gadget offers a solution: 3D printers."
+        }
+      ],
+      "pron": {
+        "lookup": "gadget",
+        "tts": "gadget"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1298,
+      "id": "p-abject-failure",
+      "type": "phrase",
+      "front": "abject failure",
+      "meaning": "全くの失敗",
+      "synonyms": [
+        "complete bomb",
+        "unmitigated disaster"
+      ],
+      "collocation": "an abject failure",
+      "examples": [
+        {
+          "en": "The first printer was an abject failure in 1983, but the technology now advances at breakneck speed."
+        }
+      ],
+      "pron": {
+        "tts": "abject failure"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1299,
+      "id": "p-at-breakneck-speed",
+      "type": "phrase",
+      "front": "at breakneck speed",
+      "meaning": "猛烈なスピードで",
+      "synonyms": [
+        "at a whirlwind pace",
+        "at full tilt"
+      ],
+      "collocation": "at breakneck speed",
+      "examples": [
+        {
+          "en": "The first printer was an abject failure in 1983, but the technology now advances at breakneck speed."
+        }
+      ],
+      "pron": {
+        "tts": "at breakneck speed"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1300,
+      "id": "w-facsimile",
+      "type": "word",
+      "front": "facsimile",
+      "meaning": "複製・写し",
+      "synonyms": [
+        "replica",
+        "carbon copy",
+        "duplicate"
+      ],
+      "collocation": "a carbon copy",
+      "examples": [
+        {
+          "en": "Printers can make a facsimile of everyday objects by laying down one thin slice of plastic after another, with a high degree of accuracy."
+        }
+      ],
+      "pron": {
+        "lookup": "facsimile",
+        "tts": "facsimile"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1301,
+      "id": "w-everyday",
+      "type": "word",
+      "front": "everyday",
+      "meaning": "毎日の・日常の",
+      "synonyms": [
+        "commonplace",
+        "familiar"
+      ],
+      "collocation": "everyday objects",
+      "examples": [
+        {
+          "en": "Printers can make a facsimile of everyday objects by laying down one thin slice of plastic after another, with a high degree of accuracy."
+        }
+      ],
+      "pron": {
+        "lookup": "everyday",
+        "tts": "everyday"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1302,
+      "id": "p-lay-down",
+      "type": "phrase",
+      "front": "lay down",
+      "meaning": "横たえる・置く",
+      "synonyms": [
+        "place"
+      ],
+      "collocation": "lay down a layer",
+      "examples": [
+        {
+          "en": "Printers can make a facsimile of everyday objects by laying down one thin slice of plastic after another, with a high degree of accuracy."
+        }
+      ],
+      "pron": {
+        "tts": "lay down"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1303,
+      "id": "w-slice",
+      "type": "word",
+      "front": "slice",
+      "meaning": "薄片・薄切り",
+      "synonyms": [
+        "sliver"
+      ],
+      "collocation": "a slice of",
+      "examples": [
+        {
+          "en": "Printers can make a facsimile of everyday objects by laying down one thin slice of plastic after another, with a high degree of accuracy."
+        }
+      ],
+      "pron": {
+        "lookup": "slice",
+        "tts": "slice"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1304,
+      "id": "p-high-degree-of",
+      "type": "phrase",
+      "front": "high degree of",
+      "meaning": "高度の〜",
+      "synonyms": [
+        "considerable amount of",
+        "high level of"
+      ],
+      "collocation": "a high degree of",
+      "examples": [
+        {
+          "en": "Printers can make a facsimile of everyday objects by laying down one thin slice of plastic after another, with a high degree of accuracy."
+        }
+      ],
+      "pron": {
+        "tts": "high degree of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1305,
+      "id": "w-unveil",
+      "type": "word",
+      "front": "unveil",
+      "meaning": "発表する・公表する",
+      "synonyms": [
+        "reveal",
+        "debut"
+      ],
+      "collocation": "unveil sth",
+      "examples": [
+        {
+          "en": "A Dutch firm has unveiled printers that can build houses, embellish them with intricate designs and personalise each one, made to measure."
+        }
+      ],
+      "pron": {
+        "lookup": "unveil",
+        "tts": "unveil"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1306,
+      "id": "w-embellish",
+      "type": "word",
+      "front": "embellish",
+      "meaning": "装飾する",
+      "synonyms": [
+        "decorate",
+        "adorn",
+        "ornament"
+      ],
+      "collocation": "embellish a house",
+      "examples": [
+        {
+          "en": "A Dutch firm has unveiled printers that can build houses, embellish them with intricate designs and personalise each one, made to measure."
+        }
+      ],
+      "pron": {
+        "lookup": "embellish",
+        "tts": "embellish"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1307,
+      "id": "w-personalise",
+      "type": "word",
+      "front": "personalise",
+      "meaning": "個人向けに変える",
+      "synonyms": [
+        "customise",
+        "individualise"
+      ],
+      "collocation": "personalise sth",
+      "examples": [
+        {
+          "en": "A Dutch firm has unveiled printers that can build houses, embellish them with intricate designs and personalise each one, made to measure."
+        }
+      ],
+      "pron": {
+        "lookup": "personalise",
+        "tts": "personalise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1308,
+      "id": "p-made-to-measure",
+      "type": "phrase",
+      "front": "made to measure",
+      "meaning": "あつらえで作った",
+      "synonyms": [
+        "custom-made",
+        "tailor-made"
+      ],
+      "collocation": "made to measure",
+      "examples": [
+        {
+          "en": "A Dutch firm has unveiled printers that can build houses, embellish them with intricate designs and personalise each one, made to measure."
+        }
+      ],
+      "pron": {
+        "tts": "made to measure"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1309,
+      "id": "w-dilapidated",
+      "type": "word",
+      "front": "dilapidated",
+      "meaning": "荒廃した",
+      "synonyms": [
+        "run-down",
+        "crumbling",
+        "seedy"
+      ],
+      "collocation": "dilapidated areas",
+      "examples": [
+        {
+          "en": "The low cost lets planners renew dilapidated areas cheaply."
+        }
+      ],
+      "pron": {
+        "lookup": "dilapidated",
+        "tts": "dilapidated"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1310,
+      "id": "w-phase",
+      "type": "word",
+      "front": "phase",
+      "meaning": "段階",
+      "synonyms": [
+        "stage"
+      ],
+      "collocation": "the first phase",
+      "examples": [
+        {
+          "en": "The next phase is to scale up the operation and export the printers worldwide."
+        }
+      ],
+      "pron": {
+        "lookup": "phase",
+        "tts": "phase"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1311,
+      "id": "p-scale-up",
+      "type": "phrase",
+      "front": "scale up",
+      "meaning": "〜を拡大させる",
+      "synonyms": [
+        "ratchet up"
+      ],
+      "collocation": "scale up production",
+      "examples": [
+        {
+          "en": "The next phase is to scale up the operation and export the printers worldwide."
+        }
+      ],
+      "pron": {
+        "tts": "scale up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1312,
+      "id": "w-operation",
+      "type": "word",
+      "front": "operation",
+      "meaning": "操業・事業",
+      "synonyms": [
+        "enterprise"
+      ],
+      "collocation": "scale up the operation",
+      "examples": [
+        {
+          "en": "The next phase is to scale up the operation and export the printers worldwide."
+        }
+      ],
+      "pron": {
+        "lookup": "operation",
+        "tts": "operation"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1313,
+      "id": "p-come-into-one-s-own",
+      "type": "phrase",
+      "front": "come into one's own",
+      "meaning": "本領を発揮する",
+      "pron": {
+        "tts": "come into one's own"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1314,
+      "id": "p-feed-into",
+      "type": "phrase",
+      "front": "feed into",
+      "meaning": "〜に注ぎ込む",
+      "pron": {
+        "tts": "feed into"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1315,
+      "id": "w-revitalise",
+      "type": "word",
+      "front": "revitalise",
+      "meaning": "復興させる",
+      "pron": {
+        "lookup": "revitalise",
+        "tts": "revitalise"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 53,
+      "themeName": "3Dプリンター",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t53",
+    "theme": 53,
+    "themeName": "3Dプリンター",
+    "jp": "レンガで家を建てると大金がかかり、レンガ職人の不足がこの問題を悪化させる。コンクリートの建物はしばしば平凡で芸術性を欠くが、新しい装置がその解決策を示す。3Dプリンターだ。最初のプリンターは1983年には全くの失敗だったが、技術は今や猛烈な速さで進歩する。プリンターは日常品の複製を、薄い層を一枚ずつ横に重ねて高い精度で作れる。オランダの会社は、家を建て、精巧なデザインで装飾し、それぞれをあつらえで個人向けに変えるプリンターを発表した。低コストのおかげで、計画者は荒廃した地域を安く一新できる。次の段階は操業を拡大し、プリンターを世界に輸出することだ。",
+    "sentences": [
+      {
+        "en": "Building a house with bricks can cost an arm and a leg, a problem compounded by a shortage of bricklayers.",
+        "targets": [
+          {
+            "id": "p-cost-an-arm-and-a-leg",
+            "text": "cost an arm and a leg"
+          },
+          {
+            "id": "w-compound",
+            "text": "compounded"
+          },
+          {
+            "id": "p-shortage-of",
+            "text": "shortage of"
+          }
+        ]
+      },
+      {
+        "en": "Concrete buildings are often banal and devoid of artistic excellence, but a new gadget offers a solution: 3D printers.",
+        "targets": [
+          {
+            "id": "w-banal",
+            "text": "banal"
+          },
+          {
+            "id": "p-devoid-of",
+            "text": "devoid of"
+          },
+          {
+            "id": "w-gadget",
+            "text": "gadget"
+          }
+        ]
+      },
+      {
+        "en": "The first printer was an abject failure in 1983, but the technology now advances at breakneck speed.",
+        "targets": [
+          {
+            "id": "p-abject-failure",
+            "text": "abject failure"
+          },
+          {
+            "id": "p-at-breakneck-speed",
+            "text": "at breakneck speed"
+          }
+        ]
+      },
+      {
+        "en": "Printers can make a facsimile of everyday objects by laying down one thin slice of plastic after another, with a high degree of accuracy.",
+        "targets": [
+          {
+            "id": "w-facsimile",
+            "text": "facsimile"
+          },
+          {
+            "id": "w-everyday",
+            "text": "everyday"
+          },
+          {
+            "id": "p-lay-down",
+            "text": "laying down"
+          },
+          {
+            "id": "w-slice",
+            "text": "slice"
+          },
+          {
+            "id": "p-high-degree-of",
+            "text": "high degree of"
+          }
+        ]
+      },
+      {
+        "en": "A Dutch firm has unveiled printers that can build houses, embellish them with intricate designs and personalise each one, made to measure.",
+        "targets": [
+          {
+            "id": "w-unveil",
+            "text": "unveiled"
+          },
+          {
+            "id": "w-embellish",
+            "text": "embellish"
+          },
+          {
+            "id": "w-personalise",
+            "text": "personalise"
+          },
+          {
+            "id": "p-made-to-measure",
+            "text": "made to measure"
+          }
+        ]
+      },
+      {
+        "en": "The low cost lets planners renew dilapidated areas cheaply.",
+        "targets": [
+          {
+            "id": "w-dilapidated",
+            "text": "dilapidated"
+          }
+        ]
+      },
+      {
+        "en": "The next phase is to scale up the operation and export the printers worldwide.",
+        "targets": [
+          {
+            "id": "w-phase",
+            "text": "phase"
+          },
+          {
+            "id": "p-scale-up",
+            "text": "scale up"
+          },
+          {
+            "id": "w-operation",
+            "text": "operation"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 42,
+  "themeId": "theme-42",
+  "themeName": "英仏海峡トンネル",
+  "version": "e4ec8b1a",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1013,
+      "id": "p-aim-at",
+      "type": "phrase",
+      "front": "aim at",
+      "meaning": "〜を目指す",
+      "synonyms": [
+        "set one's sights on"
+      ],
+      "collocation": "aim at doing",
+      "examples": [
+        {
+          "en": "In 1802 a French engineer first aimed at building a tunnel under the English Channel and envisaged horse-drawn carriages inside it."
+        }
+      ],
+      "pron": {
+        "tts": "aim at"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1014,
+      "id": "w-envisage",
+      "type": "word",
+      "front": "envisage",
+      "meaning": "想像する",
+      "synonyms": [
+        "envision",
+        "imagine",
+        "visualise"
+      ],
+      "collocation": "envisage a future",
+      "examples": [
+        {
+          "en": "In 1802 a French engineer first aimed at building a tunnel under the English Channel and envisaged horse-drawn carriages inside it."
+        }
+      ],
+      "pron": {
+        "lookup": "envisage",
+        "tts": "envisage"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1015,
+      "id": "p-submit-a-proposal",
+      "type": "phrase",
+      "front": "submit a proposal",
+      "meaning": "提案書を提出する",
+      "synonyms": [
+        "tender a proposal",
+        "put forward a plan"
+      ],
+      "collocation": "submit a proposal",
+      "examples": [
+        {
+          "en": "He submitted a proposal, but the government abandoned it."
+        }
+      ],
+      "pron": {
+        "tts": "submit a proposal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1016,
+      "id": "w-abandon",
+      "type": "word",
+      "front": "abandon",
+      "meaning": "断念する",
+      "synonyms": [
+        "discard",
+        "withdraw"
+      ],
+      "collocation": "abandon a plan",
+      "examples": [
+        {
+          "en": "He submitted a proposal, but the government abandoned it."
+        }
+      ],
+      "pron": {
+        "lookup": "abandon",
+        "tts": "abandon"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1017,
+      "id": "p-take-up-the-baton",
+      "type": "phrase",
+      "front": "take up the baton",
+      "meaning": "責任を引き受ける",
+      "synonyms": [
+        "take responsibility",
+        "accept responsibility"
+      ],
+      "collocation": "take up the baton",
+      "examples": [
+        {
+          "en": "In 1985, banks and construction firms took up the baton as a commercial venture."
+        }
+      ],
+      "pron": {
+        "tts": "take up the baton"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1018,
+      "id": "p-commercial-venture",
+      "type": "phrase",
+      "front": "commercial venture",
+      "meaning": "商業的な事業",
+      "synonyms": [
+        "money-making enterprise"
+      ],
+      "collocation": "a commercial venture",
+      "examples": [
+        {
+          "en": "In 1985, banks and construction firms took up the baton as a commercial venture."
+        }
+      ],
+      "pron": {
+        "tts": "commercial venture"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1019,
+      "id": "w-measure",
+      "type": "word",
+      "front": "measure",
+      "meaning": "測定する・評価する",
+      "synonyms": [
+        "evaluate",
+        "calculate",
+        "judge"
+      ],
+      "collocation": "measure the depth",
+      "examples": [
+        {
+          "en": "They began to measure the depth of the channel, aiming for a 1993 deadline, and had to exercise patience as work did not commence until 1988."
+        }
+      ],
+      "pron": {
+        "lookup": "measure",
+        "tts": "measure"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1020,
+      "id": "w-depth",
+      "type": "word",
+      "front": "depth",
+      "meaning": "深さ",
+      "synonyms": [
+        "deepness"
+      ],
+      "collocation": "the depth of",
+      "examples": [
+        {
+          "en": "They began to measure the depth of the channel, aiming for a 1993 deadline, and had to exercise patience as work did not commence until 1988."
+        }
+      ],
+      "pron": {
+        "lookup": "depth",
+        "tts": "depth"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1021,
+      "id": "w-deadline",
+      "type": "word",
+      "front": "deadline",
+      "meaning": "締切・期限",
+      "synonyms": [
+        "target date"
+      ],
+      "collocation": "meet a deadline",
+      "examples": [
+        {
+          "en": "They began to measure the depth of the channel, aiming for a 1993 deadline, and had to exercise patience as work did not commence until 1988."
+        }
+      ],
+      "pron": {
+        "lookup": "deadline",
+        "tts": "deadline"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1022,
+      "id": "p-exercise-patience",
+      "type": "phrase",
+      "front": "exercise patience",
+      "meaning": "我慢する",
+      "synonyms": [
+        "show patience",
+        "exhibit patience"
+      ],
+      "collocation": "exercise patience",
+      "examples": [
+        {
+          "en": "They began to measure the depth of the channel, aiming for a 1993 deadline, and had to exercise patience as work did not commence until 1988."
+        }
+      ],
+      "pron": {
+        "tts": "exercise patience"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1023,
+      "id": "w-commence",
+      "type": "word",
+      "front": "commence",
+      "meaning": "始める・着手する",
+      "synonyms": [
+        "initiate",
+        "start up",
+        "launch"
+      ],
+      "collocation": "commence work",
+      "examples": [
+        {
+          "en": "They began to measure the depth of the channel, aiming for a 1993 deadline, and had to exercise patience as work did not commence until 1988."
+        }
+      ],
+      "pron": {
+        "lookup": "commence",
+        "tts": "commence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1024,
+      "id": "w-rotate",
+      "type": "word",
+      "front": "rotate",
+      "meaning": "回転する",
+      "synonyms": [
+        "revolve",
+        "spin"
+      ],
+      "collocation": "rotate quickly",
+      "examples": [
+        {
+          "en": "Boring machines with rotating blades were used to cut through the rock, where many obstacles made the work arduous."
+        }
+      ],
+      "pron": {
+        "lookup": "rotate",
+        "tts": "rotate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1025,
+      "id": "p-cut-through",
+      "type": "phrase",
+      "front": "cut through",
+      "meaning": "〜を切り開く",
+      "synonyms": [
+        "bore through",
+        "drill through"
+      ],
+      "collocation": "cut through rock",
+      "examples": [
+        {
+          "en": "Boring machines with rotating blades were used to cut through the rock, where many obstacles made the work arduous."
+        }
+      ],
+      "pron": {
+        "tts": "cut through"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1026,
+      "id": "w-obstacle",
+      "type": "word",
+      "front": "obstacle",
+      "meaning": "障害（物）",
+      "synonyms": [
+        "obstruction",
+        "blockage"
+      ],
+      "collocation": "overcome an obstacle",
+      "examples": [
+        {
+          "en": "But there were obstacles. Tickets might be too exorbitant for ordinary people to afford.",
+          "linking": "But there‿were‿obstacles. Tickets might be too‿exorbitant for‿ordinary people to‿afford.",
+          "tips": [
+            "連結: there‿were, were‿obstacles, too‿exorbitant",
+            "弱形: there/were(=/wə/)/for(=/fə/)/to(=/tə/)",
+            "強勢: OB·stacles, TI·ckets, ex·OR·bitant, OR·dinary, af·FORD",
+            "注意音: R(there/exorbitant/ordinary/afford), TH(there)"
+          ]
+        }
+      ],
+      "pron": {
+        "lookup": "obstacle",
+        "tts": "obstacle"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1027,
+      "id": "w-arduous",
+      "type": "word",
+      "front": "arduous",
+      "meaning": "困難な・骨の折れる",
+      "synonyms": [
+        "gruelling",
+        "laborious"
+      ],
+      "collocation": "an arduous task",
+      "examples": [
+        {
+          "en": "Boring machines with rotating blades were used to cut through the rock, where many obstacles made the work arduous."
+        }
+      ],
+      "pron": {
+        "lookup": "arduous",
+        "tts": "arduous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1028,
+      "id": "p-crop-up",
+      "type": "phrase",
+      "front": "crop up",
+      "meaning": "突然現れる",
+      "synonyms": [
+        "arise",
+        "emerge"
+      ],
+      "collocation": "problems crop up",
+      "examples": [
+        {
+          "en": "Problems cropped up, and escalating costs caused setbacks and delayed construction."
+        }
+      ],
+      "pron": {
+        "tts": "crop up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1029,
+      "id": "p-escalating-cost",
+      "type": "phrase",
+      "front": "escalating cost",
+      "meaning": "増大するコスト",
+      "synonyms": [
+        "rising expenditure"
+      ],
+      "collocation": "escalating costs",
+      "examples": [
+        {
+          "en": "Problems cropped up, and escalating costs caused setbacks and delayed construction."
+        }
+      ],
+      "pron": {
+        "tts": "escalating cost"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1030,
+      "id": "w-setback",
+      "type": "word",
+      "front": "setback",
+      "meaning": "障害・つまずき",
+      "synonyms": [
+        "stumbling block",
+        "hurdle",
+        "difficulty"
+      ],
+      "collocation": "a major setback",
+      "examples": [
+        {
+          "en": "Problems cropped up, and escalating costs caused setbacks and delayed construction."
+        }
+      ],
+      "pron": {
+        "lookup": "setback",
+        "tts": "setback"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1031,
+      "id": "w-delay",
+      "type": "word",
+      "front": "delay",
+      "meaning": "遅らせる",
+      "synonyms": [
+        "postpone",
+        "put off",
+        "push back"
+      ],
+      "collocation": "delay the start",
+      "examples": [
+        {
+          "en": "Problems cropped up, and escalating costs caused setbacks and delayed construction."
+        }
+      ],
+      "pron": {
+        "lookup": "delay",
+        "tts": "delay"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1032,
+      "id": "w-counterpart",
+      "type": "word",
+      "front": "counterpart",
+      "meaning": "対応する人（もの）",
+      "synonyms": [
+        "equivalent",
+        "opposite number"
+      ],
+      "collocation": "his counterpart",
+      "examples": [
+        {
+          "en": "Finally, an English tunneller and his French counterpart met in the tunnel, bringing it to completion."
+        }
+      ],
+      "pron": {
+        "lookup": "counterpart",
+        "tts": "counterpart"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1033,
+      "id": "p-bring-to-completion",
+      "type": "phrase",
+      "front": "bring to completion",
+      "meaning": "〜を終わらせる",
+      "synonyms": [
+        "wrap up"
+      ],
+      "collocation": "bring to completion",
+      "examples": [
+        {
+          "en": "Finally, an English tunneller and his French counterpart met in the tunnel, bringing it to completion."
+        }
+      ],
+      "pron": {
+        "tts": "bring to completion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1034,
+      "id": "p-horse-drawn-carriage",
+      "type": "phrase",
+      "front": "horse-drawn carriage",
+      "meaning": "馬車",
+      "pron": {
+        "tts": "horse-drawn carriage"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1035,
+      "id": "p-settle-on",
+      "type": "phrase",
+      "front": "settle on",
+      "meaning": "〜に決める",
+      "pron": {
+        "tts": "settle on"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1036,
+      "id": "w-chalk",
+      "type": "word",
+      "front": "chalk",
+      "meaning": "白亜",
+      "pron": {
+        "lookup": "chalk",
+        "tts": "chalk"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1037,
+      "id": "p-boring-machine",
+      "type": "phrase",
+      "front": "boring machine",
+      "meaning": "掘削機",
+      "pron": {
+        "tts": "boring machine"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1038,
+      "id": "w-blade",
+      "type": "word",
+      "front": "blade",
+      "meaning": "刃",
+      "pron": {
+        "lookup": "blade",
+        "tts": "blade"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 42,
+      "themeName": "英仏海峡トンネル",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t42",
+    "theme": 42,
+    "themeName": "英仏海峡トンネル",
+    "jp": "1802年、フランス人技師が英仏海峡の下にトンネルを掘ることを初めて目指し、中を馬車が通る様子を想像した。彼は提案書を提出したが、政府は断念した。1985年、銀行と建設会社が商業的事業として責任を引き受けた。彼らは海峡の深さを測定し始め、1993年の締切を目指し、着工が1988年までずれ込む中で我慢を強いられた。回転する刃を持つ掘削機で岩を切り開いたが、多くの障害が作業を困難にした。問題が突然現れ、増大するコストがつまずきを生み、工事を遅らせた。ついに英国の掘削者とフランス側の相手役がトンネル内で出会い、工事を完成させた。",
+    "sentences": [
+      {
+        "en": "In 1802 a French engineer first aimed at building a tunnel under the English Channel and envisaged horse-drawn carriages inside it.",
+        "targets": [
+          {
+            "id": "p-aim-at",
+            "text": "aimed at"
+          },
+          {
+            "id": "w-envisage",
+            "text": "envisaged"
+          }
+        ]
+      },
+      {
+        "en": "He submitted a proposal, but the government abandoned it.",
+        "targets": [
+          {
+            "id": "p-submit-a-proposal",
+            "text": "submitted a proposal"
+          },
+          {
+            "id": "w-abandon",
+            "text": "abandoned"
+          }
+        ]
+      },
+      {
+        "en": "In 1985, banks and construction firms took up the baton as a commercial venture.",
+        "targets": [
+          {
+            "id": "p-take-up-the-baton",
+            "text": "took up the baton"
+          },
+          {
+            "id": "p-commercial-venture",
+            "text": "commercial venture"
+          }
+        ]
+      },
+      {
+        "en": "They began to measure the depth of the channel, aiming for a 1993 deadline, and had to exercise patience as work did not commence until 1988.",
+        "targets": [
+          {
+            "id": "w-measure",
+            "text": "measure"
+          },
+          {
+            "id": "w-depth",
+            "text": "depth"
+          },
+          {
+            "id": "w-deadline",
+            "text": "deadline"
+          },
+          {
+            "id": "p-exercise-patience",
+            "text": "exercise patience"
+          },
+          {
+            "id": "w-commence",
+            "text": "commence"
+          }
+        ]
+      },
+      {
+        "en": "Boring machines with rotating blades were used to cut through the rock, where many obstacles made the work arduous.",
+        "targets": [
+          {
+            "id": "w-rotate",
+            "text": "rotating"
+          },
+          {
+            "id": "p-cut-through",
+            "text": "cut through"
+          },
+          {
+            "id": "w-obstacle",
+            "text": "obstacles"
+          },
+          {
+            "id": "w-arduous",
+            "text": "arduous"
+          }
+        ]
+      },
+      {
+        "en": "Problems cropped up, and escalating costs caused setbacks and delayed construction.",
+        "targets": [
+          {
+            "id": "p-crop-up",
+            "text": "cropped up"
+          },
+          {
+            "id": "p-escalating-cost",
+            "text": "escalating costs"
+          },
+          {
+            "id": "w-setback",
+            "text": "setbacks"
+          },
+          {
+            "id": "w-delay",
+            "text": "delayed"
+          }
+        ]
+      },
+      {
+        "en": "Finally, an English tunneller and his French counterpart met in the tunnel, bringing it to completion.",
+        "targets": [
+          {
+            "id": "w-counterpart",
+            "text": "counterpart"
+          },
+          {
+            "id": "p-bring-to-completion",
+            "text": "bringing it to completion"
+          }
+        ]
+      }
+    ]
+  }
+}

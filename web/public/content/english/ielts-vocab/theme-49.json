@@ -1,0 +1,774 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 49,
+  "themeId": "theme-49",
+  "themeName": "ウィキペディア",
+  "version": "7557eb08",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1189,
+      "id": "p-specialise-in",
+      "type": "phrase",
+      "front": "specialise in",
+      "meaning": "〜を専門に扱う",
+      "synonyms": [
+        "concentrate on",
+        "focus on"
+      ],
+      "collocation": "specialise in",
+      "examples": [
+        {
+          "en": "Daniel Pink, an author who specialises in motivation, has an anecdote about what energises people."
+        }
+      ],
+      "pron": {
+        "tts": "specialise in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1190,
+      "id": "w-anecdote",
+      "type": "word",
+      "front": "anecdote",
+      "meaning": "逸話・説明",
+      "synonyms": [
+        "account",
+        "description"
+      ],
+      "collocation": "an anecdote about",
+      "examples": [
+        {
+          "en": "Daniel Pink, an author who specialises in motivation, has an anecdote about what energises people."
+        }
+      ],
+      "pron": {
+        "lookup": "anecdote",
+        "tts": "anecdote"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1191,
+      "id": "w-energise",
+      "type": "word",
+      "front": "energise",
+      "meaning": "活気づける",
+      "synonyms": [
+        "drive",
+        "motivate"
+      ],
+      "collocation": "energise people",
+      "examples": [
+        {
+          "en": "Daniel Pink, an author who specialises in motivation, has an anecdote about what energises people."
+        }
+      ],
+      "pron": {
+        "lookup": "energise",
+        "tts": "energise"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1192,
+      "id": "w-timeline",
+      "type": "word",
+      "front": "timeline",
+      "meaning": "時系列・年表",
+      "synonyms": [
+        "chronology",
+        "history"
+      ],
+      "collocation": "a timeline of",
+      "examples": [
+        {
+          "en": "He compares the timeline of two encyclopedias that began at the height of the tech boom."
+        }
+      ],
+      "pron": {
+        "lookup": "timeline",
+        "tts": "timeline"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1193,
+      "id": "w-height",
+      "type": "word",
+      "front": "height",
+      "meaning": "頂点・絶頂",
+      "synonyms": [
+        "peak",
+        "zenith"
+      ],
+      "collocation": "the height of",
+      "examples": [
+        {
+          "en": "He compares the timeline of two encyclopedias that began at the height of the tech boom."
+        }
+      ],
+      "pron": {
+        "lookup": "height",
+        "tts": "height"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1194,
+      "id": "p-for-all-intents-and-purposes",
+      "type": "phrase",
+      "front": "for all intents and purposes",
+      "meaning": "事実上",
+      "synonyms": [
+        "in essence",
+        "in practice"
+      ],
+      "collocation": "for all intents and purposes",
+      "examples": [
+        {
+          "en": "One was for all intents and purposes a monopoly, while the other accumulated information from volunteers in the pursuit of shared knowledge."
+        }
+      ],
+      "pron": {
+        "tts": "for all intents and purposes"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1195,
+      "id": "w-accumulate",
+      "type": "word",
+      "front": "accumulate",
+      "meaning": "蓄積する",
+      "synonyms": [
+        "amass",
+        "collect"
+      ],
+      "collocation": "accumulate knowledge",
+      "examples": [
+        {
+          "en": "One was for all intents and purposes a monopoly, while the other accumulated information from volunteers in the pursuit of shared knowledge."
+        }
+      ],
+      "pron": {
+        "lookup": "accumulate",
+        "tts": "accumulate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1196,
+      "id": "p-pursuit-of",
+      "type": "phrase",
+      "front": "pursuit of",
+      "meaning": "〜の追求",
+      "synonyms": [
+        "hunt for",
+        "quest for"
+      ],
+      "collocation": "the pursuit of",
+      "examples": [
+        {
+          "en": "One was for all intents and purposes a monopoly, while the other accumulated information from volunteers in the pursuit of shared knowledge."
+        }
+      ],
+      "pron": {
+        "tts": "pursuit of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1197,
+      "id": "w-presuppose",
+      "type": "word",
+      "front": "presuppose",
+      "meaning": "〜を当然と思う",
+      "synonyms": [
+        "assume",
+        "presume",
+        "take for granted"
+      ],
+      "collocation": "presuppose that",
+      "examples": [
+        {
+          "en": "Everyone presupposed that the excellence of the first would tip the balance in its favour."
+        }
+      ],
+      "pron": {
+        "lookup": "presuppose",
+        "tts": "presuppose"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1198,
+      "id": "w-excellence",
+      "type": "word",
+      "front": "excellence",
+      "meaning": "優れていること",
+      "synonyms": [
+        "superiority",
+        "supremacy"
+      ],
+      "collocation": "excellence in",
+      "examples": [
+        {
+          "en": "Everyone presupposed that the excellence of the first would tip the balance in its favour."
+        }
+      ],
+      "pron": {
+        "lookup": "excellence",
+        "tts": "excellence"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1199,
+      "id": "p-tip-the-balance",
+      "type": "phrase",
+      "front": "tip the balance",
+      "meaning": "形勢を一方に傾ける",
+      "synonyms": [
+        "tilt the scales"
+      ],
+      "collocation": "tip the balance",
+      "examples": [
+        {
+          "en": "Everyone presupposed that the excellence of the first would tip the balance in its favour."
+        }
+      ],
+      "pron": {
+        "tts": "tip the balance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1200,
+      "id": "w-perplexing",
+      "type": "word",
+      "front": "perplexing",
+      "meaning": "不可解な・当惑させる",
+      "synonyms": [
+        "baffling",
+        "mystifying",
+        "puzzling"
+      ],
+      "collocation": "a perplexing problem",
+      "examples": [
+        {
+          "en": "However, something perplexing happened: users flocked to the free Wikipedia, and the firm conceded defeat and shut its doors."
+        }
+      ],
+      "pron": {
+        "lookup": "perplexing",
+        "tts": "perplexing"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1201,
+      "id": "p-flock-to",
+      "type": "phrase",
+      "front": "flock to",
+      "meaning": "〜に群がる",
+      "synonyms": [
+        "stream to",
+        "swarm to"
+      ],
+      "collocation": "flock to",
+      "examples": [
+        {
+          "en": "However, something perplexing happened: users flocked to the free Wikipedia, and the firm conceded defeat and shut its doors."
+        }
+      ],
+      "pron": {
+        "tts": "flock to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1202,
+      "id": "p-concede-defeat",
+      "type": "phrase",
+      "front": "concede defeat",
+      "meaning": "敗北を認める",
+      "synonyms": [
+        "give in",
+        "give up",
+        "surrender"
+      ],
+      "collocation": "concede defeat",
+      "examples": [
+        {
+          "en": "However, something perplexing happened: users flocked to the free Wikipedia, and the firm conceded defeat and shut its doors."
+        }
+      ],
+      "pron": {
+        "tts": "concede defeat"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1203,
+      "id": "p-shut-one-s-doors",
+      "type": "phrase",
+      "front": "shut one's doors",
+      "meaning": "廃業する",
+      "synonyms": [
+        "close up shop",
+        "go out of business"
+      ],
+      "collocation": "shut one's doors",
+      "examples": [
+        {
+          "en": "However, something perplexing happened: users flocked to the free Wikipedia, and the firm conceded defeat and shut its doors."
+        }
+      ],
+      "pron": {
+        "tts": "shut one's doors"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1204,
+      "id": "w-trailblazer",
+      "type": "word",
+      "front": "trailblazer",
+      "meaning": "先駆者",
+      "synonyms": [
+        "innovator",
+        "pioneer",
+        "groundbreaker"
+      ],
+      "collocation": "a trailblazer",
+      "examples": [
+        {
+          "en": "Wikipedia was a trailblazer and a testimony to the spirit of volunteering."
+        }
+      ],
+      "pron": {
+        "lookup": "trailblazer",
+        "tts": "trailblazer"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1205,
+      "id": "p-testimony-to",
+      "type": "phrase",
+      "front": "testimony to",
+      "meaning": "〜の証拠",
+      "synonyms": [
+        "testament to",
+        "tribute to"
+      ],
+      "collocation": "a testimony to",
+      "examples": [
+        {
+          "en": "Wikipedia was a trailblazer and a testimony to the spirit of volunteering."
+        }
+      ],
+      "pron": {
+        "tts": "testimony to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1206,
+      "id": "w-unpaid",
+      "type": "word",
+      "front": "unpaid",
+      "meaning": "無報酬の",
+      "synonyms": [
+        "uncompensated"
+      ],
+      "collocation": "unpaid work",
+      "examples": [
+        {
+          "en": "Unpaid editors screen out errors and look for suitable sources."
+        }
+      ],
+      "pron": {
+        "lookup": "unpaid",
+        "tts": "unpaid"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1207,
+      "id": "p-screen-out",
+      "type": "phrase",
+      "front": "screen out",
+      "meaning": "〜を除外する",
+      "synonyms": [
+        "filter out"
+      ],
+      "collocation": "screen out errors",
+      "examples": [
+        {
+          "en": "Unpaid editors screen out errors and look for suitable sources."
+        }
+      ],
+      "pron": {
+        "tts": "screen out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1208,
+      "id": "w-error",
+      "type": "word",
+      "front": "error",
+      "meaning": "間違い",
+      "synonyms": [
+        "inaccuracy",
+        "blunder"
+      ],
+      "collocation": "spot an error",
+      "examples": [
+        {
+          "en": "Unpaid editors screen out errors and look for suitable sources."
+        }
+      ],
+      "pron": {
+        "lookup": "error",
+        "tts": "error"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1209,
+      "id": "w-suitable",
+      "type": "word",
+      "front": "suitable",
+      "meaning": "適切な",
+      "synonyms": [
+        "appropriate",
+        "acceptable"
+      ],
+      "collocation": "a suitable source",
+      "examples": [
+        {
+          "en": "Unpaid editors screen out errors and look for suitable sources."
+        }
+      ],
+      "pron": {
+        "lookup": "suitable",
+        "tts": "suitable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1210,
+      "id": "w-well-received",
+      "type": "word",
+      "front": "well-received",
+      "meaning": "評判の良い",
+      "pron": {
+        "lookup": "well-received",
+        "tts": "well-received"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1211,
+      "id": "w-monopoly",
+      "type": "word",
+      "front": "monopoly",
+      "meaning": "独占",
+      "pron": {
+        "lookup": "monopoly",
+        "tts": "monopoly"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1212,
+      "id": "p-greater-good",
+      "type": "phrase",
+      "front": "greater good",
+      "meaning": "大義",
+      "pron": {
+        "tts": "greater good"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 49,
+      "themeName": "ウィキペディア",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t49",
+    "theme": 49,
+    "themeName": "ウィキペディア",
+    "jp": "動機づけを専門に扱う著者ダニエル・ピンクは、人を活気づけるものについての逸話を持つ。彼は、テックブームの絶頂に始まった二つの百科事典の時系列を比較する。一つは事実上の独占で、もう一つは共有知識の追求のためボランティアから情報を蓄積した。誰もが最初のものの優秀さが形勢を有利に傾けると当然視した。だが不可解なことが起きた。利用者は無料のウィキペディアに群がり、企業は敗北を認めて廃業した。ウィキペディアは先駆者であり、ボランティア精神の証拠だ。無報酬の編集者が間違いを除外し、適切な情報源を探す。",
+    "sentences": [
+      {
+        "en": "Daniel Pink, an author who specialises in motivation, has an anecdote about what energises people.",
+        "targets": [
+          {
+            "id": "p-specialise-in",
+            "text": "specialises in"
+          },
+          {
+            "id": "w-anecdote",
+            "text": "anecdote"
+          },
+          {
+            "id": "w-energise",
+            "text": "energises"
+          }
+        ]
+      },
+      {
+        "en": "He compares the timeline of two encyclopedias that began at the height of the tech boom.",
+        "targets": [
+          {
+            "id": "w-timeline",
+            "text": "timeline"
+          },
+          {
+            "id": "w-height",
+            "text": "height"
+          }
+        ]
+      },
+      {
+        "en": "One was for all intents and purposes a monopoly, while the other accumulated information from volunteers in the pursuit of shared knowledge.",
+        "targets": [
+          {
+            "id": "p-for-all-intents-and-purposes",
+            "text": "for all intents and purposes"
+          },
+          {
+            "id": "w-accumulate",
+            "text": "accumulated"
+          },
+          {
+            "id": "p-pursuit-of",
+            "text": "pursuit of"
+          }
+        ]
+      },
+      {
+        "en": "Everyone presupposed that the excellence of the first would tip the balance in its favour.",
+        "targets": [
+          {
+            "id": "w-presuppose",
+            "text": "presupposed"
+          },
+          {
+            "id": "w-excellence",
+            "text": "excellence"
+          },
+          {
+            "id": "p-tip-the-balance",
+            "text": "tip the balance"
+          }
+        ]
+      },
+      {
+        "en": "However, something perplexing happened: users flocked to the free Wikipedia, and the firm conceded defeat and shut its doors.",
+        "targets": [
+          {
+            "id": "w-perplexing",
+            "text": "perplexing"
+          },
+          {
+            "id": "p-flock-to",
+            "text": "flocked to"
+          },
+          {
+            "id": "p-concede-defeat",
+            "text": "conceded defeat"
+          },
+          {
+            "id": "p-shut-one-s-doors",
+            "text": "shut its doors"
+          }
+        ]
+      },
+      {
+        "en": "Wikipedia was a trailblazer and a testimony to the spirit of volunteering.",
+        "targets": [
+          {
+            "id": "w-trailblazer",
+            "text": "trailblazer"
+          },
+          {
+            "id": "p-testimony-to",
+            "text": "testimony to"
+          }
+        ]
+      },
+      {
+        "en": "Unpaid editors screen out errors and look for suitable sources.",
+        "targets": [
+          {
+            "id": "w-unpaid",
+            "text": "Unpaid"
+          },
+          {
+            "id": "p-screen-out",
+            "text": "screen out"
+          },
+          {
+            "id": "w-error",
+            "text": "errors"
+          },
+          {
+            "id": "w-suitable",
+            "text": "suitable"
+          }
+        ]
+      }
+    ]
+  }
+}

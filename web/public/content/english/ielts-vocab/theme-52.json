@@ -1,0 +1,835 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 52,
+  "themeId": "theme-52",
+  "themeName": "遺伝子操作",
+  "version": "f72f4ba1",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1265,
+      "id": "w-abstract",
+      "type": "word",
+      "front": "abstract",
+      "meaning": "理論上の",
+      "synonyms": [
+        "theoretical",
+        "conceptual",
+        "academic"
+      ],
+      "collocation": "an abstract concept",
+      "examples": [
+        {
+          "en": "Editing genes, once an abstract concept, is now real thanks to CRISPR, which makes adjustments to the intertwined strands of DNA."
+        }
+      ],
+      "pron": {
+        "lookup": "abstract",
+        "tts": "abstract"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1266,
+      "id": "w-adjustment",
+      "type": "word",
+      "front": "adjustment",
+      "meaning": "調整・変更",
+      "synonyms": [
+        "alteration",
+        "modification"
+      ],
+      "collocation": "make an adjustment",
+      "examples": [
+        {
+          "en": "Editing genes, once an abstract concept, is now real thanks to CRISPR, which makes adjustments to the intertwined strands of DNA."
+        }
+      ],
+      "pron": {
+        "lookup": "adjustment",
+        "tts": "adjustment"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1267,
+      "id": "w-intertwined",
+      "type": "word",
+      "front": "intertwined",
+      "meaning": "絡み合った",
+      "synonyms": [
+        "interlaced",
+        "interlinked"
+      ],
+      "collocation": "intertwined strands",
+      "examples": [
+        {
+          "en": "Editing genes, once an abstract concept, is now real thanks to CRISPR, which makes adjustments to the intertwined strands of DNA."
+        }
+      ],
+      "pron": {
+        "lookup": "intertwined",
+        "tts": "intertwined"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1268,
+      "id": "w-fascinating",
+      "type": "word",
+      "front": "fascinating",
+      "meaning": "魅力的な",
+      "synonyms": [
+        "captivating",
+        "intriguing"
+      ],
+      "collocation": "a fascinating idea",
+      "examples": [
+        {
+          "en": "The possible uses are fascinating: it could stop diseases that afflict children."
+        }
+      ],
+      "pron": {
+        "lookup": "fascinating",
+        "tts": "fascinating"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1269,
+      "id": "p-stop-in-one-s-tracks",
+      "type": "phrase",
+      "front": "stop in one's tracks",
+      "meaning": "直ちに〜を止める",
+      "synonyms": [
+        "block",
+        "halt"
+      ],
+      "collocation": "stop sth in its tracks",
+      "examples": [
+        {
+          "en": "The possible uses are fascinating: it could stop diseases that afflict children."
+        }
+      ],
+      "pron": {
+        "tts": "stop in one's tracks"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1270,
+      "id": "w-afflict",
+      "type": "word",
+      "front": "afflict",
+      "meaning": "苦しめる・悩ます",
+      "synonyms": [
+        "cause suffering to",
+        "strike",
+        "harm"
+      ],
+      "collocation": "afflict children",
+      "examples": [
+        {
+          "en": "The possible uses are fascinating: it could stop diseases that afflict children."
+        }
+      ],
+      "pron": {
+        "lookup": "afflict",
+        "tts": "afflict"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1271,
+      "id": "w-aspire",
+      "type": "word",
+      "front": "aspire",
+      "meaning": "目指す",
+      "synonyms": [
+        "aim",
+        "hope"
+      ],
+      "collocation": "aspire to do",
+      "examples": [
+        {
+          "en": "Scientists aspire to put an end to mortality from disease, and to help infertile women have children."
+        }
+      ],
+      "pron": {
+        "lookup": "aspire",
+        "tts": "aspire"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1272,
+      "id": "p-put-an-end-to",
+      "type": "phrase",
+      "front": "put an end to",
+      "meaning": "〜を終わらせる",
+      "synonyms": [
+        "eliminate",
+        "bring an end to"
+      ],
+      "collocation": "put an end to",
+      "examples": [
+        {
+          "en": "Scientists aspire to put an end to mortality from disease, and to help infertile women have children."
+        }
+      ],
+      "pron": {
+        "tts": "put an end to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1273,
+      "id": "w-infertile",
+      "type": "word",
+      "front": "infertile",
+      "meaning": "不妊の",
+      "synonyms": [
+        "sterile",
+        "barren"
+      ],
+      "collocation": "infertile women",
+      "examples": [
+        {
+          "en": "Scientists aspire to put an end to mortality from disease, and to help infertile women have children."
+        }
+      ],
+      "pron": {
+        "lookup": "infertile",
+        "tts": "infertile"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1274,
+      "id": "w-extend",
+      "type": "word",
+      "front": "extend",
+      "meaning": "延ばす・伸ばす",
+      "synonyms": [
+        "expand",
+        "prolong"
+      ],
+      "collocation": "extend lifespan",
+      "examples": [
+        {
+          "en": "It could also extend life by boosting the body's capacity for repair, so gene editing seems to be the way forward."
+        }
+      ],
+      "pron": {
+        "lookup": "extend",
+        "tts": "extend"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1275,
+      "id": "w-capacity",
+      "type": "word",
+      "front": "capacity",
+      "meaning": "能力・可能性",
+      "synonyms": [
+        "potential",
+        "capability"
+      ],
+      "collocation": "the capacity to",
+      "examples": [
+        {
+          "en": "It could also extend life by boosting the body's capacity for repair, so gene editing seems to be the way forward."
+        }
+      ],
+      "pron": {
+        "lookup": "capacity",
+        "tts": "capacity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1276,
+      "id": "p-the-way-forward",
+      "type": "phrase",
+      "front": "the way forward",
+      "meaning": "今後の道筋",
+      "synonyms": [
+        "the wave of the future"
+      ],
+      "collocation": "the way forward",
+      "examples": [
+        {
+          "en": "It could also extend life by boosting the body's capacity for repair, so gene editing seems to be the way forward."
+        }
+      ],
+      "pron": {
+        "tts": "the way forward"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1277,
+      "id": "w-downside",
+      "type": "word",
+      "front": "downside",
+      "meaning": "マイナス面",
+      "synonyms": [
+        "drawback",
+        "minus",
+        "snag"
+      ],
+      "collocation": "the downside of",
+      "examples": [
+        {
+          "en": "But there are downsides, and the worst-case scenario is that we face a new epidemic."
+        }
+      ],
+      "pron": {
+        "lookup": "downside",
+        "tts": "downside"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1278,
+      "id": "p-worst-case-scenario",
+      "type": "phrase",
+      "front": "worst-case scenario",
+      "meaning": "最悪のシナリオ",
+      "synonyms": [
+        "worst possible outcome"
+      ],
+      "collocation": "the worst-case scenario",
+      "examples": [
+        {
+          "en": "But there are downsides, and the worst-case scenario is that we face a new epidemic."
+        }
+      ],
+      "pron": {
+        "tts": "worst-case scenario"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1279,
+      "id": "w-face",
+      "type": "word",
+      "front": "face",
+      "meaning": "直面する",
+      "synonyms": [
+        "confront"
+      ],
+      "collocation": "face challenges",
+      "examples": [
+        {
+          "en": "But there are downsides, and the worst-case scenario is that we face a new epidemic."
+        }
+      ],
+      "pron": {
+        "lookup": "face",
+        "tts": "face"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1280,
+      "id": "w-epidemic",
+      "type": "word",
+      "front": "epidemic",
+      "meaning": "病気の蔓延",
+      "synonyms": [
+        "plague",
+        "contagion",
+        "outbreak of disease"
+      ],
+      "collocation": "an epidemic",
+      "examples": [
+        {
+          "en": "But there are downsides, and the worst-case scenario is that we face a new epidemic."
+        }
+      ],
+      "pron": {
+        "lookup": "epidemic",
+        "tts": "epidemic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1281,
+      "id": "w-spell",
+      "type": "word",
+      "front": "spell",
+      "meaning": "（悪い結果を）招く・示す",
+      "synonyms": [
+        "signal",
+        "indicate",
+        "portend"
+      ],
+      "collocation": "spell disaster",
+      "examples": [
+        {
+          "en": "Altered DNA could spell disaster for humanity."
+        }
+      ],
+      "pron": {
+        "lookup": "spell",
+        "tts": "spell"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1282,
+      "id": "w-humanity",
+      "type": "word",
+      "front": "humanity",
+      "meaning": "人類",
+      "synonyms": [
+        "the human race",
+        "humankind",
+        "mankind"
+      ],
+      "collocation": "the future of humanity",
+      "examples": [
+        {
+          "en": "Altered DNA could spell disaster for humanity."
+        }
+      ],
+      "pron": {
+        "lookup": "humanity",
+        "tts": "humanity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1283,
+      "id": "p-government-body",
+      "type": "phrase",
+      "front": "government body",
+      "meaning": "政府機関",
+      "synonyms": [
+        "the authorities",
+        "government agency",
+        "the powers-that-be"
+      ],
+      "collocation": "a government body",
+      "examples": [
+        {
+          "en": "So a government body needs to set restrictions to make sure the industry does everything by the book."
+        }
+      ],
+      "pron": {
+        "tts": "government body"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1284,
+      "id": "p-set-a-restriction",
+      "type": "phrase",
+      "front": "set a restriction",
+      "meaning": "制限を設ける",
+      "synonyms": [
+        "draw a line",
+        "establish a boundary",
+        "set a limit"
+      ],
+      "collocation": "set restrictions",
+      "examples": [
+        {
+          "en": "So a government body needs to set restrictions to make sure the industry does everything by the book."
+        }
+      ],
+      "pron": {
+        "tts": "set a restriction"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1285,
+      "id": "p-do-by-the-book",
+      "type": "phrase",
+      "front": "do by the book",
+      "meaning": "規則に従って行う",
+      "synonyms": [
+        "do by the numbers",
+        "follow the letter of the law"
+      ],
+      "collocation": "do everything by the book",
+      "examples": [
+        {
+          "en": "So a government body needs to set restrictions to make sure the industry does everything by the book."
+        }
+      ],
+      "pron": {
+        "tts": "do by the book"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1286,
+      "id": "w-crispr",
+      "type": "word",
+      "front": "CRISPR",
+      "meaning": "クリスパー",
+      "pron": {
+        "lookup": "CRISPR",
+        "tts": "CRISPR"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1287,
+      "id": "w-strand",
+      "type": "word",
+      "front": "strand",
+      "meaning": "DNAの鎖",
+      "pron": {
+        "lookup": "strand",
+        "tts": "strand"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1288,
+      "id": "w-mortality",
+      "type": "word",
+      "front": "mortality",
+      "meaning": "死亡率",
+      "pron": {
+        "lookup": "mortality",
+        "tts": "mortality"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1289,
+      "id": "w-bioengineering",
+      "type": "word",
+      "front": "bioengineering",
+      "meaning": "生体工学",
+      "pron": {
+        "lookup": "bioengineering",
+        "tts": "bioengineering"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1290,
+      "id": "w-immunity",
+      "type": "word",
+      "front": "immunity",
+      "meaning": "免疫",
+      "pron": {
+        "lookup": "immunity",
+        "tts": "immunity"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1291,
+      "id": "w-bear",
+      "type": "word",
+      "front": "bear",
+      "meaning": "産む",
+      "pron": {
+        "lookup": "bear",
+        "tts": "bear"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 52,
+      "themeName": "遺伝子操作",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t52",
+    "theme": 52,
+    "themeName": "遺伝子操作",
+    "jp": "かつて理論上の概念だった遺伝子編集は、CRISPRのおかげで現実になった。CRISPRは絡み合ったDNAの鎖に調整を加える。その用途は魅力的で、子どもを苦しめる病気を止められるかもしれない。科学者は病気による死をなくし、不妊の女性が子を持てるよう目指す。修復能力を高めて寿命を延ばすこともでき、遺伝子編集は今後の道筋に見える。だがマイナス面もあり、最悪のシナリオは新たな蔓延に直面することだ。改変されたDNAは人類に災いを招きうる。だから政府機関は制限を設け、この産業がすべて規則通りに行うようにする必要がある。",
+    "sentences": [
+      {
+        "en": "Editing genes, once an abstract concept, is now real thanks to CRISPR, which makes adjustments to the intertwined strands of DNA.",
+        "targets": [
+          {
+            "id": "w-abstract",
+            "text": "abstract"
+          },
+          {
+            "id": "w-adjustment",
+            "text": "adjustments"
+          },
+          {
+            "id": "w-intertwined",
+            "text": "intertwined"
+          }
+        ]
+      },
+      {
+        "en": "The possible uses are fascinating: it could stop diseases that afflict children.",
+        "targets": [
+          {
+            "id": "w-fascinating",
+            "text": "fascinating"
+          },
+          {
+            "id": "p-stop-in-one-s-tracks",
+            "text": "stop"
+          },
+          {
+            "id": "w-afflict",
+            "text": "afflict"
+          }
+        ]
+      },
+      {
+        "en": "Scientists aspire to put an end to mortality from disease, and to help infertile women have children.",
+        "targets": [
+          {
+            "id": "w-aspire",
+            "text": "aspire"
+          },
+          {
+            "id": "p-put-an-end-to",
+            "text": "put an end to"
+          },
+          {
+            "id": "w-infertile",
+            "text": "infertile"
+          }
+        ]
+      },
+      {
+        "en": "It could also extend life by boosting the body's capacity for repair, so gene editing seems to be the way forward.",
+        "targets": [
+          {
+            "id": "w-extend",
+            "text": "extend"
+          },
+          {
+            "id": "w-capacity",
+            "text": "capacity"
+          },
+          {
+            "id": "p-the-way-forward",
+            "text": "the way forward"
+          }
+        ]
+      },
+      {
+        "en": "But there are downsides, and the worst-case scenario is that we face a new epidemic.",
+        "targets": [
+          {
+            "id": "w-downside",
+            "text": "downsides"
+          },
+          {
+            "id": "p-worst-case-scenario",
+            "text": "worst-case scenario"
+          },
+          {
+            "id": "w-face",
+            "text": "face"
+          },
+          {
+            "id": "w-epidemic",
+            "text": "epidemic"
+          }
+        ]
+      },
+      {
+        "en": "Altered DNA could spell disaster for humanity.",
+        "targets": [
+          {
+            "id": "w-spell",
+            "text": "spell"
+          },
+          {
+            "id": "w-humanity",
+            "text": "humanity"
+          }
+        ]
+      },
+      {
+        "en": "So a government body needs to set restrictions to make sure the industry does everything by the book.",
+        "targets": [
+          {
+            "id": "p-government-body",
+            "text": "government body"
+          },
+          {
+            "id": "p-set-a-restriction",
+            "text": "set restrictions"
+          },
+          {
+            "id": "p-do-by-the-book",
+            "text": "does everything by the book"
+          }
+        ]
+      }
+    ]
+  }
+}

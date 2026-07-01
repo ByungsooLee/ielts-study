@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 47,
+  "themeId": "theme-47",
+  "themeName": "リチャード三世",
+  "version": "57d8d8df",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1138,
+      "id": "w-ruthless",
+      "type": "word",
+      "front": "ruthless",
+      "meaning": "無慈悲な",
+      "synonyms": [
+        "cutthroat",
+        "heartless",
+        "unforgiving"
+      ],
+      "collocation": "a ruthless ruler",
+      "examples": [
+        {
+          "en": "King Richard III is popularly seen as a ruthless and jealous ruler who confined and murdered his nephews to seize power."
+        }
+      ],
+      "pron": {
+        "lookup": "ruthless",
+        "tts": "ruthless"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1139,
+      "id": "w-jealous",
+      "type": "word",
+      "front": "jealous",
+      "meaning": "嫉妬深い",
+      "synonyms": [
+        "envious"
+      ],
+      "collocation": "jealous of",
+      "examples": [
+        {
+          "en": "King Richard III is popularly seen as a ruthless and jealous ruler who confined and murdered his nephews to seize power."
+        }
+      ],
+      "pron": {
+        "lookup": "jealous",
+        "tts": "jealous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1140,
+      "id": "w-confine",
+      "type": "word",
+      "front": "confine",
+      "meaning": "監禁する",
+      "synonyms": [
+        "lock up",
+        "incarcerate",
+        "imprison"
+      ],
+      "collocation": "confine sb",
+      "examples": [
+        {
+          "en": "King Richard III is popularly seen as a ruthless and jealous ruler who confined and murdered his nephews to seize power."
+        }
+      ],
+      "pron": {
+        "lookup": "confine",
+        "tts": "confine"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1141,
+      "id": "w-seize",
+      "type": "word",
+      "front": "seize",
+      "meaning": "つかむ・手に入れる",
+      "synonyms": [
+        "take hold of"
+      ],
+      "collocation": "seize power",
+      "examples": [
+        {
+          "en": "King Richard III is popularly seen as a ruthless and jealous ruler who confined and murdered his nephews to seize power."
+        }
+      ],
+      "pron": {
+        "lookup": "seize",
+        "tts": "seize"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1142,
+      "id": "p-characterise-as",
+      "type": "phrase",
+      "front": "characterise as",
+      "meaning": "〜として描く",
+      "synonyms": [
+        "portray as",
+        "depict as"
+      ],
+      "collocation": "be characterised as",
+      "examples": [
+        {
+          "en": "Shakespeare characterised him as a villain who was willing to do anything, and it is rumoured that his corpse was thrown into a river."
+        }
+      ],
+      "pron": {
+        "tts": "characterise as"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1143,
+      "id": "w-willing",
+      "type": "word",
+      "front": "willing",
+      "meaning": "〜する意思がある",
+      "synonyms": [
+        "prepared",
+        "inclined"
+      ],
+      "collocation": "be willing to",
+      "examples": [
+        {
+          "en": "Shakespeare characterised him as a villain who was willing to do anything, and it is rumoured that his corpse was thrown into a river."
+        }
+      ],
+      "pron": {
+        "lookup": "willing",
+        "tts": "willing"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1144,
+      "id": "p-be-rumoured",
+      "type": "phrase",
+      "front": "be rumoured",
+      "meaning": "うわさされている",
+      "synonyms": [
+        "be reputed",
+        "be reported"
+      ],
+      "collocation": "be rumoured to",
+      "examples": [
+        {
+          "en": "Shakespeare characterised him as a villain who was willing to do anything, and it is rumoured that his corpse was thrown into a river."
+        }
+      ],
+      "pron": {
+        "tts": "be rumoured"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1145,
+      "id": "w-corpse",
+      "type": "word",
+      "front": "corpse",
+      "meaning": "死体",
+      "synonyms": [
+        "cadaver",
+        "body",
+        "remains"
+      ],
+      "collocation": "a corpse",
+      "examples": [
+        {
+          "en": "Shakespeare characterised him as a villain who was willing to do anything, and it is rumoured that his corpse was thrown into a river."
+        }
+      ],
+      "pron": {
+        "lookup": "corpse",
+        "tts": "corpse"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1146,
+      "id": "w-rethink",
+      "type": "word",
+      "front": "rethink",
+      "meaning": "考え直す",
+      "synonyms": [
+        "reconsider",
+        "take another look at",
+        "re-examine"
+      ],
+      "collocation": "rethink sth",
+      "examples": [
+        {
+          "en": "Yet some scholars now rethink the story of his downfall."
+        }
+      ],
+      "pron": {
+        "lookup": "rethink",
+        "tts": "rethink"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1147,
+      "id": "w-downfall",
+      "type": "word",
+      "front": "downfall",
+      "meaning": "失脚・没落",
+      "synonyms": [
+        "ruin",
+        "collapse"
+      ],
+      "collocation": "the downfall of",
+      "examples": [
+        {
+          "en": "Yet some scholars now rethink the story of his downfall."
+        }
+      ],
+      "pron": {
+        "lookup": "downfall",
+        "tts": "downfall"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1148,
+      "id": "w-omit",
+      "type": "word",
+      "front": "omit",
+      "meaning": "〜を除外する",
+      "synonyms": [
+        "exclude",
+        "leave out"
+      ],
+      "collocation": "omit sth",
+      "examples": [
+        {
+          "en": "They feel the play omits his loyalty and faithful stewardship of England."
+        }
+      ],
+      "pron": {
+        "lookup": "omit",
+        "tts": "omit"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1149,
+      "id": "w-loyalty",
+      "type": "word",
+      "front": "loyalty",
+      "meaning": "忠誠",
+      "synonyms": [
+        "fidelity",
+        "allegiance",
+        "fealty"
+      ],
+      "collocation": "loyalty to",
+      "examples": [
+        {
+          "en": "They feel the play omits his loyalty and faithful stewardship of England."
+        }
+      ],
+      "pron": {
+        "lookup": "loyalty",
+        "tts": "loyalty"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1150,
+      "id": "w-faithful",
+      "type": "word",
+      "front": "faithful",
+      "meaning": "忠実な",
+      "synonyms": [
+        "loyal",
+        "dutiful"
+      ],
+      "collocation": "a faithful servant",
+      "examples": [
+        {
+          "en": "They feel the play omits his loyalty and faithful stewardship of England."
+        }
+      ],
+      "pron": {
+        "lookup": "faithful",
+        "tts": "faithful"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1151,
+      "id": "w-stewardship",
+      "type": "word",
+      "front": "stewardship",
+      "meaning": "管理・運営",
+      "synonyms": [
+        "management",
+        "administration",
+        "supervision"
+      ],
+      "collocation": "stewardship of",
+      "examples": [
+        {
+          "en": "They feel the play omits his loyalty and faithful stewardship of England."
+        }
+      ],
+      "pron": {
+        "lookup": "stewardship",
+        "tts": "stewardship"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1152,
+      "id": "p-in-retrospect",
+      "type": "phrase",
+      "front": "in retrospect",
+      "meaning": "今にして思えば",
+      "synonyms": [
+        "in hindsight",
+        "looking back"
+      ],
+      "collocation": "in retrospect",
+      "examples": [
+        {
+          "en": "In retrospect, he may not have been a villain, but a product of his turbulent times."
+        }
+      ],
+      "pron": {
+        "tts": "in retrospect"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1153,
+      "id": "w-turbulent",
+      "type": "word",
+      "front": "turbulent",
+      "meaning": "不安定な・無法の",
+      "synonyms": [
+        "chaotic",
+        "lawless"
+      ],
+      "collocation": "turbulent times",
+      "examples": [
+        {
+          "en": "In retrospect, he may not have been a villain, but a product of his turbulent times."
+        }
+      ],
+      "pron": {
+        "lookup": "turbulent",
+        "tts": "turbulent"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1154,
+      "id": "p-pour-time-and-money-into",
+      "type": "phrase",
+      "front": "pour time and money into",
+      "meaning": "〜に時間とお金をつぎ込む",
+      "synonyms": [
+        "devote time and money to",
+        "commit time and money to"
+      ],
+      "collocation": "pour time and money into",
+      "examples": [
+        {
+          "en": "Scholars poured time and money into the search to untangle the mystery of his death once and for all."
+        }
+      ],
+      "pron": {
+        "tts": "pour time and money into"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1155,
+      "id": "w-untangle",
+      "type": "word",
+      "front": "untangle",
+      "meaning": "解き明かす",
+      "synonyms": [
+        "clear up",
+        "straighten out",
+        "solve"
+      ],
+      "collocation": "untangle a mystery",
+      "examples": [
+        {
+          "en": "Scholars poured time and money into the search to untangle the mystery of his death once and for all."
+        }
+      ],
+      "pron": {
+        "lookup": "untangle",
+        "tts": "untangle"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1156,
+      "id": "p-once-and-for-all",
+      "type": "phrase",
+      "front": "once and for all",
+      "meaning": "きっぱりと",
+      "synonyms": [
+        "at long last",
+        "conclusively"
+      ],
+      "collocation": "once and for all",
+      "examples": [
+        {
+          "en": "Scholars poured time and money into the search to untangle the mystery of his death once and for all."
+        }
+      ],
+      "pron": {
+        "tts": "once and for all"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1157,
+      "id": "p-be-taken-aback",
+      "type": "phrase",
+      "front": "be taken aback",
+      "meaning": "驚く",
+      "synonyms": [
+        "be astonished",
+        "be speechless"
+      ],
+      "collocation": "be taken aback",
+      "examples": [
+        {
+          "en": "They were taken aback to find his skeleton in a grave under a car park."
+        }
+      ],
+      "pron": {
+        "tts": "be taken aback"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1158,
+      "id": "w-grave",
+      "type": "word",
+      "front": "grave",
+      "meaning": "墓",
+      "synonyms": [
+        "burial site",
+        "tomb",
+        "final resting place"
+      ],
+      "collocation": "a grave",
+      "examples": [
+        {
+          "en": "They were taken aback to find his skeleton in a grave under a car park."
+        }
+      ],
+      "pron": {
+        "lookup": "grave",
+        "tts": "grave"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1159,
+      "id": "w-villain",
+      "type": "word",
+      "front": "villain",
+      "meaning": "悪人",
+      "pron": {
+        "lookup": "villain",
+        "tts": "villain"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1160,
+      "id": "p-the-end-justifies-the-means",
+      "type": "phrase",
+      "front": "the end justifies the means",
+      "meaning": "目的が手段を正当化する",
+      "pron": {
+        "tts": "the end justifies the means"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1161,
+      "id": "w-postmortem",
+      "type": "word",
+      "front": "postmortem",
+      "meaning": "死体解剖",
+      "pron": {
+        "lookup": "postmortem",
+        "tts": "postmortem"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1162,
+      "id": "w-hunchbacked",
+      "type": "word",
+      "front": "hunchbacked",
+      "meaning": "せむしの",
+      "pron": {
+        "lookup": "hunchbacked",
+        "tts": "hunchbacked"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1163,
+      "id": "p-product-of-one-s-times",
+      "type": "phrase",
+      "front": "product of one's times",
+      "meaning": "時代の産物",
+      "pron": {
+        "tts": "product of one's times"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 47,
+      "themeName": "リチャード三世",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t47",
+    "theme": 47,
+    "themeName": "リチャード三世",
+    "jp": "リチャード三世は、権力をつかむため甥を監禁し殺した無慈悲で嫉妬深い王として一般に見られている。シェイクスピアは彼を何でもする悪人として描き、その死体は川に投げ込まれたとうわさされる。だが一部の学者は今、彼の没落の物語を考え直している。劇は彼の忠誠と忠実なイングランド統治を除外していると彼らは感じる。今にして思えば、彼は悪人ではなく不安定な時代の産物だったのかもしれない。学者は彼の死の謎をきっぱり解き明かそうと時間とお金をつぎ込んだ。そして駐車場の下の墓で骸骨を見つけ、驚いた。",
+    "sentences": [
+      {
+        "en": "King Richard III is popularly seen as a ruthless and jealous ruler who confined and murdered his nephews to seize power.",
+        "targets": [
+          {
+            "id": "w-ruthless",
+            "text": "ruthless"
+          },
+          {
+            "id": "w-jealous",
+            "text": "jealous"
+          },
+          {
+            "id": "w-confine",
+            "text": "confined"
+          },
+          {
+            "id": "w-seize",
+            "text": "seize"
+          }
+        ]
+      },
+      {
+        "en": "Shakespeare characterised him as a villain who was willing to do anything, and it is rumoured that his corpse was thrown into a river.",
+        "targets": [
+          {
+            "id": "p-characterise-as",
+            "text": "characterised"
+          },
+          {
+            "id": "w-willing",
+            "text": "willing"
+          },
+          {
+            "id": "p-be-rumoured",
+            "text": "rumoured"
+          },
+          {
+            "id": "w-corpse",
+            "text": "corpse"
+          }
+        ]
+      },
+      {
+        "en": "Yet some scholars now rethink the story of his downfall.",
+        "targets": [
+          {
+            "id": "w-rethink",
+            "text": "rethink"
+          },
+          {
+            "id": "w-downfall",
+            "text": "downfall"
+          }
+        ]
+      },
+      {
+        "en": "They feel the play omits his loyalty and faithful stewardship of England.",
+        "targets": [
+          {
+            "id": "w-omit",
+            "text": "omits"
+          },
+          {
+            "id": "w-loyalty",
+            "text": "loyalty"
+          },
+          {
+            "id": "w-faithful",
+            "text": "faithful"
+          },
+          {
+            "id": "w-stewardship",
+            "text": "stewardship"
+          }
+        ]
+      },
+      {
+        "en": "In retrospect, he may not have been a villain, but a product of his turbulent times.",
+        "targets": [
+          {
+            "id": "p-in-retrospect",
+            "text": "In retrospect"
+          },
+          {
+            "id": "w-turbulent",
+            "text": "turbulent"
+          }
+        ]
+      },
+      {
+        "en": "Scholars poured time and money into the search to untangle the mystery of his death once and for all.",
+        "targets": [
+          {
+            "id": "p-pour-time-and-money-into",
+            "text": "poured time and money into"
+          },
+          {
+            "id": "w-untangle",
+            "text": "untangle"
+          },
+          {
+            "id": "p-once-and-for-all",
+            "text": "once and for all"
+          }
+        ]
+      },
+      {
+        "en": "They were taken aback to find his skeleton in a grave under a car park.",
+        "targets": [
+          {
+            "id": "p-be-taken-aback",
+            "text": "taken aback"
+          },
+          {
+            "id": "w-grave",
+            "text": "grave"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -7,8 +7,8 @@
   "theme": 2,
   "themeId": "theme-2",
   "themeName": "プラスチック",
-  "version": "9079c257",
-  "generatedAt": "2026-06-18T10:32:03.495Z",
+  "version": "8c862710",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
   "items": [
     {
       "n": 21,
@@ -108,7 +108,7 @@
       ],
       "theme": 2,
       "themeName": "プラスチック",
-      "priority": "A",
+      "priority": "S",
       "domain": "english",
       "collection": "ielts-vocab"
     },

@@ -7,8 +7,8 @@
   "theme": 2,
   "themeId": "genre-2",
   "themeName": "技術質問",
-  "version": "c586bae9",
-  "generatedAt": "2026-06-24T03:11:06.180Z",
+  "version": "649d9ea6",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
   "items": [
     {
       "n": 478,
@@ -422,6 +422,426 @@
                 "en": "reliability",
                 "jp": "信頼性",
                 "pos": "n"
+              }
+            ]
+          }
+        ]
+      },
+      "pron": {
+        "tts": true
+      },
+      "source": {
+        "added": "2026-06-23"
+      }
+    },
+    {
+      "n": 1409,
+      "id": "iv-api-ingestion-pipeline",
+      "type": "interview",
+      "domain": "engineering",
+      "collection": "interview",
+      "theme": 2,
+      "themeName": "技術質問",
+      "register": "active",
+      "question": {
+        "en": "If you had to design a pipeline that ingests data from an external API into Snowflake every day, how would you design it — including rate limits, retries on failure, duplicate data, data quality, and monitoring?",
+        "jp": "外部APIから毎日データを取得してSnowflakeに取り込むパイプラインを設計するとしたら、どのように設計しますか？APIのレート制限、失敗時のリトライ、重複データ、データ品質、監視まで含めて説明してください。",
+        "tts": "If you had to design a pipeline that ingests data from an external API into Snowflake every day, how would you design it, including rate limits, retries, duplicates, data quality, and monitoring?"
+      },
+      "answer": {
+        "jp": "設計の背骨は4原則: 冪等性・再処理性・データ品質・監査性。①取り込み方式はテーブルごと（updated_at/cursor/PKの有無でfull/incremental/append/replace）。②raw層はソースに近い形で保存、すぐ重複排除せずbatch_id/ingested_at/source_updated_at/record_hashを付与→後でdbtで安全に重複排除＆再実行可能（=冪等性）。③認証はAPI key/OAuth/service account、secret managerで管理・ハードコード禁止・最小権限。④レート制限は429/retry-after・exponential backoff・並列制御、5xx等は自動リトライだが認証/スキーマ変更/品質異常は停止してSlackで人へ。⑤変換はraw→staging→intermediate→martの層分け、dbtが重複排除/型変換/ロジック/テスト/ドキュメント/リネージを担当（not null/unique/relationships/accepted values/freshness/件数）。⑥監視は成否だけでなく抽出/ロード/重複件数・処理時間・APIコード・最終更新時刻、SLA超過や件数急減でアラート。要は『入れるだけ』でなく、信頼でき・再実行でき・原因調査しやすい設計。",
+        "sentences": [
+          {
+            "en": "Before I write any code, I anchor an ingestion pipeline on four principles: idempotency, reprocessability, data quality, and auditability — every design choice should serve one of them.",
+            "jp": "コードを書く前に、取り込みパイプラインを4つの原則—冪等性・再処理性・データ品質・監査性—に据えます。すべての設計判断はこのどれかに資するべきです。",
+            "linking": "anchor‿an ingestion pipeline‿on four principles",
+            "syntax": "anchor A on B（AをBに据える/拠り所にする）。コロンで4原則を列挙。ダッシュで補足の主張。",
+            "grammar": [
+              "anchor A on B（AをBに基づかせる）",
+              "コロン(:)で列挙を導く"
+            ],
+            "tips": [
+              "冒頭で原則を宣言＝記憶の背骨。面接官も全体像を掴める"
+            ],
+            "terms": [
+              {
+                "en": "anchor on",
+                "jp": "〜を拠り所にする／〜に据える",
+                "pos": "v"
+              },
+              {
+                "en": "idempotency",
+                "jp": "冪等性（何回実行しても結果が同じ）",
+                "pos": "n"
+              },
+              {
+                "en": "auditability",
+                "jp": "監査性",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "First, the loading strategy: I don't use the same one for every table.",
+            "jp": "まず取り込み方式です。すべてのテーブルで同じ方式は使いません。",
+            "linking": "I don't‿use the same one",
+            "syntax": "First, で段階を明示。one = the same loading strategy の代名詞。",
+            "grammar": [
+              "First/Second... で論点を番号付け",
+              "代名詞 one（前出の名詞の代用）"
+            ],
+            "tips": [
+              "『全部同じにはしない』は実務的で強い一言"
+            ],
+            "terms": [
+              {
+                "en": "loading strategy",
+                "jp": "取り込み方式",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "Depending on whether the API gives me an updated_at field, cursor-based pagination, or a primary key, I choose between full load, incremental, append, or replace.",
+            "jp": "APIにupdated_at・カーソル方式のページネーション・主キーがあるかに応じて、full load・incremental・append・replaceから選びます。",
+            "linking": "Depending‿on whether the API",
+            "syntax": "Depending on whether S V（〜かどうかに応じて）。choose between A, B, ... or C。",
+            "grammar": [
+              "Depending on + 名詞/whether節（〜次第で）",
+              "choose between（選択肢から選ぶ）"
+            ],
+            "tips": [
+              "判断基準（何を見て選ぶか）を先に示すと説得力が出る"
+            ],
+            "terms": [
+              {
+                "en": "pagination",
+                "jp": "ページ分割取得",
+                "pos": "n"
+              },
+              {
+                "en": "primary key",
+                "jp": "主キー",
+                "pos": "n"
+              },
+              {
+                "en": "incremental",
+                "jp": "差分（増分）取り込み",
+                "pos": "adj"
+              }
+            ]
+          },
+          {
+            "en": "Second, the raw layer: I land the API response in a raw table, kept as close to the source as possible.",
+            "jp": "次にraw層です。APIのレスポンスを、できるだけソースに近い形でrawテーブルに着地させます。",
+            "linking": "land the API response‿in a raw table",
+            "syntax": "land A in B（AをBに着地/格納させる）。kept ... は過去分詞の付帯（=which is kept）。as close to ... as possible。",
+            "grammar": [
+              "過去分詞の後置修飾 kept（=which is kept）",
+              "as ... as possible（できるだけ〜）"
+            ],
+            "tips": [
+              "land＝（データを）受け止める/着地させる、の業界用語"
+            ],
+            "terms": [
+              {
+                "en": "land (data)",
+                "jp": "（データを）格納/着地させる",
+                "pos": "v"
+              },
+              {
+                "en": "as close to the source as possible",
+                "jp": "できるだけソースに近い形で",
+                "pos": "phr"
+              }
+            ]
+          },
+          {
+            "en": "There I prioritise auditability over cleanliness, so I don't deduplicate yet — instead I stamp each record with batch_id, ingested_at, source_updated_at, and a record_hash.",
+            "jp": "raw層では整然さより監査性を優先し、まだ重複排除しません。代わりに各レコードにbatch_id・ingested_at・source_updated_at・record_hashを付与します。",
+            "linking": "prioritise auditability‿over cleanliness",
+            "syntax": "prioritise A over B（BよりAを優先）。結果の so。対比の instead。stamp A with B（AにBを付与）。",
+            "grammar": [
+              "prioritise A over B",
+              "instead で代替案を示す"
+            ],
+            "tips": [
+              "stamp ... with metadata＝メタdata を刻む。auditability の核"
+            ],
+            "terms": [
+              {
+                "en": "prioritise A over B",
+                "jp": "BよりAを優先する",
+                "pos": "phr"
+              },
+              {
+                "en": "deduplicate",
+                "jp": "重複排除する",
+                "pos": "v"
+              },
+              {
+                "en": "record_hash",
+                "jp": "レコードのハッシュ（重複判定用）",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "That lets me deduplicate safely later in dbt and re-run the pipeline without creating duplicates — that's the idempotency piece.",
+            "jp": "そうすれば後でdbtで安全に重複排除でき、重複を生まずに再実行できます。これが冪等性の部分です。",
+            "linking": "re-run the pipeline‿without creating duplicates",
+            "syntax": "That lets me + 原形（使役 let）。without + -ing（〜せずに）。that's the ... piece（〜の部分）。",
+            "grammar": [
+              "使役 let O 原形",
+              "without + 動名詞"
+            ],
+            "tips": [
+              "メタ付与→冪等性、と原則に結びつけると記憶に残る"
+            ],
+            "terms": [
+              {
+                "en": "re-run",
+                "jp": "再実行する",
+                "pos": "v"
+              },
+              {
+                "en": "idempotency",
+                "jp": "冪等性",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "Third, authentication: API keys, OAuth, or a service account depending on the API, all stored in a secret manager, never hard-coded, and scoped with least privilege.",
+            "jp": "3つ目は認証です。APIに応じてAPI key・OAuth・service accountを使い、すべてsecret managerで管理し、ハードコードはせず、最小権限に絞ります。",
+            "linking": "stored‿in a secret manager",
+            "syntax": "名詞句の列挙＋過去分詞 stored/scoped で属性を畳みかける。never hard-coded（決して〜しない）。",
+            "grammar": [
+              "過去分詞の並列 stored / hard-coded / scoped",
+              "least privilege（最小権限）"
+            ],
+            "tips": [
+              "short phrases を畳みかけると簡潔で覚えやすい"
+            ],
+            "terms": [
+              {
+                "en": "secret manager",
+                "jp": "シークレット管理サービス",
+                "pos": "n"
+              },
+              {
+                "en": "least privilege",
+                "jp": "最小権限",
+                "pos": "n"
+              },
+              {
+                "en": "hard-code",
+                "jp": "コードに直書きする",
+                "pos": "v"
+              }
+            ]
+          },
+          {
+            "en": "Fourth, rate limits and failures: I respect 429s and retry-after headers, and use exponential backoff with concurrency control.",
+            "jp": "4つ目はレート制限と失敗です。429とretry-afterヘッダを尊重し、exponential backoffと並列数制御を使います。",
+            "linking": "exponential backoff‿with concurrency control",
+            "syntax": "respect A and use B の等位。with + 名詞（〜を伴って）。",
+            "grammar": [
+              "等位接続 respect ... and use ...",
+              "429s の複数形（429レスポンス群）"
+            ],
+            "tips": [
+              "respect 429s＝429を『きちんと扱う』のこなれた言い方"
+            ],
+            "terms": [
+              {
+                "en": "exponential backoff",
+                "jp": "指数的バックオフ（待ち時間を倍々に）",
+                "pos": "n"
+              },
+              {
+                "en": "concurrency control",
+                "jp": "並列数の制御",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "Transient errors like 5xx or network drops get retried automatically, but auth failures, schema changes, or data-quality issues stop the run and page a human on Slack.",
+            "jp": "5xxやネットワーク断などの一時的エラーは自動リトライしますが、認証失敗・スキーマ変更・データ品質異常は実行を止めてSlackで人を呼びます。",
+            "linking": "get retried‿automatically",
+            "syntax": "get + 過去分詞（受動の口語：get retried）。逆接 but。page a human（人を呼び出す）。",
+            "grammar": [
+              "get + 過去分詞（口語的受動）",
+              "対比の but で『自動 vs 人手』を分ける"
+            ],
+            "tips": [
+              "『自動で直すもの／人が見るもの』の線引きが設計力の見せ所"
+            ],
+            "terms": [
+              {
+                "en": "transient error",
+                "jp": "一時的エラー",
+                "pos": "n"
+              },
+              {
+                "en": "page (a human)",
+                "jp": "（担当者を）呼び出す",
+                "pos": "v"
+              }
+            ]
+          },
+          {
+            "en": "Fifth, transformation: in Snowflake I split the data into raw, staging, intermediate, and mart layers, and dbt owns the deduplication, type casting, business logic, tests, docs, and lineage.",
+            "jp": "5つ目は変換です。Snowflake内でraw・staging・intermediate・martに層分けし、dbtが重複排除・型変換・ビジネスロジック・テスト・ドキュメント・リネージを担います。",
+            "linking": "split the data‿into layers",
+            "syntax": "split A into B。dbt owns C（dbtがCを受け持つ）— own を『担当する』の意で使う。",
+            "grammar": [
+              "split A into B",
+              "own = 〜を所掌する（比喩）"
+            ],
+            "tips": [
+              "『dbt owns 〜』は責務を一語で言える便利表現"
+            ],
+            "terms": [
+              {
+                "en": "type casting",
+                "jp": "型変換",
+                "pos": "n"
+              },
+              {
+                "en": "own (responsibility)",
+                "jp": "〜を受け持つ",
+                "pos": "v"
+              },
+              {
+                "en": "lineage",
+                "jp": "データの来歴",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "I add tests like not null, unique, relationships, accepted values, freshness, and row-count checks, so bad data fails the build instead of reaching the mart.",
+            "jp": "not null・unique・relationships・accepted values・freshness・件数チェックなどのテストを入れ、不正データはmartに届く前にビルドを失敗させます。",
+            "linking": "bad data fails‿the build",
+            "syntax": "add tests like ...（例示）。結果の so。fail the build（他動詞でビルドを落とす）。instead of + -ing。",
+            "grammar": [
+              "結果の so（だから〜）",
+              "instead of + 動名詞（〜する代わりに）"
+            ],
+            "tips": [
+              "『bad data fails the build』＝品質ゲートの定番表現"
+            ],
+            "terms": [
+              {
+                "en": "freshness",
+                "jp": "データの鮮度（最新性）",
+                "pos": "n"
+              },
+              {
+                "en": "row-count check",
+                "jp": "件数チェック",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "The mart layer is then shaped for analysts, BI tools, and sometimes web apps or APIs.",
+            "jp": "最終のmart層は、アナリストやBIツール、時にはWebアプリやAPIが使いやすい形に整えます。",
+            "linking": "shaped‿for analysts",
+            "syntax": "受動態 is shaped for ...（〜向けに整えられる）。then で順序。",
+            "grammar": [
+              "受動態 be shaped for（〜向けに形を整える）"
+            ],
+            "tips": [
+              "shape for ＝利用者目線で『形を整える』"
+            ],
+            "terms": [
+              {
+                "en": "shape (for)",
+                "jp": "（〜向けに）整える",
+                "pos": "v"
+              },
+              {
+                "en": "mart layer",
+                "jp": "マート層（最終提供層）",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "Sixth, monitoring: I don't just track success or failure — I watch rows extracted, loaded, and deduplicated, runtime, API response codes, and the latest data timestamp.",
+            "jp": "6つ目は監視です。成否だけを見るのではなく、抽出・ロード・重複排除の件数、処理時間、APIレスポンスコード、最新データのタイムスタンプを監視します。",
+            "linking": "I don't‿just track success",
+            "syntax": "not just A — B（単にAだけでなくB）。過去分詞 extracted/loaded/deduplicated が rows を後置修飾。",
+            "grammar": [
+              "not just ...（〜だけではない）",
+              "過去分詞の後置修飾 rows extracted"
+            ],
+            "tips": [
+              "監視指標を具体名で並べると運用経験が伝わる"
+            ],
+            "terms": [
+              {
+                "en": "runtime",
+                "jp": "処理時間",
+                "pos": "n"
+              },
+              {
+                "en": "timestamp",
+                "jp": "タイムスタンプ（時刻記録）",
+                "pos": "n"
+              }
+            ]
+          },
+          {
+            "en": "If we miss an SLA or the row count suddenly drops, that triggers an alert.",
+            "jp": "SLAを割り込む、または件数が急減した場合は、アラートを出します。",
+            "linking": "that triggers‿an alert",
+            "syntax": "条件の If 節（A or B）。trigger an alert（アラートを発火させる）。",
+            "grammar": [
+              "条件 If ... , 主節",
+              "trigger（〜を引き起こす）"
+            ],
+            "tips": [
+              "miss an SLA＝SLA未達。trigger an alert＝定番"
+            ],
+            "terms": [
+              {
+                "en": "SLA",
+                "jp": "サービス品質保証（合意した基準）",
+                "pos": "n"
+              },
+              {
+                "en": "trigger",
+                "jp": "発火させる／引き起こす",
+                "pos": "v"
+              }
+            ]
+          },
+          {
+            "en": "So overall, the goal isn't just to get data into Snowflake — it's a pipeline that's reliable, easy to re-run, and easy to investigate when something breaks.",
+            "jp": "つまり全体として、目的は単にSnowflakeにデータを入れることではなく、信頼でき・再実行しやすく・障害時に原因調査しやすいパイプラインを作ることです。",
+            "linking": "the goal isn't‿just to get data",
+            "syntax": "締めの So overall。not just A — it's B の対比。形容詞句 reliable / easy to re-run / easy to investigate を並列。",
+            "grammar": [
+              "not just A, but B（要点の対比）",
+              "easy to do（〜しやすい）"
+            ],
+            "tips": [
+              "冒頭の4原則を一文で回収して締める＝記憶に残る終わり方"
+            ],
+            "terms": [
+              {
+                "en": "investigate",
+                "jp": "原因を調査する",
+                "pos": "v"
+              },
+              {
+                "en": "reliable",
+                "jp": "信頼できる",
+                "pos": "adj"
               }
             ]
           }

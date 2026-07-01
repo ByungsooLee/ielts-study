@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 22,
+  "themeId": "theme-22",
+  "themeName": "フロー（集中状態）",
+  "version": "97730522",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 504,
+      "id": "w-concentration",
+      "type": "word",
+      "front": "concentration",
+      "meaning": "集中",
+      "synonyms": [
+        "focus",
+        "absorption"
+      ],
+      "collocation": "intense concentration, lose concentration",
+      "examples": [
+        {
+          "en": "Psychologists use the term 'flow' to describe a state of intense concentration in which people become completely engrossed in a task."
+        }
+      ],
+      "pron": {
+        "lookup": "concentration",
+        "tts": "concentration"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 505,
+      "id": "p-be-engrossed-in",
+      "type": "phrase",
+      "front": "be engrossed in",
+      "meaning": "没頭する",
+      "synonyms": [
+        "be absorbed in",
+        "be immersed in"
+      ],
+      "collocation": "engrossed in the task",
+      "examples": [
+        {
+          "en": "Psychologists use the term 'flow' to describe a state of intense concentration in which people become completely engrossed in a task."
+        }
+      ],
+      "pron": {
+        "tts": "be engrossed in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 506,
+      "id": "p-be-known-as",
+      "type": "phrase",
+      "front": "be known as",
+      "meaning": "〜として知られる",
+      "synonyms": [
+        "be referred to as"
+      ],
+      "collocation": "informally known as “the zone”",
+      "examples": [
+        {
+          "en": "This state is informally known as 'being in the zone', and its implications for work have great significance."
+        }
+      ],
+      "pron": {
+        "tts": "be known as"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 507,
+      "id": "w-implication",
+      "type": "word",
+      "front": "implication",
+      "meaning": "影響・含意",
+      "synonyms": [
+        "consequence",
+        "significance"
+      ],
+      "collocation": "have implications for, the implications of",
+      "examples": [
+        {
+          "en": "This state is informally known as 'being in the zone', and its implications for work have great significance."
+        }
+      ],
+      "pron": {
+        "lookup": "implication",
+        "tts": "implication"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 508,
+      "id": "w-significance",
+      "type": "word",
+      "front": "significance",
+      "meaning": "重要性",
+      "synonyms": [
+        "importance"
+      ],
+      "collocation": "of great significance",
+      "examples": [
+        {
+          "en": "This state is informally known as 'being in the zone', and its implications for work have great significance."
+        }
+      ],
+      "pron": {
+        "lookup": "significance",
+        "tts": "significance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 509,
+      "id": "w-productivity",
+      "type": "word",
+      "front": "productivity",
+      "meaning": "生産性",
+      "synonyms": [
+        "efficiency",
+        "output"
+      ],
+      "collocation": "boost productivity, work productivity",
+      "examples": [
+        {
+          "en": "Flow can boost productivity because workers attain a sense of mastery."
+        }
+      ],
+      "pron": {
+        "lookup": "productivity",
+        "tts": "productivity"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 510,
+      "id": "w-attain",
+      "type": "word",
+      "front": "attain",
+      "meaning": "達成する",
+      "synonyms": [
+        "achieve",
+        "reach"
+      ],
+      "collocation": "attain a goal, attain a state of flow",
+      "examples": [
+        {
+          "en": "Flow can boost productivity because workers attain a sense of mastery."
+        }
+      ],
+      "pron": {
+        "lookup": "attain",
+        "tts": "attain"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 511,
+      "id": "w-mastery",
+      "type": "word",
+      "front": "mastery",
+      "meaning": "熟達・習熟",
+      "synonyms": [
+        "proficiency",
+        "command"
+      ],
+      "collocation": "mastery of a skill, gain mastery",
+      "examples": [
+        {
+          "en": "Flow can boost productivity because workers attain a sense of mastery."
+        }
+      ],
+      "pron": {
+        "lookup": "mastery",
+        "tts": "mastery"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 512,
+      "id": "w-instantaneous",
+      "type": "word",
+      "front": "instantaneous",
+      "meaning": "即座の",
+      "synonyms": [
+        "immediate",
+        "instant"
+      ],
+      "collocation": "instantaneous feedback",
+      "examples": [
+        {
+          "en": "To reach it, a task needs clear, almost instantaneous feedback so people can assess their progress and ascertain how well they are doing."
+        }
+      ],
+      "pron": {
+        "lookup": "instantaneous",
+        "tts": "instantaneous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 513,
+      "id": "w-assess",
+      "type": "word",
+      "front": "assess",
+      "meaning": "評価する・見極める",
+      "synonyms": [
+        "gauge",
+        "evaluate"
+      ],
+      "collocation": "assess the situation, gauge the level",
+      "examples": [
+        {
+          "en": "To reach it, a task needs clear, almost instantaneous feedback so people can assess their progress and ascertain how well they are doing."
+        }
+      ],
+      "pron": {
+        "lookup": "assess",
+        "tts": "assess"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 514,
+      "id": "w-ascertain",
+      "type": "word",
+      "front": "ascertain",
+      "meaning": "確かめる",
+      "synonyms": [
+        "verify",
+        "confirm"
+      ],
+      "collocation": "ascertain the facts",
+      "examples": [
+        {
+          "en": "To reach it, a task needs clear, almost instantaneous feedback so people can assess their progress and ascertain how well they are doing."
+        }
+      ],
+      "pron": {
+        "lookup": "ascertain",
+        "tts": "ascertain"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 515,
+      "id": "w-manifold",
+      "type": "word",
+      "front": "manifold",
+      "meaning": "多数の・多様な",
+      "synonyms": [
+        "numerous",
+        "multiple"
+      ],
+      "collocation": "manifold benefits",
+      "examples": [
+        {
+          "en": "The benefits are manifold and abundant."
+        }
+      ],
+      "pron": {
+        "lookup": "manifold",
+        "tts": "manifold"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 516,
+      "id": "w-abundant",
+      "type": "word",
+      "front": "abundant",
+      "meaning": "豊富な",
+      "synonyms": [
+        "plentiful",
+        "ample"
+      ],
+      "collocation": "abundant resources",
+      "examples": [
+        {
+          "en": "The benefits are manifold and abundant."
+        }
+      ],
+      "pron": {
+        "lookup": "abundant",
+        "tts": "abundant"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 517,
+      "id": "p-in-lieu-of",
+      "type": "phrase",
+      "front": "in lieu of",
+      "meaning": "〜の代わりに",
+      "synonyms": [
+        "instead of"
+      ],
+      "collocation": "in lieu of payment",
+      "examples": [
+        {
+          "en": "Interestingly, people in flow work for its own sake, in lieu of any reward, driven by intrinsic rather than extrinsic motives."
+        }
+      ],
+      "pron": {
+        "tts": "in lieu of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 518,
+      "id": "w-intrinsic",
+      "type": "word",
+      "front": "intrinsic",
+      "meaning": "内在的な",
+      "synonyms": [
+        "inherent",
+        "internal"
+      ],
+      "collocation": "intrinsic motivation",
+      "examples": [
+        {
+          "en": "Interestingly, people in flow work for its own sake, in lieu of any reward, driven by intrinsic rather than extrinsic motives."
+        }
+      ],
+      "pron": {
+        "lookup": "intrinsic",
+        "tts": "intrinsic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 519,
+      "id": "w-extrinsic",
+      "type": "word",
+      "front": "extrinsic",
+      "meaning": "外部の",
+      "synonyms": [
+        "external"
+      ],
+      "collocation": "extrinsic rewards",
+      "examples": [
+        {
+          "en": "Interestingly, people in flow work for its own sake, in lieu of any reward, driven by intrinsic rather than extrinsic motives."
+        }
+      ],
+      "pron": {
+        "lookup": "extrinsic",
+        "tts": "extrinsic"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 520,
+      "id": "w-incentive",
+      "type": "word",
+      "front": "incentive",
+      "meaning": "動機付け・誘因",
+      "synonyms": [
+        "motivation",
+        "stimulus"
+      ],
+      "collocation": "a financial incentive, provide an incentive",
+      "examples": [
+        {
+          "en": "Without a financial incentive, they still feel deep gratification and a tremendous sense of joy."
+        }
+      ],
+      "pron": {
+        "lookup": "incentive",
+        "tts": "incentive"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 521,
+      "id": "w-gratification",
+      "type": "word",
+      "front": "gratification",
+      "meaning": "満足",
+      "synonyms": [
+        "satisfaction",
+        "fulfilment"
+      ],
+      "collocation": "instant gratification, a sense of gratification",
+      "examples": [
+        {
+          "en": "Without a financial incentive, they still feel deep gratification and a tremendous sense of joy."
+        }
+      ],
+      "pron": {
+        "lookup": "gratification",
+        "tts": "gratification"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 522,
+      "id": "w-tremendous",
+      "type": "word",
+      "front": "tremendous",
+      "meaning": "とてつもない",
+      "synonyms": [
+        "huge",
+        "enormous"
+      ],
+      "collocation": "a tremendous impact",
+      "examples": [
+        {
+          "en": "Without a financial incentive, they still feel deep gratification and a tremendous sense of joy."
+        }
+      ],
+      "pron": {
+        "lookup": "tremendous",
+        "tts": "tremendous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 523,
+      "id": "w-impassioned",
+      "type": "word",
+      "front": "impassioned",
+      "meaning": "熱のこもった",
+      "pron": {
+        "lookup": "impassioned",
+        "tts": "impassioned"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 524,
+      "id": "p-be-wrapped-up-in",
+      "type": "phrase",
+      "front": "be wrapped up in",
+      "meaning": "没頭して",
+      "pron": {
+        "tts": "be wrapped up in"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 525,
+      "id": "p-colloquially-known-as",
+      "type": "phrase",
+      "front": "colloquially known as",
+      "meaning": "口語で〜と呼ばれる",
+      "pron": {
+        "tts": "colloquially known as"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 526,
+      "id": "w-overpowering",
+      "type": "word",
+      "front": "overpowering",
+      "meaning": "圧倒的な",
+      "pron": {
+        "lookup": "overpowering",
+        "tts": "overpowering"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 527,
+      "id": "p-be-preoccupied-with",
+      "type": "phrase",
+      "front": "be preoccupied with",
+      "meaning": "気を取られて・心を奪われて",
+      "synonyms": [
+        "be captivated by"
+      ],
+      "pron": {
+        "tts": "be preoccupied with"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 528,
+      "id": "w-multifold",
+      "type": "word",
+      "front": "multifold",
+      "meaning": "幾重もの",
+      "pron": {
+        "lookup": "multifold",
+        "tts": "multifold"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 529,
+      "id": "p-fixate-on",
+      "type": "phrase",
+      "front": "fixate on",
+      "meaning": "執着する・集中する",
+      "synonyms": [
+        "concentrate on"
+      ],
+      "pron": {
+        "tts": "fixate on"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 530,
+      "id": "p-be-adept-at",
+      "type": "phrase",
+      "front": "be adept at",
+      "meaning": "〜が得意で・巧みで",
+      "synonyms": [
+        "be adroit at"
+      ],
+      "pron": {
+        "tts": "be adept at"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 531,
+      "id": "w-colossal",
+      "type": "word",
+      "front": "colossal",
+      "meaning": "巨大な",
+      "pron": {
+        "lookup": "colossal",
+        "tts": "colossal"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 532,
+      "id": "p-excel-at",
+      "type": "phrase",
+      "front": "excel at",
+      "meaning": "〜に秀でる",
+      "pron": {
+        "tts": "excel at"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 22,
+      "themeName": "フロー（集中状態）",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t22",
+    "theme": 22,
+    "themeName": "フロー（集中状態）",
+    "jp": "心理学者は『フロー』という語で、人が完全に没頭する強烈な集中状態を表す。この状態は俗に『ゾーンに入る』と呼ばれ、仕事への影響は大きな重要性を持つ。フローは生産性を高める。働く人が熟達の感覚を達成するからだ。それに達するには、進捗を評価し、どれだけうまくできているか確かめられるよう、ほぼ即座のフィードバックが必要だ。その利点は多数で豊富だ。興味深いことに、フロー状態の人は報酬の代わりにそれ自体のために働き、外的動機ではなく内的動機に駆られる。金銭的な動機付けがなくても、深い満足ととてつもない喜びを感じる。",
+    "sentences": [
+      {
+        "en": "Psychologists use the term 'flow' to describe a state of intense concentration in which people become completely engrossed in a task.",
+        "targets": [
+          {
+            "id": "w-intense",
+            "text": "intense"
+          },
+          {
+            "id": "w-concentration",
+            "text": "concentration"
+          },
+          {
+            "id": "p-be-engrossed-in",
+            "text": "engrossed in"
+          }
+        ]
+      },
+      {
+        "en": "This state is informally known as 'being in the zone', and its implications for work have great significance.",
+        "targets": [
+          {
+            "id": "p-be-known-as",
+            "text": "known as"
+          },
+          {
+            "id": "w-implication",
+            "text": "implications"
+          },
+          {
+            "id": "w-significance",
+            "text": "significance"
+          }
+        ]
+      },
+      {
+        "en": "Flow can boost productivity because workers attain a sense of mastery.",
+        "targets": [
+          {
+            "id": "w-productivity",
+            "text": "productivity"
+          },
+          {
+            "id": "w-attain",
+            "text": "attain"
+          },
+          {
+            "id": "w-mastery",
+            "text": "mastery"
+          }
+        ]
+      },
+      {
+        "en": "To reach it, a task needs clear, almost instantaneous feedback so people can assess their progress and ascertain how well they are doing.",
+        "targets": [
+          {
+            "id": "w-instantaneous",
+            "text": "instantaneous"
+          },
+          {
+            "id": "w-assess",
+            "text": "assess"
+          },
+          {
+            "id": "w-ascertain",
+            "text": "ascertain"
+          }
+        ]
+      },
+      {
+        "en": "The benefits are manifold and abundant.",
+        "targets": [
+          {
+            "id": "w-manifold",
+            "text": "manifold"
+          },
+          {
+            "id": "w-abundant",
+            "text": "abundant"
+          }
+        ]
+      },
+      {
+        "en": "Interestingly, people in flow work for its own sake, in lieu of any reward, driven by intrinsic rather than extrinsic motives.",
+        "targets": [
+          {
+            "id": "p-in-lieu-of",
+            "text": "in lieu of"
+          },
+          {
+            "id": "w-intrinsic",
+            "text": "intrinsic"
+          },
+          {
+            "id": "w-extrinsic",
+            "text": "extrinsic"
+          }
+        ]
+      },
+      {
+        "en": "Without a financial incentive, they still feel deep gratification and a tremendous sense of joy.",
+        "targets": [
+          {
+            "id": "w-incentive",
+            "text": "incentive"
+          },
+          {
+            "id": "w-gratification",
+            "text": "gratification"
+          },
+          {
+            "id": "w-tremendous",
+            "text": "tremendous"
+          }
+        ]
+      }
+    ]
+  }
+}

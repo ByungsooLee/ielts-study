@@ -1,0 +1,820 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 36,
+  "themeId": "theme-36",
+  "themeName": "動物の進化",
+  "version": "9c86d154",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 858,
+      "id": "w-remarkable",
+      "type": "word",
+      "front": "remarkable",
+      "meaning": "注目すべき・驚くべき",
+      "synonyms": [
+        "extraordinary",
+        "noteworthy",
+        "notable"
+      ],
+      "collocation": "a remarkable creature",
+      "examples": [
+        {
+          "en": "One of the most remarkable creatures may hide in the soil underneath our feet."
+        }
+      ],
+      "pron": {
+        "lookup": "remarkable",
+        "tts": "remarkable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 859,
+      "id": "w-soil",
+      "type": "word",
+      "front": "soil",
+      "meaning": "土",
+      "synonyms": [
+        "earth"
+      ],
+      "collocation": "in the soil",
+      "examples": [
+        {
+          "en": "One of the most remarkable creatures may hide in the soil underneath our feet."
+        }
+      ],
+      "pron": {
+        "lookup": "soil",
+        "tts": "soil"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 860,
+      "id": "w-underneath",
+      "type": "word",
+      "front": "underneath",
+      "meaning": "〜の下に",
+      "synonyms": [
+        "beneath"
+      ],
+      "collocation": "underneath the ground",
+      "examples": [
+        {
+          "en": "One of the most remarkable creatures may hide in the soil underneath our feet."
+        }
+      ],
+      "pron": {
+        "lookup": "underneath",
+        "tts": "underneath"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 861,
+      "id": "p-hold-the-key-to",
+      "type": "phrase",
+      "front": "hold the key to",
+      "meaning": "〜の答えを握る",
+      "synonyms": [
+        "provide the answer to"
+      ],
+      "collocation": "hold the key to",
+      "examples": [
+        {
+          "en": "The rove beetle may hold the key to how evolution works, since it did not evolve randomly."
+        }
+      ],
+      "pron": {
+        "tts": "hold the key to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 862,
+      "id": "w-randomly",
+      "type": "word",
+      "front": "randomly",
+      "meaning": "無作為に・偶然に",
+      "synonyms": [
+        "by chance",
+        "arbitrarily",
+        "without design"
+      ],
+      "collocation": "happen randomly",
+      "examples": [
+        {
+          "en": "The rove beetle may hold the key to how evolution works, since it did not evolve randomly."
+        }
+      ],
+      "pron": {
+        "lookup": "randomly",
+        "tts": "randomly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 863,
+      "id": "p-prey-on",
+      "type": "phrase",
+      "front": "prey on",
+      "meaning": "〜を捕食する",
+      "synonyms": [
+        "consume",
+        "feed on"
+      ],
+      "collocation": "prey on insects",
+      "examples": [
+        {
+          "en": "These beetles prey on ants using a tried-and-trusted method."
+        }
+      ],
+      "pron": {
+        "tts": "prey on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 864,
+      "id": "w-tried-and-trusted",
+      "type": "word",
+      "front": "tried-and-trusted",
+      "meaning": "実証済みの",
+      "synonyms": [
+        "proven",
+        "time-tested"
+      ],
+      "collocation": "a tried-and-trusted method",
+      "examples": [
+        {
+          "en": "These beetles prey on ants using a tried-and-trusted method."
+        }
+      ],
+      "pron": {
+        "lookup": "tried-and-trusted",
+        "tts": "tried-and-trusted"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 865,
+      "id": "w-repel",
+      "type": "word",
+      "front": "repel",
+      "meaning": "撃退する",
+      "synonyms": [
+        "fight off",
+        "chase away",
+        "repulse"
+      ],
+      "collocation": "repel an enemy",
+      "examples": [
+        {
+          "en": "To repel attackers, they resemble ants and live among them all year long."
+        }
+      ],
+      "pron": {
+        "lookup": "repel",
+        "tts": "repel"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 866,
+      "id": "w-resemble",
+      "type": "word",
+      "front": "resemble",
+      "meaning": "似ている",
+      "synonyms": [
+        "look like",
+        "bear a close resemblance to"
+      ],
+      "collocation": "resemble ants",
+      "examples": [
+        {
+          "en": "To repel attackers, they resemble ants and live among them all year long."
+        }
+      ],
+      "pron": {
+        "lookup": "resemble",
+        "tts": "resemble"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 867,
+      "id": "p-all-year-long",
+      "type": "phrase",
+      "front": "all year long",
+      "meaning": "一年中",
+      "synonyms": [
+        "throughout the year",
+        "permanently"
+      ],
+      "collocation": "all year long",
+      "examples": [
+        {
+          "en": "To repel attackers, they resemble ants and live among them all year long."
+        }
+      ],
+      "pron": {
+        "tts": "all year long"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 868,
+      "id": "w-enlarge",
+      "type": "word",
+      "front": "enlarge",
+      "meaning": "大きくする・拡大する",
+      "synonyms": [
+        "expand"
+      ],
+      "collocation": "enlarge the colony",
+      "examples": [
+        {
+          "en": "Over time they enlarged their bodies to masquerade as ants and even copied their chemical signal."
+        }
+      ],
+      "pron": {
+        "lookup": "enlarge",
+        "tts": "enlarge"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 869,
+      "id": "p-masquerade-as",
+      "type": "phrase",
+      "front": "masquerade as",
+      "meaning": "〜になりすます",
+      "synonyms": [
+        "imitate",
+        "pretend to be",
+        "pass as"
+      ],
+      "collocation": "masquerade as ants",
+      "examples": [
+        {
+          "en": "Over time they enlarged their bodies to masquerade as ants and even copied their chemical signal."
+        }
+      ],
+      "pron": {
+        "tts": "masquerade as"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 870,
+      "id": "w-signal",
+      "type": "word",
+      "front": "signal",
+      "meaning": "合図・しるし",
+      "synonyms": [
+        "cue",
+        "marker",
+        "indicator"
+      ],
+      "collocation": "a chemical signal",
+      "examples": [
+        {
+          "en": "Over time they enlarged their bodies to masquerade as ants and even copied their chemical signal."
+        }
+      ],
+      "pron": {
+        "lookup": "signal",
+        "tts": "signal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 871,
+      "id": "w-self-evident",
+      "type": "word",
+      "front": "self-evident",
+      "meaning": "わかりやすい・自明の",
+      "synonyms": [
+        "obvious",
+        "clear",
+        "apparent"
+      ],
+      "collocation": "self-evident benefits",
+      "examples": [
+        {
+          "en": "The benefits are self-evident: a temperate climate and an ample food supply."
+        }
+      ],
+      "pron": {
+        "lookup": "self-evident",
+        "tts": "self-evident"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 872,
+      "id": "p-temperate-climate",
+      "type": "phrase",
+      "front": "temperate climate",
+      "meaning": "温暖な気候",
+      "synonyms": [
+        "mild climate"
+      ],
+      "collocation": "a temperate climate",
+      "examples": [
+        {
+          "en": "The benefits are self-evident: a temperate climate and an ample food supply."
+        }
+      ],
+      "pron": {
+        "tts": "temperate climate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 873,
+      "id": "w-ample",
+      "type": "word",
+      "front": "ample",
+      "meaning": "十分な・豊富な",
+      "synonyms": [
+        "abundant",
+        "substantial",
+        "more than sufficient"
+      ],
+      "collocation": "an ample supply",
+      "examples": [
+        {
+          "en": "The benefits are self-evident: a temperate climate and an ample food supply."
+        }
+      ],
+      "pron": {
+        "lookup": "ample",
+        "tts": "ample"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 874,
+      "id": "p-food-supply",
+      "type": "phrase",
+      "front": "food supply",
+      "meaning": "食料源",
+      "synonyms": [
+        "food source"
+      ],
+      "collocation": "an ample food supply",
+      "examples": [
+        {
+          "en": "The benefits are self-evident: a temperate climate and an ample food supply."
+        }
+      ],
+      "pron": {
+        "tts": "food supply"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 875,
+      "id": "w-startle",
+      "type": "word",
+      "front": "startle",
+      "meaning": "びっくりさせる",
+      "synonyms": [
+        "astound",
+        "amaze",
+        "astonish"
+      ],
+      "collocation": "be startled",
+      "examples": [
+        {
+          "en": "What startled scientists is that twelve types of beetle have done this in identical ways, yet independently of each other."
+        }
+      ],
+      "pron": {
+        "lookup": "startle",
+        "tts": "startle"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 876,
+      "id": "w-identical",
+      "type": "word",
+      "front": "identical",
+      "meaning": "同一の",
+      "synonyms": [
+        "alike",
+        "indistinguishable"
+      ],
+      "collocation": "identical to",
+      "examples": [
+        {
+          "en": "What startled scientists is that twelve types of beetle have done this in identical ways, yet independently of each other."
+        }
+      ],
+      "pron": {
+        "lookup": "identical",
+        "tts": "identical"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 877,
+      "id": "w-independently",
+      "type": "word",
+      "front": "independently",
+      "meaning": "独立して・別々に",
+      "synonyms": [
+        "separately"
+      ],
+      "collocation": "evolve independently",
+      "examples": [
+        {
+          "en": "What startled scientists is that twelve types of beetle have done this in identical ways, yet independently of each other."
+        }
+      ],
+      "pron": {
+        "lookup": "independently",
+        "tts": "independently"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 878,
+      "id": "w-circumstance",
+      "type": "word",
+      "front": "circumstance",
+      "meaning": "環境・状況",
+      "synonyms": [
+        "condition"
+      ],
+      "collocation": "in the same circumstances",
+      "examples": [
+        {
+          "en": "They believe that in the same circumstances, animals follow similar paths."
+        }
+      ],
+      "pron": {
+        "lookup": "circumstance",
+        "tts": "circumstance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 879,
+      "id": "w-evolutionary",
+      "type": "word",
+      "front": "evolutionary",
+      "meaning": "進化の",
+      "pron": {
+        "lookup": "evolutionary",
+        "tts": "evolutionary"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 880,
+      "id": "w-larva",
+      "type": "word",
+      "front": "larva",
+      "meaning": "幼虫",
+      "pron": {
+        "lookup": "larva",
+        "tts": "larva"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 881,
+      "id": "w-secrete",
+      "type": "word",
+      "front": "secrete",
+      "meaning": "分泌する",
+      "pron": {
+        "lookup": "secrete",
+        "tts": "secrete"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 882,
+      "id": "w-copycat",
+      "type": "word",
+      "front": "copycat",
+      "meaning": "模倣する",
+      "pron": {
+        "lookup": "copycat",
+        "tts": "copycat"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 883,
+      "id": "p-take-aback",
+      "type": "phrase",
+      "front": "take aback",
+      "meaning": "面食らわせる",
+      "synonyms": [
+        "floor"
+      ],
+      "pron": {
+        "tts": "take aback"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 36,
+      "themeName": "動物の進化",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t36",
+    "theme": 36,
+    "themeName": "動物の進化",
+    "jp": "最も注目すべき生き物は、足元の土の下に隠れているかもしれない。ハネカクシは進化の仕組みの答えを握るかもしれない。無作為に進化したのではないからだ。この甲虫は実証済みの方法でアリを捕食する。攻撃者を撃退するためアリに似せ、一年中アリの中で暮らす。時とともに体を大きくしてアリになりすまし、化学的な合図までまねた。利点は自明だ。温暖な気候と十分な食料源である。科学者を驚かせたのは、12種の甲虫が同一の方法で、しかも互いに独立してこれを行ったことだ。同じ環境なら動物は似た道をたどると彼らは考えている。",
+    "sentences": [
+      {
+        "en": "One of the most remarkable creatures may hide in the soil underneath our feet.",
+        "targets": [
+          {
+            "id": "w-remarkable",
+            "text": "remarkable"
+          },
+          {
+            "id": "w-soil",
+            "text": "soil"
+          },
+          {
+            "id": "w-underneath",
+            "text": "underneath"
+          }
+        ]
+      },
+      {
+        "en": "The rove beetle may hold the key to how evolution works, since it did not evolve randomly.",
+        "targets": [
+          {
+            "id": "p-hold-the-key-to",
+            "text": "hold the key to"
+          },
+          {
+            "id": "w-randomly",
+            "text": "randomly"
+          }
+        ]
+      },
+      {
+        "en": "These beetles prey on ants using a tried-and-trusted method.",
+        "targets": [
+          {
+            "id": "p-prey-on",
+            "text": "prey on"
+          },
+          {
+            "id": "w-tried-and-trusted",
+            "text": "tried-and-trusted"
+          }
+        ]
+      },
+      {
+        "en": "To repel attackers, they resemble ants and live among them all year long.",
+        "targets": [
+          {
+            "id": "w-repel",
+            "text": "repel"
+          },
+          {
+            "id": "w-resemble",
+            "text": "resemble"
+          },
+          {
+            "id": "p-all-year-long",
+            "text": "all year long"
+          }
+        ]
+      },
+      {
+        "en": "Over time they enlarged their bodies to masquerade as ants and even copied their chemical signal.",
+        "targets": [
+          {
+            "id": "w-enlarge",
+            "text": "enlarged"
+          },
+          {
+            "id": "p-masquerade-as",
+            "text": "masquerade as"
+          },
+          {
+            "id": "w-signal",
+            "text": "signal"
+          }
+        ]
+      },
+      {
+        "en": "The benefits are self-evident: a temperate climate and an ample food supply.",
+        "targets": [
+          {
+            "id": "w-self-evident",
+            "text": "self-evident"
+          },
+          {
+            "id": "p-temperate-climate",
+            "text": "temperate climate"
+          },
+          {
+            "id": "w-ample",
+            "text": "ample"
+          },
+          {
+            "id": "p-food-supply",
+            "text": "food supply"
+          }
+        ]
+      },
+      {
+        "en": "What startled scientists is that twelve types of beetle have done this in identical ways, yet independently of each other.",
+        "targets": [
+          {
+            "id": "w-startle",
+            "text": "startled"
+          },
+          {
+            "id": "w-identical",
+            "text": "identical"
+          },
+          {
+            "id": "w-independently",
+            "text": "independently"
+          }
+        ]
+      },
+      {
+        "en": "They believe that in the same circumstances, animals follow similar paths.",
+        "targets": [
+          {
+            "id": "w-circumstance",
+            "text": "circumstances"
+          }
+        ]
+      }
+    ]
+  }
+}

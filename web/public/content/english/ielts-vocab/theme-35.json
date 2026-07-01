@@ -1,0 +1,757 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 35,
+  "themeId": "theme-35",
+  "themeName": "アルツハイマー病と修道女",
+  "version": "624fab1d",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 834,
+      "id": "w-likelihood",
+      "type": "word",
+      "front": "likelihood",
+      "meaning": "可能性",
+      "synonyms": [
+        "probability",
+        "prospect"
+      ],
+      "collocation": "the likelihood of",
+      "examples": [
+        {
+          "en": "The likelihood of developing Alzheimer's disease rises as people live longer."
+        }
+      ],
+      "pron": {
+        "lookup": "likelihood",
+        "tts": "likelihood"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 835,
+      "id": "w-disease",
+      "type": "word",
+      "front": "disease",
+      "meaning": "病気・疾患",
+      "synonyms": [
+        "ailment",
+        "illness",
+        "condition"
+      ],
+      "collocation": "treat a disease",
+      "examples": [
+        {
+          "en": "The likelihood of developing Alzheimer's disease rises as people live longer."
+        }
+      ],
+      "pron": {
+        "lookup": "disease",
+        "tts": "disease"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 836,
+      "id": "p-take-its-toll-on",
+      "type": "phrase",
+      "front": "take its toll on",
+      "meaning": "〜に悪影響を与える",
+      "synonyms": [
+        "have an adverse effect on"
+      ],
+      "collocation": "take its toll on",
+      "examples": [
+        {
+          "en": "It takes its toll on senior citizens, and researchers wanted to shed light on its causes."
+        }
+      ],
+      "pron": {
+        "tts": "take its toll on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 837,
+      "id": "p-senior-citizen",
+      "type": "phrase",
+      "front": "senior citizen",
+      "meaning": "高齢者",
+      "synonyms": [
+        "elderly person",
+        "pensioner"
+      ],
+      "collocation": "senior citizens",
+      "examples": [
+        {
+          "en": "It takes its toll on senior citizens, and researchers wanted to shed light on its causes."
+        }
+      ],
+      "pron": {
+        "tts": "senior citizen"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 838,
+      "id": "p-shed-light-on",
+      "type": "phrase",
+      "front": "shed light on",
+      "meaning": "〜を解明する",
+      "synonyms": [
+        "illuminate",
+        "make clear"
+      ],
+      "collocation": "shed light on",
+      "examples": [
+        {
+          "en": "It takes its toll on senior citizens, and researchers wanted to shed light on its causes."
+        }
+      ],
+      "pron": {
+        "tts": "shed light on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 839,
+      "id": "w-select",
+      "type": "word",
+      "front": "select",
+      "meaning": "選ぶ",
+      "synonyms": [
+        "pick"
+      ],
+      "collocation": "select participants",
+      "examples": [
+        {
+          "en": "They selected nuns to interview because they form a homogeneous group."
+        }
+      ],
+      "pron": {
+        "lookup": "select",
+        "tts": "select"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 840,
+      "id": "w-interview",
+      "type": "word",
+      "front": "interview",
+      "meaning": "質問する・調査する",
+      "synonyms": [
+        "question",
+        "survey"
+      ],
+      "collocation": "interview sb",
+      "examples": [
+        {
+          "en": "They selected nuns to interview because they form a homogeneous group."
+        }
+      ],
+      "pron": {
+        "lookup": "interview",
+        "tts": "interview"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 841,
+      "id": "w-homogeneous",
+      "type": "word",
+      "front": "homogeneous",
+      "meaning": "同質の",
+      "synonyms": [
+        "remarkably similar"
+      ],
+      "collocation": "a homogeneous group",
+      "examples": [
+        {
+          "en": "They selected nuns to interview because they form a homogeneous group."
+        }
+      ],
+      "pron": {
+        "lookup": "homogeneous",
+        "tts": "homogeneous"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 842,
+      "id": "w-lifestyle",
+      "type": "word",
+      "front": "lifestyle",
+      "meaning": "生活様式",
+      "synonyms": [
+        "way of life"
+      ],
+      "collocation": "a healthy lifestyle",
+      "examples": [
+        {
+          "en": "The nuns share the same lifestyle and background, which does not affect their thinking differently."
+        }
+      ],
+      "pron": {
+        "lookup": "lifestyle",
+        "tts": "lifestyle"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 843,
+      "id": "w-background",
+      "type": "word",
+      "front": "background",
+      "meaning": "人物の背景",
+      "synonyms": [
+        "personal history",
+        "profile"
+      ],
+      "collocation": "a similar background",
+      "examples": [
+        {
+          "en": "The nuns share the same lifestyle and background, which does not affect their thinking differently."
+        }
+      ],
+      "pron": {
+        "lookup": "background",
+        "tts": "background"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 844,
+      "id": "w-affect",
+      "type": "word",
+      "front": "affect",
+      "meaning": "影響を与える・変える",
+      "synonyms": [
+        "alter",
+        "transform"
+      ],
+      "collocation": "affect thinking",
+      "examples": [
+        {
+          "en": "The nuns share the same lifestyle and background, which does not affect their thinking differently."
+        }
+      ],
+      "pron": {
+        "lookup": "affect",
+        "tts": "affect"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 845,
+      "id": "p-rule-out",
+      "type": "phrase",
+      "front": "rule out",
+      "meaning": "〜を除外する",
+      "synonyms": [
+        "exclude",
+        "factor out"
+      ],
+      "collocation": "rule out a factor",
+      "examples": [
+        {
+          "en": "This let scientists rule out the extraneous variables they usually must take into account when they perform such studies."
+        }
+      ],
+      "pron": {
+        "tts": "rule out"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 846,
+      "id": "p-extraneous-variable",
+      "type": "phrase",
+      "front": "extraneous variable",
+      "meaning": "外的変数・外部要因",
+      "synonyms": [
+        "external factor"
+      ],
+      "collocation": "control for extraneous variables",
+      "examples": [
+        {
+          "en": "This let scientists rule out the extraneous variables they usually must take into account when they perform such studies."
+        }
+      ],
+      "pron": {
+        "tts": "extraneous variable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 847,
+      "id": "p-take-into-account",
+      "type": "phrase",
+      "front": "take into account",
+      "meaning": "〜を考慮する",
+      "synonyms": [
+        "consider",
+        "bear in mind"
+      ],
+      "collocation": "take into account",
+      "examples": [
+        {
+          "en": "This let scientists rule out the extraneous variables they usually must take into account when they perform such studies."
+        }
+      ],
+      "pron": {
+        "tts": "take into account"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 848,
+      "id": "w-perform",
+      "type": "word",
+      "front": "perform",
+      "meaning": "〜を行う・実施する",
+      "synonyms": [
+        "conduct",
+        "carry out",
+        "run"
+      ],
+      "collocation": "perform a study",
+      "examples": [
+        {
+          "en": "This let scientists rule out the extraneous variables they usually must take into account when they perform such studies."
+        }
+      ],
+      "pron": {
+        "lookup": "perform",
+        "tts": "perform"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 849,
+      "id": "p-keep-a-journal",
+      "type": "phrase",
+      "front": "keep a journal",
+      "meaning": "日記をつける",
+      "synonyms": [
+        "keep a diary",
+        "chronicle one's life"
+      ],
+      "collocation": "keep a journal",
+      "examples": [
+        {
+          "en": "The nuns had also kept journals since they were young, a critical source of data."
+        }
+      ],
+      "pron": {
+        "tts": "keep a journal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 850,
+      "id": "w-critical",
+      "type": "word",
+      "front": "critical",
+      "meaning": "決定的に重要な",
+      "synonyms": [
+        "key",
+        "crucial",
+        "indispensable"
+      ],
+      "collocation": "critical to success",
+      "examples": [
+        {
+          "en": "The nuns had also kept journals since they were young, a critical source of data."
+        }
+      ],
+      "pron": {
+        "lookup": "critical",
+        "tts": "critical"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 851,
+      "id": "w-identify",
+      "type": "word",
+      "front": "identify",
+      "meaning": "特定する・見つける",
+      "synonyms": [
+        "single out",
+        "detect"
+      ],
+      "collocation": "identify the cause",
+      "examples": [
+        {
+          "en": "Analysing these, researchers could identify a link with high intellect, reaching a surprising conclusion."
+        }
+      ],
+      "pron": {
+        "lookup": "identify",
+        "tts": "identify"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 852,
+      "id": "p-high-intellect",
+      "type": "phrase",
+      "front": "high intellect",
+      "meaning": "高い知性",
+      "synonyms": [
+        "above average intellect",
+        "greater acumen"
+      ],
+      "collocation": "high intellect",
+      "examples": [
+        {
+          "en": "Analysing these, researchers could identify a link with high intellect, reaching a surprising conclusion."
+        }
+      ],
+      "pron": {
+        "tts": "high intellect"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 853,
+      "id": "w-conclusion",
+      "type": "word",
+      "front": "conclusion",
+      "meaning": "結論・発見",
+      "synonyms": [
+        "finding",
+        "discovery"
+      ],
+      "collocation": "reach a conclusion",
+      "examples": [
+        {
+          "en": "Analysing these, researchers could identify a link with high intellect, reaching a surprising conclusion."
+        }
+      ],
+      "pron": {
+        "lookup": "conclusion",
+        "tts": "conclusion"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 854,
+      "id": "w-onset",
+      "type": "word",
+      "front": "onset",
+      "meaning": "発症",
+      "pron": {
+        "lookup": "onset",
+        "tts": "onset"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 855,
+      "id": "w-nun",
+      "type": "word",
+      "front": "nun",
+      "meaning": "修道女",
+      "pron": {
+        "lookup": "nun",
+        "tts": "nun"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 856,
+      "id": "p-cognitive-ability",
+      "type": "phrase",
+      "front": "cognitive ability",
+      "meaning": "認知能力",
+      "pron": {
+        "tts": "cognitive ability"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 857,
+      "id": "p-date-back-to",
+      "type": "phrase",
+      "front": "date back to",
+      "meaning": "〜まで遡る",
+      "pron": {
+        "tts": "date back to"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 35,
+      "themeName": "アルツハイマー病と修道女",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t35",
+    "theme": 35,
+    "themeName": "アルツハイマー病と修道女",
+    "jp": "アルツハイマー病になる可能性は、人々の長寿化とともに高まる。それは高齢者に悪影響を与え、研究者はその原因を解明したかった。彼らは同質の集団であるため修道女を選び、調査した。修道女は同じ生活様式と背景を持ち、思考に別々の影響を与えない。これにより、こうした研究で通常考慮すべき外的変数を除外できた。修道女は若い頃から日記をつけており、決定的に重要なデータ源だった。これを分析し、研究者は高い知性との関連を特定し、意外な結論に達した。",
+    "sentences": [
+      {
+        "en": "The likelihood of developing Alzheimer's disease rises as people live longer.",
+        "targets": [
+          {
+            "id": "w-likelihood",
+            "text": "likelihood"
+          },
+          {
+            "id": "w-disease",
+            "text": "disease"
+          }
+        ]
+      },
+      {
+        "en": "It takes its toll on senior citizens, and researchers wanted to shed light on its causes.",
+        "targets": [
+          {
+            "id": "p-take-its-toll-on",
+            "text": "takes its toll on"
+          },
+          {
+            "id": "p-senior-citizen",
+            "text": "senior citizens"
+          },
+          {
+            "id": "p-shed-light-on",
+            "text": "shed light on"
+          }
+        ]
+      },
+      {
+        "en": "They selected nuns to interview because they form a homogeneous group.",
+        "targets": [
+          {
+            "id": "w-select",
+            "text": "selected"
+          },
+          {
+            "id": "w-interview",
+            "text": "interview"
+          },
+          {
+            "id": "w-homogeneous",
+            "text": "homogeneous"
+          }
+        ]
+      },
+      {
+        "en": "The nuns share the same lifestyle and background, which does not affect their thinking differently.",
+        "targets": [
+          {
+            "id": "w-lifestyle",
+            "text": "lifestyle"
+          },
+          {
+            "id": "w-background",
+            "text": "background"
+          },
+          {
+            "id": "w-affect",
+            "text": "affect"
+          }
+        ]
+      },
+      {
+        "en": "This let scientists rule out the extraneous variables they usually must take into account when they perform such studies.",
+        "targets": [
+          {
+            "id": "p-rule-out",
+            "text": "rule out"
+          },
+          {
+            "id": "p-extraneous-variable",
+            "text": "extraneous variables"
+          },
+          {
+            "id": "p-take-into-account",
+            "text": "take into account"
+          },
+          {
+            "id": "w-perform",
+            "text": "perform"
+          }
+        ]
+      },
+      {
+        "en": "The nuns had also kept journals since they were young, a critical source of data.",
+        "targets": [
+          {
+            "id": "p-keep-a-journal",
+            "text": "kept journals"
+          },
+          {
+            "id": "w-critical",
+            "text": "critical"
+          }
+        ]
+      },
+      {
+        "en": "Analysing these, researchers could identify a link with high intellect, reaching a surprising conclusion.",
+        "targets": [
+          {
+            "id": "w-identify",
+            "text": "identify"
+          },
+          {
+            "id": "p-high-intellect",
+            "text": "high intellect"
+          },
+          {
+            "id": "w-conclusion",
+            "text": "conclusion"
+          }
+        ]
+      }
+    ]
+  }
+}

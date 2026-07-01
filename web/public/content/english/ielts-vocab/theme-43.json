@@ -1,0 +1,753 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 43,
+  "themeId": "theme-43",
+  "themeName": "イギリス人の外国語習得",
+  "version": "cfeeb3c7",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 1039,
+      "id": "w-pace",
+      "type": "word",
+      "front": "pace",
+      "meaning": "速度・ペース",
+      "synonyms": [
+        "speed",
+        "tempo",
+        "rate"
+      ],
+      "collocation": "the pace of change",
+      "examples": [
+        {
+          "en": "As the pace of global business quickens, learning a foreign language grows in importance."
+        }
+      ],
+      "pron": {
+        "lookup": "pace",
+        "tts": "pace"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1040,
+      "id": "w-quicken",
+      "type": "word",
+      "front": "quicken",
+      "meaning": "速める",
+      "synonyms": [
+        "accelerate",
+        "speed up"
+      ],
+      "collocation": "quicken the pace",
+      "examples": [
+        {
+          "en": "As the pace of global business quickens, learning a foreign language grows in importance."
+        }
+      ],
+      "pron": {
+        "lookup": "quicken",
+        "tts": "quicken"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1041,
+      "id": "p-grow-in-importance",
+      "type": "phrase",
+      "front": "grow in importance",
+      "meaning": "〜が増大する",
+      "synonyms": [
+        "escalate in",
+        "heighten in",
+        "increase in"
+      ],
+      "collocation": "grow in importance",
+      "examples": [
+        {
+          "en": "As the pace of global business quickens, learning a foreign language grows in importance."
+        }
+      ],
+      "pron": {
+        "tts": "grow in importance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1042,
+      "id": "w-importance",
+      "type": "word",
+      "front": "importance",
+      "meaning": "重要性",
+      "synonyms": [
+        "prominence"
+      ],
+      "collocation": "of great importance",
+      "pron": {
+        "lookup": "importance",
+        "tts": "importance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1043,
+      "id": "p-be-in-demand",
+      "type": "phrase",
+      "front": "be in demand",
+      "meaning": "需要がある",
+      "synonyms": [
+        "be sought after"
+      ],
+      "collocation": "be in demand",
+      "examples": [
+        {
+          "en": "Employees who speak another language are in demand, because it opens up new channels of communication."
+        }
+      ],
+      "pron": {
+        "tts": "be in demand"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1044,
+      "id": "p-open-up",
+      "type": "phrase",
+      "front": "open up",
+      "meaning": "〜を切り開く・創出する",
+      "synonyms": [
+        "create"
+      ],
+      "collocation": "open up markets",
+      "examples": [
+        {
+          "en": "Employees who speak another language are in demand, because it opens up new channels of communication."
+        }
+      ],
+      "pron": {
+        "tts": "open up"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1045,
+      "id": "w-channel",
+      "type": "word",
+      "front": "channel",
+      "meaning": "ルート・手段",
+      "synonyms": [
+        "means",
+        "gateway",
+        "pathway"
+      ],
+      "collocation": "a channel to success",
+      "examples": [
+        {
+          "en": "Employees who speak another language are in demand, because it opens up new channels of communication."
+        }
+      ],
+      "pron": {
+        "lookup": "channel",
+        "tts": "channel"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1046,
+      "id": "w-communication",
+      "type": "word",
+      "front": "communication",
+      "meaning": "意思疎通・情報交換",
+      "synonyms": [
+        "exchanging information"
+      ],
+      "collocation": "improve communication",
+      "examples": [
+        {
+          "en": "Employees who speak another language are in demand, because it opens up new channels of communication."
+        }
+      ],
+      "pron": {
+        "lookup": "communication",
+        "tts": "communication"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1047,
+      "id": "w-inappropriate",
+      "type": "word",
+      "front": "inappropriate",
+      "meaning": "不適当な",
+      "synonyms": [
+        "improper",
+        "unsuitable"
+      ],
+      "collocation": "inappropriate behaviour",
+      "examples": [
+        {
+          "en": "They can understand cultural norms and avoid inappropriate behaviour abroad."
+        }
+      ],
+      "pron": {
+        "lookup": "inappropriate",
+        "tts": "inappropriate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1048,
+      "id": "p-acquire-fluency-in",
+      "type": "phrase",
+      "front": "acquire fluency in",
+      "meaning": "〜を流暢に話せるようになる",
+      "synonyms": [
+        "master",
+        "be proficient in"
+      ],
+      "collocation": "acquire fluency in",
+      "examples": [
+        {
+          "en": "To acquire fluency in a language can give a person an edge, yet British people are among the most dismal learners."
+        }
+      ],
+      "pron": {
+        "tts": "acquire fluency in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1049,
+      "id": "p-give-an-edge",
+      "type": "phrase",
+      "front": "give an edge",
+      "meaning": "優位に立たせる",
+      "synonyms": [
+        "provide an advantage",
+        "give the upper hand"
+      ],
+      "collocation": "give sb an edge",
+      "examples": [
+        {
+          "en": "To acquire fluency in a language can give a person an edge, yet British people are among the most dismal learners."
+        }
+      ],
+      "pron": {
+        "tts": "give an edge"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1050,
+      "id": "w-dismal",
+      "type": "word",
+      "front": "dismal",
+      "meaning": "みじめな・散々な",
+      "synonyms": [
+        "awful",
+        "terrible",
+        "appalling"
+      ],
+      "collocation": "a dismal result",
+      "examples": [
+        {
+          "en": "To acquire fluency in a language can give a person an edge, yet British people are among the most dismal learners."
+        }
+      ],
+      "pron": {
+        "lookup": "dismal",
+        "tts": "dismal"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1051,
+      "id": "p-immediate-priority",
+      "type": "phrase",
+      "front": "immediate priority",
+      "meaning": "最優先事項",
+      "synonyms": [
+        "first concern"
+      ],
+      "collocation": "an immediate priority",
+      "examples": [
+        {
+          "en": "In school, exams are the immediate priority, so students do not appreciate the usefulness of other languages and simply switch off."
+        }
+      ],
+      "pron": {
+        "tts": "immediate priority"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1052,
+      "id": "w-appreciate",
+      "type": "word",
+      "front": "appreciate",
+      "meaning": "〜に感謝する",
+      "synonyms": [
+        "be grateful for",
+        "be thankful for"
+      ],
+      "collocation": "appreciate the chance",
+      "examples": [
+        {
+          "en": "In school, exams are the immediate priority, so students do not appreciate the usefulness of other languages and simply switch off."
+        }
+      ],
+      "pron": {
+        "lookup": "appreciate",
+        "tts": "appreciate"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1053,
+      "id": "w-usefulness",
+      "type": "word",
+      "front": "usefulness",
+      "meaning": "有用性",
+      "synonyms": [
+        "utility",
+        "practicality"
+      ],
+      "collocation": "the usefulness of",
+      "examples": [
+        {
+          "en": "In school, exams are the immediate priority, so students do not appreciate the usefulness of other languages and simply switch off."
+        }
+      ],
+      "pron": {
+        "lookup": "usefulness",
+        "tts": "usefulness"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1054,
+      "id": "p-switch-off",
+      "type": "phrase",
+      "front": "switch off",
+      "meaning": "集中力が切れる",
+      "synonyms": [
+        "stop paying attention",
+        "zone out"
+      ],
+      "collocation": "switch off",
+      "examples": [
+        {
+          "en": "In school, exams are the immediate priority, so students do not appreciate the usefulness of other languages and simply switch off."
+        }
+      ],
+      "pron": {
+        "tts": "switch off"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1055,
+      "id": "p-in-response-to",
+      "type": "phrase",
+      "front": "in response to",
+      "meaning": "〜に応じて・反応して",
+      "synonyms": [
+        "in answer to",
+        "in reaction to"
+      ],
+      "collocation": "in response to",
+      "examples": [
+        {
+          "en": "In response to this, local authorities changed their objective to engage children earlier, so they are not deterred from the skill."
+        }
+      ],
+      "pron": {
+        "tts": "in response to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1056,
+      "id": "w-objective",
+      "type": "word",
+      "front": "objective",
+      "meaning": "目的・目標",
+      "synonyms": [
+        "aim",
+        "goal",
+        "target"
+      ],
+      "collocation": "the objective of",
+      "examples": [
+        {
+          "en": "In response to this, local authorities changed their objective to engage children earlier, so they are not deterred from the skill."
+        }
+      ],
+      "pron": {
+        "lookup": "objective",
+        "tts": "objective"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1057,
+      "id": "w-engage",
+      "type": "word",
+      "front": "engage",
+      "meaning": "参加させる・引きつける",
+      "synonyms": [
+        "motivate",
+        "stimulate"
+      ],
+      "collocation": "engage students",
+      "examples": [
+        {
+          "en": "In response to this, local authorities changed their objective to engage children earlier, so they are not deterred from the skill."
+        }
+      ],
+      "pron": {
+        "lookup": "engage",
+        "tts": "engage"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1058,
+      "id": "w-deter",
+      "type": "word",
+      "front": "deter",
+      "meaning": "思いとどまらせる",
+      "synonyms": [
+        "discourage",
+        "dissuade"
+      ],
+      "collocation": "deter sb from",
+      "examples": [
+        {
+          "en": "In response to this, local authorities changed their objective to engage children earlier, so they are not deterred from the skill."
+        }
+      ],
+      "pron": {
+        "lookup": "deter",
+        "tts": "deter"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1059,
+      "id": "p-cultural-norm",
+      "type": "phrase",
+      "front": "cultural norm",
+      "meaning": "文化的規範",
+      "pron": {
+        "tts": "cultural norm"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1060,
+      "id": "w-brit",
+      "type": "word",
+      "front": "Brit",
+      "meaning": "イギリス人",
+      "pron": {
+        "lookup": "Brit",
+        "tts": "Brit"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1061,
+      "id": "w-perceive",
+      "type": "word",
+      "front": "perceive",
+      "meaning": "認識する",
+      "examples": [
+        {
+          "en": "These changes are hard to perceive with the naked eye, so scientists integrate this data with past eruptions."
+        }
+      ],
+      "pron": {
+        "lookup": "perceive",
+        "tts": "perceive"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 1062,
+      "id": "p-be-known-the-world-over-as",
+      "type": "phrase",
+      "front": "be known the world over as",
+      "meaning": "世界中で知られる",
+      "synonyms": [
+        "be widely acknowledged as"
+      ],
+      "pron": {
+        "tts": "be known the world over as"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 43,
+      "themeName": "イギリス人の外国語習得",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t43",
+    "theme": 43,
+    "themeName": "イギリス人の外国語習得",
+    "jp": "世界のビジネスの速度が速まるにつれ、外国語の習得は重要性を増す。別の言語を話せる社員は需要があり、それが新しい意思疎通のルートを切り開くからだ。彼らは文化的規範を理解し、海外で不適切な振る舞いを避けられる。言語を流暢に話せると優位に立てるが、イギリス人は最も散々な学習者の一つだ。学校では試験が最優先事項で、生徒は他言語の有用性に感謝せず、ただ集中を切らす。これに応じて、地方当局は目標を変え、子どもをより早く引きつけ、この技能から思いとどまらせないようにした。",
+    "sentences": [
+      {
+        "en": "As the pace of global business quickens, learning a foreign language grows in importance.",
+        "targets": [
+          {
+            "id": "w-pace",
+            "text": "pace"
+          },
+          {
+            "id": "w-quicken",
+            "text": "quickens"
+          },
+          {
+            "id": "p-grow-in-importance",
+            "text": "grows in importance"
+          }
+        ]
+      },
+      {
+        "en": "Employees who speak another language are in demand, because it opens up new channels of communication.",
+        "targets": [
+          {
+            "id": "p-be-in-demand",
+            "text": "in demand"
+          },
+          {
+            "id": "p-open-up",
+            "text": "opens up"
+          },
+          {
+            "id": "w-channel",
+            "text": "channels"
+          },
+          {
+            "id": "w-communication",
+            "text": "communication"
+          }
+        ]
+      },
+      {
+        "en": "They can understand cultural norms and avoid inappropriate behaviour abroad.",
+        "targets": [
+          {
+            "id": "w-inappropriate",
+            "text": "inappropriate"
+          }
+        ]
+      },
+      {
+        "en": "To acquire fluency in a language can give a person an edge, yet British people are among the most dismal learners.",
+        "targets": [
+          {
+            "id": "p-acquire-fluency-in",
+            "text": "acquire fluency in"
+          },
+          {
+            "id": "p-give-an-edge",
+            "text": "give"
+          },
+          {
+            "id": "w-dismal",
+            "text": "dismal"
+          }
+        ]
+      },
+      {
+        "en": "In school, exams are the immediate priority, so students do not appreciate the usefulness of other languages and simply switch off.",
+        "targets": [
+          {
+            "id": "p-immediate-priority",
+            "text": "immediate priority"
+          },
+          {
+            "id": "w-appreciate",
+            "text": "appreciate"
+          },
+          {
+            "id": "w-usefulness",
+            "text": "usefulness"
+          },
+          {
+            "id": "p-switch-off",
+            "text": "switch off"
+          }
+        ]
+      },
+      {
+        "en": "In response to this, local authorities changed their objective to engage children earlier, so they are not deterred from the skill.",
+        "targets": [
+          {
+            "id": "p-in-response-to",
+            "text": "In response to"
+          },
+          {
+            "id": "w-objective",
+            "text": "objective"
+          },
+          {
+            "id": "w-engage",
+            "text": "engage"
+          },
+          {
+            "id": "w-deter",
+            "text": "deterred"
+          }
+        ]
+      }
+    ]
+  }
+}

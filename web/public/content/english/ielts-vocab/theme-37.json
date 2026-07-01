@@ -1,0 +1,815 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 37,
+  "themeId": "theme-37",
+  "themeName": "イギリス女王の発音",
+  "version": "5142231b",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 884,
+      "id": "p-crystal-clear",
+      "type": "phrase",
+      "front": "crystal clear",
+      "meaning": "極めて明確な",
+      "synonyms": [
+        "precise",
+        "exact"
+      ],
+      "collocation": "crystal clear pronunciation",
+      "examples": [
+        {
+          "en": "The Queen of England was known for her crystal clear diction."
+        }
+      ],
+      "pron": {
+        "tts": "crystal clear"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 885,
+      "id": "w-subtle",
+      "type": "word",
+      "front": "subtle",
+      "meaning": "微妙な・かすかな",
+      "synonyms": [
+        "slight",
+        "modest"
+      ],
+      "collocation": "a subtle change",
+      "examples": [
+        {
+          "en": "Yet a subtle but noticeable shift moved her accent from a strong upper class sound towards standard English."
+        }
+      ],
+      "pron": {
+        "lookup": "subtle",
+        "tts": "subtle"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 886,
+      "id": "w-noticeable",
+      "type": "word",
+      "front": "noticeable",
+      "meaning": "目立つ",
+      "synonyms": [
+        "evident",
+        "perceptible"
+      ],
+      "collocation": "a noticeable difference",
+      "examples": [
+        {
+          "en": "Yet a subtle but noticeable shift moved her accent from a strong upper class sound towards standard English."
+        }
+      ],
+      "pron": {
+        "lookup": "noticeable",
+        "tts": "noticeable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 887,
+      "id": "p-upper-class",
+      "type": "phrase",
+      "front": "upper class",
+      "meaning": "上流階級",
+      "synonyms": [
+        "aristocracy",
+        "nobility",
+        "the elite",
+        "ruling class"
+      ],
+      "collocation": "the upper class",
+      "examples": [
+        {
+          "en": "Yet a subtle but noticeable shift moved her accent from a strong upper class sound towards standard English."
+        }
+      ],
+      "pron": {
+        "tts": "upper class"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 888,
+      "id": "w-standard",
+      "type": "word",
+      "front": "standard",
+      "meaning": "標準の",
+      "synonyms": [
+        "common",
+        "accepted",
+        "established"
+      ],
+      "collocation": "standard pronunciation",
+      "examples": [
+        {
+          "en": "Yet a subtle but noticeable shift moved her accent from a strong upper class sound towards standard English."
+        }
+      ],
+      "pron": {
+        "lookup": "standard",
+        "tts": "standard"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 889,
+      "id": "p-be-caused-by",
+      "type": "phrase",
+      "front": "be caused by",
+      "meaning": "〜によってもたらされる",
+      "synonyms": [
+        "be brought about by",
+        "result from"
+      ],
+      "collocation": "be caused by",
+      "examples": [
+        {
+          "en": "This change was caused by the people around her, who peg a speaker as belonging to a class."
+        }
+      ],
+      "pron": {
+        "tts": "be caused by"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 890,
+      "id": "p-peg-as",
+      "type": "phrase",
+      "front": "peg as",
+      "meaning": "〜を…と見なす",
+      "synonyms": [
+        "mark as",
+        "characterise as",
+        "label as"
+      ],
+      "collocation": "peg sb as…",
+      "examples": [
+        {
+          "en": "This change was caused by the people around her, who peg a speaker as belonging to a class."
+        }
+      ],
+      "pron": {
+        "tts": "peg as"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 891,
+      "id": "w-echo",
+      "type": "word",
+      "front": "echo",
+      "meaning": "まねる",
+      "synonyms": [
+        "resemble",
+        "mirror",
+        "emulate"
+      ],
+      "collocation": "echo the accent",
+      "examples": [
+        {
+          "en": "It is unlikely she consciously echoed her subjects, or was even conscious of it."
+        }
+      ],
+      "pron": {
+        "lookup": "echo",
+        "tts": "echo"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 892,
+      "id": "p-conscious-of",
+      "type": "phrase",
+      "front": "conscious of",
+      "meaning": "〜を自覚して",
+      "synonyms": [
+        "aware of",
+        "cognizant of",
+        "alert to"
+      ],
+      "collocation": "conscious of",
+      "examples": [
+        {
+          "en": "It is unlikely she consciously echoed her subjects, or was even conscious of it."
+        }
+      ],
+      "pron": {
+        "tts": "conscious of"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 893,
+      "id": "p-root-cause",
+      "type": "phrase",
+      "front": "root cause",
+      "meaning": "根本的な原因",
+      "synonyms": [
+        "fundamental reason"
+      ],
+      "collocation": "the root cause of",
+      "examples": [
+        {
+          "en": "The root cause may lie in how we interact with one another."
+        }
+      ],
+      "pron": {
+        "tts": "root cause"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 894,
+      "id": "p-lie-in",
+      "type": "phrase",
+      "front": "lie in",
+      "meaning": "〜にある",
+      "synonyms": [
+        "be found in"
+      ],
+      "collocation": "the key lies in",
+      "examples": [
+        {
+          "en": "The root cause may lie in how we interact with one another."
+        }
+      ],
+      "pron": {
+        "tts": "lie in"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 895,
+      "id": "p-interact-with",
+      "type": "phrase",
+      "front": "interact with",
+      "meaning": "〜と交流する",
+      "synonyms": [
+        "communicate with",
+        "converse with"
+      ],
+      "collocation": "interact with others",
+      "examples": [
+        {
+          "en": "The root cause may lie in how we interact with one another."
+        }
+      ],
+      "pron": {
+        "tts": "interact with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 896,
+      "id": "w-imperceptibly",
+      "type": "word",
+      "front": "imperceptibly",
+      "meaning": "気づかないほどに",
+      "synonyms": [
+        "gradually",
+        "inconspicuously",
+        "unnoticeably"
+      ],
+      "collocation": "change imperceptibly",
+      "examples": [
+        {
+          "en": "Each time we speak with someone, our accents imperceptibly merge."
+        }
+      ],
+      "pron": {
+        "lookup": "imperceptibly",
+        "tts": "imperceptibly"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 897,
+      "id": "w-merge",
+      "type": "word",
+      "front": "merge",
+      "meaning": "混ざり合う",
+      "synonyms": [
+        "come together",
+        "meld",
+        "blend",
+        "combine"
+      ],
+      "collocation": "merge together",
+      "examples": [
+        {
+          "en": "Each time we speak with someone, our accents imperceptibly merge."
+        }
+      ],
+      "pron": {
+        "lookup": "merge",
+        "tts": "merge"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 898,
+      "id": "p-build-rapport",
+      "type": "phrase",
+      "front": "build rapport",
+      "meaning": "人間関係を築く",
+      "synonyms": [
+        "develop a relationship"
+      ],
+      "collocation": "build rapport",
+      "examples": [
+        {
+          "en": "This helps us build rapport and enhance mutual comprehension, as we unconsciously find common ground."
+        }
+      ],
+      "pron": {
+        "tts": "build rapport"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 899,
+      "id": "w-enhance",
+      "type": "word",
+      "front": "enhance",
+      "meaning": "向上させる・よくする",
+      "synonyms": [
+        "improve",
+        "advance",
+        "better"
+      ],
+      "collocation": "enhance communication",
+      "examples": [
+        {
+          "en": "This helps us build rapport and enhance mutual comprehension, as we unconsciously find common ground."
+        }
+      ],
+      "pron": {
+        "lookup": "enhance",
+        "tts": "enhance"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 900,
+      "id": "w-comprehension",
+      "type": "word",
+      "front": "comprehension",
+      "meaning": "理解（力）",
+      "synonyms": [
+        "understanding"
+      ],
+      "collocation": "improve comprehension",
+      "examples": [
+        {
+          "en": "This helps us build rapport and enhance mutual comprehension, as we unconsciously find common ground."
+        }
+      ],
+      "pron": {
+        "lookup": "comprehension",
+        "tts": "comprehension"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 901,
+      "id": "p-find-common-ground",
+      "type": "phrase",
+      "front": "find common ground",
+      "meaning": "合意点を見出す",
+      "synonyms": [
+        "discover an area of agreement",
+        "reach a consensus"
+      ],
+      "collocation": "find common ground",
+      "examples": [
+        {
+          "en": "This helps us build rapport and enhance mutual comprehension, as we unconsciously find common ground."
+        }
+      ],
+      "pron": {
+        "tts": "find common ground"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 902,
+      "id": "p-come-into-contact-with",
+      "type": "phrase",
+      "front": "come into contact with",
+      "meaning": "〜と接触する・触れ合う",
+      "synonyms": [
+        "move in the same circles as",
+        "encounter"
+      ],
+      "collocation": "come into contact with",
+      "examples": [
+        {
+          "en": "As the Queen came into contact with ordinary people, she picked up their accents, though we should bear in mind that she still spoke quite formally."
+        }
+      ],
+      "pron": {
+        "tts": "come into contact with"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 903,
+      "id": "p-bear-in-mind",
+      "type": "phrase",
+      "front": "bear in mind",
+      "meaning": "心に留める",
+      "synonyms": [
+        "keep in mind",
+        "be aware of"
+      ],
+      "collocation": "bear in mind",
+      "examples": [
+        {
+          "en": "As the Queen came into contact with ordinary people, she picked up their accents, though we should bear in mind that she still spoke quite formally."
+        }
+      ],
+      "pron": {
+        "tts": "bear in mind"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 904,
+      "id": "w-formally",
+      "type": "word",
+      "front": "formally",
+      "meaning": "正しく・明瞭に",
+      "synonyms": [
+        "properly",
+        "articulately"
+      ],
+      "collocation": "speak formally",
+      "examples": [
+        {
+          "en": "As the Queen came into contact with ordinary people, she picked up their accents, though we should bear in mind that she still spoke quite formally."
+        }
+      ],
+      "pron": {
+        "lookup": "formally",
+        "tts": "formally"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 905,
+      "id": "w-diction",
+      "type": "word",
+      "front": "diction",
+      "meaning": "話し方",
+      "pron": {
+        "lookup": "diction",
+        "tts": "diction"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 906,
+      "id": "p-received-pronunciation",
+      "type": "phrase",
+      "front": "Received Pronunciation",
+      "meaning": "容認発音",
+      "pron": {
+        "tts": "Received Pronunciation"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 907,
+      "id": "p-estuary-english",
+      "type": "phrase",
+      "front": "Estuary English",
+      "meaning": "河口域英語",
+      "pron": {
+        "tts": "Estuary English"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 908,
+      "id": "p-in-the-vernacular",
+      "type": "phrase",
+      "front": "in the vernacular",
+      "meaning": "日常語で",
+      "pron": {
+        "tts": "in the vernacular"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 909,
+      "id": "w-dispute",
+      "type": "word",
+      "front": "dispute",
+      "meaning": "論争",
+      "pron": {
+        "lookup": "dispute",
+        "tts": "dispute"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 37,
+      "themeName": "イギリス女王の発音",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t37",
+    "theme": 37,
+    "themeName": "イギリス女王の発音",
+    "jp": "イギリス女王は極めて明確な話し方で知られた。だが微妙だが目立つ変化が、強い上流階級の発音から標準英語へと彼女のアクセントを移した。この変化は周囲の人々によってもたらされた。人は話し方で相手を階級と見なす。彼女が意識的に臣民をまねたとは考えにくく、そもそも自覚してもいなかっただろう。根本的な原因は、私たちが互いに交流する仕方にあるのかもしれない。誰かと話すたびに、アクセントは気づかないほど混ざり合う。これは人間関係を築き、相互の理解を高めるのに役立つ。無意識に合意点を見出すからだ。女王は庶民と接触するうちに彼らのアクセントを拾ったが、それでもかなり正しく話していたことは心に留めておくべきだ。",
+    "sentences": [
+      {
+        "en": "The Queen of England was known for her crystal clear diction.",
+        "targets": [
+          {
+            "id": "p-crystal-clear",
+            "text": "crystal clear"
+          }
+        ]
+      },
+      {
+        "en": "Yet a subtle but noticeable shift moved her accent from a strong upper class sound towards standard English.",
+        "targets": [
+          {
+            "id": "w-subtle",
+            "text": "subtle"
+          },
+          {
+            "id": "w-noticeable",
+            "text": "noticeable"
+          },
+          {
+            "id": "p-upper-class",
+            "text": "upper class"
+          },
+          {
+            "id": "w-standard",
+            "text": "standard"
+          }
+        ]
+      },
+      {
+        "en": "This change was caused by the people around her, who peg a speaker as belonging to a class.",
+        "targets": [
+          {
+            "id": "p-be-caused-by",
+            "text": "caused by"
+          },
+          {
+            "id": "p-peg-as",
+            "text": "peg"
+          }
+        ]
+      },
+      {
+        "en": "It is unlikely she consciously echoed her subjects, or was even conscious of it.",
+        "targets": [
+          {
+            "id": "w-echo",
+            "text": "echoed"
+          },
+          {
+            "id": "p-conscious-of",
+            "text": "conscious of"
+          }
+        ]
+      },
+      {
+        "en": "The root cause may lie in how we interact with one another.",
+        "targets": [
+          {
+            "id": "p-root-cause",
+            "text": "root cause"
+          },
+          {
+            "id": "p-lie-in",
+            "text": "lie in"
+          },
+          {
+            "id": "p-interact-with",
+            "text": "interact with"
+          }
+        ]
+      },
+      {
+        "en": "Each time we speak with someone, our accents imperceptibly merge.",
+        "targets": [
+          {
+            "id": "w-imperceptibly",
+            "text": "imperceptibly"
+          },
+          {
+            "id": "w-merge",
+            "text": "merge"
+          }
+        ]
+      },
+      {
+        "en": "This helps us build rapport and enhance mutual comprehension, as we unconsciously find common ground.",
+        "targets": [
+          {
+            "id": "p-build-rapport",
+            "text": "build rapport"
+          },
+          {
+            "id": "w-enhance",
+            "text": "enhance"
+          },
+          {
+            "id": "w-comprehension",
+            "text": "comprehension"
+          },
+          {
+            "id": "p-find-common-ground",
+            "text": "find common ground"
+          }
+        ]
+      },
+      {
+        "en": "As the Queen came into contact with ordinary people, she picked up their accents, though we should bear in mind that she still spoke quite formally.",
+        "targets": [
+          {
+            "id": "p-come-into-contact-with",
+            "text": "came into contact with"
+          },
+          {
+            "id": "p-bear-in-mind",
+            "text": "bear in mind"
+          },
+          {
+            "id": "w-formally",
+            "text": "formally"
+          }
+        ]
+      }
+    ]
+  }
+}

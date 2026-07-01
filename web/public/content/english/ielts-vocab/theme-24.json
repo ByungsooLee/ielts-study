@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 1,
+  "domain": "english",
+  "collection": "ielts-vocab",
+  "collectionId": "ielts-vocab",
+  "collectionName": "IELTS単語帳",
+  "theme": 24,
+  "themeId": "theme-24",
+  "themeName": "おとぎ話の起源",
+  "version": "c74df726",
+  "generatedAt": "2026-07-01T08:51:47.907Z",
+  "items": [
+    {
+      "n": 558,
+      "id": "p-commonly-held-belief",
+      "type": "phrase",
+      "front": "commonly held belief",
+      "meaning": "通説・広く信じられた考え",
+      "synonyms": [
+        "accepted truth",
+        "axiom"
+      ],
+      "collocation": "a commonly held belief that…",
+      "examples": [
+        {
+          "en": "It is a commonly held belief that fairy tales are only a few centuries old."
+        }
+      ],
+      "pron": {
+        "tts": "commonly held belief"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 559,
+      "id": "w-concoct",
+      "type": "word",
+      "front": "concoct",
+      "meaning": "でっち上げる・考え出す",
+      "synonyms": [
+        "make up",
+        "invent"
+      ],
+      "collocation": "concoct a story",
+      "examples": [
+        {
+          "en": "People assume the Brothers Grimm simply concocted their stories and wrote them down."
+        }
+      ],
+      "pron": {
+        "lookup": "concoct",
+        "tts": "concoct"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 560,
+      "id": "p-write-down",
+      "type": "phrase",
+      "front": "write down",
+      "meaning": "書き留める",
+      "synonyms": [
+        "set down",
+        "record"
+      ],
+      "collocation": "write down a story, set down on paper",
+      "examples": [
+        {
+          "en": "People assume the Brothers Grimm simply concocted their stories and wrote them down."
+        }
+      ],
+      "pron": {
+        "tts": "write down"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 561,
+      "id": "p-through-oral-tradition",
+      "type": "phrase",
+      "front": "through oral tradition",
+      "meaning": "口伝えで",
+      "synonyms": [
+        "by word of mouth"
+      ],
+      "collocation": "passed on by word of mouth",
+      "examples": [
+        {
+          "en": "In fact, the tales were passed on through oral tradition for centuries before anyone meticulously recorded them."
+        }
+      ],
+      "pron": {
+        "tts": "through oral tradition"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 562,
+      "id": "w-meticulously",
+      "type": "word",
+      "front": "meticulously",
+      "meaning": "入念に・骨を折って",
+      "synonyms": [
+        "laboriously",
+        "diligently"
+      ],
+      "collocation": "meticulously recorded",
+      "examples": [
+        {
+          "en": "In fact, the tales were passed on through oral tradition for centuries before anyone meticulously recorded them."
+        }
+      ],
+      "pron": {
+        "lookup": "meticulously",
+        "tts": "meticulously"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 563,
+      "id": "w-compile",
+      "type": "word",
+      "front": "compile",
+      "meaning": "編集する・集める",
+      "synonyms": [
+        "amass",
+        "collect"
+      ],
+      "collocation": "compile a collection, amass tales",
+      "examples": [
+        {
+          "en": "The brothers compiled a huge anthology of folk stories."
+        }
+      ],
+      "pron": {
+        "lookup": "compile",
+        "tts": "compile"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 564,
+      "id": "w-anthology",
+      "type": "word",
+      "front": "anthology",
+      "meaning": "選集・作品集",
+      "synonyms": [
+        "collection"
+      ],
+      "collocation": "an anthology of tales",
+      "examples": [
+        {
+          "en": "The brothers compiled a huge anthology of folk stories."
+        }
+      ],
+      "pron": {
+        "lookup": "anthology",
+        "tts": "anthology"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 565,
+      "id": "p-occur-to",
+      "type": "phrase",
+      "front": "occur to",
+      "meaning": "ふと思い浮かぶ",
+      "synonyms": [
+        "strike",
+        "dawn on"
+      ],
+      "collocation": "it occurred to them that…",
+      "examples": [
+        {
+          "en": "It may occur to us that cultures which seem poles apart often share the same tales."
+        }
+      ],
+      "pron": {
+        "tts": "occur to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 566,
+      "id": "p-poles-apart",
+      "type": "phrase",
+      "front": "poles apart",
+      "meaning": "大きくかけ離れた",
+      "synonyms": [
+        "worlds apart",
+        "as different as chalk and cheese"
+      ],
+      "collocation": "be poles apart",
+      "examples": [
+        {
+          "en": "It may occur to us that cultures which seem poles apart often share the same tales."
+        }
+      ],
+      "pron": {
+        "tts": "poles apart"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 567,
+      "id": "w-ancestry",
+      "type": "word",
+      "front": "ancestry",
+      "meaning": "起源・血統",
+      "synonyms": [
+        "origin",
+        "source"
+      ],
+      "collocation": "trace the ancestry of…",
+      "examples": [
+        {
+          "en": "Researchers now confirm the ancestry of these stories."
+        }
+      ],
+      "pron": {
+        "lookup": "ancestry",
+        "tts": "ancestry"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 568,
+      "id": "w-recognisable",
+      "type": "word",
+      "front": "recognisable",
+      "meaning": "見分けがつく・見覚えのある",
+      "synonyms": [
+        "familiar"
+      ],
+      "collocation": "instantly recognisable",
+      "examples": [
+        {
+          "en": "Many are instantly recognisable despite varying endings, and each new version is based on an older one."
+        }
+      ],
+      "pron": {
+        "lookup": "recognisable",
+        "tts": "recognisable"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 569,
+      "id": "w-varying",
+      "type": "word",
+      "front": "varying",
+      "meaning": "異なる・さまざまな",
+      "synonyms": [
+        "differing"
+      ],
+      "collocation": "varying endings, differing versions",
+      "examples": [
+        {
+          "en": "Many are instantly recognisable despite varying endings, and each new version is based on an older one."
+        }
+      ],
+      "pron": {
+        "lookup": "varying",
+        "tts": "varying"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 570,
+      "id": "w-version",
+      "type": "word",
+      "front": "version",
+      "meaning": "版・翻案",
+      "synonyms": [
+        "adaptation",
+        "interpretation"
+      ],
+      "collocation": "different versions of the story",
+      "examples": [
+        {
+          "en": "Many are instantly recognisable despite varying endings, and each new version is based on an older one."
+        }
+      ],
+      "pron": {
+        "lookup": "version",
+        "tts": "version"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 571,
+      "id": "p-be-based-on",
+      "type": "phrase",
+      "front": "be based on",
+      "meaning": "〜に基づく",
+      "synonyms": [
+        "be rooted in"
+      ],
+      "collocation": "based on a folk tale",
+      "examples": [
+        {
+          "en": "Many are instantly recognisable despite varying endings, and each new version is based on an older one."
+        }
+      ],
+      "pron": {
+        "tts": "be based on"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 572,
+      "id": "w-classify",
+      "type": "word",
+      "front": "classify",
+      "meaning": "分類する",
+      "synonyms": [
+        "categorise",
+        "group"
+      ],
+      "collocation": "classify sth as…",
+      "examples": [
+        {
+          "en": "When linguists classify the tales, some can be traced back to the Bronze Age, before Indo-European languages split and transformed into many branches."
+        }
+      ],
+      "pron": {
+        "lookup": "classify",
+        "tts": "classify"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 573,
+      "id": "p-be-traced-back-to",
+      "type": "phrase",
+      "front": "be traced back to",
+      "meaning": "〜まで遡る",
+      "synonyms": [
+        "be dated back to"
+      ],
+      "collocation": "be traced back to the Bronze Age",
+      "examples": [
+        {
+          "en": "When linguists classify the tales, some can be traced back to the Bronze Age, before Indo-European languages split and transformed into many branches."
+        }
+      ],
+      "pron": {
+        "tts": "be traced back to"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 574,
+      "id": "w-split",
+      "type": "word",
+      "front": "split",
+      "meaning": "分ける・分裂する",
+      "synonyms": [
+        "divide"
+      ],
+      "collocation": "split into branches",
+      "examples": [
+        {
+          "en": "When linguists classify the tales, some can be traced back to the Bronze Age, before Indo-European languages split and transformed into many branches."
+        }
+      ],
+      "pron": {
+        "lookup": "split",
+        "tts": "split"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 575,
+      "id": "w-transform",
+      "type": "word",
+      "front": "transform",
+      "meaning": "一変させる・変身する",
+      "synonyms": [
+        "metamorphose",
+        "change completely"
+      ],
+      "collocation": "transform into, be transformed",
+      "examples": [
+        {
+          "en": "When linguists classify the tales, some can be traced back to the Bronze Age, before Indo-European languages split and transformed into many branches."
+        }
+      ],
+      "pron": {
+        "lookup": "transform",
+        "tts": "transform"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 576,
+      "id": "w-confirm",
+      "type": "word",
+      "front": "confirm",
+      "meaning": "確認する・裏付ける",
+      "synonyms": [
+        "establish",
+        "affirm",
+        "verify"
+      ],
+      "collocation": "confirm a theory, verify the facts",
+      "examples": [
+        {
+          "en": "Researchers now confirm the ancestry of these stories."
+        }
+      ],
+      "pron": {
+        "lookup": "confirm",
+        "tts": "confirm"
+      },
+      "register": "active",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "S",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 577,
+      "id": "w-hideous",
+      "type": "word",
+      "front": "hideous",
+      "meaning": "ぞっとする",
+      "synonyms": [
+        "grotesque"
+      ],
+      "pron": {
+        "lookup": "hideous",
+        "tts": "hideous"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 578,
+      "id": "w-plot",
+      "type": "word",
+      "front": "plot",
+      "meaning": "筋・物語",
+      "synonyms": [
+        "story line",
+        "narrative"
+      ],
+      "pron": {
+        "lookup": "plot",
+        "tts": "plot"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "A",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    },
+    {
+      "n": 579,
+      "id": "p-root-in",
+      "type": "phrase",
+      "front": "root in",
+      "meaning": "〜に根ざす",
+      "pron": {
+        "tts": "root in"
+      },
+      "register": "passive",
+      "tags": [],
+      "theme": 24,
+      "themeName": "おとぎ話の起源",
+      "priority": "B",
+      "domain": "english",
+      "collection": "ielts-vocab"
+    }
+  ],
+  "passage": {
+    "id": "t24",
+    "theme": 24,
+    "themeName": "おとぎ話の起源",
+    "jp": "おとぎ話はほんの数世紀前のものだというのが通説だ。グリム兄弟が単に物語をでっち上げて書き留めたと人々は思っている。実際には、誰かが入念に記録するずっと前から、話は何世紀も口伝えで受け継がれてきた。兄弟は民話の膨大な選集を編集した。文化的に大きくかけ離れて見える地域が、しばしば同じ話を共有していることにふと気づくかもしれない。研究者は今、これらの話の起源を裏付けている。多くは結末が異なっても一目で分かり、新しい版はより古いものに基づく。言語学者が話を分類すると、インド・ヨーロッパ語族が分裂し多くの枝へ一変する前の青銅器時代まで遡るものもある。",
+    "sentences": [
+      {
+        "en": "It is a commonly held belief that fairy tales are only a few centuries old.",
+        "targets": [
+          {
+            "id": "p-commonly-held-belief",
+            "text": "commonly held belief"
+          }
+        ]
+      },
+      {
+        "en": "People assume the Brothers Grimm simply concocted their stories and wrote them down.",
+        "targets": [
+          {
+            "id": "w-concoct",
+            "text": "concocted"
+          },
+          {
+            "id": "p-write-down",
+            "text": "wrote them down"
+          }
+        ]
+      },
+      {
+        "en": "In fact, the tales were passed on through oral tradition for centuries before anyone meticulously recorded them.",
+        "targets": [
+          {
+            "id": "p-through-oral-tradition",
+            "text": "through oral tradition"
+          },
+          {
+            "id": "w-meticulously",
+            "text": "meticulously"
+          }
+        ]
+      },
+      {
+        "en": "The brothers compiled a huge anthology of folk stories.",
+        "targets": [
+          {
+            "id": "w-compile",
+            "text": "compiled"
+          },
+          {
+            "id": "w-anthology",
+            "text": "anthology"
+          }
+        ]
+      },
+      {
+        "en": "It may occur to us that cultures which seem poles apart often share the same tales.",
+        "targets": [
+          {
+            "id": "p-occur-to",
+            "text": "occur to"
+          },
+          {
+            "id": "p-poles-apart",
+            "text": "poles apart"
+          }
+        ]
+      },
+      {
+        "en": "Researchers now confirm the ancestry of these stories.",
+        "targets": [
+          {
+            "id": "w-confirm",
+            "text": "confirm"
+          },
+          {
+            "id": "w-ancestry",
+            "text": "ancestry"
+          }
+        ]
+      },
+      {
+        "en": "Many are instantly recognisable despite varying endings, and each new version is based on an older one.",
+        "targets": [
+          {
+            "id": "w-recognisable",
+            "text": "recognisable"
+          },
+          {
+            "id": "w-varying",
+            "text": "varying"
+          },
+          {
+            "id": "w-version",
+            "text": "version"
+          },
+          {
+            "id": "p-be-based-on",
+            "text": "based on"
+          }
+        ]
+      },
+      {
+        "en": "When linguists classify the tales, some can be traced back to the Bronze Age, before Indo-European languages split and transformed into many branches.",
+        "targets": [
+          {
+            "id": "w-classify",
+            "text": "classify"
+          },
+          {
+            "id": "p-be-traced-back-to",
+            "text": "be traced back to"
+          },
+          {
+            "id": "w-split",
+            "text": "split"
+          },
+          {
+            "id": "w-transform",
+            "text": "transformed"
+          }
+        ]
+      }
+    ]
+  }
+}
